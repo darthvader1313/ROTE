@@ -1,0 +1,7 @@
+Data/Unused
+*.bak
+*.xlsx
+Data/*.txt
+*.tsv
+*.py
+*.bat
