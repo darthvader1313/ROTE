@@ -1,0 +1,1356 @@
+<?xml version="1.0"?>
+<Projectiles>
+	<!-- PLEASE do not mix and match projectiles from different categories. Use the   -->
+	<!-- correct projectile type for the unit type you are working on - this helps    -->
+	<!-- with balance issues.  THANKS!	                                              -->
+	
+	
+	
+	
+	
+	
+	<Projectile Name="Xyston_Superlaser">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>P_Xyston_Superlaser.ALO</Space_Model_Name>
+		<Land_Model_Name>P_Xyston_Superlaser.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Damage_Type>Damage_Lance</Damage_Type>
+		<Max_Speed>200.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<SpaceBehavior>IDLE</SpaceBehavior>
+		<LandBehavior>IDLE</LandBehavior>
+		<Projectile_Category>LASER</Projectile_Category>
+		<Projectile_Max_Flight_Distance>4000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>
+
+		<Projectile_Damage>50000.0</Projectile_Damage>
+		<Projectile_Blast_Area_Damage>4000.0</Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range>4000.0</Projectile_Blast_Area_Range>
+		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
+
+		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+
+		<Projectile_Object_Detonation_Particle> Particle_Red_Turbolaser_Large </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Red_Turbolaser_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Red_Turbolaser_Large</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>3000</AI_Combat_Power>
+
+	</Projectile>
+	
+	<Projectile Name="Proj_Rebel_Ion_Cannon">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_super_heavy_turbolaser_b_front.alo</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>1</Scale_Factor>
+		<Max_Speed>300.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Projectile_Max_Flight_Distance>70000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>60000.0</Projectile_Damage>
+		<Damage_Type> Damage_Default </Damage_Type>
+
+		<Behavior>PROJECTILE</Behavior>
+        <Projectile_Category>Laser</Projectile_Category>
+
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+
+		<Projectile_Object_Detonation_Particle> Particle_Ion_Turbolaser_Large </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Ion_Turbolaser_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Ion_Turbolaser_Large</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate>Unit_Hardpoint_Laser_Death</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Unit_Hardpoint_Laser_Death</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+	
+	<Projectile Name="Proj_Empire_Hypervelocity_Gun">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_super_heavy_turbolaser_g_front.alo</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>1</Scale_Factor>
+		<Max_Speed>300.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Projectile_Max_Flight_Distance>70000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>60000.0</Projectile_Damage>
+		<Damage_Type> Damage_Default </Damage_Type>
+
+		<Behavior>PROJECTILE</Behavior>
+        <Projectile_Category>Laser</Projectile_Category>
+
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+
+		<Projectile_Object_Detonation_Particle> Particle_Green_Turbolaser_Large </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Turbolaser_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Turbolaser_Large</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate>Unit_Hardpoint_Laser_Death</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Unit_Hardpoint_Laser_Death</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+	
+	<!-- Turbolaser missile -->
+	
+	<Projectile Name="Proj_Ship_Concussion_Missile">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>W_concussion_missile.alo</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Damage_Type> Damage_Con_Missile </Damage_Type>
+		<Scale_Factor>1</Scale_Factor>
+  <Explode_When_Reached_Target_Radius> Yes </Explode_When_Reached_Target_Radius>
+		<Max_Speed>17.5</Max_Speed>
+		<Max_Rate_Of_Turn>1.5</Max_Rate_Of_Turn>
+		<Max_Lift>1.5</Max_Lift>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>MISSILE</Projectile_Category>
+		<Projectile_Max_Flight_Distance>5000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
+		<Projectile_Damage>125.0</Projectile_Damage>
+
+		<Projectile_Blast_Area_Damage> 100 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 25 </Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
+		<Projectile_Blast_Area_Dropoff_Tiers>2</Projectile_Blast_Area_Dropoff_Tiers>
+
+		<Projectile_Blast_Area_Max_Victims>4</Projectile_Blast_Area_Max_Victims>
+
+		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>Particle_Conc_Missile_Detonation</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Conc_Missile_Detonation</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Particle_Conc_Missile_Detonation</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Particle_Conc_Missile_Detonation</Projectile_Lifetime_Detonation_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+	</Projectile>
+	
+	
+	
+	<!-- Turbolaser Yellow -->
+	
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Yellow_Octuple">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_yellow8.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.1</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>40.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>7000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>60.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Turbo_Death_Y_Large </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Turbo_Death_Y_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Turbo_Death_Y_Large</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Shield>
+		<Projectile_SFXEvent_Detonate_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Shield>
+		<Projectile_SFXEvent_Shield_Detonate> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Shield_Detonate>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Yellow_Sextuple">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_yellow6.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.1</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>50.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>7000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>60.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Yellow_Turbolaser_Large </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Yellow_Turbolaser_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Yellow_Turbolaser_Large</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Shield>
+		<Projectile_SFXEvent_Detonate_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Shield>
+		<Projectile_SFXEvent_Shield_Detonate> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Shield_Detonate>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Yellow_Quad">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_yellow4.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.1</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>55.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>7000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>60.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Yellow_Turbolaser_Medium </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Yellow_Turbolaser_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Yellow_Turbolaser_Medium</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Shield>
+		<Projectile_SFXEvent_Detonate_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Shield>
+		<Projectile_SFXEvent_Shield_Detonate> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Shield_Detonate>
+	</Projectile>
+		
+	<Projectile Name="Proj_Ship_Turbolaser_Yellow_Tripple">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_yellow3.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.1</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>55.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>7000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>60.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Yellow_Turbolaser_Medium </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Yellow_Turbolaser_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Yellow_Turbolaser_Medium</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Shield>
+		<Projectile_SFXEvent_Detonate_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Shield>
+		<Projectile_SFXEvent_Shield_Detonate> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Shield_Detonate>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Yellow_Dual">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_yellow2.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.1</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>60.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>7000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>60.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Yellow_Turbolaser_Small </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Yellow_Turbolaser_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Yellow_Turbolaser_Small</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Shield>
+		<Projectile_SFXEvent_Detonate_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Shield>
+		<Projectile_SFXEvent_Shield_Detonate> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Shield_Detonate>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Yellow_Single">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_yellow1.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.1</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>60.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>7000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>60.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Yellow_Turbolaser_Small </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Yellow_Turbolaser_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Yellow_Turbolaser_Small</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Shield>
+		<Projectile_SFXEvent_Detonate_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Shield>
+		<Projectile_SFXEvent_Shield_Detonate> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Shield_Detonate>
+	</Projectile>
+	
+	
+	
+	<!-- Turbolaser Ion -->
+	
+	<Projectile Name="Proj_Ship_Ion_Cannon_Octuple">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_ion8.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.065</Scale_Factor> <!-- 0.092 -->
+		<Max_Speed>47.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>270.0</Projectile_Damage>
+		<Damage_Type> Damage_Default </Damage_Type>
+	
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Ion_Turbolaser_Medium </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Ion_Turbolaser_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Ion_Turbolaser_Medium</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Ion_Cannon_Sextuple">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_ion6.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.065</Scale_Factor> <!-- 0.092 -->
+		<Max_Speed>47.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>270.0</Projectile_Damage>
+		<Damage_Type> Damage_Default </Damage_Type>
+	
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Ion_Turbolaser_Medium </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Ion_Turbolaser_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Ion_Turbolaser_Medium</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Ion_Cannon_Quad">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_ion4.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.065</Scale_Factor> <!-- 0.092 -->
+		<Max_Speed>47.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>270.0</Projectile_Damage>
+		<Damage_Type> Damage_Default </Damage_Type>
+	
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Ion_Turbolaser_Medium </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Ion_Turbolaser_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Ion_Turbolaser_Medium</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Ion_Cannon_Tripple_Heavy">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_ion3_heavy.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.065</Scale_Factor> <!-- 0.092 -->
+		<Max_Speed>47.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>270.0</Projectile_Damage>
+		<Damage_Type> Damage_Default </Damage_Type>
+	
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Ion_Turbolaser_Medium </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Ion_Turbolaser_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Ion_Turbolaser_Medium</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Ion_Cannon_Tripple">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_ion3.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.065</Scale_Factor> <!-- 0.092 -->
+		<Max_Speed>47.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>270.0</Projectile_Damage>
+		<Damage_Type> Damage_Default </Damage_Type>
+	
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Ion_Turbolaser_Medium </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Ion_Turbolaser_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Ion_Turbolaser_Medium</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Ion_Cannon_Dual">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_ion2.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.065</Scale_Factor> <!-- 0.092 -->
+		<Max_Speed>47.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>180.0</Projectile_Damage>
+		<Damage_Type> Damage_Default </Damage_Type>
+	
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Ion_Turbolaser_Small </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Ion_Turbolaser_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Ion_Turbolaser_Small</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Ion_Cannon">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_ion1.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.065</Scale_Factor> <!-- 0.092 -->
+		<Max_Speed>47.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>90.0</Projectile_Damage>
+		<Damage_Type> Damage_Default </Damage_Type>
+	
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Ion_Turbolaser_Small </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Ion_Turbolaser_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Ion_Turbolaser_Small</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+	
+	
+	
+	<!-- Turbolaser Red -->
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Red_Octuple">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_red8.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.065</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>47.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>7000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>480.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Red_Turbolaser_Large </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Red_Turbolaser_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Red_Turbolaser_Large</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Shield>
+		<Projectile_SFXEvent_Detonate_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Shield>
+		<Projectile_SFXEvent_Shield_Detonate> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Shield_Detonate>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Red_Sextuple">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_red6.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.065</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>47.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>7000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>360.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Red_Turbolaser_Large </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Red_Turbolaser_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Red_Turbolaser_Large</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Shield>
+		<Projectile_SFXEvent_Detonate_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Shield>
+		<Projectile_SFXEvent_Shield_Detonate> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Shield_Detonate>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Red_Quad">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_red4.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.065</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>47.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>7000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>240.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Red_Turbolaser_Medium </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Red_Turbolaser_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Red_Turbolaser_Medium</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Shield>
+		<Projectile_SFXEvent_Detonate_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Shield>
+		<Projectile_SFXEvent_Shield_Detonate> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Shield_Detonate>
+	</Projectile>
+		
+	<Projectile Name="Proj_Ship_Turbolaser_Red_Tripple">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_red3.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.065</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>47.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>7000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>180.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Red_Turbolaser_Medium </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Red_Turbolaser_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Red_Turbolaser_Medium</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Shield>
+		<Projectile_SFXEvent_Detonate_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Shield>
+		<Projectile_SFXEvent_Shield_Detonate> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Shield_Detonate>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Red_Dual">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_red2.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.065</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>47.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>7000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>120.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Red_Turbolaser_Small </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Red_Turbolaser_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Red_Turbolaser_Small</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Shield>
+		<Projectile_SFXEvent_Detonate_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Shield>
+		<Projectile_SFXEvent_Shield_Detonate> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Shield_Detonate>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Red_Single">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_red1.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.065</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>47.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>7000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>60.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Red_Turbolaser_Small </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Red_Turbolaser_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Red_Turbolaser_Small</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Shield>
+		<Projectile_SFXEvent_Detonate_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Shield>
+		<Projectile_SFXEvent_Shield_Detonate> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Shield_Detonate>
+	</Projectile>
+	
+	
+	
+	<!-- Turbolaser Purple -->
+	
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Purple_Octuple">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_purple8.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.065</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>47.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>7000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>480.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Green_Turbolaser_Large </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Turbolaser_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Turbolaser_Large</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Shield>
+		<Projectile_SFXEvent_Detonate_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Shield>
+		<Projectile_SFXEvent_Shield_Detonate> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Shield_Detonate>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Purple_Sextuple">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_purple6.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.065</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>47.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>7000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>360.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Green_Turbolaser_Large </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Turbolaser_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Turbolaser_Large</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Shield>
+		<Projectile_SFXEvent_Detonate_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Shield>
+		<Projectile_SFXEvent_Shield_Detonate> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Shield_Detonate>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Purple_Quad">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_purple4.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.065</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>47.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>7000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>240.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Green_Turbolaser_Medium </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Turbolaser_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Turbolaser_Medium</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Shield>
+		<Projectile_SFXEvent_Detonate_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Shield>
+		<Projectile_SFXEvent_Shield_Detonate> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Shield_Detonate>
+	</Projectile>
+		
+	<Projectile Name="Proj_Ship_Turbolaser_Purple_Tripple">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_purple3.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.065</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>47.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>7000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>180.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Green_Turbolaser_Medium</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Turbolaser_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Turbolaser_Medium</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Shield>
+		<Projectile_SFXEvent_Detonate_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Shield>
+		<Projectile_SFXEvent_Shield_Detonate> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Shield_Detonate>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Purple_Dual">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_purple2.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.065</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>47.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>7000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>120.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Green_Turbolaser_Small </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Turbolaser_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Turbolaser_Small</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Shield>
+		<Projectile_SFXEvent_Detonate_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Shield>
+		<Projectile_SFXEvent_Shield_Detonate> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Shield_Detonate>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Purple_Single">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_purple1.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.065</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>47.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>7000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>60.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Green_Turbolaser_Small</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Turbolaser_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Turbolaser_Small</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Shield>
+		<Projectile_SFXEvent_Detonate_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Shield>
+		<Projectile_SFXEvent_Shield_Detonate> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Shield_Detonate>
+	</Projectile>
+	
+	
+	
+	
+	<!-- Turbolaser Blue -->
+	
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Blue_Octuple">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_blue8.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.065</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>47.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>7000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>480.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Green_Turbolaser_Large </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Turbolaser_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Turbolaser_Large</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Shield>
+		<Projectile_SFXEvent_Detonate_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Shield>
+		<Projectile_SFXEvent_Shield_Detonate> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Shield_Detonate>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Blue_Sextuple">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_bluee6.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.065</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>47.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>7000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>360.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Green_Turbolaser_Large </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Turbolaser_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Turbolaser_Large</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Shield>
+		<Projectile_SFXEvent_Detonate_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Shield>
+		<Projectile_SFXEvent_Shield_Detonate> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Shield_Detonate>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Blue_Quad">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_blue4.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.065</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>47.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>7000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>240.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Green_Turbolaser_Medium </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Turbolaser_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Turbolaser_Medium</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Shield>
+		<Projectile_SFXEvent_Detonate_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Shield>
+		<Projectile_SFXEvent_Shield_Detonate> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Shield_Detonate>
+	</Projectile>
+		
+	<Projectile Name="Proj_Ship_Turbolaser_Blue_Tripple">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_blue3.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.065</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>47.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>7000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>180.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Green_Turbolaser_Medium</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Turbolaser_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Turbolaser_Medium</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Shield>
+		<Projectile_SFXEvent_Detonate_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Shield>
+		<Projectile_SFXEvent_Shield_Detonate> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Shield_Detonate>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Blue_Dual">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_blue2.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.065</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>47.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>7000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>120.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Green_Turbolaser_Small </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Turbolaser_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Turbolaser_Small</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Shield>
+		<Projectile_SFXEvent_Detonate_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Shield>
+		<Projectile_SFXEvent_Shield_Detonate> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Shield_Detonate>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Blue_Single">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_blue1.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.065</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>47.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>7000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>60.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Green_Turbolaser_Small</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Turbolaser_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Turbolaser_Small</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Shield>
+		<Projectile_SFXEvent_Detonate_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Shield>
+		<Projectile_SFXEvent_Shield_Detonate> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Shield_Detonate>
+	</Projectile>
+	
+	
+	
+	<!-- Turbolaser Green -->
+	
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Green_Octuple">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_green8.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.065</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>47.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>7000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>480.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Green_Turbolaser_Large </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Turbolaser_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Turbolaser_Large</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Shield>
+		<Projectile_SFXEvent_Detonate_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Shield>
+		<Projectile_SFXEvent_Shield_Detonate> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Shield_Detonate>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Green_Sextuple">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_green6.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.065</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>47.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>7000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>360.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Green_Turbolaser_Large </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Turbolaser_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Turbolaser_Large</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Shield>
+		<Projectile_SFXEvent_Detonate_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Shield>
+		<Projectile_SFXEvent_Shield_Detonate> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Shield_Detonate>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Green_Quad">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_green4.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.065</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>47.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>7000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>240.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Green_Turbolaser_Medium </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Turbolaser_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Turbolaser_Medium</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Shield>
+		<Projectile_SFXEvent_Detonate_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Shield>
+		<Projectile_SFXEvent_Shield_Detonate> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Shield_Detonate>
+	</Projectile>
+		
+	<Projectile Name="Proj_Ship_Turbolaser_Green_Tripple">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_green3.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.065</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>47.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>7000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>180.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Green_Turbolaser_Medium</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Turbolaser_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Turbolaser_Medium</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Shield>
+		<Projectile_SFXEvent_Detonate_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Shield>
+		<Projectile_SFXEvent_Shield_Detonate> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Shield_Detonate>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Green_Dual">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_green2.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.065</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>47.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>7000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>120.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Green_Turbolaser_Small </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Turbolaser_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Turbolaser_Small</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Shield>
+		<Projectile_SFXEvent_Detonate_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Shield>
+		<Projectile_SFXEvent_Shield_Detonate> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Shield_Detonate>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Green_Single">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_green1.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.065</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>47.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>7000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>60.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Green_Turbolaser_Small</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Turbolaser_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Turbolaser_Small</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Shield>
+		<Projectile_SFXEvent_Detonate_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Shield>
+		<Projectile_SFXEvent_Shield_Detonate> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Shield_Detonate>
+	</Projectile>
+	
+	
+	<!-- Turbolaser Fighter -->
+	
+	
+	<Projectile Name="Proj_Fighter_Turbolaser_yellow">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_yellow1.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.025</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>80.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>4000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>24.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Yellow_Fighter </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Yellow_Fighter</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Yellow_Fighter</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Small</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Shield>
+		<Projectile_SFXEvent_Detonate_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Shield>
+		<Projectile_SFXEvent_Shield_Detonate> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Shield_Detonate>
+	</Projectile>
+	
+	<Projectile Name="Proj_Fighter_Turbolaser_red">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_red1.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.025</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>80.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>4000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>24.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Red_Fighter </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Red_Fighter</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Red_Fighter</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Small</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Shield>
+		<Projectile_SFXEvent_Detonate_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Shield>
+		<Projectile_SFXEvent_Shield_Detonate> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Shield_Detonate>
+	</Projectile>
+	
+	<Projectile Name="Proj_Fighter_Turbolaser_green">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_green1.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.025</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>80.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>4000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>24.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Green_Bombard </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Bombard</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Bombard</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Shield>
+		<Projectile_SFXEvent_Detonate_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Shield>
+		<Projectile_SFXEvent_Shield_Detonate> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Shield_Detonate>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Red_Bombard">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_r1.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>30.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>7000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>120.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Particle_Red_Bombard </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Red_Bombard</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Particle_Red_Bombard</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Shield>
+		<Projectile_SFXEvent_Detonate_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Shield>
+		<Projectile_SFXEvent_Shield_Detonate> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Shield_Detonate>
+	</Projectile>
+
+
+
+</Projectiles>

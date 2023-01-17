@@ -1,0 +1,618 @@
+<?xml version="1.0"?>
+<Hero_Upgrade_Files>
+
+
+<SpaceUnit Name="Empire_Tech_02">
+        <Text_ID>UPGRADE_EMPIRE_TECH_02</Text_ID>
+
+       
+        <Affiliation>Empire</Affiliation>
+		<Icon_Name>I_ENCYCLOPEDIA_EMPIRE_SYMBOL.tga</Icon_Name>
+        <Tech_Level>1</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>0</Required_Star_Base_Level>
+        <Required_Special_Structures></Required_Special_Structures>
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>600</Build_Time_Seconds>
+        <Build_Cost_Credits>5000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+        <Behavior> GARRISON_VEHICLE, SELECTABLE, POWERED </Behavior>
+		<Build_Advances_Tech_Level>2</Build_Advances_Tech_Level>
+		<CategoryMask> Capital </CategoryMask>
+		<Ship_Class>capital</Ship_Class>
+		<AI_Combat_Power>50000</AI_Combat_Power>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> UPGRADE_EMPIRE_TECH_02 </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 185, 40, 39, 255 </Build_Countdown_Text_RGBA>
+		<Build_Music_Completed> Complete_Tech_Upgrade </Build_Music_Completed>
+
+    </SpaceUnit>
+
+<SpaceUnit Name="Empire_Tech_03">
+        <Text_ID>UPGRADE_EMPIRE_TECH_03</Text_ID>
+
+       
+        <Affiliation>Empire</Affiliation>
+		<Icon_Name>I_ENCYCLOPEDIA_EMPIRE_SYMBOL.tga</Icon_Name>
+        <Tech_Level>2</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>0</Required_Star_Base_Level>
+        <Required_Special_Structures></Required_Special_Structures>
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>600</Build_Time_Seconds>
+        <Build_Cost_Credits>5000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+        <Behavior> GARRISON_VEHICLE, SELECTABLE, POWERED </Behavior>
+		<Build_Advances_Tech_Level>3</Build_Advances_Tech_Level>
+		<CategoryMask> Capital </CategoryMask>
+		<Ship_Class>capital</Ship_Class>
+		<AI_Combat_Power>50000</AI_Combat_Power>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> UPGRADE_EMPIRE_TECH_03 </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 185, 40, 39, 255 </Build_Countdown_Text_RGBA>
+		<Build_Music_Completed> Complete_Tech_Upgrade </Build_Music_Completed>
+
+    </SpaceUnit>
+
+<SpaceUnit Name="Empire_Tech_04">
+        <Text_ID>UPGRADE_EMPIRE_TECH_04</Text_ID>
+
+       
+        <Affiliation>Empire</Affiliation>
+		<Icon_Name>I_ENCYCLOPEDIA_EMPIRE_SYMBOL.tga</Icon_Name>
+        <Tech_Level>3</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>0</Required_Star_Base_Level>
+        <Required_Special_Structures></Required_Special_Structures>
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>600</Build_Time_Seconds>
+        <Build_Cost_Credits>5000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+        <Behavior> GARRISON_VEHICLE, SELECTABLE, POWERED </Behavior>
+		<Build_Advances_Tech_Level>4</Build_Advances_Tech_Level>
+		<CategoryMask> Capital </CategoryMask>
+		<Ship_Class>capital</Ship_Class>
+		<AI_Combat_Power>50000</AI_Combat_Power>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> UPGRADE_EMPIRE_TECH_04 </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 185, 40, 39, 255 </Build_Countdown_Text_RGBA>
+		<Build_Music_Completed> Complete_Tech_Upgrade </Build_Music_Completed>
+
+    </SpaceUnit>
+
+<SpaceUnit Name="Empire_Tech_05">
+        <Text_ID>UPGRADE_EMPIRE_TECH_05</Text_ID>
+       
+       
+        <Affiliation>Empire</Affiliation>
+		<Icon_Name>I_ENCYCLOPEDIA_EMPIRE_SYMBOL.tga</Icon_Name>
+        <Tech_Level>4</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>0</Required_Star_Base_Level>
+        <Required_Special_Structures></Required_Special_Structures>
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>600</Build_Time_Seconds>
+        <Build_Cost_Credits>5000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+        <Behavior> GARRISON_VEHICLE, SELECTABLE, POWERED </Behavior>
+		<Build_Advances_Tech_Level>5</Build_Advances_Tech_Level>
+		<CategoryMask> Capital </CategoryMask>
+		<Ship_Class>capital</Ship_Class>
+		<AI_Combat_Power>50000</AI_Combat_Power>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> UPGRADE_EMPIRE_TECH_05 </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 185, 40, 39, 255 </Build_Countdown_Text_RGBA>
+		<Build_Music_Completed> Complete_Tech_Upgrade </Build_Music_Completed>
+
+    </SpaceUnit>
+
+	
+<SpaceUnit Name="Rebel_Tech_02">
+        <Text_ID>UPGRADE_REBEL_TECH_02</Text_ID>
+
+       
+        <Affiliation>Rebel</Affiliation>
+		<Icon_Name>I_ENCYCLOPEDIA_REBEL_SYMBOL.tga</Icon_Name>
+        <Tech_Level>0</Tech_Level>
+        <Required_Timeline>1</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>0</Required_Star_Base_Level>
+        <Required_Special_Structures></Required_Special_Structures>
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>600</Build_Time_Seconds>
+        <Build_Cost_Credits>5000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+        <Behavior> GARRISON_VEHICLE, SELECTABLE, POWERED </Behavior>
+		<Build_Advances_Tech_Level>1</Build_Advances_Tech_Level>
+		<CategoryMask> Capital </CategoryMask>
+		<Ship_Class>capital</Ship_Class>
+		<AI_Combat_Power>50000</AI_Combat_Power>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> UPGRADE_REBEL_TECH_02 </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 239, 133, 16, 255 </Build_Countdown_Text_RGBA>
+		<Build_Music_Completed> Rebel_Tech_Music </Build_Music_Completed>
+
+    </SpaceUnit>
+
+<SpaceUnit Name="Rebel_Tech_03">
+        <Text_ID>UPGRADE_REBEL_TECH_03</Text_ID>
+        
+       
+        <Affiliation>Rebel</Affiliation>
+		<Icon_Name>I_ENCYCLOPEDIA_REBEL_SYMBOL.tga</Icon_Name>
+        <Tech_Level>1</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>0</Required_Star_Base_Level>
+        <Required_Special_Structures></Required_Special_Structures>
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>600</Build_Time_Seconds>
+        <Build_Cost_Credits>5000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+        <Behavior> GARRISON_VEHICLE, SELECTABLE, POWERED </Behavior>
+		<Build_Advances_Tech_Level>2</Build_Advances_Tech_Level>
+		<CategoryMask> Capital </CategoryMask>
+		<Ship_Class>capital</Ship_Class>
+		<AI_Combat_Power>50000</AI_Combat_Power>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> UPGRADE_REBEL_TECH_03 </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 239, 133, 16, 255 </Build_Countdown_Text_RGBA>
+		<Build_Music_Completed> Rebel_Tech_Music </Build_Music_Completed>
+
+    </SpaceUnit>
+
+<SpaceUnit Name="Rebel_Tech_04">
+        <Text_ID>UPGRADE_REBEL_TECH_04</Text_ID>
+
+       
+        <Affiliation>Rebel</Affiliation>
+		<Icon_Name>I_ENCYCLOPEDIA_REBEL_SYMBOL.tga</Icon_Name>
+        <Tech_Level>2</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>0</Required_Star_Base_Level>
+        <Required_Special_Structures></Required_Special_Structures>
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>600</Build_Time_Seconds>
+        <Build_Cost_Credits>5000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+        <Behavior> GARRISON_VEHICLE, SELECTABLE, POWERED </Behavior>
+		<Build_Advances_Tech_Level>3</Build_Advances_Tech_Level>
+		<CategoryMask> Capital </CategoryMask>
+		<Ship_Class>capital</Ship_Class>
+		<AI_Combat_Power>50000</AI_Combat_Power>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> UPGRADE_REBEL_TECH_04 </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 239, 133, 16, 255 </Build_Countdown_Text_RGBA>
+		<Build_Music_Completed> Rebel_Tech_Music </Build_Music_Completed>
+
+    </SpaceUnit>
+
+<SpaceUnit Name="Rebel_Tech_05">
+        <Text_ID>UPGRADE_REBEL_TECH_05</Text_ID>
+
+       
+        <Affiliation>Rebel</Affiliation>
+		<Icon_Name>I_ENCYCLOPEDIA_REBEL_SYMBOL.tga</Icon_Name>
+        <Tech_Level>3</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>0</Required_Star_Base_Level>
+        <Required_Special_Structures></Required_Special_Structures>
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>600</Build_Time_Seconds>
+        <Build_Cost_Credits>5000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+        <Behavior> GARRISON_VEHICLE, SELECTABLE, POWERED </Behavior>
+		<Build_Advances_Tech_Level>4</Build_Advances_Tech_Level>
+		<CategoryMask> Capital </CategoryMask>
+		<Ship_Class>capital</Ship_Class>
+		<AI_Combat_Power>50000</AI_Combat_Power>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> UPGRADE_REBEL_TECH_05 </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 239, 133, 16, 255 </Build_Countdown_Text_RGBA>
+		<Build_Music_Completed> Rebel_Tech_Music </Build_Music_Completed>
+
+    </SpaceUnit>
+	
+	
+	
+	<SpaceUnit Name="Black_Sun_Tech_02">
+        <Text_ID>UPGRADE_BLACK_SUN_TECH_02</Text_ID>
+
+       
+        <Affiliation>Black_Sun</Affiliation>
+		<Icon_Name>I_ENCYCLOPEDIA_BLACK_SUN_SYMBOL.tga</Icon_Name>
+        <Tech_Level>1</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>0</Required_Star_Base_Level>
+        <Required_Special_Structures></Required_Special_Structures>
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>600</Build_Time_Seconds>
+        <Build_Cost_Credits>5000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+        <Behavior> GARRISON_VEHICLE, SELECTABLE, POWERED </Behavior>
+		<Build_Advances_Tech_Level>2</Build_Advances_Tech_Level>
+		<CategoryMask> Capital </CategoryMask>
+		<Ship_Class>capital</Ship_Class>
+		<AI_Combat_Power>50000</AI_Combat_Power>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> UPGRADE_BLACK_SUN_TECH_02 </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 247, 201, 13, 255 </Build_Countdown_Text_RGBA>
+		<Build_Music_Completed> Complete_Tech_Upgrade </Build_Music_Completed>
+
+    </SpaceUnit>
+
+    <SpaceUnit Name="Black_Sun_Tech_03">
+        <Text_ID>UPGRADE_BLACK_SUN_TECH_03</Text_ID>
+
+       
+        <Affiliation>Black_Sun</Affiliation>
+		<Icon_Name>I_ENCYCLOPEDIA_BLACK_SUN_SYMBOL.tga</Icon_Name>
+        <Tech_Level>2</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>0</Required_Star_Base_Level>
+        <Required_Special_Structures></Required_Special_Structures>
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>600</Build_Time_Seconds>
+        <Build_Cost_Credits>5000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+        <Behavior> GARRISON_VEHICLE, SELECTABLE, POWERED </Behavior>
+		<Build_Advances_Tech_Level>3</Build_Advances_Tech_Level>
+		<CategoryMask> Capital </CategoryMask>
+		<Ship_Class>capital</Ship_Class>
+		<AI_Combat_Power>50000</AI_Combat_Power>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> UPGRADE_BLACK_SUN_TECH_03 </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 247, 201, 13, 255 </Build_Countdown_Text_RGBA>
+		<Build_Music_Completed> Complete_Tech_Upgrade </Build_Music_Completed>
+
+    </SpaceUnit>
+	
+	
+	
+	<SpaceUnit Name="Hutt_Cartel_Tech_02">
+        <Text_ID>UPGRADE_HUTT_CARTEL_TECH_02</Text_ID>
+
+       
+        <Affiliation>Hutt_Cartel</Affiliation>
+		<Icon_Name>I_ENCYCLOPEDIA_HUTT_CARTEL.tga</Icon_Name>
+        <Tech_Level>1</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>0</Required_Star_Base_Level>
+        <Required_Special_Structures></Required_Special_Structures>
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>600</Build_Time_Seconds>
+        <Build_Cost_Credits>5000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+        <Behavior> GARRISON_VEHICLE, SELECTABLE, POWERED </Behavior>
+		<Build_Advances_Tech_Level>2</Build_Advances_Tech_Level>
+		<CategoryMask> Capital </CategoryMask>
+		<Ship_Class>capital</Ship_Class>
+		<AI_Combat_Power>50000</AI_Combat_Power>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> UPGRADE_HUTT_CARTEL_TECH_02 </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 98, 188, 44, 255 </Build_Countdown_Text_RGBA>
+		<Build_Music_Completed> Complete_Tech_Upgrade </Build_Music_Completed>
+
+    </SpaceUnit>
+
+<SpaceUnit Name="Hutt_Cartel_Tech_03">
+        <Text_ID>UPGRADE_HUTT_CARTEL_TECH_03</Text_ID>
+
+       
+        <Affiliation>Hutt_Cartel</Affiliation>
+		<Icon_Name>I_ENCYCLOPEDIA_HUTT_CARTEL.tga</Icon_Name>
+        <Tech_Level>2</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>0</Required_Star_Base_Level>
+        <Required_Special_Structures></Required_Special_Structures>
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>600</Build_Time_Seconds>
+        <Build_Cost_Credits>5000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+        <Behavior> GARRISON_VEHICLE, SELECTABLE, POWERED </Behavior>
+		<Build_Advances_Tech_Level>3</Build_Advances_Tech_Level>
+		<CategoryMask> Capital </CategoryMask>
+		<Ship_Class>capital</Ship_Class>
+		<AI_Combat_Power>50000</AI_Combat_Power>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> UPGRADE_HUTT_CARTEL_TECH_03 </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 98, 188, 44, 255 </Build_Countdown_Text_RGBA>
+		<Build_Music_Completed> Complete_Tech_Upgrade </Build_Music_Completed>
+
+    </SpaceUnit>
+	
+	
+	
+	
+	<SpaceUnit Name="Mandalorians_Tech_02">
+        <Text_ID>UPGRADE_MANDALORIANS_TECH_02</Text_ID>
+
+       
+        <Affiliation>Mandalorians</Affiliation>
+		<Icon_Name>I_ENCYCLOPEDIA_MANDALORIANS_SYMBOL.tga</Icon_Name>
+        <Tech_Level>1</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>0</Required_Star_Base_Level>
+        <Required_Special_Structures></Required_Special_Structures>
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>600</Build_Time_Seconds>
+        <Build_Cost_Credits>5000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+        <Behavior> GARRISON_VEHICLE, SELECTABLE, POWERED </Behavior>
+		<Build_Advances_Tech_Level>2</Build_Advances_Tech_Level>
+		<CategoryMask> Capital </CategoryMask>
+		<Ship_Class>capital</Ship_Class>
+		<AI_Combat_Power>50000</AI_Combat_Power>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> UPGRADE_MANDALORIANS_TECH_02 </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 239, 228, 176, 255 </Build_Countdown_Text_RGBA>
+		<Build_Music_Completed> Complete_Tech_Upgrade </Build_Music_Completed>
+
+    </SpaceUnit>
+
+<SpaceUnit Name="Mandalorians_Tech_03">
+        <Text_ID>UPGRADE_MANDALORIANS_TECH_03</Text_ID>
+
+       
+        <Affiliation>Mandalorians</Affiliation>
+		<Icon_Name>I_ENCYCLOPEDIA_MANDALORIANS_SYMBOL.tga</Icon_Name>
+        <Tech_Level>2</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>0</Required_Star_Base_Level>
+        <Required_Special_Structures></Required_Special_Structures>
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>600</Build_Time_Seconds>
+        <Build_Cost_Credits>5000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+        <Behavior> GARRISON_VEHICLE, SELECTABLE, POWERED </Behavior>
+		<Build_Advances_Tech_Level>3</Build_Advances_Tech_Level>
+		<CategoryMask> Capital </CategoryMask>
+		<Ship_Class>capital</Ship_Class>
+		<AI_Combat_Power>50000</AI_Combat_Power>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> UPGRADE_MANDALORIANS_TECH_03 </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 239, 228, 176, 255 </Build_Countdown_Text_RGBA>
+		<Build_Music_Completed> Complete_Tech_Upgrade </Build_Music_Completed>
+
+    </SpaceUnit>
+	
+	
+	
+	<SpaceUnit Name="CIS_Remnant_Tech_02">
+        <Text_ID>UPGRADE_CIS_REMNANT_TECH_02</Text_ID>
+
+       
+        <Affiliation>CIS_Remnant</Affiliation>
+		<Icon_Name>I_ENCYCLOPEDIA_CONFEDERACY_SYMBOL.tga</Icon_Name>
+        <Tech_Level>1</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>0</Required_Star_Base_Level>
+        <Required_Special_Structures></Required_Special_Structures>
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>600</Build_Time_Seconds>
+        <Build_Cost_Credits>5000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+        <Behavior> GARRISON_VEHICLE, SELECTABLE, POWERED </Behavior>
+		<Build_Advances_Tech_Level>2</Build_Advances_Tech_Level>
+		<CategoryMask> Capital </CategoryMask>
+		<Ship_Class>capital</Ship_Class>
+		<AI_Combat_Power>50000</AI_Combat_Power>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> UPGRADE_CIS_REMNANT_TECH_02 </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 46, 33, 217, 255 </Build_Countdown_Text_RGBA>
+		<Build_Music_Completed> Complete_Tech_Upgrade </Build_Music_Completed>
+
+    </SpaceUnit>
+
+<SpaceUnit Name="CIS_Remnant_Tech_03">
+        <Text_ID>UPGRADE_CIS_REMNANT_TECH_03</Text_ID>
+
+       
+        <Affiliation>CIS_Remnant</Affiliation>
+		<Icon_Name>I_ENCYCLOPEDIA_CONFEDERACY_SYMBOL.tga</Icon_Name>
+        <Tech_Level>2</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>0</Required_Star_Base_Level>
+        <Required_Special_Structures></Required_Special_Structures>
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>600</Build_Time_Seconds>
+        <Build_Cost_Credits>5000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+        <Behavior> GARRISON_VEHICLE, SELECTABLE, POWERED </Behavior>
+		<Build_Advances_Tech_Level>3</Build_Advances_Tech_Level>
+		<CategoryMask> Capital </CategoryMask>
+		<Ship_Class>capital</Ship_Class>
+		<AI_Combat_Power>50000</AI_Combat_Power>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> UPGRADE_CIS_REMNANT_TECH_03 </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 46, 33, 217, 255 </Build_Countdown_Text_RGBA>
+		<Build_Music_Completed> Complete_Tech_Upgrade </Build_Music_Completed>
+
+    </SpaceUnit>
+	
+	<SpaceUnit Name="Corporate_Sector_Tech_02">
+        <Text_ID>UPGRADE_CORPORATE_SECTOR_TECH_02</Text_ID>
+
+       
+        <Affiliation>Corporate_Sector</Affiliation>
+		<Icon_Name>I_ENCYCLOPEDIA_CORPORATE_SECTOR_SYMBOL.tga</Icon_Name>
+        <Tech_Level>1</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>0</Required_Star_Base_Level>
+        <Required_Special_Structures></Required_Special_Structures>
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>600</Build_Time_Seconds>
+        <Build_Cost_Credits>5000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+        <Behavior> GARRISON_VEHICLE, SELECTABLE, POWERED </Behavior>
+		<Build_Advances_Tech_Level>2</Build_Advances_Tech_Level>
+		<CategoryMask> Capital </CategoryMask>
+		<Ship_Class>capital</Ship_Class>
+		<AI_Combat_Power>50000</AI_Combat_Power>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> UPGRADE_CORPORATE_SECTOR_TECH_02 </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 85, 157, 157, 255 </Build_Countdown_Text_RGBA>
+		<Build_Music_Completed> Complete_Tech_Upgrade </Build_Music_Completed>
+
+    </SpaceUnit>
+
+    <SpaceUnit Name="Corporate_Sector_Tech_03">
+        <Text_ID>UPGRADE_CORPORATE_SECTOR_TECH_03</Text_ID>
+
+       
+        <Affiliation>Corporate_Sector</Affiliation>
+		<Icon_Name>I_ENCYCLOPEDIA_CORPORATE_SECTOR_SYMBOL.tga</Icon_Name>
+        <Tech_Level>2</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>0</Required_Star_Base_Level>
+        <Required_Special_Structures></Required_Special_Structures>
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>600</Build_Time_Seconds>
+        <Build_Cost_Credits>5000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+        <Behavior> GARRISON_VEHICLE, SELECTABLE, POWERED </Behavior>
+		<Build_Advances_Tech_Level>3</Build_Advances_Tech_Level>
+		<CategoryMask> Capital </CategoryMask>
+		<Ship_Class>capital</Ship_Class>
+		<AI_Combat_Power>50000</AI_Combat_Power>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> UPGRADE_CORPORATE_SECTOR_TECH_03 </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 85, 157, 157, 255 </Build_Countdown_Text_RGBA>
+		<Build_Music_Completed> Complete_Tech_Upgrade </Build_Music_Completed>
+
+    </SpaceUnit>
+
+	
+	
+
+	
+	
+	
+	
+
+
+</Hero_Upgrade_Files>

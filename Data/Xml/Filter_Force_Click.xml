@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+
+
+
+<!--******************************************************-->
+<!--******	Campaign: Fractured Empire (Isard) *****-->
+<!--******************************************************-->
+
+
+
+<Story>
+
+	
+	
+	<Event Name="Click_Filter_00">
+		<Event_Type>STORY_CLICK_GUI</Event_Type>
+		<Event_Param1>b_filter_all</Event_Param1>
+		 <Reward_Type>FORCE_CLICK_GUI</Reward_Type>
+		<Reward_Param1>b_filters0</Reward_Param1>
+		<Perpetual>true</Perpetual>
+	</Event>
+	
+	<Event Name="Click_Filter_01">
+		<Event_Type>STORY_CLICK_GUI</Event_Type>
+		<Event_Param1>b_filter_all</Event_Param1>
+		 <Reward_Type>FORCE_CLICK_GUI</Reward_Type>
+		<Reward_Param1>b_filters1</Reward_Param1>
+		<Perpetual>true</Perpetual>
+	</Event>
+	
+	<Event Name="Click_Filter_02">
+		<Event_Type>STORY_CLICK_GUI</Event_Type>
+		<Event_Param1>b_filter_all</Event_Param1>
+		 <Reward_Type>FORCE_CLICK_GUI</Reward_Type>
+		<Reward_Param1>b_filters2</Reward_Param1>
+		<Perpetual>true</Perpetual>
+	</Event>
+	
+	<Event Name="Click_Filter_03">
+		<Event_Type>STORY_CLICK_GUI</Event_Type>
+		<Event_Param1>b_filter_all</Event_Param1>
+		 <Reward_Type>FORCE_CLICK_GUI</Reward_Type>
+		<Reward_Param1>b_filters3</Reward_Param1>
+		<Perpetual>true</Perpetual>
+	</Event>
+	
+	
+
+</Story>
