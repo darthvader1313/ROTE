@@ -1,0 +1,278 @@
+<?xml version="1.0"?>
+
+
+
+<Striker_Air_Vehicle_Data>
+
+
+	<GroundVehicle Name="TIE_Striker">
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>40.0, 40.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Text_ID>TEXT_UNIT_TIE_STRIKER</Text_ID>		
+  		<Encyclopedia_Text> 
+				TEXT_STATS
+		        TEXT_LINE
+				TEXT_STAT_HEALTH_3600		
+				TEXT_LINE
+				TEXT_STAT_PULSE_COUNT_8.0
+				TEXT_LINE
+				TEXT_STAT_DELAY_SECONDS_0.2
+				TEXT_LINE
+				TEXT_STAT_RECHARGE_SECONDS_2.0
+				TEXT_LINE
+				TEXT_STAT_DAMAGE_360.0
+				TEXT_LINE
+				TEXT_STAT_SPEED_5.0
+				TEXT_LINE
+				TEXT_STAT_UNIT_CAPACITY_4
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_VEHICLE_TYPE_AIR</Encyclopedia_Unit_Class>
+
+		<Land_Model_Name>EV_TIESTRIKER.ALO</Land_Model_Name>
+		<Mass>0.985</Mass>
+
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Size_Value>15</Size_Value>
+        <Select_Box_Scale>90</Select_Box_Scale>
+
+        <Ranking_In_Category>6</Ranking_In_Category>
+		<Max_Speed>5.0</Max_Speed>
+		<Min_Speed>2.0</Min_Speed>
+		<OverrideAcceleration> .2 </OverrideAcceleration>
+		<OverrideDeceleration> .2 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>5.0</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Roll>4.5</Max_Rate_Of_Roll>
+		<Max_Lift>2.5</Max_Lift>
+		<Bank_Turn_Angle>20</Bank_Turn_Angle>
+		<Space_Layer> Frigate </Space_Layer>
+		<Stationary_Space_Layer> Land </Stationary_Space_Layer>
+		<FormationGrouping> Solo </FormationGrouping>
+		<PathFrameDelay> 4 </PathFrameDelay>
+		<Hover_Offset>50.0</Hover_Offset>
+		<Prepare_Strafe_Height>150.0</Prepare_Strafe_Height>
+		<MaxFacingLookAheadFrames>5.0</MaxFacingLookAheadFrames>
+		<Should_Cause_Limited_Turrets_To_Turn> false </Should_Cause_Limited_Turrets_To_Turn>	
+			
+		<AI_Combat_Power>130</AI_Combat_Power>
+
+		<Behavior>SELECTABLE, POWERED</Behavior>
+		<LandBehavior>ABILITY_COUNTDOWN, FLYING_LOCOMOTOR,REVEAL,HIDE_WHEN_FOGGED, AMBIENT_SFX,UNIT_AI,TARGETING,WEAPON,STUNNABLE, WIND_DISTURBANCE,DAMAGE_TRACKING</LandBehavior>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Weather_Category>Speeder</Weather_Category>
+	
+		<Collidable_By_Projectile_Living> Yes </Collidable_By_Projectile_Living>
+		<Is_Affected_By_Gravity_Control_Field> Yes </Is_Affected_By_Gravity_Control_Field>
+		
+		<Affiliation>Empire</Affiliation>
+		<Political_Control>0</Political_Control>
+		
+		<HardPoints>
+            HP_Tie_Striker_Laser
+        </HardPoints>
+
+		<Armor_Type> Armor_Speeder </Armor_Type>
+		<Damage>8</Damage>
+		<Autoresolve_Health>40.0</Autoresolve_Health>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>190</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>1000</Energy_Capacity>
+		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+		
+		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
+		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+		
+		<Turret_Rotate_Extent_Degrees>20.0</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>50.0</Turret_Elevate_Extent_Degrees>
+
+		<Projectile_Types>Proj_air_laser_green</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>8.0</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>2.0</Projectile_Fire_Recharge_Seconds>
+
+		
+
+		<Damaged_Smoke_Asset_Name>P_Smoke_Small02.alo</Damaged_Smoke_Asset_Name>
+		
+
+		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>Medium_Explosion_Land</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_A_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+		
+
+		<Wind_Disturbance_Radius>100</Wind_Disturbance_Radius>
+		<Wind_Disturbance_Strength>5</Wind_Disturbance_Strength>
+		<Wind_Disturbance_Sphere_Alpha>0.1</Wind_Disturbance_Sphere_Alpha>
+
+		<SFXEvent_Fire>Unit_TIE_Fighter_Fire</SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_TIE_Fighter</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_TIE_Fighter</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_TIE_Fighter</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_TIE_Fighter</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_TIE_Fighter</SFXEvent_Guard>
+
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Assault_Speeder </SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Assault_Speeder </SFXEvent_Assist_Attack>
+
+
+		<Death_SFXEvent_Start_Die>Unit_Snow_Speeder_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Ambient_Moving> Unit_SnowSpeeder_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 7 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+
+		<!-- <SFXEvent_Engine_Idle_Loop> Unit_SnowSpeeder_Engine_Loop </SFXEvent_Engine_Idle_Loop> -->
+		<!-- <SFXEvent_Engine_Moving_Loop> Unit_SnowSpeeder_Engine_Loop </SFXEvent_Engine_Moving_Loop> -->
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_SnowSpeeder_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<SFXEvent_Unit_Lost> RHD_Unit_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
+		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+
+		<Icon_Name>I_button_TIEStriker.tga</Icon_Name>
+		<CategoryMask> Air | AntiStructure </CategoryMask>
+		<MovementClass> Flying </MovementClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<GUI_Bracket_Size>1</GUI_Bracket_Size>
+
+		<Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		
+		<!--Keep the idle chase range small since Snowspeeders don't tether-->
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>AntiVehicle</Targeting_Priority_Set>
+		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<FormationGrouping> Solo </FormationGrouping>
+		<Weather_Category>Flying</Weather_Category>
+
+		<Score_Cost_Credits>50</Score_Cost_Credits>
+
+		<Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
+      <Converted_To_Enemy_Die_Time_Seconds>60</Converted_To_Enemy_Die_Time_Seconds>
+
+		
+
+		
+		
+		<Death_Explosions>New_Land_Explosion_super_Small_Heat</Death_Explosions>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+		
+
+	</GroundVehicle>
+	
+	
+	
+	<GroundCompany Name="TIE_Striker_Squadron">
+		<Text_ID>TEXT_UNIT_TIE_STRIKER</Text_ID>
+		<Encyclopedia_Text> 
+				TEXT_STATS
+		        TEXT_LINE
+				TEXT_STAT_HEALTH_3600		
+				TEXT_LINE
+				TEXT_STAT_PULSE_COUNT_8.0
+				TEXT_LINE
+				TEXT_STAT_DELAY_SECONDS_0.2
+				TEXT_LINE
+				TEXT_STAT_RECHARGE_SECONDS_2.0
+				TEXT_LINE
+				TEXT_STAT_DAMAGE_96.0
+				TEXT_LINE
+				TEXT_STAT_SPEED_5.0
+				TEXT_LINE
+				TEXT_STAT_UNIT_CAPACITY_4
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_VEHICLE_TYPE_AIR</Encyclopedia_Unit_Class>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>96</Damage>
+		<Autoresolve_Health>3600</Autoresolve_Health>
+		<Affiliation>Empire</Affiliation>
+		<Build_Cost_Credits>2000</Build_Cost_Credits>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Tech_Level>3</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<!--<Required_Ground_Base_Level>2</Required_Ground_Base_Level>-->
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures>E_Ground_Heavy_Vehicle_Factory</Required_Special_Structures>
+		<Required_Planets />
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Prority>1</Formation_Prority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>walker</Ship_Class>
+		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+		<Company_Units>
+		TIE_Striker, 
+		TIE_Striker, 
+		TIE_Striker,
+		TIE_Striker
+		</Company_Units>
+		<Icon_Name>I_button_TIEStriker.tga</Icon_Name>
+		<GUI_Model>Empire_TIE_Striker.ALO</GUI_Model>
+		<GUI_Distance>70</GUI_Distance>
+		<GUI_Offset>0 0 0</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Assault_Speeder</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Assault_Speeder</SFXEvent_Fleet_Move>
+		<Score_Cost_Credits>225</Score_Cost_Credits>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>CABLE_ATTACK</Type>
+				<Recharge_Seconds>120</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>Cable</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+			</Unit_Ability>
+			
+		</Unit_Abilities_Data>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>2000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>60</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>EC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+  		
+  		
+		
+        <Maintenance_Cost>0.05</Maintenance_Cost>
+		<Population_Value>1</Population_Value>
+	</GroundCompany>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</Striker_Air_Vehicle_Data>

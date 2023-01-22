@@ -22,6 +22,7 @@
 
 	<File>SpaceProps.xml</File>
 	<File>Spaceprops_R.O.T.E.xml</File>
+	<File>Company_Spawner.xml</File>
 	<File>SpaceUnitsCapital.xml</File>
 	<File>SpaceUnitsFighters.xml</File>
 	<File>SpaceUnitsCorvettes.xml</File>
@@ -48,6 +49,7 @@
 	<File>Planets.xml</File>
 
 	<File>Projectiles.xml</File>
+	<File>Projectiles_Land.xml</File>
 
 	<File>SpecialEffects.xml</File>
 	<File>Particles.xml</File>
@@ -172,6 +174,35 @@
 	<File>Multiplayer_Structure_Markers.XML</File>
 	<File>UpgradeObjects_Underworld.XML</File>
 	<File>Corruption_Special_Units.XML</File>
+	
+	
+	
+	
+	
+	<!-- Infantry Units: Empire -->
+	
+	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_empire_Imperial_Stormtrooper.xml</File>
+	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_empire_Stormtrooper.xml</File>
+	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_empire_Dark_Trooper.xml</File>	
+	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_Empire_flametroopers.xml</File>
+	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_empire_armytrooper.xml</File>
+	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_Empire_Shocktroopers.xml</File>
+	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_empire_Shadowtrooper.xml</File>
+	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_empire_super_commands.xml</File>
+	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_empire_purge_trooper.xml</File>
+	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_Empire_Deathtroopers.xml</File>
+	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_Empire_Shoretroopers.xml</File>
+	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_Empire_Imperial_Engineer.xml</File>
+	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_Empire_Snowtroopers.xml</File>
+	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_Empire_Magmatroopers.xml</File>
+	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_Empire_Sandtroopers.xml</File>
+	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_Empire_Mimban_stormtroopers.xml</File>
+	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_Empire_501st_Stormtrooper.xml</File>
+	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_empire_Novatroopers.xml</File>
+	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_empire_Imperial_Clonetrooper.xml</File>
+	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_empire_Mustafar_Trooper.xml</File>
+	
+	
 
 
 

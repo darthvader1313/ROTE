@@ -1,0 +1,272 @@
+<?xml version="1.0"?>
+<Spawner>
+<!-- Company Spawner Template -->
+
+
+
+    <GroundCompany Name="Company_Template">
+        <Encyclopedia_Good_Against/>
+        <Encyclopedia_Vulnerable_To/>
+        <GUI_Row> 1 </GUI_Row>
+        <Is_Dummy>Yes</Is_Dummy>
+        <Damage>1</Damage>
+        <Autoresolve_Health>10</Autoresolve_Health>
+        <Piracy_Value_Credits>50</Piracy_Value_Credits>
+        <Score_Cost_Credits>100</Score_Cost_Credits>
+        <Build_Time_Reduced_By_Multiple_Factories>Yes</Build_Time_Reduced_By_Multiple_Factories>
+        <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+        <Tech_Level>0</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>0</Required_Star_Base_Level>
+        <Required_Special_Structures/>
+        <Required_Planets/>
+        <Behavior>DUMMY_GROUND_COMPANY</Behavior>
+        <Formation_Priority>1</Formation_Priority>
+        <Is_Escort>yes</Is_Escort>
+        <Ship_Class>infantry</Ship_Class>
+        <Max_Squad_Size> 1 </Max_Squad_Size>
+        <Scale_Factor>5</Scale_Factor>
+        <GUI_Offset>0 0 5</GUI_Offset>
+        <GUI_Velocity>45</GUI_Velocity>
+        <Maintenance_Cost>0.05</Maintenance_Cost>
+        <Population_Value>1</Population_Value>
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+    </GroundCompany>
+
+	<GroundInfantry Name="Company_Spawner_Template">
+		<Text_ID/>
+		<Encyclopedia_Text/>
+		<GUI_Row>1</GUI_Row>
+		<Encyclopedia_Good_Against/>
+		<Encyclopedia_Vulnerable_To/>
+		<Encyclopedia_Unit_Class/>
+        <GalacticBehavior>SELECTABLE</GalacticBehavior>
+		<LandBehavior> WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED,DAMAGE_TRACKING, SPAWN_SQUADRON</LandBehavior>
+
+		<Affiliation>Rebel, Empire, Mandalorians, CIS_Remnant, Black_Sun, Hutt_Cartel, Corporate_Sector, Tatooine_Smugglers, Ryloth_Radicals, Savareen_Underworld, Bespin_Government, Takodana_Pirates, Falleen_Bountyhunters, Mimban_Resistance, Hapan_Consortium, Crimson_Dawn, Cantonican_Loyalists, Pyke_Syndicate, Chiss_Domination, Caamasi_Diplomats </Affiliation>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Mass>1.0</Mass>
+		<Shield_Armor_Type>Shield_Default</Shield_Armor_Type>
+		<Armor_Type> Armor_Default </Armor_Type>
+		<Political_Control>0</Political_Control>
+		<Size_Value>10</Size_Value>
+		<Sensor_Range>20</Sensor_Range>
+		<Stealth_Capable>No</Stealth_Capable>
+		<Destroy_When_Used_As_Corruption_Prereq> No </Destroy_When_Used_As_Corruption_Prereq>
+        <Is_Valid_Target>No</Is_Valid_Target>
+        <Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
+        <Collidable_By_Projectile_Dead>No</Collidable_By_Projectile_Dead>
+
+		<Scale_Factor>1.0</Scale_Factor>
+		<Max_Speed>1.0</Max_Speed>
+		<Max_Rate_Of_Turn> 1.0 </Max_Rate_Of_Turn>
+		<Custom_Hard_XExtent> 0.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 0.0 </Custom_Hard_YExtent>
+		<Type>Walk</Type>
+		<Space_Layer> None </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+
+		<Damage>1</Damage>
+		<Shield_Points>0</Shield_Points>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>999</Energy_Capacity>
+		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+		<Tactical_Health>100</Tactical_Health>
+		<Required_Timeline>0</Required_Timeline>
+
+		<Ranged_Target_Z_Adjust>1.0</Ranged_Target_Z_Adjust>
+		<Mouse_Collide_Override_Sphere_Radius> 0.0 </Mouse_Collide_Override_Sphere_Radius>
+		<MovementClass> Infantry </MovementClass>
+		<CategoryMask> Infantry </CategoryMask>
+
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
+		<Select_Box_Scale>10</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+
+		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
+		<Weather_Category>Infantry</Weather_Category>
+
+		<Victory_Relevant>No</Victory_Relevant>
+		<Create_Team>No</Create_Team>
+		<Deploys>No</Deploys>
+
+		<Targeting_Max_Attack_Distance>0.0</Targeting_Max_Attack_Distance>
+		<Land_FOW_Reveal_Range>0.0</Land_FOW_Reveal_Range>
+
+		<CategoryMask> Infantry </CategoryMask>
+
+		<Land_Model_Name>W_FLAG_MARKER.ALO</Land_Model_Name>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Lua_Script>Company_Spawner</Lua_Script>
+	</GroundInfantry>
+
+	<!-- Infantry Template -->
+	<GroundInfantry Name="Infantry_Template">
+		<Weather_Category> Infantry </Weather_Category>
+		<Mass> 1.0 </Mass>
+		<Scale_Factor> 1.0 </Scale_Factor>
+
+		<Political_Control> 0 </Political_Control>
+		<Size_Value> 10 </Size_Value>
+        <Sensor_Range>20</Sensor_Range>
+
+		<Behavior>
+			SELECTABLE
+		</Behavior>
+		<LandBehavior>
+			ABILITY_COUNTDOWN,
+			DAMAGE_TRACKING,
+			HIDE_WHEN_FOGGED,
+			IDLE,
+			LAND_TEAM_INFANTRY_LOCOMOTOR,
+			REVEAL,
+			STUNNABLE,
+			SURFACE_FX,
+			WEAPON,
+		</LandBehavior>
+		<SurfaceFX_Name> Generic_Footprint, Infantry_Terrain_Modifier </SurfaceFX_Name>
+		<Is_Visible_On_Radar> No </Is_Visible_On_Radar>
+		<Loop_Idle_Anim_00> No </Loop_Idle_Anim_00>
+		<Collidable_By_Projectile_Living> Yes </Collidable_By_Projectile_Living>
+		<CanCellStack> yes </CanCellStack>
+		<Mass> 1.0 </Mass>
+		<Armor_Type> Armor_I </Armor_Type>
+
+		<Max_Speed> 1.9 </Max_Speed>
+		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
+		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
+		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		<Space_Layer> None </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<FormationSpacing> .5 </FormationSpacing>
+		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+		<OverrideAcceleration> .07 </OverrideAcceleration>
+		<OverrideDeceleration> .07 </OverrideDeceleration>
+		<FormationGrouping> Standard </FormationGrouping>
+		<FormationOrder> 2 </FormationOrder>
+		<FormationRaggedness> .2 </FormationRaggedness>
+		<MaxJiggleDistance> 1 </MaxJiggleDistance>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>30</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>999</Energy_Capacity>
+		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+		<Victory_Relevant>yes</Victory_Relevant>
+
+		<Damage>1</Damage>
+
+		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
+		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+
+		<CategoryMask> Infantry </CategoryMask>
+		<Ranking_In_Category> 21 </Ranking_In_Category>
+		<MovementClass> Infantry </MovementClass>
+		
+        <Garrison_Category> Infantry </Garrison_Category>
+        <Garrison_Value>1</Garrison_Value>
+		
+        <Type>Walk</Type>
+
+		<Influences_Capture_Point>True</Influences_Capture_Point>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Is_Squashable> Yes </Is_Squashable>
+		<Is_Combustible>yes</Is_Combustible>
+		<On_Fire_Speed_Modifier>1.25f</On_Fire_Speed_Modifier>
+		<Targeting_Allowed_When_Burning>no</Targeting_Allowed_When_Burning>
+		<Burning_Damage_Per_Second>0.1</Burning_Damage_Per_Second>
+		<Create_Team>Yes</Create_Team>
+		<Deploys>No</Deploys>
+
+		<Select_Box_Scale>10</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+
+		<Idle_Chase_Range>200.0</Idle_Chase_Range>
+		<Guard_Chase_Range>50.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>50.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
+
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+
+		<Death_Clone>Damage_Land_Disruptor, Infantry_Disruptor_Death_Clone_00</Death_Clone>
+		<Death_Clone>Damage_Land_Disruptor, Infantry_Disruptor_Death_Clone_01</Death_Clone>
+        <Death_Clone>Damage_Fire, Infantry_Disruptor_Death_Clone_00</Death_Clone>
+        <Death_Clone>Damage_Fire, Infantry_Disruptor_Death_Clone_01</Death_Clone>
+		<Death_Clone>Damage_Infection, Infantry_Melt_Death_Clone_00</Death_Clone>
+	</GroundInfantry>
+	
+	<Container Name="Infantry_Team_Template">
+		<Text_ID />
+		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Icon_Name />
+        <Land_Model_Name>w_laser_invisible.alo</Land_Model_Name>
+		
+		<Show_Name>No</Show_Name>
+		<Behavior>
+			SELECTABLE,
+			TEAM,
+			UNIT_AI,
+		</Behavior>
+		<LandBehavior>
+			GARRISON_UNIT,
+			LAND_TEAM_CONTAINER_LOCOMOTOR,
+			REVEAL,
+			SELECTABLE,
+			TEAM_TARGETING,
+		</LandBehavior>
+		
+		<Garrison_Category> Infantry </Garrison_Category>
+		
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		
+		<Max_Speed> 0.8 </Max_Speed>
+		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
+		<Space_Layer> Land </Space_Layer>
+		
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<FormationSpacing> 0.7 </FormationSpacing>
+        <FormationOrder> 2 </FormationOrder>
+		<MovementClass> Infantry </MovementClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Is_Squashable> true </Is_Squashable>
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
+		<ContainerArrangement> Dartboard </ContainerArrangement>
+		<Override_Acceleration> 0.08 </Override_Acceleration>
+		<Override_Deceleration> 0.08 </Override_Deceleration>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>50</Radar_Icon_Scale_Land>
+		
+		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+		<Idle_Chase_Range>200.0</Idle_Chase_Range>
+		<Guard_Chase_Range>50.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>0.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+		
+        <!-- <Select_Box_Scale>65</Select_Box_Scale> -->
+        <!-- <Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust> -->
+		<CategoryMask> Infantry </CategoryMask>
+	</Container>
+
+
+
+
+</Spawner>
