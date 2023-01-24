@@ -2,6 +2,213 @@
 <SpaceProps>
 
 
+	<SpaceProp Name="spaceprop_ocean03_Large">
+		<Text_ID />
+		<Space_Model_Name>w_spaceprop_ocean03.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
+    <Is_Discardable> No </Is_Discardable>
+    <Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+    <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>40.0</Scale_Factor>
+		<Behavior> IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET </Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<In_Background> Yes </In_Background>
+		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+
+	</SpaceProp>
+	
+	<SpaceProp Name="spaceprop_temperate02_Large">
+		<Text_ID />
+		<Space_Model_Name>w_spaceprop_temperate02.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
+    <Is_Discardable> No </Is_Discardable>
+    <Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+    <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>40.0</Scale_Factor>
+		<Behavior> IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET </Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<In_Background> Yes </In_Background>
+		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+
+	</SpaceProp>
+	
+	<SpaceProp Name="spaceprop_fondor_Large">
+		<Text_ID />
+		<Space_Model_Name>w_spaceprop_fondor.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
+    <Is_Discardable> No </Is_Discardable>
+    <Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+    <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>40.0</Scale_Factor>
+		<Behavior> IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET </Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<In_Background> Yes </In_Background>
+		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+
+	</SpaceProp>
+	
+	<SpaceProp Name="spaceprop_felucia_Large">
+		<Text_ID />
+		<Space_Model_Name>w_spaceprop_felucia.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
+    <Is_Discardable> No </Is_Discardable>
+    <Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+    <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>40.0</Scale_Factor>
+		<Behavior> IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET </Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<In_Background> Yes </In_Background>
+		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+
+	</SpaceProp>
+	
+	<SpaceProp Name="spaceprop_eriadu_Large">
+		<Text_ID />
+		<Space_Model_Name>w_spaceprop_eriadu.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
+    <Is_Discardable> No </Is_Discardable>
+    <Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+    <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>40.0</Scale_Factor>
+		<Behavior> IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET </Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<In_Background> Yes </In_Background>
+		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+
+	</SpaceProp>
+	
+	<SpaceProp Name="spaceprop_endor_Large">
+		<Text_ID />
+		<Space_Model_Name>w_spaceprop_endor.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
+    <Is_Discardable> No </Is_Discardable>
+    <Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+    <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>40.0</Scale_Factor>
+		<Behavior> IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET </Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<In_Background> Yes </In_Background>
+		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+
+	</SpaceProp>
+	
+	<SpaceProp Name="spaceprop_dathomir_Large">
+		<Text_ID />
+		<Space_Model_Name>w_spaceprop_dathomir.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
+    <Is_Discardable> No </Is_Discardable>
+    <Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+    <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>40.0</Scale_Factor>
+		<Behavior> IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET </Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<In_Background> Yes </In_Background>
+		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+
+	</SpaceProp>
+	
+	<SpaceProp Name="spaceprop_dagobah_Large">
+		<Text_ID />
+		<Space_Model_Name>w_spaceprop_dagobah.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
+    <Is_Discardable> No </Is_Discardable>
+    <Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+    <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>40.0</Scale_Factor>
+		<Behavior> IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET </Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<In_Background> Yes </In_Background>
+		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+
+	</SpaceProp>
+	
+	<SpaceProp Name="spaceprop_coruscant_Large">
+		<Text_ID />
+		<Space_Model_Name>w_spaceprop_coruscant.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
+    <Is_Discardable> No </Is_Discardable>
+    <Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+    <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>40.0</Scale_Factor>
+		<Behavior> IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET </Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<In_Background> Yes </In_Background>
+		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+
+	</SpaceProp>
+	
 	<SpaceProp Name="spaceprop_forest03_Large">
 		<Text_ID />
 		<Space_Model_Name>w_spaceprop_forest03.alo</Space_Model_Name>
