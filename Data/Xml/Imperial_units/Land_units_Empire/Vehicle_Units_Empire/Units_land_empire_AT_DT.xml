@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <ATAR_Walker_Data>
-    <GroundVehicle Name="AT_DT_Walker">
+    <GroundVehicle Name="Imperial_AT_DT_Walker">
         <Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
         <Text_ID>TEXT_UNIT_AT_DT</Text_ID>
 		<Encyclopedia_Text> 
@@ -248,8 +248,8 @@
     </GroundVehicle>
 	
 
-    <GroundVehicle Name="AT_DT_Walker_Death_Clone_00">
-        <Variant_Of_Existing_Type>AT_DT_Walker</Variant_Of_Existing_Type>
+    <GroundVehicle Name="Imperial_AT_DT_Walker_Death_Clone_00">
+        <Variant_Of_Existing_Type>Imperial_AT_DT_Walker</Variant_Of_Existing_Type>
         <Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
         <LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
 
@@ -265,8 +265,8 @@
 
     </GroundVehicle>
 
-    <GroundVehicle Name="AT_DT_Walker_Death_Clone_01">
-        <Variant_Of_Existing_Type>AT_DT_Walker</Variant_Of_Existing_Type>
+    <GroundVehicle Name="Imperial_AT_DT_Walker_Death_Clone_01">
+        <Variant_Of_Existing_Type>Imperial_AT_DT_Walker</Variant_Of_Existing_Type>
         <Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
         <LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
 
@@ -282,8 +282,8 @@
 
     </GroundVehicle>
 
-    <GroundVehicle Name="AT_DT_Walker_Death_Clone_02">
-        <Variant_Of_Existing_Type>AT_DT_Walker</Variant_Of_Existing_Type>
+    <GroundVehicle Name="Imperial_AT_DT_Walker_Death_Clone_02">
+        <Variant_Of_Existing_Type>Imperial_AT_DT_Walker</Variant_Of_Existing_Type>
         <Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
         <LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
 
@@ -345,10 +345,10 @@
         <!--<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>-->
         <Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
         <Company_Units>
-		AT_DT_Walker,
-		AT_DT_Walker, 
-		AT_DT_Walker, 
-		AT_DT_Walker
+		Imperial_AT_DT_Walker,
+		Imperial_AT_DT_Walker, 
+		Imperial_AT_DT_Walker, 
+		Imperial_AT_DT_Walker
 		</Company_Units>
         <Max_Squad_Size>1</Max_Squad_Size>
         <Icon_Name>i_button_atdt.tga</Icon_Name>

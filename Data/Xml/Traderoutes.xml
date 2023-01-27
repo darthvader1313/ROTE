@@ -642,6 +642,28 @@
         
     </TradeRoute>
 	
+	<TradeRoute Name="Route59">
+		
+            <Point_A>Bonadan</Point_A>
+            <Point_B>Moncalamari</Point_B>
+            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+	
+	<TradeRoute Name="Route60">
+		
+            <Point_A>Jabiim</Point_A>
+            <Point_B>Moncalamari</Point_B>
+            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        
+    </TradeRoute>
+	
 	
   
     

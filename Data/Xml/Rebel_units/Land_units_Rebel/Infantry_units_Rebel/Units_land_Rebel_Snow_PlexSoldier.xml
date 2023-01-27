@@ -1,0 +1,228 @@
+<?xml version="1.0" ?>
+<Rebel_Trooper>
+
+    
+
+<GroundInfantry Name="Snow_Plex_Soldier">
+		<Variant_Of_Existing_Type>Infantry_Template</Variant_Of_Existing_Type>
+		
+		<Text_ID>TEXT_UNIT_SNOW_PLEX_SOLDIER</Text_ID>
+		<Encyclopedia_Text> 
+				TEXT_STATS
+		        TEXT_LINE
+				TEXT_STAT_HEALTH_3150		
+				TEXT_LINE
+				TEXT_STAT_PULSE_COUNT_0.3
+				TEXT_LINE
+				TEXT_STAT_DELAY_SECONDS_0.7
+				TEXT_LINE
+				TEXT_STAT_RECHARGE_SECONDS_0.2
+				TEXT_LINE
+				TEXT_STAT_DAMAGE_162.0
+				TEXT_LINE
+				TEXT_STAT_UNIT_CAPACITY_9
+		</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_INFANTRY_TYPE_ANTIVEHICLE</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_SnowPlexSoldier.tga</Icon_Name>
+		
+		<Land_Model_Name>Ri_Trooper_Plex_Snow.ALO</Land_Model_Name>
+		<FormationSpacing> 0.9 </FormationSpacing>
+        <FormationOrder> 1 </FormationOrder>
+		
+		<Scale_Factor>1.5</Scale_Factor>
+		<Movement_Animation_Speed> 0.65 </Movement_Animation_Speed>
+		<Walk_Animation_Speed> .600 </Walk_Animation_Speed>
+		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+		<Max_Speed> 1.7 </Max_Speed>
+		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
+		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
+		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		
+		<Affiliation>Rebel</Affiliation>
+		<Armor_Type> Armor_Infantry </Armor_Type>
+		
+		
+		<Targeting_Max_Attack_Distance>175.0</Targeting_Max_Attack_Distance>
+		<Damage>18</Damage>
+		<Sensor_Range>20</Sensor_Range>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>350</Tactical_Health>
+		<Projectile_Types>Proj_Shock_Missile_antivehicle</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>0.3</Projectile_Fire_Pulse_Count>
+        <Projectile_Fire_Pulse_Delay_Seconds>0.7</Projectile_Fire_Pulse_Delay_Seconds>
+        <Projectile_Fire_Recharge_Seconds>0.2</Projectile_Fire_Recharge_Seconds>
+
+		<SFXEvent_Select>Unit_Select_Rebel_Soldier</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Rebel_Soldier</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Rebel_Soldier</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Rebel_Soldier</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Rebel_Soldier</SFXEvent_Guard>
+		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_Death</Death_SFXEvent_Start_Die>
+		
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Rebel_Soldier </SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Rebel_Soldier </SFXEvent_Assist_Attack>
+
+		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
+		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		
+		<Death_Clone>Damage_Force_Whirlwind, Rebel_Trooper_Force_Whirlwind_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Force_Lightning, Rebel_Trooper_Force_Lightning_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Crush, Rebel_Trooper_Crush_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Remote_Bomb, Rebel_Trooper_Remote_Bomb_Death_Clone</Death_Clone>
+		
+        <CategoryMask> Infantry | AntiInfantry </CategoryMask>
+		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Plex_Soldier</SFXEvent_GUI_Unit_Ability_Activated>		  
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundInfantry>
+
+	
+	
+	
+	
+	
+	<GroundInfantry Name="Snow_Plex_Soldier_Squad_Spawner">
+        <Variant_Of_Existing_Type> Company_Spawner_Template </Variant_Of_Existing_Type>
+        <Icon_Name>i_button_SnowPlexSoldier.tga</Icon_Name>
+        <AI_Combat_Power>54</AI_Combat_Power>
+        <CategoryMask> Infantry | AntiInfantry </CategoryMask>
+    </GroundInfantry>
+	
+	
+	<GroundCompany Name="Snow_Plex_Soldier_Squad">
+	<Variant_Of_Existing_Type>Company_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_SNOW_PLEX_SOLDIER</Text_ID>
+		<Encyclopedia_Text> 
+				TEXT_STATS
+		        TEXT_LINE
+				TEXT_STAT_HEALTH_3150		
+				TEXT_LINE
+				TEXT_STAT_PULSE_COUNT_0.3
+				TEXT_LINE
+				TEXT_STAT_DELAY_SECONDS_0.7
+				TEXT_LINE
+				TEXT_STAT_RECHARGE_SECONDS_0.2
+				TEXT_LINE
+				TEXT_STAT_DAMAGE_162.0
+				TEXT_LINE
+				TEXT_STAT_UNIT_CAPACITY_9
+		</Encyclopedia_Text>
+       <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_INFANTRY_TYPE_ANTIVEHICLE</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_SnowPlexSoldier.tga</Icon_Name>
+		<GUI_Model_Name>Ri_Trooper_Plex_Snow.ALO</GUI_Model_Name>
+        <GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>162</Damage>
+		<Autoresolve_Health>3150</Autoresolve_Health>
+		<Affiliation>Rebel</Affiliation>
+		<Build_Cost_Credits>1000</Build_Cost_Credits>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Build_Time_Seconds>45</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		
+		<Tech_Level>1</Tech_Level>
+		<Required_Special_Structures>R_Ground_Barracks</Required_Special_Structures>
+		
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Company_Units>
+			Snow_Plex_Soldier_Squad_Spawner
+		</Company_Units>
+
+        <SFXEvent_Build_Started>RHD_Build_Troops</SFXEvent_Build_Started>
+        <SFXEvent_Build_Cancelled>RHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+        <SFXEvent_Build_Complete>Unit_Complete_Rebel_Soldier</SFXEvent_Build_Complete>
+        <SFXEvent_Fleet_Move>Unit_Fleet_Move_Rebel_Soldier</SFXEvent_Fleet_Move>
+		
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>1500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>RC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundCompany>
+	
+	<GroundCompany Name="Snow_Plex_Soldier_Squad_Dummy">
+		<Variant_Of_Existing_Type>Snow_Plex_Soldier_Squad</Variant_Of_Existing_Type>
+        <Affiliation>Hostile</Affiliation>
+		
+		<Company_Units>
+		Snow_Plex_Soldier, 
+		Snow_Plex_Soldier, 
+		Snow_Plex_Soldier, 
+		Snow_Plex_Soldier, 
+		Snow_Plex_Soldier, 
+		Snow_Plex_Soldier, 
+		Snow_Plex_Soldier, 
+		Snow_Plex_Soldier, 
+		Snow_Plex_Soldier, 
+		</Company_Units>
+        <Max_Squad_Size> 9 </Max_Squad_Size>
+		<Create_Team_Type> Snow_Plex_Soldier_Team </Create_Team_Type>
+	</GroundCompany>
+
+	<Container Name="Snow_Plex_Soldier_Team">
+		<Variant_Of_Existing_Type>Infantry_Team_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_SNOW_PLEX_SOLDIER</Text_ID>
+		<Encyclopedia_Text> 
+				TEXT_STATS
+		        TEXT_LINE
+				TEXT_STAT_HEALTH_3150		
+				TEXT_LINE
+				TEXT_STAT_PULSE_COUNT_0.3
+				TEXT_LINE
+				TEXT_STAT_DELAY_SECONDS_0.7
+				TEXT_LINE
+				TEXT_STAT_RECHARGE_SECONDS_0.2
+				TEXT_LINE
+				TEXT_STAT_DAMAGE_162.0
+				TEXT_LINE
+				TEXT_STAT_UNIT_CAPACITY_9
+		</Encyclopedia_Text>
+       <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_INFANTRY_TYPE_ANTIVEHICLE</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_SnowPlexSoldier.tga</Icon_Name>
+		
+        <Affiliation>Rebel</Affiliation>
+		<Targeting_Max_Attack_Distance>175.0</Targeting_Max_Attack_Distance>
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		<Max_Speed> 1.1 </Max_Speed>
+		<FormationSpacing> 0.9 </FormationSpacing>
+        <FormationOrder> 1 </FormationOrder>
+		<Tactical_Bribe_Cost>630</Tactical_Bribe_Cost>
+		<CategoryMask> Infantry | AntiInfantry</CategoryMask>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
+	
+	
+	
+	
+	
+	
+	
+	
+
+    
+
+</Rebel_Trooper>

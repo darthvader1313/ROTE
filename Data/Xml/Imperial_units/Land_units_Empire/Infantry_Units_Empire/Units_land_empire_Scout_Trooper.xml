@@ -2,7 +2,7 @@
 <Scout_Trooper>
 
 
-<GroundInfantry Name="Scout_Trooper">
+<GroundInfantry Name="Imperial_Scout_Trooper">
 		<LOD_Bias>5</LOD_Bias>
 		<Text_ID>TEXT_UNIT_SCOUT_TROOPER</Text_ID>
 		<Encyclopedia_Text> 	       
@@ -182,8 +182,8 @@
 	<!-- This object type can be commented out or deleted if the base type is never effected by Force Corruption enemy conversion ability. -->
 	<!-- IMPORTANT: For now, only SFXEvent should be changed due to the on-the-fly type pointer change. If more is desired to be changed   -->
 	<!-- there could be serious ramifications, so please consult with Programming team.                                                    -->
-	<GroundInfantry Name="Scout_Trooper_Converted_To_Enemy">
-		<Variant_Of_Existing_Type> Scout_Trooper </Variant_Of_Existing_Type>
+	<GroundInfantry Name="Imperial_Scout_Trooper_Converted_To_Enemy">
+		<Variant_Of_Existing_Type> Imperial_Scout_Trooper </Variant_Of_Existing_Type>
 		<SFXEvent_Select> Unit_Select_Scout_Trooper </SFXEvent_Select>							  
 		<SFXEvent_Move> Unit_Move_Scout_Trooper </SFXEvent_Move>                         
 		<SFXEvent_Attack> Unit_Attack_Scout_Trooper </SFXEvent_Attack>                    
@@ -192,7 +192,7 @@
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Scout_Trooper </SFXEvent_Assist_Attack>       
 		</GroundInfantry>
 
-	<GroundInfantry Name="Scout_Trooper_No_Bike">
+	<GroundInfantry Name="Imperial_Scout_Trooper_No_Bike">
 		<LOD_Bias>5</LOD_Bias>
 		<Text_ID>TEXT_UNIT_SCOUT_TROOPER</Text_ID>
 		<Encyclopedia_Text> 
@@ -356,7 +356,7 @@
 	<!-- This object type can be commented out or deleted if the base type is never effected by Force Corruption enemy conversion ability. -->
 	<!-- IMPORTANT: For now, only SFXEvent should be changed due to the on-the-fly type pointer change. If more is desired to be changed   -->
 	<!-- there could be serious ramifications, so please consult with Programming team.                                                    -->
-	<GroundInfantry Name="Scout_Trooper_No_Bike_Converted_To_Enemy">
+	<GroundInfantry Name="Imperial_Scout_Trooper_No_Bike_Converted_To_Enemy">
 		<Variant_Of_Existing_Type> Scout_Trooper_No_Bike </Variant_Of_Existing_Type>
 		<SFXEvent_Select> Unit_Select_Scout_Trooper </SFXEvent_Select>							<!-- STUB PLACEHOLDER FOR FRANK -->  
 		<SFXEvent_Move> Unit_Move_Scout_Trooper </SFXEvent_Move>                         <!-- STUB PLACEHOLDER FOR FRANK -->  
@@ -372,7 +372,7 @@
 
 
 
-    <GroundCompany Name="Imperial_Light_Scout_Squad">
+    <GroundCompany Name="Imperial_Scout_Squad">
 		<LOD_Bias>5</LOD_Bias>
 		<Text_ID>TEXT_IMPERIAL_LIGHT_SCOUT_SQUAD</Text_ID>
 		<Encyclopedia_Text> 
@@ -414,11 +414,11 @@
 		<Ship_Class>infantry</Ship_Class>
 		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
 		<Company_Units>
-		Scout_Trooper, 
-		Scout_Trooper,
-		Scout_Trooper, 
-		Scout_Trooper,
-		Scout_Trooper
+		Imperial_Scout_Trooper, 
+		Imperial_Scout_Trooper,
+		Imperial_Scout_Trooper, 
+		Imperial_Scout_Trooper,
+		Imperial_Scout_Trooper
 		</Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		<Icon_Name>i_button_scout_trooper.tga</Icon_Name>

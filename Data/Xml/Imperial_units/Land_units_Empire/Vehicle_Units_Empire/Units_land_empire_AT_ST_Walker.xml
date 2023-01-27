@@ -2,7 +2,7 @@
 <AT_ST_Walker>
 
 
-    <GroundVehicle Name="AT_ST_Walker">
+    <GroundVehicle Name="Imperial_AT_ST_Walker">
 		<LOD_Bias>4</LOD_Bias>
 		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
@@ -238,8 +238,8 @@
         <Converted_To_Enemy_Die_Time_Seconds>60</Converted_To_Enemy_Die_Time_Seconds>
 	</GroundVehicle>
 
-	<GroundVehicle Name="AT_ST_Walker_Captured">
-		<Variant_Of_Existing_Type>AT_ST_Walker</Variant_Of_Existing_Type>
+	<GroundVehicle Name="Imperial_AT_ST_Walker_Captured">
+		<Variant_Of_Existing_Type>Imperial_AT_ST_Walker</Variant_Of_Existing_Type>
 		<Icon_Name>i_button_chewbacca_atst.tga</Icon_Name>
 	
 		<!-- MUST have same abilities PLUS EJECT_THIEF -->
@@ -286,8 +286,8 @@
 		</Unit_Abilities_Data>
 	</GroundVehicle>
 
-	<GroundVehicle Name="AT_ST_Walker_Death_Clone_00">
-		<Variant_Of_Existing_Type>AT_ST_Walker</Variant_Of_Existing_Type>
+	<GroundVehicle Name="Imperial_AT_ST_Walker_Death_Clone_00">
+		<Variant_Of_Existing_Type>Imperial_AT_ST_Walker</Variant_Of_Existing_Type>
 		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
 		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
       
@@ -303,8 +303,8 @@
 		
 	</GroundVehicle>
 
-	<GroundVehicle Name="AT_ST_Walker_Death_Clone_01">
-		<Variant_Of_Existing_Type>AT_ST_Walker</Variant_Of_Existing_Type>
+	<GroundVehicle Name="Imperial_AT_ST_Walker_Death_Clone_01">
+		<Variant_Of_Existing_Type>Imperial_AT_ST_Walker</Variant_Of_Existing_Type>
 		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
 		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
       
@@ -320,8 +320,8 @@
 		
 	</GroundVehicle>
 
-	<GroundVehicle Name="AT_ST_Walker_Death_Clone_02">
-		<Variant_Of_Existing_Type>AT_ST_Walker</Variant_Of_Existing_Type>
+	<GroundVehicle Name="Imperial_AT_ST_Walker_Death_Clone_02">
+		<Variant_Of_Existing_Type>Imperial_AT_ST_Walker</Variant_Of_Existing_Type>
 		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
 		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
       
@@ -338,7 +338,7 @@
 	
 	
 	
-	<GroundCompany Name="AT_ST_Squad">
+	<GroundCompany Name="Imperial_AT_ST_Squad">
 		<LOD_Bias>4</LOD_Bias>
 		<Text_ID>TEXT_IMPERIAL_HEAVY_SCOUT_SQUAD</Text_ID>
 		<Encyclopedia_Text> 
@@ -382,10 +382,10 @@
 		<Ship_Class>infantry</Ship_Class>
 		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
 		<Company_Units>
-		AT_ST_Walker, 
-		AT_ST_Walker, 
-		AT_ST_Walker, 
-		AT_ST_Walker,
+		Imperial_AT_ST_Walker, 
+		Imperial_AT_ST_Walker, 
+		Imperial_AT_ST_Walker, 
+		Imperial_AT_ST_Walker,
 		
 		</Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
@@ -424,14 +424,7 @@
 		<Population_Value>1</Population_Value>
 	</GroundCompany>
 	
-	<GroundCompany Name="Imperial_Heavy_Scout_Squad_Small">
-		<Variant_Of_Existing_Type>Imperial_Heavy_Scout_Squad</Variant_Of_Existing_Type>
-		<Company_Units> AT_ST_Walker, AT_ST_Walker, AT_ST_Walker </Company_Units>
-		<Tech_Level>6</Tech_Level>
-		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
-		<Max_Squad_Size> 3 </Max_Squad_Size>
-		<Damage>18</Damage> 
-	</GroundCompany>
+	
 	
 	
 	

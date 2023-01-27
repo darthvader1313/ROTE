@@ -10,7 +10,13 @@
 
 <Story>
 
-	
+	<Event Name="Universal_Story_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		
+		<Story_Chapter>12</Story_Chapter>
+		<Story_Tag>Intro_Tag</Story_Tag>
+	</Event>
 
 <!-- Force Rebels to get X-wing instead of Z-95 to start -->
 	<Event Name="Unlock_X_wings">

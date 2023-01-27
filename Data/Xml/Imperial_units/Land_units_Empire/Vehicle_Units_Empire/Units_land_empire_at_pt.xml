@@ -3,7 +3,7 @@
 
 
 <AT_PT_Data>
-    <GroundVehicle Name="AT_PT">
+    <GroundVehicle Name="Imperial_AT_PT">
 		<LOD_Bias>4</LOD_Bias>
 		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>40.0, 40.0</Blob_Shadow_Scale>
@@ -220,7 +220,7 @@
 
 
 
-    <GroundCompany Name="AT_PT_Company">
+    <GroundCompany Name="Imperial_AT_PT_Company">
         <LOD_Bias>4</LOD_Bias>
         <Text_ID>TEXT_UNIT_AT_PT</Text_ID>
 		<Encyclopedia_Text> 
@@ -267,10 +267,10 @@
         <Ship_Class>infantry</Ship_Class>
         <Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
         <Company_Units>
-		AT_PT, 
-		AT_PT, 
-		AT_PT, 
-		AT_PT,		
+		Imperial_AT_PT, 
+		Imperial_AT_PT, 
+		Imperial_AT_PT, 
+		Imperial_AT_PT,		
 		</Company_Units>
         <Max_Squad_Size>1</Max_Squad_Size>
         <Icon_Name>I_BUTTON_ATPT.tga</Icon_Name>

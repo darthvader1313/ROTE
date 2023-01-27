@@ -42,6 +42,10 @@
 	<File>LandBombingRunUnits.xml</File>
 
 	<File>SpecialStructures.xml</File>
+	<File>Specialstructures_Empire.xml</File>
+    <File>Specialstructures_Rebel.xml</File>
+
+
 	<File>StarBases.xml</File>
 
 	<File>Squadrons.xml</File>
@@ -50,6 +54,7 @@
 
 	<File>Projectiles.xml</File>
 	<File>Projectiles_Land.xml</File>
+	<File>Projectiles_Space.xml</File>
 
 	<File>SpecialEffects.xml</File>
 	<File>Particles.xml</File>
@@ -111,10 +116,10 @@
 	
 	<File>Units_Hero_Rebel_Yoda.xml</File>
 	<File>Units_Hero_Rebel_LukeSkywalker.xml</File>
-	<File>Units_Hero_Rebel_Gargantuan.xml</File>
+	
 	<File>Units_Hero_Rebel_Rogue_Squadron.xml</File>
 
-	<File>Units_Land_Rebel_Gallofree_HTT.xml</File>
+
 
 	<File>Units_Space_Rebel_BWing.xml</File>	
 	<File>Units_Space_Rebel_MC30_Frigate.xml</File>
@@ -177,30 +182,81 @@
 	
 	
 	
-	
-	
 	<!-- Infantry Units: Empire -->
 	
-	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_empire_Imperial_Stormtrooper.xml</File>
-	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_empire_Stormtrooper.xml</File>
-	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_empire_Dark_Trooper.xml</File>	
-	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_Empire_flametroopers.xml</File>
-	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_empire_armytrooper.xml</File>
-	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_Empire_Shocktroopers.xml</File>
-	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_empire_Shadowtrooper.xml</File>
-	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_empire_super_commands.xml</File>
-	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_empire_purge_trooper.xml</File>
-	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_Empire_Deathtroopers.xml</File>
-	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_Empire_Shoretroopers.xml</File>
-	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_Empire_Imperial_Engineer.xml</File>
-	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_Empire_Snowtroopers.xml</File>
-	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_Empire_Magmatroopers.xml</File>
-	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_Empire_Sandtroopers.xml</File>
-	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_Empire_Mimban_stormtroopers.xml</File>
+    <File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_empire_Imperial_Stormtrooper.xml</File>
 	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_Empire_501st_Stormtrooper.xml</File>
-	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_empire_Novatroopers.xml</File>
+    <File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_empire_armytrooper.xml</File>
+	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_empire_DarkTrooperSoldier.xml</File>
+	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_Empire_Deathtroopers.xml</File>
+	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_Empire_flametroopers.xml</File>
 	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_empire_Imperial_Clonetrooper.xml</File>
+	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_Empire_Imperial_Engineer.xml</File>
+	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_Empire_Magmatroopers.xml</File>
+	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_Empire_Mimban_stormtroopers.xml</File>
 	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_empire_Mustafar_Trooper.xml</File>
+	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_empire_Novatroopers.xml</File>
+	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_empire_purge_trooper.xml</File>
+	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_Empire_Sandtroopers.xml</File>
+	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_empire_Scout_Trooper.xml</File>
+	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_empire_Shadowtrooper.xml</File>
+	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_Empire_Shocktroopers.xml</File>
+	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_Empire_Shoretroopers.xml</File>
+	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_Empire_Snowtroopers.xml</File>
+	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_empire_super_commands.xml</File>
+	
+	<!-- Vehicle Units: Empire -->
+	
+	<File>Imperial_units\Land_units_Empire\Vehicle_Units_Empire\Units_land_empire_AT_AT_Walker.xml</File>
+	<File>Imperial_units\Land_units_Empire\Vehicle_Units_Empire\Units_land_empire_AT_DP.xml</File>
+	<File>Imperial_units\Land_units_Empire\Vehicle_Units_Empire\Units_land_empire_AT_DT.xml</File>
+	<File>Imperial_units\Land_units_Empire\Vehicle_Units_Empire\Units_land_empire_at_pt.xml</File>
+	<File>Imperial_units\Land_units_Empire\Vehicle_Units_Empire\Units_land_empire_AT_ST_Walker.xml</File>
+	<File>Imperial_units\Land_units_Empire\Vehicle_Units_Empire\Units_land_empire_juggernaut.xml</File>
+	<File>Imperial_units\Land_units_Empire\Vehicle_Units_Empire\Units_Land_Empire_Striker.xml</File>
+					   
+
+
+	
+	<!-- Infantry Units: Rebel -->
+	
+	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_land_Rebel_Trooper.xml</File>
+	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_Land_Rebel_Commando.xml</File>
+	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_land_Rebel_Desert_PlexSoldier.xml</File>
+	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_land_Rebel_Deserttrooper.xml</File>
+	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_land_Rebel_Elite_Soldier.xml</File>
+	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\units_land_Rebel_Elite_trooper.xml</File>
+	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_land_Rebel_Forest_PlexSoldier.xml</File>
+	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_land_Rebel_Foresttrooper.xml</File>
+	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_land_Rebel_Grenadier.xml</File>
+	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_land_Rebel_Guard_Trooper.xml</File>
+	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_land_rebel_Rebel_Vanguard_Trooper.xml</File>
+	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_Land_Rebel_Rifleman.xml</File>
+	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_Land_Rebel_RiflemanV2.xml</File>
+	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_land_Rebel_Saboteur.xml</File>
+	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_land_Rebel_Sniper.xml</File>
+	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_land_Rebel_Sniper_Forest.xml</File>
+	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_land_Rebel_Sniper_Snow.xml</File>
+	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_land_Rebel_Snow_PlexSoldier.xml</File>
+	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_land_Rebel_Snowtrooper.xml</File>
+	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_land_Rebel_Urban_Plex_Soldier.xml</File>
+	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_land_Rebel_Survivors.xml</File>
+	
+	<File>Rebel_units\Land_units_Rebel\Vehicle_units_Rebel\Units_Land_rebel_AAC.xml</File>
+	<File>Rebel_units\Land_units_Rebel\Vehicle_units_Rebel\Units_land_rebel_gallofree_htt.xml</File>
+	<File>Rebel_units\Land_units_Rebel\Vehicle_units_Rebel\Units_land_rebel_gargantuan_advanced.xml</File>
+	<File>Rebel_units\Land_units_Rebel\Vehicle_units_Rebel\Units_Land_rebel_Snowspeeder.xml</File>
+	<File>Rebel_units\Land_units_Rebel\Vehicle_units_Rebel\Units_land_rebel_t1b_tank.xml</File>
+	<File>Rebel_units\Land_units_Rebel\Vehicle_units_Rebel\Units_Land_rebel_T2B_Tank.xml</File>
+	<File>Rebel_units\Land_units_Rebel\Vehicle_units_Rebel\Units_land_rebel_V_19_landspeeder.xml</File>
+
+
+	
+	
+
+
+	
+		
 	
 	
 

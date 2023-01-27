@@ -255,8 +255,8 @@
         </Abilities>
         <Converted_To_Enemy_Die_Time_Seconds>60</Converted_To_Enemy_Die_Time_Seconds>
     </GroundVehicle>
-    <GroundVehicle Name="AT_AR_Walker_Captured">
-        <Variant_Of_Existing_Type>AT_AR_Walker</Variant_Of_Existing_Type>
+    <GroundVehicle Name="AT_DP_Walker_Captured">
+        <Variant_Of_Existing_Type>AT_DP_Walker</Variant_Of_Existing_Type>
         <Icon_Name>I_BUTTON_CHEWBACCA.tga</Icon_Name>
 
         <!-- MUST have same abilities PLUS EJECT_THIEF -->
@@ -304,8 +304,8 @@
         </Unit_Abilities_Data>
     </GroundVehicle>
 
-    <GroundVehicle Name="AT_AR_Walker_Death_Clone_00">
-        <Variant_Of_Existing_Type>AT_AR_Walker</Variant_Of_Existing_Type>
+    <GroundVehicle Name="AT_DP_Walker_Death_Clone_00">
+        <Variant_Of_Existing_Type>AT_DP_Walker</Variant_Of_Existing_Type>
         <Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
         <LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
 
@@ -321,8 +321,8 @@
 
     </GroundVehicle>
 
-    <GroundVehicle Name="AT_AR_Walker_Death_Clone_01">
-        <Variant_Of_Existing_Type>AT_AR_Walker</Variant_Of_Existing_Type>
+    <GroundVehicle Name="AT_DP_Walker_Death_Clone_01">
+        <Variant_Of_Existing_Type>AT_DP_Walker</Variant_Of_Existing_Type>
         <Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
         <LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
 
@@ -338,8 +338,8 @@
 
     </GroundVehicle>
 
-    <GroundVehicle Name="AT_AR_Walker_Death_Clone_02">
-        <Variant_Of_Existing_Type>AT_AR_Walker</Variant_Of_Existing_Type>
+    <GroundVehicle Name="AT_DP_Walker_Death_Clone_02">
+        <Variant_Of_Existing_Type>AT_DP_Walker</Variant_Of_Existing_Type>
         <Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
         <LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
 

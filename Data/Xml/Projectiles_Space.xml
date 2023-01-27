@@ -13,7 +13,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>P_Xyston_Superlaser.ALO</Space_Model_Name>
 		<Land_Model_Name>P_Xyston_Superlaser.ALO</Land_Model_Name>
-		<Scale_Factor>1.0</Scale_Factor>
+		<Scale_Factor>0.08</Scale_Factor>
 		<Damage_Type>Damage_Lance</Damage_Type>
 		<Max_Speed>200.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -107,7 +107,7 @@
 	
 	<!-- Turbolaser missile -->
 	
-	<Projectile Name="Proj_Ship_Concussion_Missile">
+	<Projectile Name="Proj_Ship_Concussion">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_concussion_missile.alo</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
@@ -150,9 +150,9 @@
 	
 	<Projectile Name="Proj_Ship_Turbolaser_Yellow_Octuple">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_yellow8.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_yellow8.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Scale_Factor>0.1</Scale_Factor>
+		<Scale_Factor>0.08</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
 		<Max_Speed>40.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -179,9 +179,9 @@
 	
 	<Projectile Name="Proj_Ship_Turbolaser_Yellow_Sextuple">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_yellow6.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_yellow6.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Scale_Factor>0.1</Scale_Factor>
+		<Scale_Factor>0.08</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
 		<Max_Speed>50.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -193,10 +193,10 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Yellow_Turbolaser_Large </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Yellow_Turbolaser_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Particle_Yellow_ship_turbolaser_Large </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Yellow_ship_turbolaser_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Yellow_Turbolaser_Large</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Particle_Yellow_ship_turbolaser_Large</Projectile_Lifetime_Detonation_Particle>
 		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
@@ -208,9 +208,9 @@
 	
 	<Projectile Name="Proj_Ship_Turbolaser_Yellow_Quad">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_yellow4.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_yellow4.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Scale_Factor>0.1</Scale_Factor>
+		<Scale_Factor>0.08</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
 		<Max_Speed>55.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -222,10 +222,10 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Yellow_Turbolaser_Medium </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Yellow_Turbolaser_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Particle_Yellow_ship_turbolaser_Medium </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Yellow_ship_turbolaser_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Yellow_Turbolaser_Medium</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Particle_Yellow_ship_turbolaser_Medium</Projectile_Lifetime_Detonation_Particle>
 		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
@@ -237,9 +237,9 @@
 		
 	<Projectile Name="Proj_Ship_Turbolaser_Yellow_Tripple">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_yellow3.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_yellow3.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Scale_Factor>0.1</Scale_Factor>
+		<Scale_Factor>0.08</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
 		<Max_Speed>55.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -251,10 +251,10 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Yellow_Turbolaser_Medium </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Yellow_Turbolaser_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Particle_Yellow_ship_turbolaser_Medium </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Yellow_ship_turbolaser_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Yellow_Turbolaser_Medium</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Particle_Yellow_ship_turbolaser_Medium</Projectile_Lifetime_Detonation_Particle>
 		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
@@ -266,9 +266,9 @@
 	
 	<Projectile Name="Proj_Ship_Turbolaser_Yellow_Dual">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_yellow2.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_yellow2.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Scale_Factor>0.1</Scale_Factor>
+		<Scale_Factor>0.08</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
 		<Max_Speed>60.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -280,10 +280,10 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Yellow_Turbolaser_Small </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Yellow_Turbolaser_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Particle_Yellow_ship_turbolaser_Small </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Yellow_ship_turbolaser_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Yellow_Turbolaser_Small</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Particle_Yellow_ship_turbolaser_Small</Projectile_Lifetime_Detonation_Particle>
 		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
@@ -295,9 +295,9 @@
 	
 	<Projectile Name="Proj_Ship_Turbolaser_Yellow_Single">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_yellow1.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_yellow1.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Scale_Factor>0.1</Scale_Factor>
+		<Scale_Factor>0.08</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
 		<Max_Speed>60.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -309,10 +309,10 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Yellow_Turbolaser_Small </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Yellow_Turbolaser_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Particle_Yellow_ship_turbolaser_Small </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Yellow_ship_turbolaser_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Yellow_Turbolaser_Small</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Particle_Yellow_ship_turbolaser_Small</Projectile_Lifetime_Detonation_Particle>
 		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
@@ -328,9 +328,9 @@
 	
 	<Projectile Name="Proj_Ship_Ion_Cannon_Octuple">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_ion8.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_ion8.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Scale_Factor>0.065</Scale_Factor> <!-- 0.092 -->
+		<Scale_Factor>0.08</Scale_Factor> <!-- 0.092 -->
 		<Max_Speed>47.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -355,9 +355,9 @@
 	
 	<Projectile Name="Proj_Ship_Ion_Cannon_Sextuple">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_ion6.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_ion6.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Scale_Factor>0.065</Scale_Factor> <!-- 0.092 -->
+		<Scale_Factor>0.08</Scale_Factor> <!-- 0.092 -->
 		<Max_Speed>47.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -382,9 +382,9 @@
 	
 	<Projectile Name="Proj_Ship_Ion_Cannon_Quad">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_ion4.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_ion4.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Scale_Factor>0.065</Scale_Factor> <!-- 0.092 -->
+		<Scale_Factor>0.08</Scale_Factor> <!-- 0.092 -->
 		<Max_Speed>47.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -409,9 +409,9 @@
 	
 	<Projectile Name="Proj_Ship_Ion_Cannon_Tripple_Heavy">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_ion3_heavy.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_ion3_heavy.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Scale_Factor>0.065</Scale_Factor> <!-- 0.092 -->
+		<Scale_Factor>0.08</Scale_Factor> <!-- 0.092 -->
 		<Max_Speed>47.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -436,9 +436,9 @@
 	
 	<Projectile Name="Proj_Ship_Ion_Cannon_Tripple">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_ion3.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_ion3.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Scale_Factor>0.065</Scale_Factor> <!-- 0.092 -->
+		<Scale_Factor>0.08</Scale_Factor> <!-- 0.092 -->
 		<Max_Speed>47.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -463,9 +463,9 @@
 	
 	<Projectile Name="Proj_Ship_Ion_Cannon_Dual">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_ion2.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_ion2.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Scale_Factor>0.065</Scale_Factor> <!-- 0.092 -->
+		<Scale_Factor>0.08</Scale_Factor> <!-- 0.092 -->
 		<Max_Speed>47.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -488,11 +488,11 @@
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 	</Projectile>
 	
-	<Projectile Name="Proj_Ship_Ion_Cannon">
+	<Projectile Name="Proj_Ship_Ion_Cannon_Single">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_ion1.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_ion1.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Scale_Factor>0.065</Scale_Factor> <!-- 0.092 -->
+		<Scale_Factor>0.08</Scale_Factor> <!-- 0.092 -->
 		<Max_Speed>47.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -521,9 +521,9 @@
 	
 	<Projectile Name="Proj_Ship_Turbolaser_Red_Octuple">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_red8.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_red8.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Scale_Factor>0.065</Scale_Factor>
+		<Scale_Factor>0.08</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
 		<Max_Speed>47.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -550,9 +550,9 @@
 	
 	<Projectile Name="Proj_Ship_Turbolaser_Red_Sextuple">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_red6.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_red6.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Scale_Factor>0.065</Scale_Factor>
+		<Scale_Factor>0.08</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
 		<Max_Speed>47.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -579,9 +579,9 @@
 	
 	<Projectile Name="Proj_Ship_Turbolaser_Red_Quad">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_red4.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_red4.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Scale_Factor>0.065</Scale_Factor>
+		<Scale_Factor>0.08</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
 		<Max_Speed>47.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -608,9 +608,9 @@
 		
 	<Projectile Name="Proj_Ship_Turbolaser_Red_Tripple">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_red3.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_red3.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Scale_Factor>0.065</Scale_Factor>
+		<Scale_Factor>0.08</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
 		<Max_Speed>47.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -637,9 +637,9 @@
 	
 	<Projectile Name="Proj_Ship_Turbolaser_Red_Dual">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_red2.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_red2.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Scale_Factor>0.065</Scale_Factor>
+		<Scale_Factor>0.08</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
 		<Max_Speed>47.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -666,9 +666,9 @@
 	
 	<Projectile Name="Proj_Ship_Turbolaser_Red_Single">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_red1.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_red1.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Scale_Factor>0.065</Scale_Factor>
+		<Scale_Factor>0.08</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
 		<Max_Speed>47.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -700,9 +700,9 @@
 	
 	<Projectile Name="Proj_Ship_Turbolaser_Purple_Octuple">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_purple8.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_purple8.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Scale_Factor>0.065</Scale_Factor>
+		<Scale_Factor>0.08</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
 		<Max_Speed>47.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -729,9 +729,9 @@
 	
 	<Projectile Name="Proj_Ship_Turbolaser_Purple_Sextuple">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_purple6.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_purple6.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Scale_Factor>0.065</Scale_Factor>
+		<Scale_Factor>0.08</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
 		<Max_Speed>47.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -758,9 +758,9 @@
 	
 	<Projectile Name="Proj_Ship_Turbolaser_Purple_Quad">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_purple4.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_purple4.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Scale_Factor>0.065</Scale_Factor>
+		<Scale_Factor>0.08</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
 		<Max_Speed>47.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -787,9 +787,9 @@
 		
 	<Projectile Name="Proj_Ship_Turbolaser_Purple_Tripple">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_purple3.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_purple3.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Scale_Factor>0.065</Scale_Factor>
+		<Scale_Factor>0.08</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
 		<Max_Speed>47.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -816,9 +816,9 @@
 	
 	<Projectile Name="Proj_Ship_Turbolaser_Purple_Dual">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_purple2.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_purple2.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Scale_Factor>0.065</Scale_Factor>
+		<Scale_Factor>0.08</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
 		<Max_Speed>47.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -845,9 +845,9 @@
 	
 	<Projectile Name="Proj_Ship_Turbolaser_Purple_Single">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_purple1.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_purple1.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Scale_Factor>0.065</Scale_Factor>
+		<Scale_Factor>0.08</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
 		<Max_Speed>47.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -880,9 +880,9 @@
 	
 	<Projectile Name="Proj_Ship_Turbolaser_Blue_Octuple">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_blue8.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_blue8.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Scale_Factor>0.065</Scale_Factor>
+		<Scale_Factor>0.08</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
 		<Max_Speed>47.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -909,9 +909,9 @@
 	
 	<Projectile Name="Proj_Ship_Turbolaser_Blue_Sextuple">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_bluee6.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_bluee6.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Scale_Factor>0.065</Scale_Factor>
+		<Scale_Factor>0.08</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
 		<Max_Speed>47.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -938,9 +938,9 @@
 	
 	<Projectile Name="Proj_Ship_Turbolaser_Blue_Quad">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_blue4.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_blue4.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Scale_Factor>0.065</Scale_Factor>
+		<Scale_Factor>0.08</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
 		<Max_Speed>47.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -967,9 +967,9 @@
 		
 	<Projectile Name="Proj_Ship_Turbolaser_Blue_Tripple">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_blue3.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_blue3.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Scale_Factor>0.065</Scale_Factor>
+		<Scale_Factor>0.08</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
 		<Max_Speed>47.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -996,9 +996,9 @@
 	
 	<Projectile Name="Proj_Ship_Turbolaser_Blue_Dual">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_blue2.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_blue2.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Scale_Factor>0.065</Scale_Factor>
+		<Scale_Factor>0.08</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
 		<Max_Speed>47.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -1025,9 +1025,9 @@
 	
 	<Projectile Name="Proj_Ship_Turbolaser_Blue_Single">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_blue1.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_blue1.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Scale_Factor>0.065</Scale_Factor>
+		<Scale_Factor>0.08</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
 		<Max_Speed>47.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -1059,9 +1059,9 @@
 	
 	<Projectile Name="Proj_Ship_Turbolaser_Green_Octuple">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_green8.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_green8.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Scale_Factor>0.065</Scale_Factor>
+		<Scale_Factor>0.08</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
 		<Max_Speed>47.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -1088,9 +1088,9 @@
 	
 	<Projectile Name="Proj_Ship_Turbolaser_Green_Sextuple">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_green6.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_green6.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Scale_Factor>0.065</Scale_Factor>
+		<Scale_Factor>0.08</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
 		<Max_Speed>47.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -1117,9 +1117,9 @@
 	
 	<Projectile Name="Proj_Ship_Turbolaser_Green_Quad">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_green4.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_green4.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Scale_Factor>0.065</Scale_Factor>
+		<Scale_Factor>0.08</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
 		<Max_Speed>47.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -1146,9 +1146,9 @@
 		
 	<Projectile Name="Proj_Ship_Turbolaser_Green_Tripple">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_green3.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_green3.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Scale_Factor>0.065</Scale_Factor>
+		<Scale_Factor>0.08</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
 		<Max_Speed>47.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -1175,9 +1175,9 @@
 	
 	<Projectile Name="Proj_Ship_Turbolaser_Green_Dual">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_green2.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_green2.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Scale_Factor>0.065</Scale_Factor>
+		<Scale_Factor>0.08</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
 		<Max_Speed>47.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -1204,9 +1204,9 @@
 	
 	<Projectile Name="Proj_Ship_Turbolaser_Green_Single">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_green1.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_green1.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Scale_Factor>0.065</Scale_Factor>
+		<Scale_Factor>0.08</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
 		<Max_Speed>47.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -1237,7 +1237,7 @@
 	
 	<Projectile Name="Proj_Fighter_Turbolaser_yellow">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_yellow1.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_yellow1.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 		<Scale_Factor>0.025</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
@@ -1266,7 +1266,7 @@
 	
 	<Projectile Name="Proj_Fighter_Turbolaser_red">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_red1.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_red1.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 		<Scale_Factor>0.025</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
@@ -1295,7 +1295,7 @@
 	
 	<Projectile Name="Proj_Fighter_Turbolaser_green">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_green1.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_green1.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 		<Scale_Factor>0.025</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
@@ -1324,9 +1324,9 @@
 	
 	<Projectile Name="Proj_Ship_Turbolaser_Red_Bombard">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_turbolaser_r1.ALO</Space_Model_Name>
+		<Space_Model_Name>w_ship_turbolaser_r1.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Scale_Factor>1.0</Scale_Factor>
+		<Scale_Factor>0.08</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
 		<Max_Speed>30.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>

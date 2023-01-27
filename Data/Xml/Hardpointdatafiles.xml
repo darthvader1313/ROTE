@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+
+<Hard_Point_Files>
+	<File>HardPoints.xml</File>
+	<File>CIN_HardPoints.xml</File>
+	<File>HardPoints_Underworld.xml</File>
+	
+	
+	<File>Imperial_units\Hardpoints_Empire\HardPoints_Empire_Starbase.xml</File>
+	<File>Imperial_units\Land_Hardpoints_Empire\HardPoints_AT_AT_Walker.xml</File>
+	<File>Imperial_units\Land_Hardpoints_Empire\HardPoints_TIE_Striker.xml</File>
+	
+	
+	
+	<File>Rebel_units\Hardpoints_Rebel\HardPoints_Rebel_Starbase.xml</File>
+	<File>Rebel_units\Land_Hardpoints_Rebel\Hardpoints_AAC.xml</File>
+	<File>Rebel_units\Land_Hardpoints_Rebel\Hardpoints_Gargantuan_Advanced.xml</File>
+	<File>Rebel_units\Land_Hardpoints_Rebel\HardPoints_Snowspeeder.xml</File>
+	<File>Rebel_units\Land_Hardpoints_Rebel\Hardpoints_T1B.xml</File>
+	
+	
+	
+	
+	
+</Hard_Point_Files>

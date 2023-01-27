@@ -1246,7 +1246,7 @@
 
     <CommandBarComponent Name="radar_galactic">
             <Type>Button</Type>
-            <Size>35 69</Size>
+            <Size>55 70</Size>
     </CommandBarComponent>
 
     <CommandBarComponent Name="Text_Tech_Level">

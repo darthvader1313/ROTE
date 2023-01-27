@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Format:
+
+	<Material name="YourMaterialName">
+		<Texture_Name>YourTextureName.tga</Texture_Name>
+		<Render_Mode>Your_Render_Mode</Render_Mode>
+	</Material>
+	
+	Note: usually you'd not specify the render mode since the default mode "MODULATE"
+			is almost always used.
+	
+	Default settings: Texture_Name: w_shadow_blob.tga
+							Render_Mode: MODULATE
+							
+	In case no material specified for a certain shadow blob, the default material will be used.
+	Default material is always registered (hardcoded) in terrain (even if this file is missing).
+-->
+
+
+<Shadow_Blob_Materials>
+	<Material name="Terrain_Editor_Brush">
+		<Texture_Name>editor_select_overlay.tga</Texture_Name>
+		<Render_Mode>ALPHA</Render_Mode>
+	</Material>
+	
+	<Material name="Generic_Shadow">
+		<Texture_Name>w_shadow_blob.tga</Texture_Name>
+		<Render_Mode>MODULATE</Render_Mode>
+	</Material>	
+	
+	<Material name="Tree_Shadow">
+		<Texture_Name>w_shadow_tree_blob.tga</Texture_Name>
+		<Render_Mode>MODULATE</Render_Mode>
+	</Material>
+
+	<Material name="Tree_Shadow_Light">
+		<Texture_Name>w_shadow_tree_blob_light.tga</Texture_Name>
+		<Render_Mode>MODULATE</Render_Mode>
+	</Material>		
+	
+	<Material name="Rock_Shadow">
+		<Texture_Name>w_shadow_rock_blob.tga</Texture_Name>
+		<Render_Mode>MODULATE</Render_Mode>
+	</Material>	
+
+	<Material name="Square_Shadow">
+		<Texture_Name>w_shadow_square_blob.tga</Texture_Name>
+		<Render_Mode>MODULATE</Render_Mode>
+	</Material>	
+
+	<Material name="Reinforcement_Overlay_Rebel">
+		<Texture_Name>i_rebel_decal.tga</Texture_Name>
+		<Render_Mode>ALPHA</Render_Mode>
+	</Material>
+
+	<Material name="Reinforcement_Overlay_Empire">
+		<Texture_Name>i_empire_decal.tga</Texture_Name>
+		<Render_Mode>ALPHA</Render_Mode>
+	</Material>
+
+	<Material name="Reinforcement_Overlay_Underworld">
+		<Texture_Name>i_underworld_decal.tga</Texture_Name>
+		<Render_Mode>ALPHA</Render_Mode>
+	</Material>
+
+	<Material name="Bombing_Run_Rebel">
+		<Texture_Name>i_bombing_run_rebel.tga</Texture_Name>
+		<Render_Mode>ALPHA</Render_Mode>
+	</Material>
+
+	<Material name="Bombing_Run_Empire">
+		<Texture_Name>i_bombing_run_empire.tga</Texture_Name>
+		<Render_Mode>ALPHA</Render_Mode>
+	</Material>
+	
+	<Material name="Bombing_Run_Underworld">
+		<Texture_Name>i_bombing_run_rebel.tga</Texture_Name>
+		<Render_Mode>ALPHA</Render_Mode>
+	</Material>
+
+	<Material name="Bombardment_Rebel">
+		<Texture_Name>I_bombardment_rebel.tga</Texture_Name>
+		<Render_Mode>ALPHA</Render_Mode>
+	</Material>
+
+	<Material name="Bombardment_Empire">
+		<Texture_Name>I_bombardment_empire.tga</Texture_Name>
+		<Render_Mode>ALPHA</Render_Mode>
+	</Material>
+
+	<Material name="Bombardment_Underworld">
+		<Texture_Name>I_bombardment_underworld.tga</Texture_Name>
+		<Render_Mode>ALPHA</Render_Mode>
+	</Material>
+
+	<Material name="Selection_Rebel_Land">
+		<Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Rebel.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+	</Material>
+	
+	<Material name="Selection_Empire_Land">
+		<Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Empire.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+	</Material>
+
+    <Material name="Selection_Rebel_Space">        
+        <Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Rebel.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+    </Material>
+
+    <Material name="Selection_Empire_Space">       
+        <Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Empire.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+    </Material>
+
+	<Material name="Selection_Garrison_Rebel_Land">
+		<Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Rebel.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+	</Material>
+	
+    <Material name="Selection_Garrison_Rebel_Space">
+        <Texture_Name>i_selection_cutout_space.tga</Texture_Name>
+        <Texture_Name_2>I_Selection_Rebel.tga</Texture_Name_2>
+        <Shader_Name>BlobStencilMasked.fx</Shader_Name>
+    </Material>
+	
+	<Material name="Selection_Garrison_Empire_Land">
+		<Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Empire.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+	</Material>
+	
+    <Material name="Selection_Garrison_Empire_Space">
+        <Texture_Name>i_selection_cutout_space.tga</Texture_Name>
+        <Texture_Name_2>I_Selection_Empire.tga</Texture_Name_2>
+        <Shader_Name>BlobStencilMasked.fx</Shader_Name>
+    </Material>
+	
+	<Material name="Selection_CIS_Remnant_Land">
+		<Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_CIS_Remnant.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+	</Material>
+	
+	<Material name="Selection_CIS_Remnant_Space">       
+        <Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_CIS_Remnant.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+    </Material>
+	
+	<Material name="Selection_Garrison_CIS_Remnant_Land">
+		<Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_CIS_Remnant.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+	</Material>
+	
+    <Material name="Selection_Garrison_CIS_Remnant_Space">
+        <Texture_Name>i_selection_cutout_space.tga</Texture_Name>
+        <Texture_Name_2>I_Selection_CIS_Remnant.tga</Texture_Name_2>
+        <Shader_Name>BlobStencilMasked.fx</Shader_Name>
+    </Material>
+	
+	<Material name="Selection_Hutt_Cartel_Land">
+		<Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Hutt_Cartel.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+	</Material>
+	
+	<Material name="Selection_Hutt_Cartel_Space">       
+        <Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Hutt_Cartel.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+    </Material>
+	
+	<Material name="Selection_Garrison_Hutt_Cartel_Land">
+		<Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Hutt_Cartel.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+	</Material>
+	
+    <Material name="Selection_Garrison_Hutt_Cartel_Space">
+        <Texture_Name>i_selection_cutout_space.tga</Texture_Name>
+        <Texture_Name_2>I_Selection_Hutt_Cartel.tga</Texture_Name_2>
+        <Shader_Name>BlobStencilMasked.fx</Shader_Name>
+    </Material>
+	
+	<Material name="Selection_Black_Sun_Land">
+		<Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Black_Sun.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+	</Material>
+	
+	<Material name="Selection_Black_Sun_Space">       
+        <Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Black_Sun.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+    </Material>
+	
+	<Material name="Selection_Garrison_Black_Sun_Land">
+		<Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Black_Sun.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+	</Material>
+	
+    <Material name="Selection_Garrison_Black_Sun_Space">
+        <Texture_Name>i_selection_cutout_space.tga</Texture_Name>
+        <Texture_Name_2>I_Selection_Black_Sun.tga</Texture_Name_2>
+        <Shader_Name>BlobStencilMasked.fx</Shader_Name>
+    </Material>
+	
+	<Material name="Selection_Mandalorians_Land">
+		<Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Mandalorians.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+	</Material>
+	
+	<Material name="Selection_Mandalorians_Space">       
+        <Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Mandalorians.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+    </Material>
+	
+	<Material name="Selection_Garrison_Mandalorians_Land">
+		<Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Mandalorians.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+	</Material>
+	
+    <Material name="Selection_Garrison_Mandalorians_Space">
+        <Texture_Name>i_selection_cutout_space.tga</Texture_Name>
+        <Texture_Name_2>I_Selection_Mandalorians.tga</Texture_Name_2>
+        <Shader_Name>BlobStencilMasked.fx</Shader_Name>
+    </Material>
+	
+	<Material name="Selection_Corporate_Sector_Land">
+		<Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Corporate_Sector.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+	</Material>
+	
+	<Material name="Selection_Corporate_Sector_Space">       
+        <Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Corporate_Sector.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+    </Material>
+	
+	<Material name="Selection_Garrison_Corporate_Sector_Land">
+		<Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Corporate_Sector.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+	</Material>
+	
+    <Material name="Selection_Garrison_Corporate_Sector_Space">
+        <Texture_Name>i_selection_cutout_space.tga</Texture_Name>
+        <Texture_Name_2>I_Selection_Corporate_Sector.tga</Texture_Name_2>
+        <Shader_Name>BlobStencilMasked.fx</Shader_Name>
+    </Material>
+
+
+	<Material name="Invalid_Move_Land">
+		<Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>i_selection_invalid.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+	</Material>
+
+	<Material name="Yellow_Move_Land">
+		<Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>i_selection_yellow.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+	</Material>
+
+	<!-- A ring around the mouse world location (cursor) to show how far Obiwan's "force distract" will effect potential units -->
+	<Material name="Rebel_Land_Area_Effect_Range_Overlay">
+		<Texture_Name>i_circle00.tga</Texture_Name>
+		<Render_Mode>ALPHA</Render_Mode>
+	</Material>
+	
+	<!-- A ring around Obiwan to show how far he target his "force distract" ping from his location -->
+	<Material name="Rebel_Land_Ability_Targeting_Range_Overlay">
+		<Texture_Name>i_circle00.tga</Texture_Name>
+		<Render_Mode>ALPHA</Render_Mode>
+	</Material>
+	
+	<!-- Currently unused by Empire - Boba Fett does not require this since his jet pack jump has no area effect. Stubbed in just in case -->
+	<Material name="Empire_Land_Area_Effect_Range_Overlay">
+		<Texture_Name>i_circle00.tga</Texture_Name>
+		<Render_Mode>ALPHA</Render_Mode>
+	</Material>
+	
+	<!-- A ring around Boba Fett to show how he can target his jet pack jump from his location -->
+	<Material name="Empire_Land_Ability_Targeting_Range_Overlay">
+		<Texture_Name>i_circle00.tga</Texture_Name>
+		<Render_Mode>ALPHA</Render_Mode>
+	</Material>
+	
+	<Material name="Reinforcement_Point_Radius_Overlay">
+		<Texture_Name>i_circle01.tga</Texture_Name>
+		<Render_Mode>ALPHA</Render_Mode>
+	</Material>
+
+
+    <Material name="Selection_Rebel_Hero">
+        <Texture_Name>i_selection_rebel.tga</Texture_Name>
+        <Render_Mode>ALPHA</Render_Mode>
+    </Material>
+
+    <Material name="Selection_Empire_Hero">
+        <Texture_Name>i_selection_empire.tga</Texture_Name>
+        <Render_Mode>ALPHA</Render_Mode>
+    </Material>
+
+    <Material name="Highlight_Rebel_Hero">
+        <Texture_Name>i_highlight_rebel_hero.tga</Texture_Name>
+        <Render_Mode>ALPHA</Render_Mode>
+    </Material>
+
+    <Material name="Highlight_Empire_Hero">
+        <Texture_Name>i_highlight_empire_hero.tga</Texture_Name>
+        <Render_Mode>ALPHA</Render_Mode>
+    </Material>
+
+    <Material name="Highlight_Underworld_Hero">
+        <Texture_Name>i_highlight_underworld_hero.tga</Texture_Name>
+        <Render_Mode>ALPHA</Render_Mode>
+    </Material>
+
+    <Material name="Sensor_Jamming_Blob">
+        <Texture_Name>i_circle00.tga</Texture_Name>
+        <Render_Mode>ALPHA</Render_Mode>
+    </Material>
+
+
+</Shadow_Blob_Materials>

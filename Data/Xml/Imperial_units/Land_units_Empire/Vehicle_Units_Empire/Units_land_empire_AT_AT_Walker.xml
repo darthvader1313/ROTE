@@ -2,7 +2,7 @@
 <AT_AT>
 
 
-    <GroundVehicle Name="AT_AT_Walker">
+    <GroundVehicle Name="Imperial_AT_AT_Walker">
 		<LOD_Bias>0.5</LOD_Bias>
 		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>75.0, 50.0</Blob_Shadow_Scale>
@@ -116,8 +116,8 @@
 		<Projectile_Fire_Pulse_Delay_Seconds>0.6</Projectile_Fire_Pulse_Delay_Seconds>
 		
 		<Hardpoints>
-				HP_AT-AT_00,
-				HP_AT-AT_01
+				HP_AT-AT_Walker_00,
+				HP_AT-AT_Walker_01
 		</Hardpoints>
 
 		<Death_SFXEvent_Start_Die>Unit_AT_AT_Death_SFX</Death_SFXEvent_Start_Die>
@@ -192,8 +192,8 @@
 	
 	
 	
-	<GroundVehicle Name="AT_AT_Walker_Captured">
-		<Variant_Of_Existing_Type>AT_AT_Walker</Variant_Of_Existing_Type>
+	<GroundVehicle Name="Imperial_AT_AT_Walker_Captured">
+		<Variant_Of_Existing_Type>Imperial_AT_AT_Walker</Variant_Of_Existing_Type>
 		<Icon_Name>i_button_chewbacca_atat.tga</Icon_Name>
 
         <!-- gth this behavior list matches the AT_AT_WALKER except for the deploy troopers ability -->
@@ -228,8 +228,8 @@
 	</GroundVehicle>
 	
 	
-	<GroundVehicle Name="AT_AT_Walker_Cable_Attack_Death_Clone">
-		<Variant_Of_Existing_Type>AT_AT_Walker</Variant_Of_Existing_Type>
+	<GroundVehicle Name="Imperial_AT_AT_Walker_Cable_Attack_Death_Clone">
+		<Variant_Of_Existing_Type>Imperial_AT_AT_Walker</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>CA_DIE</Specific_Death_Anim_Type>
 		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
 		<LandBehavior>HIDE_WHEN_FOGGED,IMPOSING_PRESENCE</LandBehavior>
@@ -246,8 +246,8 @@
 
 	</GroundVehicle>
 
-	<GroundVehicle Name="AT_AT_Walker_Death_Clone_00">
-		<Variant_Of_Existing_Type>AT_AT_Walker</Variant_Of_Existing_Type>
+	<GroundVehicle Name="Imperial_AT_AT_Walker_Death_Clone_00">
+		<Variant_Of_Existing_Type>Imperial_AT_AT_Walker</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type />
 		<Specific_Death_Anim_Index> 0 </Specific_Death_Anim_Index>
 		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
@@ -268,8 +268,8 @@
 	</GroundVehicle>
 	
 
-	<GroundVehicle Name="AT_AT_Walker_Death_Clone_01">
-		<Variant_Of_Existing_Type>AT_AT_Walker</Variant_Of_Existing_Type>
+	<GroundVehicle Name="Imperial_AT_AT_Walker_Death_Clone_01">
+		<Variant_Of_Existing_Type>Imperial_AT_AT_Walker</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type />
 		<Specific_Death_Anim_Index> 1 </Specific_Death_Anim_Index>
 		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
@@ -290,8 +290,8 @@
    
 	</GroundVehicle>
 
-	<GroundVehicle Name="AT_AT_Walker_Death_Clone_02">
-		<Variant_Of_Existing_Type>AT_AT_Walker</Variant_Of_Existing_Type>
+	<GroundVehicle Name="Imperial_AT_AT_Walker_Death_Clone_02">
+		<Variant_Of_Existing_Type>Imperial_AT_AT_Walker</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type />
 		<Specific_Death_Anim_Index> 2 </Specific_Death_Anim_Index>
 		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
@@ -318,7 +318,7 @@
 	
 	
 	
-	<GroundCompany Name="AT_AT_Company">
+	<GroundCompany Name="Imperial_AT_AT_Company">
 		<LOD_Bias>0.5</LOD_Bias>
 		<Text_ID>TEXT_IMPERIAL_HEAVY_ASSAULT_COMPANY</Text_ID>
 		<Encyclopedia_Text> 
@@ -362,8 +362,8 @@
 		<Ship_Class>walker</Ship_Class>
 		<Company_Transport_Unit>Imperial_ATAT_Barge</Company_Transport_Unit>
 		<Company_Units>
-		AT_AT_Walker,
-		AT_AT_Walker
+		Imperial_AT_AT_Walker,
+		Imperial_AT_AT_Walker
 		</Company_Units>
 		<Icon_Name>I_BUTTON_ATAT.tga</Icon_Name>
 		<GUI_Model_Name>EV_AT-AT.ALO</GUI_Model_Name>

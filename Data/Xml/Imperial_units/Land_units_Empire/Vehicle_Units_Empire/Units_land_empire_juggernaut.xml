@@ -2,7 +2,7 @@
 <Juggernaut_Data>
 
 
-	<GroundVehicle Name="HAV_Juggernaut">
+	<GroundVehicle Name="Imperial_Juggernaut">
 		<LOD_Bias>0.5</LOD_Bias>
 		<Text_ID>TEXT_UNIT_JUGGERNAUT</Text_ID>
   		<Encyclopedia_Text>
@@ -209,8 +209,8 @@
 
 
 	<!-- Chewbacca can only capture a Juggernaut if it's empty! -->
-	<GroundVehicle Name="HAV_Juggernaut_Captured">
-		<Variant_Of_Existing_Type>HAV_Juggernaut</Variant_Of_Existing_Type>
+	<GroundVehicle Name="Imperial_Juggernaut_Captured">
+		<Variant_Of_Existing_Type>Imperial_Juggernaut</Variant_Of_Existing_Type>
 		<Icon_Name>i_button_chewbacca_ev_juggernaut.tga</Icon_Name>
 	
 		<!-- MUST have same abilities PLUS EJECT_THIEF -->
@@ -232,7 +232,7 @@
 
 
 
-	<GroundCompany Name="HAV_Juggernaut_Company">
+	<GroundCompany Name="Imperial_Juggernaut_Company">
 		<LOD_Bias>0.5</LOD_Bias>
 		<Text_ID>TEXT_UNIT_JUGGERNAUT_TEAM</Text_ID>		
   		<Encyclopedia_Text> 
@@ -282,8 +282,8 @@
 		
 		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
 		<Company_Units>
-		HAV_Juggernaut,
-		HAV_Juggernaut
+		Imperial_Juggernaut,
+		Imperial_Juggernaut
 		</Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 

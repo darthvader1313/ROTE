@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+
+<HardPoints>
+
+<HardPoint Name="HP_Tie_Striker_Laser">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Fire_Bone_A>MuzzleC_00</Fire_Bone_A>
+        <Fire_Bone_B>MuzzleC_01</Fire_Bone_B>
+        <Fire_Cone_Width>40.0</Fire_Cone_Width>
+        <Fire_Cone_Height>60.0</Fire_Cone_Height>
+        <SFXEvent_Fire> Unit_TIE_Fighter_Fire </SFXEvent_Fire>
+        <Fire_Projectile_Type>Proj_air_laser_green</Fire_Projectile_Type>
+        <Projectile_Fire_Recharge_Seconds>2.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+        <Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+        
+		<Targeting_Fire_Inaccuracy>Infantry, 20.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Vehicle, 1.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Air, 2.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Structure, 10.0</Targeting_Fire_Inaccuracy>
+        
+    </HardPoint>
+	
+   
+	
+	
+	
+</HardPoints>
