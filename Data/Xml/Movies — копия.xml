@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+    
+	
+	
+	
+	<Event Name="Conquer_Planets_3">
+		<Event_Type>STORY_CONQUER_COUNT</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Event_Param2>FILTER_FRIENDLY_ONLY</Event_Param2>
+
+        <Prereq>Universal_Story_Start</Prereq>
+    
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Empire_Tech_02</Reward_Param1>
+	</Event>
+	
+
+
+
+
+
+</Movies>

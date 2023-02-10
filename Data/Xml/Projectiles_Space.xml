@@ -40,7 +40,7 @@
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Red_Turbolaser_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
 		<Projectile_Lifetime_Detonation_Particle>Particle_Red_Turbolaser_Large</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>3000</AI_Combat_Power>
 
 	</Projectile>
@@ -69,7 +69,7 @@
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Ion_Turbolaser_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
 		<Projectile_Lifetime_Detonation_Particle>Particle_Ion_Turbolaser_Large</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate>Unit_Hardpoint_Laser_Death</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Unit_Hardpoint_Laser_Death</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -99,7 +99,7 @@
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Turbolaser_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
 		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Turbolaser_Large</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate>Unit_Hardpoint_Laser_Death</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Unit_Hardpoint_Laser_Death</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -164,11 +164,11 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Turbo_Death_Y_Large </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Turbo_Death_Y_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Large_Yellow </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Large_Yellow</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Turbo_Death_Y_Large</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Large_Yellow</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -193,11 +193,11 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Yellow_ship_turbolaser_Large </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Yellow_ship_turbolaser_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Large_Yellow </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Large_Yellow</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Yellow_ship_turbolaser_Large</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Large_Yellow</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -222,11 +222,11 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Yellow_ship_turbolaser_Medium </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Yellow_ship_turbolaser_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Medium_Yellow </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Medium_Yellow</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Yellow_ship_turbolaser_Medium</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Medium_Yellow</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -251,11 +251,11 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Yellow_ship_turbolaser_Medium </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Yellow_ship_turbolaser_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Medium_Yellow </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Medium_Yellow</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Yellow_ship_turbolaser_Medium</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Medium_Yellow</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -280,11 +280,11 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Yellow_ship_turbolaser_Small </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Yellow_ship_turbolaser_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Small_Yellow </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Small_Yellow</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Yellow_ship_turbolaser_Small</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Small_Yellow</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -313,7 +313,7 @@
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Yellow_ship_turbolaser_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
 		<Projectile_Lifetime_Detonation_Particle>Particle_Yellow_ship_turbolaser_Small</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -343,11 +343,11 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Ion_Turbolaser_Medium </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Ion_Turbolaser_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Large_Ion </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Large_Ion</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Ion_Turbolaser_Medium</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Large_Ion</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -370,11 +370,11 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Ion_Turbolaser_Medium </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Ion_Turbolaser_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Large_Ion </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Large_Ion</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Ion_Turbolaser_Medium</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Large_Ion</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -397,11 +397,11 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Ion_Turbolaser_Medium </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Ion_Turbolaser_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Medium_Ion </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Medium_Ion</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Ion_Turbolaser_Medium</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Medium_Ion</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -424,11 +424,11 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Ion_Turbolaser_Medium </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Ion_Turbolaser_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Medium_Ion </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Medium_Ion</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Ion_Turbolaser_Medium</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Medium_Ion</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -451,11 +451,11 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Ion_Turbolaser_Medium </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Ion_Turbolaser_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Medium_Ion </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Medium_Ion</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Ion_Turbolaser_Medium</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Medium_Ion</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -478,11 +478,11 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Ion_Turbolaser_Small </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Ion_Turbolaser_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Small_Ion </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Small_Ion</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Ion_Turbolaser_Small</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Small_Ion</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -505,11 +505,11 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Ion_Turbolaser_Small </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Ion_Turbolaser_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Small_Ion </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Small_Ion</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Ion_Turbolaser_Small</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Small_Ion</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -535,11 +535,11 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Red_Turbolaser_Large </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Red_Turbolaser_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Large_Red </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Large_Red</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Red_Turbolaser_Large</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Large_Red</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -564,11 +564,11 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Red_Turbolaser_Large </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Red_Turbolaser_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Large_Red </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Large_Red</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Red_Turbolaser_Large</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Large_Red</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -593,11 +593,11 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Red_Turbolaser_Medium </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Red_Turbolaser_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Medium_Red </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Medium_Red</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Red_Turbolaser_Medium</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Medium_Red</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -622,11 +622,11 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Red_Turbolaser_Medium </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Red_Turbolaser_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Medium_Red </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Medium_Red</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Red_Turbolaser_Medium</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Medium_Red</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -651,11 +651,11 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Red_Turbolaser_Small </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Red_Turbolaser_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Small_Red </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Small_Red</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Red_Turbolaser_Small</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Small_Red</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -680,11 +680,11 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Red_Turbolaser_Small </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Red_Turbolaser_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Small_Red </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Small_Red</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Red_Turbolaser_Small</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Small_Red</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -714,11 +714,11 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Green_Turbolaser_Large </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Turbolaser_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Large_Purple </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Large_Purple</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Turbolaser_Large</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Large_Purple</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -743,11 +743,11 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Green_Turbolaser_Large </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Turbolaser_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Large_Purple </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Large_Purple</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Turbolaser_Large</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Large_Purple</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -772,11 +772,11 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Green_Turbolaser_Medium </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Turbolaser_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Medium_Purple </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Medium_Purple</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Turbolaser_Medium</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Medium_Purple</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -801,11 +801,11 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Green_Turbolaser_Medium</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Turbolaser_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Medium_Purple</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Medium_Purple</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Turbolaser_Medium</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Medium_Purple</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -830,11 +830,11 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Green_Turbolaser_Small </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Turbolaser_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Small_Purple </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Small_Purple</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Turbolaser_Small</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Small_Purple</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -859,11 +859,11 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Green_Turbolaser_Small</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Turbolaser_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Small_Purple</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Small_Purple</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Turbolaser_Small</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Small_Purple</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -894,11 +894,11 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Green_Turbolaser_Large </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Turbolaser_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Large_Blue </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Large_Blue</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Turbolaser_Large</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Large_Blue</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -923,11 +923,11 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Green_Turbolaser_Large </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Turbolaser_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Large_Blue </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Large_Blue</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Turbolaser_Large</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Large_Blue</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -952,11 +952,11 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Green_Turbolaser_Medium </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Turbolaser_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Medium_Blue </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Medium_Blue</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Turbolaser_Medium</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Medium_Blue</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -981,11 +981,11 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Green_Turbolaser_Medium</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Turbolaser_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Medium_Blue</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Medium_Blue</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Turbolaser_Medium</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Medium_Blue</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -1010,11 +1010,11 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Green_Turbolaser_Small </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Turbolaser_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Small_Blue </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Small_Blue</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Turbolaser_Small</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Small_Blue</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -1039,11 +1039,11 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Green_Turbolaser_Small</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Turbolaser_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Small_Blue</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Small_Blue</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Turbolaser_Small</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Small_Blue</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -1073,11 +1073,11 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Green_Turbolaser_Large </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Turbolaser_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Large_Green </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Large_Green</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Turbolaser_Large</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Large_Green</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -1102,11 +1102,11 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Green_Turbolaser_Large </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Turbolaser_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Large_Green </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Large_Green</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Turbolaser_Large</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Large_Green</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -1131,11 +1131,11 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Green_Turbolaser_Medium </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Turbolaser_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Medium_Green </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Medium_Green</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Turbolaser_Medium</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Medium_Green</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -1160,11 +1160,11 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Green_Turbolaser_Medium</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Turbolaser_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Medium_Green</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Medium_Green</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Turbolaser_Medium</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Medium_Green</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -1189,11 +1189,11 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Green_Turbolaser_Small </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Turbolaser_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Small_Green </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Small_Green</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Turbolaser_Small</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Small_Green</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -1218,11 +1218,11 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Green_Turbolaser_Small</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Turbolaser_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Small_Green</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Small_Green</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Turbolaser_Small</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Small_Green</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -1234,10 +1234,9 @@
 	
 	<!-- Turbolaser Fighter -->
 	
-	
-	<Projectile Name="Proj_Fighter_Turbolaser_yellow">
+	<Projectile Name="Proj_Fighter_Turbolaser_red">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_ship_turbolaser_yellow1.ALO</Space_Model_Name>
+		<Space_Model_Name>w_fighter_turbolaer_red.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 		<Scale_Factor>0.025</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
@@ -1251,10 +1250,10 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Yellow_Fighter </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Yellow_Fighter</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Small_Red </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Small_Red</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Yellow_Fighter</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Small_Red</Projectile_Lifetime_Detonation_Particle>
 		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Small</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
@@ -1264,9 +1263,9 @@
 		<Projectile_SFXEvent_Shield_Detonate> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Shield_Detonate>
 	</Projectile>
 	
-	<Projectile Name="Proj_Fighter_Turbolaser_red">
+	<Projectile Name="Proj_Fighter_Turbolaser_purple">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_ship_turbolaser_red1.ALO</Space_Model_Name>
+		<Space_Model_Name>w_fighter_turbolaer_purple.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 		<Scale_Factor>0.025</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
@@ -1280,11 +1279,98 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Red_Fighter </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Red_Fighter</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Small_Purple </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Small_Purple</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Red_Fighter</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Small</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Small_Purple</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Shield>
+		<Projectile_SFXEvent_Detonate_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Shield>
+		<Projectile_SFXEvent_Shield_Detonate> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Shield_Detonate>
+	</Projectile>
+	
+	<Projectile Name="Proj_Fighter_Turbolaser_yellow">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_fighter_turbolaer_yellow.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.025</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>80.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>4000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>24.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Small_Yellow </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Small_Yellow</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Small_Yellow</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Shield>
+		<Projectile_SFXEvent_Detonate_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Shield>
+		<Projectile_SFXEvent_Shield_Detonate> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Shield_Detonate>
+	</Projectile>
+	
+	<Projectile Name="Proj_Fighter_Turbolaser_blue">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_fighter_turbolaer_blue.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.025</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>80.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>4000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>24.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Small_Blue </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Small_Blue</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Small_Blue</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Shield>
+		<Projectile_SFXEvent_Detonate_Shield> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Detonate_Shield>
+		<Projectile_SFXEvent_Shield_Detonate> SFX_Shield_Absorb_Detonation </Projectile_SFXEvent_Shield_Detonate>
+	</Projectile>
+	
+	<Projectile Name="Proj_Fighter_Turbolaser_ion">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_fighter_turbolaer_ion.ALO</Space_Model_Name>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Scale_Factor>0.025</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>80.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>4000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>24.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Small_Ion </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Small_Ion</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Small_Ion</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -1295,7 +1381,7 @@
 	
 	<Projectile Name="Proj_Fighter_Turbolaser_green">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_ship_turbolaser_green1.ALO</Space_Model_Name>
+		<Space_Model_Name>w_fighter_turbolaer_green.ALO</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 		<Scale_Factor>0.025</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
@@ -1309,11 +1395,11 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Particle_Green_Bombard </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Bombard</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Small_Green </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Small_Green</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle>Particle_Green_Bombard</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Small_Green</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -1342,7 +1428,7 @@
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Red_Bombard</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
 		<Projectile_Lifetime_Detonation_Particle>Particle_Red_Bombard</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Turbolaser_Shield_hit_Large</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>

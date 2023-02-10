@@ -27,7 +27,7 @@
 		<CategoryMask> Capital </CategoryMask>
 		<Ship_Class>capital</Ship_Class>
 		<AI_Combat_Power>50000</AI_Combat_Power>
-
+        <Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
 		<Build_Countdown_Text_ID> UPGRADE_EMPIRE_TECH_02 </Build_Countdown_Text_ID>
 		<Build_Countdown_Text_RGBA> 185, 40, 39, 255 </Build_Countdown_Text_RGBA>

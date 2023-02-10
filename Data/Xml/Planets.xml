@@ -5776,7 +5776,7 @@
   </Planet>
 	
 	<Planet Name="Yavin">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>3</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_YAVIN</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_yavin_system.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -5870,7 +5870,7 @@
   </Planet>
 	
 	<Planet Name="Wayland">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_WAYLAND</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_wayland.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -6011,7 +6011,7 @@
   </Planet>
 	
 	<Planet Name="Vergesso"> 
- 		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+ 		<Zoomed_Terrain_Index>7</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_VERGESSO</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -6038,7 +6038,7 @@
 		<The_Force>Neutral</The_Force>
 		<Force_Strength>0.0</Force_Strength>
 		<Land_Tactical_Map />
-		<Space_Tactical_Map>space_Asteroids_ROTE.ted</Space_Tactical_Map>
+		<Space_Tactical_Map>_Space_Planet_VergessoAsteroids_01.ted</Space_Tactical_Map>
 
 		<Planet_Surface_Accessible> No </Planet_Surface_Accessible>
 		<Planet_Is_Destroyable_By_TSW> No </Planet_Is_Destroyable_By_TSW>
@@ -6154,7 +6154,7 @@
   </Planet>
 	
 	<Planet Name="Utapau">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_UTAPAU</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_utapau.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -6295,7 +6295,7 @@
   </Planet>
 	
 	<Planet Name="Thyferra">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_THYFERRA</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_forest01.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -6436,7 +6436,7 @@
   </Planet>
 	
 	<Planet Name="The_Maw"> 
- 		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+ 		<Zoomed_Terrain_Index>7</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_THEMAW</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -6463,7 +6463,7 @@
 		<The_Force>Neutral</The_Force>
 		<Force_Strength>0.0</Force_Strength>
 		<Land_Tactical_Map />
-		<Space_Tactical_Map>space_TheMaw_ROTE.ted</Space_Tactical_Map>
+		<Space_Tactical_Map>_Space_Planet_TheMaw_01.ted</Space_Tactical_Map>
 
 		<Planet_Surface_Accessible> No </Planet_Surface_Accessible>
 		<Planet_Is_Destroyable_By_TSW> No </Planet_Is_Destroyable_By_TSW>
@@ -6673,7 +6673,7 @@
   </Planet>
 	
 	<Planet Name="Tatooine">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>3</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_TATOOINE</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_tatooine.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -6767,7 +6767,7 @@
   </Planet>
 	
 	<Planet Name="Taris">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>3</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_TARIS</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_taris.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -7002,7 +7002,7 @@
   </Planet>
   
     <Planet Name="Shola">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>3</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_SHOLA</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_vulcanic01.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -7143,7 +7143,7 @@
   </Planet>
 	
 	<Planet Name="Sullust">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_SULLUST</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_Sullust.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -7237,7 +7237,7 @@
   </Planet>
 	
 	<Planet Name="Saleucami">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_SALEUCAMI</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_desert.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -7521,7 +7521,7 @@
   </Planet>
 	
 	<Planet Name="Ryloth">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_RYLOTH</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_ryloth.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -8275,7 +8275,7 @@
   </Planet>
 	
 	<Planet Name="Polus">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_POLUS</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_polus.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -8651,7 +8651,7 @@
   </Planet>
 	
 	<Planet Name="Naboo">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_NABOO</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_naboo.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -8698,11 +8698,11 @@
   </Planet>
 	
 	<Planet Name="NalHutta">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>5</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_NALHUTTA</Text_ID>
-    <Galactic_Model_Name>w_planet_sphere_NallHutta.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_nalhutta.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>w_planet_sphere_NallHutta.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_nalhutta.alo</GUI_Model_Name>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
     <Mass>1.0</Mass>
@@ -8839,7 +8839,7 @@
   </Planet>
   
   <Planet Name="MonCalamari">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_MONCALAMARI</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_ocean03.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -9027,7 +9027,7 @@
   </Planet>
 	
 	<Planet Name="Muunilinst">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>3</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_MUUNILINST</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_muunilinst.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -9121,7 +9121,7 @@
   </Planet>
 	
 	<Planet Name="Myrkr">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_MYRKR</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_myrkr.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -9309,7 +9309,7 @@
   </Planet>
 	
 	<Planet Name="Mustafar">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_MUSTAFAR</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_mustafar.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -9356,7 +9356,7 @@
   </Planet>
 	
 	<Planet Name="Mandalore">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_MANDALORE</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_mandalore.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -9591,7 +9591,7 @@
   </Planet>
 	
 	<Planet Name="Kuat">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_KUAT</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_Kuat.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -9732,7 +9732,7 @@
   </Planet>
 	
 	<Planet Name="Korriban">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_KORRIBAN</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_korriban.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -9779,7 +9779,7 @@
   </Planet>
 	
 	<Planet Name="Kessel">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_KESSEL</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_Kessel.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -9826,7 +9826,7 @@
   </Planet>
 	
 	<Planet Name="Kamino">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>4</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_KAMINO</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_kamino.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -9967,7 +9967,7 @@
   </Planet>
   
     <Planet Name="Jabiim">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>3</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_JABIIM</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_jabiim.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -10108,7 +10108,7 @@
   </Planet>
 	
 	<Planet Name="Ilum">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_ILUM</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_ilum.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -10296,7 +10296,7 @@
   </Planet>
 	
 	<Planet Name="Hypori">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>4</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_HYPORI</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_desert02.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -10343,7 +10343,7 @@
   </Planet>
   
     <Planet Name="Hoth">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>3</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_HOTH</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_ice.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -10390,7 +10390,7 @@
   </Planet>
 	
 	<Planet Name="Honoghr">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>3</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_HONOGHR</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_desert.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -10484,7 +10484,7 @@
   </Planet>
 	
 	<Planet Name="Geonosis">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>5</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_GEONOSIS</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_geonosis_rings.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -10531,7 +10531,7 @@
   </Planet>
   
     <Planet Name="Fresia">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_FRESIA</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_ocean03.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -10625,7 +10625,7 @@
   </Planet>
 	
 	<Planet Name="Fondor">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_FONDOR</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_fondor.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -10766,7 +10766,7 @@
   </Planet>
 	
 	<Planet Name="Felucia">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_FELUCIA</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_felucia.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -11048,7 +11048,7 @@
   </Planet>	
 	
 	<Planet Name="Eriadu">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_ERIADU</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_eriadu.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -11095,7 +11095,7 @@
   </Planet>
   
   <Planet Name="Endor">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_ENDOR</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_endor_system.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -11424,7 +11424,7 @@
   </Planet>
 	
 	<Planet Name="Dantooine">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_DANTOOINE</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_temperate02.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -11471,7 +11471,7 @@
   </Planet>
 	
 	<Planet Name="Dathomir">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_DATHOMIR</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_dathomir.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -11518,7 +11518,7 @@
   </Planet>
 	
 	<Planet Name="Dagobah">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_DAGOBAH</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_dagobah.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -11612,7 +11612,7 @@
   </Planet>
 	
 	<Planet Name="Carida">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>4</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_CARIDA</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_carida.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -11706,7 +11706,7 @@
   </Planet>
 	
 	<Planet Name="Corulag">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>3</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_CORULAG</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_forest03.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -11847,7 +11847,7 @@
   </Planet>
 	
 	<Planet Name="Coruscant">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>5</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_CORUSCANT</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_coruscant.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -11941,7 +11941,7 @@
   </Planet>
   
     <Planet Name="Corellia">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>5</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_CORELLIA</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_corellia.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -12270,7 +12270,7 @@
   </Planet>
 	
 	<Planet Name="Byss">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>5</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_BYSS</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_byss.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -12411,15 +12411,15 @@
   </Planet>
 	
 	<Planet Name="Bothawui">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>4</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_BOTHAWUI</Text_ID>
-    <Galactic_Model_Name>w_planet_sphere_bothawui.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_bothawui_system.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>w_planet_sphere_bothawui.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_bothawui_system.alo</GUI_Model_Name>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
     <Mass>1.0</Mass>
-    <Scale_Factor>1.0</Scale_Factor>
+    <Scale_Factor>1.3</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-18, -12, 0.1</Name_Adjust>
@@ -12599,7 +12599,7 @@
   </Planet>
 	
 	<Planet Name="Bestine">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_BESTINE</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_bestine.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -12646,7 +12646,7 @@
   </Planet>
 	
 	<Planet Name="Bespin">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_BESPIN</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_bespin.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -12834,7 +12834,7 @@
   </Planet>
 	
 	<Planet Name="Bonadan">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>5</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_BONADAN</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_bonadan.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -13210,7 +13210,7 @@
   </Planet>
   
   <Planet Name="Atzerri">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_ATZERRI</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_swamp03.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -13680,7 +13680,7 @@
   </Planet>
 	
 	<Planet Name="Anaxes">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_ANAXES</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_anaxes.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -13727,7 +13727,7 @@
   </Planet>
 	
 	<Planet Name="Alderaan">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_ALDERAAN</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_alderaan.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -13774,7 +13774,7 @@
   </Planet>
 	
 	<Planet Name="Alzoc">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_ALZOCIII</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_ice.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -13915,7 +13915,7 @@
   </Planet>
 	
 	<Planet Name="Aeten">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_AETENII</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_aeten.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -14009,7 +14009,7 @@
   </Planet>
   
     <Planet Name="Abregado_Rae">
-    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_ABREGADORAE</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_temperate01.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>

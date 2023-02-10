@@ -1,0 +1,164 @@
+<?xml version="1.0" ?>
+
+<Annihilator>    
+
+
+
+	<UniqueUnit Name="Empress_Super_Star_Destroyer">
+		<Variant_Of_Existing_Type>Executor_Super_Star_Destroyer</Variant_Of_Existing_Type>
+		
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> TEXT_BUILD_EMPRESS </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 54, 134, 242, 255 </Build_Countdown_Text_RGBA>
+		<Build_Music_Completed> Tech_Upgrade_Empire </Build_Music_Completed>
+		<Lua_Script>ObjectScript_PowerToShields_Layer_Z</Lua_Script>
+		
+		<Encyclopedia_Vulnerable_To> Salvator_Defender </Encyclopedia_Vulnerable_To>
+		<Tech_Level>99</Tech_Level>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Icon_Name>I_BUTTON_EMPRESS.TGA</Icon_Name>
+		
+		<Text_ID>TEXT_UNIT_EMPRESS</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_EMPRESS </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
+		<Icon_Name></Icon_Name>
+		<Space_Model_Name>ev_empress.ALO</Space_Model_Name>
+		<Scale_Factor>1.9</Scale_Factor>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>5</Required_Star_Base_Level>
+		<Required_Planets>
+		     Kuat, 
+			 Fondor, 
+			 Sullust, 
+			 MonCalimari,
+			 Kuat_FOC,
+			 Fondor_FOC,
+			 Sullust_FOC,
+			 MonCalimari_FOC,
+			 Corellia_FOC,
+			 Hypori_FOC,
+			 Mandalore_FOC		
+	    </Required_Planets>
+		<Autoresolve_Health>3045000</Autoresolve_Health>
+		<Shield_Points>1970000</Shield_Points>		
+		<Tactical_Health>3045000</Tactical_Health>		
+		<Shield_Refresh_Rate>9700</Shield_Refresh_Rate>
+		<Energy_Capacity>99000</Energy_Capacity>
+		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
+		<Ship_Class>super</Ship_Class>
+		<Build_Time_Seconds>220</Build_Time_Seconds>
+		<Build_Cost_Credits>175000</Build_Cost_Credits>
+		<Build_Tab_Heroes>yes</Build_Tab_Heroes>
+		
+		<HardPoints>
+			HPe0,HPe1,HPe2,HPe3,HPe4,HPe5,HPe6,HPe7,HPe8,HPe9,HPe10,HPe11,HPe12,HPe13,HPe14,HPe15,HPe16,HPe17,HPe18,HPe19,HPe20,HPe21,HPe22,HPe23,HPe24,HPe25,HPe26,HPe27,HPe28,HPe29,HPe30,HPe31,HPe32,HPe33,HPe34,HPe35,HPe36,HPe37,HPe38,HPe39,HPe40,HPe41,HPe42,HPe43,HPe44,HPe45,HPe46,HPe47,HPe48,HPe49,HPe50,HPe51,HPe52,HPe53,HPe54,HPe55,HPe56,HPe57,HPe58,HPe59,HPe60,HPe61,HPe62,HPe63,HPe64,HPe65,HPe66,HPe67,HPe68,HPe69,HPe70,HPe71,HPe72,HPe73,HPe74,HPe75,HPe76,HPe77,HPe78,HPe79,HPe80,HPe81,HPe82,HPe83,HPe84,HPe85,HPe86,HPe87,HPe88,HPe89,HPe90,HPe91,HPe92,HPe93,HPe94,HPe95,HPe96,HPe97,HPe98,HPe99,HPe100,HPe101,HPe102,HPe103,HPe104,HPe105,HPe106,HPe107,HPe108,HPe109,HPe110,HPe111,HPe112,HPe113,HPe114,HPe115,HPe116,HPe117,HPe118,HPe119,HPe120,HPe121,HPe122,HPe123,HPe124,HPe125,HPe126,HPe127,HPe128,HPe129,HPe130,HPe131,HPe132,HPe133,HPe134,HPe135,HPe136,HPe137,HPe138,HPe139,HPe140,HPe141,HPe142,HPe143,HPe144,HPe145,HPe146,HPe147,HPe148,HPe149,HPe150,HPe151,HPe152,HPe153,HPe154,HPe155,HPe156,HPe157,HPe158,HPe159,HPe160,HPe161,HPe162,HPe163,HPe164,HPe165,HPe166,HPe167,HPe168,HPe169,HPe170,HPe171,HPe172,HPe173,HPe174,HPe175,HPe176,HPe177,HPe178,HPe179,HPe180,HPe181,HPe182,HPe183,HPe184,HPe185,HPe186,HPe187,HPe188,HPe189,HPe190,HPe191,HPe192,HPe193,HPe194,HPe195,HPe196,HPe197,HPe198,HPe199,HPe200,HPe201,HPe202,HPe203,HPe204,HPe205,HPe206,HPe207,HPe208,HPe209,HPe210,HPe211,HPe212,HPe213,HPe214,HPe215,HPe216,HPe217,HPe218,HPe219,HPe220,HPe221,HPe222,HPe223,HPe224,HPe225,HPe226,HPe227,HPe228,HPe229,HPe230,HPe231,HPe232,HPe233,HPe234,HPe235,HPe236,HPe237,HPe238,HPe239,HPe240,HPe241,HPe242,HPe243,HPe244,HPe245,HPe246,HPe247,HPe248,HPe249,HPe250,HPe251,HPe252,HPe253,HPe254,HPe255,HPe256,HPe257,HPe258,HPe259,HPe260,HPe261,HPe262,HPe263,HPe264,HPe265,HPe266,HPe267,HPe268,HPe269,HPe270,HPe271,HPe272,HPe273,HPe274,HPe275,HPe276,HPe277,HPe278,HPe279,HPe280,HPe281,HPe282,HPe283,HPe284,HPe285,HPe286,HPe287,HPe288,HPe289,HPe290,HPe291,HPe292,HPe293,HPe294,HPe295,HPe296,HPe297,HPe298,HPe299,HPe300,HPe301,HPe302,HPe303,HPe304,HPe305,HPe306,HPe307,HPe308,HPe309,HPe310,HPe311,HPe312,HPe313,HPe314,HPe315,HPe316,HPe317,HPe318,HPe319,HPe320,HPe321,HPe322,HPe323,HPe324,HPe325,HPe326,HPe327,HPe328,HPe329,HPe330,HPe331,HPe332,HPe333,HPe334,HPe335,HPe336,HPe337,HPe338,HPe339,HPe340,HPe341,HPe342,HPe343,HPe344,HPe345,HPe346,HPe347,HPe348,HPe349,HPe350,HPe351,HPe352,HPe353,HPe354,HPe355,HPe356,HPe357,HPe358,HPe359,HPe360,HPe361,HPe362,HPe363,HPe364,HPe365,HPe366,HPe367,HPe368,HPe369,HPe370,HPe371,HPe372,HPe373,HPe374,HPe375,HPe376,HPe377,HPe378,HPe379,HPe380,HPe381,HPe382,HPe383,HPe384,HPe385,HPe386,HPe387,HPe388,HPe389,HPe390,HPe391,HPe392,HPe393,HPe394,HPe395,HPe396,HPe397,HPe398,HPe399,HPe400,HPe401,HPe402,HPe403,HPe404,HPe405,HPe406,HPe407,HPe408,HPe409,HPe410,HPe411,HPe412,HPe413,HPe414,HPe415,HPe416,HPe417,HPe418,HPe419,HPe420,HPe421,HPe422,HPe423,HPe424,HPe425,HPe426,HPe427,HPe428,HPe429,HPe430,HPe431,HPe432,HPe433,HPe434,HPe435,HPe436,HPe437,HPe438,HPe439,HPe440,HPe441,HPe442,HPe443,HPe444,HPe445,HPe446,HPe447,HPe448,HPe449,HPe450,HPe451,HPe452,HPe453,HPe454,HPe455,HPe456,HPe457,HPe458,HPe459,HPe460,HPe461,HPe462,HPe463,HPe464,HPe465,HPe466,HPe467,HPe468,HPe469,HPe470,HPe471,HPe472,HPe473,HPe474,HPe475,HPe476,HPe477,HPe478,HPe479,HPeFB
+		</HardPoints>
+		
+        <SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		
+		<SFXEvent_Select>Unit_Select_Emperor</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Emperor</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Emperor</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Emperor</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Emperor</SFXEvent_Guard>
+		<SFXEvent_Group_Move>Unit_Group_Move_Emperor</SFXEvent_Group_Move>
+		<SFXEvent_Group_Attack>Unit_Group_Attack_Emperor</SFXEvent_Group_Attack>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Emperor </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Emperor </SFXEvent_Health_Critical_Warning>
+		<Death_SFXEvent_Start_Die> Unit_Defeat_Emperor </Death_SFXEvent_Start_Die>
+		
+		
+	      <Unit_Abilities_Data SubObjectList="Yes">		
+		<!-- Primary ability -->
+	      <Unit_Ability>
+	            <Type>TRACTOR_BEAM</Type>
+	            <Mod_Multiplier>SPEED_MULTIPLIER, 0.6f</Mod_Multiplier>
+	            <GUI_Activated_Ability_Name>Piet_Tractor_Beam_Attack_Ability</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+	            <Recharge_Seconds>20</Recharge_Seconds>
+	            <SFXEvent_Target_Ability>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_Target_Ability>
+				<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
+				<Supports_Autofire>True</Supports_Autofire>
+	      </Unit_Ability>
+		  	   	  
+		<Unit_Ability>
+				<Type>DEFEND</Type>
+				<Expiration_Seconds>20</Expiration_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
+				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	5.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,			0.8f</Mod_Multiplier>
+				<Recharge_Seconds>10</Recharge_Seconds>
+				<Expiration_Seconds>60</Expiration_Seconds>
+					
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+			
+		</Unit_Abilities_Data>
+		
+		<Abilities SubObjectList="Yes">
+		
+		<Tractor_Beam_Attack_Ability Name="Piet_Tractor_Beam_Attack_Ability">
+				<Activation_Style> User_Input </Activation_Style>
+				<Applicable_Unit_Categories>Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
+	            <Applicable_Unit_Types>Millennium_Falcon, Sundered_Heart</Applicable_Unit_Types>
+				<Excluded_Unit_Types>Buzz_Droids</Excluded_Unit_Types>
+				<Activation_Min_Range>5</Activation_Min_Range>
+	            <Activation_Max_Range>7500</Activation_Max_Range>
+
+				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+				<Target_Speed_Decrease_Percent>.98</Target_Speed_Decrease_Percent>
+				<Stacking_Category>2</Stacking_Category>			
+			</Tractor_Beam_Attack_Ability>
+
+
+		</Abilities>
+			  
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Piett </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, Unit_Lost_Tractor_Piett</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+		<Population_Value>20</Population_Value>
+		
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>35000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		</UniqueUnit>
+		
+		<UniqueUnit Name="Empress_Death_Clone">
+		<Text_ID>TEXT_UNIT_EMPRESS</Text_ID>
+		<Space_Model_Name>Ev_empress_d.alo</Space_Model_Name>
+		<Death_SFXEvent_Start_Die>SFX_Death_Bombard</Death_SFXEvent_Start_Die>
+		<Scale_Factor>1.9</Scale_Factor>
+		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
+		<Max_Speed>0.25</Max_Speed>
+		<Max_Rate_Of_Turn>0.02</Max_Rate_Of_Turn>
+		<Max_Thrust>0.05</Max_Thrust>
+		<Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>5</Bank_Turn_Angle>
+		<Affiliation>Empire</Affiliation>
+		<Ship_Class>super</Ship_Class>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+	</UniqueUnit>
+           
+	
+	
+
+</Annihilator>    

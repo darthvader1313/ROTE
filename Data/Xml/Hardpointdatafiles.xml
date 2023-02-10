@@ -7,16 +7,66 @@
 	
 	
 	<File>Imperial_units\Hardpoints_Empire\HardPoints_Empire_Starbase.xml</File>
+	<File>Imperial_units\Hardpoints_Empire\Hardpoints_Empire_TIE_Inquisitor.xml</File>
+	<File>Imperial_units\Hardpoints_Empire\Hardpoints_Empire_TIE_Prototype.xml</File>
+	<File>Imperial_units\Hardpoints_Empire\Hardpoints_Empire_TIE_Defender.xml</File>
+	<File>Imperial_units\Hardpoints_Empire\Hardpoints_Empire_TIE_Bomber.xml</File>
 	<File>Imperial_units\Land_Hardpoints_Empire\HardPoints_AT_AT_Walker.xml</File>
 	<File>Imperial_units\Land_Hardpoints_Empire\HardPoints_TIE_Striker.xml</File>
+	
+	<File>Imperial_units\Hardpoints_Empire\Light_Harpoints\HardPoints_empire_Arquitens.xml</File>
+	<File>Imperial_units\Hardpoints_Empire\Light_Harpoints\HardPoints_empire_Gozanti.xml</File>
+	<File>Imperial_units\Hardpoints_Empire\Light_Harpoints\HardPoints_empire_Immobilizer.xml</File>
+	<File>Imperial_units\Hardpoints_Empire\Light_Harpoints\HardPoints_empire_Quasar.xml</File>
+	<File>Imperial_units\Hardpoints_Empire\Light_Harpoints\HardPoints_empire_Raider_Corvette.xml</File>
+	<File>Imperial_units\Hardpoints_Empire\Light_Harpoints\HardPoints_empire_Template_Dreadnaught.xml</File>
+	<File>Imperial_units\Hardpoints_Empire\Light_Harpoints\HardPoints_empire_Victory.xml</File>
+	<File>Imperial_units\Hardpoints_Empire\Light_Harpoints\HardPoints_empire_VictoryII.xml</File>
+	<File>Imperial_units\Hardpoints_Empire\Light_Harpoints\HardPoints_empire_VictoryIII.xml</File>
+	
+	<File>Imperial_units\Hardpoints_Empire\Heavy_Hardpoints\HardPoints_empire_Allegiance.xml</File>
+	<File>Imperial_units\Hardpoints_Empire\Heavy_Hardpoints\HardPoints_empire_Dominator.xml</File>
+	<File>Imperial_units\Hardpoints_Empire\Heavy_Hardpoints\HardPoints_empire_Executor.xml</File>
+	<File>Imperial_units\Hardpoints_Empire\Heavy_Hardpoints\HardPoints_empire_Finalizer.xml</File>
+	<File>Imperial_units\Hardpoints_Empire\Heavy_Hardpoints\HardPoints_empire_Imperator_I.xml</File>
+	<File>Imperial_units\Hardpoints_Empire\Heavy_Hardpoints\HardPoints_empire_Imperator_II.xml</File>
+	<File>Imperial_units\Hardpoints_Empire\Heavy_Hardpoints\HardPoints_empire_Imperator_III.xml</File>
+	<File>Imperial_units\Hardpoints_Empire\Heavy_Hardpoints\HardPoints_empire_Tector.xml</File>
+	<File>Imperial_units\Hardpoints_Empire\Heavy_Hardpoints\HardPoints_empire_venator.xml</File>
+	<File>Imperial_units\Hardpoints_Empire\Heavy_Hardpoints\HardPoints_empire_Xyston.xml</File>
+	<File>Imperial_units\Hardpoints_Empire\Heavy_Hardpoints\HardPoints_empire_XystonII.xml</File>
 	
 	
 	
 	<File>Rebel_units\Hardpoints_Rebel\HardPoints_Rebel_Starbase.xml</File>
+	<File>Rebel_units\Hardpoints_Rebel\HardPoints_Rebel_B_Wing.xml</File>
 	<File>Rebel_units\Land_Hardpoints_Rebel\Hardpoints_AAC.xml</File>
 	<File>Rebel_units\Land_Hardpoints_Rebel\Hardpoints_Gargantuan_Advanced.xml</File>
 	<File>Rebel_units\Land_Hardpoints_Rebel\HardPoints_Snowspeeder.xml</File>
 	<File>Rebel_units\Land_Hardpoints_Rebel\Hardpoints_T1B.xml</File>
+	
+	<File>Rebel_units\Hardpoints_Rebel\Light_Harpoints\HardPoints_Rebel_Carrack.xml</File>
+	<File>Rebel_units\Hardpoints_Rebel\Light_Harpoints\HardPoints_Rebel_Dauntless.xml</File>
+	<File>Rebel_units\Hardpoints_Rebel\Light_Harpoints\HardPoints_Rebel_Hammerhead.xml</File>
+	<File>Rebel_units\Hardpoints_Rebel\Light_Harpoints\HardPoints_Rebel_Liberator.xml</File>
+	<File>Rebel_units\Hardpoints_Rebel\Light_Harpoints\HardPoints_Rebel_MC_40b.xml</File>
+	<File>Rebel_units\Hardpoints_Rebel\Light_Harpoints\HardPoints_Rebel_MC40.xml</File>
+	<File>Rebel_units\Hardpoints_Rebel\Light_Harpoints\HardPoints_Rebel_MC60.xml</File>
+	<File>Rebel_units\Hardpoints_Rebel\Light_Harpoints\HardPoints_Rebel_Nebulon_B.xml</File>
+	<File>Rebel_units\Hardpoints_Rebel\Light_Harpoints\HardPoints_Rebel_Pelta.xml</File>
+	
+	<File>Rebel_units\Hardpoints_Rebel\Heavy_Harpoints\HardPoints_Rebel_Home_One_Regular.xml</File>
+	<File>Rebel_units\Hardpoints_Rebel\Heavy_Harpoints\HardPoints_Rebel_Lusankya.xml</File>
+	<File>Rebel_units\Hardpoints_Rebel\Heavy_Harpoints\HardPoints_Rebel_Mc50.xml</File>
+	<File>Rebel_units\Hardpoints_Rebel\Heavy_Harpoints\HardPoints_Rebel_Mc75.xml</File>
+	<File>Rebel_units\Hardpoints_Rebel\Heavy_Harpoints\HardPoints_Rebel_Mc80_Liberty.xml</File>
+	<File>Rebel_units\Hardpoints_Rebel\Heavy_Harpoints\HardPoints_Rebel_Mc80A_Wingless.xml</File>
+	<File>Rebel_units\Hardpoints_Rebel\Heavy_Harpoints\HardPoints_Rebel_Mc80B.xml</File>
+	<File>Rebel_units\Hardpoints_Rebel\Heavy_Harpoints\HardPoints_rebel_Mc90.xml</File>
+	<File>Rebel_units\Hardpoints_Rebel\Heavy_Harpoints\HardPoints_rebel_Mc90B.xml</File>
+	<File>Rebel_units\Hardpoints_Rebel\Heavy_Harpoints\HardPoints_rebel_MonCalHC.xml</File>
+	<File>Rebel_units\Hardpoints_Rebel\Heavy_Harpoints\HardPoints_Rebel_Profundity.xml</File>
+	<File>Rebel_units\Hardpoints_Rebel\Heavy_Harpoints\HardPoints_Rebel_Viscount.xml</File>
 	
 	
 	

@@ -3,7 +3,7 @@
 <Game_Object_Files>
 
 	<File>TransportUnits.xml</File>
-
+    <File>LayerZDummy.xml</File>
 	<File>TechBuilding.xml</File>
     <File>Techupgrade.xml</File>	<!-- AJA 10/12/2005 - Moved to the top so that tech upgrades always show up on the left of the build bar. -->
 	<File>GroundBases.xml</File>
@@ -47,7 +47,8 @@
 
 
 	<File>StarBases.xml</File>
-
+    <File>Starbases_Empire.xml</File>
+	<File>Starbases_Rebel.xml</File>
 	<File>Squadrons.xml</File>
 
 	<File>Planets.xml</File>
@@ -96,33 +97,21 @@
 
 
 
-	<!-- Expansion Units: Empire -->
 
-	<File>Units_Hero_Empire_Thrawn.xml</File>
 
-	<File>Units_Space_Empire_TIE_Defender.xml</File>
-	<File>Units_Space_Empire_TIE_Interceptor.xml</File>
-	<File>Units_Space_Empire_TIE_Phantom.xml</File>
-	<File>Units_Space_Empire_Executor.xml</File>
+
+
+
 	
-	<File>Units_Land_Empire_DarkTroopers.xml</File>
-	<File>Units_Land_Empire_Lancet.xml</File>
-	<File>Units_Land_Empire_Noghri.xml</File>
-	<File>Units_Land_Empire_Juggernaut.xml</File>
 
 
 
-	<!-- Expansion Units: Rebel -->
-	
-	<File>Units_Hero_Rebel_Yoda.xml</File>
-	<File>Units_Hero_Rebel_LukeSkywalker.xml</File>
-	
-	<File>Units_Hero_Rebel_Rogue_Squadron.xml</File>
 
 
 
-	<File>Units_Space_Rebel_BWing.xml</File>	
-	<File>Units_Space_Rebel_MC30_Frigate.xml</File>
+
+
+
 
 
 
@@ -182,6 +171,20 @@
 	
 	
 	
+	<!-- Hero Units: Empire -->
+	
+	<File>Imperial_units\Hero_units_Empire\Units_hero_empire_thrawn.xml</File>
+    <File>Imperial_units\Hero_units_Empire\Units_hero_empire_Director_Krennic.xml</File>
+	<File>Imperial_units\Hero_units_Empire\Units_hero_empire_inferno_squad.xml</File>
+	<File>Imperial_units\Hero_units_Empire\Units_hero_empire_Galen_Erso.xml</File>
+	<File>Imperial_units\Hero_units_Empire\Units_hero_empire_Darth_Vader.xml</File>
+	<File>Imperial_units\Hero_units_Empire\Units_Hero_Empire_Titan_Squadron.xml</File>
+	<File>Imperial_units\Hero_units_Empire\Units_hero_empire_Admiral_Versio.xml</File>
+	<File>Imperial_units\Hero_units_Empire\Units_hero_empire_Captain_Needa.xml</File>
+	<File>Imperial_units\Hero_units_Empire\Units_hero_empire_Tarkin.xml</File>
+	<File>Imperial_units\Hero_units_Empire\Units_hero_empire_Pestage.xml</File>
+	<File>Imperial_units\Hero_units_Empire\Units_hero_empire_Ularen.xml</File>
+	
 	<!-- Infantry Units: Empire -->
 	
     <File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_empire_Imperial_Stormtrooper.xml</File>
@@ -215,8 +218,50 @@
 	<File>Imperial_units\Land_units_Empire\Vehicle_Units_Empire\Units_land_empire_juggernaut.xml</File>
 	<File>Imperial_units\Land_units_Empire\Vehicle_Units_Empire\Units_Land_Empire_Striker.xml</File>
 					   
+    <!-- Space Units: Empire -->
 
+    <File>Imperial_units\Space_units_Empire\Light_Space_Units_Empire\Units_space_empire_tie_defender.xml</File>
+	<File>Imperial_units\Space_units_Empire\Light_Space_Units_Empire\Units_Space_Empire_TIE_Inquisitor.xml</File>
+	<File>Imperial_units\Space_units_Empire\Light_Space_Units_Empire\Units_space_empire_tie_interceptor.xml</File>
+	<File>Imperial_units\Space_units_Empire\Light_Space_Units_Empire\Units_space_empire_TIE_Interceptor_Royal.xml</File>
+	<File>Imperial_units\Space_units_Empire\Light_Space_Units_Empire\Units_space_empire_tie_phantom.xml</File>
+	<File>Imperial_units\Space_units_Empire\Light_Space_Units_Empire\Units_Space_Empire_TIE_Prototype.xml</File>
+	
+	<File>Imperial_units\Space_units_Empire\Light_Space_Units_Empire\Units_Space_Arquitens.xml</File>
+	<File>Imperial_units\Space_units_Empire\Light_Space_Units_Empire\Units_space_empire_carrier.xml</File>
+	<File>Imperial_units\Space_units_Empire\Light_Space_Units_Empire\Units_space_empire_Gozanti.xml</File>
+	<File>Imperial_units\Space_units_Empire\Light_Space_Units_Empire\Units_Space_Empire_Immobilizer.xml</File>
+	<File>Imperial_units\Space_units_Empire\Light_Space_Units_Empire\Units_space_empire_Katana_Dreadnought.xml</File>
+	<File>Imperial_units\Space_units_Empire\Light_Space_Units_Empire\Units_space_empire_Victory.xml</File>
+	<File>Imperial_units\Space_units_Empire\Light_Space_Units_Empire\Units_space_empire_VictoryII.xml</File>
+	<File>Imperial_units\Space_units_Empire\Light_Space_Units_Empire\Units_space_empire_VictoryIII.xml</File>
+	<File>Imperial_units\Space_units_Empire\Light_Space_Units_Empire\Units_Space_Raider_Corvette.xml</File>
+	
+	<File>Imperial_units\Space_units_Empire\Heavy_Space_Units_Empire\Units_Space_Empire_Allegiance.xml</File>
+	<File>Imperial_units\Space_units_Empire\Heavy_Space_Units_Empire\Units_space_empire_executor.xml</File>
+    <File>Imperial_units\Space_units_Empire\Heavy_Space_Units_Empire\Units_space_empire_Finalizer_destroyer.xml</File>
+	<File>Imperial_units\Space_units_Empire\Heavy_Space_Units_Empire\Units_Space_Empire_Star_Destroyer_Dominator.xml</File>
+	<File>Imperial_units\Space_units_Empire\Heavy_Space_Units_Empire\Units_space_Empire_Star_Destroyer_I.xml</File>
+	<File>Imperial_units\Space_units_Empire\Heavy_Space_Units_Empire\Units_space_Empire_Star_Destroyer_II.xml</File>
+	<File>Imperial_units\Space_units_Empire\Heavy_Space_Units_Empire\Units_Space_Empire_Star_Destroyer_III.xml</File>
+	<File>Imperial_units\Space_units_Empire\Heavy_Space_Units_Empire\Units_Space_Empire_Tector.xml</File>
+	<File>Imperial_units\Space_units_Empire\Heavy_Space_Units_Empire\Units_space_empire_venator.xml</File>
+	<File>Imperial_units\Space_units_Empire\Heavy_Space_Units_Empire\Units_space_empire_Xyston.xml</File>
+	<File>Imperial_units\Space_units_Empire\Heavy_Space_Units_Empire\Units_space_empire_XystonII.xml</File>
 
+	<!-- Hero Units: Rebel -->
+	
+	<File>Rebel_units\Hero_units_Rebel\Units_hero_rebel_cassian_andor.xml</File>
+	<File>Rebel_units\Hero_units_Rebel\Units_hero_rebel_jyn_erso.xml</File>
+	<File>Rebel_units\Hero_units_Rebel\Units_hero_rebel_Garm_Bel_Iblis.xml</File>
+    <File>Rebel_units\Hero_units_Rebel\Units_hero_rebel_Lusankya.xml</File>
+	<File>Rebel_units\Hero_units_Rebel\Units_hero_Rebel_Vanguard_Squadron.xml</File>
+	<File>Rebel_units\Hero_units_Rebel\Units_hero_rebel_lukeskywalker.xml</File>
+	<File>Rebel_units\Hero_units_Rebel\Units_hero_rebel_Ahsoka_Tano.xml</File>
+	<File>Rebel_units\Hero_units_Rebel\Units_Hero_Rebel_General_Draven.xml</File>
+	<File>Rebel_units\Hero_units_Rebel\Units_Hero_Rebel_General_Madine.xml</File>
+	<File>Rebel_units\Hero_units_Rebel\Units_hero_Rebel_Bail_Organa.xml</File>
+	<File>Rebel_units\Hero_units_Rebel\Units_hero_rebel_rogue_squadron.xml</File>
 	
 	<!-- Infantry Units: Rebel -->
 	
@@ -242,6 +287,8 @@
 	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_land_Rebel_Urban_Plex_Soldier.xml</File>
 	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_land_Rebel_Survivors.xml</File>
 	
+	<!-- Vehicle Units: Rebel -->
+	
 	<File>Rebel_units\Land_units_Rebel\Vehicle_units_Rebel\Units_Land_rebel_AAC.xml</File>
 	<File>Rebel_units\Land_units_Rebel\Vehicle_units_Rebel\Units_land_rebel_gallofree_htt.xml</File>
 	<File>Rebel_units\Land_units_Rebel\Vehicle_units_Rebel\Units_land_rebel_gargantuan_advanced.xml</File>
@@ -249,8 +296,39 @@
 	<File>Rebel_units\Land_units_Rebel\Vehicle_units_Rebel\Units_land_rebel_t1b_tank.xml</File>
 	<File>Rebel_units\Land_units_Rebel\Vehicle_units_Rebel\Units_Land_rebel_T2B_Tank.xml</File>
 	<File>Rebel_units\Land_units_Rebel\Vehicle_units_Rebel\Units_land_rebel_V_19_landspeeder.xml</File>
-
-
+	
+	 <!-- Space Units: Rebel -->
+	 
+	<File>Rebel_units\Space_units_Rebel\Light_Space_Units_Rebel\Units_space_rebel_A-Wing.xml</File>
+	<File>Rebel_units\Space_units_Rebel\Light_Space_Units_Rebel\Units_space_rebel_bwing.xml</File>
+	<File>Rebel_units\Space_units_Rebel\Light_Space_Units_Rebel\Units_space_rebel_u_wing.xml</File>
+	<File>Rebel_units\Space_units_Rebel\Light_Space_Units_Rebel\Units_space_rebel_X-Wing.xml</File>
+	<File>Rebel_units\Space_units_Rebel\Light_Space_Units_Rebel\Units_space_rebel_Y-Wing.xml</File>
+	
+	<File>Rebel_units\Space_units_Rebel\Light_Space_Units_Rebel\Units_space_Rebel_Carrack.xml</File>
+	<File>Rebel_units\Space_units_Rebel\Light_Space_Units_Rebel\Units_space_rebel_Dauntless.xml</File>
+	<File>Rebel_units\Space_units_Rebel\Light_Space_Units_Rebel\Units_Space_Rebel_Hammerhead.xml</File>
+	<File>Rebel_units\Space_units_Rebel\Light_Space_Units_Rebel\Units_Space_Rebel_Liberator_Carrier.xml</File>
+	<File>Rebel_units\Space_units_Rebel\Light_Space_Units_Rebel\Units_space_rebel_mc40.xml</File>
+	<File>Rebel_units\Space_units_Rebel\Light_Space_Units_Rebel\Units_space_rebel_mc40b_frigate.xml</File>
+	<File>Rebel_units\Space_units_Rebel\Light_Space_Units_Rebel\Units_space_rebel_mc60.xml</File>
+	<File>Rebel_units\Space_units_Rebel\Light_Space_Units_Rebel\Units_Space_Rebel_Nebulon_B.xml</File>
+	<File>Rebel_units\Space_units_Rebel\Light_Space_Units_Rebel\Units_Space_Republic_Pelta_Frigate.xml</File>
+	
+	<File>Rebel_units\Space_units_Rebel\Heavy_Space_Units_Rebel\Units_Space_Rebel_Home_One_Regular.xml</File>
+	<File>Rebel_units\Space_units_Rebel\Heavy_Space_Units_Rebel\Units_space_rebel_mc50.xml</File>
+	<File>Rebel_units\Space_units_Rebel\Heavy_Space_Units_Rebel\Units_space_rebel_mc75.xml</File>
+	<File>Rebel_units\Space_units_Rebel\Heavy_Space_Units_Rebel\Units_Space_Rebel_mc80_Liberty.xml</File>
+	<File>Rebel_units\Space_units_Rebel\Heavy_Space_Units_Rebel\Units_space_rebel_mc80A_Wingless.xml</File>
+	<File>Rebel_units\Space_units_Rebel\Heavy_Space_Units_Rebel\Units_space_rebel_mc80b.xml</File>
+	<File>Rebel_units\Space_units_Rebel\Heavy_Space_Units_Rebel\Units_space_rebel_mc90.xml</File>
+	<File>Rebel_units\Space_units_Rebel\Heavy_Space_Units_Rebel\Units_space_rebel_mc90b.xml</File>
+	<File>Rebel_units\Space_units_Rebel\Heavy_Space_Units_Rebel\Units_space_rebel_MonCalHC.xml</File>
+	<File>Rebel_units\Space_units_Rebel\Heavy_Space_Units_Rebel\Units_Space_Rebel_Profundity.xml</File>
+	<File>Rebel_units\Space_units_Rebel\Heavy_Space_Units_Rebel\Units_Space_Rebel_Viscount.xml</File>
+	
+	
+	
 	
 	
 

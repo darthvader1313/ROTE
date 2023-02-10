@@ -178,10 +178,10 @@
 			<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 			<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 			<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-			<Projectile_Object_Detonation_Particle> Particle_Yellow_Ground_Small </Projectile_Object_Detonation_Particle>
-		    <Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Yellow_Ground_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+			<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Large </Projectile_Object_Detonation_Particle>
+		    <Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		    <Projectile_Ground_Detonation_Particle />
-		    <Projectile_Lifetime_Detonation_Particle>Particle_Yellow_Ground_Small</Projectile_Lifetime_Detonation_Particle>
+		    <Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Large</Projectile_Lifetime_Detonation_Particle>
 		    <Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
 			<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE_INFANTRY</Projectile_Ground_Detonation_SurfaceFX>
 			<AI_Combat_Power>40</AI_Combat_Power>
@@ -204,10 +204,10 @@
 			<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 			<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 			<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-			<Projectile_Object_Detonation_Particle> Particle_Green_Ground_Small </Projectile_Object_Detonation_Particle>
-		    <Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Ground_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+			<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Large </Projectile_Object_Detonation_Particle>
+		    <Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		    <Projectile_Ground_Detonation_Particle />
-		    <Projectile_Lifetime_Detonation_Particle>Particle_Green_Ground_Small</Projectile_Lifetime_Detonation_Particle>
+		    <Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Large</Projectile_Lifetime_Detonation_Particle>
 		    <Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
 			<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE_INFANTRY</Projectile_Ground_Detonation_SurfaceFX>
 			<AI_Combat_Power>40</AI_Combat_Power>
@@ -230,10 +230,10 @@
 			<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 			<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 			<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-			<Projectile_Object_Detonation_Particle> Particle_Red_Ground_Small </Projectile_Object_Detonation_Particle>
-		    <Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Red_Ground_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+			<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Large </Projectile_Object_Detonation_Particle>
+		    <Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		    <Projectile_Ground_Detonation_Particle />
-		    <Projectile_Lifetime_Detonation_Particle>Particle_Red_Ground_Small</Projectile_Lifetime_Detonation_Particle>
+		    <Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Large</Projectile_Lifetime_Detonation_Particle>
 		    <Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
 			<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE_INFANTRY</Projectile_Ground_Detonation_SurfaceFX>
 			<AI_Combat_Power>40</AI_Combat_Power>
@@ -256,10 +256,10 @@
 			<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 			<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 			<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-			<Projectile_Object_Detonation_Particle> Particle_Red_Ground_Small </Projectile_Object_Detonation_Particle>
-		    <Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Red_Ground_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+			<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Small </Projectile_Object_Detonation_Particle>
+		    <Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		    <Projectile_Ground_Detonation_Particle />
-		    <Projectile_Lifetime_Detonation_Particle>Particle_Red_Ground_Small</Projectile_Lifetime_Detonation_Particle>
+		    <Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Small</Projectile_Lifetime_Detonation_Particle>
 		    <Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
 			<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE_INFANTRY</Projectile_Ground_Detonation_SurfaceFX>
 			<AI_Combat_Power>40</AI_Combat_Power>
@@ -282,10 +282,10 @@
 			<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 			<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 			<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-			<Projectile_Object_Detonation_Particle> Particle_Green_Ground_Small</Projectile_Object_Detonation_Particle>
-		    <Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Ground_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+			<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Small</Projectile_Object_Detonation_Particle>
+		    <Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		    <Projectile_Ground_Detonation_Particle />
-		    <Projectile_Lifetime_Detonation_Particle>Particle_Green_Ground_Small</Projectile_Lifetime_Detonation_Particle>
+		    <Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Small</Projectile_Lifetime_Detonation_Particle>
 		    <Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
 			<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE_INFANTRY</Projectile_Ground_Detonation_SurfaceFX>
 			<AI_Combat_Power>40</AI_Combat_Power>
@@ -308,10 +308,10 @@
 			<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 			<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 			<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-			<Projectile_Object_Detonation_Particle> Particle_Red_Ground_Small </Projectile_Object_Detonation_Particle>
-		    <Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Red_Ground_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+			<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Small </Projectile_Object_Detonation_Particle>
+		    <Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		    <Projectile_Ground_Detonation_Particle />
-		    <Projectile_Lifetime_Detonation_Particle>Particle_Red_Ground_Small</Projectile_Lifetime_Detonation_Particle>
+		    <Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Small</Projectile_Lifetime_Detonation_Particle>
 		    <Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
 			<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE_INFANTRY</Projectile_Ground_Detonation_SurfaceFX>
 			<AI_Combat_Power>40</AI_Combat_Power>
@@ -334,10 +334,10 @@
 			<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 			<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 			<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-			<Projectile_Object_Detonation_Particle> Particle_Red_Ground_Small </Projectile_Object_Detonation_Particle>
-		    <Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Red_Ground_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+			<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Small </Projectile_Object_Detonation_Particle>
+		    <Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		    <Projectile_Ground_Detonation_Particle />
-		    <Projectile_Lifetime_Detonation_Particle>Particle_Red_Ground_Small</Projectile_Lifetime_Detonation_Particle>
+		    <Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Small</Projectile_Lifetime_Detonation_Particle>
 		    <Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
 			<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE_INFANTRY</Projectile_Ground_Detonation_SurfaceFX>
 			<AI_Combat_Power>40</AI_Combat_Power>
@@ -360,10 +360,10 @@
 			<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 			<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 			<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-			<Projectile_Object_Detonation_Particle> Particle_Green_Ground_Small</Projectile_Object_Detonation_Particle>
-		    <Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Ground_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+			<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Small</Projectile_Object_Detonation_Particle>
+		    <Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		    <Projectile_Ground_Detonation_Particle />
-		    <Projectile_Lifetime_Detonation_Particle>Particle_Green_Ground_Small</Projectile_Lifetime_Detonation_Particle>
+		    <Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Small</Projectile_Lifetime_Detonation_Particle>
 		    <Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
 			<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE_INFANTRY</Projectile_Ground_Detonation_SurfaceFX>
 			<AI_Combat_Power>40</AI_Combat_Power>
@@ -386,10 +386,10 @@
 			<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 			<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 			<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-			<Projectile_Object_Detonation_Particle> Particle_Yellow_Ground_Small </Projectile_Object_Detonation_Particle>
-		    <Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Yellow_Ground_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+			<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Small </Projectile_Object_Detonation_Particle>
+		    <Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		    <Projectile_Ground_Detonation_Particle />
-		    <Projectile_Lifetime_Detonation_Particle>Particle_Yellow_Ground_Small</Projectile_Lifetime_Detonation_Particle>
+		    <Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Small</Projectile_Lifetime_Detonation_Particle>
 		    <Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
 			<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE_INFANTRY</Projectile_Ground_Detonation_SurfaceFX>
 			<AI_Combat_Power>40</AI_Combat_Power>
@@ -412,10 +412,10 @@
 			<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 			<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 			<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-			<Projectile_Object_Detonation_Particle> Particle_Red_Ground_Small </Projectile_Object_Detonation_Particle>
-		    <Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Red_Ground_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+			<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Small </Projectile_Object_Detonation_Particle>
+		    <Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		    <Projectile_Ground_Detonation_Particle />
-		    <Projectile_Lifetime_Detonation_Particle>Particle_Red_Ground_Small</Projectile_Lifetime_Detonation_Particle>
+		    <Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Small</Projectile_Lifetime_Detonation_Particle>
 		    <Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
 			<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE_INFANTRY</Projectile_Ground_Detonation_SurfaceFX>
 			<AI_Combat_Power>40</AI_Combat_Power>
@@ -438,10 +438,10 @@
 			<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 			<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 			<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-			<Projectile_Object_Detonation_Particle> Particle_Green_Ground_Small</Projectile_Object_Detonation_Particle>
-		    <Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Green_Ground_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+			<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Small</Projectile_Object_Detonation_Particle>
+		    <Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		    <Projectile_Ground_Detonation_Particle />
-		    <Projectile_Lifetime_Detonation_Particle>Particle_Green_Ground_Small</Projectile_Lifetime_Detonation_Particle>
+		    <Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Small</Projectile_Lifetime_Detonation_Particle>
 		    <Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
 			<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE_INFANTRY</Projectile_Ground_Detonation_SurfaceFX>
 			<AI_Combat_Power>40</AI_Combat_Power>
@@ -464,11 +464,11 @@
 			<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 			<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 			<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-			<Projectile_Object_Detonation_Particle> Particle_Red_Ground_Small </Projectile_Object_Detonation_Particle>
-		    <Projectile_Object_Armor_Reduced_Detonation_Particle>Particle_Red_Ground_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+			<Projectile_Object_Detonation_Particle> Damage_turbolaser_Hit_Small </Projectile_Object_Detonation_Particle>
+		    <Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_turbolaser_Hit_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		    <Projectile_Ground_Detonation_Particle />
-		    <Projectile_Lifetime_Detonation_Particle>Particle_Red_Ground_Small</Projectile_Lifetime_Detonation_Particle>
-		    <Projectile_Absorbed_By_Shields_Particle>Turbolaser_Hit_Shield</Projectile_Absorbed_By_Shields_Particle>
+		    <Projectile_Lifetime_Detonation_Particle>Damage_turbolaser_Hit_Small</Projectile_Lifetime_Detonation_Particle>
+		    <Projectile_Absorbed_By_Shields_Particle>Damage_turbolaser_Hit_Small</Projectile_Absorbed_By_Shields_Particle>
 			<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE_INFANTRY</Projectile_Ground_Detonation_SurfaceFX>
 			<AI_Combat_Power>40</AI_Combat_Power>
 			<Projectile_SFXEvent_Detonate>SFX_Land_Blaster_Detonation</Projectile_SFXEvent_Detonate>
@@ -488,7 +488,7 @@
 	<Projectile Name="Proj_Hand_laser_red_antivehicle">
 		<Text_ID>TEXT_NONE</Text_ID>
 			<Land_Model_Name>w_infantry_blaster_red.ALO</Land_Model_Name>
-			<Scale_Factor>0.018</Scale_Factor>
+			<Scale_Factor>0.09</Scale_Factor>
 			<Damage_Type> Damage_Blaster_Hand </Damage_Type>
 			<Max_Speed>17</Max_Speed>
 			<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -512,7 +512,7 @@
 	<Projectile Name="Proj_Hand_laser_red_specialist">
 		<Text_ID>TEXT_NONE</Text_ID>
 			<Land_Model_Name>w_infantry_blaster_red.ALO</Land_Model_Name>
-			<Scale_Factor>0.018</Scale_Factor>
+			<Scale_Factor>0.09</Scale_Factor>
 			<Damage_Type> Damage_Blaster_Hand </Damage_Type>
 			<Max_Speed>17</Max_Speed>
 			<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -533,7 +533,7 @@
 	
 	<Projectile Name="Proj_Hand_laser_Blue_specialist">
 		   <Text_ID>TEXT_NONE</Text_ID>
-		   <Scale_Factor>0.018</Scale_Factor>
+		   <Scale_Factor>0.09</Scale_Factor>
 		   <Land_Model_Name>w_infantry_blaster_blue.ALO</Land_Model_Name>
 		   <Damage_Type> DamageL_InfantryBlaster </Damage_Type>
 		   <Max_Speed>17</Max_Speed>
@@ -556,7 +556,7 @@
 	<Projectile Name="Proj_Hand_laser_red_elite">
 		<Text_ID>TEXT_NONE</Text_ID>
 			<Land_Model_Name>w_infantry_blaster_red.ALO</Land_Model_Name>
-			<Scale_Factor>0.018</Scale_Factor>
+			<Scale_Factor>0.09</Scale_Factor>
 			<Damage_Type> Damage_Blaster_Hand </Damage_Type>
 			<Max_Speed>17</Max_Speed>
 			<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -578,7 +578,7 @@
 	<Projectile Name="Proj_Hand_laser_Green_elite">
 		<Text_ID>TEXT_NONE</Text_ID>
 		   <Land_Model_Name>w_infantry_blaster_green.ALO</Land_Model_Name>
-		   <Scale_Factor>0.018</Scale_Factor>
+		   <Scale_Factor>0.09</Scale_Factor>
 		   <Damage_Type> Damage_Blaster_Hand </Damage_Type>
 		   <Max_Speed>17</Max_Speed>
 		   <Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -599,7 +599,7 @@
 	
 	<Projectile Name="Proj_Hand_laser_Yellow_elite">
 		   <Text_ID>TEXT_NONE</Text_ID>
-		   <Scale_Factor>0.018</Scale_Factor>
+		   <Scale_Factor>0.09</Scale_Factor>
 		   <Land_Model_Name>w_infantry_blaster_yellow.ALO</Land_Model_Name>
 		   <Damage_Type> DamageL_InfantryBlaster </Damage_Type>
 		   <Max_Speed>17</Max_Speed>
@@ -621,7 +621,7 @@
 	
 	<Projectile Name="Proj_Hand_laser_Blue_elite">
 		   <Text_ID>TEXT_NONE</Text_ID>
-		   <Scale_Factor>0.018</Scale_Factor>
+		   <Scale_Factor>0.09</Scale_Factor>
 		   <Land_Model_Name>w_infantry_blaster_blue.ALO</Land_Model_Name>
 		   <Damage_Type> DamageL_InfantryBlaster </Damage_Type>
 		   <Max_Speed>17</Max_Speed>
@@ -646,7 +646,7 @@
 	<Projectile Name="Proj_Hand_laser_red_light">
 		<Text_ID>TEXT_NONE</Text_ID>
 			<Land_Model_Name>w_infantry_blaster_red.ALO</Land_Model_Name>
-			<Scale_Factor>0.018</Scale_Factor>
+			<Scale_Factor>0.09</Scale_Factor>
 			<Damage_Type> Damage_Blaster_Hand </Damage_Type>
 			<Max_Speed>17</Max_Speed>
 			<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -668,7 +668,7 @@
 	<Projectile Name="Proj_Hand_laser_Green_light">
 		<Text_ID>TEXT_NONE</Text_ID>
 		   <Land_Model_Name>w_infantry_blaster_green.ALO</Land_Model_Name>
-		   <Scale_Factor>0.018</Scale_Factor>
+		   <Scale_Factor>0.09</Scale_Factor>
 		   <Damage_Type> Damage_Blaster_Hand </Damage_Type>
 		   <Max_Speed>17</Max_Speed>
 		   <Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -689,7 +689,7 @@
 	
 	<Projectile Name="Proj_Hand_laser_Yellow_light">
 		   <Text_ID>TEXT_NONE</Text_ID>
-		   <Scale_Factor>0.018</Scale_Factor>
+		   <Scale_Factor>0.09</Scale_Factor>
 		   <Land_Model_Name>w_infantry_blaster_yellow.ALO</Land_Model_Name>
 		   <Damage_Type> DamageL_InfantryBlaster </Damage_Type>
 		   <Max_Speed>17</Max_Speed>
@@ -711,7 +711,7 @@
 	
 	<Projectile Name="Proj_Hand_laser_Blue_light">
 		   <Text_ID>TEXT_NONE</Text_ID>
-		   <Scale_Factor>0.018</Scale_Factor>
+		   <Scale_Factor>0.09</Scale_Factor>
 		   <Land_Model_Name>w_infantry_blaster_blue.ALO</Land_Model_Name>
 		   <Damage_Type> DamageL_InfantryBlaster </Damage_Type>
 		   <Max_Speed>17</Max_Speed>
@@ -733,7 +733,7 @@
 	
 	<Projectile Name="Proj_Hand_laser_Azure_light">
 		   <Text_ID>TEXT_NONE</Text_ID>
-		   <Scale_Factor>0.018</Scale_Factor>
+		   <Scale_Factor>0.09</Scale_Factor>
 		   <Land_Model_Name>w_infantry_blaster_lightblue.ALO</Land_Model_Name>
 		   <Damage_Type> DamageL_InfantryBlaster </Damage_Type>
 		   <Max_Speed>17</Max_Speed>

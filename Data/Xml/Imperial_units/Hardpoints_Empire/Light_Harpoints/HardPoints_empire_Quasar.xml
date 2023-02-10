@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+<HardPoints>
+
+
+
+<HardPoint Name="HP_Quasar_01">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_TURBOLASER</Tooltip_Text>
+		<Health>470.0</Health>
+		
+		<Attachment_Bone>HP_01</Attachment_Bone>
+		<Collision_Mesh>HP_01</Collision_Mesh>
+		
+		<Fire_Bone_A>HP_01</Fire_Bone_A>
+		<Fire_Bone_B>HP_01</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Single</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>10</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>1500.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_fire_single</Fire_SFXEvent>
+		
+		<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+	</HardPoint>
+	
+	<HardPoint Name="HP_Quasar_02">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_TURBOLASER</Tooltip_Text>
+		<Health>470.0</Health>
+		
+		<Attachment_Bone>HP_02</Attachment_Bone>
+		<Collision_Mesh>HP_02</Collision_Mesh>
+		
+		<Fire_Bone_A>HP_02</Fire_Bone_A>
+		<Fire_Bone_B>HP_02</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Single</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>10</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>1500.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_fire_single</Fire_SFXEvent>
+		
+		<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+	</HardPoint>
+	
+	<HardPoint Name="HP_Quasar_03">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_TURBOLASER</Tooltip_Text>
+		<Health>470.0</Health>
+		
+		<Attachment_Bone>HP_03</Attachment_Bone>
+		<Collision_Mesh>HP_03</Collision_Mesh>
+		
+		<Fire_Bone_A>HP_03</Fire_Bone_A>
+		<Fire_Bone_B>HP_03</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Single</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>10</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>1500.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_fire_single</Fire_SFXEvent>
+		
+		<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+	</HardPoint>
+	
+	<HardPoint Name="HP_Quasar_04">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_TURBOLASER</Tooltip_Text>
+		<Health>470.0</Health>
+		
+		<Attachment_Bone>HP_04</Attachment_Bone>
+		<Collision_Mesh>HP_04</Collision_Mesh>
+		
+		<Fire_Bone_A>HP_04</Fire_Bone_A>
+		<Fire_Bone_B>HP_04</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Single</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>10</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>1500.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_fire_single</Fire_SFXEvent>
+		
+		<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+	</HardPoint>
+	
+	<HardPoint Name="HP_Quasar_Fighter_Bay_00">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>yes</Is_Destroyable>
+		<Attachment_Bone>SPAWN_00</Attachment_Bone>             
+		<Collision_Mesh>SPAWN_00</Collision_Mesh>
+            	<Damage_Decal />
+            	<Damage_Particles>SPAWN_00_EMITDAMAGE</Damage_Particles>
+		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+		<Health>470.0</Health>
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
+
+	</HardPoint>
+	
+	<HardPoint Name="HP_Quasar_Fighter_Bay_01">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>yes</Is_Destroyable>
+		<Attachment_Bone>SPAWN_01</Attachment_Bone>             
+		<Collision_Mesh>SPAWN_01</Collision_Mesh>
+            	<Damage_Decal />
+            	<Damage_Particles>SPAWN_00_EMITDAMAGE</Damage_Particles>
+		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+		<Health>470.0</Health>
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
+
+	</HardPoint>
+	
+	<HardPoint Name="HP_Quasar_Fighter_Bay_02">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>yes</Is_Destroyable>
+		<Attachment_Bone>SPAWN_02</Attachment_Bone>             
+		<Collision_Mesh>SPAWN_02</Collision_Mesh>
+            	<Damage_Decal />
+            	<Damage_Particles>SPAWN_00_EMITDAMAGE</Damage_Particles>
+		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+		<Health>470.0</Health>
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
+
+	</HardPoint>
+	
+	<HardPoint Name="HP_Quasar_Fighter_Bay_03">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>yes</Is_Destroyable>
+		<Attachment_Bone>SPAWN_03</Attachment_Bone>             
+		<Collision_Mesh>SPAWN_03</Collision_Mesh>
+            	<Damage_Decal />
+            	<Damage_Particles>SPAWN_00_EMITDAMAGE</Damage_Particles>
+		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+		<Health>470.0</Health>
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
+
+	</HardPoint>
+		
+	<HardPoint Name="HP_Quasar_Engines">
+        <Type>HARD_POINT_ENGINE</Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
+        <Health>470.0</Health>
+
+        <Death_Explosion_Particles></Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach/>
+        <Attachment_Bone>ENGINES</Attachment_Bone>
+        <Collision_Mesh>ENGINES</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles>Engine_01_EmitDamage</Damage_Particles>
+        <Engine_Particles/>
+
+    </HardPoint>
+	
+	
+	
+	
+            
+    
+    
+</HardPoints>
+

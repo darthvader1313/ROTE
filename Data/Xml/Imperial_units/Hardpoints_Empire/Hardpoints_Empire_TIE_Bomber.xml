@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<HardPoints>
+
+
+    <HardPoint Name="HP_TIE_BOMBER_00">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+            <Fire_Bone_A>HP_01</Fire_Bone_A>
+            <Fire_Bone_B>HP_01</Fire_Bone_B>
+            <Fire_Cone_Width>20.0</Fire_Cone_Width>
+            <Fire_Cone_Height>20.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Fighter_Turbolaser_green</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>0.5</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>500.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
+
+
+			<Damage_Type> Damage_Fighter </Damage_Type>
+			<Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+			
+			<Fire_Category_Restrictions> Corvette, Frigate, Capital, Structure </Fire_Category_Restrictions>
+
+    </HardPoint>
+
+    <HardPoint Name="HP_TIE_BOMBER_01">
+			<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+			<Damage_Type> Damage_Proton_Torp </Damage_Type>
+
+            <Fire_Bone_A>HP_02</Fire_Bone_A>
+            <Fire_Bone_B>HP_02</Fire_Bone_B>
+            <Fire_Cone_Width>30.0</Fire_Cone_Width> <!-- was 20 -->
+            <Fire_Cone_Height>30.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Proton_Torpedo</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>8.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.15</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>700.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
+
+			<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+ 			<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
+			<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
+   
+    </HardPoint>
+    
+</HardPoints>
+

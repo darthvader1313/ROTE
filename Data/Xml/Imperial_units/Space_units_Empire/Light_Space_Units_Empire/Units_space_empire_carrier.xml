@@ -1,0 +1,412 @@
+<?xml version="1.0"?>
+<Escort_Carrier_Files>
+
+
+
+<!-- **** BASE SHIP INFORMATION **** -->
+
+
+
+
+
+		<!--ImperialeSchiffe-->
+  <SpaceUnit Name="Imperial_Escort_Carrier_muster">
+    <Text_ID>TEXT_UNIT_IMPERIAL_CARRIER_ID</Text_ID>
+	<Encyclopedia_Text> 
+				TEXT_STATS
+		        TEXT_LINE
+				TEXT_STAT_HEALTH_2820
+				TEXT_LINE
+				TEXT_STAT_SHIELD_1410
+				TEXT_LINE
+				TEXT_STAT_DAMAGE_240
+				TEXT_LINE
+				TEXT_STAT_SINGLE_TURBOLASERS_4             
+				TEXT_LINE
+                TEXT_STAT_FIRE_RANGE_1500
+				TEXT_LINE
+				TEXT_STAT_HARDPOINTS_4
+		</Encyclopedia_Text>
+    <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_CRUISER</Encyclopedia_Unit_Class>
+    <GUI_Row>0</GUI_Row>
+    <Space_Model_Name>EV_Quasar.ALO</Space_Model_Name>
+    <Select_Box_Scale>300</Select_Box_Scale>
+    <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+    <Mass>0.9995</Mass>
+    <Scale_Factor>0.65</Scale_Factor>
+    <Ranking_In_Category>6</Ranking_In_Category>
+    <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+    <Max_Speed>3.5</Max_Speed>
+		<Bank_Turn_Angle>30</Bank_Turn_Angle>
+		<Max_Rate_Of_Roll>0.15</Max_Rate_Of_Roll>
+		<Max_Rate_Of_Turn>0.375</Max_Rate_Of_Turn>
+    <MovementClass>Space</MovementClass>
+    <Space_Layer>Frigate</Space_Layer>
+    <Layer_Z_Adjust>-10.0</Layer_Z_Adjust>
+    <OverrideAcceleration>.04</OverrideAcceleration>
+    <OverrideDeceleration>.04</OverrideDeceleration>
+    <Build_Limit_Current_Per_Player>99</Build_Limit_Current_Per_Player>
+    <Max_Thrust>1.5</Max_Thrust>
+    <Hyperspace>Yes</Hyperspace>
+    <Hyperspace_Speed>0.4</Hyperspace_Speed>
+    <Maintenance_Cost>0.1</Maintenance_Cost>
+    <Armor_Type>Armor_Acclamator</Armor_Type>
+    <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
+    <Radar_Icon_Name>i_radar_Victory.tga</Radar_Icon_Name>
+		<AI_Combat_Power>240</AI_Combat_Power>
+		<Damage>240</Damage>
+		<Autoresolve_Health>2820</Autoresolve_Health>
+		<Tactical_Health>2820</Tactical_Health>
+		<Shield_Points>1410</Shield_Points>
+		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
+		<Energy_Capacity>2000</Energy_Capacity>
+		<Energy_Refresh_Rate>40</Energy_Refresh_Rate>
+
+		<Build_Cost_Credits>2500</Build_Cost_Credits>
+		<Piracy_Value_Credits>1030</Piracy_Value_Credits>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
+		<Tactical_Bribe_Cost>1030</Tactical_Bribe_Cost>
+		<Score_Cost_Credits>1030</Score_Cost_Credits>
+
+
+    <Affiliation>Empire </Affiliation>
+    <Tech_Level>99</Tech_Level>
+    <Required_Timeline>0</Required_Timeline>
+    <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+    <Required_Star_Base_Level>1</Required_Star_Base_Level>
+	<!--Required_Special_Structures>Empire_MSY_Techzenter2_Fighter</Required_Special_Structures-->
+    <Build_Time_Reduced_By_Multiple_Factories>Yes</Build_Time_Reduced_By_Multiple_Factories>
+    <Required_Planets />
+    <Ship_Class>frigate</Ship_Class>
+    <Formation_Priority>3</Formation_Priority>
+    <Is_Escort>yes</Is_Escort>
+    <Is_Bomber>no</Is_Bomber>
+    <Political_Control>0</Political_Control>
+    <Squadron_Capacity>10</Squadron_Capacity>
+    <Transport_Capacity>8</Transport_Capacity>
+    <Number_per_Squadron>1</Number_per_Squadron>
+    <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+    <Size_Value>8</Size_Value>
+    <Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
+    <SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
+    <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+    
+    <Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+    <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+    <Targeting_Max_Attack_Distance>900.0</Targeting_Max_Attack_Distance>
+
+        <HardPoints>
+			HP_Quasar_01,
+			HP_Quasar_02,
+			HP_Quasar_03,
+			HP_Quasar_04,
+			HP_Quasar_Fighter_Bay_00,
+			HP_Quasar_Fighter_Bay_01,
+			HP_Quasar_Fighter_Bay_02,
+			HP_Quasar_Fighter_Bay_03,
+			HP_Quasar_Engines
+		</HardPoints>
+	
+    <CategoryMask>Frigate | AntiCorvette</CategoryMask>
+    <Icon_Name>I_BUTTON_QUAZAR.TGA</Icon_Name>
+    <GUI_Model_Name>ESCORT_CARRIER.ALO</GUI_Model_Name>
+    <GUI_Distance>1100</GUI_Distance>
+    <GUI_Offset>0 0 0</GUI_Offset>
+    <GUI_Velocity>45</GUI_Velocity>
+    <Victory_Relevant>yes</Victory_Relevant>
+    <Has_Space_Evaluator>True</Has_Space_Evaluator>
+    <SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+    <SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+    <SFXEvent_Build_Complete>Unit_Complete_Acclamator</SFXEvent_Build_Complete>
+    <SFXEvent_Ambient_Loop>Unit_Acclamator_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
+    <SFXEvent_Select>Unit_Select_Acclamator</SFXEvent_Select>
+    <SFXEvent_Move>Unit_Move_Acclamator</SFXEvent_Move>
+    <SFXEvent_Fleet_Move>Unit_Fleet_Move_Acclamator</SFXEvent_Fleet_Move>
+    <SFXEvent_Attack>Unit_Attack_Acclamator</SFXEvent_Attack>
+    <SFXEvent_Guard>Unit_Guard_Acclamator</SFXEvent_Guard>
+    <SFXEvent_Stop>Unit_Stop_Acclamator</SFXEvent_Stop>
+    <SFXEvent_Barrage>Unit_Barrage_Acclamator</SFXEvent_Barrage>
+    <SFXEvent_Move_Into_Asteroid_Field>Unit_Asteroids_Acclamator</SFXEvent_Move_Into_Asteroid_Field>
+    <SFXEvent_Move_Into_Nebula>Unit_Nebula_Acclamator</SFXEvent_Move_Into_Nebula>
+    <SFXEvent_Damaged_By_Asteroid>SFX_Asteroid_Detonation</SFXEvent_Damaged_By_Asteroid>
+    <SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Acclamator</SFXEvent_Attack_Hardpoint>
+    <SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Acclamator</SFXEvent_Attack_Hardpoint>
+    <SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Acclamator</SFXEvent_Attack_Hardpoint>
+    <SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Acclamator</SFXEvent_Attack_Hardpoint>
+    <SFXEvent_Attack_Hardpoint>HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Acclamator</SFXEvent_Attack_Hardpoint>
+    <SFXEvent_Attack_Hardpoint>HARD_POINT_ENGINE, Unit_HP_ENGINES_Acclamator</SFXEvent_Attack_Hardpoint>
+    <SFXEvent_Attack_Hardpoint>HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Acclamator</SFXEvent_Attack_Hardpoint>
+    <SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Acclamator</SFXEvent_Hardpoint_Destroyed>
+    <SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE,  Unit_Lost_Missile_Acclamator</SFXEvent_Hardpoint_Destroyed>
+    <SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_TORPEDO,  Unit_Lost_Torpedo_Acclamator</SFXEvent_Hardpoint_Destroyed>
+    <SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_ION_CANNON,</SFXEvent_Hardpoint_Destroyed>
+    <SFXEvent_Hardpoint_Destroyed>HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Acclamator</SFXEvent_Hardpoint_Destroyed>
+    <SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENGINE, Unit_Lost_Engines_Acclamator</SFXEvent_Hardpoint_Destroyed>
+    <SFXEvent_Hardpoint_Destroyed>HARD_POINT_GRAVITY_WELL,</SFXEvent_Hardpoint_Destroyed>
+    <SFXEvent_Hardpoint_Destroyed>HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Acclamator</SFXEvent_Hardpoint_Destroyed>
+    <SFXEvent_Hardpoint_Destroyed>HARD_POINT_TRACTOR_BEAM,</SFXEvent_Hardpoint_Destroyed>
+    <SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENABLE_SPECIAL_ABILITY,</SFXEvent_Hardpoint_Destroyed>
+    <SFXEvent_Engine_Idle_Loop>Unit_Cruiser_Moving_Engine_Loop</SFXEvent_Engine_Idle_Loop>
+    <SFXEvent_Engine_Moving_Loop>Unit_Cruiser_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
+    <SFXEvent_Engine_Cinematic_Focus_Loop>Unit_Cruiser_Moving_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
+    
+    <Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
+    <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+    <Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
+    <Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+    <Guard_Chase_Range>1000.0</Guard_Chase_Range>
+    <Idle_Chase_Range>0.0</Idle_Chase_Range>
+    <Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+    <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+    <Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
+
+	<Unit_Abilities_Data SubObjectList="Yes">
+      <!-- Primary ability -->
+      <Unit_Ability>
+        <Type>power_to_weapons</Type>
+        <Expiration_Seconds>30</Expiration_Seconds>
+        <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.5f</Mod_Multiplier>
+        <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	-3f</Mod_Multiplier>
+        <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+        <Mod_Multiplier>SPEED_MULTIPLIER,		0.5f</Mod_Multiplier>
+        <Recharge_Seconds>60</Recharge_Seconds>
+        <SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Acclamator</SFXEvent_GUI_Unit_Ability_Activated>
+      </Unit_Ability>
+    </Unit_Abilities_Data>
+
+ 		<Abilities SubObjectList="Yes">
+
+			<Force_Healing_Ability Name="E_Mineral_Extractor_Self_Repair">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Heal_Range>0.0</Heal_Range>
+				<Heal_Percent>0.01</Heal_Percent>
+				<Heal_Amount>0.0</Heal_Amount>
+				<Heal_Interval_In_Secs>2.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>No</Single_Target_Heal>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types />
+				<SFXEvent_Target_Affected />
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type />
+				<Owner_Light_Effect_Color />
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration />
+				<Owner_Light_Effect_Pulse_Count />
+			</Force_Healing_Ability>
+		</Abilities>
+
+    
+    <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FRIGATE</Encyclopedia_Unit_Class>
+    <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+    <Tactical_Build_Cost_Multiplayer>2500</Tactical_Build_Cost_Multiplayer>
+    <Tactical_Build_Time_Seconds>60</Tactical_Build_Time_Seconds>
+    <Tactical_Build_Prerequisites />
+    <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+    <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+    <!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+    <!--<MULTIPLAYER SKIRMISH VALUES END>-->
+    <Population_Value>4</Population_Value>
+	
+	<Death_Explosions>Space_explosion_corvette</Death_Explosions>
+	<Death_SFXEvent_Start_Die>Space_Cruiser_Death</Death_SFXEvent_Start_Die>
+    <Remove_Upon_Death>true</Remove_Upon_Death>
+	
+  </SpaceUnit>
+  
+     
+
+	<SpaceUnit Name="Imperial_Escort_Carrier">
+		<Variant_Of_Existing_Type>Imperial_Escort_Carrier_muster</Variant_Of_Existing_Type>
+
+		<Tech_Level>2</Tech_Level>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+        <Lua_Script>ObjectScript_Layer_Z</Lua_Script>
+	<!--Required_Special_Structures>Empire_MSY_Techzenter2_Fighter</Required_Special_Structures-->
+
+	<Required_Planets>
+		        Coruscant,				
+				Corulag,
+				Arkania,
+				Skako,
+				Carida,
+				Alderaan,
+				Balmorra,				
+				CatoNeimoidia,
+				Commenor,
+				Manaan,								
+				Duro,
+				HosnianPrime,
+				Loronar,
+				Devaron,
+				Bestine,
+				MechisIII,
+				Thyferra,				
+				Abregado_Rae,
+				Byss,
+				Tython,
+				Foerost,
+				Fresia,
+				Atzerri,
+				YagDhul,				
+				Ordmantell,
+				Iridonia,
+				Ithor,
+				Aeten,
+				Nirauan,
+				YagaMinor,
+				Mygeeto,
+				Muunilinst,
+				Kalee,
+				Dantooine,
+				LahMu,
+				Bastion,
+				Sernpidal,
+				Mortis,
+				Agamar,
+				Despayre,				
+				Jakku,
+				Jedha,
+				Ilum,
+				Starkillerbase,
+				Csilla,
+				AchTo,
+				Takodana,
+				Rattatak,
+				Endor,
+				Bakura,
+				Dolomar,				
+				Eriadu,				
+				Dagobah,
+				Utapau,
+				Belsavis,
+				Bespin,
+				Hoth,
+				Mustafar,
+				PolisMassa,
+				Atravis,
+				Malastare,
+				Naboo,
+				DQar,
+				Crait,
+				Vergesso,
+				Alzoc,
+				Arkanis,
+				Ryloth,
+				Tatooine,
+				Geonosis,
+				Christophsis,
+				Savareen,				
+				Falleen,
+				Vandor,
+				Rothana,				
+				Ukio,
+				Rishi,
+				Kamino,
+				Bothawui,
+				Mimban,
+				Ruusan,
+				Kashyyyk,
+				Roche,
+				Vardos,
+				Onderon,
+				Umbara,
+				Hapes,
+				Wayland,
+				Myrkr,
+				Taris,				
+				Serenno,
+				Yavin,
+				Axxila,
+				Dathomir,
+				Bandomeer,
+				Bimmiel,
+				Celanon,				
+				Felucia,
+				Florrum,
+				Korriban,
+				Dromund,
+				Ziost,
+				Telos,				
+				Jabiim,			
+				BozPity,
+				Saleucami,
+				Raxus,
+				Malachor,
+				Zygerria,
+				Cantonica,
+				EttiIV,
+				Bonadan,
+				Reltooine,
+				Teth,
+				Honoghr,
+				The_Maw,
+				Kessel,
+				Minntooine,
+				Pammant,				
+				Shola,
+				NalHutta,
+				Toydaria,
+				Rodia,
+				Iego,
+				Polus,
+				Alsakan,
+				Adumar,
+				RhenVar,
+				Maridun,
+				Tibrin,
+				StygeonPrime,
+				Scipio,
+				Raydonia,
+				Aargonar,
+				Shili,
+				Alakatha,
+				Ambria,
+				Akiva,
+				Chandrila,
+				Brentaal,
+				Raltiir,
+				Belderone,
+				LolaSayu,
+				Alarisprime,
+				Ossus,
+				Exocron,
+				Nelvaan,
+				Zakuul,
+				Gleeanselm,
+				ZonamaSekot,
+				Vjun,
+				Lehon,
+				Quell,
+				Vulpter,
+				Anaxes,
+				Anoat,
+				Belkadan,
+				Eadu,
+				Taspir,
+				Aargau,
+				Calus,
+				Wobani,
+				Antar,
+				Borleias,
+				Pantora
+	    </Required_Planets>
+
+    <Starting_Spawned_Units_Tech_0>Assault_Gunboat_Squadron, 3</Starting_Spawned_Units_Tech_0>
+	<!--<Starting_Spawned_Units_Tech_0>A9_Squadron, 3</Starting_Spawned_Units_Tech_0>-->
+	<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 3</Starting_Spawned_Units_Tech_0>
+    <Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_0>
+    <Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 3</Starting_Spawned_Units_Tech_0>
+    <!--<Spawned_Squadron_Delay_Seconds>0.5</Spawned_Squadron_Delay_Seconds>-->
+    <Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 30</Reserve_Spawned_Units_Tech_0>
+    <Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 20</Reserve_Spawned_Units_Tech_0>
+    <Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 24</Reserve_Spawned_Units_Tech_0>		
+	<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 14</Reserve_Spawned_Units_Tech_0>
+	<Reserve_Spawned_Units_Tech_0>Assault_Gunboat_Squadron, 14</Reserve_Spawned_Units_Tech_0>
+	<!--<Reserve_Spawned_Units_Tech_0>A9_Squadron, 14</Reserve_Spawned_Units_Tech_0>-->	
+		
+        <Spawned_Squadron_Delay_Seconds>2</Spawned_Squadron_Delay_Seconds>	
+		
+	</SpaceUnit>
+
+
+</Escort_Carrier_Files>

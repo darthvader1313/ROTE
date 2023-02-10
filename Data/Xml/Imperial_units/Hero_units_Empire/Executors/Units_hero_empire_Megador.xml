@@ -1,0 +1,475 @@
+<?xml version="1.0" ?>
+
+<Pellaeon>    
+
+
+
+	<HeroUnit Name="Captain_Pellaeon">
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_CAPTAIN_PELLAEON</Text_ID>
+		<Icon_Name>I_BUTTON_GILAD_PELLAEON.tga</Icon_Name>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Type>Walk</Type>
+		<Affiliation>Empire</Affiliation>
+		<Required_Timeline>4</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Planets />
+		<IsBuildable>No</IsBuildable>
+		<Spawn_Planet>Anaxes</Spawn_Planet>
+		<Size_Value>75</Size_Value>
+		<Damage>80</Damage>
+		<Autoresolve_Health>200</Autoresolve_Health>
+		<Attach_To_Flagship_During_Space_Battle>No</Attach_To_Flagship_During_Space_Battle>
+		<Unique_Space_Unit>Chimaera_Star_Destroyer</Unique_Space_Unit>
+		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
+
+		<SFXEvent_Select>Unit_Select_Piett</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Piett</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Piett</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Piett</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Piett</SFXEvent_Guard>
+		<!-- <Death_SFXEvent_Start_Die> Unit_Defeat_Piett </Death_SFXEvent_Start_Die> -->
+
+		<CategoryMask> SpaceHero </CategoryMask>
+		<Ranking_In_Category> 3 </Ranking_In_Category>
+
+		<Neutralization_Cost>1000.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>Yes</Can_Be_Neutralized_By_Minor_Heroes>
+
+		<Encyclopedia_Text> TEXT_TOOLTIP_PELLAEON </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Piet_Combat_Bonus_General">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>Capital | Corvette | Frigate | Fighter</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.25</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Combat_Bonus_Ability Name="Piet_Combat_Bonus_Star_Destroyer">
+				<Unit_Strength_Category />
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Star_Destroyer</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.25</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<!-- note stacking category, this stacks with other hero combat bonuses -->
+				<Stacking_Category>1</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</HeroUnit>
+	
+	<HeroUnit Name="Captain_Pellaeon_Chimaera">
+		<Variant_Of_Existing_Type> Captain_Pellaeon </Variant_Of_Existing_Type>
+		<Unique_Space_Unit>Chimaera_Star_Destroyer</Unique_Space_Unit>
+	</HeroUnit>
+	
+	<!-- The Chimaera Star Destroyer is used by Captain Pellaeon (Empire Major Hero) during space battles -->
+	<UniqueUnit Name="Chimaera_Star_Destroyer">
+		<Variant_Of_Existing_Type>Star_Destroyer_1_Template</Variant_Of_Existing_Type>
+		
+		<Icon_Name>I_BUTTON_GILAD_PELLAEON.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Prevents_Story_Campaign_Autoresolve>yes</Prevents_Story_Campaign_Autoresolve>
+
+		<Text_ID>TEXT_UNIT_CHIMAERA_PELLAEON</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_CHIMAERA_PELLAEON </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
+        <Lua_Script>ObjectScript_Layer_Z</Lua_Script>
+		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON, DAMAGE_TRACKING </SpaceBehavior>
+
+        <Ranking_In_Category>3</Ranking_In_Category>
+		<Tech_Level>99</Tech_Level>
+		<SFXEvent_Select>Unit_Select_Piett</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Piett</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Piett</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Piett</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Piett</SFXEvent_Guard>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Piett </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Piett </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Bombard_Select_Target>	EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
+		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Piett </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, Unit_Lost_Tractor_Piett</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Star_Destroyer_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Star_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Star_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+	  
+		<AI_Combat_Power>4000</AI_Combat_Power>
+		<Score_Cost_Credits> 50000 </Score_Cost_Credits>
+        <Build_Cost_Credits>5000</Build_Cost_Credits>
+		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
+		<Population_Value>4</Population_Value>
+
+		<Neutralization_Cost>2000.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>5000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+				
+		<!-- Hero abilities for Captain Piett added to ship; Hero "moveable" unit removed -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			
+			<Unit_Ability>
+				<Type>ENERGY_WEAPON</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
+				<GUI_Activated_Ability_Name> Piet_Energy_Weapon_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<Recharge_Seconds>120</Recharge_Seconds>
+				<Expiration_Seconds>5</Expiration_Seconds>
+				<SFXEvent_Target_Ability> Unit_Energy_Blast_Piett </SFXEvent_Target_Ability>
+				<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Energy_Blast </SFXEvent_Special_Ability_Loop> 
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+			
+		  <Unit_Ability>
+	            <Type>TRACTOR_BEAM</Type>
+	            <Mod_Multiplier>SPEED_MULTIPLIER, 0.6f</Mod_Multiplier>
+	            <GUI_Activated_Ability_Name>Piet_Tractor_Beam_Attack_Ability</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+	            <Recharge_Seconds>20</Recharge_Seconds>
+	            <SFXEvent_Target_Ability>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_Target_Ability>
+				<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
+				<Supports_Autofire>True</Supports_Autofire>
+	      </Unit_Ability>
+
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Piet_Combat_Bonus_General">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>Capital | Corvette | Frigate | Fighter</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.25</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			
+			<Combat_Bonus_Ability Name="Piet_Combat_Bonus_Star_Destroyer">
+				<Unit_Strength_Category />
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Star_Destroyer</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.25</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<!-- note stacking category, this stacks with other hero combat bonuses -->
+				<Stacking_Category>1</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+			<Energy_Weapon_Attack_Ability Name="Piet_Energy_Weapon_Attack_Ability">
+				<Activation_Style> User_Input </Activation_Style>
+				<Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter | Bomber | Transport</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+                <Owner_Particle_Effect>Piet_Powerup_Particle_Effect</Owner_Particle_Effect>
+                <Owner_Particle_Bone_Name>HP_trac_bone</Owner_Particle_Bone_Name>
+				<Activation_Min_Range>0</Activation_Min_Range>
+	            <Activation_Max_Range>800</Activation_Max_Range>
+
+				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+				<Damage_Per_Frame>50</Damage_Per_Frame>			
+			</Energy_Weapon_Attack_Ability>
+
+			<Tractor_Beam_Attack_Ability Name="Piet_Tractor_Beam_Attack_Ability">
+				<Activation_Style> User_Input </Activation_Style>
+				<Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
+	            <Applicable_Unit_Types>Millennium_Falcon, Sundered_Heart</Applicable_Unit_Types>
+				<Excluded_Unit_Types>Buzz_Droids</Excluded_Unit_Types>
+				<Activation_Min_Range>5</Activation_Min_Range>
+	            <Activation_Max_Range>1100</Activation_Max_Range>
+
+				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+				<Target_Speed_Decrease_Percent>.98</Target_Speed_Decrease_Percent>
+				<Stacking_Category>2</Stacking_Category>			
+			</Tractor_Beam_Attack_Ability>
+
+
+		</Abilities>
+		
+	</UniqueUnit>
+	
+	<UniqueUnit Name="Chimaera_Star_Destroyer_Death_Clone">
+		<Text_ID>TEXT_UNIT_CHIMAERA_PELLAEON</Text_ID>
+		<Space_Model_Name>EV_StarDestroyer_D.ALO</Space_Model_Name>
+		<xxxSpace_Model_Name>EV_StarDestroyer_Dead.ALO</xxxSpace_Model_Name>
+		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+		<Scale_Factor>1</Scale_Factor>
+		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
+		<Max_Speed>0.25</Max_Speed>
+		<Max_Rate_Of_Turn>0.02</Max_Rate_Of_Turn>
+		<Max_Thrust>0.05</Max_Thrust>
+		<Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>5</Bank_Turn_Angle>
+		<Affiliation>Empire</Affiliation>
+		<Ship_Class>capital_ship</Ship_Class>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+	</UniqueUnit>
+	
+	<UniqueUnit Name="Megador_Super_Star_Destroyer">
+		<Variant_Of_Existing_Type>Executor_Super_Star_Destroyer</Variant_Of_Existing_Type>
+		
+		<Tech_Level>5</Tech_Level>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		
+		<Build_Time_Seconds>260</Build_Time_Seconds>
+		<Build_Cost_Credits>220000</Build_Cost_Credits>
+		<Build_Tab_Heroes>yes</Build_Tab_Heroes>
+		
+		<Required_Planets>
+		     Coruscant,
+			 Jakku,
+			 Exogol
+	    </Required_Planets>
+
+		<Text_ID>TEXT_UNIT_MEGADOR_PELLAEON</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_MEGADOR_PELLAEON </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_GILAD_PELLAEON.tga</Icon_Name>
+		<CategoryMask> Capital | AntiFrigate | AntiCapital | SpaceHero </CategoryMask>
+		<Lua_Script>ObjectScript_Layer_Z</Lua_Script>
+		<Space_Model_Name>ev_executor_star_dreadnaught.ALO</Space_Model_Name>
+		
+		<HardPoints>
+		HP_Executor_01,
+		HP_Executor_02,
+		HP_Executor_03,
+		HP_Executor_04,
+		HP_Executor_05,
+		HP_Executor_06,
+		HP_Executor_07,
+		HP_Executor_08,
+		HP_Executor_09,
+		HP_Executor_10,
+		HP_Executor_11,
+		HP_Executor_12,
+		HP_Executor_13,
+		HP_Executor_14,
+		HP_Executor_15,
+		HP_Executor_16,
+		HP_Executor_17,
+		HP_Executor_18,
+		HP_Executor_19,
+		HP_Executor_20,
+		HP_Executor_21,
+		HP_Executor_22,
+		HP_Executor_23,
+		HP_Executor_24,
+		HP_Executor_25,
+		HP_Executor_26,
+		HP_Executor_27,
+		HP_Executor_28,
+		HP_Executor_29,
+		HP_Executor_30,
+		HP_Executor_31,
+		HP_Executor_32,
+		HP_Executor_33,
+		HP_Executor_34,
+		HP_Executor_35,
+		HP_Executor_36,
+		HP_Executor_37,
+		HP_Executor_38,
+		HP_Executor_39,
+		HP_Executor_40,
+		HP_Executor_41,
+		HP_Executor_42,
+		HP_Executor_43,
+		HP_Executor_44,
+		HP_Executor_45,
+		HP_Executor_46,
+		HP_Executor_47,
+		HP_Executor_48,
+		HP_Executor_49,
+		HP_Executor_50,
+		HP_Executor_51,
+		HP_Executor_52,
+		HP_Executor_53,
+		HP_Executor_54,
+		HP_Executor_55,
+		HP_Executor_56,
+		HP_Executor_57,
+		HP_Executor_58,
+		HP_Executor_59,
+		HP_Executor_60,
+		HP_Executor_61,
+		HP_Executor_62,
+		HP_Executor_63,
+		HP_Executor_64,
+		HP_Executor_65,
+		HP_Executor_66,
+		HP_Executor_67,
+		HP_Executor_68,
+		HP_Executor_69,
+		HP_Executor_70,
+		HP_Executor_71,
+		HP_Executor_72,
+		HP_Executor_73,
+		HP_Executor_74,
+		HP_Executor_75,
+		HP_Executor_76,
+		HP_Executor_77,
+		HP_Executor_78,
+		HP_Executor_79,
+		HP_Executor_80,
+		HP_Executor_81,
+		HP_Executor_82,
+		HP_Executor_83,
+		HP_Executor_84,
+		HP_Executor_85,
+		HP_Executor_86,
+		HP_Executor_87,
+		HP_Executor_88,
+		HP_Executor_89,
+		HP_Executor_90,
+		HP_Executor_91,
+		HP_Executor_92,
+		HP_Executor_93,
+		HP_Executor_94,
+		HP_Executor_95,
+		HP_Executor_96,
+		HP_Executor_97,
+		HP_Executor_98,
+		HP_Executor_99,
+		HP_Executor_100,
+		HP_Executor_101,
+		HP_Executor_102,
+		HP_Executor_103,
+		HP_Executor_104,
+		HP_Executor_105,
+		HP_Executor_106,
+		HP_Executor_107,
+		HP_Executor_108,
+		HP_Executor_109,
+		HP_Executor_110,
+		HP_Executor_111,
+		HP_Executor_112,
+		HP_Executor_113,
+		HP_Executor_114,
+		HP_Executor_115,
+		HP_Executor_116,
+		HP_Executor_117,
+		HP_Executor_118,
+		HP_Executor_119,
+		HP_Executor_120,
+		HP_Executor_FB,
+		HP_Tractor_Beam,  
+		</HardPoints>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>5</Required_Star_Base_Level>
+		
+		
+						
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>		
+		
+		<SFXEvent_Select>Unit_Select_Piett</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Piett</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Piett</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Piett</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Piett</SFXEvent_Guard>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Piett </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Piett </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Bombard_Select_Target>	EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
+		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
+				
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>		  
+		
+		<Unit_Abilities_Data SubObjectList="Yes">		
+		<!-- Primary ability -->
+	      <Unit_Ability>
+	            <Type>TRACTOR_BEAM</Type>
+	            <Mod_Multiplier>SPEED_MULTIPLIER, 0.6f</Mod_Multiplier>
+	            <GUI_Activated_Ability_Name>Piet_Tractor_Beam_Attack_Ability</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+	            <Recharge_Seconds>20</Recharge_Seconds>
+	            <SFXEvent_Target_Ability>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_Target_Ability>
+				<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
+				<Supports_Autofire>True</Supports_Autofire>
+	      </Unit_Ability>
+		  
+	   </Unit_Abilities_Data>
+	   
+	   <Abilities SubObjectList="Yes">
+	   
+	   <Tractor_Beam_Attack_Ability Name="Piet_Tractor_Beam_Attack_Ability">
+				<Activation_Style> User_Input </Activation_Style>
+				<Applicable_Unit_Categories>Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
+	            <Applicable_Unit_Types>Millennium_Falcon, Sundered_Heart</Applicable_Unit_Types>
+				<Excluded_Unit_Types>Buzz_Droids</Excluded_Unit_Types>
+				<Activation_Min_Range>5</Activation_Min_Range>
+	            <Activation_Max_Range>7500</Activation_Max_Range>
+
+				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+				<Target_Speed_Decrease_Percent>.98</Target_Speed_Decrease_Percent>
+				<Stacking_Category>2</Stacking_Category>			
+			</Tractor_Beam_Attack_Ability>
+
+
+		</Abilities>
+				
+				<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>20000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	   	   	   
+		
+	</UniqueUnit>
+           
+	
+	
+
+</Pellaeon>    

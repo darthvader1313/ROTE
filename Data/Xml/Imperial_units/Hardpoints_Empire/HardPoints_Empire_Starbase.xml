@@ -22,7 +22,7 @@
 			
 
 			<Health>450.0</Health>
-			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+			<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
     </HardPoint>
 	 
@@ -66,7 +66,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -99,7 +99,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -132,7 +132,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -165,7 +165,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -198,7 +198,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -231,7 +231,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -264,7 +264,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -297,7 +297,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -308,7 +308,7 @@
             <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
             <Health>2000.0</Health>
 
-			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+			<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>SHIELDGEN</Attachment_Bone>
@@ -325,7 +325,7 @@
 		<Collision_Mesh>HANGAR_01</Collision_Mesh>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Health>2000.0</Health>
-		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
 	</HardPoint>
 	
@@ -337,7 +337,7 @@
 		<Collision_Mesh>HANGAR_02</Collision_Mesh>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Health>2000.0</Health>
-		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
 	</HardPoint>
 	
@@ -349,7 +349,7 @@
 		<Collision_Mesh>HANGAR_03</Collision_Mesh>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Health>2000.0</Health>
-		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
 	</HardPoint>
 	
@@ -361,7 +361,7 @@
 		<Collision_Mesh>HANGAR_04</Collision_Mesh>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Health>2000.0</Health>
-		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
 	</HardPoint>
 	
@@ -373,7 +373,7 @@
 		<Collision_Mesh>HANGAR_05</Collision_Mesh>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Health>2000.0</Health>
-		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
 	</HardPoint>
 	
@@ -385,7 +385,7 @@
 		<Collision_Mesh>HANGAR_06</Collision_Mesh>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Health>2000.0</Health>
-		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
 	</HardPoint>
 	
@@ -422,7 +422,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -455,7 +455,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -488,7 +488,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -521,7 +521,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -554,7 +554,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -587,7 +587,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -620,7 +620,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -653,7 +653,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -686,7 +686,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -719,7 +719,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -752,7 +752,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -785,7 +785,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -818,7 +818,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -851,7 +851,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -884,7 +884,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -917,7 +917,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -950,7 +950,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -983,7 +983,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -1016,7 +1016,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -1049,7 +1049,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -1087,7 +1087,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -1120,7 +1120,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -1153,7 +1153,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -1186,7 +1186,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -1219,7 +1219,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -1252,7 +1252,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -1285,7 +1285,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -1318,7 +1318,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -1355,7 +1355,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -1388,7 +1388,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -1421,7 +1421,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -1454,7 +1454,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -1487,7 +1487,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -1520,7 +1520,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -1553,7 +1553,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -1586,7 +1586,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -1619,7 +1619,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -1652,7 +1652,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -1685,7 +1685,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -1718,7 +1718,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -1751,7 +1751,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -1784,7 +1784,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -1817,7 +1817,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -1850,7 +1850,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -1883,7 +1883,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -1916,7 +1916,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -1949,7 +1949,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -1982,7 +1982,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -2019,7 +2019,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -2052,7 +2052,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -2085,7 +2085,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -2118,7 +2118,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -2151,7 +2151,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -2184,7 +2184,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -2217,7 +2217,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -2250,7 +2250,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -2283,7 +2283,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -2316,7 +2316,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -2349,7 +2349,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -2382,7 +2382,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -2415,7 +2415,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -2448,7 +2448,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -2481,7 +2481,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -2514,7 +2514,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -2547,7 +2547,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -2580,7 +2580,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -2613,7 +2613,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -2646,7 +2646,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -2679,7 +2679,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -2712,7 +2712,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -2745,7 +2745,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
@@ -2778,7 +2778,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Death_Explosion_Particles> </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Hardpoint_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	

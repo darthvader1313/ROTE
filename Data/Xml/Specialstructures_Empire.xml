@@ -55,11 +55,11 @@
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				Boba_Fett_Team_Land_MP,
 				Darth_Team_Land_MP,
+				Inferno_Team,
+				Grand_Admiral_Thrawn_Team,
 				General_Veers_Team,
 				Emperor_Palpatine_Team,
-				Mara_Jade_Team,
 				EC_Level_Two_Tech_Upgrade,
 				EC_Level_Three_Tech_Upgrade,
 				
@@ -1134,14 +1134,34 @@
 			Empire,				
 				EL_Increased_Mobility_Upgrade,
 				EL_Weatherproof_Upgrade,
-				Imperial_Stormtrooper_Squad,
+				Stormtrooper_Squad,
+				Dark_Trooper_Squad,
+				Imperial_Rifleman_Squad,
+				Imperial_Clonetrooper_Squad,
+				501st_Stormtrooper_Squad,
+				DarkTrooperSoldier_Squad,
+				Imperial_Deathtrooper_Squad,
+				Stormtrooper_flame_Squad,
+				Imperial_Engineer_Squad,
+				Magmatrooper_Squad,
+				Mimban_Stormtrooper_Squad,
+				Mustafar_Trooper_Squad,
+				Imperial_Novatrooper_Squad,
+				Imperial_Purge_Trooper_Squad,
+				Sandtrooper_Squad,
+				Shadowtrooper_Squad,
+				Shock_Trooper_Squad,
+				Shoretrooper_Squad,
+				Snowtrooper_Squad,
+				SuperCommando_Squad,
+			    Imperial_Scout_Squad,
 		</Tactical_Buildable_Objects_Multiplayer>
 			
 		
 
 		<AI_Combat_Power>300</AI_Combat_Power>
-		<Starting_Spawned_Units_Tech_0>Imperial_Stormtrooper_Squad, 1</Starting_Spawned_Units_Tech_0>
-         <Reserve_Spawned_Units_Tech_0>Imperial_Stormtrooper_Squad, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Stormtrooper_Squad, 1</Starting_Spawned_Units_Tech_0>
+         <Reserve_Spawned_Units_Tech_0>Stormtrooper_Squad, -1</Reserve_Spawned_Units_Tech_0>
 
         <Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds> 
         <Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
@@ -1312,7 +1332,10 @@
 				EL_Light_Reflective_Armor_L2_Upgrade,
 				EL_Enhanced_Reactors_L1_Upgrade,
 				EL_Enhanced_Reactors_L2_Upgrade,
-
+                Imperial_AT_ST_Squad,
+				Imperial_AT-DP_Squad,
+				Imperial_ATDT_Squad,
+				Imperial_AT_PT_Company
 		</Tactical_Buildable_Objects_Multiplayer>
 		
 		
@@ -1490,14 +1513,16 @@
 				EL_Heavy_Reflective_Armor_L2_Upgrade,
 				EL_Improved_ATAT_Reactors_L1_Upgrade,
 				EL_Improved_ATAT_Reactors_L2_Upgrade,
-
+                Imperial_Juggernaut_Company,
+				TIE_Striker_Squadron,
+				Imperial_AT_AT_Company,
 		</Tactical_Buildable_Objects_Multiplayer>
 		
 		
 
       <AI_Combat_Power>800</AI_Combat_Power>
-		<Starting_Spawned_Units_Tech_0>Imperial_Stormtrooper_Squad, 2</Starting_Spawned_Units_Tech_0>
-		 <Reserve_Spawned_Units_Tech_0>Imperial_Stormtrooper_Squad, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Stormtrooper_Squad, 2</Starting_Spawned_Units_Tech_0>
+		 <Reserve_Spawned_Units_Tech_0>Stormtrooper_Squad, -1</Reserve_Spawned_Units_Tech_0>
 
         <Spawned_Squadron_Delay_Seconds>60</Spawned_Squadron_Delay_Seconds> 
         <Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>

@@ -1,0 +1,300 @@
+<?xml version="1.0"?>
+
+
+<MC90_Data>
+	<SpaceUnit Name="Mc90B_Cruiser">
+		<Text_ID>TEXT_UNIT_MC90B</Text_ID>
+		<Encyclopedia_Text> 
+				TEXT_STATS
+		        TEXT_LINE
+				TEXT_STAT_HEALTH_297000
+				TEXT_LINE
+				TEXT_STAT_SHIELD_148500
+				TEXT_LINE
+				TEXT_STAT_DAMAGE_8690
+				TEXT_LINE
+				TEXT_STAT_SINGLE_TURBOLASERS_20
+				TEXT_LINE
+				TEXT_STAT_DUAL_TURBOLASERS_20			
+				TEXT_LINE
+				TEXT_STAT_QUAD_TURBOLASERS_16
+				TEXT_LINE
+				TEXT_STAT_ROCKET_LAUNCHERS_10
+                TEXT_LINE
+				TEXT_STAT_SINGLE_HEAVY_2				
+				TEXT_LINE
+                TEXT_STAT_FIRE_RANGE_4000
+				TEXT_LINE
+				TEXT_STAT_HARDPOINTS_68
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_BATTLESHIP </Encyclopedia_Unit_Class>
+		<GUI_Row> 0 </GUI_Row>
+		<Space_Model_Name>MC90B_Star_Destroyer.ALO</Space_Model_Name>
+		<Ranking_In_Category>5</Ranking_In_Category>
+	   	<GUI_Bracket_Height>500</GUI_Bracket_Height>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+        
+        	<Custom_Hard_XExtent> 100.0 </Custom_Hard_XExtent>
+        	<Custom_Hard_YExtent> 100.0 </Custom_Hard_YExtent>  
+        	
+		<Select_Box_Scale>1045</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-150</Select_Box_Z_Adjust>
+		<Scale_Factor>1.05</Scale_Factor>
+		<Mass>0.999</Mass>
+		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Armor_Type> Armor_Star_Destroyer </Armor_Type>
+		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+		
+		<Max_Speed>3</Max_Speed>
+		<Bank_Turn_Angle>15</Bank_Turn_Angle>
+		<Max_Rate_Of_Roll>0.025</Max_Rate_Of_Roll>
+		<Max_Rate_Of_Turn>0.05</Max_Rate_Of_Turn>
+		
+		<MovementClass> Space </MovementClass>
+		<Space_Layer> SuperCapital </Space_Layer>
+		<Layer_Z_Adjust>-150.0</Layer_Z_Adjust>
+		<OverrideAcceleration> .14 </OverrideAcceleration>
+		<OverrideDeceleration> .14 </OverrideDeceleration>		
+		<Max_Thrust>0.25</Max_Thrust>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Maintenance_Cost>0.3</Maintenance_Cost>
+		<Affiliation>Rebel</Affiliation>
+
+
+		<Tech_Level>4</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_planets> 
+		         Kuat, 
+			     Fondor, 
+			     Sullust, 
+			     MonCalamari, 
+			     Corellia, 
+			     Hypori, 
+			     Mandalore, 
+			     Bilbringi, 
+			     Axum, 
+			     Rendili, 
+			     Lianna, 
+			     Sluis_Van, 
+			     Scarif,
+			     RingoVinda,
+				 Exogol
+		</Required_planets>
+		<Damage>175</Damage>
+		<Autoresolve_Health>297000</Autoresolve_Health>
+		<Tactical_Health>297000</Tactical_Health>
+		<Shield_Points>148500</Shield_Points>
+		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
+		<Energy_Capacity>10000</Energy_Capacity>
+		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
+		<Ship_Class>capital</Ship_Class>
+		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
+		<!--<Political_Control>1</Political_Control>-->
+		<Political_Faction>Rebel</Political_Faction>
+		<Squadron_Capacity>60</Squadron_Capacity>
+		<Build_Cost_Credits>27000</Build_Cost_Credits>
+		<AI_Combat_Power>8690</AI_Combat_Power>
+		<Build_Time_Seconds>200</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Size_Value>12</Size_Value>
+
+		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT </SpaceBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		
+		<Death_Clone>Damage_Normal, Mc90_Death_Clone</Death_Clone>
+		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
+
+		<HardPoints>
+		    HP_Mc90B_01,
+		HP_Mc90B_02,
+		HP_Mc90B_03,
+		HP_Mc90B_04,
+		HP_Mc90B_05,
+		HP_Mc90B_06,
+		HP_Mc90B_07,
+		HP_Mc90B_08,
+		HP_Mc90B_09,
+		HP_Mc90B_10,
+		HP_Mc90B_11,
+		HP_Mc90B_12,
+		HP_Mc90B_13,
+		HP_Mc90B_14,
+		HP_Mc90B_15,
+		HP_Mc90B_16,
+		HP_Mc90B_17,
+		HP_Mc90B_18,
+		HP_Mc90B_19,
+		HP_Mc90B_20,
+		HP_Mc90B_21,
+		HP_Mc90B_22,
+		HP_Mc90B_23,
+		HP_Mc90B_24,
+		HP_Mc90B_25,
+		HP_Mc90B_26,
+		HP_Mc90B_27,
+		HP_Mc90B_28,
+		HP_Mc90B_29,
+		HP_Mc90B_30,
+		HP_Mc90B_31,
+		HP_Mc90B_32,
+		HP_Mc90B_33,
+		HP_Mc90B_34,
+		HP_Mc90B_35,
+		HP_Mc90B_36,
+		HP_Mc90B_37,
+		HP_Mc90B_38,
+		HP_Mc90B_39,
+		HP_Mc90B_40,
+		HP_Mc90B_41,
+		HP_Mc90B_42,
+		HP_Mc90B_43,
+		HP_Mc90B_44,
+		HP_Mc90B_45,
+		HP_Mc90B_46,
+		HP_Mc90B_47,
+		HP_Mc90B_48,
+		HP_Mc90B_49,
+		HP_Mc90B_50,
+		HP_Mc90B_51,
+		HP_Mc90B_52,
+		HP_Mc90B_53,
+		HP_Mc90B_54,
+		HP_Mc90B_55,
+		HP_Mc90B_56,
+		HP_Mc90B_57,
+		HP_Mc90B_58,
+		HP_Mc90B_59,
+		HP_Mc90B_60,
+		HP_Mc90B_61,
+		HP_Mc90B_62,
+		HP_Mc90B_63,
+		HP_Mc90B_64,
+		HP_Mc90B_65,
+		HP_Mc90B_66,
+		HP_Mc90B_67,
+		HP_Mc90B_68,
+		HP_Mc90_Shield,
+        HP_Mc90_Engines,
+        HP_Mc90_Engines01,
+        HP_Mc90_Engines02
+		</HardPoints>
+
+		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Calamari</SFXEvent_Build_Complete>
+		<SFXEvent_Ambient_Loop>Unit_Calamari_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
+
+		<SFXEvent_Select>Unit_Select_Calamari</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Calamari</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Calamari</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Calamari</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Calamari</SFXEvent_Guard>
+		<SFXEvent_Stop>Unit_Stop_Calamari</SFXEvent_Stop>
+		<SFXEvent_Barrage>Unit_Barrage_Calamari</SFXEvent_Barrage>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Calamari </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Calamari </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Calamari </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Calamari </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Calamari </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Calamari </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Calamari </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Calamari </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Calamari </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Calamari </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Calamari </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Calamari </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Calamari_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Calamari_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Calamari_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		
+         
+		<CategoryMask> Capital | AntiCapital </CategoryMask>
+		<Icon_Name>I_BUTTON_MC90B.tga</Icon_Name>
+		<GUI_Model_Name>F_Mc90b.ALO</GUI_Model_Name>
+		<GUI_Distance>2300</GUI_Distance>
+		<GUI_Offset>0 0 0</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		 
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_HOMEONE.tga</Radar_Icon_Name>
+		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>  
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>DEFEND</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
+				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		0.8f</Mod_Multiplier>
+				<Recharge_Seconds>40</Recharge_Seconds>
+				<Expiration_Seconds>50</Expiration_Seconds>
+				
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Calamari</SFXEvent_GUI_Unit_Ability_Activated>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+
+            		
+	   	</Unit_Abilities_Data>
+  
+        	
+        	        	        						 
+		
+		
+		<Score_Cost_Credits> 8000</Score_Cost_Credits>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>27000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>200</Tactical_Build_Time_Seconds>  
+		<Tactical_Build_Prerequisites> </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Population_Value>15</Population_Value>
+ 
+ 		<Tactical_Bribe_Cost>5000</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>500</Piracy_Value_Credits>
+		<Lua_Script>ObjectScript_PowerToShields_Layer_Z</Lua_Script> 
+		
+		
+		<Death_Explosions>Space_explosion_capital</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Space_Battleship_Death</Death_SFXEvent_Start_Die>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+		
+	</SpaceUnit>
+	
+	
+	
+	
+</MC90_Data>

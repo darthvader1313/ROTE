@@ -184,11 +184,9 @@
 		<Close_Enough_Angle_For_Move_Start> 30 </Close_Enough_Angle_For_Move_Start>        
 	</GroundVehicle>
 	
-	<GroundVehicle Name="AT_AT_Walker_REB09">
-		<Variant_Of_Existing_Type>AT_AT_Walker</Variant_Of_Existing_Type>
-	</GroundVehicle>
+
 	
-	
+
 	
 	
 	

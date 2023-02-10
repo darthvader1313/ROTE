@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<SpaceUnitsHome_One_Regular>
+
+	
+<SpaceUnit Name="Home_One_Regular">
+              <Variant_Of_Existing_Type>Home_One</Variant_Of_Existing_Type>
+			  <Encyclopedia_Text> 
+				TEXT_STATS
+		        TEXT_LINE
+				TEXT_STAT_HEALTH_174000
+				TEXT_LINE
+				TEXT_STAT_SHIELD_87000
+				TEXT_LINE
+				TEXT_STAT_DAMAGE_8640
+				TEXT_LINE
+				TEXT_STAT_SINGLE_TURBOLASERS_22
+				TEXT_LINE
+				TEXT_STAT_DUAL_TURBOLASERS_20
+				TEXT_LINE				
+				TEXT_STAT_EIGHT_TURBOLASERS_8
+				TEXT_LINE
+				TEXT_STAT_SINGLE_ION_4
+				TEXT_LINE
+				TEXT_STAT_DUAL_ION_4				
+				TEXT_LINE
+                TEXT_STAT_FIRE_RANGE_3300
+				TEXT_LINE
+				TEXT_STAT_HARDPOINTS_58
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_BATTLESHIP </Encyclopedia_Unit_Class>
+		<GUI_Row> 1 </GUI_Row>
+		<Max_Speed>1.2</Max_Speed>
+		<Max_Rate_Of_Turn>0.11</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Roll>0.11</Max_Rate_Of_Roll>
+              <Tech_Level>4</Tech_Level>
+              <Is_Named_Hero>No</Is_Named_Hero>
+              <Icon_Name>I_BUTTON_HOMEONE.tga</Icon_Name>             	
+              <Required_Timeline>0</Required_Timeline>
+              <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+              <Required_Star_Base_Level>1</Required_Star_Base_Level>
+              <Required_planets> 
+		         Kuat, 
+			     Fondor, 
+			     Sullust, 
+			     MonCalamari, 
+			     Corellia, 
+			     Hypori, 
+			     Mandalore, 
+			     Bilbringi, 
+			     Axum, 
+			     Rendili, 
+			     Lianna, 
+			     Sluis_Van, 
+			     Scarif,
+			     RingoVinda,
+		      </Required_planets>
+              <Build_Cost_Credits>28000</Build_Cost_Credits> 
+              <Build_Time_Seconds>200</Build_Time_Seconds>
+              <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+			  <Build_Limit_Current_Per_Player>-1</Build_Limit_Current_Per_Player>
+			  <AI_Combat_Power>8640</AI_Combat_Power>
+			  <!-- Set to spawn all units once and then not continue - no reserves -->
+		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 8</Reserve_Spawned_Units_Tech_0> 
+		<Reserve_Spawned_Units_Tech_0>Y-Wing_Squadron, 4</Reserve_Spawned_Units_Tech_0>	
+			  
+	    <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>28000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>200</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Population_Value>15</Population_Value>
+        <Death_Explosions>Space_explosion_capital</Death_Explosions>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+	      </SpaceUnit>
+
+
+</SpaceUnitsHome_One_Regular>

@@ -53,10 +53,9 @@
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
 				Han_Solo_Team_Land_MP,
-				Obi_Wan_Team,
-				Katarn_Team,
 				Luke_Skywalker_Jedi_Team,
-				Yoda_Team,
+				Ahsoka_Tano_Team,
+				Rogue_One_Team,
 				Garm_Bel_Iblis_Team,
 				RC_Level_Two_Tech_Upgrade,
 				RC_Level_Three_Tech_Upgrade,
@@ -846,7 +845,25 @@
 				RL_Combat_Armor_L2_Upgrade,
 				RL_Weatherproof_Upgrade,
 				Rebel_Urban_Trooper_Squad,
-				
+				Urban_Plex_Soldier_Squad,
+				Rebel_Commando_Squad,
+				Rebel_Elite_Light_Squad,
+				Desert_Plex_Soldier_Squad,
+				Rebel_Deserttrooper_Squad,
+				Alliance_Grenadier_Squad,
+				Forest_Plex_Soldier_Squad,
+				Rebel_Forest_trooper_Squad,
+				Rebel_Vanguard_Infantry_Squad,
+				Rebel_Rifleman_Squad,
+				Rebel_RiflemanV2_Squad,
+				Rebel_Saboteur_Squad,
+				Snow_Plex_Soldier_Squad,
+				Rebel_Snowtrooper_Squad,
+				Rebel_Sniper_Squad,
+				Rebel_Sniper_Squad_Forest,
+				Rebel_Sniper_Snow_Squad,
+				Rebel_Guard_Trooper_Squad,
+				Rebel_Elite_Soldier_Squad
 		</Tactical_Buildable_Objects_Multiplayer>
 		
 		
@@ -1043,7 +1060,10 @@
 				RL_Light_Armor_L2_Upgrade,
 				RL_Enhanced_Repulsors_L1_Upgrade,
 				RL_Enhanced_Repulsors_L2_Upgrade,
-				
+                Rebel_T1B_Tank_Brigade,
+				Rebel_T2B_Tank_Brigade,
+				Rebel_V_19_landspeeder_Brigade,
+				Rebel_Tank_AAC_Brigade
 		</Tactical_Buildable_Objects_Multiplayer>
 		
 		
@@ -1227,7 +1247,9 @@
 				RL_Improved_Treads_L2_Upgrade,
 				RL_Improved_T4B_Damage_L1_Upgrade,
 				RL_Improved_T4B_Damage_L2_Upgrade,
-				
+                Rebel_Gallofree_HTT_Company,
+				Rebel_Gargantuan_Advanced_Brigade,
+				Rebel_Snowspeeder_Company
 		</Tactical_Buildable_Objects_Multiplayer>
 		
 		

@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<HardPoints>
+
+
+    <HardPoint Name="New_HP_Vader_TIE_Chin_Laser">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+             
+
+            <Attachment_Bone>HP_01</Attachment_Bone>
+            <Collision_Mesh>HP_01</Collision_Mesh>
+
+            <Fire_Bone_A>HP_01</Fire_Bone_A>
+            <Fire_Bone_B>HP_01</Fire_Bone_B>
+            <Fire_Cone_Width>20</Fire_Cone_Width>
+            <Fire_Cone_Height>25</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Fighter_Turbolaser_green</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.4</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>0.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>500</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>750.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+
+			<Damage_Type> Damage_Fighter </Damage_Type>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+	</HardPoint>
+	
+    <HardPoint Name="New_HP_Vader_TIE_Missile">
+		<Type> HARD_POINT_WEAPON_MISSILE </Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+             
+
+            <Attachment_Bone>MuzzleB_00</Attachment_Bone>
+            <Collision_Mesh>MuzzleB_00</Collision_Mesh>
+
+		<Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
+            <Fire_Cone_Width>35</Fire_Cone_Width>
+            <Fire_Cone_Height>50</Fire_Cone_Height>
+
+						<Damage_Type> Damage_Fighter </Damage_Type>
+
+		<Fire_Projectile_Type>Proj_Concussion_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>4.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>6.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>750.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+		<Fire_Category_Restrictions> Infantry, Vehicle, Air</Fire_Category_Restrictions>
+    </HardPoint>
+    
+</HardPoints>
+

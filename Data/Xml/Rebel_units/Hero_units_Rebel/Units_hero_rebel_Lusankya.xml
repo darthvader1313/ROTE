@@ -1,0 +1,238 @@
+<?xml version="1.0" ?>
+
+<Old_Rex>    
+
+    <UniqueUnit Name="Lusankya_Super_Star_Destroyer">
+		<Variant_Of_Existing_Type>Eclipse_Super_Star_Destroyer</Variant_Of_Existing_Type>
+		
+		<Tech_Level>4</Tech_Level>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+
+		<Text_ID>TEXT_UNIT_SD_LUSANKYA</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_LUSANKYA </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_LUSANKYA.tga</Icon_Name>
+		<CategoryMask> Capital | AntiFrigate | AntiCapital | SpaceHero </CategoryMask>
+		<Lua_Script>ObjectScript_Layer_Z</Lua_Script>
+		<Space_Model_Name>rv_lusankya.ALO</Space_Model_Name>
+		
+		<GUI_Row> 1 </GUI_Row>
+		<HardPoints>
+		HP_Lusankya_01,
+		HP_Lusankya_02,
+		HP_Lusankya_03,
+		HP_Lusankya_04,
+		HP_Lusankya_05,
+		HP_Lusankya_06,
+		HP_Lusankya_07,
+		HP_Lusankya_08,
+		HP_Lusankya_09,
+		HP_Lusankya_10,
+		HP_Lusankya_11,
+		HP_Lusankya_12,
+		HP_Lusankya_13,
+		HP_Lusankya_14,
+		HP_Lusankya_15,
+		HP_Lusankya_16,
+		HP_Lusankya_17,
+		HP_Lusankya_18,
+		HP_Lusankya_19,
+		HP_Lusankya_20,
+		HP_Lusankya_21,
+		HP_Lusankya_22,
+		HP_Lusankya_23,
+		HP_Lusankya_24,
+		HP_Lusankya_25,
+		HP_Lusankya_26,
+		HP_Lusankya_27,
+		HP_Lusankya_28,
+		HP_Lusankya_29,
+		HP_Lusankya_30,
+		HP_Lusankya_31,
+		HP_Lusankya_32,
+		HP_Lusankya_33,
+		HP_Lusankya_34,
+		HP_Lusankya_35,
+		HP_Lusankya_36,
+		HP_Lusankya_37,
+		HP_Lusankya_38,
+		HP_Lusankya_39,
+		HP_Lusankya_40,
+		HP_Lusankya_41,
+		HP_Lusankya_42,
+		HP_Lusankya_43,
+		HP_Lusankya_44,
+		HP_Lusankya_45,
+		HP_Lusankya_46,
+		HP_Lusankya_47,
+		HP_Lusankya_48,
+		HP_Lusankya_49,
+		HP_Lusankya_50,
+		HP_Lusankya_51,
+		HP_Lusankya_52,
+		HP_Lusankya_53,
+		HP_Lusankya_54,
+		HP_Lusankya_55,
+		HP_Lusankya_56,
+		HP_Lusankya_57,
+		HP_Lusankya_58,
+		HP_Lusankya_59,
+		HP_Lusankya_60,
+		HP_Lusankya_61,
+		HP_Lusankya_62,
+		HP_Lusankya_63,
+		HP_Lusankya_64,
+		HP_Lusankya_65,
+		HP_Lusankya_66,
+		HP_Lusankya_67,
+		HP_Lusankya_68,
+		HP_Lusankya_69,
+		HP_Lusankya_70,
+		HP_Lusankya_71,
+		HP_Lusankya_72,
+		HP_Lusankya_73,
+		HP_Lusankya_74,
+		HP_Lusankya_75,
+		HP_Lusankya_76,
+		HP_Lusankya_77,
+		HP_Lusankya_78,
+		HP_Lusankya_79,
+		HP_Lusankya_80,
+		HP_Lusankya_81,
+		HP_Lusankya_82,
+		HP_Lusankya_83,
+		HP_Lusankya_84,
+		HP_Lusankya_85,
+		HP_Lusankya_86,
+		HP_Lusankya_87,
+		HP_Lusankya_88,
+		HP_Lusankya_89,
+		HP_Lusankya_90,
+		HP_Lusankya_91,
+		HP_Lusankya_92,
+		HP_Lusankya_93,
+		HP_Lusankya_94,
+		HP_Lusankya_95,
+		HP_Lusankya_96,
+		HP_Lusankya_97,
+		HP_Lusankya_98,
+		HP_Lusankya_99,
+		HP_Lusankya_100,
+		HP_Lusankya_101,
+		HP_Lusankya_102,
+		HP_Lusankya_103,
+		HP_Lusankya_104,
+		HP_Lusankya_105,
+		HP_Lusankya_106,
+		HP_Lusankya_107,
+		HP_Lusankya_108,
+		HP_Lusankya_109,
+		HP_Lusankya_110,
+		HP_Lusankya_111,
+		HP_Lusankya_112,
+		HP_Lusankya_113,
+		HP_Lusankya_114,
+		HP_Lusankya_115,
+		HP_Lusankya_116,
+		HP_Lusankya_117,
+		HP_Lusankya_118,
+		HP_Lusankya_119,
+		HP_Lusankya_120,
+		HP_Lusankya_FB,
+		HP_Tractor_Beam,  
+		</HardPoints>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>5</Required_Star_Base_Level>
+		<Required_Planets>
+		     Mimban,
+			 Yavin,
+			 MonCalimari,
+	    </Required_Planets>
+		<Affiliation> Rebel </Affiliation>
+		<Build_Time_Seconds>240</Build_Time_Seconds>
+		<Build_Cost_Credits>200000</Build_Cost_Credits>
+		
+		
+		
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>		
+		
+		<SFXEvent_Select>Unit_Select_Wedge</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Wedge</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Wedge</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Wedge</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Wedge</SFXEvent_Guard>
+		<SFXEvent_Assist_Move>Unit_Assist_Move_Wedge </SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Wedge</SFXEvent_Assist_Attack>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Wedge </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Wedge </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Enemy_Health_Low_Warning> Unit_Enemy_Health_Low_Wedge </SFXEvent_Enemy_Health_Low_Warning>
+		<SFXEvent_Enemy_Health_Critical_Warning> Unit_Enemy_Health_Critical_Wedge </SFXEvent_Enemy_Health_Critical_Warning>
+		
+		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+
+		<Starting_Spawned_Units_Tech_0>Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Y-Wing_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>0.1</Spawned_Squadron_Delay_Seconds>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>		  
+		
+		<Unit_Abilities_Data SubObjectList="Yes">		
+		<!-- Primary ability -->
+	      <Unit_Ability>
+	            <Type>TRACTOR_BEAM</Type>
+	            <Mod_Multiplier>SPEED_MULTIPLIER, 0.6f</Mod_Multiplier>
+	            <GUI_Activated_Ability_Name>Piet_Tractor_Beam_Attack_Ability</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+	            <Recharge_Seconds>20</Recharge_Seconds>
+	            <SFXEvent_Target_Ability>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_Target_Ability>
+				<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
+				<Supports_Autofire>True</Supports_Autofire>
+	      </Unit_Ability>
+		  
+	   </Unit_Abilities_Data>
+	   
+	   <Abilities SubObjectList="Yes">
+	   
+	   <Tractor_Beam_Attack_Ability Name="Piet_Tractor_Beam_Attack_Ability">
+				<Activation_Style> User_Input </Activation_Style>
+				<Applicable_Unit_Categories>Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
+	            <Applicable_Unit_Types>Millennium_Falcon, Sundered_Heart</Applicable_Unit_Types>
+				<Excluded_Unit_Types>Buzz_Droids</Excluded_Unit_Types>
+				<Activation_Min_Range>5</Activation_Min_Range>
+	            <Activation_Max_Range>7500</Activation_Max_Range>
+
+				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+				<Target_Speed_Decrease_Percent>.98</Target_Speed_Decrease_Percent>
+				<Stacking_Category>2</Stacking_Category>			
+			</Tractor_Beam_Attack_Ability>
+
+
+		</Abilities>		
+					
+			<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>20000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	   	   	   
+		
+	</UniqueUnit>
+		
+
+</Old_Rex>    

@@ -58,7 +58,7 @@
 <!-- START GALACTIC THEMES -->
 
 	<MusicEvent Name="Galactic_Map_Rebel_Music_Event">
-		<Files> AOTC_Ambush_On_Coruscant.mp3, ROTJ_Alliance_Assembly.mp3, ROTJ_Shuttle_Tydirium_Appraches_Endor.mp3, ANH_Tales_of_a_Jedi_Knight.mp3, ANH_Millenium_Falcon.mp3 </Files>
+		<Files> Galactic_Conquest.mp3 </Files>
         <Volume_Percent>60</Volume_Percent>
         <Fade_In_Seconds>2.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
@@ -66,7 +66,7 @@
     </MusicEvent>
 
 	<MusicEvent Name="Galactic_Map_Empire_Music_Event">
-		<Files> ESB_The_Imperial_Probe.mp3, ROTJ_Approaching_The_Death_Star.mp3, ROTJ_Emperors_Throne_Room.mp3, ANH_Imperial_Attack_2.mp3, ANH_The_Tractor_Beam.mp3 </Files>
+		<Files> Galactic_Conquest.mp3 </Files>
         <Volume_Percent>60</Volume_Percent>
         <Fade_In_Seconds>2.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
@@ -74,7 +74,7 @@
     </MusicEvent>
 
 	<MusicEvent Name="Galactic_Map_Underworld_Music_Event">
-		<Files> UND_Corruption_Has_Begun.mp3, UND_Tybers_Plan.mp3, UND_Luke_Confronts_Jabba.mp3, UND_Han_Solo_Returns.mp3, UND_The_Droids_Are_Captured.mp3 </Files>
+		<Files> Galactic_Conquest.mp3 </Files>
         <Volume_Percent>60</Volume_Percent>
         <Fade_In_Seconds>2.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>

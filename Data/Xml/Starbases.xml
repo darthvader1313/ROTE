@@ -39,7 +39,7 @@
 		<Select_Box_Scale>1200</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Rebel</Affiliation>
-		<Build_Cost_Credits>6000</Build_Cost_Credits>
+		<Build_Cost_Credits>25000</Build_Cost_Credits>
 		<AI_Combat_Power>35000</AI_Combat_Power>
 		<Build_Time_Seconds>150</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
@@ -68,7 +68,8 @@
 		
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
 		
-		<Starting_Spawned_Units_Tech_0>Home_One_Regular, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Rebel_Nebulon_B_Frigate, 3</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Hammerhead_Frigate, 2</Starting_Spawned_Units_Tech_0>
        
 		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>
 
@@ -237,7 +238,7 @@
 		<Death_Clone>Damage_Normal, Rebel_Star_Base_5_Death_Clone</Death_Clone>
 		<Additional_Population_Capacity>500</Additional_Population_Capacity>
 		
-		<Death_Explosions>Large_Explosion_Space_New_Artes</Death_Explosions>
+		<Death_Explosions>Space_explosion_station</Death_Explosions>
         <Remove_Upon_Death>true</Remove_Upon_Death>
 		
 	</StarBase>
@@ -280,7 +281,7 @@
 		<Select_Box_Scale>1800</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
-		<Build_Cost_Credits>6000</Build_Cost_Credits>
+		<Build_Cost_Credits>25000</Build_Cost_Credits>
 		<AI_Combat_Power>35000</AI_Combat_Power>
 		<Build_Time_Seconds>150</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
@@ -308,9 +309,9 @@
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 		
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_0>Allegiance, 1</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Starting_Spawned_Units_Tech_0>Imperial_Arquitens, 3</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Imperial_Gozanti_Cruiser, 2</Starting_Spawned_Units_Tech_0>
 		
-
 		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>
 		
 		<Tactical_Buildable_Objects_Campaign>
@@ -479,7 +480,7 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 		<Additional_Population_Capacity>500</Additional_Population_Capacity>
 		
-		<Death_Explosions>Large_Explosion_Space_New_Artes</Death_Explosions>
+		<Death_Explosions>Space_explosion_station</Death_Explosions>
         <Remove_Upon_Death>true</Remove_Upon_Death>
 		
 	</StarBase>
@@ -520,7 +521,7 @@
 		<Energy_Capacity>5000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Death_Explosions>Huge_Explosion_Space_Empire</Death_Explosions>
+		
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
 		<Armor_Type> Armor_Station </Armor_Type>

@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<HelperObject>
+  <Dummy Name="LAYER_Z_DUMMY">
+    <Text_ID/>
+    <GUI_Row>1</GUI_Row>
+    <Space_Model_Name>LAYER_Z_DUMMY.ALO</Space_Model_Name> <!-- Kad 2018-01-24 - UPDATE TO PROPER MODEL! -->
+    <GUI_Model_Name>W_LASER_INVISIBLE.ALO</GUI_Model_Name>
+    <Select_Box_Scale>250</Select_Box_Scale>
+    <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+    <Mass>0.995</Mass>
+    <Scale_Factor>1.0</Scale_Factor>
+    <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+    <No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
+    <Layer_Z_Adjust>0.0</Layer_Z_Adjust>
+    <Ranking_In_Category>5</Ranking_In_Category>
+    <Max_Speed>4</Max_Speed>
+    <Max_Rate_Of_Turn>0.8</Max_Rate_Of_Turn>
+    <MovementClass>Space</MovementClass>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+    <Space_Layer/>
+    <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+    <Bank_Turn_Angle>60</Bank_Turn_Angle>
+    <OverrideAcceleration>.04</OverrideAcceleration>
+    <OverrideDeceleration>.04</OverrideDeceleration>
+    <Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+    <Armor_Type>Armor_Corellian_Corvette</Armor_Type>
+    <Shield_Armor_Type>Shield_Corvette</Shield_Armor_Type>
+    <Max_Thrust>0.7</Max_Thrust>
+    <Hyperspace>Yes</Hyperspace>
+    <Hyperspace_Speed>1.5</Hyperspace_Speed>
+    <Maintenance_Cost>0.05</Maintenance_Cost>
+    <Max_Lift>0.0</Max_Lift>
+    <Space_FOW_Reveal_Range>0.0</Space_FOW_Reveal_Range>
+    <Targeting_Max_Attack_Distance>0.0</Targeting_Max_Attack_Distance>
+    <Affiliation>Empire</Affiliation>
+    <Build_Initially_Locked>No</Build_Initially_Locked>
+    <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+    <Tech_Level>99</Tech_Level>
+    <Autoresolve_Health>0</Autoresolve_Health>
+    <Damage>20</Damage>
+    <Tactical_Health>750</Tactical_Health>
+    <Energy_Capacity>1500</Energy_Capacity>
+    <Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+    <Ship_Class>corvette</Ship_Class>
+    <FormationPriority>3</FormationPriority>
+    <Is_Escort>Yes</Is_Escort>
+    <Is_Bomber>no</Is_Bomber>
+    <Political_Control>0</Political_Control>
+    <Squadron_Capacity>0</Squadron_Capacity>
+    <Transport_Capacity>4</Transport_Capacity>
+    <Number_per_Squadron>1</Number_per_Squadron>
+    <Build_Cost_Credits>1250</Build_Cost_Credits>
+    <Piracy_Value_Credits>50</Piracy_Value_Credits>
+    <Slice_Cost_Credits>675</Slice_Cost_Credits>
+    <AI_Combat_Power>1250</AI_Combat_Power>
+    <Build_Time_Seconds>15</Build_Time_Seconds>
+    <Build_Tab_Space_Units>No</Build_Tab_Space_Units>
+    <Size_Value>120</Size_Value>
+    <Behavior>DUMMY_STARSHIP, POWERED</Behavior>
+    <SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
+    <Space_FOW_Reveal_Range>0.0</Space_FOW_Reveal_Range>
+    <Targeting_Max_Attack_Distance>0.0</Targeting_Max_Attack_Distance>
+    <CategoryMask/>
+    <Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
+    <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+    <Icon_Name>i_button_corellian_corvette.tga</Icon_Name>
+    <GUI_Model_Name>W_LASER_INVISIBLE.ALO</GUI_Model_Name>
+    <GUI_Distance>600</GUI_Distance>
+    <GUI_Offset>0 0 0</GUI_Offset>
+    <GUI_Velocity>45</GUI_Velocity>
+    <Victory_Relevant>No</Victory_Relevant>
+    <Has_Space_Evaluator>True</Has_Space_Evaluator>
+    <Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
+    <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+    <MovementClass>Space</MovementClass>
+    <Required_Star_Base_Level>1</Required_Star_Base_Level>
+    <Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+    <Population_Value>0</Population_Value>
+  </Dummy>
+</HelperObject>

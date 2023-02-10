@@ -1,0 +1,404 @@
+<?xml version="1.0"?>
+<Victory_Data>
+	
+
+	
+	<SpaceUnit Name="Victory_Star_Destroyer">
+		<Text_ID>TEXT_UNIT_VICTORY_DESTROYER</Text_ID>
+		<Encyclopedia_Text> 
+				TEXT_STATS
+		        TEXT_LINE
+				TEXT_STAT_HEALTH_26100
+				TEXT_LINE
+				TEXT_STAT_SHIELD_12050
+				TEXT_LINE
+				TEXT_STAT_DAMAGE_2490
+				TEXT_LINE
+				TEXT_STAT_SINGLE_TURBOLASERS_10
+				TEXT_LINE
+				TEXT_STAT_DUAL_TURBOLASERS_4
+				TEXT_LINE
+				TEXT_STAT_SINGLE_ION_2
+				TEXT_LINE
+				TEXT_STAT_DUAL_ION_1
+				TEXT_LINE
+				TEXT_STAT_ROCKET_LAUNCHERS_12
+				TEXT_LINE
+                TEXT_STAT_FIRE_RANGE_2400
+				TEXT_LINE
+				TEXT_STAT_HARDPOINTS_29
+		</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_CRUISER</Encyclopedia_Unit_Class>
+		<GUI_Row> 1 </GUI_Row>
+		<Space_Model_Name>EV_VICTORY1.ALO</Space_Model_Name>
+		<Select_Box_Scale>585</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+		<Mass>0.9995</Mass>
+		<Scale_Factor>1</Scale_Factor>
+        <Lua_Script>ObjectScript_Layer_Z</Lua_Script>
+        	<Ranking_In_Category>6</Ranking_In_Category>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+        <Max_Speed>2.5</Max_Speed>
+		<Bank_Turn_Angle>30</Bank_Turn_Angle>
+		<Max_Rate_Of_Roll>0.075</Max_Rate_Of_Roll>
+		<Max_Rate_Of_Turn>0.09</Max_Rate_Of_Turn>
+		<MovementClass> Space </MovementClass>
+		<Space_Layer> Frigate </Space_Layer>
+		<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>				
+		<OverrideAcceleration> .03 </OverrideAcceleration>
+		<OverrideDeceleration> .03 </OverrideDeceleration>
+		
+		<Max_Thrust>1.5</Max_Thrust>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>2.0</Hyperspace_Speed>
+		<Maintenance_Cost>0.1</Maintenance_Cost>
+
+		<Armor_Type> Armor_Space </Armor_Type>
+        	<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
+		<Damage>2490</Damage>
+		<Autoresolve_Health>26100</Autoresolve_Health>
+		<Shield_Points>12050</Shield_Points>
+		<Tactical_Health>26100</Tactical_Health>
+		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
+		<Energy_Capacity>3000</Energy_Capacity>
+		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+
+		<Affiliation>Empire</Affiliation>
+		<Tech_Level>3</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Planets>
+		        Coruscant,				
+				Corulag,
+				Arkania,
+				Skako,
+				Carida,
+				Alderaan,
+				Balmorra,				
+				CatoNeimoidia,
+				Commenor,
+				Manaan,								
+				Duro,
+				HosnianPrime,
+				Loronar,
+				Devaron,
+				Bestine,
+				MechisIII,
+				Thyferra,				
+				Abregado_Rae,
+				Byss,
+				Tython,
+				Foerost,
+				Fresia,
+				Atzerri,
+				YagDhul,				
+				Ordmantell,
+				Iridonia,
+				Ithor,
+				Aeten,
+				Nirauan,
+				YagaMinor,
+				Mygeeto,
+				Muunilinst,
+				Kalee,
+				Dantooine,
+				LahMu,
+				Bastion,
+				Sernpidal,
+				Mortis,
+				Agamar,
+				Despayre,				
+				Jakku,
+				Jedha,
+				Ilum,
+				Starkillerbase,
+				Csilla,
+				AchTo,
+				Takodana,
+				Rattatak,
+				Endor,
+				Bakura,
+				Dolomar,				
+				Eriadu,				
+				Dagobah,
+				Utapau,
+				Belsavis,
+				Bespin,
+				Hoth,
+				Mustafar,
+				PolisMassa,
+				Atravis,
+				Malastare,
+				Naboo,
+				DQar,
+				Crait,
+				Vergesso,
+				Alzoc,
+				Arkanis,
+				Ryloth,
+				Tatooine,
+				Geonosis,
+				Christophsis,
+				Savareen,				
+				Falleen,
+				Vandor,
+				Rothana,				
+				Ukio,
+				Rishi,
+				Kamino,
+				Bothawui,
+				Mimban,
+				Ruusan,
+				Kashyyyk,
+				Roche,
+				Vardos,
+				Onderon,
+				Umbara,
+				Hapes,
+				Wayland,
+				Myrkr,
+				Taris,				
+				Serenno,
+				Yavin,
+				Axxila,
+				Dathomir,
+				Bandomeer,
+				Bimmiel,
+				Celanon,				
+				Felucia,
+				Florrum,
+				Korriban,
+				Dromund,
+				Ziost,
+				Telos,				
+				Jabiim,			
+				BozPity,
+				Saleucami,
+				Raxus,
+				Malachor,
+				Zygerria,
+				Cantonica,
+				EttiIV,
+				Bonadan,
+				Reltooine,
+				Teth,
+				Honoghr,
+				The_Maw,
+				Kessel,
+				Minntooine,
+				Pammant,				
+				Shola,
+				NalHutta,
+				Toydaria,
+				Rodia,
+				Iego,
+				Polus,
+				Alsakan,
+				Adumar,
+				RhenVar,
+				Maridun,
+				Tibrin,
+				StygeonPrime,
+				Scipio,
+				Raydonia,
+				Aargonar,
+				Shili,
+				Alakatha,
+				Ambria,
+				Akiva,
+				Chandrila,
+				Brentaal,
+				Raltiir,
+				Belderone,
+				LolaSayu,
+				Alarisprime,
+				Ossus,
+				Exocron,
+				Nelvaan,
+				Zakuul,
+				Gleeanselm,
+				ZonamaSekot,
+				Vjun,
+				Lehon,
+				Quell,
+				Vulpter,
+				Anaxes,
+				Anoat,
+				Belkadan,
+				Eadu,
+				Taspir,
+				Aargau,
+				Calus,
+				Wobani,
+				Antar,
+				Borleias,
+				Pantora
+	    </Required_Planets>
+		<Ship_Class>frigate</Ship_Class>
+		<Formation_Priority>3</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>15</Squadron_Capacity>
+		<Transport_Capacity>12</Transport_Capacity>
+		<Number_per_Squadron>1</Number_per_Squadron>
+		<Build_Cost_Credits>4000</Build_Cost_Credits>
+		<AI_Combat_Power>2490</AI_Combat_Power>
+		<Build_Time_Seconds>80</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Size_Value>8</Size_Value>
+		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
+		<SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT </SpaceBehavior>
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+
+		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>1800.0</Targeting_Max_Attack_Distance>
+		
+
+		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
+		
+
+		<HardPoints>
+			HP_Victory_00, 
+			HP_Victory_01, 
+			HP_Victory_02, 
+			HP_Victory_03, 
+			HP_Victory_04, 
+			HP_Victory_05,
+			HP_Victory_06,
+			HP_Victory_07,
+			HP_Victory_08, 
+			HP_Victory_09, 
+			HP_Victory_10,
+			HP_Victory_11,
+			HP_Victory_12,
+			HP_Victory_13,
+			HP_Victory_14,
+			HP_Victory_15,
+			HP_Victory_16,
+			HP_Victory_17,
+			HP_Victory_18,
+			HP_Victory_19,
+			HP_Victory_20,
+			HP_Victory_21,
+			HP_Victory_22,
+			HP_Victory_23,
+			HP_Victory_24,
+			HP_Victory_25,
+			HP_Victory_26,
+			HP_Victory_27,
+			HP_Victory_28,
+			HP_Victory_Fighter_Bay,
+			HP_Victory_Shield_Generator
+		</HardPoints>
+		
+		<!-- Set to spawn all units once and then not continue - no reserves -->
+		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 8</Reserve_Spawned_Units_Tech_0> 
+		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 4</Reserve_Spawned_Units_Tech_0>	
+
+		<CategoryMask> Frigate | AntiCorvette | AntiFrigate | AntiCapital </CategoryMask>
+		<Icon_Name>I_BUTTON_VICTORY.tga</Icon_Name>
+		<GUI_Model_Name>EV_VICTORY1.ALO</GUI_Model_Name>
+		<GUI_Distance>1100</GUI_Distance>
+		<GUI_Offset>0 0 0</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+        <Radar_Icon_Name>i_radar_Victory.tga</Radar_Icon_Name>
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Victory_Destroyer</SFXEvent_Build_Complete>
+		<SFXEvent_Ambient_Loop>Unit_Victory_Destroyer_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
+		<SFXEvent_Select>Unit_Select_Victory_Destroyer</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Victory_Destroyer</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Victory_Destroyer</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Victory_Destroyer</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Victory_Destroyer</SFXEvent_Guard>
+		<SFXEvent_Stop>Unit_Stop_Victory_Destroyer</SFXEvent_Stop>
+		<SFXEvent_Barrage>Unit_Barrage_Victory_Destroyer</SFXEvent_Barrage>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Victory_Destroyer </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Victory_Destroyer </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+		<SFXEvent_Bombard_Select_Target>	EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
+		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,   </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,   </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Victory_Destroyer_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Victory_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Victory_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		
+		
+
+		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>ROCKET_ATTACK</Type>
+				<Targeting_Max_Attack_Distance>1800</Targeting_Max_Attack_Distance>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>	 
+
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
+
+		
+		<Score_Cost_Credits> 6354</Score_Cost_Credits>
+
+		<Tactical_Build_Cost_Multiplayer>4000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>80</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Population_Value>4</Population_Value>
+
+		<Tactical_Bribe_Cost>6354</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>6354</Piracy_Value_Credits>
+		
+		
+		<Death_Explosions>Space_explosion_cruiser</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Space_Cruiser_Death</Death_SFXEvent_Start_Die>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+
+	</SpaceUnit>
+
+    
+
+
+	
+	
+</Victory_Data>

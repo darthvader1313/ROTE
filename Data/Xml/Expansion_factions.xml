@@ -14,10 +14,10 @@
 		<Fleet_Icon_Name> i_icon_fleet.tga </Fleet_Icon_Name>
 		<Ship_Icon_Name> g_fleet.tga </Ship_Icon_Name>
 		<Squadron_Icon_Name> g_squad.tga </Squadron_Icon_Name>
-		<Color> 255, 255, 255, 255 </Color>
-		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
-		<Display_Font_Color> 255, 255, 255, 255 </Display_Font_Color>
-		<Big_Fleet_Color> 255, 255, 255, 150 </Big_Fleet_Color>
+		<Color> 247, 201, 13, 255 </Color>
+		<No_Colorization_Color> 247, 201, 13, 255 </No_Colorization_Color>
+		<Display_Font_Color> 247, 201, 13, 255 </Display_Font_Color>
+		<Big_Fleet_Color> 247, 201, 13, 150 </Big_Fleet_Color>
 		<Credits_Accumulation_Factor> 0.95 </Credits_Accumulation_Factor>
 		<Planet_Icon_Scale> 10.0 </Planet_Icon_Scale>
 		<Planet_Icon_Offset> 10.0, 10.0, -1.1 </Planet_Icon_Offset>
