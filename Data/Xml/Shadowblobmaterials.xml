@@ -142,6 +142,32 @@ Format:
         <Shader_Name>BlobStencilMasked.fx</Shader_Name>
     </Material>
 	
+	<!-- First Era Factions -->
+	
+	<Material name="Selection_Rebel_Terrorists_Land">
+		<Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Rebel_Terrorists.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+	</Material>
+	
+	<Material name="Selection_Rebel_Terrorists_Space">       
+        <Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Rebel_Terrorists.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+    </Material>
+	
+	<Material name="Selection_Garrison_Rebel_Terrorists_Land">
+		<Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Rebel_Terrorists.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+	</Material>
+	
+    <Material name="Selection_Garrison_Rebel_Terrorists_Space">
+        <Texture_Name>i_selection_cutout_space.tga</Texture_Name>
+        <Texture_Name_2>I_Selection_Rebel_Terrorists.tga</Texture_Name_2>
+        <Shader_Name>BlobStencilMasked.fx</Shader_Name>
+    </Material>
+	
 	<Material name="Selection_CIS_Remnant_Land">
 		<Texture_Name>i_selection_cutout.tga</Texture_Name>
 		<Texture_Name_2>I_Selection_CIS_Remnant.tga</Texture_Name_2>
@@ -238,6 +264,32 @@ Format:
         <Shader_Name>BlobStencilMasked.fx</Shader_Name>
     </Material>
 	
+	<!-- Second Era Factions -->
+	
+	<Material name="Selection_Pyke_Syndicate_Land">
+		<Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Pyke_Syndicate.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+	</Material>
+	
+	<Material name="Selection_Pyke_Syndicate_Space">       
+        <Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Pyke_Syndicate.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+    </Material>
+	
+	<Material name="Selection_Garrison_Pyke_Syndicate_Land">
+		<Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Pyke_Syndicate.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+	</Material>
+	
+    <Material name="Selection_Garrison_Pyke_Syndicate_Space">
+        <Texture_Name>i_selection_cutout_space.tga</Texture_Name>
+        <Texture_Name_2>I_Selection_Pyke_Syndicate.tga</Texture_Name_2>
+        <Shader_Name>BlobStencilMasked.fx</Shader_Name>
+    </Material>
+	
 	<Material name="Selection_Corporate_Sector_Land">
 		<Texture_Name>i_selection_cutout.tga</Texture_Name>
 		<Texture_Name_2>I_Selection_Corporate_Sector.tga</Texture_Name_2>
@@ -259,6 +311,152 @@ Format:
     <Material name="Selection_Garrison_Corporate_Sector_Space">
         <Texture_Name>i_selection_cutout_space.tga</Texture_Name>
         <Texture_Name_2>I_Selection_Corporate_Sector.tga</Texture_Name_2>
+        <Shader_Name>BlobStencilMasked.fx</Shader_Name>
+    </Material>
+	
+	<Material name="Selection_Hapan_Consortium_Land">
+		<Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Hapan_Consortium.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+	</Material>
+	
+	<Material name="Selection_Hapan_Consortium_Space">       
+        <Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Hapan_Consortium.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+    </Material>
+	
+	<Material name="Selection_Garrison_Hapan_Consortium_Land">
+		<Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Hapan_Consortium.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+	</Material>
+	
+    <Material name="Selection_Garrison_Hapan_Consortium_Space">
+        <Texture_Name>i_selection_cutout_space.tga</Texture_Name>
+        <Texture_Name_2>I_Selection_Hapan_Consortium.tga</Texture_Name_2>
+        <Shader_Name>BlobStencilMasked.fx</Shader_Name>
+    </Material>
+	
+	<Material name="Selection_Crimson_Dawn_Land">
+		<Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Crimson_Dawn.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+	</Material>
+	
+	<Material name="Selection_Crimson_Dawn_Space">       
+        <Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Crimson_Dawn.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+    </Material>
+	
+	<Material name="Selection_Garrison_Crimson_Dawn_Land">
+		<Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Crimson_Dawn.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+	</Material>
+	
+    <Material name="Selection_Garrison_Crimson_Dawn_Space">
+        <Texture_Name>i_selection_cutout_space.tga</Texture_Name>
+        <Texture_Name_2>I_Selection_Crimson_Dawn.tga</Texture_Name_2>
+        <Shader_Name>BlobStencilMasked.fx</Shader_Name>
+    </Material>
+	
+	<!-- Third Era Factions -->
+	
+	<Material name="Selection_Imperial_Remnant_Rax_Land">
+		<Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Imperial_Remnant_Rax.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+	</Material>
+	
+	<Material name="Selection_Imperial_Remnant_Rax_Space">       
+        <Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Imperial_Remnant_Rax.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+    </Material>
+	
+	<Material name="Selection_Garrison_Imperial_Remnant_Rax_Land">
+		<Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Imperial_Remnant_Rax.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+	</Material>
+	
+    <Material name="Selection_Garrison_Imperial_Remnant_Rax_Space">
+        <Texture_Name>i_selection_cutout_space.tga</Texture_Name>
+        <Texture_Name_2>I_Selection_Imperial_Remnant_Rax.tga</Texture_Name_2>
+        <Shader_Name>BlobStencilMasked.fx</Shader_Name>
+    </Material>
+	
+	<Material name="Selection_Imperial_Remnant_Gratloe_Land">
+		<Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Imperial_Remnant_Gratloe.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+	</Material>
+	
+	<Material name="Selection_Imperial_Remnant_Gratloe_Space">       
+        <Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Imperial_Remnant_Gratloe.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+    </Material>
+	
+	<Material name="Selection_Garrison_CImperial_Remnant_Gratloe_Land">
+		<Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Imperial_Remnant_Gratloe.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+	</Material>
+	
+    <Material name="Selection_Garrison_Imperial_Remnant_Gratloe_Space">
+        <Texture_Name>i_selection_cutout_space.tga</Texture_Name>
+        <Texture_Name_2>I_Selection_Imperial_Remnant_Gratloe.tga</Texture_Name_2>
+        <Shader_Name>BlobStencilMasked.fx</Shader_Name>
+    </Material>
+	
+	<Material name="Selection_Imperial_Remnant_Loring_Land">
+		<Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Imperial_Remnant_Loring.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+	</Material>
+	
+	<Material name="Selection_Imperial_Remnant_Loring_Space">       
+        <Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Imperial_Remnant_Loring.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+    </Material>
+	
+	<Material name="Selection_Garrison_Imperial_Remnant_Loring_Land">
+		<Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Imperial_Remnant_Loring.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+	</Material>
+	
+    <Material name="Selection_Garrison_Imperial_Remnant_Loring_Space">
+        <Texture_Name>i_selection_cutout_space.tga</Texture_Name>
+        <Texture_Name_2>I_Selection_Imperial_Remnant_Loring.tga</Texture_Name_2>
+        <Shader_Name>BlobStencilMasked.fx</Shader_Name>
+    </Material>
+	
+	<Material name="Selection_Imperial_Remnant_Adelhard_Land">
+		<Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Imperial_Remnant_Adelhard.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+	</Material>
+	
+	<Material name="Selection_Imperial_Remnant_Adelhard_Space">       
+        <Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Imperial_Remnant_Adelhard.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+    </Material>
+	
+	<Material name="Selection_Garrison_Imperial_Remnant_Adelhard_Land">
+		<Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Imperial_Remnant_Adelhard.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+	</Material>
+	
+    <Material name="Selection_Garrison_Imperial_Remnant_Adelhard_Space">
+        <Texture_Name>i_selection_cutout_space.tga</Texture_Name>
+        <Texture_Name_2>I_Selection_Imperial_Remnant_Adelhard.tga</Texture_Name_2>
         <Shader_Name>BlobStencilMasked.fx</Shader_Name>
     </Material>
 
