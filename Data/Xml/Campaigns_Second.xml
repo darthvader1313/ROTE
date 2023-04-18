@@ -1,0 +1,2114 @@
+<?xml version="1.0"?>
+<Campaigns>
+
+
+
+<!-- ************************************************************** -->
+<!-- **************** SANDBOX CAMPAIGN "Gateways" ***************** -->
+<!-- ************************************************************** -->
+
+
+	
+
+
+	<Campaign Name="Sandbox_Second_Era_Galactic_Empire">
+
+		<Campaign_Set> Sandbox_Second_Era </Campaign_Set>
+		<Sort_Order>6</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_ </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_NEW_FACTIONS_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> 40.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Cal_Seti, Fresia, Coruscant, Alsakan, Anaxes, Axum, Corulag, Chandrila, Brentaal, Raltiir, Dolomar, Vardos, Metellos,
+				Pantolomin, Borleias, Bilbringi, Barlok, Shili, Champala, Carida, Arkania, Castell, Skako, Alderaan, Balmorra, Kuat,
+				Humbarine, Commenor, CatoNeimoidia, Rendili, Sarapin, Vulpter, Columus, Ebaq, Corellia, Duro, Hakassi, HosnianPrime, Chasin,
+				Loronar, Denon, Atzerri, Devaron, Foless, Bestine, Bassadro, Thyferra, MechisIII, YagDhul, Calus, Ghorman, Fondor, Belgaroth, 
+				Abregado_Rae, Kampe, Kalist, Byss, Pillio, Tython, Empress_Teta, Foerost, Aargau		
+		</Locations>
+
+        <Trade_Routes>
+			
+		</Trade_Routes>
+
+        <Home_Location> Galactic_Empire, Coruscant </Home_Location>
+        <Home_Location> Rebel_Alliance, Alderaan </Home_Location>
+		<Home_Location> Pyke_Syndicate, Fondor </Home_Location>
+		<Home_Location> Corporate_Sector, Barlok </Home_Location>
+		<Home_Location> Hapan_Consortium, Duro </Home_Location>
+		<Home_Location> Crimson_Dawn, Vulpter </Home_Location>
+		
+		<Starting_Active_Player> Galactic_Empire </Starting_Active_Player>
+		
+		<Story_Name>Galactic_Empire, story_Second_Era\Story_Second_Era_Galactic_Empire.xml </Story_Name>
+		<Story_Name>Rebel_Alliance, story_Second_Era\Story_Second_Era_Rebel_Alliance.xml</Story_Name>
+		<Story_Name>Pyke_Syndicate, story_Second_Era\Story_Second_Era_Pyke_Syndicate.xml</Story_Name>
+		<Story_Name>Corporate_Sector, story_Second_Era\Story_Second_Era_Corporate_Sector.xml</Story_Name>
+		<Story_Name>Hapan_Consortium, story_Second_Era\Story_Second_Era_Hapan_Consortium.xml</Story_Name>
+		<Story_Name>Crimson_Dawn, story_Second_Era\Story_Second_Era_Crimson_Dawn.xml </Story_Name>
+		
+		<AI_Player_Control> Rebel_Alliance, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Pyke_Syndicate, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Corporate_Sector, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Hapan_Consortium, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Crimson_Dawn, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>Galactic_Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel_Alliance, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Pyke_Syndicate, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Corporate_Sector, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Hapan_Consortium, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Crimson_Dawn, DefaultGalacticHints </Markup_Filename>
+		
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		
+		
+		
+		
+		<!-- Galactic_Empire Starting Forces -->
+
+		<Starting_Credits> Galactic_Empire,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Galactic_Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Galactic_Empire, 5 </Max_Tech_Level>
+		
+        <!-- Cal_Seti Space Forces -->
+	
+        <!-- Cal_Seti Land Forces -->
+		<Starting_Forces> Galactic_Empire, Cal_Seti, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Cal_Seti, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Cal_Seti, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Fresia Space Forces -->
+	
+        <!-- Fresia Land Forces -->
+		<Starting_Forces> Galactic_Empire, Fresia, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Fresia, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Fresia, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Coruscant Space Forces -->
+	
+        <!-- Coruscant Land Forces -->
+		<Starting_Forces> Galactic_Empire, Coruscant, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Coruscant, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Coruscant, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Alsakan Space Forces -->
+	
+        <!-- Alsakan Land Forces -->
+		<Starting_Forces> Galactic_Empire, Alsakan, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Alsakan, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Alsakan, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Axum Space Forces -->
+	
+        <!-- Axum Land Forces -->
+		<Starting_Forces> Galactic_Empire, Axum, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Axum, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Axum, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		<!-- Rebel_Alliance Starting Forces -->
+
+		<Starting_Credits> Rebel_Alliance,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel_Alliance, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel_Alliance, 5 </Max_Tech_Level>
+                                                     
+        <!-- Alderaan Space Forces -->
+
+        <!-- Alderaan Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Alderaan, Rebel_Alliance_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Alderaan, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Alderaan, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		
+		<!-- Skako Space Forces -->
+
+        <!-- Skako Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Skako, Rebel_Alliance_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Skako, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Skako, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+        
+        <!-- Chandrila Space Forces -->
+
+        <!-- Chandrila Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Chandrila, Rebel_Alliance_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Chandrila, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Chandrila, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+        
+        <!-- Brentaal Space Forces -->
+
+        <!-- Brentaal Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Brentaal, Rebel_Alliance_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Brentaal, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Brentaal, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+        
+        <!-- Raltiir Space Forces -->
+
+        <!-- Raltiir Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Raltiir, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Raltiir, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Raltiir, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		
+		
+		
+		
+		<!-- Pyke_Syndicate Starting Forces -->
+
+		<Starting_Credits> Pyke_Syndicate,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Pyke_Syndicate, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Pyke_Syndicate, 5 </Max_Tech_Level>
+                                                     
+        <!-- Fondor Space Forces -->
+
+        <!-- Fondor Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Fondor, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Fondor, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Fondor, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		
+		<!-- Abregado_Rae Space Forces -->
+
+        <!-- Abregado_Rae Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Abregado_Rae, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Abregado_Rae, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Abregado_Rae, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		
+		<!-- Ghorman Space Forces -->
+
+        <!-- Ghorman Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Ghorman, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Ghorman, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Ghorman, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		
+		<!-- Belgaroth Space Forces -->
+
+        <!-- Belgaroth Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Belgaroth, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Belgaroth, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Belgaroth, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		
+		<!-- Bassadro Space Forces -->
+
+        <!-- Bassadro Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Bassadro, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Bassadro, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Bassadro, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		
+		
+		
+		
+		<!-- Corporate_Sector Starting Forces -->
+
+		<Starting_Credits> Corporate_Sector,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Corporate_Sector, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Corporate_Sector, 5 </Max_Tech_Level>
+		
+        <!-- Barlok Space Forces -->
+		
+        <!-- Barlok Land Forces -->
+		<Starting_Forces> Corporate_Sector, Barlok, Corporate_Sector_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Barlok, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Barlok, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Shili Space Forces -->
+		
+        <!-- Shili Land Forces -->
+		<Starting_Forces> Corporate_Sector, Shili, Corporate_Sector_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Shili, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Shili, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Champala Space Forces -->
+		
+        <!-- Champala Land Forces -->
+		<Starting_Forces> Corporate_Sector, Champala, Corporate_Sector_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Champala, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Champala, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Carida Space Forces -->
+		
+        <!-- Skako Land Forces -->
+		<Starting_Forces> Corporate_Sector, Carida, Corporate_Sector_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Carida, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Carida, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Arkania Space Forces -->
+		
+        <!-- Arkania Land Forces -->
+		<Starting_Forces> Corporate_Sector, Arkania, Corporate_Sector_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Arkania, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Arkania, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+
+
+		
+		
+		<!-- Hapan_Consortium Starting Forces -->
+
+		<Starting_Credits> Hapan_Consortium,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Hapan_Consortium, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Hapan_Consortium, 5 </Max_Tech_Level>
+		
+         <!-- Duro Space Forces -->
+		
+        <!-- Duro Land Forces -->
+		<Starting_Forces> Hapan_Consortium, Duro, Hapan_Consortium_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Duro, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Duro, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		
+		<!-- Loronar Space Forces -->
+		
+        <!-- Loronar Land Forces -->
+		<Starting_Forces> Hapan_Consortium, Loronar, Hapan_Consortium_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Loronar, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Loronar, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		
+		<!-- HosnianPrime Space Forces -->
+		
+        <!-- HosnianPrime Land Forces -->
+		<Starting_Forces> Hapan_Consortium, HosnianPrime, Hapan_Consortium_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, HosnianPrime, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, HosnianPrime, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		
+		<!-- Devaron Space Forces -->
+		
+        <!-- Devaron Land Forces -->
+		<Starting_Forces> Hapan_Consortium, Devaron, Hapan_Consortium_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Devaron, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Devaron, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		
+		<!-- Atzerri Space Forces -->
+		
+        <!-- Devaron Land Forces -->
+		<Starting_Forces> Hapan_Consortium, Atzerri, Hapan_Consortium_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Atzerri, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Atzerri, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		
+		
+		
+		
+		<!-- Crimson_Dawn Starting Forces -->
+
+		<Starting_Credits> Crimson_Dawn,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Crimson_Dawn, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Crimson_Dawn, 5 </Max_Tech_Level>
+
+        <!-- Vulpter Space Forces -->
+
+        <!-- Vulpter Land Forces -->
+		<Starting_Forces> Crimson_Dawn, Vulpter, Crimson_Dawn_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Vulpter, Crimson_Dawn_Trooper_Squad</Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Vulpter, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+		
+		<!-- Aargau Space Forces -->
+
+        <!-- Aargau Land Forces -->
+		<Starting_Forces> Crimson_Dawn, Aargau, Crimson_Dawn_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Aargau, Crimson_Dawn_Trooper_Squad</Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Aargau, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+		
+		<!-- Kampe Space Forces -->
+
+        <!-- Kampe Land Forces -->
+		<Starting_Forces> Crimson_Dawn, Kampe, Crimson_Dawn_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Kampe, Crimson_Dawn_Trooper_Squad</Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Kampe, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+		
+		<!-- Ebaq Space Forces -->
+
+        <!-- Ebaq Land Forces -->
+		<Starting_Forces> Crimson_Dawn, Ebaq, Crimson_Dawn_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Ebaq, Crimson_Dawn_Trooper_Squad</Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Ebaq, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+		
+		<!-- Empress_Teta Space Forces -->
+
+        <!-- Empress_Teta Land Forces -->
+		<Starting_Forces> Crimson_Dawn, Empress_Teta, Crimson_Dawn_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Empress_Teta, Crimson_Dawn_Trooper_Squad</Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Empress_Teta, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+		
+		
+		
+
+		
+	  </Campaign>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  <Campaign Name="Sandbox_Second_Era_Rebel_Alliance">
+
+		<Campaign_Set> Sandbox_Second_Era </Campaign_Set>
+		<Sort_Order>6</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_ </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_NEW_FACTIONS_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> 40.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Cal_Seti, Fresia, Coruscant, Alsakan, Anaxes, Axum, Corulag, Chandrila, Brentaal, Raltiir, Dolomar, Vardos, Metellos,
+				Pantolomin, Borleias, Bilbringi, Barlok, Shili, Champala, Carida, Arkania, Castell, Skako, Alderaan, Balmorra, Kuat,
+				Humbarine, Commenor, CatoNeimoidia, Rendili, Sarapin, Vulpter, Columus, Ebaq, Corellia, Duro, Hakassi, HosnianPrime, Chasin,
+				Loronar, Denon, Atzerri, Devaron, Foless, Bestine, Bassadro, Thyferra, MechisIII, YagDhul, Calus, Ghorman, Fondor, Belgaroth, 
+				Abregado_Rae, Kampe, Kalist, Byss, Pillio, Tython, Empress_Teta, Foerost, Aargau		
+		</Locations>
+
+        <Trade_Routes>
+			
+		</Trade_Routes>
+
+        <Home_Location> Galactic_Empire, Coruscant </Home_Location>
+        <Home_Location> Rebel_Alliance, Alderaan </Home_Location>
+		<Home_Location> Pyke_Syndicate, Fondor </Home_Location>
+		<Home_Location> Corporate_Sector, Barlok </Home_Location>
+		<Home_Location> Hapan_Consortium, Duro </Home_Location>
+		<Home_Location> Crimson_Dawn, Vulpter </Home_Location>
+		
+		<Starting_Active_Player> Rebel_Alliance </Starting_Active_Player>
+		
+		<Story_Name>Galactic_Empire, story_Second_Era\Story_Second_Era_Galactic_Empire.xml </Story_Name>
+		<Story_Name>Rebel_Alliance, story_Second_Era\Story_Second_Era_Rebel_Alliance.xml</Story_Name>
+		<Story_Name>Pyke_Syndicate, story_Second_Era\Story_Second_Era_Pyke_Syndicate.xml</Story_Name>
+		<Story_Name>Corporate_Sector, story_Second_Era\Story_Second_Era_Corporate_Sector.xml</Story_Name>
+		<Story_Name>Hapan_Consortium, story_Second_Era\Story_Second_Era_Hapan_Consortium.xml</Story_Name>
+		<Story_Name>Crimson_Dawn, story_Second_Era\Story_Second_Era_Crimson_Dawn.xml </Story_Name>
+		
+		<AI_Player_Control> Galactic_Empire, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Pyke_Syndicate, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Corporate_Sector, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Hapan_Consortium, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Crimson_Dawn, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>Galactic_Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel_Alliance, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Pyke_Syndicate, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Corporate_Sector, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Hapan_Consortium, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Crimson_Dawn, DefaultGalacticHints </Markup_Filename>
+		
+		
+		
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		
+		
+		
+		
+		<!-- Galactic_Empire Starting Forces -->
+
+		<Starting_Credits> Galactic_Empire,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Galactic_Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Galactic_Empire, 5 </Max_Tech_Level>
+		
+        <!-- Cal_Seti Space Forces -->
+	
+        <!-- Cal_Seti Land Forces -->
+		<Starting_Forces> Galactic_Empire, Cal_Seti, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Cal_Seti, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Cal_Seti, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Fresia Space Forces -->
+	
+        <!-- Fresia Land Forces -->
+		<Starting_Forces> Galactic_Empire, Fresia, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Fresia, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Fresia, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Coruscant Space Forces -->
+	
+        <!-- Coruscant Land Forces -->
+		<Starting_Forces> Galactic_Empire, Coruscant, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Coruscant, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Coruscant, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Alsakan Space Forces -->
+	
+        <!-- Alsakan Land Forces -->
+		<Starting_Forces> Galactic_Empire, Alsakan, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Alsakan, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Alsakan, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Axum Space Forces -->
+	
+        <!-- Axum Land Forces -->
+		<Starting_Forces> Galactic_Empire, Axum, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Axum, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Axum, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		<!-- Rebel_Alliance Starting Forces -->
+
+		<Starting_Credits> Rebel_Alliance,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel_Alliance, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel_Alliance, 5 </Max_Tech_Level>
+                                                     
+        <!-- Alderaan Space Forces -->
+
+        <!-- Alderaan Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Alderaan, Rebel_Alliance_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Alderaan, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Alderaan, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		
+		<!-- Skako Space Forces -->
+
+        <!-- Skako Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Skako, Rebel_Alliance_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Skako, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Skako, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+        
+        <!-- Chandrila Space Forces -->
+
+        <!-- Chandrila Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Chandrila, Rebel_Alliance_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Chandrila, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Chandrila, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+        
+        <!-- Brentaal Space Forces -->
+
+        <!-- Brentaal Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Brentaal, Rebel_Alliance_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Brentaal, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Brentaal, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+        
+        <!-- Raltiir Space Forces -->
+
+        <!-- Raltiir Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Raltiir, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Raltiir, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Raltiir, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		
+		
+		
+		
+		<!-- Pyke_Syndicate Starting Forces -->
+
+		<Starting_Credits> Pyke_Syndicate,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Pyke_Syndicate, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Pyke_Syndicate, 5 </Max_Tech_Level>
+                                                     
+        <!-- Fondor Space Forces -->
+
+        <!-- Fondor Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Fondor, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Fondor, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Fondor, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		
+		<!-- Abregado_Rae Space Forces -->
+
+        <!-- Abregado_Rae Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Abregado_Rae, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Abregado_Rae, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Abregado_Rae, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		
+		<!-- Ghorman Space Forces -->
+
+        <!-- Ghorman Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Ghorman, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Ghorman, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Ghorman, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		
+		<!-- Belgaroth Space Forces -->
+
+        <!-- Belgaroth Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Belgaroth, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Belgaroth, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Belgaroth, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		
+		<!-- Bassadro Space Forces -->
+
+        <!-- Bassadro Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Bassadro, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Bassadro, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Bassadro, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+
+
+		
+		
+		
+		<!-- Corporate_Sector Starting Forces -->
+
+		<Starting_Credits> Corporate_Sector,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Corporate_Sector, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Corporate_Sector, 5 </Max_Tech_Level>
+		
+        <!-- Barlok Space Forces -->
+		
+        <!-- Barlok Land Forces -->
+		<Starting_Forces> Corporate_Sector, Barlok, Corporate_Sector_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Barlok, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Barlok, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Shili Space Forces -->
+		
+        <!-- Shili Land Forces -->
+		<Starting_Forces> Corporate_Sector, Shili, Corporate_Sector_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Shili, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Shili, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Champala Space Forces -->
+		
+        <!-- Champala Land Forces -->
+		<Starting_Forces> Corporate_Sector, Champala, Corporate_Sector_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Champala, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Champala, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Carida Space Forces -->
+		
+        <!-- Skako Land Forces -->
+		<Starting_Forces> Corporate_Sector, Carida, Corporate_Sector_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Carida, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Carida, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Arkania Space Forces -->
+		
+        <!-- Arkania Land Forces -->
+		<Starting_Forces> Corporate_Sector, Arkania, Corporate_Sector_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Arkania, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Arkania, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		
+		
+		
+		
+		<!-- Hapan_Consortium Starting Forces -->
+
+		<Starting_Credits> Hapan_Consortium,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Hapan_Consortium, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Hapan_Consortium, 5 </Max_Tech_Level>
+		
+         <!-- Duro Space Forces -->
+		
+        <!-- Duro Land Forces -->
+		<Starting_Forces> Hapan_Consortium, Duro, Hapan_Consortium_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Duro, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Duro, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		
+		<!-- Loronar Space Forces -->
+		
+        <!-- Loronar Land Forces -->
+		<Starting_Forces> Hapan_Consortium, Loronar, Hapan_Consortium_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Loronar, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Loronar, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		
+		<!-- HosnianPrime Space Forces -->
+		
+        <!-- HosnianPrime Land Forces -->
+		<Starting_Forces> Hapan_Consortium, HosnianPrime, Hapan_Consortium_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, HosnianPrime, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, HosnianPrime, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		
+		<!-- Devaron Space Forces -->
+		
+        <!-- Devaron Land Forces -->
+		<Starting_Forces> Hapan_Consortium, Devaron, Hapan_Consortium_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Devaron, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Devaron, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		
+		<!-- Atzerri Space Forces -->
+		
+        <!-- Devaron Land Forces -->
+		<Starting_Forces> Hapan_Consortium, Atzerri, Hapan_Consortium_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Atzerri, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Atzerri, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		
+		
+		
+		
+		<!-- Crimson_Dawn Starting Forces -->
+
+		<Starting_Credits> Crimson_Dawn,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Crimson_Dawn, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Crimson_Dawn, 5 </Max_Tech_Level>
+
+        <!-- Vulpter Space Forces -->
+
+        <!-- Vulpter Land Forces -->
+		<Starting_Forces> Crimson_Dawn, Vulpter, Crimson_Dawn_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Vulpter, Crimson_Dawn_Trooper_Squad</Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Vulpter, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+		
+		<!-- Aargau Space Forces -->
+
+        <!-- Aargau Land Forces -->
+		<Starting_Forces> Crimson_Dawn, Aargau, Crimson_Dawn_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Aargau, Crimson_Dawn_Trooper_Squad</Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Aargau, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+		
+		<!-- Kampe Space Forces -->
+
+        <!-- Kampe Land Forces -->
+		<Starting_Forces> Crimson_Dawn, Kampe, Crimson_Dawn_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Kampe, Crimson_Dawn_Trooper_Squad</Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Kampe, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+		
+		<!-- Ebaq Space Forces -->
+
+        <!-- Ebaq Land Forces -->
+		<Starting_Forces> Crimson_Dawn, Ebaq, Crimson_Dawn_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Ebaq, Crimson_Dawn_Trooper_Squad</Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Ebaq, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+		
+		<!-- Empress_Teta Space Forces -->
+
+        <!-- Empress_Teta Land Forces -->
+		<Starting_Forces> Crimson_Dawn, Empress_Teta, Crimson_Dawn_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Empress_Teta, Crimson_Dawn_Trooper_Squad</Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Empress_Teta, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+		
+
+		
+	  </Campaign>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  <Campaign Name="Sandbox_Second_Era_Pyke_Syndicate">
+
+		<Campaign_Set> Sandbox_Second_Era </Campaign_Set>
+		<Sort_Order>6</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_ </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_NEW_FACTIONS_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> 40.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Cal_Seti, Fresia, Coruscant, Alsakan, Anaxes, Axum, Corulag, Chandrila, Brentaal, Raltiir, Dolomar, Vardos, Metellos,
+				Pantolomin, Borleias, Bilbringi, Barlok, Shili, Champala, Carida, Arkania, Castell, Skako, Alderaan, Balmorra, Kuat,
+				Humbarine, Commenor, CatoNeimoidia, Rendili, Sarapin, Vulpter, Columus, Ebaq, Corellia, Duro, Hakassi, HosnianPrime, Chasin,
+				Loronar, Denon, Atzerri, Devaron, Foless, Bestine, Bassadro, Thyferra, MechisIII, YagDhul, Calus, Ghorman, Fondor, Belgaroth, 
+				Abregado_Rae, Kampe, Kalist, Byss, Pillio, Tython, Empress_Teta, Foerost, Aargau		
+		</Locations>
+
+        <Trade_Routes>
+			
+		</Trade_Routes>
+
+        <Home_Location> Galactic_Empire, Coruscant </Home_Location>
+        <Home_Location> Rebel_Alliance, Alderaan </Home_Location>
+		<Home_Location> Pyke_Syndicate, Fondor </Home_Location>
+		<Home_Location> Corporate_Sector, Barlok </Home_Location>
+		<Home_Location> Hapan_Consortium, Duro </Home_Location>
+		<Home_Location> Crimson_Dawn, Vulpter </Home_Location>
+		
+		<Starting_Active_Player> Pyke_Syndicate </Starting_Active_Player>
+		
+		<Story_Name>Galactic_Empire, story_Second_Era\Story_Second_Era_Galactic_Empire.xml </Story_Name>
+		<Story_Name>Rebel_Alliance, story_Second_Era\Story_Second_Era_Rebel_Alliance.xml</Story_Name>
+		<Story_Name>Pyke_Syndicate, story_Second_Era\Story_Second_Era_Pyke_Syndicate.xml</Story_Name>
+		<Story_Name>Corporate_Sector, story_Second_Era\Story_Second_Era_Corporate_Sector.xml</Story_Name>
+		<Story_Name>Hapan_Consortium, story_Second_Era\Story_Second_Era_Hapan_Consortium.xml</Story_Name>
+		<Story_Name>Crimson_Dawn, story_Second_Era\Story_Second_Era_Crimson_Dawn.xml </Story_Name>
+		
+		<AI_Player_Control> Galactic_Empire, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Rebel_Alliance, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Corporate_Sector, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Hapan_Consortium, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Crimson_Dawn, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>Galactic_Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel_Alliance, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Pyke_Syndicate, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Corporate_Sector, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Hapan_Consortium, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Crimson_Dawn, DefaultGalacticHints </Markup_Filename>
+		
+		
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		
+		
+		
+		
+		<!-- Galactic_Empire Starting Forces -->
+
+		<Starting_Credits> Galactic_Empire,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Galactic_Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Galactic_Empire, 5 </Max_Tech_Level>
+		
+        <!-- Cal_Seti Space Forces -->
+	
+        <!-- Cal_Seti Land Forces -->
+		<Starting_Forces> Galactic_Empire, Cal_Seti, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Cal_Seti, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Cal_Seti, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Fresia Space Forces -->
+	
+        <!-- Fresia Land Forces -->
+		<Starting_Forces> Galactic_Empire, Fresia, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Fresia, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Fresia, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Coruscant Space Forces -->
+	
+        <!-- Coruscant Land Forces -->
+		<Starting_Forces> Galactic_Empire, Coruscant, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Coruscant, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Coruscant, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Alsakan Space Forces -->
+	
+        <!-- Alsakan Land Forces -->
+		<Starting_Forces> Galactic_Empire, Alsakan, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Alsakan, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Alsakan, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Axum Space Forces -->
+	
+        <!-- Axum Land Forces -->
+		<Starting_Forces> Galactic_Empire, Axum, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Axum, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Axum, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		<!-- Rebel_Alliance Starting Forces -->
+
+		<Starting_Credits> Rebel_Alliance,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel_Alliance, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel_Alliance, 5 </Max_Tech_Level>
+                                                     
+        <!-- Alderaan Space Forces -->
+
+        <!-- Alderaan Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Alderaan, Rebel_Alliance_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Alderaan, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Alderaan, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		
+		<!-- Skako Space Forces -->
+
+        <!-- Skako Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Skako, Rebel_Alliance_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Skako, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Skako, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+        
+        <!-- Chandrila Space Forces -->
+
+        <!-- Chandrila Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Chandrila, Rebel_Alliance_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Chandrila, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Chandrila, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+        
+        <!-- Brentaal Space Forces -->
+
+        <!-- Brentaal Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Brentaal, Rebel_Alliance_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Brentaal, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Brentaal, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+        
+        <!-- Raltiir Space Forces -->
+
+        <!-- Raltiir Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Raltiir, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Raltiir, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Raltiir, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		
+		
+		
+		
+		<!-- Pyke_Syndicate Starting Forces -->
+
+		<Starting_Credits> Pyke_Syndicate,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Pyke_Syndicate, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Pyke_Syndicate, 5 </Max_Tech_Level>
+                                                     
+        <!-- Fondor Space Forces -->
+
+        <!-- Fondor Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Fondor, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Fondor, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Fondor, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		
+		<!-- Abregado_Rae Space Forces -->
+
+        <!-- Abregado_Rae Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Abregado_Rae, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Abregado_Rae, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Abregado_Rae, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		
+		<!-- Ghorman Space Forces -->
+
+        <!-- Ghorman Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Ghorman, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Ghorman, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Ghorman, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		
+		<!-- Belgaroth Space Forces -->
+
+        <!-- Belgaroth Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Belgaroth, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Belgaroth, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Belgaroth, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		
+		<!-- Bassadro Space Forces -->
+
+        <!-- Bassadro Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Bassadro, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Bassadro, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Bassadro, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+
+
+		
+		
+		<!-- Corporate_Sector Starting Forces -->
+
+		<Starting_Credits> Corporate_Sector,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Corporate_Sector, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Corporate_Sector, 5 </Max_Tech_Level>
+		
+        <!-- Barlok Space Forces -->
+		
+        <!-- Barlok Land Forces -->
+		<Starting_Forces> Corporate_Sector, Barlok, Corporate_Sector_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Barlok, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Barlok, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Shili Space Forces -->
+		
+        <!-- Shili Land Forces -->
+		<Starting_Forces> Corporate_Sector, Shili, Corporate_Sector_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Shili, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Shili, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Champala Space Forces -->
+		
+        <!-- Champala Land Forces -->
+		<Starting_Forces> Corporate_Sector, Champala, Corporate_Sector_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Champala, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Champala, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Carida Space Forces -->
+		
+        <!-- Skako Land Forces -->
+		<Starting_Forces> Corporate_Sector, Carida, Corporate_Sector_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Carida, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Carida, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Arkania Space Forces -->
+		
+        <!-- Arkania Land Forces -->
+		<Starting_Forces> Corporate_Sector, Arkania, Corporate_Sector_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Arkania, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Arkania, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		<!-- Hapan_Consortium Starting Forces -->
+
+		<Starting_Credits> Hapan_Consortium,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Hapan_Consortium, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Hapan_Consortium, 5 </Max_Tech_Level>
+		
+        <!-- Duro Space Forces -->
+		
+        <!-- Duro Land Forces -->
+		<Starting_Forces> Hapan_Consortium, Duro, Hapan_Consortium_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Duro, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Duro, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		
+		<!-- Loronar Space Forces -->
+		
+        <!-- Loronar Land Forces -->
+		<Starting_Forces> Hapan_Consortium, Loronar, Hapan_Consortium_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Loronar, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Loronar, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		
+		<!-- HosnianPrime Space Forces -->
+		
+        <!-- HosnianPrime Land Forces -->
+		<Starting_Forces> Hapan_Consortium, HosnianPrime, Hapan_Consortium_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, HosnianPrime, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, HosnianPrime, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		
+		<!-- Devaron Space Forces -->
+		
+        <!-- Devaron Land Forces -->
+		<Starting_Forces> Hapan_Consortium, Devaron, Hapan_Consortium_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Devaron, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Devaron, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		
+		<!-- Atzerri Space Forces -->
+		
+        <!-- Devaron Land Forces -->
+		<Starting_Forces> Hapan_Consortium, Atzerri, Hapan_Consortium_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Atzerri, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Atzerri, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		
+		
+		
+		
+		<!-- Crimson_Dawn Starting Forces -->
+
+		<Starting_Credits> Crimson_Dawn,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Crimson_Dawn, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Crimson_Dawn, 5 </Max_Tech_Level>
+
+        <!-- Vulpter Space Forces -->
+
+        <!-- Vulpter Land Forces -->
+		<Starting_Forces> Crimson_Dawn, Vulpter, Crimson_Dawn_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Vulpter, Crimson_Dawn_Trooper_Squad</Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Vulpter, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+		
+		<!-- Aargau Space Forces -->
+
+        <!-- Aargau Land Forces -->
+		<Starting_Forces> Crimson_Dawn, Aargau, Crimson_Dawn_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Aargau, Crimson_Dawn_Trooper_Squad</Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Aargau, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+		
+		<!-- Kampe Space Forces -->
+
+        <!-- Kampe Land Forces -->
+		<Starting_Forces> Crimson_Dawn, Kampe, Crimson_Dawn_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Kampe, Crimson_Dawn_Trooper_Squad</Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Kampe, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+		
+		<!-- Ebaq Space Forces -->
+
+        <!-- Ebaq Land Forces -->
+		<Starting_Forces> Crimson_Dawn, Ebaq, Crimson_Dawn_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Ebaq, Crimson_Dawn_Trooper_Squad</Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Ebaq, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+		
+		<!-- Empress_Teta Space Forces -->
+
+        <!-- Empress_Teta Land Forces -->
+		<Starting_Forces> Crimson_Dawn, Empress_Teta, Crimson_Dawn_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Empress_Teta, Crimson_Dawn_Trooper_Squad</Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Empress_Teta, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+		
+		
+		
+
+		
+	  </Campaign>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  <Campaign Name="Sandbox_Second_Era_Corporate_Sector">
+
+		<Campaign_Set> Sandbox_Second_Era </Campaign_Set>
+		<Sort_Order>6</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_ </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_NEW_FACTIONS_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> 40.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Cal_Seti, Fresia, Coruscant, Alsakan, Anaxes, Axum, Corulag, Chandrila, Brentaal, Raltiir, Dolomar, Vardos, Metellos,
+				Pantolomin, Borleias, Bilbringi, Barlok, Shili, Champala, Carida, Arkania, Castell, Skako, Alderaan, Balmorra, Kuat,
+				Humbarine, Commenor, CatoNeimoidia, Rendili, Sarapin, Vulpter, Columus, Ebaq, Corellia, Duro, Hakassi, HosnianPrime, Chasin,
+				Loronar, Denon, Atzerri, Devaron, Foless, Bestine, Bassadro, Thyferra, MechisIII, YagDhul, Calus, Ghorman, Fondor, Belgaroth, 
+				Abregado_Rae, Kampe, Kalist, Byss, Pillio, Tython, Empress_Teta, Foerost, Aargau		
+		</Locations>
+
+        <Trade_Routes>
+			
+		</Trade_Routes>
+
+        <Home_Location> Galactic_Empire, Coruscant </Home_Location>
+        <Home_Location> Rebel_Alliance, Alderaan </Home_Location>
+		<Home_Location> Pyke_Syndicate, Fondor </Home_Location>
+		<Home_Location> Corporate_Sector, Barlok </Home_Location>
+		<Home_Location> Hapan_Consortium, Duro </Home_Location>
+		<Home_Location> Crimson_Dawn, Vulpter </Home_Location>
+		
+		<Starting_Active_Player> Corporate_Sector </Starting_Active_Player>
+		
+		<Story_Name>Galactic_Empire, story_Second_Era\Story_Second_Era_Galactic_Empire.xml </Story_Name>
+		<Story_Name>Rebel_Alliance, story_Second_Era\Story_Second_Era_Rebel_Alliance.xml</Story_Name>
+		<Story_Name>Pyke_Syndicate, story_Second_Era\Story_Second_Era_Pyke_Syndicate.xml</Story_Name>
+		<Story_Name>Corporate_Sector, story_Second_Era\Story_Second_Era_Corporate_Sector.xml</Story_Name>
+		<Story_Name>Hapan_Consortium, story_Second_Era\Story_Second_Era_Hapan_Consortium.xml</Story_Name>
+		<Story_Name>Crimson_Dawn, story_Second_Era\Story_Second_Era_Crimson_Dawn.xml </Story_Name>
+		
+		<AI_Player_Control> Galactic_Empire, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Rebel_Alliance, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Pyke_Syndicate, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Hapan_Consortium, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Crimson_Dawn, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>Galactic_Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel_Alliance, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Pyke_Syndicate, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Corporate_Sector, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Hapan_Consortium, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Crimson_Dawn, DefaultGalacticHints </Markup_Filename>
+		
+		
+		
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		
+		
+		
+		
+		<!-- Galactic_Empire Starting Forces -->
+
+		<Starting_Credits> Galactic_Empire,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Galactic_Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Galactic_Empire, 5 </Max_Tech_Level>
+		
+        <!-- Cal_Seti Space Forces -->
+	
+        <!-- Cal_Seti Land Forces -->
+		<Starting_Forces> Galactic_Empire, Cal_Seti, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Cal_Seti, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Cal_Seti, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Fresia Space Forces -->
+	
+        <!-- Fresia Land Forces -->
+		<Starting_Forces> Galactic_Empire, Fresia, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Fresia, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Fresia, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Coruscant Space Forces -->
+	
+        <!-- Coruscant Land Forces -->
+		<Starting_Forces> Galactic_Empire, Coruscant, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Coruscant, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Coruscant, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Alsakan Space Forces -->
+	
+        <!-- Alsakan Land Forces -->
+		<Starting_Forces> Galactic_Empire, Alsakan, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Alsakan, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Alsakan, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Axum Space Forces -->
+	
+        <!-- Axum Land Forces -->
+		<Starting_Forces> Galactic_Empire, Axum, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Axum, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Axum, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		<!-- Rebel_Alliance Starting Forces -->
+
+		<Starting_Credits> Rebel_Alliance,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel_Alliance, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel_Alliance, 5 </Max_Tech_Level>
+                                                     
+        <!-- Alderaan Space Forces -->
+
+        <!-- Alderaan Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Alderaan, Rebel_Alliance_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Alderaan, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Alderaan, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		
+		<!-- Skako Space Forces -->
+
+        <!-- Skako Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Skako, Rebel_Alliance_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Skako, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Skako, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+        
+        <!-- Chandrila Space Forces -->
+
+        <!-- Chandrila Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Chandrila, Rebel_Alliance_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Chandrila, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Chandrila, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+        
+        <!-- Brentaal Space Forces -->
+
+        <!-- Brentaal Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Brentaal, Rebel_Alliance_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Brentaal, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Brentaal, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+        
+        <!-- Raltiir Space Forces -->
+
+        <!-- Raltiir Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Raltiir, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Raltiir, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Raltiir, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		
+		
+		
+		
+		<!-- Pyke_Syndicate Starting Forces -->
+
+		<Starting_Credits> Pyke_Syndicate,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Pyke_Syndicate, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Pyke_Syndicate, 5 </Max_Tech_Level>
+                                                     
+        <!-- Fondor Space Forces -->
+
+        <!-- Fondor Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Fondor, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Fondor, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Fondor, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		
+		<!-- Abregado_Rae Space Forces -->
+
+        <!-- Abregado_Rae Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Abregado_Rae, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Abregado_Rae, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Abregado_Rae, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		
+		<!-- Ghorman Space Forces -->
+
+        <!-- Ghorman Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Ghorman, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Ghorman, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Ghorman, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		
+		<!-- Belgaroth Space Forces -->
+
+        <!-- Belgaroth Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Belgaroth, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Belgaroth, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Belgaroth, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		
+		<!-- Bassadro Space Forces -->
+
+        <!-- Bassadro Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Bassadro, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Bassadro, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Bassadro, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+
+
+		
+		
+		<!-- Corporate_Sector Starting Forces -->
+
+		<Starting_Credits> Corporate_Sector,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Corporate_Sector, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Corporate_Sector, 5 </Max_Tech_Level>
+		
+        <!-- Barlok Space Forces -->
+		
+        <!-- Barlok Land Forces -->
+		<Starting_Forces> Corporate_Sector, Barlok, Corporate_Sector_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Barlok, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Barlok, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Shili Space Forces -->
+		
+        <!-- Shili Land Forces -->
+		<Starting_Forces> Corporate_Sector, Shili, Corporate_Sector_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Shili, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Shili, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Champala Space Forces -->
+		
+        <!-- Champala Land Forces -->
+		<Starting_Forces> Corporate_Sector, Champala, Corporate_Sector_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Champala, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Champala, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Carida Space Forces -->
+		
+        <!-- Skako Land Forces -->
+		<Starting_Forces> Corporate_Sector, Carida, Corporate_Sector_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Carida, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Carida, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Arkania Space Forces -->
+		
+        <!-- Arkania Land Forces -->
+		<Starting_Forces> Corporate_Sector, Arkania, Corporate_Sector_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Arkania, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Arkania, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		
+		<!-- Hapan_Consortium Starting Forces -->
+
+		<Starting_Credits> Hapan_Consortium,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Hapan_Consortium, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Hapan_Consortium, 5 </Max_Tech_Level>
+		
+         <!-- Duro Space Forces -->
+		
+        <!-- Duro Land Forces -->
+		<Starting_Forces> Hapan_Consortium, Duro, Hapan_Consortium_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Duro, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Duro, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		
+		<!-- Loronar Space Forces -->
+		
+        <!-- Loronar Land Forces -->
+		<Starting_Forces> Hapan_Consortium, Loronar, Hapan_Consortium_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Loronar, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Loronar, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		
+		<!-- HosnianPrime Space Forces -->
+		
+        <!-- HosnianPrime Land Forces -->
+		<Starting_Forces> Hapan_Consortium, HosnianPrime, Hapan_Consortium_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, HosnianPrime, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, HosnianPrime, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		
+		<!-- Devaron Space Forces -->
+		
+        <!-- Devaron Land Forces -->
+		<Starting_Forces> Hapan_Consortium, Devaron, Hapan_Consortium_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Devaron, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Devaron, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		
+		<!-- Atzerri Space Forces -->
+		
+        <!-- Devaron Land Forces -->
+		<Starting_Forces> Hapan_Consortium, Atzerri, Hapan_Consortium_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Atzerri, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Atzerri, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		
+		
+		
+		
+		<!-- Crimson_Dawn Starting Forces -->
+
+		<Starting_Credits> Crimson_Dawn,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Crimson_Dawn, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Crimson_Dawn, 5 </Max_Tech_Level>
+
+        <!-- Vulpter Space Forces -->
+
+        <!-- Vulpter Land Forces -->
+		<Starting_Forces> Crimson_Dawn, Vulpter, Crimson_Dawn_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Vulpter, Crimson_Dawn_Trooper_Squad</Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Vulpter, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+		
+		<!-- Aargau Space Forces -->
+
+        <!-- Aargau Land Forces -->
+		<Starting_Forces> Crimson_Dawn, Aargau, Crimson_Dawn_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Aargau, Crimson_Dawn_Trooper_Squad</Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Aargau, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+		
+		<!-- Kampe Space Forces -->
+
+        <!-- Kampe Land Forces -->
+		<Starting_Forces> Crimson_Dawn, Kampe, Crimson_Dawn_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Kampe, Crimson_Dawn_Trooper_Squad</Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Kampe, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+		
+		<!-- Ebaq Space Forces -->
+
+        <!-- Ebaq Land Forces -->
+		<Starting_Forces> Crimson_Dawn, Ebaq, Crimson_Dawn_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Ebaq, Crimson_Dawn_Trooper_Squad</Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Ebaq, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+		
+		<!-- Empress_Teta Space Forces -->
+
+        <!-- Empress_Teta Land Forces -->
+		<Starting_Forces> Crimson_Dawn, Empress_Teta, Crimson_Dawn_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Empress_Teta, Crimson_Dawn_Trooper_Squad</Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Empress_Teta, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+		
+		
+
+		
+	  </Campaign>
+	  
+	  
+	  
+	  
+	  
+	  
+	  <Campaign Name="Sandbox_Second_Era_Hapan_Consortium">
+
+		<Campaign_Set> Sandbox_Second_Era </Campaign_Set>
+		<Sort_Order>6</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_ </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_NEW_FACTIONS_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> 40.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Cal_Seti, Fresia, Coruscant, Alsakan, Anaxes, Axum, Corulag, Chandrila, Brentaal, Raltiir, Dolomar, Vardos, Metellos,
+				Pantolomin, Borleias, Bilbringi, Barlok, Shili, Champala, Carida, Arkania, Castell, Skako, Alderaan, Balmorra, Kuat,
+				Humbarine, Commenor, CatoNeimoidia, Rendili, Sarapin, Vulpter, Columus, Ebaq, Corellia, Duro, Hakassi, HosnianPrime, Chasin,
+				Loronar, Denon, Atzerri, Devaron, Foless, Bestine, Bassadro, Thyferra, MechisIII, YagDhul, Calus, Ghorman, Fondor, Belgaroth, 
+				Abregado_Rae, Kampe, Kalist, Byss, Pillio, Tython, Empress_Teta, Foerost, Aargau		
+		</Locations>
+
+        <Trade_Routes>
+			
+		</Trade_Routes>
+
+        <Home_Location> Galactic_Empire, Coruscant </Home_Location>
+        <Home_Location> Rebel_Alliance, Alderaan </Home_Location>
+		<Home_Location> Pyke_Syndicate, Fondor </Home_Location>
+		<Home_Location> Corporate_Sector, Barlok </Home_Location>
+		<Home_Location> Hapan_Consortium, Duro </Home_Location>
+		<Home_Location> Crimson_Dawn, Vulpter </Home_Location>
+		
+		<Starting_Active_Player> Hapan_Consortium </Starting_Active_Player>
+		
+		<Story_Name>Galactic_Empire, story_Second_Era\Story_Second_Era_Galactic_Empire.xml </Story_Name>
+		<Story_Name>Rebel_Alliance, story_Second_Era\Story_Second_Era_Rebel_Alliance.xml</Story_Name>
+		<Story_Name>Pyke_Syndicate, story_Second_Era\Story_Second_Era_Pyke_Syndicate.xml</Story_Name>
+		<Story_Name>Corporate_Sector, story_Second_Era\Story_Second_Era_Corporate_Sector.xml</Story_Name>
+		<Story_Name>Hapan_Consortium, story_Second_Era\Story_Second_Era_Hapan_Consortium.xml</Story_Name>
+		<Story_Name>Crimson_Dawn, story_Second_Era\Story_Second_Era_Crimson_Dawn.xml </Story_Name>
+		
+		<AI_Player_Control> Galactic_Empire, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Rebel_Alliance, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Pyke_Syndicate, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Corporate_Sector, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Crimson_Dawn, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>Galactic_Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel_Alliance, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Pyke_Syndicate, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Corporate_Sector, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Hapan_Consortium, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Crimson_Dawn, DefaultGalacticHints </Markup_Filename>
+		
+		
+		
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		
+		
+		
+		
+		<!-- Galactic_Empire Starting Forces -->
+
+		<Starting_Credits> Galactic_Empire,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Galactic_Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Galactic_Empire, 5 </Max_Tech_Level>
+		
+        <!-- Cal_Seti Space Forces -->
+	
+        <!-- Cal_Seti Land Forces -->
+		<Starting_Forces> Galactic_Empire, Cal_Seti, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Cal_Seti, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Cal_Seti, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Fresia Space Forces -->
+	
+        <!-- Fresia Land Forces -->
+		<Starting_Forces> Galactic_Empire, Fresia, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Fresia, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Fresia, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Coruscant Space Forces -->
+	
+        <!-- Coruscant Land Forces -->
+		<Starting_Forces> Galactic_Empire, Coruscant, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Coruscant, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Coruscant, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Alsakan Space Forces -->
+	
+        <!-- Alsakan Land Forces -->
+		<Starting_Forces> Galactic_Empire, Alsakan, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Alsakan, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Alsakan, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Axum Space Forces -->
+	
+        <!-- Axum Land Forces -->
+		<Starting_Forces> Galactic_Empire, Axum, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Axum, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Axum, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		<!-- Rebel_Alliance Starting Forces -->
+
+		<Starting_Credits> Rebel_Alliance,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel_Alliance, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel_Alliance, 5 </Max_Tech_Level>
+                                                     
+        <!-- Alderaan Space Forces -->
+
+        <!-- Alderaan Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Alderaan, Rebel_Alliance_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Alderaan, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Alderaan, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		
+		<!-- Skako Space Forces -->
+
+        <!-- Skako Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Skako, Rebel_Alliance_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Skako, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Skako, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+        
+        <!-- Chandrila Space Forces -->
+
+        <!-- Chandrila Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Chandrila, Rebel_Alliance_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Chandrila, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Chandrila, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+        
+        <!-- Brentaal Space Forces -->
+
+        <!-- Brentaal Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Brentaal, Rebel_Alliance_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Brentaal, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Brentaal, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+        
+        <!-- Raltiir Space Forces -->
+
+        <!-- Raltiir Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Raltiir, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Raltiir, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Raltiir, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		
+		
+		
+		
+		<!-- Pyke_Syndicate Starting Forces -->
+
+		<Starting_Credits> Pyke_Syndicate,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Pyke_Syndicate, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Pyke_Syndicate, 5 </Max_Tech_Level>
+                                                     
+        <!-- Fondor Space Forces -->
+
+        <!-- Fondor Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Fondor, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Fondor, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Fondor, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		
+		<!-- Abregado_Rae Space Forces -->
+
+        <!-- Abregado_Rae Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Abregado_Rae, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Abregado_Rae, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Abregado_Rae, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		
+		<!-- Ghorman Space Forces -->
+
+        <!-- Ghorman Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Ghorman, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Ghorman, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Ghorman, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		
+		<!-- Belgaroth Space Forces -->
+
+        <!-- Belgaroth Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Belgaroth, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Belgaroth, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Belgaroth, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		
+		<!-- Bassadro Space Forces -->
+
+        <!-- Bassadro Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Bassadro, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Bassadro, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Bassadro, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+
+
+		
+		
+		<!-- Corporate_Sector Starting Forces -->
+
+		<Starting_Credits> Corporate_Sector,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Corporate_Sector, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Corporate_Sector, 5 </Max_Tech_Level>
+		
+        <!-- Barlok Space Forces -->
+		
+        <!-- Barlok Land Forces -->
+		<Starting_Forces> Corporate_Sector, Barlok, Corporate_Sector_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Barlok, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Barlok, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Shili Space Forces -->
+		
+        <!-- Shili Land Forces -->
+		<Starting_Forces> Corporate_Sector, Shili, Corporate_Sector_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Shili, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Shili, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Champala Space Forces -->
+		
+        <!-- Champala Land Forces -->
+		<Starting_Forces> Corporate_Sector, Champala, Corporate_Sector_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Champala, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Champala, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Carida Space Forces -->
+		
+        <!-- Skako Land Forces -->
+		<Starting_Forces> Corporate_Sector, Carida, Corporate_Sector_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Carida, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Carida, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Arkania Space Forces -->
+		
+        <!-- Arkania Land Forces -->
+		<Starting_Forces> Corporate_Sector, Arkania, Corporate_Sector_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Arkania, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Arkania, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		
+		<!-- Hapan_Consortium Starting Forces -->
+
+		<Starting_Credits> Hapan_Consortium,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Hapan_Consortium, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Hapan_Consortium, 5 </Max_Tech_Level>
+		
+        <!-- Duro Space Forces -->
+		
+        <!-- Duro Land Forces -->
+		<Starting_Forces> Hapan_Consortium, Duro, Hapan_Consortium_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Duro, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Duro, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		
+		<!-- Loronar Space Forces -->
+		
+        <!-- Loronar Land Forces -->
+		<Starting_Forces> Hapan_Consortium, Loronar, Hapan_Consortium_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Loronar, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Loronar, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		
+		<!-- HosnianPrime Space Forces -->
+		
+        <!-- HosnianPrime Land Forces -->
+		<Starting_Forces> Hapan_Consortium, HosnianPrime, Hapan_Consortium_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, HosnianPrime, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, HosnianPrime, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		
+		<!-- Devaron Space Forces -->
+		
+        <!-- Devaron Land Forces -->
+		<Starting_Forces> Hapan_Consortium, Devaron, Hapan_Consortium_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Devaron, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Devaron, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		
+		<!-- Atzerri Space Forces -->
+		
+        <!-- Devaron Land Forces -->
+		<Starting_Forces> Hapan_Consortium, Atzerri, Hapan_Consortium_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Atzerri, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Atzerri, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		
+		
+		
+		
+		<!-- Crimson_Dawn Starting Forces -->
+
+		<Starting_Credits> Crimson_Dawn,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Crimson_Dawn, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Crimson_Dawn, 5 </Max_Tech_Level>
+
+        <!-- Vulpter Space Forces -->
+
+        <!-- Vulpter Land Forces -->
+		<Starting_Forces> Crimson_Dawn, Vulpter, Crimson_Dawn_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Vulpter, Crimson_Dawn_Trooper_Squad</Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Vulpter, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+		
+		<!-- Aargau Space Forces -->
+
+        <!-- Aargau Land Forces -->
+		<Starting_Forces> Crimson_Dawn, Aargau, Crimson_Dawn_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Aargau, Crimson_Dawn_Trooper_Squad</Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Aargau, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+		
+		<!-- Kampe Space Forces -->
+
+        <!-- Kampe Land Forces -->
+		<Starting_Forces> Crimson_Dawn, Kampe, Crimson_Dawn_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Kampe, Crimson_Dawn_Trooper_Squad</Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Kampe, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+		
+		<!-- Ebaq Space Forces -->
+
+        <!-- Ebaq Land Forces -->
+		<Starting_Forces> Crimson_Dawn, Ebaq, Crimson_Dawn_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Ebaq, Crimson_Dawn_Trooper_Squad</Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Ebaq, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+		
+		<!-- Empress_Teta Space Forces -->
+
+        <!-- Empress_Teta Land Forces -->
+		<Starting_Forces> Crimson_Dawn, Empress_Teta, Crimson_Dawn_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Empress_Teta, Crimson_Dawn_Trooper_Squad</Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Empress_Teta, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+		
+
+		
+	  </Campaign>
+	  
+	 
+	  
+	  
+	  
+	  
+	  
+	  <Campaign Name="Sandbox_Second_Era_Crimson_Dawn">
+
+		<Campaign_Set> Sandbox_Second_Era </Campaign_Set>
+		<Sort_Order>6</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_ </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_NEW_FACTIONS_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> 40.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Cal_Seti, Fresia, Coruscant, Alsakan, Anaxes, Axum, Corulag, Chandrila, Brentaal, Raltiir, Dolomar, Vardos, Metellos,
+				Pantolomin, Borleias, Bilbringi, Barlok, Shili, Champala, Carida, Arkania, Castell, Skako, Alderaan, Balmorra, Kuat,
+				Humbarine, Commenor, CatoNeimoidia, Rendili, Sarapin, Vulpter, Columus, Ebaq, Corellia, Duro, Hakassi, HosnianPrime, Chasin,
+				Loronar, Denon, Atzerri, Devaron, Foless, Bestine, Bassadro, Thyferra, MechisIII, YagDhul, Calus, Ghorman, Fondor, Belgaroth, 
+				Abregado_Rae, Kampe, Kalist, Byss, Pillio, Tython, Empress_Teta, Foerost, Aargau		
+		</Locations>
+
+        <Trade_Routes>
+			
+		</Trade_Routes>
+
+        <Home_Location> Galactic_Empire, Coruscant </Home_Location>
+        <Home_Location> Rebel_Alliance, Alderaan </Home_Location>
+		<Home_Location> Pyke_Syndicate, Fondor </Home_Location>
+		<Home_Location> Corporate_Sector, Barlok </Home_Location>
+		<Home_Location> Hapan_Consortium, Duro </Home_Location>
+		<Home_Location> Crimson_Dawn, Vulpter </Home_Location>
+		
+		<Starting_Active_Player> Crimson_Dawn </Starting_Active_Player>
+		
+		<Story_Name>Galactic_Empire, story_Second_Era\Story_Second_Era_Galactic_Empire.xml </Story_Name>
+		<Story_Name>Rebel_Alliance, story_Second_Era\Story_Second_Era_Rebel_Alliance.xml</Story_Name>
+		<Story_Name>Pyke_Syndicate, story_Second_Era\Story_Second_Era_Pyke_Syndicate.xml</Story_Name>
+		<Story_Name>Corporate_Sector, story_Second_Era\Story_Second_Era_Corporate_Sector.xml</Story_Name>
+		<Story_Name>Hapan_Consortium, story_Second_Era\Story_Second_Era_Hapan_Consortium.xml</Story_Name>
+		<Story_Name>Crimson_Dawn, story_Second_Era\Story_Second_Era_Crimson_Dawn.xml </Story_Name>
+		
+		<AI_Player_Control> Galactic_Empire, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Rebel_Alliance, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Pyke_Syndicate, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Corporate_Sector, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Hapan_Consortium, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>Galactic_Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel_Alliance, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Pyke_Syndicate, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Corporate_Sector, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Hapan_Consortium, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Crimson_Dawn, DefaultGalacticHints </Markup_Filename>
+		
+		
+		
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		
+		
+		
+		
+		<!-- Galactic_Empire Starting Forces -->
+
+		<Starting_Credits> Galactic_Empire,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Galactic_Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Galactic_Empire, 5 </Max_Tech_Level>
+		
+        <!-- Cal_Seti Space Forces -->
+	
+        <!-- Cal_Seti Land Forces -->
+		<Starting_Forces> Galactic_Empire, Cal_Seti, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Cal_Seti, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Cal_Seti, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Fresia Space Forces -->
+	
+        <!-- Fresia Land Forces -->
+		<Starting_Forces> Galactic_Empire, Fresia, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Fresia, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Fresia, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Coruscant Space Forces -->
+	
+        <!-- Coruscant Land Forces -->
+		<Starting_Forces> Galactic_Empire, Coruscant, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Coruscant, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Coruscant, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Alsakan Space Forces -->
+	
+        <!-- Alsakan Land Forces -->
+		<Starting_Forces> Galactic_Empire, Alsakan, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Alsakan, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Alsakan, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Axum Space Forces -->
+	
+        <!-- Axum Land Forces -->
+		<Starting_Forces> Galactic_Empire, Axum, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Axum, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Axum, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		<!-- Rebel_Alliance Starting Forces -->
+
+		<Starting_Credits> Rebel_Alliance,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel_Alliance, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel_Alliance, 5 </Max_Tech_Level>
+                                                     
+        <!-- Alderaan Space Forces -->
+
+        <!-- Alderaan Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Alderaan, Rebel_Alliance_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Alderaan, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Alderaan, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		
+		<!-- Skako Space Forces -->
+
+        <!-- Skako Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Skako, Rebel_Alliance_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Skako, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Skako, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+        
+        <!-- Chandrila Space Forces -->
+
+        <!-- Chandrila Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Chandrila, Rebel_Alliance_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Chandrila, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Chandrila, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+        
+        <!-- Brentaal Space Forces -->
+
+        <!-- Brentaal Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Brentaal, Rebel_Alliance_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Brentaal, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Brentaal, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+        
+        <!-- Raltiir Space Forces -->
+
+        <!-- Raltiir Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Raltiir, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Raltiir, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Raltiir, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		
+		
+		
+		
+		<!-- Pyke_Syndicate Starting Forces -->
+
+		<Starting_Credits> Pyke_Syndicate,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Pyke_Syndicate, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Pyke_Syndicate, 5 </Max_Tech_Level>
+                                                     
+        <!-- Fondor Space Forces -->
+
+        <!-- Fondor Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Fondor, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Fondor, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Fondor, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		
+		<!-- Abregado_Rae Space Forces -->
+
+        <!-- Abregado_Rae Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Abregado_Rae, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Abregado_Rae, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Abregado_Rae, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		
+		<!-- Ghorman Space Forces -->
+
+        <!-- Ghorman Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Ghorman, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Ghorman, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Ghorman, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		
+		<!-- Belgaroth Space Forces -->
+
+        <!-- Belgaroth Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Belgaroth, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Belgaroth, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Belgaroth, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		
+		<!-- Bassadro Space Forces -->
+
+        <!-- Bassadro Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Bassadro, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Bassadro, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Bassadro, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+
+
+		
+		
+		<!-- Corporate_Sector Starting Forces -->
+
+		<Starting_Credits> Corporate_Sector,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Corporate_Sector, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Corporate_Sector, 5 </Max_Tech_Level>
+		
+        <!-- Barlok Space Forces -->
+		
+        <!-- Barlok Land Forces -->
+		<Starting_Forces> Corporate_Sector, Barlok, Corporate_Sector_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Barlok, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Barlok, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Shili Space Forces -->
+		
+        <!-- Shili Land Forces -->
+		<Starting_Forces> Corporate_Sector, Shili, Corporate_Sector_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Shili, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Shili, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Champala Space Forces -->
+		
+        <!-- Champala Land Forces -->
+		<Starting_Forces> Corporate_Sector, Champala, Corporate_Sector_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Champala, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Champala, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Carida Space Forces -->
+		
+        <!-- Skako Land Forces -->
+		<Starting_Forces> Corporate_Sector, Carida, Corporate_Sector_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Carida, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Carida, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Arkania Space Forces -->
+		
+        <!-- Arkania Land Forces -->
+		<Starting_Forces> Corporate_Sector, Arkania, Corporate_Sector_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Arkania, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Arkania, Corporate_Sector_Stormtrooper_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		
+		<!-- Hapan_Consortium Starting Forces -->
+
+		<Starting_Credits> Hapan_Consortium,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Hapan_Consortium, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Hapan_Consortium, 5 </Max_Tech_Level>
+		
+        <!-- Duro Space Forces -->
+		
+        <!-- Duro Land Forces -->
+		<Starting_Forces> Hapan_Consortium, Duro, Hapan_Consortium_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Duro, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Duro, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		
+		<!-- Loronar Space Forces -->
+		
+        <!-- Loronar Land Forces -->
+		<Starting_Forces> Hapan_Consortium, Loronar, Hapan_Consortium_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Loronar, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Loronar, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		
+		<!-- HosnianPrime Space Forces -->
+		
+        <!-- HosnianPrime Land Forces -->
+		<Starting_Forces> Hapan_Consortium, HosnianPrime, Hapan_Consortium_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, HosnianPrime, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, HosnianPrime, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		
+		<!-- Devaron Space Forces -->
+		
+        <!-- Devaron Land Forces -->
+		<Starting_Forces> Hapan_Consortium, Devaron, Hapan_Consortium_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Devaron, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Devaron, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		
+		<!-- Atzerri Space Forces -->
+		
+        <!-- Devaron Land Forces -->
+		<Starting_Forces> Hapan_Consortium, Atzerri, Hapan_Consortium_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Atzerri, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Atzerri, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		
+		
+		
+		
+		<!-- Crimson_Dawn Starting Forces -->
+
+		<Starting_Credits> Crimson_Dawn,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Crimson_Dawn, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Crimson_Dawn, 5 </Max_Tech_Level>
+
+        <!-- Vulpter Space Forces -->
+
+        <!-- Vulpter Land Forces -->
+		<Starting_Forces> Crimson_Dawn, Vulpter, Crimson_Dawn_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Vulpter, Crimson_Dawn_Trooper_Squad</Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Vulpter, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+		
+		<!-- Aargau Space Forces -->
+
+        <!-- Aargau Land Forces -->
+		<Starting_Forces> Crimson_Dawn, Aargau, Crimson_Dawn_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Aargau, Crimson_Dawn_Trooper_Squad</Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Aargau, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+		
+		<!-- Kampe Space Forces -->
+
+        <!-- Kampe Land Forces -->
+		<Starting_Forces> Crimson_Dawn, Kampe, Crimson_Dawn_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Kampe, Crimson_Dawn_Trooper_Squad</Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Kampe, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+		
+		<!-- Ebaq Space Forces -->
+
+        <!-- Ebaq Land Forces -->
+		<Starting_Forces> Crimson_Dawn, Ebaq, Crimson_Dawn_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Ebaq, Crimson_Dawn_Trooper_Squad</Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Ebaq, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+		
+		<!-- Empress_Teta Space Forces -->
+
+        <!-- Empress_Teta Land Forces -->
+		<Starting_Forces> Crimson_Dawn, Empress_Teta, Crimson_Dawn_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Empress_Teta, Crimson_Dawn_Trooper_Squad</Starting_Forces>
+		<Starting_Forces> Crimson_Dawn, Empress_Teta, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+		
+
+		
+	  </Campaign>
+	  
+	
+	
+	
+	
+
+
+	
+
+
+ </Campaigns>

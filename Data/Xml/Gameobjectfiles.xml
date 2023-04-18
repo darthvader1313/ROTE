@@ -4,9 +4,29 @@
 
 	<File>TransportUnits.xml</File>
     <File>LayerZDummy.xml</File>
-	<File>TechBuilding.xml</File>
-    <File>Techupgrade.xml</File>	<!-- AJA 10/12/2005 - Moved to the top so that tech upgrades always show up on the left of the build bar. -->
+	<File>TechBuilding.xml</File>	<!-- AJA 10/12/2005 - Moved to the top so that tech upgrades always show up on the left of the build bar. -->
 	<File>GroundBases.xml</File>
+	<!-- First Era -->
+	<File>Groundbases\Groundbases_Early_Empire.xml</File>
+	<File>Groundbases\Groundbases_Terrorists.xml</File>
+	<File>Groundbases\Groundbases_CIS_Remnant.xml</File>
+	<File>Groundbases\Groundbases_Black_Sun.xml</File>
+	<File>Groundbases\Groundbases_Hutt_Cartel.xml</File>
+	<File>Groundbases\Groundbases_Mandalorians.xml</File>
+	<!-- Second Era -->
+	<File>Groundbases\Groundbases_Galactic_Empire.xml</File>
+	<File>Groundbases\Groundbases_Rebel_Alliance.xml</File>
+	<File>Groundbases\Groundbases_Pyke_Syndicate.xml</File>
+	<File>Groundbases\Groundbases_Corporate_Sector.xml</File>
+	<File>Groundbases\Groundbases_Hapan_Consortium.xml</File>
+	<File>Groundbases\Groundbases_Crimson_Dawn.xml</File>
+	<!-- Third Era -->
+	<File>Groundbases\Groundbases_New_Republic.xml</File>
+    <File>Groundbases\Groundbases_Remnant_Rax.xml</File>
+	<File>Groundbases\Groundbases_Remnant_Gratloe.xml</File>
+	<File>Groundbases\Groundbases_Remnant_Loring.xml</File>
+	<File>Groundbases\Groundbases_Remnant_Adelhard.xml</File>
+	<File>Groundbases\Groundbases_First_Order.xml</File>
 	<File>GroundStructures.xml</File>
 	<File>GroundTurrets.xml</File>
 	<File>GroundInfantry.xml</File>
@@ -42,13 +62,51 @@
 	<File>LandBombingRunUnits.xml</File>
 
 	<File>SpecialStructures.xml</File>
-	<File>Specialstructures_Empire.xml</File>
-    <File>Specialstructures_Rebel.xml</File>
+	<File>Specialstructures_Bunkers.xml</File>
+	<!-- First Era -->
+	<File>Specialstructures_Factions\Specialstructures_Terrorists.xml</File>
+	<File>Specialstructures_Factions\Specialstructures_Early_Empire.xml</File>
+	<File>Specialstructures_Factions\Specialstructures_CIS_Remnant.xml</File>
+	<File>Specialstructures_Factions\Specialstructures_Black_Sun.xml</File>
+	<File>Specialstructures_Factions\Specialstructures_Hutt_Cartel.xml</File>
+	<File>Specialstructures_Factions\Specialstructures_Mandalorians.xml</File>
+	<!-- Second Era -->
+	<File>Specialstructures_Factions\Specialstructures_Galactic_Empire.xml</File>
+	<File>Specialstructures_Factions\Specialstructures_Rebel_Alliance.xml</File>
+	<File>Specialstructures_Factions\Specialstructures_Pyke_Syndicate.xml</File>
+	<File>Specialstructures_Factions\Specialstructures_Corporate_Sector.xml</File>
+	<File>Specialstructures_Factions\Specialstructures_Hapan_Consortium.xml</File>
+	<File>Specialstructures_Factions\Specialstructures_Crimson_Dawn.xml</File>
+	<!-- Third Era -->
+	<File>Specialstructures_Factions\Specialstructures_New_Republic.xml</File>
+	<File>Specialstructures_Factions\Specialstructures_Remnant_Rax.xml</File>
+	<File>Specialstructures_Factions\Specialstructures_Remnant_Gratloe.xml</File>
+	<File>Specialstructures_Factions\Specialstructures_Remnant_Loring.xml</File>
+	<File>Specialstructures_Factions\Specialstructures_Remnant_Adelhard.xml</File>
+    <File>Specialstructures_Factions\Specialstructures_First_Order.xml</File>	
 
-
+	<!-- First Era -->
+	<File>Techupgrade_Factions\Techupgrade_Early_Empire.xml</File>
+	<File>Techupgrade_Factions\Techupgrade_Terrorists.xml</File>
+	<File>Techupgrade_Factions\Techupgrade_CIS.xml</File>
+	<File>Techupgrade_Factions\Techupgrade_Black_Sun.xml</File>
+	<File>Techupgrade_Factions\Techupgrade_Hutt_Cartel.xml</File>
+	<File>Techupgrade_Factions\Techupgrade_Mandalorians.xml</File>
+	<!-- Second Era -->
+    <File>Techupgrade_Factions\Techupgrade_Galactic_Empire.xml</File>
+	<File>Techupgrade_Factions\Techupgrade_Rebel_Alliance.xml</File>
+	<File>Techupgrade_Factions\Techupgrade_Pyke_Syndicate.xml</File>
+	<File>Techupgrade_Factions\Techupgrade_Corporate_Sector.xml</File>
+	<File>Techupgrade_Factions\Techupgrade_Hapan_Consortium.xml</File>
+	<File>Techupgrade_Factions\Techupgrade_Crimson_Dawn.xml</File>
+    <!-- Third Era -->
+	<File>Techupgrade_Factions\Techupgrade_New_Republic.xml</File>
+	<File>Techupgrade_Factions\Techupgrade_Remnant_Rax.xml</File>
+	<File>Techupgrade_Factions\Techupgrade_Remnant_Gratloe.xml</File>
+	<File>Techupgrade_Factions\Techupgrade_Remnant_Loring.xml</File>
+	<File>Techupgrade_Factions\Techupgrade_Remnant_Adelhard.xml</File>
+	<File>Techupgrade_Factions\Techupgrade_First_Order.xml</File>
 	<File>StarBases.xml</File>
-    <File>Starbases_Empire.xml</File>
-	<File>Starbases_Rebel.xml</File>
 	<File>Squadrons.xml</File>
 
 	<File>Planets.xml</File>
@@ -94,24 +152,33 @@
 
 
 
+<!-- Expansion Units: Empire -->
 
+	<File>Units_Hero_Empire_Thrawn.xml</File>
 
-
-
-
-
-
-
+	<File>Units_Space_Empire_TIE_Defender.xml</File>
+	<File>Units_Space_Empire_TIE_Interceptor.xml</File>
+	<File>Units_Space_Empire_TIE_Phantom.xml</File>
+	<File>Units_Space_Empire_Executor.xml</File>
 	
+	<File>Units_Land_Empire_DarkTroopers.xml</File>
+	<File>Units_Land_Empire_Lancet.xml</File>
+	<File>Units_Land_Empire_Noghri.xml</File>
+	<File>Units_Land_Empire_Juggernaut.xml</File>
 
 
 
+	<!-- Expansion Units: Rebel -->
+	
+	<File>Units_Hero_Rebel_Yoda.xml</File>
+	<File>Units_Hero_Rebel_LukeSkywalker.xml</File>
+	<File>Units_Hero_Rebel_Gargantuan.xml</File>
+	<File>Units_Hero_Rebel_Rogue_Squadron.xml</File>
 
+	<File>Units_Land_Rebel_Gallofree_HTT.xml</File>
 
-
-
-
-
+	<File>Units_Space_Rebel_BWing.xml</File>	
+	<File>Units_Space_Rebel_MC30_Frigate.xml</File>
 
 
 
@@ -171,167 +238,219 @@
 	
 	
 	
-	<!-- Hero Units: Empire -->
 	
-	<File>Imperial_units\Hero_units_Empire\Units_hero_empire_thrawn.xml</File>
-    <File>Imperial_units\Hero_units_Empire\Units_hero_empire_Director_Krennic.xml</File>
-	<File>Imperial_units\Hero_units_Empire\Units_hero_empire_inferno_squad.xml</File>
-	<File>Imperial_units\Hero_units_Empire\Units_hero_empire_Galen_Erso.xml</File>
-	<File>Imperial_units\Hero_units_Empire\Units_hero_empire_Darth_Vader.xml</File>
-	<File>Imperial_units\Hero_units_Empire\Units_Hero_Empire_Titan_Squadron.xml</File>
-	<File>Imperial_units\Hero_units_Empire\Units_hero_empire_Admiral_Versio.xml</File>
-	<File>Imperial_units\Hero_units_Empire\Units_hero_empire_Captain_Needa.xml</File>
-	<File>Imperial_units\Hero_units_Empire\Units_hero_empire_Tarkin.xml</File>
-	<File>Imperial_units\Hero_units_Empire\Units_hero_empire_Pestage.xml</File>
-	<File>Imperial_units\Hero_units_Empire\Units_hero_empire_Ularen.xml</File>
 	
-	<!-- Infantry Units: Empire -->
 	
-    <File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_empire_Imperial_Stormtrooper.xml</File>
-	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_Empire_501st_Stormtrooper.xml</File>
-    <File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_empire_armytrooper.xml</File>
-	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_empire_DarkTrooperSoldier.xml</File>
-	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_Empire_Deathtroopers.xml</File>
-	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_Empire_flametroopers.xml</File>
-	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_empire_Imperial_Clonetrooper.xml</File>
-	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_Empire_Imperial_Engineer.xml</File>
-	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_Empire_Magmatroopers.xml</File>
-	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_Empire_Mimban_stormtroopers.xml</File>
-	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_empire_Mustafar_Trooper.xml</File>
-	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_empire_Novatroopers.xml</File>
-	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_empire_purge_trooper.xml</File>
-	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_Empire_Sandtroopers.xml</File>
-	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_empire_Scout_Trooper.xml</File>
-	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_empire_Shadowtrooper.xml</File>
-	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_Empire_Shocktroopers.xml</File>
-	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_Empire_Shoretroopers.xml</File>
-	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_Empire_Snowtroopers.xml</File>
-	<File>Imperial_units\Land_units_Empire\Infantry_Units_Empire\Units_land_empire_super_commands.xml</File>
 	
-	<!-- Vehicle Units: Empire -->
 	
-	<File>Imperial_units\Land_units_Empire\Vehicle_Units_Empire\Units_land_empire_AT_AT_Walker.xml</File>
-	<File>Imperial_units\Land_units_Empire\Vehicle_Units_Empire\Units_land_empire_AT_DP.xml</File>
-	<File>Imperial_units\Land_units_Empire\Vehicle_Units_Empire\Units_land_empire_AT_DT.xml</File>
-	<File>Imperial_units\Land_units_Empire\Vehicle_Units_Empire\Units_land_empire_at_pt.xml</File>
-	<File>Imperial_units\Land_units_Empire\Vehicle_Units_Empire\Units_land_empire_AT_ST_Walker.xml</File>
-	<File>Imperial_units\Land_units_Empire\Vehicle_Units_Empire\Units_land_empire_juggernaut.xml</File>
-	<File>Imperial_units\Land_units_Empire\Vehicle_Units_Empire\Units_Land_Empire_Striker.xml</File>
-					   
-    <!-- Space Units: Empire -->
+	<!-- First Era Factions -->
+	
+	
+	
+	<!-- Early Empire -->
+	
+	<File>Early_Empire_units\Hero_units_Early_Empire\Units_hero_Early_Empire_Palpatine.xml</File>
+	
+	<File>Early_Empire_units\Land_units_Early_Empire\Infantry_units_Early_Empire\Units_land_early_empire_501st.xml</File>
+	<File>Early_Empire_units\Land_units_Early_Empire\Infantry_units_Early_Empire\Units_land_early_empire_armytrooper.xml</File>
+	<File>Early_Empire_units\Land_units_Early_Empire\Infantry_units_Early_Empire\Units_land_early_empire_clonetroopers.xml</File>
+	<File>Early_Empire_units\Land_units_Early_Empire\Infantry_units_Early_Empire\Units_land_early_empire_commando.xml</File>
+	<File>Early_Empire_units\Land_units_Early_Empire\Infantry_units_Early_Empire\Units_land_early_empire_elite_clonetrooper.xml</File>
+	<File>Early_Empire_units\Land_units_Early_Empire\Infantry_units_Early_Empire\Units_land_early_empire_flametroopers.xml</File>
+	<File>Early_Empire_units\Land_units_Early_Empire\Infantry_units_Early_Empire\Units_land_early_empire_heavytrooper.xml</File>
+	<File>Early_Empire_units\Land_units_Early_Empire\Infantry_units_Early_Empire\Units_land_early_empire_Novatroopers.xml</File>
+	<File>Early_Empire_units\Land_units_Early_Empire\Infantry_units_Early_Empire\Units_land_early_empire_purge_trooper.xml</File>
+	<File>Early_Empire_units\Land_units_Early_Empire\Infantry_units_Early_Empire\Units_land_early_empire_stormtrooper.xml</File>
+	
+	
+	
+	<!-- Terrorists -->
+	
+	<File>Terrorists_units\Hero_units_Terrorists\Units_hero_Terrorists_Saw_Gerrera.xml</File>
+	
+	<File>Terrorists_units\Land_units_Terrorists\Infantry_units_Terrorists\Units_land_Terrorist_Grenadier.xml</File>
+	<File>Terrorists_units\Land_units_Terrorists\Infantry_units_Terrorists\Units_land_Terrorist_Quarren_Bounty.xml</File>
+	<File>Terrorists_units\Land_units_Terrorists\Infantry_units_Terrorists\Units_Land_Terrorist_Rifleman.xml</File>
+	<File>Terrorists_units\Land_units_Terrorists\Infantry_units_Terrorists\Units_Land_Terrorist_RiflemanV2.xml</File>
+	<File>Terrorists_units\Land_units_Terrorists\Infantry_units_Terrorists\Units_land_Terrorist_Rodian_Bounty.xml</File>
+	<File>Terrorists_units\Land_units_Terrorists\Infantry_units_Terrorists\Units_land_Terrorist_Saboteur.xml</File>
+	<File>Terrorists_units\Land_units_Terrorists\Infantry_units_Terrorists\Units_land_Terrorist_Sniper.xml</File>
+	<File>Terrorists_units\Land_units_Terrorists\Infantry_units_Terrorists\Units_land_Terrorist_Sniper_Forest.xml</File>
+	<File>Terrorists_units\Land_units_Terrorists\Infantry_units_Terrorists\Units_land_Terrorist_Sniper_Snow.xml</File>
+	<File>Terrorists_units\Land_units_Terrorists\Infantry_units_Terrorists\Units_land_Terrorist_Vanguard_Trooper.xml</File>
+	
+	
+	
+	<!-- CIS Remnants -->
+	
+	<File>CIS_units\Hero_units_CIS\Units_hero_CIS_Gizor_Dellso.xml</File>
+	
+	<File>CIS_units\Land_units_CIS\Infantry_units_CIS\Units_land_cis_B1_droid_commander.xml</File>
+	<File>CIS_units\Land_units_CIS\Infantry_units_CIS\Units_land_cis_battledroid.xml</File>
+	<File>CIS_units\Land_units_CIS\Infantry_units_CIS\Units_land_cis_BattleDroid_Grenadier.xml</File>
+	<File>CIS_units\Land_units_CIS\Infantry_units_CIS\Units_land_cis_battledroid_heavy.xml</File>
+	<File>CIS_units\Land_units_CIS\Infantry_units_CIS\Units_land_cis_battledroid_specialist.xml</File>
+	<File>CIS_units\Land_units_CIS\Infantry_units_CIS\Units_land_cis_Battledroids_Sand.xml</File>
+	<File>CIS_units\Land_units_CIS\Infantry_units_CIS\Units_land_cis_bx_commando.xml</File>
+	<File>CIS_units\Land_units_CIS\Infantry_units_CIS\Units_land_cis_plex_droid.xml</File>
+	<File>CIS_units\Land_units_CIS\Infantry_units_CIS\Units_land_cis_super_B2_Grapple.xml</File>
+	<File>CIS_units\Land_units_CIS\Infantry_units_CIS\Units_land_cis_super_battledroid.xml</File>
+	
+	
+	
+	<!-- Black Sun -->
+	
+	<File>Black_Sun_Units\Hero_units_Black_Sun\Units_hero_Black_Sun_Xizor.xml</File>
+	
+	<File>Black_Sun_Units\Land_units_Black_Sun\Infantry_Units_Black_Sun\Units_land_Black_Sun_Aqualish_Bounty.xml</File>
+	<File>Black_Sun_Units\Land_units_Black_Sun\Infantry_Units_Black_Sun\Units_land_Black_Sun_Mirialan_Trooper.xml</File>
+	<File>Black_Sun_Units\Land_units_Black_Sun\Infantry_Units_Black_Sun\Units_land_Black_Sun_Rodian_Bounty.xml</File>
+	<File>Black_Sun_Units\Land_units_Black_Sun\Infantry_Units_Black_Sun\Units_land_Black_Sun_Rodian_Bounty2.xml</File>
+	<File>Black_Sun_Units\Land_units_Black_Sun\Infantry_Units_Black_Sun\Units_land_Black_Sun_Sand_Trooper.xml</File>
+	<File>Black_Sun_Units\Land_units_Black_Sun\Infantry_Units_Black_Sun\Units_land_Black_Sun_Twilek_Forest.xml</File>
+	<File>Black_Sun_Units\Land_units_Black_Sun\Infantry_Units_Black_Sun\Units_land_Black_Sun_Twilek_Sand.xml</File>
+	<File>Black_Sun_Units\Land_units_Black_Sun\Infantry_Units_Black_Sun\Units_land_Black_Sun_Twilek_Snow.xml</File>
+	<File>Black_Sun_Units\Land_units_Black_Sun\Infantry_Units_Black_Sun\Units_land_Black_Sun_Twilek_Trooper.xml</File>
+	
+	
+	
+	<!-- Hutt Cartel -->
+	
+	<File>Hutt_Cartel_units\Hero_units_Hutt_Cartel\Units_hero_Hutt_Cartel_Jabba_The_Hutt.xml</File>
+	
+	<File>Hutt_Cartel_units\Land_units_Hutt_Cartel\Infantry_units_Hutt_Cartel\Units_land_Hutts_Aqualish_Bounty.xml</File>
+	<File>Hutt_Cartel_units\Land_units_Hutt_Cartel\Infantry_units_Hutt_Cartel\Units_land_Hutts_Ishitib_Trooper.xml</File>
+	<File>Hutt_Cartel_units\Land_units_Hutt_Cartel\Infantry_units_Hutt_Cartel\Units_land_Hutts_Quarren_Bounty.xml</File>
+	<File>Hutt_Cartel_units\Land_units_Hutt_Cartel\Infantry_units_Hutt_Cartel\Units_land_Hutts_Quarren_Bounty3.xml</File>
+	<File>Hutt_Cartel_units\Land_units_Hutt_Cartel\Infantry_units_Hutt_Cartel\Units_land_Hutts_Rodian_Bounty2.xml</File>
+	<File>Hutt_Cartel_units\Land_units_Hutt_Cartel\Infantry_units_Hutt_Cartel\Units_land_Hutts_Sand_Plex_Trooper.xml</File>
+	<File>Hutt_Cartel_units\Land_units_Hutt_Cartel\Infantry_units_Hutt_Cartel\Units_land_Hutts_Sand_Trooper.xml</File>
+	<File>Hutt_Cartel_units\Land_units_Hutt_Cartel\Infantry_units_Hutt_Cartel\Units_land_Hutts_Twilek_Sand.xml</File>
+	<File>Hutt_Cartel_units\Land_units_Hutt_Cartel\Infantry_units_Hutt_Cartel\Units_land_Hutts_Twilek_Trooper.xml</File>
+	
+	
+	<!-- Mandalorians -->
+	
+	<File>Mandalorian_units\Hero_units_Mandalorians\Units_hero_mandalorians_Bo_Katan.xml</File>
+	
+	<File>Mandalorian_units\Land_units_Mandalorians\Infantry_Units_Mandalorian\Units_land_Mandalorian_Arc_Commando.xml</File>
+	<File>Mandalorian_units\Land_units_Mandalorians\Infantry_Units_Mandalorian\Units_land_Mandalorian_Bountyhunter.xml</File>
+	<File>Mandalorian_units\Land_units_Mandalorians\Infantry_Units_Mandalorian\Units_land_Mandalorian_CloneTroopers.xml</File>
+	<File>Mandalorian_units\Land_units_Mandalorians\Infantry_Units_Mandalorian\Units_land_Mandalorian_Commander.xml</File>
+	<File>Mandalorian_units\Land_units_Mandalorians\Infantry_Units_Mandalorian\Units_land_Mandalorian_Death_Watch.xml</File>
+	<File>Mandalorian_units\Land_units_Mandalorians\Infantry_Units_Mandalorian\Units_land_Mandalorian_Lieutenant.xml</File>
+	<File>Mandalorian_units\Land_units_Mandalorians\Infantry_Units_Mandalorian\Units_land_Mandalorian_mandalorianinf.xml</File>
+	<File>Mandalorian_units\Land_units_Mandalorians\Infantry_Units_Mandalorian\Units_land_Mandalorian_Snipers.xml</File>
+	<File>Mandalorian_units\Land_units_Mandalorians\Infantry_Units_Mandalorian\Units_land_Mandalorian_Super_Commando.xml</File>
+	<File>Mandalorian_units\Land_units_Mandalorians\Infantry_Units_Mandalorian\Units_land_Plex_Mandalorians.xml</File>
+	
+	
+	
+	
+	<!-- Second Era Factions -->
+	
+	
+	
+	<!-- Galactic Empire -->
+	
+	<File>Galactic_Empire_Units\Hero_units_Galactic_Empire\Units_hero_Galactic_Empire_Palpatine.xml</File>
+	
+	<File>Galactic_Empire_Units\Land_units_Galactic_Empire\Infantry_Units_Empire\Units_land_galactic_empire_Stormtrooper.xml</File>
+	
+	
+	
+	<!-- Rebel Alliance -->
+	
+	<File>Rebel_Alliance_units\Hero_units_Rebel_Alliance\Units_hero_Rebel_Alliance_Mon_Mothma.xml</File>
+	
+	<File>Rebel_Alliance_units\Land_units_Rebel_Alliance\Infantry_Units_Rebel_Alliance\Units_land_Rebel_Alliance_Soldier.xml</File>
+	
+	
+	
+	
+	<!-- Pyke Syndicate -->
+	
+	<File>Pyke_Syndicate_units\Hero_units_Pyke_Syndicate\Units_hero_Pyke_Syndicate_Marg_Krim.xml</File>
+	
+	<File>Pyke_Syndicate_units\Land_Units_Pyke_Syndicate\Infantry_Units_Pyke_Syndicate\Units_land_Pyke_Syndicate_Trooper.xml</File>
+	
+	
+	
+	
+	<!-- Corporate Sector -->
+	
+	<File>Corporate_Sector_units\Hero_units_Corporate_Sector\Units_hero_Corporate_Sector_Government.xml</File>
+	
+	<File>Corporate_Sector_units\Land_units_Corporate_Sector\Infantry_Units_Corporate_Sector\Units_land_CorSec_Stormtrooper.xml</File>
+	
+	
+	
+	
+	<!-- Hapan Consortium -->
+	
+	<File>Hapan_Consortium_units\Hero_units_Hapan_Consortium\Units_hero_Hapan_Ta_a_Chume.xml</File>
+	
+	<File>Hapan_Consortium_units\Land_units_Hapan_Consortium\Infantry_Units_Hapan_Consortium\Units_land_Hapan_trooper.xml</File>
+	
+	
+	
+	
+	<!-- Crimson Dawn -->
+	
+	<File>Crimson_Dawn_units\Hero_units_Crimson_Dawn\Units_hero_Crimson_Dawn_Darth_Maul.xml</File>
+	
+	<File>Crimson_Dawn_units\Land_units_Crimson_Dawn\Infantry_Units_Crimson_Dawn\Units_land_Crimson_Dawn_trooper.xml</File>
+	
+	
+	
+	
+	
+	<!-- Third Era Factions -->
+	
+	
+	
+	<!-- New_Republic -->
 
-    <File>Imperial_units\Space_units_Empire\Light_Space_Units_Empire\Units_space_empire_tie_defender.xml</File>
-	<File>Imperial_units\Space_units_Empire\Light_Space_Units_Empire\Units_Space_Empire_TIE_Inquisitor.xml</File>
-	<File>Imperial_units\Space_units_Empire\Light_Space_Units_Empire\Units_space_empire_tie_interceptor.xml</File>
-	<File>Imperial_units\Space_units_Empire\Light_Space_Units_Empire\Units_space_empire_TIE_Interceptor_Royal.xml</File>
-	<File>Imperial_units\Space_units_Empire\Light_Space_Units_Empire\Units_space_empire_tie_phantom.xml</File>
-	<File>Imperial_units\Space_units_Empire\Light_Space_Units_Empire\Units_Space_Empire_TIE_Prototype.xml</File>
-	
-	<File>Imperial_units\Space_units_Empire\Light_Space_Units_Empire\Units_Space_Arquitens.xml</File>
-	<File>Imperial_units\Space_units_Empire\Light_Space_Units_Empire\Units_space_empire_carrier.xml</File>
-	<File>Imperial_units\Space_units_Empire\Light_Space_Units_Empire\Units_space_empire_Gozanti.xml</File>
-	<File>Imperial_units\Space_units_Empire\Light_Space_Units_Empire\Units_Space_Empire_Immobilizer.xml</File>
-	<File>Imperial_units\Space_units_Empire\Light_Space_Units_Empire\Units_space_empire_Katana_Dreadnought.xml</File>
-	<File>Imperial_units\Space_units_Empire\Light_Space_Units_Empire\Units_space_empire_Victory.xml</File>
-	<File>Imperial_units\Space_units_Empire\Light_Space_Units_Empire\Units_space_empire_VictoryII.xml</File>
-	<File>Imperial_units\Space_units_Empire\Light_Space_Units_Empire\Units_space_empire_VictoryIII.xml</File>
-	<File>Imperial_units\Space_units_Empire\Light_Space_Units_Empire\Units_Space_Raider_Corvette.xml</File>
-	
-	<File>Imperial_units\Space_units_Empire\Heavy_Space_Units_Empire\Units_Space_Empire_Allegiance.xml</File>
-	<File>Imperial_units\Space_units_Empire\Heavy_Space_Units_Empire\Units_space_empire_executor.xml</File>
-    <File>Imperial_units\Space_units_Empire\Heavy_Space_Units_Empire\Units_space_empire_Finalizer_destroyer.xml</File>
-	<File>Imperial_units\Space_units_Empire\Heavy_Space_Units_Empire\Units_Space_Empire_Star_Destroyer_Dominator.xml</File>
-	<File>Imperial_units\Space_units_Empire\Heavy_Space_Units_Empire\Units_space_Empire_Star_Destroyer_I.xml</File>
-	<File>Imperial_units\Space_units_Empire\Heavy_Space_Units_Empire\Units_space_Empire_Star_Destroyer_II.xml</File>
-	<File>Imperial_units\Space_units_Empire\Heavy_Space_Units_Empire\Units_Space_Empire_Star_Destroyer_III.xml</File>
-	<File>Imperial_units\Space_units_Empire\Heavy_Space_Units_Empire\Units_Space_Empire_Tector.xml</File>
-	<File>Imperial_units\Space_units_Empire\Heavy_Space_Units_Empire\Units_space_empire_venator.xml</File>
-	<File>Imperial_units\Space_units_Empire\Heavy_Space_Units_Empire\Units_space_empire_Xyston.xml</File>
-	<File>Imperial_units\Space_units_Empire\Heavy_Space_Units_Empire\Units_space_empire_XystonII.xml</File>
+    <File>New_Republic_Units\Hero_Units_New_Republic\Units_hero_New_Republic_Mon_Mothma.xml</File>
 
-	<!-- Hero Units: Rebel -->
-	
-	<File>Rebel_units\Hero_units_Rebel\Units_hero_rebel_cassian_andor.xml</File>
-	<File>Rebel_units\Hero_units_Rebel\Units_hero_rebel_jyn_erso.xml</File>
-	<File>Rebel_units\Hero_units_Rebel\Units_hero_rebel_Garm_Bel_Iblis.xml</File>
-    <File>Rebel_units\Hero_units_Rebel\Units_hero_rebel_Lusankya.xml</File>
-	<File>Rebel_units\Hero_units_Rebel\Units_hero_Rebel_Vanguard_Squadron.xml</File>
-	<File>Rebel_units\Hero_units_Rebel\Units_hero_rebel_lukeskywalker.xml</File>
-	<File>Rebel_units\Hero_units_Rebel\Units_hero_rebel_Ahsoka_Tano.xml</File>
-	<File>Rebel_units\Hero_units_Rebel\Units_Hero_Rebel_General_Draven.xml</File>
-	<File>Rebel_units\Hero_units_Rebel\Units_Hero_Rebel_General_Madine.xml</File>
-	<File>Rebel_units\Hero_units_Rebel\Units_hero_Rebel_Bail_Organa.xml</File>
-	<File>Rebel_units\Hero_units_Rebel\Units_hero_rebel_rogue_squadron.xml</File>
-	
-	<!-- Infantry Units: Rebel -->
-	
-	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_land_Rebel_Trooper.xml</File>
-	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_Land_Rebel_Commando.xml</File>
-	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_land_Rebel_Desert_PlexSoldier.xml</File>
-	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_land_Rebel_Deserttrooper.xml</File>
-	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_land_Rebel_Elite_Soldier.xml</File>
-	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\units_land_Rebel_Elite_trooper.xml</File>
-	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_land_Rebel_Forest_PlexSoldier.xml</File>
-	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_land_Rebel_Foresttrooper.xml</File>
-	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_land_Rebel_Grenadier.xml</File>
-	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_land_Rebel_Guard_Trooper.xml</File>
-	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_land_rebel_Rebel_Vanguard_Trooper.xml</File>
-	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_Land_Rebel_Rifleman.xml</File>
-	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_Land_Rebel_RiflemanV2.xml</File>
-	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_land_Rebel_Saboteur.xml</File>
-	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_land_Rebel_Sniper.xml</File>
-	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_land_Rebel_Sniper_Forest.xml</File>
-	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_land_Rebel_Sniper_Snow.xml</File>
-	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_land_Rebel_Snow_PlexSoldier.xml</File>
-	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_land_Rebel_Snowtrooper.xml</File>
-	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_land_Rebel_Urban_Plex_Soldier.xml</File>
-	<File>Rebel_units\Land_units_Rebel\Infantry_units_Rebel\Units_land_Rebel_Survivors.xml</File>
-	
-	<!-- Vehicle Units: Rebel -->
-	
-	<File>Rebel_units\Land_units_Rebel\Vehicle_units_Rebel\Units_Land_rebel_AAC.xml</File>
-	<File>Rebel_units\Land_units_Rebel\Vehicle_units_Rebel\Units_land_rebel_gallofree_htt.xml</File>
-	<File>Rebel_units\Land_units_Rebel\Vehicle_units_Rebel\Units_land_rebel_gargantuan_advanced.xml</File>
-	<File>Rebel_units\Land_units_Rebel\Vehicle_units_Rebel\Units_Land_rebel_Snowspeeder.xml</File>
-	<File>Rebel_units\Land_units_Rebel\Vehicle_units_Rebel\Units_land_rebel_t1b_tank.xml</File>
-	<File>Rebel_units\Land_units_Rebel\Vehicle_units_Rebel\Units_Land_rebel_T2B_Tank.xml</File>
-	<File>Rebel_units\Land_units_Rebel\Vehicle_units_Rebel\Units_land_rebel_V_19_landspeeder.xml</File>
-	
-	 <!-- Space Units: Rebel -->
-	 
-	<File>Rebel_units\Space_units_Rebel\Light_Space_Units_Rebel\Units_space_rebel_A-Wing.xml</File>
-	<File>Rebel_units\Space_units_Rebel\Light_Space_Units_Rebel\Units_space_rebel_bwing.xml</File>
-	<File>Rebel_units\Space_units_Rebel\Light_Space_Units_Rebel\Units_space_rebel_u_wing.xml</File>
-	<File>Rebel_units\Space_units_Rebel\Light_Space_Units_Rebel\Units_space_rebel_X-Wing.xml</File>
-	<File>Rebel_units\Space_units_Rebel\Light_Space_Units_Rebel\Units_space_rebel_Y-Wing.xml</File>
-	
-	<File>Rebel_units\Space_units_Rebel\Light_Space_Units_Rebel\Units_space_Rebel_Carrack.xml</File>
-	<File>Rebel_units\Space_units_Rebel\Light_Space_Units_Rebel\Units_space_rebel_Dauntless.xml</File>
-	<File>Rebel_units\Space_units_Rebel\Light_Space_Units_Rebel\Units_Space_Rebel_Hammerhead.xml</File>
-	<File>Rebel_units\Space_units_Rebel\Light_Space_Units_Rebel\Units_Space_Rebel_Liberator_Carrier.xml</File>
-	<File>Rebel_units\Space_units_Rebel\Light_Space_Units_Rebel\Units_space_rebel_mc40.xml</File>
-	<File>Rebel_units\Space_units_Rebel\Light_Space_Units_Rebel\Units_space_rebel_mc40b_frigate.xml</File>
-	<File>Rebel_units\Space_units_Rebel\Light_Space_Units_Rebel\Units_space_rebel_mc60.xml</File>
-	<File>Rebel_units\Space_units_Rebel\Light_Space_Units_Rebel\Units_Space_Rebel_Nebulon_B.xml</File>
-	<File>Rebel_units\Space_units_Rebel\Light_Space_Units_Rebel\Units_Space_Republic_Pelta_Frigate.xml</File>
-	
-	<File>Rebel_units\Space_units_Rebel\Heavy_Space_Units_Rebel\Units_Space_Rebel_Home_One_Regular.xml</File>
-	<File>Rebel_units\Space_units_Rebel\Heavy_Space_Units_Rebel\Units_space_rebel_mc50.xml</File>
-	<File>Rebel_units\Space_units_Rebel\Heavy_Space_Units_Rebel\Units_space_rebel_mc75.xml</File>
-	<File>Rebel_units\Space_units_Rebel\Heavy_Space_Units_Rebel\Units_Space_Rebel_mc80_Liberty.xml</File>
-	<File>Rebel_units\Space_units_Rebel\Heavy_Space_Units_Rebel\Units_space_rebel_mc80A_Wingless.xml</File>
-	<File>Rebel_units\Space_units_Rebel\Heavy_Space_Units_Rebel\Units_space_rebel_mc80b.xml</File>
-	<File>Rebel_units\Space_units_Rebel\Heavy_Space_Units_Rebel\Units_space_rebel_mc90.xml</File>
-	<File>Rebel_units\Space_units_Rebel\Heavy_Space_Units_Rebel\Units_space_rebel_mc90b.xml</File>
-	<File>Rebel_units\Space_units_Rebel\Heavy_Space_Units_Rebel\Units_space_rebel_MonCalHC.xml</File>
-	<File>Rebel_units\Space_units_Rebel\Heavy_Space_Units_Rebel\Units_Space_Rebel_Profundity.xml</File>
-	<File>Rebel_units\Space_units_Rebel\Heavy_Space_Units_Rebel\Units_Space_Rebel_Viscount.xml</File>
+    <File>New_Republic_Units\Infantry_Units_New_Republic\Units_land_New_Republic_Guard_Trooper.xml</File>
 	
 	
 	
-	
-	
+	<!-- Imperial Remnant Rax -->
 
+    <File>Imperial_Remnant_Rax_Units\Hero_Units_Remnant_Rax\Units_hero_Remnant_Rax_Gallius_Rax.xml</File>
+
+    <File>Imperial_Remnant_Rax_Units\Infantry_Units_Remnant_Rax\Units_land_Rax_Stormtrooper.xml</File>
+	
+	
+	<!-- Imperial Remnant Gratloe -->
+
+    <File>Imperial_Remnant_Gratloe_Units\Hero_Units_Remnant_Gratloe\Units_hero_Remnant_Gratloe_Admiral_Gratloe.xml</File>
+
+    <File>Imperial_Remnant_Gratloe_Units\Infantry_Units_Remnant_Gratloe\Units_land_Gratloe_Stormtrooper.xml</File>
+	
+	
+	<!-- Imperial Remnant Loring -->
+
+    <File>Imperial_Remnant_Loring_Units\Hero_Units_Remnant_Loring\Units_hero_Remnant_Loring_Kenner_Loring.xml</File>
+
+    <File>Imperial_Remnant_Loring_Units\Infantry_Units_Remnant_Loring\Units_land_Loring_Stormtrooper.xml</File>
+	
+	
+	<!-- Imperial Remnant Adelhard -->
+
+    <File>Imperial_Remnant_Adelhard_units\Hero_Units_Remnant_Adelhard\Units_hero_Remnant_Adelhard_Ubrick_Adelhard.xml</File>
+
+    <File>Imperial_Remnant_Adelhard_units\Infantry_Units_Remnant_Adelhard\Units_land_Adelhard_Stormtrooper.xml</File>
+	
+	
+	
+	<!-- First Order -->
+
+    <File>First_Order_units\Hero_Units_First_Order\Units_hero_First_Order_Rae_Sloane.xml</File>
+
+    <File>First_Order_units\Infantry_Units_First_Order\Units_land_First_Order_Stormtrooper.xml</File>
 
 	
 		

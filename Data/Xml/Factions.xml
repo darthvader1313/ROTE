@@ -15,14 +15,14 @@
 		<Fleet_Icon_Name> i_icon_fleet.tga </Fleet_Icon_Name>
 		<Ship_Icon_Name> g_fleet.tga </Ship_Icon_Name>
 		<Squadron_Icon_Name> g_squad.tga </Squadron_Icon_Name>
-		<Color> 239, 133, 16, 255 </Color>
-		<Display_Font_Color> 239, 133, 16, 255 </Display_Font_Color>
-		<No_Colorization_Color> 239, 133, 16, 255 </No_Colorization_Color>
-		<Big_Fleet_Color> 239, 133, 16, 150 </Big_Fleet_Color>
+		<Color> 185, 40, 39, 255 </Color>
+		<Display_Font_Color> 185, 40, 39, 255 </Display_Font_Color>
+		<No_Colorization_Color> 199, 105, 59, 255 </No_Colorization_Color>
+		<Big_Fleet_Color> 185, 40, 39, 150 </Big_Fleet_Color>
 		<Credits_Accumulation_Factor> 0.95 </Credits_Accumulation_Factor>
 		<Planet_Icon_Scale> 10.0 </Planet_Icon_Scale>
 		<Planet_Icon_Offset> 10.0, 10.0, -1.1 </Planet_Icon_Offset>
-		<Is_Playable>true</Is_Playable>
+		<Is_Playable>False</Is_Playable>
 		<Primary_Enemy> Empire </Primary_Enemy>
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Is_Neutral> No </Is_Neutral>
@@ -32,8 +32,9 @@
 		<Can_Win_By_Destroying_Super_Weapon>Yes</Can_Win_By_Destroying_Super_Weapon>
 		<Faction_Super_Weapon>  </Faction_Super_Weapon>
 		<Skirmish_Land_Bomber> Y-Wing_Bombing_Run </Skirmish_Land_Bomber>
-		<Space_Tactical_Unit_Cap>350</Space_Tactical_Unit_Cap>
+		<Space_Tactical_Unit_Cap>25</Space_Tactical_Unit_Cap>
 		<Maintenance_Cost>0.25</Maintenance_Cost>
+		<Scatters_From_Crushers> true </Scatters_From_Crushers>
 		
 		<!-- Gameplay effects of planetary corruption on this faction. -->
 		<Benefits_From_Corruption> No </Benefits_From_Corruption>
@@ -49,7 +50,7 @@
 		before displaying it to the player otherwise it won't match the tech tree we show in-game. -->
 		<Displayed_Tech_Level_Adjustment> +1 </Displayed_Tech_Level_Adjustment>
 		
-		<Infantry_Icon_Name>i_button_rebelsoldier.tga</Infantry_Icon_Name>
+		<Infantry_Icon_Name>i_button_rebel_soldier.tga</Infantry_Icon_Name>
 		<Vehicle_Icon_Name>i_r_vehicle.tga</Vehicle_Icon_Name>
 		<Carrier_Icon_Name>i_r_carrier.tga</Carrier_Icon_Name>
 		<Frigate_Icon_Name>i_r_frigate.tga</Frigate_Icon_Name>
@@ -64,7 +65,7 @@
 		<Space_Retreat_Flight_Move_Increment> 500.0 </Space_Retreat_Flight_Move_Increment>
 		<Space_Retreat_Unit_Increment_Wait_Frames> 1 </Space_Retreat_Unit_Increment_Wait_Frames>
 		<Space_Retreat_Off_Map_Dest_Pos> 12000.0, 12000.0, 0.0 </Space_Retreat_Off_Map_Dest_Pos>  <!-- WARNING: For some reason, non-0.0 Z can cause problems? -->
-		<Space_Retreat_Countdown_Color_RGBA> 239, 133, 16, 255 </Space_Retreat_Countdown_Color_RGBA>
+		<Space_Retreat_Countdown_Color_RGBA> 255, 255, 255, 255 </Space_Retreat_Countdown_Color_RGBA>
 		<Space_Retreat_Countdown_Text_ID> TEXT_RETREAT_SPACE_REBEL_COUNTDOWN </Space_Retreat_Countdown_Text_ID>
 
 		<Space_Retreat_Begin_SFXEvent> RHD_Retreat_Started_Space </Space_Retreat_Begin_SFXEvent>
@@ -81,7 +82,7 @@
 		<Land_Retreat_Countdown_Seconds> 10.99 </Land_Retreat_Countdown_Seconds>  
 		<Land_Retreat_Pursue_Max_Speed_Mod_Factor> 2.0 </Land_Retreat_Pursue_Max_Speed_Mod_Factor> 
 		<Land_Retreat_Units_Damaged_Mod_Factor> 2.0 </Land_Retreat_Units_Damaged_Mod_Factor> 
-		<Land_Retreat_Countdown_Color_RGBA> 239, 133, 16, 255 </Land_Retreat_Countdown_Color_RGBA>
+		<Land_Retreat_Countdown_Color_RGBA> 255, 255, 255, 255 </Land_Retreat_Countdown_Color_RGBA>
 		<Land_Retreat_Countdown_Text_ID> TEXT_RETREAT_LAND_REBEL_COUNTDOWN </Land_Retreat_Countdown_Text_ID>
 
   		<Land_Retreat_Begin_SFXEvent> RHD_Retreat_Started_land  </Land_Retreat_Begin_SFXEvent>
@@ -113,18 +114,18 @@
 
 		<Bombardment_Shadow_Blob_Material_Name> Bombardment_Rebel </Bombardment_Shadow_Blob_Material_Name>
 		<Bombardment_Blob_Size> 250.0 </Bombardment_Blob_Size>
-		<Bombardment_Required_Orbital_Ships>  </Bombardment_Required_Orbital_Ships>
-		<Bombardment_Projectile> Proj_Rebel_Bombardment_Turbolaser </Bombardment_Projectile>
+		<Bombardment_Required_Orbital_Ships> Calamari_Cruiser, Nebulon_B_Frigate, Alliance_Assault_Frigate, Home_One </Bombardment_Required_Orbital_Ships>
+		<Bombardment_Projectile> Proj_Rebel_Bombardment_Ion_Cannon </Bombardment_Projectile>
 		<Bombardment_Number_Of_Salvos> 2 </Bombardment_Number_Of_Salvos>
-		<Bombardment_Shots_Per_Salvo> 4 </Bombardment_Shots_Per_Salvo>
-		<Bombardment_Shot_Delay> 0.5 </Bombardment_Shot_Delay>
-		<Bombardment_Salvo_Delay> 2.15 </Bombardment_Salvo_Delay>
-		<Bombardment_Initial_Delay> 7.5 </Bombardment_Initial_Delay>
+		<Bombardment_Shots_Per_Salvo> 8 </Bombardment_Shots_Per_Salvo>
+		<Bombardment_Shot_Delay> 0.2 </Bombardment_Shot_Delay>
+		<Bombardment_Salvo_Delay> 1.3 </Bombardment_Salvo_Delay>
+		<Bombardment_Initial_Delay> 1.0 </Bombardment_Initial_Delay>
 
 		<Land_Mode_Selection_Blob_Material_Name>Selection_Rebel_Land</Land_Mode_Selection_Blob_Material_Name>
 		<Space_Mode_Selection_Blob_Material_Name>Selection_Rebel_Space</Space_Mode_Selection_Blob_Material_Name>
-		<Land_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Rebel_Land</Land_Mode_Garrison_Selection_Blob_Material_Name>
-		<Space_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Rebel_Space</Space_Mode_Garrison_Selection_Blob_Material_Name>
+		<Land_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Land</Land_Mode_Garrison_Selection_Blob_Material_Name>
+		<Space_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Land</Space_Mode_Garrison_Selection_Blob_Material_Name>
         <Selection_Blob_RGBA>0,255,0,255</Selection_Blob_RGBA>
 
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
@@ -134,7 +135,7 @@
 
 		<Land_Skirmish_Unit_Buy_Credits> 50000 </Land_Skirmish_Unit_Buy_Credits>
 		<Land_Skirmish_AI_Default_Forces> 
-			Rebel_Urban_Trooper_Squad
+			Rebel_Infantry_Squad, Rebel_Infantry_Squad
 		</Land_Skirmish_AI_Default_Forces>
 
 		<Land_Skirmish_Unit_Cap_By_Player_Count>
@@ -204,7 +205,7 @@
 		<SFXEvent_Enemy_Fleet_Approaching_Planet>RHD_Enemy_Fleet_Approaching </SFXEvent_Enemy_Fleet_Approaching_Planet>
 		<SFXEvent_Strategic_Pop_Cap_Reached> RHD_Unit_Cap_Reached </SFXEvent_Strategic_Pop_Cap_Reached>
 		<SFXEvent_Tactical_Pop_Cap_Reached> RHD_Unit_Cap_Reached </SFXEvent_Tactical_Pop_Cap_Reached>
-		
+		<SFXEvent_Planet_Corrupted> GUI_Corruption </SFXEvent_Planet_Corrupted>
 		<SFXEvent_Corruption_Removed> EHD_Corruption_Removed </SFXEvent_Corruption_Removed>
 		<SFXEvent_Bunker_Garrisoned> Structure_Garrison_SFX </SFXEvent_Bunker_Garrisoned>
 		<SFXEvent_Bunker_Vacated> Structure_UnGarrison_SFX </SFXEvent_Bunker_Vacated>
@@ -631,16 +632,16 @@
 
 		<!-- Sandbox tactical battle introduction SpeechEvents -->
 
-		<SpeechEvent_Tactical_Intro_Land_Attacker>  </SpeechEvent_Tactical_Intro_Land_Attacker>		<!-- Default case for land battle as attacker -->
-		<SpeechEvent_Tactical_Intro_Land_Defender>   </SpeechEvent_Tactical_Intro_Land_Defender> 	<!-- Default case for land battle as defender -->
-		<SpeechEvent_Tactical_Intro_Space_Attacker>   </SpeechEvent_Tactical_Intro_Space_Attacker> 	<!-- Default case for space battle as attacker -->
-		<SpeechEvent_Tactical_Intro_Space_Defender>   </SpeechEvent_Tactical_Intro_Space_Defender> 	<!-- Default case for space battle as defender -->
+		<SpeechEvent_Tactical_Intro_Land_Attacker> GRS_INTRO_LAND_ATTACK_R_00<!--, GRS_INTRO_LAND_ATTACK_R_01, GRS_INTRO_LAND_ATTACK_R_02, GRS_INTRO_LAND_ATTACK_R_03--> </SpeechEvent_Tactical_Intro_Land_Attacker>		<!-- Default case for land battle as attacker -->
+		<SpeechEvent_Tactical_Intro_Land_Defender> GRS_INTRO_LAND_DEFEND_R_00<!--, GRS_INTRO_LAND_DEFEND_R_01, GRS_INTRO_LAND_DEFEND_R_02, GRS_INTRO_LAND_DEFEND_R_03-->  </SpeechEvent_Tactical_Intro_Land_Defender> 	<!-- Default case for land battle as defender -->
+		<SpeechEvent_Tactical_Intro_Space_Attacker> GRS_INTRO_SPACE_ATTACK_R_00<!--, GRS_INTRO_SPACE_ATTACK_R_01, GRS_INTRO_SPACE_ATTACK_R_02, GRS_INTRO_SPACE_ATTACK_R_03-->  </SpeechEvent_Tactical_Intro_Space_Attacker> 	<!-- Default case for space battle as attacker -->
+		<SpeechEvent_Tactical_Intro_Space_Defender> GRS_INTRO_SPACE_DEFEND_R_00<!--, GRS_INTRO_SPACE_DEFEND_R_01, GRS_INTRO_SPACE_DEFEND_R_02, GRS_INTRO_SPACE_DEFEND_R_03-->  </SpeechEvent_Tactical_Intro_Space_Defender> 	<!-- Default case for space battle as defender -->
 
-		<SpeechEvent_Tactical_Intro_Land_Raid_Attacker>  </SpeechEvent_Tactical_Intro_Land_Raid_Attacker>
+		<SpeechEvent_Tactical_Intro_Land_Raid_Attacker> GRS_INTRO_LAND_ATTACK_R_04 </SpeechEvent_Tactical_Intro_Land_Raid_Attacker>
 		<SpeechEvent_Tactical_Intro_Land_Raid_Defender> </SpeechEvent_Tactical_Intro_Land_Raid_Defender>  <!-- N/A for Rebels since no other Faction raids -->
 
-		<SpeechEvent_Tactical_Intro_Land_Attacker_Last_Location>  </SpeechEvent_Tactical_Intro_Land_Attacker_Last_Location>
-		<SpeechEvent_Tactical_Intro_Land_Defender_Last_Location>  </SpeechEvent_Tactical_Intro_Land_Defender_Last_Location>
+		<SpeechEvent_Tactical_Intro_Land_Attacker_Last_Location> GRS_INTRO_SPACE_ATTACK_R_05 </SpeechEvent_Tactical_Intro_Land_Attacker_Last_Location>
+		<SpeechEvent_Tactical_Intro_Land_Defender_Last_Location> GRS_INTRO_LAND_DEFEND_R_05 </SpeechEvent_Tactical_Intro_Land_Defender_Last_Location>
 
 													<!-- Note that conditionals will be evaluated in the order below, so order/priority is important -->
 													<!-- -->  
@@ -750,7 +751,11 @@
 
 
 		<Allies />
-		<Enemies>Empire, Pirates, Hostile, Sarlacc, Underworld, Hutt_Cartel, CIS_Remnant, Black_Sun, Mandalorians, Corporate_Sector, Tatooine_Smugglers, Ryloth_Radicals, Savareen_Underworld, Bespin_Government, Takodana_Pirates, Falleen_Bountyhunters, Mimban_Resistance, Hapan_Consortium, Crimson_Dawn, Cantonican_Loyalists, lothal_Population, Pyke_Syndicate, Chiss_Domination, Caamasi_Diplomats</Enemies>
+		<Enemies>
+		Empire, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Hutt_Cartel, Black_Sun, Mandalorians, 
+		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn,
+		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order
+		</Enemies>
 		
 		<Can_Control_Planets>true</Can_Control_Planets>
 
@@ -809,14 +814,14 @@
 		<Fleet_Icon_Name> i_icon_fleet.tga </Fleet_Icon_Name>
 		<Ship_Icon_Name> g_fleet.tga </Ship_Icon_Name>
 		<Squadron_Icon_Name> g_squad.tga </Squadron_Icon_Name>
-		<Color> 185, 40, 39, 255 </Color>
-		<Display_Font_Color> 185, 40, 39, 255 </Display_Font_Color>
-		<No_Colorization_Color> 199, 105, 59, 255 </No_Colorization_Color>
-		<Big_Fleet_Color> 185, 40, 39, 150 </Big_Fleet_Color>
+		<Color> 54, 134, 242, 255 </Color>
+		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+		<Display_Font_Color> 24, 133, 251, 255 </Display_Font_Color>
+		<Big_Fleet_Color> 54, 134, 242, 150 </Big_Fleet_Color>
 		<Credits_Accumulation_Factor> 0.85 </Credits_Accumulation_Factor>
 		<Planet_Icon_Scale> 10.0 </Planet_Icon_Scale>
 		<Planet_Icon_Offset> 7.0, 10.0, -1.1 </Planet_Icon_Offset>
-		<Is_Playable>true</Is_Playable>
+		<Is_Playable>False</Is_Playable>
 		<Primary_Enemy> Rebel </Primary_Enemy>
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Is_Neutral> No </Is_Neutral>
@@ -825,10 +830,10 @@
 		<Basic_AI>BasicEmpire</Basic_AI>
 		<Faction_Super_Weapon> Death_Star </Faction_Super_Weapon>
 		<Skirmish_Land_Bomber> TIE_Bomber_Bombing_Run </Skirmish_Land_Bomber>
-		<Space_Tactical_Unit_Cap>350</Space_Tactical_Unit_Cap>
+		<Space_Tactical_Unit_Cap>20</Space_Tactical_Unit_Cap>
 		<Maintenance_Cost>0.25</Maintenance_Cost>
 
-        <!-- Gameplay effects of planetary corruption on this faction. -->
+		<!-- Gameplay effects of planetary corruption on this faction. -->
 		<Benefits_From_Corruption> No </Benefits_From_Corruption>
 		<Corruption_Galactic_Production_Time_Multipliers> 1.0, .95 </Corruption_Galactic_Production_Time_Multipliers>
 		<Corruption_Galactic_Production_Price_Multipliers> 1.0, .9 </Corruption_Galactic_Production_Price_Multipliers>
@@ -840,7 +845,7 @@
 
 		<Scatters_From_Crushers> false </Scatters_From_Crushers>
 		
-		<Infantry_Icon_Name>i_button_stormtrooper.tga</Infantry_Icon_Name>
+		<Infantry_Icon_Name>i_button_storm_trooper.tga</Infantry_Icon_Name>
 		<Vehicle_Icon_Name>i_e_vehicle.tga</Vehicle_Icon_Name>
 		<Carrier_Icon_Name>i_e_carrier.tga</Carrier_Icon_Name>
 		<Frigate_Icon_Name>i_e_frigate.tga</Frigate_Icon_Name>
@@ -855,7 +860,7 @@
 		<Space_Retreat_Flight_Increment> 500.0 </Space_Retreat_Flight_Increment>
 		<Space_Retreat_Unit_Increment_Wait_Frames> 1 </Space_Retreat_Unit_Increment_Wait_Frames>
 		<Space_Retreat_Off_Map_Dest_Pos> 12000.0, 12000.0, 0.0 </Space_Retreat_Off_Map_Dest_Pos>	<!-- WARNING: For some reason, non-0.0 Z crashes the game -->
-		<Space_Retreat_Countdown_Color_RGBA> 185, 40, 39, 255 </Space_Retreat_Countdown_Color_RGBA>
+		<Space_Retreat_Countdown_Color_RGBA> 255, 255, 255, 255 </Space_Retreat_Countdown_Color_RGBA>
 		<Space_Retreat_Countdown_Text_ID> TEXT_RETREAT_SPACE_EMPIRE_COUNTDOWN </Space_Retreat_Countdown_Text_ID>
 
 		<Space_Retreat_Begin_SFXEvent> EHD_Retreat_Started_Space </Space_Retreat_Begin_SFXEvent>
@@ -870,7 +875,7 @@
 		<Land_Retreat_Countdown_Seconds> 10.99 </Land_Retreat_Countdown_Seconds>  
 		<Land_Retreat_Pursue_Max_Speed_Mod_Factor> 2.0 </Land_Retreat_Pursue_Max_Speed_Mod_Factor> 
 		<Land_Retreat_Units_Damaged_Mod_Factor> 2.0 </Land_Retreat_Units_Damaged_Mod_Factor> 
-		<Land_Retreat_Countdown_Color_RGBA> 185, 40, 39, 255 </Land_Retreat_Countdown_Color_RGBA>
+		<Land_Retreat_Countdown_Color_RGBA> 255, 255, 255, 255 </Land_Retreat_Countdown_Color_RGBA>
 		<Land_Retreat_Countdown_Text_ID> TEXT_RETREAT_LAND_EMPIRE_COUNTDOWN </Land_Retreat_Countdown_Text_ID>
 
 		<Land_Retreat_Begin_SFXEvent> EHD_Retreat_Started_Land </Land_Retreat_Begin_SFXEvent>
@@ -902,18 +907,18 @@
 		<!-- BOMBARDMENT DATA -->
 		<Bombardment_Shadow_Blob_Material_Name> Bombardment_Empire </Bombardment_Shadow_Blob_Material_Name>
 		<Bombardment_Blob_Size> 200.0 </Bombardment_Blob_Size>
-		<Bombardment_Required_Orbital_Ships>  </Bombardment_Required_Orbital_Ships>
+		<Bombardment_Required_Orbital_Ships> Star_Destroyer, Acclamator_Assault_Ship, Victory_Destroyer, Executor_Super_Star_Destroyer, Accuser_Star_Destroyer, Admonitor_Star_Destroyer </Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Empire_Bombardment_Turbolaser </Bombardment_Projectile>
-		<Bombardment_Number_Of_Salvos> 2 </Bombardment_Number_Of_Salvos>
+		<Bombardment_Number_Of_Salvos> 3 </Bombardment_Number_Of_Salvos>
 		<Bombardment_Shots_Per_Salvo> 4 </Bombardment_Shots_Per_Salvo>
-		<Bombardment_Shot_Delay> 0.5 </Bombardment_Shot_Delay>
-		<Bombardment_Salvo_Delay> 2.15 </Bombardment_Salvo_Delay>
-		<Bombardment_Initial_Delay> 7.5 </Bombardment_Initial_Delay>
+		<Bombardment_Shot_Delay> 0.3 </Bombardment_Shot_Delay>
+		<Bombardment_Salvo_Delay> 1.2 </Bombardment_Salvo_Delay>
+        <Bombardment_Initial_Delay> 3.0 </Bombardment_Initial_Delay>
 
 		<Land_Mode_Selection_Blob_Material_Name>Selection_Empire_Land</Land_Mode_Selection_Blob_Material_Name>
 		<Space_Mode_Selection_Blob_Material_Name>Selection_Empire_Space</Space_Mode_Selection_Blob_Material_Name>
-		<Land_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Empire_Land</Land_Mode_Garrison_Selection_Blob_Material_Name>
-		<Space_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Empire_Space</Space_Mode_Garrison_Selection_Blob_Material_Name>
+		<Land_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Land</Land_Mode_Garrison_Selection_Blob_Material_Name>
+		<Space_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Land</Space_Mode_Garrison_Selection_Blob_Material_Name>
         <Selection_Blob_RGBA>0,255,0,255</Selection_Blob_RGBA>
 		
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
@@ -923,7 +928,7 @@
 
 		<Land_Skirmish_Unit_Buy_Credits> 50000 </Land_Skirmish_Unit_Buy_Credits>
 		<Land_Skirmish_AI_Default_Forces> 
-			Stormtrooper_Squad
+			Imperial_Stormtrooper_Squad, Imperial_Stormtrooper_Squad
 		</Land_Skirmish_AI_Default_Forces>
 
 		<Land_Skirmish_Unit_Cap_By_Player_Count>
@@ -994,7 +999,7 @@
 		<SFXEvent_Enemy_Fleet_Approaching_Planet> EHD_Enemy_Fleet_Approaching</SFXEvent_Enemy_Fleet_Approaching_Planet>
 		<SFXEvent_Strategic_Pop_Cap_Reached> EHD_Unit_Cap_Reached </SFXEvent_Strategic_Pop_Cap_Reached>
 		<SFXEvent_Tactical_Pop_Cap_Reached> EHD_Unit_Cap_Reached </SFXEvent_Tactical_Pop_Cap_Reached>
-	
+		<SFXEvent_Planet_Corrupted> GUI_Corruption </SFXEvent_Planet_Corrupted>
 		<SFXEvent_Corruption_Removed> EHD_Corruption_Removed </SFXEvent_Corruption_Removed>
 		<SFXEvent_Bunker_Garrisoned> Structure_Garrison_SFX </SFXEvent_Bunker_Garrisoned>
 		<SFXEvent_Bunker_Vacated> Structure_UnGarrison_SFX </SFXEvent_Bunker_Vacated>
@@ -1408,16 +1413,16 @@
 
 		<!-- Sandbox tactical battle introduction SpeechEvents -->
 
-		<SpeechEvent_Tactical_Intro_Land_Attacker>   </SpeechEvent_Tactical_Intro_Land_Attacker>		<!-- Default case for land battle as attacker -->
-		<SpeechEvent_Tactical_Intro_Land_Defender>   </SpeechEvent_Tactical_Intro_Land_Defender> 	<!-- Default case for land battle as defender -->
-		<SpeechEvent_Tactical_Intro_Space_Attacker>   </SpeechEvent_Tactical_Intro_Space_Attacker> 	<!-- Default case for space battle as attacker -->
-		<SpeechEvent_Tactical_Intro_Space_Defender>   </SpeechEvent_Tactical_Intro_Space_Defender> 	<!-- Default case for space battle as defender -->
+		<SpeechEvent_Tactical_Intro_Land_Attacker> GES_INTRO_LAND_ATTACK_E_00 <!--, GES_INTRO_LAND_ATTACK_E_01, GES_INTRO_LAND_ATTACK_E_02, GES_INTRO_LAND_ATTACK_E_03-->  </SpeechEvent_Tactical_Intro_Land_Attacker>		<!-- Default case for land battle as attacker -->
+		<SpeechEvent_Tactical_Intro_Land_Defender> GES_INTRO_LAND_DEFEND_E_00 <!--, GES_INTRO_LAND_DEFEND_E_01, GES_INTRO_LAND_DEFEND_E_02, GES_INTRO_LAND_DEFEND_E_03-->  </SpeechEvent_Tactical_Intro_Land_Defender> 	<!-- Default case for land battle as defender -->
+		<SpeechEvent_Tactical_Intro_Space_Attacker> GES_INTRO_SPACE_ATTACK_E_00 <!--, GES_INTRO_SPACE_ATTACK_E_01, GES_INTRO_SPACE_ATTACK_E_02, GES_INTRO_SPACE_ATTACK_E_03-->  </SpeechEvent_Tactical_Intro_Space_Attacker> 	<!-- Default case for space battle as attacker -->
+		<SpeechEvent_Tactical_Intro_Space_Defender> GES_INTRO_SPACE_DEFEND_E_00 <!--, GES_INTRO_SPACE_DEFEND_E_01, GES_INTRO_SPACE_DEFEND_E_02, GES_INTRO_SPACE_DEFEND_E_03-->  </SpeechEvent_Tactical_Intro_Space_Defender> 	<!-- Default case for space battle as defender -->
 
-		<SpeechEvent_Tactical_Intro_Land_Raid_Defender>  </SpeechEvent_Tactical_Intro_Land_Raid_Defender>  
+		<SpeechEvent_Tactical_Intro_Land_Raid_Defender> GES_INTRO_LAND_DEFEND_E_04 </SpeechEvent_Tactical_Intro_Land_Raid_Defender>  
 		<SpeechEvent_Tactical_Intro_Land_Raid_Attacker> </SpeechEvent_Tactical_Intro_Land_Raid_Attacker> <!-- N/A for Empire since does not raid -->
 
-		<SpeechEvent_Tactical_Intro_Land_Attacker_Last_Location>  </SpeechEvent_Tactical_Intro_Land_Attacker_Last_Location>
-		<SpeechEvent_Tactical_Intro_Land_Defender_Last_Location>  </SpeechEvent_Tactical_Intro_Land_Defender_Last_Location>
+		<SpeechEvent_Tactical_Intro_Land_Attacker_Last_Location> GES_INTRO_LAND_ATTACK_E_05 </SpeechEvent_Tactical_Intro_Land_Attacker_Last_Location>
+		<SpeechEvent_Tactical_Intro_Land_Defender_Last_Location> GES_INTRO_LAND_DEFEND_E_05 </SpeechEvent_Tactical_Intro_Land_Defender_Last_Location>
 
 														<!-- Note that conditionals will be evaluated in the order below, so order/priority is important -->
 														<!-- -->  
@@ -1514,7 +1519,11 @@
 		<!-- End Droid Advisor Speech/Text -->
 
 		<Allies />
-		<Enemies>Rebel, Pirates, Hostile, Target, Sarlacc, Underworld, Hutt_Cartel, CIS_Remnant, Black_Sun, Mandalorians, Corporate_Sector</Enemies>
+		<Enemies>
+		Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Hutt_Cartel, Black_Sun, Mandalorians, 
+		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn,
+		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order
+		</Enemies>
 		
 		<Can_Control_Planets>true</Can_Control_Planets>
 
@@ -1674,7 +1683,11 @@
 		<Selection_Blob_RGBA>0,255,0,255</Selection_Blob_RGBA>
 
 		<Allies>Neutral</Allies>
-		<Enemies>Empire, Rebel, Pirates, Sarlacc, Underworld</Enemies>
+		<Enemies>
+		Empire, Rebel, Pirates, Sarlacc, Underworld, Early_Empire, Terrorists, CIS_Remnant, Hutt_Cartel, Black_Sun, Mandalorians, 
+		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn,
+		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order
+		</Enemies>
 
 	</Faction>
 
@@ -1712,20 +1725,19 @@
 		<Selection_Blob_RGBA>0,255,0,255</Selection_Blob_RGBA>
 
 		<Allies />
-		<Enemies>Empire, Rebel, Pirates, Hostile, Underworld, Hutts</Enemies>
+		<Enemies>
+		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Hutt_Cartel, Black_Sun, Mandalorians, 
+		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn,
+		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order
+		</Enemies>
 
 	</Faction>
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
 
 
 </Factions>

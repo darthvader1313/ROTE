@@ -5,10 +5,11 @@
 	
 	<!--Particle ROTE -->
 	
+	<!--Land Particles-->
 	
-	<Particle Name="Damage_turbolaser_Hit_Small">
-		<Land_Model_Name>p_damage_turbolaser_small.ALO</Land_Model_Name>
-		<Space_Model_Name>p_damage_turbolaser_small.ALO</Space_Model_Name>
+	<Particle Name="Damage_ground_turbolaser_Hit_Large_ion">
+		<Land_Model_Name>p_damage_ground_large_ion.ALO</Land_Model_Name>
+		<Space_Model_Name>p_damage_ground_large_ion.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Decoration>Yes</Is_Decoration>
 		<Behavior>PARTICLE</Behavior>
@@ -18,17 +19,211 @@
         <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
 	</Particle>
 	
-	<Particle Name="Damage_turbolaser_Hit_Large">
-		<Land_Model_Name>p_damage_turbolaser_medium.alo</Land_Model_Name>
-		<Space_Model_Name>p_damage_turbolaser_medium.alo</Space_Model_Name>
-		<Scale_Factor>6.5</Scale_Factor>
-		<Is_Decoration>No</Is_Decoration>
-		<Allow_Particle_Model_Culling>yes</Allow_Particle_Model_Culling>
-		<Behavior>PARTICLE, EXPLOSION</Behavior>
-		 
-		<Explosion_Jitter_Factor>3</Explosion_Jitter_Factor>
-		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_LARGE</Explosion_Scorch_Mark>
+	<Particle Name="Damage_ground_turbolaser_Hit_Med_ion">
+		<Land_Model_Name>p_damage_ground_medium_ion.ALO</Land_Model_Name>
+		<Space_Model_Name>p_damage_ground_medium_ion.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>60</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>1</Explosion_Jitter_Factor>
+	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_MEDIUM</Explosion_Scorch_Mark>
+        <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
 	</Particle>
+	
+	<Particle Name="Damage_ground_turbolaser_Hit_Small_ion">
+		<Land_Model_Name>p_damage_ground_small_ion.ALO</Land_Model_Name>
+		<Space_Model_Name>p_damage_ground_small_ion.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>60</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>1</Explosion_Jitter_Factor>
+	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_MEDIUM</Explosion_Scorch_Mark>
+        <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
+	</Particle>
+	
+	<Particle Name="Damage_ground_turbolaser_Hit_Large_purple">
+		<Land_Model_Name>p_damage_ground_large_purple.ALO</Land_Model_Name>
+		<Space_Model_Name>p_damage_ground_large_purple.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>60</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>1</Explosion_Jitter_Factor>
+	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_MEDIUM</Explosion_Scorch_Mark>
+        <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
+	</Particle>
+	
+	<Particle Name="Damage_ground_turbolaser_Hit_Med_purple">
+		<Land_Model_Name>p_damage_ground_medium_purple.ALO</Land_Model_Name>
+		<Space_Model_Name>p_damage_ground_medium_purple.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>60</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>1</Explosion_Jitter_Factor>
+	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_MEDIUM</Explosion_Scorch_Mark>
+        <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
+	</Particle>
+	
+	<Particle Name="Damage_ground_turbolaser_Hit_Small_purple">
+		<Land_Model_Name>p_damage_ground_small_purple.ALO</Land_Model_Name>
+		<Space_Model_Name>p_damage_ground_small_purple.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>60</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>1</Explosion_Jitter_Factor>
+	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_MEDIUM</Explosion_Scorch_Mark>
+        <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
+	</Particle>
+	
+	<Particle Name="Damage_ground_turbolaser_Hit_Large_yellow">
+		<Land_Model_Name>p_damage_ground_large_yellow.ALO</Land_Model_Name>
+		<Space_Model_Name>p_damage_ground_large_yellow.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>60</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>1</Explosion_Jitter_Factor>
+	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_MEDIUM</Explosion_Scorch_Mark>
+        <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
+	</Particle>
+	
+	<Particle Name="Damage_ground_turbolaser_Hit_Med_yellow">
+		<Land_Model_Name>p_damage_ground_medium_yellow.ALO</Land_Model_Name>
+		<Space_Model_Name>p_damage_ground_medium_yellow.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>60</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>1</Explosion_Jitter_Factor>
+	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_MEDIUM</Explosion_Scorch_Mark>
+        <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
+	</Particle>
+	
+	<Particle Name="Damage_ground_turbolaser_Hit_Small_yellow">
+		<Land_Model_Name>p_damage_ground_small_yellow.ALO</Land_Model_Name>
+		<Space_Model_Name>p_damage_ground_small_yellow.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>60</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>1</Explosion_Jitter_Factor>
+	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_MEDIUM</Explosion_Scorch_Mark>
+        <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
+	</Particle>
+	
+	<Particle Name="Damage_ground_turbolaser_Hit_Large_red">
+		<Land_Model_Name>p_damage_ground_large_red.ALO</Land_Model_Name>
+		<Space_Model_Name>p_damage_ground_large_red.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>60</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>1</Explosion_Jitter_Factor>
+	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_MEDIUM</Explosion_Scorch_Mark>
+        <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
+	</Particle>
+	
+	<Particle Name="Damage_ground_turbolaser_Hit_Med_red">
+		<Land_Model_Name>p_damage_ground_medium_red.ALO</Land_Model_Name>
+		<Space_Model_Name>p_damage_ground_medium_red.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>60</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>1</Explosion_Jitter_Factor>
+	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_MEDIUM</Explosion_Scorch_Mark>
+        <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
+	</Particle>
+	
+	<Particle Name="Damage_ground_turbolaser_Hit_Small_red">
+		<Land_Model_Name>p_damage_ground_small_red.ALO</Land_Model_Name>
+		<Space_Model_Name>p_damage_ground_small_red.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>60</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>1</Explosion_Jitter_Factor>
+	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_MEDIUM</Explosion_Scorch_Mark>
+        <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
+	</Particle>
+	
+	<Particle Name="Damage_ground_turbolaser_Hit_Large_blue">
+		<Land_Model_Name>p_damage_ground_large_blue.ALO</Land_Model_Name>
+		<Space_Model_Name>p_damage_ground_large_blue.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>60</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>1</Explosion_Jitter_Factor>
+	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_MEDIUM</Explosion_Scorch_Mark>
+        <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
+	</Particle>
+	
+	<Particle Name="Damage_ground_turbolaser_Hit_Med_blue">
+		<Land_Model_Name>p_damage_ground_medium_blue.ALO</Land_Model_Name>
+		<Space_Model_Name>p_damage_ground_medium_blue.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>60</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>1</Explosion_Jitter_Factor>
+	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_MEDIUM</Explosion_Scorch_Mark>
+        <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
+	</Particle>
+	
+	<Particle Name="Damage_ground_turbolaser_Hit_Small_blue">
+		<Land_Model_Name>p_damage_ground_small_blue.ALO</Land_Model_Name>
+		<Space_Model_Name>p_damage_ground_small_blue.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>60</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>1</Explosion_Jitter_Factor>
+	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_MEDIUM</Explosion_Scorch_Mark>
+        <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
+	</Particle>
+	
+	<Particle Name="Damage_ground_turbolaser_Hit_Large_green">
+		<Land_Model_Name>p_damage_ground_large_green.ALO</Land_Model_Name>
+		<Space_Model_Name>p_damage_ground_large_green.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>60</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>1</Explosion_Jitter_Factor>
+	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_MEDIUM</Explosion_Scorch_Mark>
+        <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
+	</Particle>
+	
+	<Particle Name="Damage_ground_turbolaser_Hit_Med_green">
+		<Land_Model_Name>p_damage_ground_medium_green.ALO</Land_Model_Name>
+		<Space_Model_Name>p_damage_ground_medium_green.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>60</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>1</Explosion_Jitter_Factor>
+	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_MEDIUM</Explosion_Scorch_Mark>
+        <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
+	</Particle>
+	
+	<Particle Name="Damage_ground_turbolaser_Hit_Small_green">
+		<Land_Model_Name>p_damage_ground_small_green.ALO</Land_Model_Name>
+		<Space_Model_Name>p_damage_ground_small_green.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>60</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>1</Explosion_Jitter_Factor>
+	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_MEDIUM</Explosion_Scorch_Mark>
+        <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
+	</Particle>
+	
+	<!--Space Particles-->
 	
 	<Particle Name="Space_explosion_capital">
 		<Land_Model_Name>p_explosion_capital.alo</Land_Model_Name>

@@ -44,7 +44,11 @@
         <GalacticBehavior>SELECTABLE</GalacticBehavior>
 		<LandBehavior> WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED,DAMAGE_TRACKING, SPAWN_SQUADRON</LandBehavior>
 
-		<Affiliation>Rebel, Empire, Mandalorians, CIS_Remnant, Black_Sun, Hutt_Cartel, Corporate_Sector, Tatooine_Smugglers, Ryloth_Radicals, Savareen_Underworld, Bespin_Government, Takodana_Pirates, Falleen_Bountyhunters, Mimban_Resistance, Hapan_Consortium, Crimson_Dawn, Cantonican_Loyalists, Pyke_Syndicate, Chiss_Domination, Caamasi_Diplomats </Affiliation>
+		<Enemies>
+		Empire, Rebel, Pirates, Sarlacc, Underworld, Early_Empire, Terrorists, CIS_Remnant, Hutt_Cartel, Black_Sun, Mandalorians, 
+		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium
+		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order
+		</Enemies>
 		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
 		<Mass>1.0</Mass>
 		<Shield_Armor_Type>Shield_Default</Shield_Armor_Type>

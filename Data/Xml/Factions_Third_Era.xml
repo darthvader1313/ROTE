@@ -158,8 +158,8 @@
 
 		<!-- This enables the galactic victory condition: "Win by capturing Coruscant and eliminating Emperor Palpatine" -->
 		<Home_Planet>NallHutta</Home_Planet>
-		<Faction_Leader>Jabba_The_Hutt</Faction_Leader>
-		<Faction_Leader_Company>Jabba_The_Hutt_Team</Faction_Leader_Company>
+		<Faction_Leader></Faction_Leader>
+		<Faction_Leader_Company></Faction_Leader_Company>
 
 
 		<!-- Allow special weapon firing in tactical maps that have no parent galactic mode -->
@@ -433,8 +433,8 @@
 
 		<!-- This enables the galactic victory condition: "Win by capturing Coruscant and eliminating Emperor Palpatine" -->
 		<Home_Planet>NallHutta</Home_Planet>
-		<Faction_Leader>Jabba_The_Hutt</Faction_Leader>
-		<Faction_Leader_Company>Jabba_The_Hutt_Team</Faction_Leader_Company>
+		<Faction_Leader></Faction_Leader>
+		<Faction_Leader_Company></Faction_Leader_Company>
 
 
 		<!-- Allow special weapon firing in tactical maps that have no parent galactic mode -->
@@ -709,8 +709,8 @@
 
 		<!-- This enables the galactic victory condition: "Win by capturing Coruscant and eliminating Emperor Palpatine" -->
 		<Home_Planet>NallHutta</Home_Planet>
-		<Faction_Leader>Jabba_The_Hutt</Faction_Leader>
-		<Faction_Leader_Company>Jabba_The_Hutt_Team</Faction_Leader_Company>
+		<Faction_Leader></Faction_Leader>
+		<Faction_Leader_Company></Faction_Leader_Company>
 
 
 		<!-- Allow special weapon firing in tactical maps that have no parent galactic mode -->
@@ -984,8 +984,8 @@
 
 		<!-- This enables the galactic victory condition: "Win by capturing Coruscant and eliminating Emperor Palpatine" -->
 		<Home_Planet>NallHutta</Home_Planet>
-		<Faction_Leader>Jabba_The_Hutt</Faction_Leader>
-		<Faction_Leader_Company>Jabba_The_Hutt_Team</Faction_Leader_Company>
+		<Faction_Leader></Faction_Leader>
+		<Faction_Leader_Company></Faction_Leader_Company>
 
 
 		<!-- Allow special weapon firing in tactical maps that have no parent galactic mode -->
@@ -1260,8 +1260,8 @@
 
 		<!-- This enables the galactic victory condition: "Win by capturing Coruscant and eliminating Emperor Palpatine" -->
 		<Home_Planet>NallHutta</Home_Planet>
-		<Faction_Leader>Jabba_The_Hutt</Faction_Leader>
-		<Faction_Leader_Company>Jabba_The_Hutt_Team</Faction_Leader_Company>
+		<Faction_Leader></Faction_Leader>
+		<Faction_Leader_Company></Faction_Leader_Company>
 
 
 		<!-- Allow special weapon firing in tactical maps that have no parent galactic mode -->
@@ -1537,8 +1537,8 @@
 
 		<!-- This enables the galactic victory condition: "Win by capturing Coruscant and eliminating Emperor Palpatine" -->
 		<Home_Planet>NallHutta</Home_Planet>
-		<Faction_Leader>Jabba_The_Hutt</Faction_Leader>
-		<Faction_Leader_Company>Jabba_The_Hutt_Team</Faction_Leader_Company>
+		<Faction_Leader></Faction_Leader>
+		<Faction_Leader_Company></Faction_Leader_Company>
 
 
 		<!-- Allow special weapon firing in tactical maps that have no parent galactic mode -->

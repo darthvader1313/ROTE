@@ -3662,9 +3662,8 @@
 
 	
 
-	<Demo_Attract_Maps> End_Demo_Attract_Attolon.ted, End_Demo_Attract_Scarif.ted </Demo_Attract_Maps>
-	<Demo_Attract_Maps> End_Demo_Attract_Hoth.ted, End_Demo_Attract_Endor.ted </Demo_Attract_Maps>
-	<Demo_Attract_Maps> End_Demo_Attract_Fondor.ted </Demo_Attract_Maps>
+
+	<Demo_Attract_Maps> Demo_Attract_Kamino.ted </Demo_Attract_Maps>
 	<Demo_Attract_Start_Timeout_Seconds>3600</Demo_Attract_Start_Timeout_Seconds>
 	<Demo_Attract_Map_Cycle_Delay_Seconds>1200</Demo_Attract_Map_Cycle_Delay_Seconds>
 

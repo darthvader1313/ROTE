@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<Black_Sun_Smuggler>
+
+
+
+<GenericHeroUnit Name="Black_Sun_Smuggler">
+		<Text_ID>TEXT_HERO_UNIT_SMUGGLER</Text_ID>
+		<GUI_Row> 1 </GUI_Row>
+		<Icon_Name>i_button_smuggler.tga</Icon_Name>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Sprite>No</Is_Sprite>
+		<Type>Walk</Type>
+		<Affiliation>Black_Sun</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Size_Value>75</Size_Value>
+		<!--  <Damage>2</Damage> -->
+		<Autoresolve_Health>30</Autoresolve_Health>
+		<Is_Generic_Hero>Yes</Is_Generic_Hero>
+		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
+		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
+		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
+
+		<Neutralization_Cost>50.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>Yes</Can_Be_Neutralized_By_Minor_Heroes>
+
+		<CategoryMask> NonCombatHero </CategoryMask>
+		<Ranking_In_Category> 24 </Ranking_In_Category>
+
+		<Encyclopedia_Text>TEXT_TOOLTIP_SMUGGLER</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HERO_MINOR</Encyclopedia_Unit_Class>
+
+		<Death_SFXEvent_Start_Die>EHD_Smuggler_Lost</Death_SFXEvent_Start_Die>
+
+
+		<Abilities SubObjectList="Yes">
+
+			<Galactic_Stealth_Ability Name="Smuggler_Galactic_Stealth">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Galactic_Automatic</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
+			</Galactic_Stealth_Ability>
+
+			<Siphon_Credits_Ability Name="Smuggler_Siphon_Credits">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Ground_Activated</Activation_Style>
+				<Causes_Despawn>Yes</Causes_Despawn>
+				<Min_Siphon_Percentage>40.0</Min_Siphon_Percentage>
+				<Max_Siphon_Percentage>80.0</Max_Siphon_Percentage>
+				<Siphon_Duration_In_Cycles>5</Siphon_Duration_In_Cycles>
+				<SFXEvent_Activate> Unit_Galactic_Siphon_Smuggler</SFXEvent_Activate>
+			</Siphon_Credits_Ability>
+
+			<System_Spy_Ability Name="Smuggler_Limited_Spy">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Galactic_Automatic</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<Duration_In_Secs>-1.0</Duration_In_Secs>
+				<See_Num_Fleets>Yes</See_Num_Fleets>
+			</System_Spy_Ability>
+		</Abilities>
+	</GenericHeroUnit>
+	
+	
+	<HeroCompany Name="Black_Sun_Smuggler_Team">
+		<Text_ID>TEXT_HERO_UNIT_SMUGGLER</Text_ID>
+		<Icon_Name>i_button_smuggler.tga</Icon_Name>
+		<GUI_Row>1</GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Black_Sun</Affiliation>
+		<Build_Cost_Credits>500</Build_Cost_Credits>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Heroes>Yes</Build_Tab_Heroes>
+		<Combat_Power_Value>0</Combat_Power_Value>
+		
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures>Black_Sun_Barraks</Required_Special_Structures>
+		<Required_Planets></Required_Planets>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
+		<Company_Units>Black_Sun_Smuggler</Company_Units>
+		<Is_Generic_Hero>Yes</Is_Generic_Hero>
+		<Is_Stealth_Company>Yes</Is_Stealth_Company>
+		<SFXEvent_Build_Complete>Unit_Galactic_Announce_Smuggler</SFXEvent_Build_Complete>
+		<SFXEvent_Build_Started>EHD_Build_Smuggler</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+		
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MINOR </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_SMUGGLER </Encyclopedia_Text>
+		<CategoryMask>NonCombatHero</CategoryMask>
+		<Population_Value>1</Population_Value>
+	</HeroCompany>
+
+    
+    
+    
+</Black_Sun_Smuggler>
+

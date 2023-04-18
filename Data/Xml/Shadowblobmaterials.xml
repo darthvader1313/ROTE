@@ -144,6 +144,35 @@ Format:
 	
 	<!-- First Era Factions -->
 	
+	<Material name="Selection_Early_Empire_Land">
+		<Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Early_Empire.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+	</Material>
+	
+	<Material name="Selection_Early_Empire_Space">       
+        <Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Early_Empire.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+    </Material>
+	
+	<Material name="Selection_Garrison_Early_Empire_Land">
+		<Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_Early_Empire.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+	</Material>
+	
+    <Material name="Selection_Garrison_Early_Empire_Space">
+        <Texture_Name>i_selection_cutout_space.tga</Texture_Name>
+        <Texture_Name_2>I_Selection_Early_Empire.tga</Texture_Name_2>
+        <Shader_Name>BlobStencilMasked.fx</Shader_Name>
+	</Material>
+	
+	<Material name="Bombardment_Early_Empire">
+		<Texture_Name>I_bombardment_Early_Empire.tga</Texture_Name>
+		<Render_Mode>ALPHA</Render_Mode>
+	</Material>
+	
 	<Material name="Selection_Rebel_Terrorists_Land">
 		<Texture_Name>i_selection_cutout.tga</Texture_Name>
 		<Texture_Name_2>I_Selection_Rebel_Terrorists.tga</Texture_Name_2>
@@ -167,6 +196,11 @@ Format:
         <Texture_Name_2>I_Selection_Rebel_Terrorists.tga</Texture_Name_2>
         <Shader_Name>BlobStencilMasked.fx</Shader_Name>
     </Material>
+	
+	<Material name="Bombardment_Terrorists">
+		<Texture_Name>I_bombardment_Terrorists.tga</Texture_Name>
+		<Render_Mode>ALPHA</Render_Mode>
+	</Material>
 	
 	<Material name="Selection_CIS_Remnant_Land">
 		<Texture_Name>i_selection_cutout.tga</Texture_Name>
@@ -192,6 +226,11 @@ Format:
         <Shader_Name>BlobStencilMasked.fx</Shader_Name>
     </Material>
 	
+	<Material name="Bombardment_CIS_Remnant">
+		<Texture_Name>I_bombardment_CIS_Remnant.tga</Texture_Name>
+		<Render_Mode>ALPHA</Render_Mode>
+	</Material>
+	
 	<Material name="Selection_Hutt_Cartel_Land">
 		<Texture_Name>i_selection_cutout.tga</Texture_Name>
 		<Texture_Name_2>I_Selection_Hutt_Cartel.tga</Texture_Name_2>
@@ -215,6 +254,11 @@ Format:
         <Texture_Name_2>I_Selection_Hutt_Cartel.tga</Texture_Name_2>
         <Shader_Name>BlobStencilMasked.fx</Shader_Name>
     </Material>
+	
+	<Material name="Bombardment_Hutt_Cartel">
+		<Texture_Name>I_bombardment_Hutt_Cartel.tga</Texture_Name>
+		<Render_Mode>ALPHA</Render_Mode>
+	</Material>
 	
 	<Material name="Selection_Black_Sun_Land">
 		<Texture_Name>i_selection_cutout.tga</Texture_Name>
@@ -240,6 +284,11 @@ Format:
         <Shader_Name>BlobStencilMasked.fx</Shader_Name>
     </Material>
 	
+	<Material name="Bombardment_Black_Sun">
+		<Texture_Name>I_bombardment_Black_Sun.tga</Texture_Name>
+		<Render_Mode>ALPHA</Render_Mode>
+	</Material>
+	
 	<Material name="Selection_Mandalorians_Land">
 		<Texture_Name>i_selection_cutout.tga</Texture_Name>
 		<Texture_Name_2>I_Selection_Mandalorians.tga</Texture_Name_2>
@@ -263,6 +312,11 @@ Format:
         <Texture_Name_2>I_Selection_Mandalorians.tga</Texture_Name_2>
         <Shader_Name>BlobStencilMasked.fx</Shader_Name>
     </Material>
+	
+	<Material name="Bombardment_Mandalorians">
+		<Texture_Name>I_bombardment_Mandalorians.tga</Texture_Name>
+		<Render_Mode>ALPHA</Render_Mode>
+	</Material>
 	
 	<!-- Second Era Factions -->
 	
@@ -290,6 +344,11 @@ Format:
         <Shader_Name>BlobStencilMasked.fx</Shader_Name>
     </Material>
 	
+	<Material name="Bombardment_Pyke_Syndicate">
+		<Texture_Name>I_bombardment_Pyke_Syndicate.tga</Texture_Name>
+		<Render_Mode>ALPHA</Render_Mode>
+	</Material>
+	
 	<Material name="Selection_Corporate_Sector_Land">
 		<Texture_Name>i_selection_cutout.tga</Texture_Name>
 		<Texture_Name_2>I_Selection_Corporate_Sector.tga</Texture_Name_2>
@@ -313,6 +372,11 @@ Format:
         <Texture_Name_2>I_Selection_Corporate_Sector.tga</Texture_Name_2>
         <Shader_Name>BlobStencilMasked.fx</Shader_Name>
     </Material>
+	
+	<Material name="Bombardment_Corporate_Sector">
+		<Texture_Name>I_bombardment_Pyke_Syndicate.tga</Texture_Name>
+		<Render_Mode>ALPHA</Render_Mode>
+	</Material>
 	
 	<Material name="Selection_Hapan_Consortium_Land">
 		<Texture_Name>i_selection_cutout.tga</Texture_Name>
@@ -338,6 +402,11 @@ Format:
         <Shader_Name>BlobStencilMasked.fx</Shader_Name>
     </Material>
 	
+	<Material name="Bombardment_Hapan_Consortium">
+		<Texture_Name>I_bombardment_Hapan_Consortium.tga</Texture_Name>
+		<Render_Mode>ALPHA</Render_Mode>
+	</Material>
+	
 	<Material name="Selection_Crimson_Dawn_Land">
 		<Texture_Name>i_selection_cutout.tga</Texture_Name>
 		<Texture_Name_2>I_Selection_Crimson_Dawn.tga</Texture_Name_2>
@@ -361,6 +430,11 @@ Format:
         <Texture_Name_2>I_Selection_Crimson_Dawn.tga</Texture_Name_2>
         <Shader_Name>BlobStencilMasked.fx</Shader_Name>
     </Material>
+	
+	<Material name="Bombardment_Crimson_Dawn">
+		<Texture_Name>I_bombardment_Crimson_Dawn.tga</Texture_Name>
+		<Render_Mode>ALPHA</Render_Mode>
+	</Material>
 	
 	<!-- Third Era Factions -->
 	
@@ -388,6 +462,11 @@ Format:
         <Shader_Name>BlobStencilMasked.fx</Shader_Name>
     </Material>
 	
+	<Material name="Bombardment_Imperial_Remnant_Rax">
+		<Texture_Name>I_bombardment_Imperial_Remnant_Rax.tga</Texture_Name>
+		<Render_Mode>ALPHA</Render_Mode>
+	</Material>
+	
 	<Material name="Selection_Imperial_Remnant_Gratloe_Land">
 		<Texture_Name>i_selection_cutout.tga</Texture_Name>
 		<Texture_Name_2>I_Selection_Imperial_Remnant_Gratloe.tga</Texture_Name_2>
@@ -411,6 +490,11 @@ Format:
         <Texture_Name_2>I_Selection_Imperial_Remnant_Gratloe.tga</Texture_Name_2>
         <Shader_Name>BlobStencilMasked.fx</Shader_Name>
     </Material>
+	
+	<Material name="Bombardment_Imperial_Remnant_Gratloe">
+		<Texture_Name>I_bombardment_Imperial_Remnant_Gratloe.tga</Texture_Name>
+		<Render_Mode>ALPHA</Render_Mode>
+	</Material>
 	
 	<Material name="Selection_Imperial_Remnant_Loring_Land">
 		<Texture_Name>i_selection_cutout.tga</Texture_Name>
@@ -436,6 +520,11 @@ Format:
         <Shader_Name>BlobStencilMasked.fx</Shader_Name>
     </Material>
 	
+	<Material name="Bombardment_Imperial_Remnant_Loring">
+		<Texture_Name>I_bombardment_Imperial_Remnant_Loring.tga</Texture_Name>
+		<Render_Mode>ALPHA</Render_Mode>
+	</Material>
+	
 	<Material name="Selection_Imperial_Remnant_Adelhard_Land">
 		<Texture_Name>i_selection_cutout.tga</Texture_Name>
 		<Texture_Name_2>I_Selection_Imperial_Remnant_Adelhard.tga</Texture_Name_2>
@@ -459,6 +548,69 @@ Format:
         <Texture_Name_2>I_Selection_Imperial_Remnant_Adelhard.tga</Texture_Name_2>
         <Shader_Name>BlobStencilMasked.fx</Shader_Name>
     </Material>
+	
+	<Material name="Bombardment_Imperial_Remnant_Adelhard">
+		<Texture_Name>I_bombardment_Imperial_Remnant_Adelhard.tga</Texture_Name>
+		<Render_Mode>ALPHA</Render_Mode>
+	</Material>
+	
+	<Material name="Selection_First_Order_Land">
+		<Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_First_Order.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+	</Material>
+	
+	<Material name="Selection_First_Order_Space">       
+        <Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_First_Order.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+    </Material>
+	
+	<Material name="Selection_Garrison_First_Order_Land">
+		<Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_First_Order.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+	</Material>
+	
+    <Material name="Selection_Garrison_First_Order_Space">
+        <Texture_Name>i_selection_cutout_space.tga</Texture_Name>
+        <Texture_Name_2>I_Selection_First_Order.tga</Texture_Name_2>
+        <Shader_Name>BlobStencilMasked.fx</Shader_Name>
+    </Material>
+	
+	<Material name="Bombardment_First_Order">
+		<Texture_Name>I_bombardment_First_Order.tga</Texture_Name>
+		<Render_Mode>ALPHA</Render_Mode>
+	</Material>
+	
+	<Material name="Selection_New_Republic_Land">
+		<Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_New_Republic.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+	</Material>
+	
+	<Material name="Selection_New_Republic_Space">       
+        <Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_New_Republic.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+    </Material>
+	
+	<Material name="Selection_Garrison_New_Republic_Land">
+		<Texture_Name>i_selection_cutout.tga</Texture_Name>
+		<Texture_Name_2>I_Selection_New_Republic.tga</Texture_Name_2>
+		<Shader_Name>BlobStencilMasked.fx</Shader_Name>
+	</Material>
+	
+    <Material name="Selection_Garrison_New_Republic_Space">
+        <Texture_Name>i_selection_cutout_space.tga</Texture_Name>
+        <Texture_Name_2>I_Selection_New_Republic.tga</Texture_Name_2>
+        <Shader_Name>BlobStencilMasked.fx</Shader_Name>
+    </Material>
+	
+	<Material name="Bombardment_New_Republic">
+		<Texture_Name>I_bombardment_New_Republic.tga</Texture_Name>
+		<Render_Mode>ALPHA</Render_Mode>
+	</Material>
 
 
 	<Material name="Invalid_Move_Land">

@@ -1,0 +1,147 @@
+<?xml version="1.0" ?>
+<GroundBases>
+	
+	<GroundBase Name="Rebel_Alliance_Ground_Base_1">
+		<Text_ID>TEXT_EMPIRE_GROUND_BASE_1</Text_ID>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Rebel_Alliance</Affiliation>
+		<Behavior>DUMMY_GROUND_BASE</Behavior>
+		<Build_Cost_Credits>1500</Build_Cost_Credits>
+		<AI_Combat_Power>1400</AI_Combat_Power>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Build_Tab_Outpost>Yes</Build_Tab_Outpost>
+		<Size_Value>10</Size_Value>
+		<Autoresolve_Health>4000</Autoresolve_Health>
+		<Damage>15</Damage>
+		<Tech_Level>0</Tech_Level>
+		<Base_Level>1</Base_Level>
+		<Prev_Level_Base></Prev_Level_Base>
+		<Next_Level_Base>Rebel_Alliance_Ground_Base_2</Next_Level_Base>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<CategoryMask> Structure </CategoryMask>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+      <Icon_Name>i_button_imperial_base.tga</Icon_Name>
+	</GroundBase>
+
+	<GroundBase Name="Rebel_Alliance_Ground_Base_2">
+		<Text_ID>TEXT_EMPIRE_GROUND_BASE_2</Text_ID>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Rebel_Alliance</Affiliation>
+		<Behavior>DUMMY_GROUND_BASE</Behavior>
+		<Build_Cost_Credits>3000</Build_Cost_Credits>
+		<AI_Combat_Power>3300</AI_Combat_Power>
+		<Build_Time_Seconds>40</Build_Time_Seconds>
+		<Build_Tab_Outpost>Yes</Build_Tab_Outpost>
+		<Size_Value>20</Size_Value>
+		<Autoresolve_Health>7000</Autoresolve_Health>
+		<Damage>15</Damage>
+		<Tech_Level>0</Tech_Level>
+		<Base_Level>2</Base_Level>
+		<Prev_Level_Base>Rebel_Alliance_Ground_Base_1</Prev_Level_Base>
+		<Next_Level_Base>Rebel_Alliance_Ground_Base_3</Next_Level_Base>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<CategoryMask> Structure </CategoryMask>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+      <Icon_Name>i_button_imperial_base.tga</Icon_Name>
+	</GroundBase>
+
+	<GroundBase Name="Rebel_Alliance_Ground_Base_3">
+		<Text_ID>TEXT_EMPIRE_GROUND_BASE_3</Text_ID>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Rebel_Alliance</Affiliation>
+		<Behavior>DUMMY_GROUND_BASE</Behavior>
+		<Build_Cost_Credits>6000</Build_Cost_Credits>
+		<AI_Combat_Power>5500</AI_Combat_Power>
+		<Build_Time_Seconds>80</Build_Time_Seconds>
+		<Build_Tab_Outpost>Yes</Build_Tab_Outpost>
+		<Size_Value>30</Size_Value>
+		<Autoresolve_Health>13000</Autoresolve_Health>
+		<Damage>15</Damage>
+		<Tech_Level>0</Tech_Level>
+		<Base_Level>3</Base_Level>
+		<Prev_Level_Base>Rebel_Alliance_Ground_Base_2</Prev_Level_Base>
+		<Next_Level_Base>Rebel_Alliance_Ground_Base_4</Next_Level_Base>
+		<Required_Ground_Base_Level>2</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<CategoryMask> Structure </CategoryMask>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+      <Icon_Name>i_button_imperial_base.tga</Icon_Name>
+	</GroundBase>
+
+	<GroundBase Name="Rebel_Alliance_Ground_Base_4">
+		<Text_ID>TEXT_EMPIRE_GROUND_BASE_4</Text_ID>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Rebel_Alliance</Affiliation>
+		<Behavior>DUMMY_GROUND_BASE</Behavior>
+		<Build_Cost_Credits>12000</Build_Cost_Credits>
+		<AI_Combat_Power>8300</AI_Combat_Power>
+		<Build_Time_Seconds>120</Build_Time_Seconds>
+		<Build_Tab_Outpost>Yes</Build_Tab_Outpost>
+		<Size_Value>40</Size_Value>
+		<Autoresolve_Health>18000</Autoresolve_Health>
+		<Damage>15</Damage>
+		<Tech_Level>0</Tech_Level>
+		<Base_Level>4</Base_Level>
+		<Prev_Level_Base>Rebel_Alliance_Ground_Base_3</Prev_Level_Base>
+		<Next_Level_Base>Rebel_Alliance_Ground_Base_5</Next_Level_Base>
+		<Required_Ground_Base_Level>3</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<CategoryMask> Structure </CategoryMask>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+      <Icon_Name>i_button_imperial_base.tga</Icon_Name>
+	</GroundBase>
+
+	<GroundBase Name="Rebel_Alliance_Ground_Base_5">
+		<Text_ID>TEXT_EMPIRE_GROUND_BASE_5</Text_ID>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Rebel_Alliance</Affiliation>
+		<Behavior>DUMMY_GROUND_BASE</Behavior>
+		<Build_Cost_Credits>24000</Build_Cost_Credits>
+		<AI_Combat_Power>12800</AI_Combat_Power>
+		<Build_Time_Seconds>200</Build_Time_Seconds>
+		<Build_Tab_Outpost>Yes</Build_Tab_Outpost>
+		<Size_Value>50</Size_Value>
+		<Autoresolve_Health>25000</Autoresolve_Health>
+		<Damage>15</Damage>
+		<Tech_Level>0</Tech_Level>
+		<Base_Level>5</Base_Level>
+		<Prev_Level_Base>Rebel_Alliance_Ground_Base_4</Prev_Level_Base>
+		<Next_Level_Base></Next_Level_Base>
+		<Required_Ground_Base_Level>4</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<CategoryMask> Structure </CategoryMask>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+      <Icon_Name>i_button_imperial_base.tga</Icon_Name>
+	</GroundBase>
+	
+	
+	
+	
+	
+	
+	
+	
+
+</GroundBases>

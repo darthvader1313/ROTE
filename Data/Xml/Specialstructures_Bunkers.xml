@@ -1,0 +1,291 @@
+<?xml version="1.0"?>
+<SpecialStructures>
+
+
+
+	<SpecialStructure Name="Garrison_Bunker_Template">
+		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
+		<Text_ID>TEXT_GROUND_BUNKER</Text_ID>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_BUNKER </Encyclopedia_Text>
+		<MP_Encyclopedia_Text> TEXT_ENCYCLOPEDIA_BUNKER </MP_Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+
+		<Land_Model_Name>NB_Bunker.alo</Land_Model_Name>
+		<Icon_Name>i_button_nb_bunker.tga</Icon_Name>
+
+        <Space_Layer> Land </Space_Layer>	
+        <UnitCollisionClass> Vehicle </UnitCollisionClass>	
+        <Custom_Hard_XExtent> 26.0 </Custom_Hard_XExtent>
+        <Custom_Hard_YExtent> 26.0 </Custom_Hard_YExtent>
+
+
+		<Select_Box_Scale>110</Select_Box_Scale>
+		<GUI_Row> 0 </GUI_Row>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<SFXEvent_Ambient_Loop>Structure_Barracks_Loop</SFXEvent_Ambient_Loop>
+
+		<Behavior>DUMMY_GROUND_STRUCTURE</Behavior>
+		<LandBehavior> REVEAL,SELECTABLE, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,EARTHQUAKE_TARGET, GARRISON_STRUCTURE</LandBehavior>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Exit_Dist>50</Garrison_Exit_Dist>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+		
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		<Is_Community_Property>Yes</Is_Community_Property>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Explosion_Ground_Bunker</Death_Explosions>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.0</Scale_Factor>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size> 
+		<Is_Dummy>No</Is_Dummy>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		
+		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
+
+		<Armor_Type> Armor_Bunker </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Tech_Level>0</Tech_Level>
+
+		<Affiliation>Neutral</Affiliation>
+		<Size_Value>50</Size_Value>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+
+		<Tactical_Health>1000</Tactical_Health>
+		<Victory_Relevant>No</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<Death_Explosions>Explosion_Ground_Bunker</Death_Explosions>
+		<CategoryMask> Structure </CategoryMask>
+
+
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+
+		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
+        <Num_Garrison_Slots>5</Num_Garrison_Slots>
+        <Garrison_Bone_Names>b_garrison_00, b_garrison_01, b_garrison_02, b_garrison_03</Garrison_Bone_Names>
+        <Garrison_Enter_Dist>0</Garrison_Enter_Dist>
+        <Garrison_Radius>5</Garrison_Radius>
+        <Num_Garrison_Guns>8</Num_Garrison_Guns>
+
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+        <AI_Combat_Power>100</AI_Combat_Power>
+		<Property_Flags>TacticalStructure | CanContainGarrison | GarrisonCanFire </Property_Flags>
+
+	</SpecialStructure>
+
+	<SpecialStructure Name="Garrison_Bunker_Empire">
+		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
+		<Icon_Name>i_button_bunker.tga</Icon_Name>
+		<Land_Model_Name>EB_TestBunker.alo</Land_Model_Name>
+		<Affiliation>Empire</Affiliation>
+		<Scale_Factor>1.0</Scale_Factor>
+        <Garrison_Radius>10</Garrison_Radius>
+	</SpecialStructure>
+
+	<SpecialStructure Name="Garrison_Bunker_Rebel">
+		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
+		<Land_Model_Name>RB_Bunker.alo</Land_Model_Name>
+		<Icon_Name>i_button_rb_bunker.tga</Icon_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Affiliation>Rebel</Affiliation>
+	</SpecialStructure>
+
+	<SpecialStructure Name="Garrison_Bunker_Underworld">
+		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
+		<Land_Model_Name>UB_Bunker.alo</Land_Model_Name>
+		<Icon_Name>i_button_ui_bunker.tga</Icon_Name>
+		<Affiliation>Underworld</Affiliation>
+		<Scale_Factor>1.0</Scale_Factor>
+	</SpecialStructure>
+	
+	
+	<!-- First era factions -->
+	
+	<SpecialStructure Name="Garrison_Bunker_Early_Empire">
+		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
+		<Land_Model_Name>UB_Bunker.alo</Land_Model_Name>
+		<Icon_Name>i_button_ui_bunker.tga</Icon_Name>
+		<Affiliation>Early_Empire</Affiliation>
+		<Scale_Factor>1.0</Scale_Factor>
+	</SpecialStructure>
+	
+	<SpecialStructure Name="Garrison_Bunker_Terrorists">
+		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
+		<Land_Model_Name>UB_Bunker.alo</Land_Model_Name>
+		<Icon_Name>i_button_ui_bunker.tga</Icon_Name>
+		<Affiliation>Terrorists</Affiliation>
+		<Scale_Factor>1.0</Scale_Factor>
+	</SpecialStructure>
+	
+	<SpecialStructure Name="Garrison_Bunker_CIS_Remnant">
+		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
+		<Land_Model_Name>UB_Bunker.alo</Land_Model_Name>
+		<Icon_Name>i_button_ui_bunker.tga</Icon_Name>
+		<Affiliation>CIS_Remnant</Affiliation>
+		<Scale_Factor>1.0</Scale_Factor>
+	</SpecialStructure>
+	
+	<SpecialStructure Name="Garrison_Bunker_Black_Sun">
+		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
+		<Land_Model_Name>UB_Bunker.alo</Land_Model_Name>
+		<Icon_Name>i_button_ui_bunker.tga</Icon_Name>
+		<Affiliation>Black_Sun</Affiliation>
+		<Scale_Factor>1.0</Scale_Factor>
+	</SpecialStructure>
+	
+	<SpecialStructure Name="Garrison_Bunker_Hutt_Cartel">
+		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
+		<Land_Model_Name>UB_Bunker.alo</Land_Model_Name>
+		<Icon_Name>i_button_ui_bunker.tga</Icon_Name>
+		<Affiliation>Hutt_Cartel</Affiliation>
+		<Scale_Factor>1.0</Scale_Factor>
+	</SpecialStructure>
+	
+	<SpecialStructure Name="Garrison_Bunker_Mandalorians">
+		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
+		<Land_Model_Name>UB_Bunker.alo</Land_Model_Name>
+		<Icon_Name>i_button_ui_bunker.tga</Icon_Name>
+		<Affiliation>Mandalorians</Affiliation>
+		<Scale_Factor>1.0</Scale_Factor>
+	</SpecialStructure>
+	
+	
+	<!-- Second era factions -->
+	
+	<SpecialStructure Name="Garrison_Bunker_Galactic_Empire">
+		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
+		<Land_Model_Name>UB_Bunker.alo</Land_Model_Name>
+		<Icon_Name>i_button_ui_bunker.tga</Icon_Name>
+		<Affiliation>Galactic_Empire</Affiliation>
+		<Scale_Factor>1.0</Scale_Factor>
+	</SpecialStructure>
+	
+	<SpecialStructure Name="Garrison_Bunker_Rebel_Alliance">
+		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
+		<Land_Model_Name>UB_Bunker.alo</Land_Model_Name>
+		<Icon_Name>i_button_ui_bunker.tga</Icon_Name>
+		<Affiliation>Rebel_Alliance</Affiliation>
+		<Scale_Factor>1.0</Scale_Factor>
+	</SpecialStructure>
+	
+	<SpecialStructure Name="Garrison_Bunker_Pyke_Syndicate">
+		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
+		<Land_Model_Name>UB_Bunker.alo</Land_Model_Name>
+		<Icon_Name>i_button_ui_bunker.tga</Icon_Name>
+		<Affiliation>Pyke_Syndicate</Affiliation>
+		<Scale_Factor>1.0</Scale_Factor>
+	</SpecialStructure>
+	
+	<SpecialStructure Name="Garrison_Bunker_Corporate_Sector">
+		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
+		<Land_Model_Name>UB_Bunker.alo</Land_Model_Name>
+		<Icon_Name>i_button_ui_bunker.tga</Icon_Name>
+		<Affiliation>Corporate_Sector</Affiliation>
+		<Scale_Factor>1.0</Scale_Factor>
+	</SpecialStructure>
+	
+	<SpecialStructure Name="Garrison_Bunker_Hapan_Consortium">
+		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
+		<Land_Model_Name>UB_Bunker.alo</Land_Model_Name>
+		<Icon_Name>i_button_ui_bunker.tga</Icon_Name>
+		<Affiliation>Hapan_Consortium</Affiliation>
+		<Scale_Factor>1.0</Scale_Factor>
+	</SpecialStructure>
+	
+	<SpecialStructure Name="Garrison_Bunker_Crimson_Dawn">
+		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
+		<Land_Model_Name>UB_Bunker.alo</Land_Model_Name>
+		<Icon_Name>i_button_ui_bunker.tga</Icon_Name>
+		<Affiliation>Crimson_Dawn</Affiliation>
+		<Scale_Factor>1.0</Scale_Factor>
+	</SpecialStructure>
+	
+	
+	<!-- Third era factions -->
+	
+	<SpecialStructure Name="Garrison_Bunker_New_Republic">
+		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
+		<Land_Model_Name>UB_Bunker.alo</Land_Model_Name>
+		<Icon_Name>i_button_ui_bunker.tga</Icon_Name>
+		<Affiliation>New_Republic</Affiliation>
+		<Scale_Factor>1.0</Scale_Factor>
+	</SpecialStructure>
+	
+	<SpecialStructure Name="Garrison_Bunker_Imperial_Remnant_Rax">
+		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
+		<Land_Model_Name>UB_Bunker.alo</Land_Model_Name>
+		<Icon_Name>i_button_ui_bunker.tga</Icon_Name>
+		<Affiliation>Imperial_Remnant_Rax</Affiliation>
+		<Scale_Factor>1.0</Scale_Factor>
+	</SpecialStructure>
+	
+	<SpecialStructure Name="Garrison_Bunker_Imperial_Remnant_Gratloe">
+		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
+		<Land_Model_Name>UB_Bunker.alo</Land_Model_Name>
+		<Icon_Name>i_button_ui_bunker.tga</Icon_Name>
+		<Affiliation>Imperial_Remnant_Gratloe</Affiliation>
+		<Scale_Factor>1.0</Scale_Factor>
+	</SpecialStructure>
+	
+	<SpecialStructure Name="Garrison_Bunker_Imperial_Remnant_Loring">
+		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
+		<Land_Model_Name>UB_Bunker.alo</Land_Model_Name>
+		<Icon_Name>i_button_ui_bunker.tga</Icon_Name>
+		<Affiliation>Imperial_Remnant_Loring</Affiliation>
+		<Scale_Factor>1.0</Scale_Factor>
+	</SpecialStructure>
+	
+	<SpecialStructure Name="Garrison_Bunker_Imperial_Remnant_Adelhard">
+		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
+		<Land_Model_Name>UB_Bunker.alo</Land_Model_Name>
+		<Icon_Name>i_button_ui_bunker.tga</Icon_Name>
+		<Affiliation>Imperial_Remnant_Adelhard</Affiliation>
+		<Scale_Factor>1.0</Scale_Factor>
+	</SpecialStructure>
+	
+	<SpecialStructure Name="Garrison_Bunker_First_Order">
+		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
+		<Land_Model_Name>UB_Bunker.alo</Land_Model_Name>
+		<Icon_Name>i_button_ui_bunker.tga</Icon_Name>
+		<Affiliation>First_Order</Affiliation>
+		<Scale_Factor>1.0</Scale_Factor>
+	</SpecialStructure>
+
+	<SpecialStructure Name="Garrison_Bunker_Capturable">
+		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
+		<LandBehavior>SPACE_OBSTACLE, REVEAL,SELECTABLE, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,EARTHQUAKE_TARGET, GARRISON_STRUCTURE, CAPTURE_POINT</LandBehavior>
+		<Land_Model_Name>NB_Bunker.alo</Land_Model_Name>
+        <Ownership_Sticks>No</Ownership_Sticks>
+		<Capture_Point_Transition_Time_Seconds>3</Capture_Point_Transition_Time_Seconds>
+		<Capture_Point_Radius>220</Capture_Point_Radius>
+		<Affiliation>
+		  Rebel, Empire, Underworld, Pirates, Neutral,Hutts, 
+		  Early_Empire, Terrorists, CIS_Remnant, Black_Sun, Hutt_Cartel, Mandalorians, 
+          Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn,
+		  New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order
+		</Affiliation>
+		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
+      <Include_In_UI_Map_Header>True</Include_In_UI_Map_Header>
+	</SpecialStructure>
+
+
+
+
+</SpecialStructures>

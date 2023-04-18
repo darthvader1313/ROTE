@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+
+
+
+<!--***********************************************-->
+<!--***** CAMPAIGN: GATEWAYS (Empire Version) *****-->
+<!--***********************************************-->
+
+
+
+<Story>
+
+    <Event Name="Universal_Story_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+	
+	<Event Name="Galactic_Empire_Reveal_Galaxy">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_ALL_PLANETS</Reward_Type>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	
+	<!-- Era 1 -->
+
+	<Event Name="Galactic_Empire_Enters_Tech_01">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>1</Event_Param1>
+	</Event>
+	
+		
+	<!-- Era 2 -->
+	<Event Name="Galactic_Empire_Enters_Tech_02">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>2</Event_Param1>
+	</Event>
+	
+
+	<!-- Era 3 -->
+	<Event Name="Galactic_Empire_Enters_Tech_03">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>3</Event_Param1>
+	</Event>
+	
+
+	<!-- Era 4 -->
+	<Event Name="Galactic_Empire_Enters_Tech_04">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>4</Event_Param1>
+	</Event>
+	
+	
+	<!-- Era 5 -->
+	<Event Name="Galactic_Empire_Enters_Tech_05">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>5</Event_Param1>
+	</Event>
+
+	
+	
+	
+	
+	
+	
+	<!-- Spawn Heroes -->
+	
+	<Event Name="Spawn_Emperor_Sheev_Palpatine">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Emperor_Sheev_Palpatine_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Galactic_Empire_Enters_Tech_01</Prereq>
+	</Event>
+
+</Story>

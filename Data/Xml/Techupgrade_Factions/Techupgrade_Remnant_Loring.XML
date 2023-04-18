@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<Hero_Upgrade_Files>
+
+
+<SpaceUnit Name="Imperial_Remnant_Loring_Tech_02">
+        <Text_ID>UPGRADE_REMNANT_LORING_TECH_02</Text_ID>
+
+       
+        <Affiliation>Imperial_Remnant_Loring</Affiliation>
+		<Icon_Name>I_ENCYCLOPEDIA_REMNANT_LORING_SYMBOL.tga</Icon_Name>
+        <Tech_Level>1</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>0</Required_Star_Base_Level>
+        <Required_Special_Structures></Required_Special_Structures>
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>600</Build_Time_Seconds>
+        <Build_Cost_Credits>5000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+        <Behavior> GARRISON_VEHICLE, SELECTABLE, POWERED </Behavior>
+		<Build_Advances_Tech_Level>2</Build_Advances_Tech_Level>
+		<CategoryMask> Capital </CategoryMask>
+		<Ship_Class>capital</Ship_Class>
+		<AI_Combat_Power>50000</AI_Combat_Power>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> UPGRADE_REMNANT_LORING_TECH_02 </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 172, 225, 242, 255 </Build_Countdown_Text_RGBA>
+		<Build_Music_Completed>  </Build_Music_Completed>
+
+    </SpaceUnit>
+
+<SpaceUnit Name="Imperial_Remnant_Loring_Tech_03">
+        <Text_ID>UPGRADE_REMNANT_LORING_TECH_03</Text_ID>
+
+       
+        <Affiliation>Imperial_Remnant_Loring</Affiliation>
+		<Icon_Name>I_ENCYCLOPEDIA_REMNANT_LORING_SYMBOL.tga</Icon_Name>
+        <Tech_Level>2</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>0</Required_Star_Base_Level>
+        <Required_Special_Structures></Required_Special_Structures>
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>600</Build_Time_Seconds>
+        <Build_Cost_Credits>5000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+        <Behavior> GARRISON_VEHICLE, SELECTABLE, POWERED </Behavior>
+		<Build_Advances_Tech_Level>3</Build_Advances_Tech_Level>
+		<CategoryMask> Capital </CategoryMask>
+		<Ship_Class>capital</Ship_Class>
+		<AI_Combat_Power>50000</AI_Combat_Power>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> UPGRADE_REMNANT_LORING_TECH_03 </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 172, 225, 242, 255 </Build_Countdown_Text_RGBA>
+		<Build_Music_Completed>  </Build_Music_Completed>
+
+    </SpaceUnit>
+
+<SpaceUnit Name="Imperial_Remnant_Loring_Tech_04">
+        <Text_ID>UPGRADE_REMNANT_LORING_TECH_04</Text_ID>
+
+       
+        <Affiliation>Imperial_Remnant_Loring</Affiliation>
+		<Icon_Name>I_ENCYCLOPEDIA_REMNANT_LORING_SYMBOL.tga</Icon_Name>
+        <Tech_Level>3</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>0</Required_Star_Base_Level>
+        <Required_Special_Structures></Required_Special_Structures>
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>600</Build_Time_Seconds>
+        <Build_Cost_Credits>5000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+        <Behavior> GARRISON_VEHICLE, SELECTABLE, POWERED </Behavior>
+		<Build_Advances_Tech_Level>4</Build_Advances_Tech_Level>
+		<CategoryMask> Capital </CategoryMask>
+		<Ship_Class>capital</Ship_Class>
+		<AI_Combat_Power>50000</AI_Combat_Power>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> UPGRADE_REMNANT_LORING_TECH_04 </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 172, 225, 242, 255 </Build_Countdown_Text_RGBA>
+		<Build_Music_Completed>  </Build_Music_Completed>
+
+    </SpaceUnit>
+
+<SpaceUnit Name="Imperial_Remnant_Loring_Tech_05">
+        <Text_ID>UPGRADE_REMNANT_LORING_TECH_05</Text_ID>
+       
+       
+        <Affiliation>Imperial_Remnant_Loring</Affiliation>
+		<Icon_Name>I_ENCYCLOPEDIA_REMNANT_LORING_SYMBOL.tga</Icon_Name>
+        <Tech_Level>4</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>0</Required_Star_Base_Level>
+        <Required_Special_Structures></Required_Special_Structures>
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>600</Build_Time_Seconds>
+        <Build_Cost_Credits>5000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+        <Behavior> GARRISON_VEHICLE, SELECTABLE, POWERED </Behavior>
+		<Build_Advances_Tech_Level>5</Build_Advances_Tech_Level>
+		<CategoryMask> Capital </CategoryMask>
+		<Ship_Class>capital</Ship_Class>
+		<AI_Combat_Power>50000</AI_Combat_Power>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> UPGRADE_REMNANT_LORING_TECH_05 </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 172, 225, 242, 255 </Build_Countdown_Text_RGBA>
+		<Build_Music_Completed>  </Build_Music_Completed>
+
+    </SpaceUnit>
+
+	
+
+	
+	
+	
+	
+
+	
+	
+
+	
+	
+	
+	
+
+
+</Hero_Upgrade_Files>

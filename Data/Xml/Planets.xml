@@ -3236,9 +3236,9 @@
   <Planet Name="Foless">
     <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_FOLESS</Text_ID>
-    <Galactic_Model_Name>w_planet_sphere_urban01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_foless.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>w_planet_sphere_urban01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_foless.alo</GUI_Model_Name>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
     <Mass>1.0</Mass>
@@ -5897,7 +5897,7 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
-    <Space_Tactical_Map>space_Wayland_ROTE.ted</Space_Tactical_Map>
+    <Space_Tactical_Map>space_Taris_ROTE.ted</Space_Tactical_Map>
     <Land_Tactical_Map>_land_planet_wayland_02.ted</Land_Tactical_Map>
     <Planet_Capture_Bonus_Reward> 250 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
@@ -6285,6 +6285,53 @@
     <Describe_Population></Describe_Population>
     
     <Describe_History>TEXT_PLANET_UMBARA_INFO_HIS_01</Describe_History>
+    
+    
+    <Planet_Ability_Icon></Planet_Ability_Icon>
+    <Native_Icon_Name></Native_Icon_Name>
+    <Additional_Population_Capacity>10</Additional_Population_Capacity>
+    
+    
+  </Planet>
+	
+	<Planet Name="Trandosha">
+    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Text_ID>TEXT_OBJECT_STAR_SYSTEM_TRANDOSHA</Text_ID>
+    <Galactic_Model_Name>w_planet_sphere_trandosha.alo</Galactic_Model_Name>
+    <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_trandosha.alo</GUI_Model_Name>
+    <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+    <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+    <Mass>1.0</Mass>
+    <Scale_Factor>1.0</Scale_Factor>
+    <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
+    <Show_Name>Yes</Show_Name>
+    <Name_Adjust>-18, -12, 0.1</Name_Adjust>
+    <Terrain>Temperate</Terrain>
+    <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+    <Pre_Lit>no</Pre_Lit>
+    <Political_Control>0</Political_Control>
+    <Camera_Aligned>yes</Camera_Aligned>
+    <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+    <Planet_Credit_Value>150</Planet_Credit_Value>
+    <Planet_Destroyed_Credit_Value>15</Planet_Destroyed_Credit_Value>
+    <Galactic_Position>581.0, 95.0, 10.0</Galactic_Position>
+    <Special_Structures_Land>6</Special_Structures_Land>
+    <Special_Structures_Space>4</Special_Structures_Space>
+    <Max_Space_Base>5</Max_Space_Base>
+    <The_Force>Neutral</The_Force>
+    <Force_Strength>0.0</Force_Strength>
+    <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+    <Space_Tactical_Map>space_Temperate01_ROTE.ted</Space_Tactical_Map>
+    <Land_Tactical_Map>_land_planet_wayland_02.ted</Land_Tactical_Map>
+    <Planet_Capture_Bonus_Reward> 250 </Planet_Capture_Bonus_Reward>
+    <Planet_Slice_Difficulty_Rating>4</Planet_Slice_Difficulty_Rating>
+    <Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
+    <Planet_Slice_Affinity_Types />
+    <Planet_Black_Market_Modifier>800</Planet_Black_Market_Modifier>
+    <Describe_Population></Describe_Population>
+    
+    <Describe_History>TEXT_PLANET_TRANDOSHA_INFO_HIS_01</Describe_History>
     
     
     <Planet_Ability_Icon></Planet_Ability_Icon>
@@ -8650,6 +8697,53 @@
     
   </Planet>
 	
+	<Planet Name="Nevarro">
+    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+    <Text_ID>TEXT_OBJECT_STAR_SYSTEM_NEVARRO</Text_ID>
+    <Galactic_Model_Name>w_planet_sphere_nevarro.alo</Galactic_Model_Name>
+    <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_nevarro.alo</GUI_Model_Name>
+    <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+    <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+    <Mass>1.0</Mass>
+    <Scale_Factor>1.0</Scale_Factor>
+    <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
+    <Show_Name>Yes</Show_Name>
+    <Name_Adjust>-18, -12, 0.1</Name_Adjust>
+    <Terrain>Temperate</Terrain>
+    <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+    <Pre_Lit>no</Pre_Lit>
+    <Political_Control>0</Political_Control>
+    <Camera_Aligned>yes</Camera_Aligned>
+    <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+    <Planet_Credit_Value>150</Planet_Credit_Value>
+    <Planet_Destroyed_Credit_Value>15</Planet_Destroyed_Credit_Value>
+    <Galactic_Position>-87.0, -477.0, 10.0</Galactic_Position>
+    <Special_Structures_Land>6</Special_Structures_Land>
+    <Special_Structures_Space>4</Special_Structures_Space>
+    <Max_Space_Base>5</Max_Space_Base>
+    <The_Force>Neutral</The_Force>
+    <Force_Strength>0.0</Force_Strength>
+    <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+    <Space_Tactical_Map>space_Temperate01_ROTE.ted</Space_Tactical_Map>
+    <Land_Tactical_Map>_land_planet_wayland_02.ted</Land_Tactical_Map>
+    <Planet_Capture_Bonus_Reward> 250 </Planet_Capture_Bonus_Reward>
+    <Planet_Slice_Difficulty_Rating>4</Planet_Slice_Difficulty_Rating>
+    <Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
+    <Planet_Slice_Affinity_Types />
+    <Planet_Black_Market_Modifier>800</Planet_Black_Market_Modifier>
+    <Describe_Population></Describe_Population>
+    
+    <Describe_History>TEXT_PLANET_NEVARRO_INFO_HIS_01</Describe_History>
+    
+    
+    <Planet_Ability_Icon></Planet_Ability_Icon>
+    <Native_Icon_Name></Native_Icon_Name>
+    <Additional_Population_Capacity>10</Additional_Population_Capacity>
+    
+    
+  </Planet>
+	
 	<Planet Name="Naboo">
     <Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_NABOO</Text_ID>
@@ -8678,7 +8772,7 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
-    <Space_Tactical_Map>space_Temperate04_ROTE.ted</Space_Tactical_Map>
+    <Space_Tactical_Map>space_Naboo_ROTE.ted</Space_Tactical_Map>
     <Land_Tactical_Map> _land_planet_naboo_02.ted </Land_Tactical_Map>
     <Planet_Capture_Bonus_Reward> 250 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
@@ -9337,7 +9431,7 @@
     <Force_Strength>0.0</Force_Strength>
     <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
     <Space_Tactical_Map>space_Mustafar_ROTE.ted</Space_Tactical_Map>
-    <Land_Tactical_Map> land_Mustafar_ROTE.ted </Land_Tactical_Map>
+    <Land_Tactical_Map> _Land_Planet_Mustafar_01.ted </Land_Tactical_Map>
     <Planet_Capture_Bonus_Reward> 250 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
@@ -9854,7 +9948,7 @@
     <Force_Strength>0.0</Force_Strength>
     <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
     <Space_Tactical_Map>space_Kamino_ROTE.ted</Space_Tactical_Map>
-    <Land_Tactical_Map> land_Kamino_ROTE.ted </Land_Tactical_Map>
+    <Land_Tactical_Map> _Land_Planet_Kamino_01.ted </Land_Tactical_Map>
     <Planet_Capture_Bonus_Reward> 250 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
@@ -13165,9 +13259,9 @@
   <Planet Name="Alakatha">
     <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_ALAKATHA</Text_ID>
-    <Galactic_Model_Name>w_planet_sphere_temperate.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_alakatha.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>w_planet_sphere_temperate.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_alakatha.alo</GUI_Model_Name>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
     <Mass>1.0</Mass>
