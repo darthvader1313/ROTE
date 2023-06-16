@@ -752,9 +752,9 @@
 
 		<Allies />
 		<Enemies>
-		Empire, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Hutt_Cartel, Black_Sun, Mandalorians, 
-		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn,
-		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order
+		Empire, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Trade_Federation, Commerce_Guild, Techno_Union, Banking_Clan, Mandalorians, 
+		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn, Hutt_Cartel, Black_Sun,
+		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order, Imperial_Remnant_Thrawn, Chiss_Ascendancy
 		</Enemies>
 		
 		<Can_Control_Planets>true</Can_Control_Planets>
@@ -1520,9 +1520,9 @@
 
 		<Allies />
 		<Enemies>
-		Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Hutt_Cartel, Black_Sun, Mandalorians, 
-		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn,
-		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order
+		Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Trade_Federation, Commerce_Guild, Techno_Union, Banking_Clan, Mandalorians, 
+		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn, Hutt_Cartel, Black_Sun,
+		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order, Imperial_Remnant_Thrawn, Chiss_Ascendancy
 		</Enemies>
 		
 		<Can_Control_Planets>true</Can_Control_Planets>
@@ -1684,9 +1684,9 @@
 
 		<Allies>Neutral</Allies>
 		<Enemies>
-		Empire, Rebel, Pirates, Sarlacc, Underworld, Early_Empire, Terrorists, CIS_Remnant, Hutt_Cartel, Black_Sun, Mandalorians, 
-		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn,
-		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order
+		Empire, Rebel, Pirates, Sarlacc, Underworld, Early_Empire, Terrorists, CIS_Remnant, Trade_Federation, Commerce_Guild, Techno_Union, Banking_Clan, Mandalorians, 
+		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn, Hutt_Cartel, Black_Sun,
+		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order, Imperial_Remnant_Thrawn, Chiss_Ascendancy
 		</Enemies>
 
 	</Faction>
@@ -1726,9 +1726,9 @@
 
 		<Allies />
 		<Enemies>
-		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Hutt_Cartel, Black_Sun, Mandalorians, 
-		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn,
-		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order
+		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Trade_Federation, Commerce_Guild, Techno_Union, Banking_Clan, Mandalorians, 
+		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn, Hutt_Cartel, Black_Sun,
+		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order, Imperial_Remnant_Thrawn, Chiss_Ascendancy
 		</Enemies>
 
 	</Faction>

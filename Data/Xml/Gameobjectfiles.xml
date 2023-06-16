@@ -10,8 +10,10 @@
 	<File>Groundbases\Groundbases_Early_Empire.xml</File>
 	<File>Groundbases\Groundbases_Terrorists.xml</File>
 	<File>Groundbases\Groundbases_CIS_Remnant.xml</File>
-	<File>Groundbases\Groundbases_Black_Sun.xml</File>
-	<File>Groundbases\Groundbases_Hutt_Cartel.xml</File>
+	<File>Groundbases\Groundbases_Trade_Federation.xml</File>
+	<File>Groundbases\Groundbases_Commerce_Guild.xml</File>
+	<File>Groundbases\Groundbases_Techno_Union.xml</File>
+	<File>Groundbases\Groundbases_Banking_Clan.xml</File>
 	<File>Groundbases\Groundbases_Mandalorians.xml</File>
 	<!-- Second Era -->
 	<File>Groundbases\Groundbases_Galactic_Empire.xml</File>
@@ -20,6 +22,8 @@
 	<File>Groundbases\Groundbases_Corporate_Sector.xml</File>
 	<File>Groundbases\Groundbases_Hapan_Consortium.xml</File>
 	<File>Groundbases\Groundbases_Crimson_Dawn.xml</File>
+	<File>Groundbases\Groundbases_Black_Sun.xml</File>
+	<File>Groundbases\Groundbases_Hutt_Cartel.xml</File>
 	<!-- Third Era -->
 	<File>Groundbases\Groundbases_New_Republic.xml</File>
     <File>Groundbases\Groundbases_Remnant_Rax.xml</File>
@@ -27,6 +31,9 @@
 	<File>Groundbases\Groundbases_Remnant_Loring.xml</File>
 	<File>Groundbases\Groundbases_Remnant_Adelhard.xml</File>
 	<File>Groundbases\Groundbases_First_Order.xml</File>
+	<File>Groundbases\Groundbases_Remnant_Thrawn.xml</File>
+	<File>Groundbases\Groundbases_Chiss_Ascendancy.xml</File>
+	<!-- Side Factions -->
 	<File>GroundStructures.xml</File>
 	<File>GroundTurrets.xml</File>
 	<File>GroundInfantry.xml</File>
@@ -67,8 +74,10 @@
 	<File>Specialstructures_Factions\Specialstructures_Terrorists.xml</File>
 	<File>Specialstructures_Factions\Specialstructures_Early_Empire.xml</File>
 	<File>Specialstructures_Factions\Specialstructures_CIS_Remnant.xml</File>
-	<File>Specialstructures_Factions\Specialstructures_Black_Sun.xml</File>
-	<File>Specialstructures_Factions\Specialstructures_Hutt_Cartel.xml</File>
+    <File>Specialstructures_Factions\Specialstructures_Trade_Federation.xml</File>
+	<File>Specialstructures_Factions\Specialstructures_Commerce_Guild.xml</File>
+	<File>Specialstructures_Factions\Specialstructures_Techno_Union.xml</File>
+	<File>Specialstructures_Factions\Specialstructures_Banking_Clan.xml</File>
 	<File>Specialstructures_Factions\Specialstructures_Mandalorians.xml</File>
 	<!-- Second Era -->
 	<File>Specialstructures_Factions\Specialstructures_Galactic_Empire.xml</File>
@@ -77,20 +86,27 @@
 	<File>Specialstructures_Factions\Specialstructures_Corporate_Sector.xml</File>
 	<File>Specialstructures_Factions\Specialstructures_Hapan_Consortium.xml</File>
 	<File>Specialstructures_Factions\Specialstructures_Crimson_Dawn.xml</File>
+	<File>Specialstructures_Factions\Specialstructures_Black_Sun.xml</File>
+	<File>Specialstructures_Factions\Specialstructures_Hutt_Cartel.xml</File>
 	<!-- Third Era -->
 	<File>Specialstructures_Factions\Specialstructures_New_Republic.xml</File>
 	<File>Specialstructures_Factions\Specialstructures_Remnant_Rax.xml</File>
 	<File>Specialstructures_Factions\Specialstructures_Remnant_Gratloe.xml</File>
 	<File>Specialstructures_Factions\Specialstructures_Remnant_Loring.xml</File>
 	<File>Specialstructures_Factions\Specialstructures_Remnant_Adelhard.xml</File>
-    <File>Specialstructures_Factions\Specialstructures_First_Order.xml</File>	
+    <File>Specialstructures_Factions\Specialstructures_First_Order.xml</File>
+    <File>Specialstructures_Factions\Specialstructures_Remnant_Thrawn.xml</File>	
+	<File>Specialstructures_Factions\Specialstructures_Chiss_Ascendancy.xml</File>
+    <!-- Side Factions -->
 
 	<!-- First Era -->
 	<File>Techupgrade_Factions\Techupgrade_Early_Empire.xml</File>
 	<File>Techupgrade_Factions\Techupgrade_Terrorists.xml</File>
-	<File>Techupgrade_Factions\Techupgrade_CIS.xml</File>
-	<File>Techupgrade_Factions\Techupgrade_Black_Sun.xml</File>
-	<File>Techupgrade_Factions\Techupgrade_Hutt_Cartel.xml</File>
+	<File>Techupgrade_Factions\Techupgrade_CIS_Remnant.xml</File>
+	<File>Techupgrade_Factions\Techupgrade_Trade_Federation.xml</File>
+	<File>Techupgrade_Factions\Techupgrade_Commerce_Guild.xml</File>
+	<File>Techupgrade_Factions\Techupgrade_Techno_Union.xml</File>
+	<File>Techupgrade_Factions\Techupgrade_Banking_Clan.xml</File>
 	<File>Techupgrade_Factions\Techupgrade_Mandalorians.xml</File>
 	<!-- Second Era -->
     <File>Techupgrade_Factions\Techupgrade_Galactic_Empire.xml</File>
@@ -99,6 +115,8 @@
 	<File>Techupgrade_Factions\Techupgrade_Corporate_Sector.xml</File>
 	<File>Techupgrade_Factions\Techupgrade_Hapan_Consortium.xml</File>
 	<File>Techupgrade_Factions\Techupgrade_Crimson_Dawn.xml</File>
+	<File>Techupgrade_Factions\Techupgrade_Black_Sun.xml</File>
+	<File>Techupgrade_Factions\Techupgrade_Hutt_Cartel.xml</File>
     <!-- Third Era -->
 	<File>Techupgrade_Factions\Techupgrade_New_Republic.xml</File>
 	<File>Techupgrade_Factions\Techupgrade_Remnant_Rax.xml</File>
@@ -106,7 +124,40 @@
 	<File>Techupgrade_Factions\Techupgrade_Remnant_Loring.xml</File>
 	<File>Techupgrade_Factions\Techupgrade_Remnant_Adelhard.xml</File>
 	<File>Techupgrade_Factions\Techupgrade_First_Order.xml</File>
+	<File>Techupgrade_Factions\Techupgrade_Remnant_Thrawn.xml</File>
+	<File>Techupgrade_Factions\Techupgrade_Chiss_Ascendancy.xml</File>
+	<!-- Side Factions -->
+
 	<File>StarBases.xml</File>
+	<!-- First Era -->
+	<File>Starbases_Factions\Starbases_Early_Empire.xml</File>
+	<File>Starbases_Factions\Starbases_Terrorists.xml</File>
+	<File>Starbases_Factions\Starbases_CIS_Remnant.xml</File>
+	<File>Starbases_Factions\Starbases_Trade_Federation.xml</File>
+	<File>Starbases_Factions\Starbases_Commerce_Guild.xml</File>
+	<File>Starbases_Factions\Starbases_Techno_Union.xml</File>
+	<File>Starbases_Factions\Starbases_Banking_Clan.xml</File>
+	<File>Starbases_Factions\Starbases_Mandalorians.xml</File>
+	<!-- Second Era -->
+	<File>Starbases_Factions\Starbases_Galactic_Empire.xml</File>
+	<File>Starbases_Factions\Starbases_Rebel_Alliance.xml</File>
+	<File>Starbases_Factions\Starbases_Pyke_Syndicate.xml</File>
+	<File>Starbases_Factions\Starbases_Corporate_Sector.xml</File>
+	<File>Starbases_Factions\Starbases_Hapan_Consortium.xml</File>
+	<File>Starbases_Factions\Starbases_Crimson_Dawn.xml</File>
+	<File>Starbases_Factions\Starbases_Black_Sun.xml</File>
+	<File>Starbases_Factions\Starbases_Hutt_Cartel.xml</File>
+	<!-- Third Era -->
+	<File>Starbases_Factions\Starbases_New_Republic.xml</File>
+	<File>Starbases_Factions\Starbases_Imperial_Remnant_Rax.xml</File>
+	<File>Starbases_Factions\Starbases_Imperial_Remnant_Gratloe.xml</File>
+	<File>Starbases_Factions\Starbases_Imperial_Remnant_Loring.xml</File>
+	<File>Starbases_Factions\Starbases_Imperial_Remnant_Adelhard.xml</File>
+	<File>Starbases_Factions\Starbases_First_Order.xml</File>
+	<File>Starbases_Factions\Starbases_Imperial_Remnant_Thrawn.xml</File>
+	<File>Starbases_Factions\Starbases_Chiss_Ascendancy.xml</File>
+	<!-- Side Factions -->
+
 	<File>Squadrons.xml</File>
 
 	<File>Planets.xml</File>
@@ -261,6 +312,7 @@
 	<File>Early_Empire_units\Land_units_Early_Empire\Infantry_units_Early_Empire\Units_land_early_empire_Novatroopers.xml</File>
 	<File>Early_Empire_units\Land_units_Early_Empire\Infantry_units_Early_Empire\Units_land_early_empire_purge_trooper.xml</File>
 	<File>Early_Empire_units\Land_units_Early_Empire\Infantry_units_Early_Empire\Units_land_early_empire_stormtrooper.xml</File>
+	<File>Early_Empire_units\Land_units_Early_Empire\Infantry_units_Early_Empire\Units_land_early_empire_survivors.xml</File>
 	
 	
 	
@@ -278,55 +330,64 @@
 	<File>Terrorists_units\Land_units_Terrorists\Infantry_units_Terrorists\Units_land_Terrorist_Sniper_Forest.xml</File>
 	<File>Terrorists_units\Land_units_Terrorists\Infantry_units_Terrorists\Units_land_Terrorist_Sniper_Snow.xml</File>
 	<File>Terrorists_units\Land_units_Terrorists\Infantry_units_Terrorists\Units_land_Terrorist_Vanguard_Trooper.xml</File>
+	<File>Terrorists_units\Land_units_Terrorists\Infantry_units_Terrorists\Units_land_Terrorist_survivors.xml</File>
 	
 	
 	
 	<!-- CIS Remnants -->
 	
-	<File>CIS_units\Hero_units_CIS\Units_hero_CIS_Gizor_Dellso.xml</File>
+	<File>CIS_Remnant_units\Hero_units_CIS_Remnant\Units_hero_CIS_Gizor_Dellso.xml</File>
 	
-	<File>CIS_units\Land_units_CIS\Infantry_units_CIS\Units_land_cis_B1_droid_commander.xml</File>
-	<File>CIS_units\Land_units_CIS\Infantry_units_CIS\Units_land_cis_battledroid.xml</File>
-	<File>CIS_units\Land_units_CIS\Infantry_units_CIS\Units_land_cis_BattleDroid_Grenadier.xml</File>
-	<File>CIS_units\Land_units_CIS\Infantry_units_CIS\Units_land_cis_battledroid_heavy.xml</File>
-	<File>CIS_units\Land_units_CIS\Infantry_units_CIS\Units_land_cis_battledroid_specialist.xml</File>
-	<File>CIS_units\Land_units_CIS\Infantry_units_CIS\Units_land_cis_Battledroids_Sand.xml</File>
-	<File>CIS_units\Land_units_CIS\Infantry_units_CIS\Units_land_cis_bx_commando.xml</File>
-	<File>CIS_units\Land_units_CIS\Infantry_units_CIS\Units_land_cis_plex_droid.xml</File>
-	<File>CIS_units\Land_units_CIS\Infantry_units_CIS\Units_land_cis_super_B2_Grapple.xml</File>
-	<File>CIS_units\Land_units_CIS\Infantry_units_CIS\Units_land_cis_super_battledroid.xml</File>
-	
-	
-	
-	<!-- Black Sun -->
-	
-	<File>Black_Sun_Units\Hero_units_Black_Sun\Units_hero_Black_Sun_Xizor.xml</File>
-	
-	<File>Black_Sun_Units\Land_units_Black_Sun\Infantry_Units_Black_Sun\Units_land_Black_Sun_Aqualish_Bounty.xml</File>
-	<File>Black_Sun_Units\Land_units_Black_Sun\Infantry_Units_Black_Sun\Units_land_Black_Sun_Mirialan_Trooper.xml</File>
-	<File>Black_Sun_Units\Land_units_Black_Sun\Infantry_Units_Black_Sun\Units_land_Black_Sun_Rodian_Bounty.xml</File>
-	<File>Black_Sun_Units\Land_units_Black_Sun\Infantry_Units_Black_Sun\Units_land_Black_Sun_Rodian_Bounty2.xml</File>
-	<File>Black_Sun_Units\Land_units_Black_Sun\Infantry_Units_Black_Sun\Units_land_Black_Sun_Sand_Trooper.xml</File>
-	<File>Black_Sun_Units\Land_units_Black_Sun\Infantry_Units_Black_Sun\Units_land_Black_Sun_Twilek_Forest.xml</File>
-	<File>Black_Sun_Units\Land_units_Black_Sun\Infantry_Units_Black_Sun\Units_land_Black_Sun_Twilek_Sand.xml</File>
-	<File>Black_Sun_Units\Land_units_Black_Sun\Infantry_Units_Black_Sun\Units_land_Black_Sun_Twilek_Snow.xml</File>
-	<File>Black_Sun_Units\Land_units_Black_Sun\Infantry_Units_Black_Sun\Units_land_Black_Sun_Twilek_Trooper.xml</File>
+	<File>CIS_Remnant_units\Land_units_CIS_Remnant\Infantry_units_CIS_Remnant\Units_land_cis_B1_droid_commander.xml</File>
+	<File>CIS_Remnant_units\Land_units_CIS_Remnant\Infantry_units_CIS_Remnant\Units_land_cis_battledroid.xml</File>
+	<File>CIS_Remnant_units\Land_units_CIS_Remnant\Infantry_units_CIS_Remnant\Units_land_cis_BattleDroid_Grenadier.xml</File>
+	<File>CIS_Remnant_units\Land_units_CIS_Remnant\Infantry_units_CIS_Remnant\Units_land_cis_battledroid_heavy.xml</File>
+	<File>CIS_Remnant_units\Land_units_CIS_Remnant\Infantry_units_CIS_Remnant\Units_land_cis_battledroid_specialist.xml</File>
+	<File>CIS_Remnant_units\Land_units_CIS_Remnant\Infantry_units_CIS_Remnant\Units_land_cis_Battledroids_Sand.xml</File>
+	<File>CIS_Remnant_units\Land_units_CIS_Remnant\Infantry_units_CIS_Remnant\Units_land_cis_bx_commando.xml</File>
+	<File>CIS_Remnant_units\Land_units_CIS_Remnant\Infantry_units_CIS_Remnant\Units_land_cis_plex_droid.xml</File>
+	<File>CIS_Remnant_units\Land_units_CIS_Remnant\Infantry_units_CIS_Remnant\Units_land_cis_super_B2_Grapple.xml</File>
+	<File>CIS_Remnant_units\Land_units_CIS_Remnant\Infantry_units_CIS_Remnant\Units_land_cis_super_battledroid.xml</File>
+	<File>CIS_Remnant_units\Land_units_CIS_Remnant\Infantry_units_CIS_Remnant\Units_land_cis_survivors.xml</File>
 	
 	
 	
-	<!-- Hutt Cartel -->
+	<!-- Trade Federation -->
 	
-	<File>Hutt_Cartel_units\Hero_units_Hutt_Cartel\Units_hero_Hutt_Cartel_Jabba_The_Hutt.xml</File>
+	<File>Trade_Federation_units\Hero_units_Trade_Federation\Units_hero_Trade_Federation_Sentepeth_Findos.xml</File>
 	
-	<File>Hutt_Cartel_units\Land_units_Hutt_Cartel\Infantry_units_Hutt_Cartel\Units_land_Hutts_Aqualish_Bounty.xml</File>
-	<File>Hutt_Cartel_units\Land_units_Hutt_Cartel\Infantry_units_Hutt_Cartel\Units_land_Hutts_Ishitib_Trooper.xml</File>
-	<File>Hutt_Cartel_units\Land_units_Hutt_Cartel\Infantry_units_Hutt_Cartel\Units_land_Hutts_Quarren_Bounty.xml</File>
-	<File>Hutt_Cartel_units\Land_units_Hutt_Cartel\Infantry_units_Hutt_Cartel\Units_land_Hutts_Quarren_Bounty3.xml</File>
-	<File>Hutt_Cartel_units\Land_units_Hutt_Cartel\Infantry_units_Hutt_Cartel\Units_land_Hutts_Rodian_Bounty2.xml</File>
-	<File>Hutt_Cartel_units\Land_units_Hutt_Cartel\Infantry_units_Hutt_Cartel\Units_land_Hutts_Sand_Plex_Trooper.xml</File>
-	<File>Hutt_Cartel_units\Land_units_Hutt_Cartel\Infantry_units_Hutt_Cartel\Units_land_Hutts_Sand_Trooper.xml</File>
-	<File>Hutt_Cartel_units\Land_units_Hutt_Cartel\Infantry_units_Hutt_Cartel\Units_land_Hutts_Twilek_Sand.xml</File>
-	<File>Hutt_Cartel_units\Land_units_Hutt_Cartel\Infantry_units_Hutt_Cartel\Units_land_Hutts_Twilek_Trooper.xml</File>
+	<File>Trade_Federation_units\Land_units_Trade_Federation\Infantry_Units_Trade_Federation\Units_land_Federation_Battledroids.xml</File>
+	
+	
+	
+	
+	<!-- Commerce Guild -->
+	
+	<File>Commerce_Guild_units\Hero_units_Commerce_Guild\Units_hero_Commerce_Guild_Shu_Mai.xml</File>
+	
+	<File>Commerce_Guild_units\Land_units_Commerce_Guild\Infantry_units_Commerce_Guild\Units_land_Commerce_Guild_B1_droid.xml</File>
+	
+	
+	
+	
+	<!-- Techno Union -->
+	
+	<File>Techno_Union_units\Hero_units_Techno_Union\Units_hero_Techno_Union_Wat_Tambor.xml</File>
+	
+	<File>Techno_Union_units\Land_units_Techno_Union\Infantry_units_Techno_Union\Units_land_Techno_Union_B1_droid_commander.xml</File>
+	
+	
+	
+	
+	<!-- Banking Clan -->
+	
+	<File>Banking_Clan_units\Hero_units_Banking_Clan\Units_hero_Banking_Clan_San_Hill.xml</File>
+	
+	<File>Banking_Clan_units\Land_units_Banking_Clan\Infantry_units_Banking_Clan\Units_land_Banking_Clan_B1_droid_commander.xml</File>
+	
+	
+
+	
 	
 	
 	<!-- Mandalorians -->
@@ -343,6 +404,7 @@
 	<File>Mandalorian_units\Land_units_Mandalorians\Infantry_Units_Mandalorian\Units_land_Mandalorian_Snipers.xml</File>
 	<File>Mandalorian_units\Land_units_Mandalorians\Infantry_Units_Mandalorian\Units_land_Mandalorian_Super_Commando.xml</File>
 	<File>Mandalorian_units\Land_units_Mandalorians\Infantry_Units_Mandalorian\Units_land_Plex_Mandalorians.xml</File>
+	<File>Mandalorian_units\Land_units_Mandalorians\Infantry_Units_Mandalorian\Units_land_Mandalorian_Suvivors.xml</File>
 	
 	
 	
@@ -356,6 +418,7 @@
 	<File>Galactic_Empire_Units\Hero_units_Galactic_Empire\Units_hero_Galactic_Empire_Palpatine.xml</File>
 	
 	<File>Galactic_Empire_Units\Land_units_Galactic_Empire\Infantry_Units_Empire\Units_land_galactic_empire_Stormtrooper.xml</File>
+	<File>Galactic_Empire_Units\Land_units_Galactic_Empire\Infantry_Units_Empire\Units_land_galactic_empire_survivors.xml</File>
 	
 	
 	
@@ -364,6 +427,7 @@
 	<File>Rebel_Alliance_units\Hero_units_Rebel_Alliance\Units_hero_Rebel_Alliance_Mon_Mothma.xml</File>
 	
 	<File>Rebel_Alliance_units\Land_units_Rebel_Alliance\Infantry_Units_Rebel_Alliance\Units_land_Rebel_Alliance_Soldier.xml</File>
+	<File>Rebel_Alliance_units\Land_units_Rebel_Alliance\Infantry_Units_Rebel_Alliance\Units_land_Rebel_Alliance_survivors.xml</File>
 	
 	
 	
@@ -373,6 +437,7 @@
 	<File>Pyke_Syndicate_units\Hero_units_Pyke_Syndicate\Units_hero_Pyke_Syndicate_Marg_Krim.xml</File>
 	
 	<File>Pyke_Syndicate_units\Land_Units_Pyke_Syndicate\Infantry_Units_Pyke_Syndicate\Units_land_Pyke_Syndicate_Trooper.xml</File>
+	<File>Pyke_Syndicate_units\Land_Units_Pyke_Syndicate\Infantry_Units_Pyke_Syndicate\Units_land_Pyke_Syndicate_survivors.xml</File>
 	
 	
 	
@@ -382,6 +447,7 @@
 	<File>Corporate_Sector_units\Hero_units_Corporate_Sector\Units_hero_Corporate_Sector_Government.xml</File>
 	
 	<File>Corporate_Sector_units\Land_units_Corporate_Sector\Infantry_Units_Corporate_Sector\Units_land_CorSec_Stormtrooper.xml</File>
+    <File>Corporate_Sector_units\Land_units_Corporate_Sector\Infantry_Units_Corporate_Sector\Units_land_Corporate_Sector_survivors.xml</File>
 	
 	
 	
@@ -391,6 +457,7 @@
 	<File>Hapan_Consortium_units\Hero_units_Hapan_Consortium\Units_hero_Hapan_Ta_a_Chume.xml</File>
 	
 	<File>Hapan_Consortium_units\Land_units_Hapan_Consortium\Infantry_Units_Hapan_Consortium\Units_land_Hapan_trooper.xml</File>
+	<File>Hapan_Consortium_units\Land_units_Hapan_Consortium\Infantry_Units_Hapan_Consortium\Units_land_Hapan_survivors.xml</File>
 	
 	
 	
@@ -400,6 +467,41 @@
 	<File>Crimson_Dawn_units\Hero_units_Crimson_Dawn\Units_hero_Crimson_Dawn_Darth_Maul.xml</File>
 	
 	<File>Crimson_Dawn_units\Land_units_Crimson_Dawn\Infantry_Units_Crimson_Dawn\Units_land_Crimson_Dawn_trooper.xml</File>
+	<File>Crimson_Dawn_units\Land_units_Crimson_Dawn\Infantry_Units_Crimson_Dawn\Units_land_Crimson_Dawn_survivors.xml</File>
+	
+	
+	
+	<!-- Black Sun -->
+	
+	<File>Black_Sun_Units\Hero_units_Black_Sun\Units_hero_Black_Sun_Xizor.xml</File>
+	
+	<File>Black_Sun_Units\Land_units_Black_Sun\Infantry_Units_Black_Sun\Units_land_Black_Sun_Aqualish_Bounty.xml</File>
+	<File>Black_Sun_Units\Land_units_Black_Sun\Infantry_Units_Black_Sun\Units_land_Black_Sun_Mirialan_Trooper.xml</File>
+	<File>Black_Sun_Units\Land_units_Black_Sun\Infantry_Units_Black_Sun\Units_land_Black_Sun_Rodian_Bounty.xml</File>
+	<File>Black_Sun_Units\Land_units_Black_Sun\Infantry_Units_Black_Sun\Units_land_Black_Sun_Rodian_Bounty2.xml</File>
+	<File>Black_Sun_Units\Land_units_Black_Sun\Infantry_Units_Black_Sun\Units_land_Black_Sun_Sand_Trooper.xml</File>
+	<File>Black_Sun_Units\Land_units_Black_Sun\Infantry_Units_Black_Sun\Units_land_Black_Sun_Twilek_Forest.xml</File>
+	<File>Black_Sun_Units\Land_units_Black_Sun\Infantry_Units_Black_Sun\Units_land_Black_Sun_Twilek_Sand.xml</File>
+	<File>Black_Sun_Units\Land_units_Black_Sun\Infantry_Units_Black_Sun\Units_land_Black_Sun_Twilek_Snow.xml</File>
+	<File>Black_Sun_Units\Land_units_Black_Sun\Infantry_Units_Black_Sun\Units_land_Black_Sun_Twilek_Trooper.xml</File>
+	<File>Black_Sun_Units\Land_units_Black_Sun\Infantry_Units_Black_Sun\Units_land_Black_Sun_survivors.xml</File>
+	
+	
+	
+	<!-- Hutt Cartel -->
+	
+	<File>Hutt_Cartel_units\Hero_units_Hutt_Cartel\Units_hero_Hutt_Cartel_Jabba_The_Hutt.xml</File>
+	
+	<File>Hutt_Cartel_units\Land_units_Hutt_Cartel\Infantry_units_Hutt_Cartel\Units_land_Hutts_Aqualish_Bounty.xml</File>
+	<File>Hutt_Cartel_units\Land_units_Hutt_Cartel\Infantry_units_Hutt_Cartel\Units_land_Hutts_Ishitib_Trooper.xml</File>
+	<File>Hutt_Cartel_units\Land_units_Hutt_Cartel\Infantry_units_Hutt_Cartel\Units_land_Hutts_Quarren_Bounty.xml</File>
+	<File>Hutt_Cartel_units\Land_units_Hutt_Cartel\Infantry_units_Hutt_Cartel\Units_land_Hutts_Quarren_Bounty3.xml</File>
+	<File>Hutt_Cartel_units\Land_units_Hutt_Cartel\Infantry_units_Hutt_Cartel\Units_land_Hutts_Rodian_Bounty2.xml</File>
+	<File>Hutt_Cartel_units\Land_units_Hutt_Cartel\Infantry_units_Hutt_Cartel\Units_land_Hutts_Sand_Plex_Trooper.xml</File>
+	<File>Hutt_Cartel_units\Land_units_Hutt_Cartel\Infantry_units_Hutt_Cartel\Units_land_Hutts_Sand_Trooper.xml</File>
+	<File>Hutt_Cartel_units\Land_units_Hutt_Cartel\Infantry_units_Hutt_Cartel\Units_land_Hutts_Twilek_Sand.xml</File>
+	<File>Hutt_Cartel_units\Land_units_Hutt_Cartel\Infantry_units_Hutt_Cartel\Units_land_Hutts_Twilek_Trooper.xml</File>
+	<File>Hutt_Cartel_units\Land_units_Hutt_Cartel\Infantry_units_Hutt_Cartel\Units_land_Hutts_Suvivors.xml</File>
 	
 	
 	
@@ -414,6 +516,7 @@
     <File>New_Republic_Units\Hero_Units_New_Republic\Units_hero_New_Republic_Mon_Mothma.xml</File>
 
     <File>New_Republic_Units\Infantry_Units_New_Republic\Units_land_New_Republic_Guard_Trooper.xml</File>
+	<File>New_Republic_Units\Infantry_Units_New_Republic\Units_land_New_Republic_survivors.xml</File>
 	
 	
 	
@@ -422,6 +525,7 @@
     <File>Imperial_Remnant_Rax_Units\Hero_Units_Remnant_Rax\Units_hero_Remnant_Rax_Gallius_Rax.xml</File>
 
     <File>Imperial_Remnant_Rax_Units\Infantry_Units_Remnant_Rax\Units_land_Rax_Stormtrooper.xml</File>
+	<File>Imperial_Remnant_Rax_Units\Infantry_Units_Remnant_Rax\Units_land_Rax_survivors.xml</File>
 	
 	
 	<!-- Imperial Remnant Gratloe -->
@@ -429,6 +533,7 @@
     <File>Imperial_Remnant_Gratloe_Units\Hero_Units_Remnant_Gratloe\Units_hero_Remnant_Gratloe_Admiral_Gratloe.xml</File>
 
     <File>Imperial_Remnant_Gratloe_Units\Infantry_Units_Remnant_Gratloe\Units_land_Gratloe_Stormtrooper.xml</File>
+	<File>Imperial_Remnant_Gratloe_Units\Infantry_Units_Remnant_Gratloe\Units_land_Gratloe_survivors.xml</File>
 	
 	
 	<!-- Imperial Remnant Loring -->
@@ -436,6 +541,7 @@
     <File>Imperial_Remnant_Loring_Units\Hero_Units_Remnant_Loring\Units_hero_Remnant_Loring_Kenner_Loring.xml</File>
 
     <File>Imperial_Remnant_Loring_Units\Infantry_Units_Remnant_Loring\Units_land_Loring_Stormtrooper.xml</File>
+	<File>Imperial_Remnant_Loring_Units\Infantry_Units_Remnant_Loring\Units_land_Loring_survivors.xml</File>
 	
 	
 	<!-- Imperial Remnant Adelhard -->
@@ -443,16 +549,38 @@
     <File>Imperial_Remnant_Adelhard_units\Hero_Units_Remnant_Adelhard\Units_hero_Remnant_Adelhard_Ubrick_Adelhard.xml</File>
 
     <File>Imperial_Remnant_Adelhard_units\Infantry_Units_Remnant_Adelhard\Units_land_Adelhard_Stormtrooper.xml</File>
+	<File>Imperial_Remnant_Adelhard_units\Infantry_Units_Remnant_Adelhard\Units_land_Adelhard_survivors.xml</File>
 	
 	
 	
 	<!-- First Order -->
 
     <File>First_Order_units\Hero_Units_First_Order\Units_hero_First_Order_Rae_Sloane.xml</File>
+	<File>First_Order_units\Hero_Units_First_Order\Units_hero_First_Order_Brendol_Hux.xml</File>
 
     <File>First_Order_units\Infantry_Units_First_Order\Units_land_First_Order_Stormtrooper.xml</File>
+	<File>First_Order_units\Infantry_Units_First_Order\Units_land_First_Order_survivors.xml</File>
+	
+	
+	
+	
+	<!-- EotH -->
+
+    <File>Imperial_Remnant_Thrawn_units\Hero_Units_Remnant_Thrawn\Units_hero_Remnant_Thrawn.xml</File>
+    
+	<File>Imperial_Remnant_Thrawn_units\Infantry_Units_Remnant_Thrawn\Units_land_Remnant_Thrawn_Stormtrooper.xml</File>
+	<File>Imperial_Remnant_Thrawn_units\Infantry_Units_Remnant_Thrawn\Units_land_Remnant_Thrawn_survivors.xml</File>
+
 
 	
+	
+	
+	<!-- Chiss Ascendancy -->
+
+	<File>Chiss_Ascendancy_units\Hero_Units_Chiss_Ascendancy\Units_hero_Chiss_Ascendancy_Government.xml</File>
+
+    <File>Chiss_Ascendancy_units\Infantry_Units_Chiss_Ascendancy\Units_land_Chiss_Ascendancy_Trooper.xml</File>
+	<File>Chiss_Ascendancy_units\Infantry_Units_Chiss_Ascendancy\Units_land_Chiss_Ascendancy_survivors.xml</File>
 		
 	
 	

@@ -24,7 +24,54 @@
 	</Planet>
 	
 	
-	
+	<Planet Name="Nebula_Unknown_Regions">
+		<Zoomed_Terrain_Index>7</Zoomed_Terrain_Index>
+		<Text_ID></Text_ID>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+		<Galactic_Model_Name>P_Nebula.alo</Galactic_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+		<GUI_Model_Name>W_planet_Asteroids.alo</GUI_Model_Name>
+		<Mass>1.0</Mass>
+		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
+		<Show_Name>Yes</Show_Name>
+		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
+		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+		<Pre_Lit>no</Pre_Lit>
+		<Political_Control>0</Political_Control>
+		<Camera_Aligned>yes</Camera_Aligned>
+		<Terrain>Temperate</Terrain>
+		<Planet_Credit_Value>85</Planet_Credit_Value>
+		<Planet_Destroyed_Credit_Value>7</Planet_Destroyed_Credit_Value>
+		<Galactic_Position>-449.0, 222.0, 10.0</Galactic_Position>
+		<Special_Structures_Land>0</Special_Structures_Land>
+		<Special_Structures_Space>4</Special_Structures_Space>
+		<Max_Space_Base>5</Max_Space_Base>
+		<The_Force>Neutral</The_Force>
+		<Force_Strength>0.0</Force_Strength>
+		<Land_Tactical_Map />
+		<Space_Tactical_Map>_Space_Planet_VergessoAsteroids_01.ted</Space_Tactical_Map>
+
+		<Planet_Surface_Accessible> No </Planet_Surface_Accessible>
+		<Planet_Is_Destroyable_By_TSW> No </Planet_Is_Destroyable_By_TSW>
+		<Planet_Retains_Residual_Influence> Yes </Planet_Retains_Residual_Influence>
+
+		<Planet_Capture_Bonus_Reward> 250 </Planet_Capture_Bonus_Reward>
+		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
+		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+		<Planet_Slice_Affinity_Types />
+        <Planet_Black_Market_Modifier>1000</Planet_Black_Market_Modifier>
+		
+		<Describe_History>TEXT_PLANET_VERGESSO_INFO_HIS</Describe_History>
+
+		<Planet_Ability_Icon></Planet_Ability_Icon>
+        <Native_Icon_Name></Native_Icon_Name>
+        <Additional_Population_Capacity>10</Additional_Population_Capacity>
+		
+
+	</Planet>
 	
 	
 	<Planet Name="Abhean">
@@ -8743,6 +8790,55 @@
     
     
   </Planet>
+	
+	<Planet Name="Nadiri"> 
+ 		<Zoomed_Terrain_Index>7</Zoomed_Terrain_Index>
+		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_NADIRI</Text_ID>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+		<Galactic_Model_Name>W_planet_Asteroids.alo</Galactic_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+		<GUI_Model_Name>W_planet_Asteroids.alo</GUI_Model_Name>
+		<Mass>1.0</Mass>
+		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
+		<Show_Name>Yes</Show_Name>
+		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
+		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+		<Pre_Lit>no</Pre_Lit>
+		<Political_Control>0</Political_Control>
+		<Camera_Aligned>yes</Camera_Aligned>
+		<Terrain>Temperate</Terrain>
+		<Planet_Credit_Value>85</Planet_Credit_Value>
+		<Planet_Destroyed_Credit_Value>7</Planet_Destroyed_Credit_Value>
+		<Galactic_Position>131.0, 78.0, 10.0</Galactic_Position>
+		<Special_Structures_Land>0</Special_Structures_Land>
+		<Special_Structures_Space>4</Special_Structures_Space>
+		<Max_Space_Base>5</Max_Space_Base>
+		<The_Force>Neutral</The_Force>
+		<Force_Strength>0.0</Force_Strength>
+		<Land_Tactical_Map />
+		<Space_Tactical_Map>_Space_Planet_VergessoAsteroids_01.ted</Space_Tactical_Map>
+
+		<Planet_Surface_Accessible> No </Planet_Surface_Accessible>
+		<Planet_Is_Destroyable_By_TSW> No </Planet_Is_Destroyable_By_TSW>
+		<Planet_Retains_Residual_Influence> Yes </Planet_Retains_Residual_Influence>
+
+		<Planet_Capture_Bonus_Reward> 250 </Planet_Capture_Bonus_Reward>
+		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
+		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+		<Planet_Slice_Affinity_Types />
+        <Planet_Black_Market_Modifier>1000</Planet_Black_Market_Modifier>
+		
+		<Describe_History>TEXT_PLANET_VERGESSO_INFO_HIS</Describe_History>
+
+		<Planet_Ability_Icon></Planet_Ability_Icon>
+        <Native_Icon_Name></Native_Icon_Name>
+        <Additional_Population_Capacity>10</Additional_Population_Capacity>
+		
+
+	</Planet>
 	
 	<Planet Name="Naboo">
     <Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>

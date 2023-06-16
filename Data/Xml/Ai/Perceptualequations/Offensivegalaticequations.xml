@@ -25,12 +25,13 @@
 			2.0 *
 			Variable_Target.EnemyForce.HasGroundForce {Parameter_Faction = "Rebel", 
 			                                           Parameter_Faction = "Empire", 
-													   Parameter_Faction = "Empire", 
 													   Parameter_Faction = "Early_Empire", 
 													   Parameter_Faction = "Terrorists", 
 													   Parameter_Faction = "CIS_Remnant", 
-													   Parameter_Faction = "Black_Sun", 
-													   Parameter_Faction = "Hutt_Cartel",
+													   Parameter_Faction = "Trade_Federation",
+													   Parameter_Faction = "Commerce_Guild",
+													   Parameter_Faction = "Techno_Union",
+													   Parameter_Faction = "Banking_Clan",
 													   Parameter_Faction = "Mandalorians",
 													   Parameter_Faction = "Galactic_Empire", 
 													   Parameter_Faction = "Rebel_Alliance", 
@@ -38,12 +39,16 @@
 													   Parameter_Faction = "Corporate_Sector", 
 													   Parameter_Faction = "Hapan_Consortium",
 													   Parameter_Faction = "Crimson_Dawn",
+													   Parameter_Faction = "Black_Sun", 
+													   Parameter_Faction = "Hutt_Cartel",
 													   Parameter_Faction = "New_Republic", 
 													   Parameter_Faction = "Imperial_Remnant_Rax", 
 													   Parameter_Faction = "Imperial_Remnant_Gratloe", 
 													   Parameter_Faction = "Imperial_Remnant_Loring", 
 													   Parameter_Faction = "Imperial_Remnant_Adelhard",
-													   Parameter_Faction = "First_Order"}*
+													   Parameter_Faction = "First_Order",
+													   Parameter_Faction = "Imperial_Remnant_Thrawn",
+													   Parameter_Faction = "Chiss_Ascendancy"}*
 			(1.0 - Variable_Target.EnemyForce.GroundTotal)
 		) 
 		/ 3.0
@@ -67,11 +72,17 @@
 		Variable_Target.IsConnectedTo {Parameter_Faction = "CIS_Remnant", Parameter_Attenuator = 0.0} *
 		Variable_Self.IsFaction {Parameter_Faction = "CIS_Remnant"}
 		+
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} *
-		Variable_Self.IsFaction {Parameter_Faction = "Black_Sun"}
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Trade_Federation", Parameter_Attenuator = 0.0} *
+		Variable_Self.IsFaction {Parameter_Faction = "Trade_Federation"}
 		+
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} *
-		Variable_Self.IsFaction {Parameter_Faction = "Hutt_Cartel"}
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Commerce_Guild", Parameter_Attenuator = 0.0} *
+		Variable_Self.IsFaction {Parameter_Faction = "Commerce_Guild"}
+		+
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Techno_Union", Parameter_Attenuator = 0.0} *
+		Variable_Self.IsFaction {Parameter_Faction = "Techno_Union"}
+		+
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Banking_Clan", Parameter_Attenuator = 0.0} *
+		Variable_Self.IsFaction {Parameter_Faction = "Banking_Clan"}
 		+
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Mandalorians", Parameter_Attenuator = 0.0} *
 		Variable_Self.IsFaction {Parameter_Faction = "Mandalorians"}
@@ -94,6 +105,12 @@
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Crimson_Dawn", Parameter_Attenuator = 0.0} *
 		Variable_Self.IsFaction {Parameter_Faction = "Crimson_Dawn"}
 		+
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} *
+		Variable_Self.IsFaction {Parameter_Faction = "Black_Sun"}
+		+
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} *
+		Variable_Self.IsFaction {Parameter_Faction = "Hutt_Cartel"}
+		+
 		Variable_Target.IsConnectedTo {Parameter_Faction = "New_Republic", Parameter_Attenuator = 0.0} *
 		Variable_Self.IsFaction {Parameter_Faction = "New_Republic"}
 		+
@@ -111,6 +128,12 @@
 		+
 		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0} *
 		Variable_Self.IsFaction {Parameter_Faction = "First_Order"}
+		+
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Thrawn", Parameter_Attenuator = 0.0} *
+		Variable_Self.IsFaction {Parameter_Faction = "Imperial_Remnant_Thrawn"}
+		+
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Chiss_Ascendancy", Parameter_Attenuator = 0.0} *
+		Variable_Self.IsFaction {Parameter_Faction = "Chiss_Ascendancy"}
 	</Is_Connected_To_Me>
 
 	<!-- See if the target system is connected to a system owned by the AI faction's enemy
@@ -120,8 +143,10 @@
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Early_Empire", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Terrorists", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "CIS_Remnant", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Trade_Federation", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Commerce_Guild", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Techno_Union", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Banking_Clan", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Mandalorians", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Galactic_Empire", Parameter_Attenuator = 0.0} +
@@ -130,20 +155,26 @@
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Corporate_Sector", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Hapan_Consortium", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Crimson_Dawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "New_Republic", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Rax", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Gratloe", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Loring", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Adelhard", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0}) *
+		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Thrawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Chiss_Ascendancy", Parameter_Attenuator = 0.0}) *
 		Variable_Self.IsFaction {Parameter_Faction = "Empire"}
 		+
 		(Variable_Target.IsConnectedTo {Parameter_Faction = "Empire", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Early_Empire", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Terrorists", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "CIS_Remnant", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Trade_Federation", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Commerce_Guild", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Techno_Union", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Banking_Clan", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Mandalorians", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Galactic_Empire", Parameter_Attenuator = 0.0} +
@@ -152,20 +183,26 @@
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Corporate_Sector", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Hapan_Consortium", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Crimson_Dawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "New_Republic", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Rax", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Gratloe", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Loring", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Adelhard", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0}) *
+		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Thrawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Chiss_Ascendancy", Parameter_Attenuator = 0.0}) *
 		Variable_Self.IsFaction {Parameter_Faction = "Rebel"}
 		+
 		(Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Empire", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Terrorists", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "CIS_Remnant", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Trade_Federation", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Commerce_Guild", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Techno_Union", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Banking_Clan", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Mandalorians", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Galactic_Empire", Parameter_Attenuator = 0.0} +
@@ -174,20 +211,26 @@
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Corporate_Sector", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Hapan_Consortium", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Crimson_Dawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "New_Republic", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Rax", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Gratloe", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Loring", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Adelhard", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0}) *
+		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Thrawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Chiss_Ascendancy", Parameter_Attenuator = 0.0}) *
 		Variable_Self.IsFaction {Parameter_Faction = "Early_Empire"}
 		+
 		(Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Empire", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Early_Empire", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "CIS_Remnant", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Trade_Federation", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Commerce_Guild", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Techno_Union", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Banking_Clan", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Mandalorians", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Galactic_Empire", Parameter_Attenuator = 0.0} +
@@ -196,20 +239,26 @@
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Corporate_Sector", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Hapan_Consortium", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Crimson_Dawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "New_Republic", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Rax", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Gratloe", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Loring", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Adelhard", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0}) *
+		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Thrawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Chiss_Ascendancy", Parameter_Attenuator = 0.0}) *
 		Variable_Self.IsFaction {Parameter_Faction = "Terrorists"}
 		+
 		(Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Empire", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Early_Empire", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Terrorists", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Trade_Federation", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Commerce_Guild", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Techno_Union", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Banking_Clan", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Mandalorians", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Galactic_Empire", Parameter_Attenuator = 0.0} +
@@ -218,12 +267,16 @@
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Corporate_Sector", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Hapan_Consortium", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Crimson_Dawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "New_Republic", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Rax", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Gratloe", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Loring", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Adelhard", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0}) *
+		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Thrawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Chiss_Ascendancy", Parameter_Attenuator = 0.0}) *
 		Variable_Self.IsFaction {Parameter_Faction = "CIS_Remnant"}
 		+
 		(Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel", Parameter_Attenuator = 0.0} +
@@ -231,7 +284,9 @@
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Early_Empire", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Terrorists", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "CIS_Remnant", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Commerce_Guild", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Techno_Union", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Banking_Clan", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Mandalorians", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Galactic_Empire", Parameter_Attenuator = 0.0} +
@@ -240,20 +295,26 @@
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Corporate_Sector", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Hapan_Consortium", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Crimson_Dawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "New_Republic", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Rax", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Gratloe", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Loring", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Adelhard", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0}) *
-		Variable_Self.IsFaction {Parameter_Faction = "Black_Sun"}
+		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Thrawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Chiss_Ascendancy", Parameter_Attenuator = 0.0}) *
+		Variable_Self.IsFaction {Parameter_Faction = "Trade_Federation"}
 		+
 		(Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Empire", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Early_Empire", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Terrorists", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "CIS_Remnant", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Trade_Federation", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Techno_Union", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Banking_Clan", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Mandalorians", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Galactic_Empire", Parameter_Attenuator = 0.0} +
@@ -262,21 +323,26 @@
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Corporate_Sector", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Hapan_Consortium", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Crimson_Dawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "New_Republic", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Rax", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Gratloe", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Loring", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Adelhard", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0}) *
-		Variable_Self.IsFaction {Parameter_Faction = "Hutt_Cartel"}
+		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Thrawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Chiss_Ascendancy", Parameter_Attenuator = 0.0}) *
+		Variable_Self.IsFaction {Parameter_Faction = "Commerce_Guild"}
 		+
 		(Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Empire", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Early_Empire", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Terrorists", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "CIS_Remnant", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Trade_Federation", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Banking_Clan", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Mandalorians", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Galactic_Empire", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel_Alliance", Parameter_Attenuator = 0.0} +
@@ -284,12 +350,71 @@
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Corporate_Sector", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Hapan_Consortium", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Crimson_Dawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "New_Republic", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Rax", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Gratloe", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Loring", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Adelhard", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0}) *
+		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Thrawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Chiss_Ascendancy", Parameter_Attenuator = 0.0}) *
+		Variable_Self.IsFaction {Parameter_Faction = "Techno_Union"}
+		+
+		(Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Empire", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Early_Empire", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Terrorists", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "CIS_Remnant", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Trade_Federation", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Techno_Union", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Mandalorians", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Galactic_Empire", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel_Alliance", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Pyke_Syndicate", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Corporate_Sector", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Hapan_Consortium", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Crimson_Dawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "New_Republic", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Rax", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Gratloe", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Loring", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Adelhard", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Thrawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Chiss_Ascendancy", Parameter_Attenuator = 0.0}) *
+		Variable_Self.IsFaction {Parameter_Faction = "Banking_Clan"}
+		+
+		(Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Empire", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Early_Empire", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Terrorists", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "CIS_Remnant", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Trade_Federation", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Commerce_Guild", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Techno_Union", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Banking_Clan", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Galactic_Empire", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel_Alliance", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Pyke_Syndicate", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Corporate_Sector", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Hapan_Consortium", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Crimson_Dawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "New_Republic", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Rax", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Gratloe", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Loring", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Adelhard", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Thrawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Chiss_Ascendancy", Parameter_Attenuator = 0.0}) *
 		Variable_Self.IsFaction {Parameter_Faction = "Mandalorians"}
 		+
 		(Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel", Parameter_Attenuator = 0.0} +
@@ -297,21 +422,27 @@
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Early_Empire", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Terrorists", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "CIS_Remnant", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Trade_Federation", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Commerce_Guild", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Techno_Union", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Banking_Clan", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Mandalorians", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel_Alliance", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Pyke_Syndicate", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Corporate_Sector", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Hapan_Consortium", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Crimson_Dawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "New_Republic", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Rax", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Gratloe", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Loring", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Adelhard", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0}) *
+		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Thrawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Chiss_Ascendancy", Parameter_Attenuator = 0.0}) *
 		Variable_Self.IsFaction {Parameter_Faction = "Galactic_Empire"}
 		+
 		(Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel", Parameter_Attenuator = 0.0} +
@@ -319,21 +450,27 @@
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Early_Empire", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Terrorists", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "CIS_Remnant", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Trade_Federation", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Commerce_Guild", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Techno_Union", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Banking_Clan", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Mandalorians", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Galactic_Empire", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Pyke_Syndicate", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Corporate_Sector", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Hapan_Consortium", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Crimson_Dawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "New_Republic", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Rax", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Gratloe", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Loring", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Adelhard", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0}) *
+		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Thrawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Chiss_Ascendancy", Parameter_Attenuator = 0.0}) *
 		Variable_Self.IsFaction {Parameter_Faction = "Rebel_Alliance"}
 		+
 		(Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel", Parameter_Attenuator = 0.0} +
@@ -341,21 +478,27 @@
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Early_Empire", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Terrorists", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "CIS_Remnant", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Trade_Federation", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Commerce_Guild", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Techno_Union", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Banking_Clan", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Mandalorians", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Galactic_Empire", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel_Alliance", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Corporate_Sector", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Hapan_Consortium", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Crimson_Dawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "New_Republic", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Rax", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Gratloe", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Loring", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Adelhard", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0}) *
+		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Thrawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Chiss_Ascendancy", Parameter_Attenuator = 0.0}) *
 		Variable_Self.IsFaction {Parameter_Faction = "Pyke_Syndicate"}
 		+
 		(Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel", Parameter_Attenuator = 0.0} +
@@ -363,21 +506,27 @@
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Early_Empire", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Terrorists", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "CIS_Remnant", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Trade_Federation", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Commerce_Guild", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Techno_Union", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Banking_Clan", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Mandalorians", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Galactic_Empire", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel_Alliance", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Pyke_Syndicate", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Hapan_Consortium", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Crimson_Dawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "New_Republic", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Rax", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Gratloe", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Loring", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Adelhard", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0}) *
+		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Thrawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Chiss_Ascendancy", Parameter_Attenuator = 0.0}) *
 		Variable_Self.IsFaction {Parameter_Faction = "Corporate_Sector"}
 		+
 		(Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel", Parameter_Attenuator = 0.0} +
@@ -385,21 +534,27 @@
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Early_Empire", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Terrorists", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "CIS_Remnant", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Trade_Federation", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Commerce_Guild", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Techno_Union", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Banking_Clan", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Mandalorians", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Galactic_Empire", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel_Alliance", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Pyke_Syndicate", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Corporate_Sector", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Crimson_Dawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "New_Republic", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Rax", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Gratloe", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Loring", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Adelhard", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0}) *
+		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Thrawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Chiss_Ascendancy", Parameter_Attenuator = 0.0}) *
 		Variable_Self.IsFaction {Parameter_Faction = "Hapan_Consortium"}
 		+
 		(Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel", Parameter_Attenuator = 0.0} +
@@ -407,21 +562,27 @@
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Early_Empire", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Terrorists", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "CIS_Remnant", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Trade_Federation", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Commerce_Guild", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Techno_Union", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Banking_Clan", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Mandalorians", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Galactic_Empire", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel_Alliance", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Pyke_Syndicate", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Corporate_Sector", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Hapan_Consortium", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "New_Republic", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Rax", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Gratloe", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Loring", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Adelhard", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0}) *
+		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Thrawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Chiss_Ascendancy", Parameter_Attenuator = 0.0}) *
 		Variable_Self.IsFaction {Parameter_Faction = "Crimson_Dawn"}
 		+
 		(Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel", Parameter_Attenuator = 0.0} +
@@ -429,21 +590,83 @@
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Early_Empire", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Terrorists", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "CIS_Remnant", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Trade_Federation", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Commerce_Guild", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Techno_Union", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Banking_Clan", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Mandalorians", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Galactic_Empire", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel_Alliance", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Pyke_Syndicate", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Corporate_Sector", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Hapan_Consortium", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Crimson_Dawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "New_Republic", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Rax", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Gratloe", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Loring", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Adelhard", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0}) *
+		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Thrawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Chiss_Ascendancy", Parameter_Attenuator = 0.0}) *
+		Variable_Self.IsFaction {Parameter_Faction = "Black_Sun"}
+		+
+		(Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Empire", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Early_Empire", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Terrorists", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "CIS_Remnant", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Trade_Federation", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Commerce_Guild", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Techno_Union", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Banking_Clan", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Mandalorians", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Galactic_Empire", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel_Alliance", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Pyke_Syndicate", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Corporate_Sector", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Hapan_Consortium", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Crimson_Dawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "New_Republic", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Rax", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Gratloe", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Loring", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Adelhard", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Thrawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Chiss_Ascendancy", Parameter_Attenuator = 0.0}) *
+		Variable_Self.IsFaction {Parameter_Faction = "Hutt_Cartel"}
+		+
+		(Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Empire", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Early_Empire", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Terrorists", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "CIS_Remnant", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Trade_Federation", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Commerce_Guild", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Techno_Union", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Banking_Clan", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Mandalorians", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Galactic_Empire", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel_Alliance", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Pyke_Syndicate", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Corporate_Sector", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Hapan_Consortium", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Crimson_Dawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Rax", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Gratloe", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Loring", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Adelhard", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Thrawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Chiss_Ascendancy", Parameter_Attenuator = 0.0}) *
 		Variable_Self.IsFaction {Parameter_Faction = "New_Republic"}
 		+
 		(Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel", Parameter_Attenuator = 0.0} +
@@ -451,21 +674,27 @@
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Early_Empire", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Terrorists", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "CIS_Remnant", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Trade_Federation", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Commerce_Guild", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Techno_Union", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Banking_Clan", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Mandalorians", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Galactic_Empire", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel_Alliance", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Pyke_Syndicate", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Corporate_Sector", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Hapan_Consortium", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Crimson_Dawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "New_Republic", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Gratloe", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Loring", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Adelhard", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0}) *
+		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Thrawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Chiss_Ascendancy", Parameter_Attenuator = 0.0}) *
 		Variable_Self.IsFaction {Parameter_Faction = "Imperial_Remnant_Rax"}
 		+
 		(Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel", Parameter_Attenuator = 0.0} +
@@ -473,21 +702,27 @@
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Early_Empire", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Terrorists", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "CIS_Remnant", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Trade_Federation", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Commerce_Guild", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Techno_Union", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Banking_Clan", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Mandalorians", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Galactic_Empire", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel_Alliance", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Pyke_Syndicate", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Corporate_Sector", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Hapan_Consortium", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Crimson_Dawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "New_Republic", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Rax", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Loring", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Adelhard", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0}) *
+		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Thrawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Chiss_Ascendancy", Parameter_Attenuator = 0.0}) *
 		Variable_Self.IsFaction {Parameter_Faction = "Imperial_Remnant_Gratloe"}
 		+
 		(Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel", Parameter_Attenuator = 0.0} +
@@ -495,21 +730,27 @@
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Early_Empire", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Terrorists", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "CIS_Remnant", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Trade_Federation", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Commerce_Guild", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Techno_Union", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Banking_Clan", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Mandalorians", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Galactic_Empire", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel_Alliance", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Pyke_Syndicate", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Corporate_Sector", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Hapan_Consortium", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Crimson_Dawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "New_Republic", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Rax", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Gratloe", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Adelhard", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0}) *
+		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Thrawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Chiss_Ascendancy", Parameter_Attenuator = 0.0}) *
 		Variable_Self.IsFaction {Parameter_Faction = "Imperial_Remnant_Loring"}
 		+
 		(Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel", Parameter_Attenuator = 0.0} +
@@ -517,21 +758,27 @@
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Early_Empire", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Terrorists", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "CIS_Remnant", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Trade_Federation", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Commerce_Guild", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Techno_Union", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Banking_Clan", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Mandalorians", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Galactic_Empire", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel_Alliance", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Pyke_Syndicate", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Corporate_Sector", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Hapan_Consortium", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Crimson_Dawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "New_Republic", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Rax", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Gratloe", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Loring", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0}) *
+		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Thrawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Chiss_Ascendancy", Parameter_Attenuator = 0.0}) *
 		Variable_Self.IsFaction {Parameter_Faction = "Imperial_Remnant_Adelhard"}
 		+
 		(Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel", Parameter_Attenuator = 0.0} +
@@ -539,22 +786,84 @@
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Early_Empire", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Terrorists", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "CIS_Remnant", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Trade_Federation", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Commerce_Guild", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Techno_Union", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Banking_Clan", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Mandalorians", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Galactic_Empire", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel_Alliance", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Pyke_Syndicate", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Corporate_Sector", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Hapan_Consortium", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Crimson_Dawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "New_Republic", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Rax", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Gratloe", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Loring", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Adelhard", Parameter_Attenuator = 0.0}) *
-		Variable_Self.IsFaction {Parameter_Faction = "First_Order"}) > 0.0
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Adelhard", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Thrawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Chiss_Ascendancy", Parameter_Attenuator = 0.0}) *
+		Variable_Self.IsFaction {Parameter_Faction = "First_Order"}
+		+
+		(Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Empire", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Early_Empire", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Terrorists", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "CIS_Remnant", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Trade_Federation", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Commerce_Guild", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Techno_Union", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Banking_Clan", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Mandalorians", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Galactic_Empire", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel_Alliance", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Pyke_Syndicate", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Corporate_Sector", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Hapan_Consortium", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Crimson_Dawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "New_Republic", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Rax", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Gratloe", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Loring", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Adelhard", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Chiss_Ascendancy", Parameter_Attenuator = 0.0}) *
+		Variable_Self.IsFaction {Parameter_Faction = "Imperial_Remnant_Thrawn"}
+		+
+		(Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Empire", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Early_Empire", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Terrorists", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "CIS_Remnant", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Trade_Federation", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Commerce_Guild", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Techno_Union", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Banking_Clan", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Mandalorians", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Galactic_Empire", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel_Alliance", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Pyke_Syndicate", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Corporate_Sector", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Hapan_Consortium", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Crimson_Dawn", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Black_Sun", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Hutt_Cartel", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "New_Republic", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Rax", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Gratloe", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Loring", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Adelhard", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "First_Order", Parameter_Attenuator = 0.0} +
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Imperial_Remnant_Thrawn", Parameter_Attenuator = 0.0}) *
+		Variable_Self.IsFaction {Parameter_Faction = "Chiss_Ascendancy"}) > 0.0
 	</Is_Connected_To_Enemy>
 
 	<!-- Normalizing time since forces were seen relative to 60 seconds

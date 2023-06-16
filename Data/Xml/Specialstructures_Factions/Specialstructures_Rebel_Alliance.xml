@@ -592,9 +592,9 @@
 		<Sabotage_Cost_Credits>6000</Sabotage_Cost_Credits>
 
 		<Destruction_Survivors> 
-			
-			
-			
+			Rebel_Alliance_Survivors_Small, 1.0
+			Rebel_Alliance_Survivors_Medium, 1.0
+			Rebel_Alliance_Survivors_Large, 1.0
 		</Destruction_Survivors>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -895,9 +895,9 @@
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		
 		<Destruction_Survivors> 
-			
-			
-			
+			Rebel_Alliance_Survivors_Small, 1.0
+			Rebel_Alliance_Survivors_Medium, 1.0
+			Rebel_Alliance_Survivors_Large, 1.0
 		</Destruction_Survivors>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
@@ -918,171 +918,9 @@
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		
 		<Required_Planets>
-		        Coruscant,				
-				Corulag,
-				Arkania,
-				Skako,
-				Carida,
-				Alderaan,
-				Balmorra,				
-				CatoNeimoidia,
-				Commenor,
-				Manaan,								
-				Duro,
-				HosnianPrime,
-				Loronar,
-				Devaron,
-				Bestine,
-				MechisIII,
-				Thyferra,				
-				Abregado_Rae,
-				Byss,
-				Tython,
-				Foerost,
-				Fresia,
-				Atzerri,
-				YagDhul,				
-				Ordmantell,
-				Iridonia,
-				Ithor,
-				Aeten,
-				Nirauan,
-				YagaMinor,
-				Mygeeto,
-				Muunilinst,
-				Kalee,
-				Dantooine,
-				LahMu,
-				Bastion,
-				Sernpidal,
-				Mortis,
-				Agamar,
-				Despayre,				
-				Jakku,
-				Jedha,
-				Ilum,
-				Starkillerbase,
-				Csilla,
-				AchTo,
-				Takodana,
-				Rattatak,
-				Endor,
-				Bakura,
-				Dolomar,				
-				Eriadu,				
-				Dagobah,
-				Utapau,
-				Belsavis,
-				Bespin,
-				Hoth,
-				Mustafar,
-				PolisMassa,
-				Atravis,
-				Malastare,
-				Naboo,
-				DQar,
-				Crait,
-				Vergesso,
-				Alzoc,
-				Arkanis,
-				Ryloth,
-				Tatooine,
-				Geonosis,
-				Christophsis,
-				Savareen,				
-				Falleen,
-				Vandor,
-				Rothana,				
-				Ukio,
-				Rishi,
-				Kamino,
-				Bothawui,
-				Mimban,
-				Ruusan,
-				Kashyyyk,
-				Roche,
-				Vardos,
-				Onderon,
-				Umbara,
-				Hapes,
-				Wayland,
-				Myrkr,
-				Taris,				
-				Serenno,
-				Yavin,
-				Axxila,
-				Dathomir,
-				Bandomeer,
-				Bimmiel,
-				Celanon,				
-				Felucia,
-				Florrum,
-				Korriban,
-				Dromund,
-				Ziost,
-				Telos,				
-				Jabiim,			
-				BozPity,
-				Saleucami,
-				Raxus,
-				Malachor,
-				Zygerria,
-				Cantonica,
-				EttiIV,
-				Bonadan,
-				Reltooine,
-				Teth,
-				Honoghr,
-				The_Maw,
-				Kessel,
-				Minntooine,
-				Pammant,				
-				Shola,
-				NalHutta,
-				Toydaria,
-				Rodia,
-				Iego,
-				Polus,
-				Alsakan,
-				Adumar,
-				RhenVar,
-				Maridun,
-				Tibrin,
-				StygeonPrime,
-				Scipio,
-				Raydonia,
-				Aargonar,
-				Shili,
-				Alakatha,
-				Ambria,
-				Akiva,
-				Chandrila,
-				Brentaal,
-				Raltiir,
-				Belderone,
-				LolaSayu,
-				Alarisprime,
-				Ossus,
-				Exocron,
-				Nelvaan,
-				Zakuul,
-				Gleeanselm,
-				ZonamaSekot,
-				Vjun,
-				Lehon,
-				Quell,
-				Vulpter,
-				Anaxes,
-				Anoat,
-				Belkadan,
-				Eadu,
-				Taspir,
-				Aargau,
-				Calus,
-				Wobani,
-				Antar,
-				Borleias,
-				Pantora
+		        
+				
+				
 	    </Required_Planets>
 		<Tactical_Health>9000</Tactical_Health>
 		<Icon_Name>i_button_E_barracks.tga</Icon_Name>
@@ -1219,9 +1057,9 @@
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		
 		<Destruction_Survivors> 
-			
-			
-			
+			Rebel_Alliance_Survivors_Small, 1.0
+			Rebel_Alliance_Survivors_Medium, 1.0
+			Rebel_Alliance_Survivors_Large, 1.0
 		</Destruction_Survivors>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
@@ -1307,8 +1145,8 @@
 		
 
 		<AI_Combat_Power>500</AI_Combat_Power>
-		<Starting_Spawned_Units_Tech_0></Starting_Spawned_Units_Tech_0>
-         <Reserve_Spawned_Units_Tech_0></Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Rebel_Alliance_Soldier_Squad, 2</Starting_Spawned_Units_Tech_0>
+        <Reserve_Spawned_Units_Tech_0>Rebel_Alliance_Soldier_Squad, -1</Reserve_Spawned_Units_Tech_0>
 
         <Spawned_Squadron_Delay_Seconds>120</Spawned_Squadron_Delay_Seconds> 
         <Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
@@ -1395,9 +1233,9 @@
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		
 		<Destruction_Survivors> 
-			
-			
-			
+			Rebel_Alliance_Survivors_Small, 1.0
+			Rebel_Alliance_Survivors_Medium, 1.0
+			Rebel_Alliance_Survivors_Large, 1.0
 		</Destruction_Survivors>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
@@ -1574,9 +1412,9 @@
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		
 		<Destruction_Survivors> 
-			
-			
-			
+			Rebel_Alliance_Survivors_Small, 1.0
+			Rebel_Alliance_Survivors_Medium, 1.0
+			Rebel_Alliance_Survivors_Large, 1.0
 		</Destruction_Survivors>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
@@ -1712,9 +1550,9 @@
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		
 		<Destruction_Survivors> 
-			
-			
-			
+			Rebel_Alliance_Survivors_Small, 1.0
+			Rebel_Alliance_Survivors_Medium, 1.0
+			Rebel_Alliance_Survivors_Large, 1.0
 		</Destruction_Survivors>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
@@ -1795,7 +1633,7 @@
 
         <Build_Countdown_Timer> Yes </Build_Countdown_Timer>
 		<Build_Countdown_Text_ID> RESEARCH_FACILITY </Build_Countdown_Text_ID>
-		<Build_Countdown_Text_RGBA> 54, 134, 242, 255 </Build_Countdown_Text_RGBA>
+		<Build_Countdown_Text_RGBA> 239, 133, 16, 255 </Build_Countdown_Text_RGBA>
 		<Build_Music_Completed> Tech_Upgrade_Empire </Build_Music_Completed>
 	
 		<GUI_Bounds_Scale>0.35</GUI_Bounds_Scale>
@@ -1840,9 +1678,9 @@
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
 		
 		<Destruction_Survivors> 
-			
-			
-			
+			Rebel_Alliance_Survivors_Small, 1.0
+			Rebel_Alliance_Survivors_Medium, 1.0
+			Rebel_Alliance_Survivors_Large, 1.0
 		</Destruction_Survivors>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
@@ -1857,7 +1695,7 @@
 		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>1</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>

@@ -52,7 +52,7 @@ function Definitions()
 	TaskForce = {
 	{
 		"BaseForce",
-		"E_Ground_Barracks | R_Ground_Barracks | Early_Empire_Ground_Barracks | Terrorists_Ground_Barraks | CIS_Remnant_Ground_Barraks | Black_Sun_Ground_Barraks | Hutt_Cartel_Ground_Barracks | Mandalorians_Ground_Barracks | Galactic_Empire_Ground_Barracks | Rebel_Alliance_Ground_Barraks | Pyke_Syndicate_Ground_Barraks | Corporate_Sector_Ground_Barraks | Hapan_Consortium_Ground_Barracks | Crimson_Dawn_Ground_Barracks | New_Republic_Ground_Barracks | Remnant_Rax_Ground_Barraks | Remnant_Gratloe_Ground_Barraks | Remnant_Loring_Ground_Barraks | Remnant_Adelhard_Ground_Barracks | First_Order_Ground_Barracks = 1"
+		"E_Ground_Barracks | R_Ground_Barracks | Early_Empire_Ground_Barracks | Terrorists_Ground_Barraks | CIS_Remnant_Ground_Barraks | Trade_Federation_Ground_Barracks | Commerce_Guild_Ground_Barracks | Techno_Union_Ground_Barracks | Banking_Clan_Ground_Barracks | Mandalorians_Ground_Barracks | Galactic_Empire_Ground_Barracks | Rebel_Alliance_Ground_Barraks | Pyke_Syndicate_Ground_Barraks | Corporate_Sector_Ground_Barraks | Hapan_Consortium_Ground_Barracks | Crimson_Dawn_Ground_Barracks | Black_Sun_Ground_Barraks | Hutt_Cartel_Ground_Barracks | New_Republic_Ground_Barracks | Remnant_Rax_Ground_Barraks | Remnant_Gratloe_Ground_Barraks | Remnant_Loring_Ground_Barraks | Remnant_Adelhard_Ground_Barracks | First_Order_Ground_Barracks | Chiss_Ascendancy_Ground_Barracks = 1"
 	}
 	}
 

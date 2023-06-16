@@ -50,7 +50,7 @@ function Definitions()
 	TaskForce = {
 	{
 		"StructureForce",
-		"E_Ground_Base_Shield | R_Ground_Base_Shield | Early_Empire_Ground_Base_Shield | Terrorists_Ground_Base_Shield | CIS_Remnant_Ground_Base_Shield | Black_Sun_Ground_Base_Shield | Hutt_Cartel_Ground_Base_Shield | Mandalorians_Ground_Base_Shield | Galactic_Empire_Ground_Base_Shield | Rebel_Alliance_Ground_Base_Shield | Pyke_Syndicate_Ground_Base_Shield | Corporate_Sector_Ground_Base_Shield | Hapan_Consortium_Ground_Base_Shield | Crimson_Dawn_Ground_Base_Shield | New_Republic_Ground_Base_Shield | Remnant_Rax_Ground_Base_Shield | Remnant_Gratloe_Ground_Base_Shield | Remnant_Loring_Ground_Base_Shield | Remnant_Adelhard_Ground_Base_Shield | First_Order_Ground_Base_Shield = 1"
+		"E_Ground_Base_Shield | R_Ground_Base_Shield | Early_Empire_Ground_Base_Shield | Terrorists_Ground_Base_Shield | CIS_Remnant_Ground_Base_Shield | Trade_Federation_Ground_Base_Shield | Commerce_Guild_Ground_Base_Shield | Techno_Union_Ground_Base_Shield | Banking_Clan_Ground_Base_Shield | Mandalorians_Ground_Base_Shield | Galactic_Empire_Ground_Base_Shield | Rebel_Alliance_Ground_Base_Shield | Pyke_Syndicate_Ground_Base_Shield | Corporate_Sector_Ground_Base_Shield | Hapan_Consortium_Ground_Base_Shield | Crimson_Dawn_Ground_Base_Shield | Black_Sun_Ground_Base_Shield | Hutt_Cartel_Ground_Base_Shield | New_Republic_Ground_Base_Shield | Remnant_Rax_Ground_Base_Shield | Remnant_Gratloe_Ground_Base_Shield | Remnant_Loring_Ground_Base_Shield | Remnant_Adelhard_Ground_Base_Shield | First_Order_Ground_Base_Shield | Chiss_Ascendancy_Ground_Base_Shield = 1"
 	}
 	}
 

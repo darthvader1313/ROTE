@@ -672,9 +672,9 @@
 		<!-- End Droid Advisor Speech/Text -->
 		<Allies />
 		<Enemies>
-		Empire, Rebel, Pirates, Hostile, Early_Empire, Terrorists, CIS_Remnant, Hutt_Cartel, Black_Sun, Mandalorians, 
-		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn,
-		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order
+		Empire, Rebel, Pirates, Hostile, Early_Empire, Terrorists, CIS_Remnant, Trade_Federation, Commerce_Guild, Techno_Union, Banking_Clan, Mandalorians, 
+		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn, Hutt_Cartel, Black_Sun,
+		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order, Imperial_Remnant_Thrawn, Chiss_Ascendancy
 		</Enemies>
 		<Can_Control_Planets>true</Can_Control_Planets>
 		<Garrison_Reinforcement_Delay_Seconds>20.0</Garrison_Reinforcement_Delay_Seconds>
@@ -904,7 +904,10 @@
 		<Home_Planet>Coruscant</Home_Planet>
 		<Faction_Leader>Sheev_Palpatine</Faction_Leader>
 		<Faction_Leader_Company>Sheev_Palpatine_Team</Faction_Leader_Company>
-
+		
+        <!-- MusicEvents -->
+		<Strategic_Map_Music_Event> Galactic_Map_Underworld_Music_Event </Strategic_Map_Music_Event>
+		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
 
 		<!-- Allow special weapon firing in tactical maps that have no parent galactic mode -->
 		<Standalone_Space_Maps_Special_Weapon_A> Ground_Empire_Hypervelocity_Gun </Standalone_Space_Maps_Special_Weapon_A>
@@ -988,9 +991,9 @@
 
 		<Allies />
 		<Enemies>
-		Empire, Rebel, Pirates, Hostile, Underworld, Terrorists, CIS_Remnant, Hutt_Cartel, Black_Sun, Mandalorians, 
-		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn,
-		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order
+		Empire, Rebel, Pirates, Hostile, Underworld, Terrorists, CIS_Remnant, Trade_Federation, Commerce_Guild, Techno_Union, Banking_Clan, Mandalorians, 
+		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn, Hutt_Cartel, Black_Sun,
+		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order, Chiss_Ascendancy
 		</Enemies>
 		
 		<Can_Control_Planets>true</Can_Control_Planets>
@@ -1185,6 +1188,9 @@
 		<Faction_Leader>Saw_Gerrera</Faction_Leader>
 		<Faction_Leader_Company>Saw_Gerrera_Team</Faction_Leader_Company>
 
+        <!-- MusicEvents -->
+		<Strategic_Map_Music_Event> Galactic_Map_Underworld_Music_Event </Strategic_Map_Music_Event>
+		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
 
 		<!-- Allow special weapon firing in tactical maps that have no parent galactic mode -->
 		<Standalone_Space_Maps_Special_Weapon_A>  </Standalone_Space_Maps_Special_Weapon_A>
@@ -1268,9 +1274,9 @@
 
 		<Allies />
 		<Enemies>
-		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, CIS_Remnant, Hutt_Cartel, Black_Sun, Mandalorians, 
-		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn,
-		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order
+		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, CIS_Remnant, Trade_Federation, Commerce_Guild, Techno_Union, Banking_Clan, Mandalorians, 
+		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn, Hutt_Cartel, Black_Sun,
+		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order, Chiss_Ascendancy
 		</Enemies>
 		
 		<Can_Control_Planets>true</Can_Control_Planets>
@@ -1464,6 +1470,9 @@
 		<Faction_Leader></Faction_Leader>
 		<Faction_Leader_Company></Faction_Leader_Company>
 
+        <!-- MusicEvents -->
+		<Strategic_Map_Music_Event> Galactic_Map_Underworld_Music_Event </Strategic_Map_Music_Event>
+		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
 
 		<!-- Allow special weapon firing in tactical maps that have no parent galactic mode -->
 		<Standalone_Space_Maps_Special_Weapon_A> Ground_Empire_Hypervelocity_Gun </Standalone_Space_Maps_Special_Weapon_A>
@@ -1547,9 +1556,9 @@
 
 		<Allies />
 		<Enemies>
-		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, Hutt_Cartel, Black_Sun, Mandalorians, 
-		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn,
-		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order
+		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, Trade_Federation, Commerce_Guild, Techno_Union, Banking_Clan, Mandalorians, 
+		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn, Hutt_Cartel, Black_Sun,
+		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order, Imperial_Remnant_Thrawn, Chiss_Ascendancy
 		</Enemies>
 		
 		<Can_Control_Planets>true</Can_Control_Planets>
@@ -1588,25 +1597,24 @@
 	
 	
 	
-	
-	<Faction Name="Black_Sun">
+	<Faction Name="Trade_Federation">
 
 		<Is_Debug_Switchable_To> Yes </Is_Debug_Switchable_To>
 		<Create_Player_In_Multiplayer_Games> No </Create_Player_In_Multiplayer_Games>
 
-		<Text_ID> TEXT_FACTION_BLACK_SUN </Text_ID>
-		<Icon_Name> i_button_Black_Sun.tga </Icon_Name>
-		<Alternate_Icon_Name> i_button_Black_Sun.tga </Alternate_Icon_Name>
+		<Text_ID> TEXT_FACTION_TRADE_FEDERATION </Text_ID>
+		<Icon_Name> I_ENCYCLOPEDIA_TRADE_FEDERATION_SYMBOL.tga </Icon_Name>
+		<Alternate_Icon_Name> I_ENCYCLOPEDIA_TRADE_FEDERATION_SYMBOL.tga </Alternate_Icon_Name>
 		<Ground_Base_Icon_Name> groundbase_icon.tga </Ground_Base_Icon_Name>
 		<Star_Base_Icon_Name> spacestation_icon.tga </Star_Base_Icon_Name>
 		<Ground_Transport_Icon_Name> I_BUTTON_BATTLEDROID1.tga </Ground_Transport_Icon_Name>
 		<Fleet_Icon_Name> i_icon_fleet.tga </Fleet_Icon_Name>
 		<Ship_Icon_Name> g_fleet.tga </Ship_Icon_Name>
 		<Squadron_Icon_Name> g_squad.tga </Squadron_Icon_Name>
-		<Color> 240, 209, 0, 255 </Color>
-		<No_Colorization_Color> 240, 209, 0, 255 </No_Colorization_Color>
-		<Display_Font_Color> 240, 209, 0, 255 </Display_Font_Color>
-		<Big_Fleet_Color> 240, 209, 0, 255 </Big_Fleet_Color>
+		<Color> 143, 92, 19, 255 </Color>
+		<No_Colorization_Color> 143, 92, 19, 255 </No_Colorization_Color>
+		<Display_Font_Color> 143, 92, 19, 255 </Display_Font_Color>
+		<Big_Fleet_Color> 143, 92, 19, 255 </Big_Fleet_Color>
 		<Credits_Accumulation_Factor> 0.85 </Credits_Accumulation_Factor>
 		<Planet_Icon_Scale> 10.0 </Planet_Icon_Scale>
 		<Planet_Icon_Offset> 7.0, 10.0, -1.1 </Planet_Icon_Offset>
@@ -1649,8 +1657,8 @@
 		<Space_Retreat_Flight_Increment> 500.0 </Space_Retreat_Flight_Increment>
 		<Space_Retreat_Unit_Increment_Wait_Frames> 1 </Space_Retreat_Unit_Increment_Wait_Frames>
 		<Space_Retreat_Off_Map_Dest_Pos> 12000.0, 12000.0, 0.0 </Space_Retreat_Off_Map_Dest_Pos>	<!-- WARNING: For some reason, non-0.0 Z crashes the game -->
-		<Space_Retreat_Countdown_Color_RGBA> 240, 209, 0, 255 </Space_Retreat_Countdown_Color_RGBA>
-		<Space_Retreat_Countdown_Text_ID> TEXT_RETREAT_SPACE_BLACK_SUN_COUNTDOWN </Space_Retreat_Countdown_Text_ID>
+		<Space_Retreat_Countdown_Color_RGBA> 143, 92, 19, 255 </Space_Retreat_Countdown_Color_RGBA>
+		<Space_Retreat_Countdown_Text_ID> TEXT_RETREAT_SPACE_TRADE_FEDERATION_COUNTDOWN </Space_Retreat_Countdown_Text_ID>
 
 		<Space_Retreat_Begin_SFXEvent> EHD_Retreat_Started_Space </Space_Retreat_Begin_SFXEvent>
 		<Space_Retreat_Cancel_SFXEvent> EHD_Retreat_Cancelled </Space_Retreat_Cancel_SFXEvent>
@@ -1664,8 +1672,8 @@
 		<Land_Retreat_Countdown_Seconds> 10.99 </Land_Retreat_Countdown_Seconds>  
 		<Land_Retreat_Pursue_Max_Speed_Mod_Factor> 2.0 </Land_Retreat_Pursue_Max_Speed_Mod_Factor> 
 		<Land_Retreat_Units_Damaged_Mod_Factor> 2.0 </Land_Retreat_Units_Damaged_Mod_Factor> 
-		<Land_Retreat_Countdown_Color_RGBA> 240, 209, 0, 255 </Land_Retreat_Countdown_Color_RGBA>
-		<Land_Retreat_Countdown_Text_ID> TEXT_RETREAT_SPACE_BLACK_SUN_COUNTDOWN </Land_Retreat_Countdown_Text_ID>
+		<Land_Retreat_Countdown_Color_RGBA> 143, 92, 19, 255 </Land_Retreat_Countdown_Color_RGBA>
+		<Land_Retreat_Countdown_Text_ID> TEXT_RETREAT_LAND_TRADE_FEDERATION_COUNTDOWN </Land_Retreat_Countdown_Text_ID>
 
 		<Land_Retreat_Begin_SFXEvent> EHD_Retreat_Started_Land </Land_Retreat_Begin_SFXEvent>
 		<Land_Retreat_Cancel_SFXEvent> EHD_Retreat_Cancelled </Land_Retreat_Cancel_SFXEvent>
@@ -1693,7 +1701,7 @@
 		<Bombing_Run_Shadow_Blob_Material_Name> Bombing_Run_Rebel </Bombing_Run_Shadow_Blob_Material_Name>
 		<Bombing_Run_Blob_Size> 100.0 </Bombing_Run_Blob_Size>
 
-		<Bombardment_Shadow_Blob_Material_Name> Bombardment_Black_Sun </Bombardment_Shadow_Blob_Material_Name>
+		<Bombardment_Shadow_Blob_Material_Name> Bombardment_CIS_Remnant </Bombardment_Shadow_Blob_Material_Name>
 		<Bombardment_Blob_Size> 250.0 </Bombardment_Blob_Size>
 		<Bombardment_Required_Orbital_Ships>  </Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Rebel_Bombardment_Turbolaser </Bombardment_Projectile>
@@ -1703,10 +1711,10 @@
 		<Bombardment_Salvo_Delay> 2.15 </Bombardment_Salvo_Delay>
 		<Bombardment_Initial_Delay> 7.5 </Bombardment_Initial_Delay>
 
-		<Land_Mode_Selection_Blob_Material_Name>Selection_Black_Sun_Land</Land_Mode_Selection_Blob_Material_Name>
-		<Space_Mode_Selection_Blob_Material_Name>Selection_Black_Sun_Space</Space_Mode_Selection_Blob_Material_Name>
-		<Land_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Black_Sun_Land</Land_Mode_Garrison_Selection_Blob_Material_Name>
-		<Space_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Black_Sun_Space</Space_Mode_Garrison_Selection_Blob_Material_Name>
+		<Land_Mode_Selection_Blob_Material_Name>Selection_Trade_Federation_Land</Land_Mode_Selection_Blob_Material_Name>
+		<Space_Mode_Selection_Blob_Material_Name>Selection_Trade_Federation_Space</Space_Mode_Selection_Blob_Material_Name>
+		<Land_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Trade_Federation_Land</Land_Mode_Garrison_Selection_Blob_Material_Name>
+		<Space_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Trade_Federation_Space</Space_Mode_Garrison_Selection_Blob_Material_Name>
         <Selection_Blob_RGBA>0,255,0,255</Selection_Blob_RGBA>
 		
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
@@ -1732,8 +1740,8 @@
         <Superweapon_Win_Movie />
         <Generic_Win_Movie />
         <Finale_Movie />
-        <Victory_Text>TEXT_CONFEDERACY_VICTORY</Victory_Text>
-        <Defeat_Text>TEXT_CONFEDERACY_DEFEAT</Defeat_Text>
+        <Victory_Text>TEXT_TRADE_FEDERATION_VICTORY</Victory_Text>
+        <Defeat_Text>TEXT_TRADE_FEDERATION_DEFEAT</Defeat_Text>
 
         <Space_Win_Image>i_es_win.tga</Space_Win_Image>
         <Space_Lose_Image>i_es_lose.tga</Space_Lose_Image>
@@ -1741,10 +1749,13 @@
         <Land_Lose_Image>i_el_lose.tga</Land_Lose_Image>
 
 		<!-- This enables the galactic victory condition: "Win by capturing Coruscant and eliminating Emperor Palpatine" -->
-		<Home_Planet>Ordmantell</Home_Planet>
-		<Faction_Leader>Prince_Xizor</Faction_Leader>
-		<Faction_Leader_Company>Prince_Xizor_Team</Faction_Leader_Company>
+		<Home_Planet>Mustafar</Home_Planet>
+		<Faction_Leader></Faction_Leader>
+		<Faction_Leader_Company></Faction_Leader_Company>
 
+        <!-- MusicEvents -->
+		<Strategic_Map_Music_Event> Galactic_Map_Underworld_Music_Event </Strategic_Map_Music_Event>
+		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
 
 		<!-- Allow special weapon firing in tactical maps that have no parent galactic mode -->
 		<Standalone_Space_Maps_Special_Weapon_A> Ground_Empire_Hypervelocity_Gun </Standalone_Space_Maps_Special_Weapon_A>
@@ -1828,9 +1839,9 @@
 
 		<Allies />
 		<Enemies>
-		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Hutt_Cartel, Mandalorians, 
-		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn,
-		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order
+		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Commerce_Guild, Techno_Union, Banking_Clan, Mandalorians, 
+		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn, Hutt_Cartel, Black_Sun,
+		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order, Imperial_Remnant_Thrawn, Chiss_Ascendancy
 		</Enemies>
 		
 		<Can_Control_Planets>true</Can_Control_Planets>
@@ -1846,7 +1857,7 @@
 			
 		</Multiplayer_Campaign_Heroes>
 
-		<Multiplayer_Map_Preview_Icon>I_MULTIPLAY_BLACK_SUN.TGA</Multiplayer_Map_Preview_Icon>
+		<Multiplayer_Map_Preview_Icon>I_MULTIPLAY_TRADE_FEDERATION.TGA</Multiplayer_Map_Preview_Icon>
 
         <Tech_Level_Icon_Name> i_button_e_tech_upgrade_ </Tech_Level_Icon_Name>
 
@@ -1869,25 +1880,24 @@
 	
 	
 	
-	
-	<Faction Name="Hutt_Cartel">
+	<Faction Name="Commerce_Guild">
 
 		<Is_Debug_Switchable_To> Yes </Is_Debug_Switchable_To>
 		<Create_Player_In_Multiplayer_Games> No </Create_Player_In_Multiplayer_Games>
 
-		<Text_ID> TEXT_FACTION_HUTT_CARTEL </Text_ID>
-		<Icon_Name> I_ENCYCLOPEDIA_HUTT_CARTEL_SYMBOL.tga </Icon_Name>
-		<Alternate_Icon_Name> I_ENCYCLOPEDIA_HUTT_CARTEL_SYMBOL.tga </Alternate_Icon_Name>
+		<Text_ID> TEXT_FACTION_COMMERCE_GUILD </Text_ID>
+		<Icon_Name> I_ENCYCLOPEDIA_COMMERCE_GUILD_SYMBOL.tga </Icon_Name>
+		<Alternate_Icon_Name> I_ENCYCLOPEDIA_COMMERCE_GUILD_SYMBOL.tga </Alternate_Icon_Name>
 		<Ground_Base_Icon_Name> groundbase_icon.tga </Ground_Base_Icon_Name>
 		<Star_Base_Icon_Name> spacestation_icon.tga </Star_Base_Icon_Name>
-		<Ground_Transport_Icon_Name> i_button_Twilek_Pirate.tga </Ground_Transport_Icon_Name>
+		<Ground_Transport_Icon_Name> I_BUTTON_BATTLEDROID1.tga </Ground_Transport_Icon_Name>
 		<Fleet_Icon_Name> i_icon_fleet.tga </Fleet_Icon_Name>
 		<Ship_Icon_Name> g_fleet.tga </Ship_Icon_Name>
 		<Squadron_Icon_Name> g_squad.tga </Squadron_Icon_Name>
-		<Color> 0, 150, 71, 255 </Color>
-		<No_Colorization_Color> 0, 150, 71, 255 </No_Colorization_Color>
-		<Display_Font_Color> 0, 150, 71, 255 </Display_Font_Color>
-		<Big_Fleet_Color> 0, 150, 71, 255 </Big_Fleet_Color>
+		<Color> 102, 219, 2, 255 </Color>
+		<No_Colorization_Color> 102, 219, 2, 255 </No_Colorization_Color>
+		<Display_Font_Color> 102, 219, 2, 255 </Display_Font_Color>
+		<Big_Fleet_Color> 102, 219, 2, 255 </Big_Fleet_Color>
 		<Credits_Accumulation_Factor> 0.85 </Credits_Accumulation_Factor>
 		<Planet_Icon_Scale> 10.0 </Planet_Icon_Scale>
 		<Planet_Icon_Offset> 7.0, 10.0, -1.1 </Planet_Icon_Offset>
@@ -1915,10 +1925,10 @@
 
 		<Scatters_From_Crushers> false </Scatters_From_Crushers>
 		
-		<Infantry_Icon_Name>i_button_Twilek_Pirate.tga</Infantry_Icon_Name>
-		<Vehicle_Icon_Name>i_button_New_Pirate_skiff.tga</Vehicle_Icon_Name>
+		<Infantry_Icon_Name>I_BUTTON_BATTLEDROID1.tga</Infantry_Icon_Name>
+		<Vehicle_Icon_Name>I_BUTTON_AATD.tga</Vehicle_Icon_Name>
 		<Carrier_Icon_Name>i_e_carrier.tga</Carrier_Icon_Name>
-		<Frigate_Icon_Name>i_button_hutt_cruiser.tga</Frigate_Icon_Name>
+		<Frigate_Icon_Name>I_BUTTON_Munificent.tga</Frigate_Icon_Name>
 		<Corvette_Icon_Name>i_e_corvette.tga</Corvette_Icon_Name>
 		<Fighter_Icon_Name>i_button_tie_fighter.tga</Fighter_Icon_Name>
         <Tech_Tree_Dialog_Name>IDD_TECH_TREE_EMPIRE</Tech_Tree_Dialog_Name>
@@ -1930,8 +1940,8 @@
 		<Space_Retreat_Flight_Increment> 500.0 </Space_Retreat_Flight_Increment>
 		<Space_Retreat_Unit_Increment_Wait_Frames> 1 </Space_Retreat_Unit_Increment_Wait_Frames>
 		<Space_Retreat_Off_Map_Dest_Pos> 12000.0, 12000.0, 0.0 </Space_Retreat_Off_Map_Dest_Pos>	<!-- WARNING: For some reason, non-0.0 Z crashes the game -->
-		<Space_Retreat_Countdown_Color_RGBA> 0, 150, 71, 255 </Space_Retreat_Countdown_Color_RGBA>
-		<Space_Retreat_Countdown_Text_ID> TEXT_RETREAT_SPACE_HUTT_CARTEL_COUNTDOWN </Space_Retreat_Countdown_Text_ID>
+		<Space_Retreat_Countdown_Color_RGBA> 102, 219, 2, 255 </Space_Retreat_Countdown_Color_RGBA>
+		<Space_Retreat_Countdown_Text_ID> TEXT_RETREAT_SPACE_COMMERCE_GUILD_COUNTDOWN </Space_Retreat_Countdown_Text_ID>
 
 		<Space_Retreat_Begin_SFXEvent> EHD_Retreat_Started_Space </Space_Retreat_Begin_SFXEvent>
 		<Space_Retreat_Cancel_SFXEvent> EHD_Retreat_Cancelled </Space_Retreat_Cancel_SFXEvent>
@@ -1945,8 +1955,8 @@
 		<Land_Retreat_Countdown_Seconds> 10.99 </Land_Retreat_Countdown_Seconds>  
 		<Land_Retreat_Pursue_Max_Speed_Mod_Factor> 2.0 </Land_Retreat_Pursue_Max_Speed_Mod_Factor> 
 		<Land_Retreat_Units_Damaged_Mod_Factor> 2.0 </Land_Retreat_Units_Damaged_Mod_Factor> 
-		<Land_Retreat_Countdown_Color_RGBA> 0, 150, 71, 255 </Land_Retreat_Countdown_Color_RGBA>
-		<Land_Retreat_Countdown_Text_ID> TEXT_RETREAT_LAND_HUTT_CARTEL_COUNTDOWN </Land_Retreat_Countdown_Text_ID>
+		<Land_Retreat_Countdown_Color_RGBA> 102, 219, 2, 255 </Land_Retreat_Countdown_Color_RGBA>
+		<Land_Retreat_Countdown_Text_ID> TEXT_RETREAT_LAND_COMMERCE_GUILD_COUNTDOWN </Land_Retreat_Countdown_Text_ID>
 
 		<Land_Retreat_Begin_SFXEvent> EHD_Retreat_Started_Land </Land_Retreat_Begin_SFXEvent>
 		<Land_Retreat_Cancel_SFXEvent> EHD_Retreat_Cancelled </Land_Retreat_Cancel_SFXEvent>
@@ -1971,24 +1981,23 @@
 
 		<Reinforcements_Shadow_Blob_Material_Name> Reinforcement_Overlay_Empire </Reinforcements_Shadow_Blob_Material_Name>
 
-		<Bombing_Run_Shadow_Blob_Material_Name> Bombing_Run_Empire </Bombing_Run_Shadow_Blob_Material_Name>
+		<Bombing_Run_Shadow_Blob_Material_Name> Bombing_Run_Rebel </Bombing_Run_Shadow_Blob_Material_Name>
 		<Bombing_Run_Blob_Size> 100.0 </Bombing_Run_Blob_Size>
 
-		<!-- BOMBARDMENT DATA -->
-		<Bombardment_Shadow_Blob_Material_Name> Bombardment_Hutt_Cartel </Bombardment_Shadow_Blob_Material_Name>
-		<Bombardment_Blob_Size> 200.0 </Bombardment_Blob_Size>
+		<Bombardment_Shadow_Blob_Material_Name> Bombardment_CIS_Remnant </Bombardment_Shadow_Blob_Material_Name>
+		<Bombardment_Blob_Size> 250.0 </Bombardment_Blob_Size>
 		<Bombardment_Required_Orbital_Ships>  </Bombardment_Required_Orbital_Ships>
-		<Bombardment_Projectile> Proj_Pirates_Bombardment_Turbolaser </Bombardment_Projectile>
+		<Bombardment_Projectile> Proj_Rebel_Bombardment_Turbolaser </Bombardment_Projectile>
 		<Bombardment_Number_Of_Salvos> 2 </Bombardment_Number_Of_Salvos>
 		<Bombardment_Shots_Per_Salvo> 4 </Bombardment_Shots_Per_Salvo>
 		<Bombardment_Shot_Delay> 0.5 </Bombardment_Shot_Delay>
 		<Bombardment_Salvo_Delay> 2.15 </Bombardment_Salvo_Delay>
 		<Bombardment_Initial_Delay> 7.5 </Bombardment_Initial_Delay>
 
-		<Land_Mode_Selection_Blob_Material_Name>Selection_Hutt_Cartel_Land</Land_Mode_Selection_Blob_Material_Name>
-		<Space_Mode_Selection_Blob_Material_Name>Selection_Hutt_Cartel_Space</Space_Mode_Selection_Blob_Material_Name>
-		<Land_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Hutt_Cartel_Land</Land_Mode_Garrison_Selection_Blob_Material_Name>
-		<Space_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Hutt_Cartel_Space</Space_Mode_Garrison_Selection_Blob_Material_Name>
+		<Land_Mode_Selection_Blob_Material_Name>Selection_Commerce_Guild_Land</Land_Mode_Selection_Blob_Material_Name>
+		<Space_Mode_Selection_Blob_Material_Name>Selection_Commerce_Guild_Space</Space_Mode_Selection_Blob_Material_Name>
+		<Land_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Commerce_Guild_Land</Land_Mode_Garrison_Selection_Blob_Material_Name>
+		<Space_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Commerce_Guild_Space</Space_Mode_Garrison_Selection_Blob_Material_Name>
         <Selection_Blob_RGBA>0,255,0,255</Selection_Blob_RGBA>
 		
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
@@ -2014,8 +2023,8 @@
         <Superweapon_Win_Movie />
         <Generic_Win_Movie />
         <Finale_Movie />
-        <Victory_Text>TEXT_HUTT_CARTEL_VICTORY</Victory_Text>
-        <Defeat_Text>TEXT_HUTT_CARTEL_DEFEAT</Defeat_Text>
+        <Victory_Text>TEXT_COMMERCE_GUILD_VICTORY</Victory_Text>
+        <Defeat_Text>TEXT_COMMERCE_GUILD_DEFEAT</Defeat_Text>
 
         <Space_Win_Image>i_es_win.tga</Space_Win_Image>
         <Space_Lose_Image>i_es_lose.tga</Space_Lose_Image>
@@ -2023,10 +2032,13 @@
         <Land_Lose_Image>i_el_lose.tga</Land_Lose_Image>
 
 		<!-- This enables the galactic victory condition: "Win by capturing Coruscant and eliminating Emperor Palpatine" -->
-		<Home_Planet>NalHutta</Home_Planet>
-		<Faction_Leader>Jabba_The_Hutt</Faction_Leader>
-		<Faction_Leader_Company>Jabba_The_Hutt_Team</Faction_Leader_Company>
+		<Home_Planet>Mustafar</Home_Planet>
+		<Faction_Leader></Faction_Leader>
+		<Faction_Leader_Company></Faction_Leader_Company>
 
+        <!-- MusicEvents -->
+		<Strategic_Map_Music_Event> Galactic_Map_Underworld_Music_Event </Strategic_Map_Music_Event>
+		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
 
 		<!-- Allow special weapon firing in tactical maps that have no parent galactic mode -->
 		<Standalone_Space_Maps_Special_Weapon_A> Ground_Empire_Hypervelocity_Gun </Standalone_Space_Maps_Special_Weapon_A>
@@ -2110,9 +2122,9 @@
 
 		<Allies />
 		<Enemies>
-		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Black_Sun, Mandalorians, 
-		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn,
-		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order
+		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Trade_Federation, Techno_Union, Banking_Clan, Mandalorians, 
+		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn, Hutt_Cartel, Black_Sun,
+		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order, Imperial_Remnant_Thrawn, Chiss_Ascendancy
 		</Enemies>
 		
 		<Can_Control_Planets>true</Can_Control_Planets>
@@ -2128,7 +2140,7 @@
 			
 		</Multiplayer_Campaign_Heroes>
 
-		<Multiplayer_Map_Preview_Icon>I_MULTIPLAY_HUTT_CARTEL.TGA</Multiplayer_Map_Preview_Icon>
+		<Multiplayer_Map_Preview_Icon>I_MULTIPLAY_COMMERCE_GUILD.TGA</Multiplayer_Map_Preview_Icon>
 
         <Tech_Level_Icon_Name> i_button_e_tech_upgrade_ </Tech_Level_Icon_Name>
 
@@ -2146,6 +2158,573 @@
 		</Automatic_Planetary_Corruption_Upgrade_Type>
 
 	</Faction>
+	
+	
+	
+	
+	
+	<Faction Name="Techno_Union">
+
+		<Is_Debug_Switchable_To> Yes </Is_Debug_Switchable_To>
+		<Create_Player_In_Multiplayer_Games> No </Create_Player_In_Multiplayer_Games>
+
+		<Text_ID> TEXT_FACTION_TECHNO_UNION </Text_ID>
+		<Icon_Name> I_ENCYCLOPEDIA_TECHNO_UNION_SYMBOL.tga </Icon_Name>
+		<Alternate_Icon_Name> I_ENCYCLOPEDIA_TECHNO_UNION_SYMBOL.tga </Alternate_Icon_Name>
+		<Ground_Base_Icon_Name> groundbase_icon.tga </Ground_Base_Icon_Name>
+		<Star_Base_Icon_Name> spacestation_icon.tga </Star_Base_Icon_Name>
+		<Ground_Transport_Icon_Name> I_BUTTON_BATTLEDROID1.tga </Ground_Transport_Icon_Name>
+		<Fleet_Icon_Name> i_icon_fleet.tga </Fleet_Icon_Name>
+		<Ship_Icon_Name> g_fleet.tga </Ship_Icon_Name>
+		<Squadron_Icon_Name> g_squad.tga </Squadron_Icon_Name>
+		<Color> 114, 31, 2, 255 </Color>
+		<No_Colorization_Color> 114, 31, 2, 255 </No_Colorization_Color>
+		<Display_Font_Color> 114, 31, 2, 255 </Display_Font_Color>
+		<Big_Fleet_Color> 114, 31, 2, 255 </Big_Fleet_Color>
+		<Credits_Accumulation_Factor> 0.85 </Credits_Accumulation_Factor>
+		<Planet_Icon_Scale> 10.0 </Planet_Icon_Scale>
+		<Planet_Icon_Offset> 7.0, 10.0, -1.1 </Planet_Icon_Offset>
+		<Is_Playable>True</Is_Playable>
+		<Primary_Enemy> Empire </Primary_Enemy>
+		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
+		<Is_Neutral> No </Is_Neutral>
+		<Force_Alignment>Dark</Force_Alignment>
+		<Minimum_Visible_Base_Level>1</Minimum_Visible_Base_Level>
+		<Basic_AI>BasicEmpire</Basic_AI>
+		<Faction_Super_Weapon />
+		<Skirmish_Land_Bomber>  </Skirmish_Land_Bomber>
+		<Space_Tactical_Unit_Cap>350</Space_Tactical_Unit_Cap>
+		<Maintenance_Cost>0.25</Maintenance_Cost>
+		
+		<!-- Gameplay effects of planetary corruption on this faction. -->
+		<Benefits_From_Corruption> No </Benefits_From_Corruption>
+		<Corruption_Galactic_Production_Time_Multipliers> 1.0, .95 </Corruption_Galactic_Production_Time_Multipliers>
+		<Corruption_Galactic_Production_Price_Multipliers> 1.0, .9 </Corruption_Galactic_Production_Price_Multipliers>
+		<Corruption_Tactical_Production_Time_Multipliers> 1.0, 1.0 </Corruption_Tactical_Production_Time_Multipliers>
+		<Corruption_Tactical_Production_Price_Multipliers> 1.0, 1.0 </Corruption_Tactical_Production_Price_Multipliers>
+		<Corruption_Tactical_Build_Pad_Time_Multipliers> 1.0, 1.0 </Corruption_Tactical_Build_Pad_Time_Multipliers>
+		<Corruption_Tactical_Build_Pad_Price_Multipliers> 1.0, 1.0 </Corruption_Tactical_Build_Pad_Price_Multipliers>
+		<Easily_Bribed> Yes </Easily_Bribed>
+
+		<Scatters_From_Crushers> false </Scatters_From_Crushers>
+		
+		<Infantry_Icon_Name>I_BUTTON_BATTLEDROID1.tga</Infantry_Icon_Name>
+		<Vehicle_Icon_Name>I_BUTTON_AATD.tga</Vehicle_Icon_Name>
+		<Carrier_Icon_Name>i_e_carrier.tga</Carrier_Icon_Name>
+		<Frigate_Icon_Name>I_BUTTON_Munificent.tga</Frigate_Icon_Name>
+		<Corvette_Icon_Name>i_e_corvette.tga</Corvette_Icon_Name>
+		<Fighter_Icon_Name>i_button_tie_fighter.tga</Fighter_Icon_Name>
+        <Tech_Tree_Dialog_Name>IDD_TECH_TREE_EMPIRE</Tech_Tree_Dialog_Name>
+        <Helper_Icon_Name>i_empire_help_droid.tga</Helper_Icon_Name>
+
+		<Space_Retreat_Countdown_Seconds> 10.99 </Space_Retreat_Countdown_Seconds> 
+		<Space_Retreat_Pursue_Max_Speed_Mod_Factor> 3.0 </Space_Retreat_Pursue_Max_Speed_Mod_Factor> 
+		<Space_Retreat_Units_Damaged_Mod_Factor> 4.0 </Space_Retreat_Units_Damaged_Mod_Factor> 
+		<Space_Retreat_Flight_Increment> 500.0 </Space_Retreat_Flight_Increment>
+		<Space_Retreat_Unit_Increment_Wait_Frames> 1 </Space_Retreat_Unit_Increment_Wait_Frames>
+		<Space_Retreat_Off_Map_Dest_Pos> 12000.0, 12000.0, 0.0 </Space_Retreat_Off_Map_Dest_Pos>	<!-- WARNING: For some reason, non-0.0 Z crashes the game -->
+		<Space_Retreat_Countdown_Color_RGBA> 114, 31, 2, 255 </Space_Retreat_Countdown_Color_RGBA>
+		<Space_Retreat_Countdown_Text_ID> TEXT_RETREAT_SPACE_TECHNO_UNION_COUNTDOWN </Space_Retreat_Countdown_Text_ID>
+
+		<Space_Retreat_Begin_SFXEvent> EHD_Retreat_Started_Space </Space_Retreat_Begin_SFXEvent>
+		<Space_Retreat_Cancel_SFXEvent> EHD_Retreat_Cancelled </Space_Retreat_Cancel_SFXEvent>
+		<Space_Retreat_Not_Allowed_SFXEvent> EHD_Retreat_Not_Allowed </Space_Retreat_Not_Allowed_SFXEvent>
+		<Space_Retreat_Not_Allowed_Reason_1_SFXEvent> EHD_Retreat_Interdictor </Space_Retreat_Not_Allowed_Reason_1_SFXEvent>			<!-- Reason 1: Gravity Well -->                 
+		<Space_Retreat_Not_Allowed_Reason_2_SFXEvent> Unit_Retreat_Tarkin </Space_Retreat_Not_Allowed_Reason_2_SFXEvent>                               <!-- Reason 2: Friendly Hero Preventing -->     
+		<Space_Retreat_Not_Allowed_Reason_3_SFXEvent> </Space_Retreat_Not_Allowed_Reason_3_SFXEvent>                               <!-- Reason 3: Tactical Superweaper Present --> 
+
+		<Space_Surrender_SFXEvent> EHD_Retreat_Started_Space </Space_Surrender_SFXEvent>
+
+		<Land_Retreat_Countdown_Seconds> 10.99 </Land_Retreat_Countdown_Seconds>  
+		<Land_Retreat_Pursue_Max_Speed_Mod_Factor> 2.0 </Land_Retreat_Pursue_Max_Speed_Mod_Factor> 
+		<Land_Retreat_Units_Damaged_Mod_Factor> 2.0 </Land_Retreat_Units_Damaged_Mod_Factor> 
+		<Land_Retreat_Countdown_Color_RGBA> 114, 31, 2, 255 </Land_Retreat_Countdown_Color_RGBA>
+		<Land_Retreat_Countdown_Text_ID> TEXT_RETREAT_LAND_TECHNO_UNION_COUNTDOWN </Land_Retreat_Countdown_Text_ID>
+
+		<Land_Retreat_Begin_SFXEvent> EHD_Retreat_Started_Land </Land_Retreat_Begin_SFXEvent>
+		<Land_Retreat_Cancel_SFXEvent> EHD_Retreat_Cancelled </Land_Retreat_Cancel_SFXEvent>
+		<Land_Retreat_Not_Allowed_SFXEvent> EHD_Retreat_Not_Allowed </Land_Retreat_Not_Allowed_SFXEvent>
+		<Land_Retreat_Not_Allowed_Reason_1_SFXEvent> </Land_Retreat_Not_Allowed_Reason_1_SFXEvent>				<!-- Reason 1: Gravity Well -->                 
+		<Land_Retreat_Not_Allowed_Reason_2_SFXEvent> </Land_Retreat_Not_Allowed_Reason_2_SFXEvent>            <!-- Reason 2: Friendly Hero Preventing -->     
+		<Land_Retreat_Not_Allowed_Reason_3_SFXEvent> </Land_Retreat_Not_Allowed_Reason_3_SFXEvent>            <!-- Reason 3: Tactical Superweaper Present --> 
+
+		<Land_Surrender_SFXEvent> EHD_Retreat_Started_Land </Land_Surrender_SFXEvent>
+
+		<!-- <Reinforcements_Selection_SFXEvent> EHD_Choose_Reinforcements </Reinforcements_Selection_SFXEvent> -->
+		<!-- <Reinforcements_Pick_Landing_Zone_SFXEvent> EHD_Choose_Landing </Reinforcements_Pick_Landing_Zone_SFXEvent> -->
+		<!-- <Reinforcements_Enroute_SFXEvent> EHD_Reinforcements_En_Route </Reinforcements_Enroute_SFXEvent> -->
+		<!-- <Reinforcements_Cancelled_SFXEvent> EHD_Reinforcements_Cancelled </Reinforcements_Cancelled_SFXEvent> -->
+		<Reinforcements_Selection_SFXEvent> EHD_Choose_Reinforcements </Reinforcements_Selection_SFXEvent>
+		<Reinforcements_Pick_Landing_Zone_SFXEvent> </Reinforcements_Pick_Landing_Zone_SFXEvent>
+		<Reinforcements_Enroute_SFXEvent> EHD_Reinforcements_En_Route </Reinforcements_Enroute_SFXEvent>
+		<Reinforcements_Cancelled_SFXEvent> EHD_Reinforcements_Cancelled </Reinforcements_Cancelled_SFXEvent>
+
+		<Reinforcements_Requesting_SFXEvent> EHD_Request_Assistance </Reinforcements_Requesting_SFXEvent>
+		<Reinforcements_Ready_SFXEvent> EHD_Reinforcements_Available </Reinforcements_Ready_SFXEvent>
+
+		<Reinforcements_Shadow_Blob_Material_Name> Reinforcement_Overlay_Empire </Reinforcements_Shadow_Blob_Material_Name>
+
+		<Bombing_Run_Shadow_Blob_Material_Name> Bombing_Run_Rebel </Bombing_Run_Shadow_Blob_Material_Name>
+		<Bombing_Run_Blob_Size> 100.0 </Bombing_Run_Blob_Size>
+
+		<Bombardment_Shadow_Blob_Material_Name> Bombardment_CIS_Remnant </Bombardment_Shadow_Blob_Material_Name>
+		<Bombardment_Blob_Size> 250.0 </Bombardment_Blob_Size>
+		<Bombardment_Required_Orbital_Ships>  </Bombardment_Required_Orbital_Ships>
+		<Bombardment_Projectile> Proj_Rebel_Bombardment_Turbolaser </Bombardment_Projectile>
+		<Bombardment_Number_Of_Salvos> 2 </Bombardment_Number_Of_Salvos>
+		<Bombardment_Shots_Per_Salvo> 4 </Bombardment_Shots_Per_Salvo>
+		<Bombardment_Shot_Delay> 0.5 </Bombardment_Shot_Delay>
+		<Bombardment_Salvo_Delay> 2.15 </Bombardment_Salvo_Delay>
+		<Bombardment_Initial_Delay> 7.5 </Bombardment_Initial_Delay>
+
+		<Land_Mode_Selection_Blob_Material_Name>Selection_Techno_Union_Land</Land_Mode_Selection_Blob_Material_Name>
+		<Space_Mode_Selection_Blob_Material_Name>Selection_Techno_Union_Space</Space_Mode_Selection_Blob_Material_Name>
+		<Land_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Techno_Union_Land</Land_Mode_Garrison_Selection_Blob_Material_Name>
+		<Space_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Techno_Union_Space</Space_Mode_Garrison_Selection_Blob_Material_Name>
+        <Selection_Blob_RGBA>0,255,0,255</Selection_Blob_RGBA>
+		
+		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
+		<Space_Skirmish_AI_Default_Forces> 
+			
+		</Space_Skirmish_AI_Default_Forces>
+
+		<Land_Skirmish_Unit_Buy_Credits> 50000 </Land_Skirmish_Unit_Buy_Credits>
+		<Land_Skirmish_AI_Default_Forces> 
+			
+		</Land_Skirmish_AI_Default_Forces>
+
+		<Land_Skirmish_Unit_Cap_By_Player_Count>
+			0,10,
+			1,10,
+			8,5,
+		</Land_Skirmish_Unit_Cap_By_Player_Count>
+
+		<Debug_Ground_Structures>
+			
+		</Debug_Ground_Structures>
+
+        <Superweapon_Win_Movie />
+        <Generic_Win_Movie />
+        <Finale_Movie />
+        <Victory_Text>TEXT_TECHNO_UNION_VICTORY</Victory_Text>
+        <Defeat_Text>TEXT_TECHNO_UNION_DEFEAT</Defeat_Text>
+
+        <Space_Win_Image>i_es_win.tga</Space_Win_Image>
+        <Space_Lose_Image>i_es_lose.tga</Space_Lose_Image>
+        <Land_Win_Image>i_el_win.tga</Land_Win_Image>
+        <Land_Lose_Image>i_el_lose.tga</Land_Lose_Image>
+
+		<!-- This enables the galactic victory condition: "Win by capturing Coruscant and eliminating Emperor Palpatine" -->
+		<Home_Planet>Mustafar</Home_Planet>
+		<Faction_Leader></Faction_Leader>
+		<Faction_Leader_Company></Faction_Leader_Company>
+
+        <!-- MusicEvents -->
+		<Strategic_Map_Music_Event> Galactic_Map_Underworld_Music_Event </Strategic_Map_Music_Event>
+		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
+
+		<!-- Allow special weapon firing in tactical maps that have no parent galactic mode -->
+		<Standalone_Space_Maps_Special_Weapon_A> Ground_Empire_Hypervelocity_Gun </Standalone_Space_Maps_Special_Weapon_A>
+		<Standalone_Space_Maps_Special_Weapon_B> </Standalone_Space_Maps_Special_Weapon_B>
+
+
+		<!-- Currently not used by Empire, but data is stubbed in for future use -->
+		<Land_Area_Effect_Range_Overlay_Material_Name> Empire_Land_Area_Effect_Range_Overlay </Land_Area_Effect_Range_Overlay_Material_Name> <!-- In ShadowBlobMaterials.xml -->
+		<Land_Area_Effect_Range_Overlay_RGBA> 128, 255, 128, 128 </Land_Area_Effect_Range_Overlay_RGBA>
+		<Land_Area_Effect_Range_Overlay_Scale_Factor> 1.20 </Land_Area_Effect_Range_Overlay_Scale_Factor> <!-- Compensate for ring ednge not being full bounds of texture size -->
+
+		<!-- Overlay ring used by Boba Fett when targeting with his "jet pack burst" jump ability, this is the ring around Boba to show click target terrain range -->
+		<Land_Ability_Targeting_Range_Overlay_Material_Name> Empire_Land_Ability_Targeting_Range_Overlay </Land_Ability_Targeting_Range_Overlay_Material_Name>	<!-- In ShadowBlobMaterials.xml -->
+		<Land_Ability_Targeting_Range_Overlay_RGBA> 255, 255, 64, 128 </Land_Ability_Targeting_Range_Overlay_RGBA>
+		<Land_Ability_Targeting_Range_Overlay_Scale_Factor> 1.20 </Land_Ability_Targeting_Range_Overlay_Scale_Factor> <!-- Compensate for ring ednge not being full bounds of texture size -->
+
+
+		<!-- ============================================== -->
+		<!-- EMPIRE DROID ADVISOR TEXT		                -->
+		<!-- ============================================== -->
+
+		<Galactic_Advisor_Hints>
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_01,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_02,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_03,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_04,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_05,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_06,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_07,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_08,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_09,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_10,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_11,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_12,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_13,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_14,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_15,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_16,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_17,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_18,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_19,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_20,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_21,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_24
+		</Galactic_Advisor_Hints>
+
+		<Space_Advisor_Hints>
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_01,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_02,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_03,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_04,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_05,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_06,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_07,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_08,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_09,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_10,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_11,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_13
+		</Space_Advisor_Hints>
+
+		<Land_Advisor_Hints>
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_00,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_01,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_02,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_03,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_04,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_05,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_06,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_07,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_08,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_09,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_10,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_11,
+				TEXT_DROID_ADVISOR_LAND_12,
+				TEXT_DROID_ADVISOR_LAND_13,
+				TEXT_DROID_ADVISOR_LAND_14
+		</Land_Advisor_Hints>
+
+		<!-- End Droid Advisor Speech/Text -->
+
+		<Allies />
+		<Enemies>
+		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Trade_Federation, Commerce_Guild, Banking_Clan, Mandalorians, 
+		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn, Hutt_Cartel, Black_Sun,
+		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order, Imperial_Remnant_Thrawn, Chiss_Ascendancy
+		</Enemies>
+		
+		<Can_Control_Planets>true</Can_Control_Planets>
+
+		<Garrison_Reinforcement_Delay_Seconds>20.0</Garrison_Reinforcement_Delay_Seconds>
+		<Multiplayer_Beacon_Type>E_Multiplayer_Beacon</Multiplayer_Beacon_Type>
+		<Default_Transmission_Message>TEXT_ENCYCLOPEDIA_HOLOCRON_UPDATED</Default_Transmission_Message>
+		<SFXEvent_HUD_Advisor_Message>GUI_Droid_Hint_SFX</SFXEvent_HUD_Advisor_Message>
+		<SFXEvent_HUD_Advisor_Urgent>GUI_R2_Urgent_Hint_SFX</SFXEvent_HUD_Advisor_Urgent>
+		<SFXEvent_HUD_Advisor_Hint>GUI_Droid_Hint_SFX</SFXEvent_HUD_Advisor_Hint>
+		
+		<Multiplayer_Campaign_Heroes>
+			
+		</Multiplayer_Campaign_Heroes>
+
+		<Multiplayer_Map_Preview_Icon>I_MULTIPLAY_TECHNO_UNION.TGA</Multiplayer_Map_Preview_Icon>
+
+        <Tech_Level_Icon_Name> i_button_e_tech_upgrade_ </Tech_Level_Icon_Name>
+
+      <Alternate_Icon_Prefix> e_ </Alternate_Icon_Prefix>
+
+		<Automatic_Planetary_Corruption_Upgrade_Type> 
+			Generic_Intimidation_Corruption_Upgrade,
+			Generic_Piracy_Corruption_Upgrade,
+			Generic_Kidnapping_Corruption_Upgrade,
+			Generic_Racketeering_Corruption_Upgrade,
+			Generic_Corrupt_Militia_Corruption_Upgrade,
+			Generic_Bribery_Corruption_Upgrade,
+			Generic_Black_Market_Corruption_Upgrade,
+			Generic_Bonded_Citizens_Corruption_Upgrade,
+		</Automatic_Planetary_Corruption_Upgrade_Type>
+
+	</Faction>
+	
+	
+	
+	
+	
+	<Faction Name="Banking_Clan">
+
+		<Is_Debug_Switchable_To> Yes </Is_Debug_Switchable_To>
+		<Create_Player_In_Multiplayer_Games> No </Create_Player_In_Multiplayer_Games>
+
+		<Text_ID> TEXT_FACTION_BANKING_CLAN </Text_ID>
+		<Icon_Name> I_ENCYCLOPEDIA_BANKING_CLAN_SYMBOL.tga </Icon_Name>
+		<Alternate_Icon_Name> I_ENCYCLOPEDIA_BANKING_CLAN_SYMBOL.tga </Alternate_Icon_Name>
+		<Ground_Base_Icon_Name> groundbase_icon.tga </Ground_Base_Icon_Name>
+		<Star_Base_Icon_Name> spacestation_icon.tga </Star_Base_Icon_Name>
+		<Ground_Transport_Icon_Name> I_BUTTON_BATTLEDROID1.tga </Ground_Transport_Icon_Name>
+		<Fleet_Icon_Name> i_icon_fleet.tga </Fleet_Icon_Name>
+		<Ship_Icon_Name> g_fleet.tga </Ship_Icon_Name>
+		<Squadron_Icon_Name> g_squad.tga </Squadron_Icon_Name>
+		<Color> 52, 68, 59, 255 </Color>
+		<No_Colorization_Color> 52, 68, 59, 255 </No_Colorization_Color>
+		<Display_Font_Color> 52, 68, 59, 255 </Display_Font_Color>
+		<Big_Fleet_Color> 52, 68, 59, 255 </Big_Fleet_Color>
+		<Credits_Accumulation_Factor> 0.85 </Credits_Accumulation_Factor>
+		<Planet_Icon_Scale> 10.0 </Planet_Icon_Scale>
+		<Planet_Icon_Offset> 7.0, 10.0, -1.1 </Planet_Icon_Offset>
+		<Is_Playable>True</Is_Playable>
+		<Primary_Enemy> Empire </Primary_Enemy>
+		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
+		<Is_Neutral> No </Is_Neutral>
+		<Force_Alignment>Dark</Force_Alignment>
+		<Minimum_Visible_Base_Level>1</Minimum_Visible_Base_Level>
+		<Basic_AI>BasicEmpire</Basic_AI>
+		<Faction_Super_Weapon />
+		<Skirmish_Land_Bomber>  </Skirmish_Land_Bomber>
+		<Space_Tactical_Unit_Cap>350</Space_Tactical_Unit_Cap>
+		<Maintenance_Cost>0.25</Maintenance_Cost>
+		
+		<!-- Gameplay effects of planetary corruption on this faction. -->
+		<Benefits_From_Corruption> No </Benefits_From_Corruption>
+		<Corruption_Galactic_Production_Time_Multipliers> 1.0, .95 </Corruption_Galactic_Production_Time_Multipliers>
+		<Corruption_Galactic_Production_Price_Multipliers> 1.0, .9 </Corruption_Galactic_Production_Price_Multipliers>
+		<Corruption_Tactical_Production_Time_Multipliers> 1.0, 1.0 </Corruption_Tactical_Production_Time_Multipliers>
+		<Corruption_Tactical_Production_Price_Multipliers> 1.0, 1.0 </Corruption_Tactical_Production_Price_Multipliers>
+		<Corruption_Tactical_Build_Pad_Time_Multipliers> 1.0, 1.0 </Corruption_Tactical_Build_Pad_Time_Multipliers>
+		<Corruption_Tactical_Build_Pad_Price_Multipliers> 1.0, 1.0 </Corruption_Tactical_Build_Pad_Price_Multipliers>
+		<Easily_Bribed> Yes </Easily_Bribed>
+
+		<Scatters_From_Crushers> false </Scatters_From_Crushers>
+		
+		<Infantry_Icon_Name>I_BUTTON_BATTLEDROID1.tga</Infantry_Icon_Name>
+		<Vehicle_Icon_Name>I_BUTTON_AATD.tga</Vehicle_Icon_Name>
+		<Carrier_Icon_Name>i_e_carrier.tga</Carrier_Icon_Name>
+		<Frigate_Icon_Name>I_BUTTON_Munificent.tga</Frigate_Icon_Name>
+		<Corvette_Icon_Name>i_e_corvette.tga</Corvette_Icon_Name>
+		<Fighter_Icon_Name>i_button_tie_fighter.tga</Fighter_Icon_Name>
+        <Tech_Tree_Dialog_Name>IDD_TECH_TREE_EMPIRE</Tech_Tree_Dialog_Name>
+        <Helper_Icon_Name>i_empire_help_droid.tga</Helper_Icon_Name>
+
+		<Space_Retreat_Countdown_Seconds> 10.99 </Space_Retreat_Countdown_Seconds> 
+		<Space_Retreat_Pursue_Max_Speed_Mod_Factor> 3.0 </Space_Retreat_Pursue_Max_Speed_Mod_Factor> 
+		<Space_Retreat_Units_Damaged_Mod_Factor> 4.0 </Space_Retreat_Units_Damaged_Mod_Factor> 
+		<Space_Retreat_Flight_Increment> 500.0 </Space_Retreat_Flight_Increment>
+		<Space_Retreat_Unit_Increment_Wait_Frames> 1 </Space_Retreat_Unit_Increment_Wait_Frames>
+		<Space_Retreat_Off_Map_Dest_Pos> 12000.0, 12000.0, 0.0 </Space_Retreat_Off_Map_Dest_Pos>	<!-- WARNING: For some reason, non-0.0 Z crashes the game -->
+		<Space_Retreat_Countdown_Color_RGBA> 52, 68, 59, 255 </Space_Retreat_Countdown_Color_RGBA>
+		<Space_Retreat_Countdown_Text_ID> TEXT_RETREAT_SPACE_BANKING_CLAN_COUNTDOWN </Space_Retreat_Countdown_Text_ID>
+
+		<Space_Retreat_Begin_SFXEvent> EHD_Retreat_Started_Space </Space_Retreat_Begin_SFXEvent>
+		<Space_Retreat_Cancel_SFXEvent> EHD_Retreat_Cancelled </Space_Retreat_Cancel_SFXEvent>
+		<Space_Retreat_Not_Allowed_SFXEvent> EHD_Retreat_Not_Allowed </Space_Retreat_Not_Allowed_SFXEvent>
+		<Space_Retreat_Not_Allowed_Reason_1_SFXEvent> EHD_Retreat_Interdictor </Space_Retreat_Not_Allowed_Reason_1_SFXEvent>			<!-- Reason 1: Gravity Well -->                 
+		<Space_Retreat_Not_Allowed_Reason_2_SFXEvent> Unit_Retreat_Tarkin </Space_Retreat_Not_Allowed_Reason_2_SFXEvent>                               <!-- Reason 2: Friendly Hero Preventing -->     
+		<Space_Retreat_Not_Allowed_Reason_3_SFXEvent> </Space_Retreat_Not_Allowed_Reason_3_SFXEvent>                               <!-- Reason 3: Tactical Superweaper Present --> 
+
+		<Space_Surrender_SFXEvent> EHD_Retreat_Started_Space </Space_Surrender_SFXEvent>
+
+		<Land_Retreat_Countdown_Seconds> 10.99 </Land_Retreat_Countdown_Seconds>  
+		<Land_Retreat_Pursue_Max_Speed_Mod_Factor> 2.0 </Land_Retreat_Pursue_Max_Speed_Mod_Factor> 
+		<Land_Retreat_Units_Damaged_Mod_Factor> 2.0 </Land_Retreat_Units_Damaged_Mod_Factor> 
+		<Land_Retreat_Countdown_Color_RGBA> 52, 68, 59, 255 </Land_Retreat_Countdown_Color_RGBA>
+		<Land_Retreat_Countdown_Text_ID> TEXT_RETREAT_LAND_BANKING_CLAN_COUNTDOWN </Land_Retreat_Countdown_Text_ID>
+
+		<Land_Retreat_Begin_SFXEvent> EHD_Retreat_Started_Land </Land_Retreat_Begin_SFXEvent>
+		<Land_Retreat_Cancel_SFXEvent> EHD_Retreat_Cancelled </Land_Retreat_Cancel_SFXEvent>
+		<Land_Retreat_Not_Allowed_SFXEvent> EHD_Retreat_Not_Allowed </Land_Retreat_Not_Allowed_SFXEvent>
+		<Land_Retreat_Not_Allowed_Reason_1_SFXEvent> </Land_Retreat_Not_Allowed_Reason_1_SFXEvent>				<!-- Reason 1: Gravity Well -->                 
+		<Land_Retreat_Not_Allowed_Reason_2_SFXEvent> </Land_Retreat_Not_Allowed_Reason_2_SFXEvent>            <!-- Reason 2: Friendly Hero Preventing -->     
+		<Land_Retreat_Not_Allowed_Reason_3_SFXEvent> </Land_Retreat_Not_Allowed_Reason_3_SFXEvent>            <!-- Reason 3: Tactical Superweaper Present --> 
+
+		<Land_Surrender_SFXEvent> EHD_Retreat_Started_Land </Land_Surrender_SFXEvent>
+
+		<!-- <Reinforcements_Selection_SFXEvent> EHD_Choose_Reinforcements </Reinforcements_Selection_SFXEvent> -->
+		<!-- <Reinforcements_Pick_Landing_Zone_SFXEvent> EHD_Choose_Landing </Reinforcements_Pick_Landing_Zone_SFXEvent> -->
+		<!-- <Reinforcements_Enroute_SFXEvent> EHD_Reinforcements_En_Route </Reinforcements_Enroute_SFXEvent> -->
+		<!-- <Reinforcements_Cancelled_SFXEvent> EHD_Reinforcements_Cancelled </Reinforcements_Cancelled_SFXEvent> -->
+		<Reinforcements_Selection_SFXEvent> EHD_Choose_Reinforcements </Reinforcements_Selection_SFXEvent>
+		<Reinforcements_Pick_Landing_Zone_SFXEvent> </Reinforcements_Pick_Landing_Zone_SFXEvent>
+		<Reinforcements_Enroute_SFXEvent> EHD_Reinforcements_En_Route </Reinforcements_Enroute_SFXEvent>
+		<Reinforcements_Cancelled_SFXEvent> EHD_Reinforcements_Cancelled </Reinforcements_Cancelled_SFXEvent>
+
+		<Reinforcements_Requesting_SFXEvent> EHD_Request_Assistance </Reinforcements_Requesting_SFXEvent>
+		<Reinforcements_Ready_SFXEvent> EHD_Reinforcements_Available </Reinforcements_Ready_SFXEvent>
+
+		<Reinforcements_Shadow_Blob_Material_Name> Reinforcement_Overlay_Empire </Reinforcements_Shadow_Blob_Material_Name>
+
+		<Bombing_Run_Shadow_Blob_Material_Name> Bombing_Run_Rebel </Bombing_Run_Shadow_Blob_Material_Name>
+		<Bombing_Run_Blob_Size> 100.0 </Bombing_Run_Blob_Size>
+
+		<Bombardment_Shadow_Blob_Material_Name> Bombardment_CIS_Remnant </Bombardment_Shadow_Blob_Material_Name>
+		<Bombardment_Blob_Size> 250.0 </Bombardment_Blob_Size>
+		<Bombardment_Required_Orbital_Ships>  </Bombardment_Required_Orbital_Ships>
+		<Bombardment_Projectile> Proj_Rebel_Bombardment_Turbolaser </Bombardment_Projectile>
+		<Bombardment_Number_Of_Salvos> 2 </Bombardment_Number_Of_Salvos>
+		<Bombardment_Shots_Per_Salvo> 4 </Bombardment_Shots_Per_Salvo>
+		<Bombardment_Shot_Delay> 0.5 </Bombardment_Shot_Delay>
+		<Bombardment_Salvo_Delay> 2.15 </Bombardment_Salvo_Delay>
+		<Bombardment_Initial_Delay> 7.5 </Bombardment_Initial_Delay>
+
+		<Land_Mode_Selection_Blob_Material_Name>Selection_Banking_Clan_Land</Land_Mode_Selection_Blob_Material_Name>
+		<Space_Mode_Selection_Blob_Material_Name>Selection_Banking_Clan_Space</Space_Mode_Selection_Blob_Material_Name>
+		<Land_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Banking_Clan_Land</Land_Mode_Garrison_Selection_Blob_Material_Name>
+		<Space_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Banking_Clan_Space</Space_Mode_Garrison_Selection_Blob_Material_Name>
+        <Selection_Blob_RGBA>0,255,0,255</Selection_Blob_RGBA>
+		
+		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
+		<Space_Skirmish_AI_Default_Forces> 
+			
+		</Space_Skirmish_AI_Default_Forces>
+
+		<Land_Skirmish_Unit_Buy_Credits> 50000 </Land_Skirmish_Unit_Buy_Credits>
+		<Land_Skirmish_AI_Default_Forces> 
+			
+		</Land_Skirmish_AI_Default_Forces>
+
+		<Land_Skirmish_Unit_Cap_By_Player_Count>
+			0,10,
+			1,10,
+			8,5,
+		</Land_Skirmish_Unit_Cap_By_Player_Count>
+
+		<Debug_Ground_Structures>
+			
+		</Debug_Ground_Structures>
+
+        <Superweapon_Win_Movie />
+        <Generic_Win_Movie />
+        <Finale_Movie />
+        <Victory_Text>TEXT_BANKING_CLAN_VICTORY</Victory_Text>
+        <Defeat_Text>TEXT_BANKING_CLAN_DEFEAT</Defeat_Text>
+
+        <Space_Win_Image>i_es_win.tga</Space_Win_Image>
+        <Space_Lose_Image>i_es_lose.tga</Space_Lose_Image>
+        <Land_Win_Image>i_el_win.tga</Land_Win_Image>
+        <Land_Lose_Image>i_el_lose.tga</Land_Lose_Image>
+
+		<!-- This enables the galactic victory condition: "Win by capturing Coruscant and eliminating Emperor Palpatine" -->
+		<Home_Planet>Mustafar</Home_Planet>
+		<Faction_Leader></Faction_Leader>
+		<Faction_Leader_Company></Faction_Leader_Company>
+
+        <!-- MusicEvents -->
+		<Strategic_Map_Music_Event> Galactic_Map_Underworld_Music_Event </Strategic_Map_Music_Event>
+		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
+
+		<!-- Allow special weapon firing in tactical maps that have no parent galactic mode -->
+		<Standalone_Space_Maps_Special_Weapon_A> Ground_Empire_Hypervelocity_Gun </Standalone_Space_Maps_Special_Weapon_A>
+		<Standalone_Space_Maps_Special_Weapon_B> </Standalone_Space_Maps_Special_Weapon_B>
+
+
+		<!-- Currently not used by Empire, but data is stubbed in for future use -->
+		<Land_Area_Effect_Range_Overlay_Material_Name> Empire_Land_Area_Effect_Range_Overlay </Land_Area_Effect_Range_Overlay_Material_Name> <!-- In ShadowBlobMaterials.xml -->
+		<Land_Area_Effect_Range_Overlay_RGBA> 128, 255, 128, 128 </Land_Area_Effect_Range_Overlay_RGBA>
+		<Land_Area_Effect_Range_Overlay_Scale_Factor> 1.20 </Land_Area_Effect_Range_Overlay_Scale_Factor> <!-- Compensate for ring ednge not being full bounds of texture size -->
+
+		<!-- Overlay ring used by Boba Fett when targeting with his "jet pack burst" jump ability, this is the ring around Boba to show click target terrain range -->
+		<Land_Ability_Targeting_Range_Overlay_Material_Name> Empire_Land_Ability_Targeting_Range_Overlay </Land_Ability_Targeting_Range_Overlay_Material_Name>	<!-- In ShadowBlobMaterials.xml -->
+		<Land_Ability_Targeting_Range_Overlay_RGBA> 255, 255, 64, 128 </Land_Ability_Targeting_Range_Overlay_RGBA>
+		<Land_Ability_Targeting_Range_Overlay_Scale_Factor> 1.20 </Land_Ability_Targeting_Range_Overlay_Scale_Factor> <!-- Compensate for ring ednge not being full bounds of texture size -->
+
+
+		<!-- ============================================== -->
+		<!-- EMPIRE DROID ADVISOR TEXT		                -->
+		<!-- ============================================== -->
+
+		<Galactic_Advisor_Hints>
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_01,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_02,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_03,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_04,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_05,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_06,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_07,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_08,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_09,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_10,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_11,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_12,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_13,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_14,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_15,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_16,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_17,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_18,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_19,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_20,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_21,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_24
+		</Galactic_Advisor_Hints>
+
+		<Space_Advisor_Hints>
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_01,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_02,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_03,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_04,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_05,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_06,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_07,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_08,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_09,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_10,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_11,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_13
+		</Space_Advisor_Hints>
+
+		<Land_Advisor_Hints>
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_00,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_01,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_02,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_03,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_04,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_05,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_06,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_07,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_08,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_09,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_10,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_11,
+				TEXT_DROID_ADVISOR_LAND_12,
+				TEXT_DROID_ADVISOR_LAND_13,
+				TEXT_DROID_ADVISOR_LAND_14
+		</Land_Advisor_Hints>
+
+		<!-- End Droid Advisor Speech/Text -->
+
+		<Allies />
+		<Enemies>
+		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Trade_Federation, Commerce_Guild, Techno_Union, Mandalorians, 
+		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn, Hutt_Cartel, Black_Sun,
+		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order, Imperial_Remnant_Thrawn, Chiss_Ascendancy
+		</Enemies>
+		
+		<Can_Control_Planets>true</Can_Control_Planets>
+
+		<Garrison_Reinforcement_Delay_Seconds>20.0</Garrison_Reinforcement_Delay_Seconds>
+		<Multiplayer_Beacon_Type>E_Multiplayer_Beacon</Multiplayer_Beacon_Type>
+		<Default_Transmission_Message>TEXT_ENCYCLOPEDIA_HOLOCRON_UPDATED</Default_Transmission_Message>
+		<SFXEvent_HUD_Advisor_Message>GUI_Droid_Hint_SFX</SFXEvent_HUD_Advisor_Message>
+		<SFXEvent_HUD_Advisor_Urgent>GUI_R2_Urgent_Hint_SFX</SFXEvent_HUD_Advisor_Urgent>
+		<SFXEvent_HUD_Advisor_Hint>GUI_Droid_Hint_SFX</SFXEvent_HUD_Advisor_Hint>
+		
+		<Multiplayer_Campaign_Heroes>
+			
+		</Multiplayer_Campaign_Heroes>
+
+		<Multiplayer_Map_Preview_Icon>I_MULTIPLAY_BANKING_CLAN.TGA</Multiplayer_Map_Preview_Icon>
+
+        <Tech_Level_Icon_Name> i_button_e_tech_upgrade_ </Tech_Level_Icon_Name>
+
+      <Alternate_Icon_Prefix> e_ </Alternate_Icon_Prefix>
+
+		<Automatic_Planetary_Corruption_Upgrade_Type> 
+			Generic_Intimidation_Corruption_Upgrade,
+			Generic_Piracy_Corruption_Upgrade,
+			Generic_Kidnapping_Corruption_Upgrade,
+			Generic_Racketeering_Corruption_Upgrade,
+			Generic_Corrupt_Militia_Corruption_Upgrade,
+			Generic_Bribery_Corruption_Upgrade,
+			Generic_Black_Market_Corruption_Upgrade,
+			Generic_Bonded_Citizens_Corruption_Upgrade,
+		</Automatic_Planetary_Corruption_Upgrade_Type>
+
+	</Faction>
+	
 	
 	
 	
@@ -2307,6 +2886,9 @@
 		<Faction_Leader>Jabba_The_Hutt</Faction_Leader>
 		<Faction_Leader_Company>Jabba_The_Hutt_Team</Faction_Leader_Company>
 
+        <!-- MusicEvents -->
+		<Strategic_Map_Music_Event> Galactic_Map_Underworld_Music_Event </Strategic_Map_Music_Event>
+		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
 
 		<!-- Allow special weapon firing in tactical maps that have no parent galactic mode -->
 		<Standalone_Space_Maps_Special_Weapon_A> Ground_Empire_Hypervelocity_Gun </Standalone_Space_Maps_Special_Weapon_A>
@@ -2390,9 +2972,9 @@
 
 		<Allies />
 		<Enemies>
-		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Hutt_Cartel, Black_Sun, 
-		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn,
-		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order
+		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Trade_Federation, Commerce_Guild, Techno_Union, Banking_Clan,
+		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn, Hutt_Cartel, Black_Sun,
+		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order, Imperial_Remnant_Thrawn, Chiss_Ascendancy
 		</Enemies>
 		
 		<Can_Control_Planets>true</Can_Control_Planets>
@@ -2596,6 +3178,9 @@
 		<Faction_Leader>Emperor_Sheev_Paplatine</Faction_Leader>
 		<Faction_Leader_Company>Emperor_Sheev_Paplatine_Team</Faction_Leader_Company>
 
+        <!-- MusicEvents -->
+		<Strategic_Map_Music_Event> Galactic_Map_Underworld_Music_Event </Strategic_Map_Music_Event>
+		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
 
 		<!-- Allow special weapon firing in tactical maps that have no parent galactic mode -->
 		<Standalone_Space_Maps_Special_Weapon_A> Ground_Empire_Hypervelocity_Gun </Standalone_Space_Maps_Special_Weapon_A>
@@ -2679,9 +3264,9 @@
 
 		<Allies />
 		<Enemies>
-		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Hutt_Cartel, Black_Sun, Mandalorians, 
-	    Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn,
-		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order
+		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Trade_Federation, Commerce_Guild, Techno_Union, Banking_Clan, Mandalorians, 
+	    Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn, Hutt_Cartel, Black_Sun,
+		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order, Imperial_Remnant_Thrawn, Chiss_Ascendancy
 		</Enemies>
 		
 		<Can_Control_Planets>true</Can_Control_Planets>
@@ -2884,6 +3469,9 @@
 		<Faction_Leader>Senator_Mon_Mothma</Faction_Leader>
 		<Faction_Leader_Company>Senator_Mon_Mothma_Team</Faction_Leader_Company>
 
+        <!-- MusicEvents -->
+		<Strategic_Map_Music_Event> Galactic_Map_Underworld_Music_Event </Strategic_Map_Music_Event>
+		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
 
 		<!-- Allow special weapon firing in tactical maps that have no parent galactic mode -->
 		<Standalone_Space_Maps_Special_Weapon_A> Ground_Empire_Hypervelocity_Gun </Standalone_Space_Maps_Special_Weapon_A>
@@ -2967,9 +3555,9 @@
 
 		<Allies />
 		<Enemies>
-		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Hutt_Cartel, Black_Sun, Mandalorians, 
-		Galactic_Empire, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn,
-		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order
+		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Trade_Federation, Commerce_Guild, Techno_Union, Banking_Clan, Mandalorians, 
+		Galactic_Empire, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn, Hutt_Cartel, Black_Sun,
+		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order, Imperial_Remnant_Thrawn, Chiss_Ascendancy
 		</Enemies>
 		
 		<Can_Control_Planets>true</Can_Control_Planets>
@@ -3167,6 +3755,9 @@
 		<Faction_Leader></Faction_Leader>
 		<Faction_Leader_Company></Faction_Leader_Company>
 
+        <!-- MusicEvents -->
+		<Strategic_Map_Music_Event> Galactic_Map_Underworld_Music_Event </Strategic_Map_Music_Event>
+		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
 
 		<!-- Allow special weapon firing in tactical maps that have no parent galactic mode -->
 		<Standalone_Space_Maps_Special_Weapon_A> Ground_Empire_Hypervelocity_Gun </Standalone_Space_Maps_Special_Weapon_A>
@@ -3250,9 +3841,9 @@
 
 		<Allies />
 		<Enemies>
-		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Hutt_Cartel, Black_Sun, Mandalorians, 
-		Galactic_Empire, Rebel_Alliance, Corporate_Sector, Hapan_Consortium, Crimson_Dawn,
-		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order
+		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Trade_Federation, Commerce_Guild, Techno_Union, Banking_Clan, Mandalorians, 
+		Galactic_Empire, Rebel_Alliance, Corporate_Sector, Hapan_Consortium, Crimson_Dawn, Hutt_Cartel, Black_Sun,
+		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order, Imperial_Remnant_Thrawn, Chiss_Ascendancy
 		</Enemies>
 		
 		<Can_Control_Planets>true</Can_Control_Planets>
@@ -3449,6 +4040,9 @@
 		<Faction_Leader></Faction_Leader>
 		<Faction_Leader_Company></Faction_Leader_Company>
 
+        <!-- MusicEvents -->
+		<Strategic_Map_Music_Event> Galactic_Map_Underworld_Music_Event </Strategic_Map_Music_Event>
+		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
 
 		<!-- Allow special weapon firing in tactical maps that have no parent galactic mode -->
 		<Standalone_Space_Maps_Special_Weapon_A> Ground_Empire_Hypervelocity_Gun </Standalone_Space_Maps_Special_Weapon_A>
@@ -3532,9 +4126,9 @@
 
 		<Allies />
 		<Enemies>
-		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Hutt_Cartel, Black_Sun, Mandalorians, 
-		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Hapan_Consortium, Crimson_Dawn,
-		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order
+		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Trade_Federation, Commerce_Guild, Techno_Union, Banking_Clan, Mandalorians, 
+		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Hapan_Consortium, Crimson_Dawn, Hutt_Cartel, Black_Sun,
+		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order, Imperial_Remnant_Thrawn, Chiss_Ascendancy
 		</Enemies>
 		
 		<Can_Control_Planets>true</Can_Control_Planets>
@@ -3730,6 +4324,9 @@
 		<Faction_Leader></Faction_Leader>
 		<Faction_Leader_Company></Faction_Leader_Company>
 
+        <!-- MusicEvents -->
+		<Strategic_Map_Music_Event> Galactic_Map_Underworld_Music_Event </Strategic_Map_Music_Event>
+		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
 
 		<!-- Allow special weapon firing in tactical maps that have no parent galactic mode -->
 		<Standalone_Space_Maps_Special_Weapon_A> Ground_Empire_Hypervelocity_Gun </Standalone_Space_Maps_Special_Weapon_A>
@@ -3813,9 +4410,9 @@
 
 		<Allies />
 		<Enemies>
-		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Hutt_Cartel, Black_Sun, Mandalorians, 
-		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Crimson_Dawn,
-		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order
+		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Trade_Federation, Commerce_Guild, Techno_Union, Banking_Clan, Mandalorians, 
+		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Crimson_Dawn, Hutt_Cartel, Black_Sun,
+		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order, Imperial_Remnant_Thrawn, Chiss_Ascendancy
 		</Enemies>
 		
 		<Can_Control_Planets>true</Can_Control_Planets>
@@ -4012,6 +4609,9 @@
 		<Faction_Leader></Faction_Leader>
 		<Faction_Leader_Company></Faction_Leader_Company>
 
+        <!-- MusicEvents -->
+		<Strategic_Map_Music_Event> Galactic_Map_Underworld_Music_Event </Strategic_Map_Music_Event>
+		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
 
 		<!-- Allow special weapon firing in tactical maps that have no parent galactic mode -->
 		<Standalone_Space_Maps_Special_Weapon_A> Ground_Empire_Hypervelocity_Gun </Standalone_Space_Maps_Special_Weapon_A>
@@ -4095,9 +4695,9 @@
 
 		<Allies />
 		<Enemies>
-		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Hutt_Cartel, Black_Sun, Mandalorians, 
-		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium,
-		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order
+		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Trade_Federation, Commerce_Guild, Techno_Union, Banking_Clan, Mandalorians, 
+		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Hutt_Cartel, Black_Sun,
+		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order, Imperial_Remnant_Thrawn, Chiss_Ascendancy
 		</Enemies>
 		
 		<Can_Control_Planets>true</Can_Control_Planets>
@@ -4135,7 +4735,569 @@
 	
 	
 	
+	<Faction Name="Black_Sun">
+
+		<Is_Debug_Switchable_To> Yes </Is_Debug_Switchable_To>
+		<Create_Player_In_Multiplayer_Games> No </Create_Player_In_Multiplayer_Games>
+
+		<Text_ID> TEXT_FACTION_BLACK_SUN </Text_ID>
+		<Icon_Name> i_button_Black_Sun.tga </Icon_Name>
+		<Alternate_Icon_Name> i_button_Black_Sun.tga </Alternate_Icon_Name>
+		<Ground_Base_Icon_Name> groundbase_icon.tga </Ground_Base_Icon_Name>
+		<Star_Base_Icon_Name> spacestation_icon.tga </Star_Base_Icon_Name>
+		<Ground_Transport_Icon_Name> I_BUTTON_BATTLEDROID1.tga </Ground_Transport_Icon_Name>
+		<Fleet_Icon_Name> i_icon_fleet.tga </Fleet_Icon_Name>
+		<Ship_Icon_Name> g_fleet.tga </Ship_Icon_Name>
+		<Squadron_Icon_Name> g_squad.tga </Squadron_Icon_Name>
+		<Color> 240, 209, 0, 255 </Color>
+		<No_Colorization_Color> 240, 209, 0, 255 </No_Colorization_Color>
+		<Display_Font_Color> 240, 209, 0, 255 </Display_Font_Color>
+		<Big_Fleet_Color> 240, 209, 0, 255 </Big_Fleet_Color>
+		<Credits_Accumulation_Factor> 0.85 </Credits_Accumulation_Factor>
+		<Planet_Icon_Scale> 10.0 </Planet_Icon_Scale>
+		<Planet_Icon_Offset> 7.0, 10.0, -1.1 </Planet_Icon_Offset>
+		<Is_Playable>True</Is_Playable>
+		<Primary_Enemy> Empire </Primary_Enemy>
+		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
+		<Is_Neutral> No </Is_Neutral>
+		<Force_Alignment>Dark</Force_Alignment>
+		<Minimum_Visible_Base_Level>1</Minimum_Visible_Base_Level>
+		<Basic_AI>BasicEmpire</Basic_AI>
+		<Faction_Super_Weapon />
+		<Skirmish_Land_Bomber>  </Skirmish_Land_Bomber>
+		<Space_Tactical_Unit_Cap>350</Space_Tactical_Unit_Cap>
+		<Maintenance_Cost>0.25</Maintenance_Cost>
+		
+		<!-- Gameplay effects of planetary corruption on this faction. -->
+		<Benefits_From_Corruption> No </Benefits_From_Corruption>
+		<Corruption_Galactic_Production_Time_Multipliers> 1.0, .95 </Corruption_Galactic_Production_Time_Multipliers>
+		<Corruption_Galactic_Production_Price_Multipliers> 1.0, .9 </Corruption_Galactic_Production_Price_Multipliers>
+		<Corruption_Tactical_Production_Time_Multipliers> 1.0, 1.0 </Corruption_Tactical_Production_Time_Multipliers>
+		<Corruption_Tactical_Production_Price_Multipliers> 1.0, 1.0 </Corruption_Tactical_Production_Price_Multipliers>
+		<Corruption_Tactical_Build_Pad_Time_Multipliers> 1.0, 1.0 </Corruption_Tactical_Build_Pad_Time_Multipliers>
+		<Corruption_Tactical_Build_Pad_Price_Multipliers> 1.0, 1.0 </Corruption_Tactical_Build_Pad_Price_Multipliers>
+		<Easily_Bribed> Yes </Easily_Bribed>
+
+		<Scatters_From_Crushers> false </Scatters_From_Crushers>
+		
+		<Infantry_Icon_Name>I_BUTTON_BATTLEDROID1.tga</Infantry_Icon_Name>
+		<Vehicle_Icon_Name>I_BUTTON_AATD.tga</Vehicle_Icon_Name>
+		<Carrier_Icon_Name>i_e_carrier.tga</Carrier_Icon_Name>
+		<Frigate_Icon_Name>I_BUTTON_Munificent.tga</Frigate_Icon_Name>
+		<Corvette_Icon_Name>i_e_corvette.tga</Corvette_Icon_Name>
+		<Fighter_Icon_Name>i_button_tie_fighter.tga</Fighter_Icon_Name>
+        <Tech_Tree_Dialog_Name>IDD_TECH_TREE_EMPIRE</Tech_Tree_Dialog_Name>
+        <Helper_Icon_Name>i_empire_help_droid.tga</Helper_Icon_Name>
+
+		<Space_Retreat_Countdown_Seconds> 10.99 </Space_Retreat_Countdown_Seconds> 
+		<Space_Retreat_Pursue_Max_Speed_Mod_Factor> 3.0 </Space_Retreat_Pursue_Max_Speed_Mod_Factor> 
+		<Space_Retreat_Units_Damaged_Mod_Factor> 4.0 </Space_Retreat_Units_Damaged_Mod_Factor> 
+		<Space_Retreat_Flight_Increment> 500.0 </Space_Retreat_Flight_Increment>
+		<Space_Retreat_Unit_Increment_Wait_Frames> 1 </Space_Retreat_Unit_Increment_Wait_Frames>
+		<Space_Retreat_Off_Map_Dest_Pos> 12000.0, 12000.0, 0.0 </Space_Retreat_Off_Map_Dest_Pos>	<!-- WARNING: For some reason, non-0.0 Z crashes the game -->
+		<Space_Retreat_Countdown_Color_RGBA> 240, 209, 0, 255 </Space_Retreat_Countdown_Color_RGBA>
+		<Space_Retreat_Countdown_Text_ID> TEXT_RETREAT_SPACE_BLACK_SUN_COUNTDOWN </Space_Retreat_Countdown_Text_ID>
+
+		<Space_Retreat_Begin_SFXEvent> EHD_Retreat_Started_Space </Space_Retreat_Begin_SFXEvent>
+		<Space_Retreat_Cancel_SFXEvent> EHD_Retreat_Cancelled </Space_Retreat_Cancel_SFXEvent>
+		<Space_Retreat_Not_Allowed_SFXEvent> EHD_Retreat_Not_Allowed </Space_Retreat_Not_Allowed_SFXEvent>
+		<Space_Retreat_Not_Allowed_Reason_1_SFXEvent> EHD_Retreat_Interdictor </Space_Retreat_Not_Allowed_Reason_1_SFXEvent>			<!-- Reason 1: Gravity Well -->                 
+		<Space_Retreat_Not_Allowed_Reason_2_SFXEvent> Unit_Retreat_Tarkin </Space_Retreat_Not_Allowed_Reason_2_SFXEvent>                               <!-- Reason 2: Friendly Hero Preventing -->     
+		<Space_Retreat_Not_Allowed_Reason_3_SFXEvent> </Space_Retreat_Not_Allowed_Reason_3_SFXEvent>                               <!-- Reason 3: Tactical Superweaper Present --> 
+
+		<Space_Surrender_SFXEvent> EHD_Retreat_Started_Space </Space_Surrender_SFXEvent>
+
+		<Land_Retreat_Countdown_Seconds> 10.99 </Land_Retreat_Countdown_Seconds>  
+		<Land_Retreat_Pursue_Max_Speed_Mod_Factor> 2.0 </Land_Retreat_Pursue_Max_Speed_Mod_Factor> 
+		<Land_Retreat_Units_Damaged_Mod_Factor> 2.0 </Land_Retreat_Units_Damaged_Mod_Factor> 
+		<Land_Retreat_Countdown_Color_RGBA> 240, 209, 0, 255 </Land_Retreat_Countdown_Color_RGBA>
+		<Land_Retreat_Countdown_Text_ID> TEXT_RETREAT_SPACE_BLACK_SUN_COUNTDOWN </Land_Retreat_Countdown_Text_ID>
+
+		<Land_Retreat_Begin_SFXEvent> EHD_Retreat_Started_Land </Land_Retreat_Begin_SFXEvent>
+		<Land_Retreat_Cancel_SFXEvent> EHD_Retreat_Cancelled </Land_Retreat_Cancel_SFXEvent>
+		<Land_Retreat_Not_Allowed_SFXEvent> EHD_Retreat_Not_Allowed </Land_Retreat_Not_Allowed_SFXEvent>
+		<Land_Retreat_Not_Allowed_Reason_1_SFXEvent> </Land_Retreat_Not_Allowed_Reason_1_SFXEvent>				<!-- Reason 1: Gravity Well -->                 
+		<Land_Retreat_Not_Allowed_Reason_2_SFXEvent> </Land_Retreat_Not_Allowed_Reason_2_SFXEvent>            <!-- Reason 2: Friendly Hero Preventing -->     
+		<Land_Retreat_Not_Allowed_Reason_3_SFXEvent> </Land_Retreat_Not_Allowed_Reason_3_SFXEvent>            <!-- Reason 3: Tactical Superweaper Present --> 
+
+		<Land_Surrender_SFXEvent> EHD_Retreat_Started_Land </Land_Surrender_SFXEvent>
+
+		<!-- <Reinforcements_Selection_SFXEvent> EHD_Choose_Reinforcements </Reinforcements_Selection_SFXEvent> -->
+		<!-- <Reinforcements_Pick_Landing_Zone_SFXEvent> EHD_Choose_Landing </Reinforcements_Pick_Landing_Zone_SFXEvent> -->
+		<!-- <Reinforcements_Enroute_SFXEvent> EHD_Reinforcements_En_Route </Reinforcements_Enroute_SFXEvent> -->
+		<!-- <Reinforcements_Cancelled_SFXEvent> EHD_Reinforcements_Cancelled </Reinforcements_Cancelled_SFXEvent> -->
+		<Reinforcements_Selection_SFXEvent> EHD_Choose_Reinforcements </Reinforcements_Selection_SFXEvent>
+		<Reinforcements_Pick_Landing_Zone_SFXEvent> </Reinforcements_Pick_Landing_Zone_SFXEvent>
+		<Reinforcements_Enroute_SFXEvent> EHD_Reinforcements_En_Route </Reinforcements_Enroute_SFXEvent>
+		<Reinforcements_Cancelled_SFXEvent> EHD_Reinforcements_Cancelled </Reinforcements_Cancelled_SFXEvent>
+
+		<Reinforcements_Requesting_SFXEvent> EHD_Request_Assistance </Reinforcements_Requesting_SFXEvent>
+		<Reinforcements_Ready_SFXEvent> EHD_Reinforcements_Available </Reinforcements_Ready_SFXEvent>
+
+		<Reinforcements_Shadow_Blob_Material_Name> Reinforcement_Overlay_Empire </Reinforcements_Shadow_Blob_Material_Name>
+
+		<Bombing_Run_Shadow_Blob_Material_Name> Bombing_Run_Rebel </Bombing_Run_Shadow_Blob_Material_Name>
+		<Bombing_Run_Blob_Size> 100.0 </Bombing_Run_Blob_Size>
+
+		<Bombardment_Shadow_Blob_Material_Name> Bombardment_Black_Sun </Bombardment_Shadow_Blob_Material_Name>
+		<Bombardment_Blob_Size> 250.0 </Bombardment_Blob_Size>
+		<Bombardment_Required_Orbital_Ships>  </Bombardment_Required_Orbital_Ships>
+		<Bombardment_Projectile> Proj_Rebel_Bombardment_Turbolaser </Bombardment_Projectile>
+		<Bombardment_Number_Of_Salvos> 2 </Bombardment_Number_Of_Salvos>
+		<Bombardment_Shots_Per_Salvo> 4 </Bombardment_Shots_Per_Salvo>
+		<Bombardment_Shot_Delay> 0.5 </Bombardment_Shot_Delay>
+		<Bombardment_Salvo_Delay> 2.15 </Bombardment_Salvo_Delay>
+		<Bombardment_Initial_Delay> 7.5 </Bombardment_Initial_Delay>
+
+		<Land_Mode_Selection_Blob_Material_Name>Selection_Black_Sun_Land</Land_Mode_Selection_Blob_Material_Name>
+		<Space_Mode_Selection_Blob_Material_Name>Selection_Black_Sun_Space</Space_Mode_Selection_Blob_Material_Name>
+		<Land_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Black_Sun_Land</Land_Mode_Garrison_Selection_Blob_Material_Name>
+		<Space_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Black_Sun_Space</Space_Mode_Garrison_Selection_Blob_Material_Name>
+        <Selection_Blob_RGBA>0,255,0,255</Selection_Blob_RGBA>
+		
+		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
+		<Space_Skirmish_AI_Default_Forces> 
+			
+		</Space_Skirmish_AI_Default_Forces>
+
+		<Land_Skirmish_Unit_Buy_Credits> 50000 </Land_Skirmish_Unit_Buy_Credits>
+		<Land_Skirmish_AI_Default_Forces> 
+			
+		</Land_Skirmish_AI_Default_Forces>
+
+		<Land_Skirmish_Unit_Cap_By_Player_Count>
+			0,10,
+			1,10,
+			8,5,
+		</Land_Skirmish_Unit_Cap_By_Player_Count>
+
+		<Debug_Ground_Structures>
+			
+		</Debug_Ground_Structures>
+
+        <Superweapon_Win_Movie />
+        <Generic_Win_Movie />
+        <Finale_Movie />
+        <Victory_Text>TEXT_CONFEDERACY_VICTORY</Victory_Text>
+        <Defeat_Text>TEXT_CONFEDERACY_DEFEAT</Defeat_Text>
+
+        <Space_Win_Image>i_es_win.tga</Space_Win_Image>
+        <Space_Lose_Image>i_es_lose.tga</Space_Lose_Image>
+        <Land_Win_Image>i_el_win.tga</Land_Win_Image>
+        <Land_Lose_Image>i_el_lose.tga</Land_Lose_Image>
+
+		<!-- This enables the galactic victory condition: "Win by capturing Coruscant and eliminating Emperor Palpatine" -->
+		<Home_Planet>Ordmantell</Home_Planet>
+		<Faction_Leader>Prince_Xizor</Faction_Leader>
+		<Faction_Leader_Company>Prince_Xizor_Team</Faction_Leader_Company>
+
+        <!-- MusicEvents -->
+		<Strategic_Map_Music_Event> Galactic_Map_Underworld_Music_Event </Strategic_Map_Music_Event>
+		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
+
+		<!-- Allow special weapon firing in tactical maps that have no parent galactic mode -->
+		<Standalone_Space_Maps_Special_Weapon_A> Ground_Empire_Hypervelocity_Gun </Standalone_Space_Maps_Special_Weapon_A>
+		<Standalone_Space_Maps_Special_Weapon_B> </Standalone_Space_Maps_Special_Weapon_B>
+
+
+		<!-- Currently not used by Empire, but data is stubbed in for future use -->
+		<Land_Area_Effect_Range_Overlay_Material_Name> Empire_Land_Area_Effect_Range_Overlay </Land_Area_Effect_Range_Overlay_Material_Name> <!-- In ShadowBlobMaterials.xml -->
+		<Land_Area_Effect_Range_Overlay_RGBA> 128, 255, 128, 128 </Land_Area_Effect_Range_Overlay_RGBA>
+		<Land_Area_Effect_Range_Overlay_Scale_Factor> 1.20 </Land_Area_Effect_Range_Overlay_Scale_Factor> <!-- Compensate for ring ednge not being full bounds of texture size -->
+
+		<!-- Overlay ring used by Boba Fett when targeting with his "jet pack burst" jump ability, this is the ring around Boba to show click target terrain range -->
+		<Land_Ability_Targeting_Range_Overlay_Material_Name> Empire_Land_Ability_Targeting_Range_Overlay </Land_Ability_Targeting_Range_Overlay_Material_Name>	<!-- In ShadowBlobMaterials.xml -->
+		<Land_Ability_Targeting_Range_Overlay_RGBA> 255, 255, 64, 128 </Land_Ability_Targeting_Range_Overlay_RGBA>
+		<Land_Ability_Targeting_Range_Overlay_Scale_Factor> 1.20 </Land_Ability_Targeting_Range_Overlay_Scale_Factor> <!-- Compensate for ring ednge not being full bounds of texture size -->
+
+
+		<!-- ============================================== -->
+		<!-- EMPIRE DROID ADVISOR TEXT		                -->
+		<!-- ============================================== -->
+
+		<Galactic_Advisor_Hints>
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_01,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_02,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_03,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_04,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_05,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_06,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_07,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_08,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_09,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_10,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_11,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_12,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_13,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_14,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_15,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_16,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_17,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_18,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_19,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_20,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_21,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_24
+		</Galactic_Advisor_Hints>
+
+		<Space_Advisor_Hints>
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_01,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_02,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_03,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_04,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_05,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_06,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_07,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_08,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_09,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_10,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_11,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_13
+		</Space_Advisor_Hints>
+
+		<Land_Advisor_Hints>
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_00,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_01,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_02,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_03,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_04,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_05,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_06,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_07,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_08,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_09,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_10,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_11,
+				TEXT_DROID_ADVISOR_LAND_12,
+				TEXT_DROID_ADVISOR_LAND_13,
+				TEXT_DROID_ADVISOR_LAND_14
+		</Land_Advisor_Hints>
+
+		<!-- End Droid Advisor Speech/Text -->
+
+		<Allies />
+		<Enemies>
+		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Trade_Federation, Commerce_Guild, Techno_Union, Banking_Clan, Mandalorians, 
+		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn, Hutt_Cartel, 
+		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order, Imperial_Remnant_Thrawn, Chiss_Ascendancy
+		</Enemies>
+		
+		<Can_Control_Planets>true</Can_Control_Planets>
+
+		<Garrison_Reinforcement_Delay_Seconds>20.0</Garrison_Reinforcement_Delay_Seconds>
+		<Multiplayer_Beacon_Type>E_Multiplayer_Beacon</Multiplayer_Beacon_Type>
+		<Default_Transmission_Message>TEXT_ENCYCLOPEDIA_HOLOCRON_UPDATED</Default_Transmission_Message>
+		<SFXEvent_HUD_Advisor_Message>GUI_Droid_Hint_SFX</SFXEvent_HUD_Advisor_Message>
+		<SFXEvent_HUD_Advisor_Urgent>GUI_R2_Urgent_Hint_SFX</SFXEvent_HUD_Advisor_Urgent>
+		<SFXEvent_HUD_Advisor_Hint>GUI_Droid_Hint_SFX</SFXEvent_HUD_Advisor_Hint>
+		
+		<Multiplayer_Campaign_Heroes>
+			
+		</Multiplayer_Campaign_Heroes>
+
+		<Multiplayer_Map_Preview_Icon>I_MULTIPLAY_BLACK_SUN.TGA</Multiplayer_Map_Preview_Icon>
+
+        <Tech_Level_Icon_Name> i_button_e_tech_upgrade_ </Tech_Level_Icon_Name>
+
+      <Alternate_Icon_Prefix> e_ </Alternate_Icon_Prefix>
+
+		<Automatic_Planetary_Corruption_Upgrade_Type> 
+			Generic_Intimidation_Corruption_Upgrade,
+			Generic_Piracy_Corruption_Upgrade,
+			Generic_Kidnapping_Corruption_Upgrade,
+			Generic_Racketeering_Corruption_Upgrade,
+			Generic_Corrupt_Militia_Corruption_Upgrade,
+			Generic_Bribery_Corruption_Upgrade,
+			Generic_Black_Market_Corruption_Upgrade,
+			Generic_Bonded_Citizens_Corruption_Upgrade,
+		</Automatic_Planetary_Corruption_Upgrade_Type>
+
+	</Faction>
 	
+	
+	
+	
+	
+	
+	<Faction Name="Hutt_Cartel">
+
+		<Is_Debug_Switchable_To> Yes </Is_Debug_Switchable_To>
+		<Create_Player_In_Multiplayer_Games> No </Create_Player_In_Multiplayer_Games>
+
+		<Text_ID> TEXT_FACTION_HUTT_CARTEL </Text_ID>
+		<Icon_Name> I_ENCYCLOPEDIA_HUTT_CARTEL_SYMBOL.tga </Icon_Name>
+		<Alternate_Icon_Name> I_ENCYCLOPEDIA_HUTT_CARTEL_SYMBOL.tga </Alternate_Icon_Name>
+		<Ground_Base_Icon_Name> groundbase_icon.tga </Ground_Base_Icon_Name>
+		<Star_Base_Icon_Name> spacestation_icon.tga </Star_Base_Icon_Name>
+		<Ground_Transport_Icon_Name> i_button_Twilek_Pirate.tga </Ground_Transport_Icon_Name>
+		<Fleet_Icon_Name> i_icon_fleet.tga </Fleet_Icon_Name>
+		<Ship_Icon_Name> g_fleet.tga </Ship_Icon_Name>
+		<Squadron_Icon_Name> g_squad.tga </Squadron_Icon_Name>
+		<Color> 0, 150, 71, 255 </Color>
+		<No_Colorization_Color> 0, 150, 71, 255 </No_Colorization_Color>
+		<Display_Font_Color> 0, 150, 71, 255 </Display_Font_Color>
+		<Big_Fleet_Color> 0, 150, 71, 255 </Big_Fleet_Color>
+		<Credits_Accumulation_Factor> 0.85 </Credits_Accumulation_Factor>
+		<Planet_Icon_Scale> 10.0 </Planet_Icon_Scale>
+		<Planet_Icon_Offset> 7.0, 10.0, -1.1 </Planet_Icon_Offset>
+		<Is_Playable>True</Is_Playable>
+		<Primary_Enemy> Empire </Primary_Enemy>
+		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
+		<Is_Neutral> No </Is_Neutral>
+		<Force_Alignment>Dark</Force_Alignment>
+		<Minimum_Visible_Base_Level>1</Minimum_Visible_Base_Level>
+		<Basic_AI>BasicEmpire</Basic_AI>
+		<Faction_Super_Weapon />
+		<Skirmish_Land_Bomber>  </Skirmish_Land_Bomber>
+		<Space_Tactical_Unit_Cap>350</Space_Tactical_Unit_Cap>
+		<Maintenance_Cost>0.25</Maintenance_Cost>
+		
+		<!-- Gameplay effects of planetary corruption on this faction. -->
+		<Benefits_From_Corruption> No </Benefits_From_Corruption>
+		<Corruption_Galactic_Production_Time_Multipliers> 1.0, .95 </Corruption_Galactic_Production_Time_Multipliers>
+		<Corruption_Galactic_Production_Price_Multipliers> 1.0, .9 </Corruption_Galactic_Production_Price_Multipliers>
+		<Corruption_Tactical_Production_Time_Multipliers> 1.0, 1.0 </Corruption_Tactical_Production_Time_Multipliers>
+		<Corruption_Tactical_Production_Price_Multipliers> 1.0, 1.0 </Corruption_Tactical_Production_Price_Multipliers>
+		<Corruption_Tactical_Build_Pad_Time_Multipliers> 1.0, 1.0 </Corruption_Tactical_Build_Pad_Time_Multipliers>
+		<Corruption_Tactical_Build_Pad_Price_Multipliers> 1.0, 1.0 </Corruption_Tactical_Build_Pad_Price_Multipliers>
+		<Easily_Bribed> Yes </Easily_Bribed>
+
+		<Scatters_From_Crushers> false </Scatters_From_Crushers>
+		
+		<Infantry_Icon_Name>i_button_Twilek_Pirate.tga</Infantry_Icon_Name>
+		<Vehicle_Icon_Name>i_button_New_Pirate_skiff.tga</Vehicle_Icon_Name>
+		<Carrier_Icon_Name>i_e_carrier.tga</Carrier_Icon_Name>
+		<Frigate_Icon_Name>i_button_hutt_cruiser.tga</Frigate_Icon_Name>
+		<Corvette_Icon_Name>i_e_corvette.tga</Corvette_Icon_Name>
+		<Fighter_Icon_Name>i_button_tie_fighter.tga</Fighter_Icon_Name>
+        <Tech_Tree_Dialog_Name>IDD_TECH_TREE_EMPIRE</Tech_Tree_Dialog_Name>
+        <Helper_Icon_Name>i_empire_help_droid.tga</Helper_Icon_Name>
+
+		<Space_Retreat_Countdown_Seconds> 10.99 </Space_Retreat_Countdown_Seconds> 
+		<Space_Retreat_Pursue_Max_Speed_Mod_Factor> 3.0 </Space_Retreat_Pursue_Max_Speed_Mod_Factor> 
+		<Space_Retreat_Units_Damaged_Mod_Factor> 4.0 </Space_Retreat_Units_Damaged_Mod_Factor> 
+		<Space_Retreat_Flight_Increment> 500.0 </Space_Retreat_Flight_Increment>
+		<Space_Retreat_Unit_Increment_Wait_Frames> 1 </Space_Retreat_Unit_Increment_Wait_Frames>
+		<Space_Retreat_Off_Map_Dest_Pos> 12000.0, 12000.0, 0.0 </Space_Retreat_Off_Map_Dest_Pos>	<!-- WARNING: For some reason, non-0.0 Z crashes the game -->
+		<Space_Retreat_Countdown_Color_RGBA> 0, 150, 71, 255 </Space_Retreat_Countdown_Color_RGBA>
+		<Space_Retreat_Countdown_Text_ID> TEXT_RETREAT_SPACE_HUTT_CARTEL_COUNTDOWN </Space_Retreat_Countdown_Text_ID>
+
+		<Space_Retreat_Begin_SFXEvent> EHD_Retreat_Started_Space </Space_Retreat_Begin_SFXEvent>
+		<Space_Retreat_Cancel_SFXEvent> EHD_Retreat_Cancelled </Space_Retreat_Cancel_SFXEvent>
+		<Space_Retreat_Not_Allowed_SFXEvent> EHD_Retreat_Not_Allowed </Space_Retreat_Not_Allowed_SFXEvent>
+		<Space_Retreat_Not_Allowed_Reason_1_SFXEvent> EHD_Retreat_Interdictor </Space_Retreat_Not_Allowed_Reason_1_SFXEvent>			<!-- Reason 1: Gravity Well -->                 
+		<Space_Retreat_Not_Allowed_Reason_2_SFXEvent> Unit_Retreat_Tarkin </Space_Retreat_Not_Allowed_Reason_2_SFXEvent>                               <!-- Reason 2: Friendly Hero Preventing -->     
+		<Space_Retreat_Not_Allowed_Reason_3_SFXEvent> </Space_Retreat_Not_Allowed_Reason_3_SFXEvent>                               <!-- Reason 3: Tactical Superweaper Present --> 
+
+		<Space_Surrender_SFXEvent> EHD_Retreat_Started_Space </Space_Surrender_SFXEvent>
+
+		<Land_Retreat_Countdown_Seconds> 10.99 </Land_Retreat_Countdown_Seconds>  
+		<Land_Retreat_Pursue_Max_Speed_Mod_Factor> 2.0 </Land_Retreat_Pursue_Max_Speed_Mod_Factor> 
+		<Land_Retreat_Units_Damaged_Mod_Factor> 2.0 </Land_Retreat_Units_Damaged_Mod_Factor> 
+		<Land_Retreat_Countdown_Color_RGBA> 0, 150, 71, 255 </Land_Retreat_Countdown_Color_RGBA>
+		<Land_Retreat_Countdown_Text_ID> TEXT_RETREAT_LAND_HUTT_CARTEL_COUNTDOWN </Land_Retreat_Countdown_Text_ID>
+
+		<Land_Retreat_Begin_SFXEvent> EHD_Retreat_Started_Land </Land_Retreat_Begin_SFXEvent>
+		<Land_Retreat_Cancel_SFXEvent> EHD_Retreat_Cancelled </Land_Retreat_Cancel_SFXEvent>
+		<Land_Retreat_Not_Allowed_SFXEvent> EHD_Retreat_Not_Allowed </Land_Retreat_Not_Allowed_SFXEvent>
+		<Land_Retreat_Not_Allowed_Reason_1_SFXEvent> </Land_Retreat_Not_Allowed_Reason_1_SFXEvent>				<!-- Reason 1: Gravity Well -->                 
+		<Land_Retreat_Not_Allowed_Reason_2_SFXEvent> </Land_Retreat_Not_Allowed_Reason_2_SFXEvent>            <!-- Reason 2: Friendly Hero Preventing -->     
+		<Land_Retreat_Not_Allowed_Reason_3_SFXEvent> </Land_Retreat_Not_Allowed_Reason_3_SFXEvent>            <!-- Reason 3: Tactical Superweaper Present --> 
+
+		<Land_Surrender_SFXEvent> EHD_Retreat_Started_Land </Land_Surrender_SFXEvent>
+
+		<!-- <Reinforcements_Selection_SFXEvent> EHD_Choose_Reinforcements </Reinforcements_Selection_SFXEvent> -->
+		<!-- <Reinforcements_Pick_Landing_Zone_SFXEvent> EHD_Choose_Landing </Reinforcements_Pick_Landing_Zone_SFXEvent> -->
+		<!-- <Reinforcements_Enroute_SFXEvent> EHD_Reinforcements_En_Route </Reinforcements_Enroute_SFXEvent> -->
+		<!-- <Reinforcements_Cancelled_SFXEvent> EHD_Reinforcements_Cancelled </Reinforcements_Cancelled_SFXEvent> -->
+		<Reinforcements_Selection_SFXEvent> EHD_Choose_Reinforcements </Reinforcements_Selection_SFXEvent>
+		<Reinforcements_Pick_Landing_Zone_SFXEvent> </Reinforcements_Pick_Landing_Zone_SFXEvent>
+		<Reinforcements_Enroute_SFXEvent> EHD_Reinforcements_En_Route </Reinforcements_Enroute_SFXEvent>
+		<Reinforcements_Cancelled_SFXEvent> EHD_Reinforcements_Cancelled </Reinforcements_Cancelled_SFXEvent>
+
+		<Reinforcements_Requesting_SFXEvent> EHD_Request_Assistance </Reinforcements_Requesting_SFXEvent>
+		<Reinforcements_Ready_SFXEvent> EHD_Reinforcements_Available </Reinforcements_Ready_SFXEvent>
+
+		<Reinforcements_Shadow_Blob_Material_Name> Reinforcement_Overlay_Empire </Reinforcements_Shadow_Blob_Material_Name>
+
+		<Bombing_Run_Shadow_Blob_Material_Name> Bombing_Run_Empire </Bombing_Run_Shadow_Blob_Material_Name>
+		<Bombing_Run_Blob_Size> 100.0 </Bombing_Run_Blob_Size>
+
+		<!-- BOMBARDMENT DATA -->
+		<Bombardment_Shadow_Blob_Material_Name> Bombardment_Hutt_Cartel </Bombardment_Shadow_Blob_Material_Name>
+		<Bombardment_Blob_Size> 200.0 </Bombardment_Blob_Size>
+		<Bombardment_Required_Orbital_Ships>  </Bombardment_Required_Orbital_Ships>
+		<Bombardment_Projectile>  </Bombardment_Projectile>
+		<Bombardment_Number_Of_Salvos> 2 </Bombardment_Number_Of_Salvos>
+		<Bombardment_Shots_Per_Salvo> 4 </Bombardment_Shots_Per_Salvo>
+		<Bombardment_Shot_Delay> 0.5 </Bombardment_Shot_Delay>
+		<Bombardment_Salvo_Delay> 2.15 </Bombardment_Salvo_Delay>
+		<Bombardment_Initial_Delay> 7.5 </Bombardment_Initial_Delay>
+
+		<Land_Mode_Selection_Blob_Material_Name>Selection_Hutt_Cartel_Land</Land_Mode_Selection_Blob_Material_Name>
+		<Space_Mode_Selection_Blob_Material_Name>Selection_Hutt_Cartel_Space</Space_Mode_Selection_Blob_Material_Name>
+		<Land_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Hutt_Cartel_Land</Land_Mode_Garrison_Selection_Blob_Material_Name>
+		<Space_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Hutt_Cartel_Space</Space_Mode_Garrison_Selection_Blob_Material_Name>
+        <Selection_Blob_RGBA>0,255,0,255</Selection_Blob_RGBA>
+		
+		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
+		<Space_Skirmish_AI_Default_Forces> 
+			
+		</Space_Skirmish_AI_Default_Forces>
+
+		<Land_Skirmish_Unit_Buy_Credits> 50000 </Land_Skirmish_Unit_Buy_Credits>
+		<Land_Skirmish_AI_Default_Forces> 
+			
+		</Land_Skirmish_AI_Default_Forces>
+
+		<Land_Skirmish_Unit_Cap_By_Player_Count>
+			0,10,
+			1,10,
+			8,5,
+		</Land_Skirmish_Unit_Cap_By_Player_Count>
+
+		<Debug_Ground_Structures>
+			
+		</Debug_Ground_Structures>
+
+        <Superweapon_Win_Movie />
+        <Generic_Win_Movie />
+        <Finale_Movie />
+        <Victory_Text>TEXT_HUTT_CARTEL_VICTORY</Victory_Text>
+        <Defeat_Text>TEXT_HUTT_CARTEL_DEFEAT</Defeat_Text>
+
+        <Space_Win_Image>i_es_win.tga</Space_Win_Image>
+        <Space_Lose_Image>i_es_lose.tga</Space_Lose_Image>
+        <Land_Win_Image>i_el_win.tga</Land_Win_Image>
+        <Land_Lose_Image>i_el_lose.tga</Land_Lose_Image>
+
+		<!-- This enables the galactic victory condition: "Win by capturing Coruscant and eliminating Emperor Palpatine" -->
+		<Home_Planet>NalHutta</Home_Planet>
+		<Faction_Leader>Jabba_The_Hutt</Faction_Leader>
+		<Faction_Leader_Company>Jabba_The_Hutt_Team</Faction_Leader_Company>
+
+        <!-- MusicEvents -->
+		<Strategic_Map_Music_Event> Galactic_Map_Underworld_Music_Event </Strategic_Map_Music_Event>
+		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
+
+		<!-- Allow special weapon firing in tactical maps that have no parent galactic mode -->
+		<Standalone_Space_Maps_Special_Weapon_A> Ground_Empire_Hypervelocity_Gun </Standalone_Space_Maps_Special_Weapon_A>
+		<Standalone_Space_Maps_Special_Weapon_B> </Standalone_Space_Maps_Special_Weapon_B>
+
+
+		<!-- Currently not used by Empire, but data is stubbed in for future use -->
+		<Land_Area_Effect_Range_Overlay_Material_Name> Empire_Land_Area_Effect_Range_Overlay </Land_Area_Effect_Range_Overlay_Material_Name> <!-- In ShadowBlobMaterials.xml -->
+		<Land_Area_Effect_Range_Overlay_RGBA> 128, 255, 128, 128 </Land_Area_Effect_Range_Overlay_RGBA>
+		<Land_Area_Effect_Range_Overlay_Scale_Factor> 1.20 </Land_Area_Effect_Range_Overlay_Scale_Factor> <!-- Compensate for ring ednge not being full bounds of texture size -->
+
+		<!-- Overlay ring used by Boba Fett when targeting with his "jet pack burst" jump ability, this is the ring around Boba to show click target terrain range -->
+		<Land_Ability_Targeting_Range_Overlay_Material_Name> Empire_Land_Ability_Targeting_Range_Overlay </Land_Ability_Targeting_Range_Overlay_Material_Name>	<!-- In ShadowBlobMaterials.xml -->
+		<Land_Ability_Targeting_Range_Overlay_RGBA> 255, 255, 64, 128 </Land_Ability_Targeting_Range_Overlay_RGBA>
+		<Land_Ability_Targeting_Range_Overlay_Scale_Factor> 1.20 </Land_Ability_Targeting_Range_Overlay_Scale_Factor> <!-- Compensate for ring ednge not being full bounds of texture size -->
+
+
+		<!-- ============================================== -->
+		<!-- EMPIRE DROID ADVISOR TEXT		                -->
+		<!-- ============================================== -->
+
+		<Galactic_Advisor_Hints>
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_01,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_02,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_03,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_04,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_05,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_06,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_07,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_08,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_09,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_10,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_11,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_12,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_13,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_14,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_15,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_16,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_17,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_18,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_19,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_20,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_21,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_24
+		</Galactic_Advisor_Hints>
+
+		<Space_Advisor_Hints>
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_01,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_02,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_03,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_04,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_05,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_06,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_07,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_08,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_09,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_10,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_11,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_13
+		</Space_Advisor_Hints>
+
+		<Land_Advisor_Hints>
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_00,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_01,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_02,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_03,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_04,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_05,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_06,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_07,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_08,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_09,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_10,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_11,
+				TEXT_DROID_ADVISOR_LAND_12,
+				TEXT_DROID_ADVISOR_LAND_13,
+				TEXT_DROID_ADVISOR_LAND_14
+		</Land_Advisor_Hints>
+
+		<!-- End Droid Advisor Speech/Text -->
+
+		<Allies />
+		<Enemies>
+		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Trade_Federation, Commerce_Guild, Techno_Union, Banking_Clan, Mandalorians, 
+		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn, Black_Sun,
+		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order, Imperial_Remnant_Thrawn, Chiss_Ascendancy
+		</Enemies>
+		
+		<Can_Control_Planets>true</Can_Control_Planets>
+
+		<Garrison_Reinforcement_Delay_Seconds>20.0</Garrison_Reinforcement_Delay_Seconds>
+		<Multiplayer_Beacon_Type>E_Multiplayer_Beacon</Multiplayer_Beacon_Type>
+		<Default_Transmission_Message>TEXT_ENCYCLOPEDIA_HOLOCRON_UPDATED</Default_Transmission_Message>
+		<SFXEvent_HUD_Advisor_Message>GUI_Droid_Hint_SFX</SFXEvent_HUD_Advisor_Message>
+		<SFXEvent_HUD_Advisor_Urgent>GUI_R2_Urgent_Hint_SFX</SFXEvent_HUD_Advisor_Urgent>
+		<SFXEvent_HUD_Advisor_Hint>GUI_Droid_Hint_SFX</SFXEvent_HUD_Advisor_Hint>
+		
+		<Multiplayer_Campaign_Heroes>
+			
+		</Multiplayer_Campaign_Heroes>
+
+		<Multiplayer_Map_Preview_Icon>I_MULTIPLAY_HUTT_CARTEL.TGA</Multiplayer_Map_Preview_Icon>
+
+        <Tech_Level_Icon_Name> i_button_e_tech_upgrade_ </Tech_Level_Icon_Name>
+
+      <Alternate_Icon_Prefix> e_ </Alternate_Icon_Prefix>
+
+		<Automatic_Planetary_Corruption_Upgrade_Type> 
+			Generic_Intimidation_Corruption_Upgrade,
+			Generic_Piracy_Corruption_Upgrade,
+			Generic_Kidnapping_Corruption_Upgrade,
+			Generic_Racketeering_Corruption_Upgrade,
+			Generic_Corrupt_Militia_Corruption_Upgrade,
+			Generic_Bribery_Corruption_Upgrade,
+			Generic_Black_Market_Corruption_Upgrade,
+			Generic_Bonded_Citizens_Corruption_Upgrade,
+		</Automatic_Planetary_Corruption_Upgrade_Type>
+
+	</Faction>
 	
 	
 	
@@ -4304,6 +5466,9 @@
 		<Faction_Leader>Chancelor_Mon_Mothma</Faction_Leader>
 		<Faction_Leader_Company>Chancelor_Mon_Mothma_Team</Faction_Leader_Company>
 
+        <!-- MusicEvents -->
+		<Strategic_Map_Music_Event> Galactic_Map_Underworld_Music_Event </Strategic_Map_Music_Event>
+		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
 
 		<!-- Allow special weapon firing in tactical maps that have no parent galactic mode -->
 		<Standalone_Space_Maps_Special_Weapon_A> Ground_Empire_Hypervelocity_Gun </Standalone_Space_Maps_Special_Weapon_A>
@@ -4387,9 +5552,9 @@
 
 		<Allies />
 		<Enemies>
-		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Hutt_Cartel, Black_Sun, Mandalorians, 
-		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn,
-		Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order
+		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Trade_Federation, Commerce_Guild, Techno_Union, Banking_Clan, Mandalorians, 
+		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn, Hutt_Cartel, Black_Sun,
+		Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order, Imperial_Remnant_Thrawn, Chiss_Ascendancy
 		</Enemies>
 		
 		<Can_Control_Planets>true</Can_Control_Planets>
@@ -4584,6 +5749,9 @@
 		<Faction_Leader>Gallius_Rax</Faction_Leader>
 		<Faction_Leader_Company>Gallius_Rax_Team</Faction_Leader_Company>
 
+        <!-- MusicEvents -->
+		<Strategic_Map_Music_Event> Galactic_Map_Underworld_Music_Event </Strategic_Map_Music_Event>
+		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
 
 		<!-- Allow special weapon firing in tactical maps that have no parent galactic mode -->
 		<Standalone_Space_Maps_Special_Weapon_A> Ground_Empire_Hypervelocity_Gun </Standalone_Space_Maps_Special_Weapon_A>
@@ -4667,9 +5835,9 @@
 
 		<Allies />
 		<Enemies>
-		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Hutt_Cartel, Black_Sun, Mandalorians, 
-		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn,
-		New_Republic, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order
+		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Trade_Federation, Commerce_Guild, Techno_Union, Banking_Clan, Mandalorians, 
+		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn, Hutt_Cartel, Black_Sun,
+		New_Republic, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order, Imperial_Remnant_Thrawn, Chiss_Ascendancy
 		</Enemies>
 		
 		<Can_Control_Planets>true</Can_Control_Planets>
@@ -4866,6 +6034,9 @@
 		<Faction_Leader>Admiral_Gratloe</Faction_Leader>
 		<Faction_Leader_Company>Admiral_Gratloe_Team</Faction_Leader_Company>
 
+        <!-- MusicEvents -->
+		<Strategic_Map_Music_Event> Galactic_Map_Underworld_Music_Event </Strategic_Map_Music_Event>
+		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
 
 		<!-- Allow special weapon firing in tactical maps that have no parent galactic mode -->
 		<Standalone_Space_Maps_Special_Weapon_A> Ground_Empire_Hypervelocity_Gun </Standalone_Space_Maps_Special_Weapon_A>
@@ -4949,9 +6120,9 @@
 
 		<Allies />
 		<Enemies>
-		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Hutt_Cartel, Black_Sun, Mandalorians, 
-		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn,
-		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order
+		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Trade_Federation, Commerce_Guild, Techno_Union, Banking_Clan, Mandalorians, 
+		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn, Hutt_Cartel, Black_Sun,
+		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order, Imperial_Remnant_Thrawn, Chiss_Ascendancy
 		</Enemies>
 		
 		<Can_Control_Planets>true</Can_Control_Planets>
@@ -5147,6 +6318,9 @@
 		<Faction_Leader>Kenner_Loring</Faction_Leader>
 		<Faction_Leader_Company>Kenner_Loring_Team</Faction_Leader_Company>
 
+        <!-- MusicEvents -->
+		<Strategic_Map_Music_Event> Galactic_Map_Underworld_Music_Event </Strategic_Map_Music_Event>
+		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
 
 		<!-- Allow special weapon firing in tactical maps that have no parent galactic mode -->
 		<Standalone_Space_Maps_Special_Weapon_A> Ground_Empire_Hypervelocity_Gun </Standalone_Space_Maps_Special_Weapon_A>
@@ -5230,9 +6404,9 @@
 
 		<Allies />
 		<Enemies>
-		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Hutt_Cartel, Black_Sun, Mandalorians, 
-		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn,
-		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Adelhard, First_Order
+		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Trade_Federation, Commerce_Guild, Techno_Union, Banking_Clan, Mandalorians, 
+		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn, Hutt_Cartel, Black_Sun,
+		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Adelhard, First_Order, Imperial_Remnant_Thrawn, Chiss_Ascendancy
 		</Enemies>
 		
 		<Can_Control_Planets>true</Can_Control_Planets>
@@ -5428,6 +6602,9 @@
 		<Faction_Leader>Ubrick_Adelhard</Faction_Leader>
 		<Faction_Leader_Company>Ubrick_Adelhard_Team</Faction_Leader_Company>
 
+        <!-- MusicEvents -->
+		<Strategic_Map_Music_Event> Galactic_Map_Underworld_Music_Event </Strategic_Map_Music_Event>
+		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
 
 		<!-- Allow special weapon firing in tactical maps that have no parent galactic mode -->
 		<Standalone_Space_Maps_Special_Weapon_A> Ground_Empire_Hypervelocity_Gun </Standalone_Space_Maps_Special_Weapon_A>
@@ -5511,9 +6688,9 @@
 
 		<Allies />
 		<Enemies>
-		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Hutt_Cartel, Black_Sun, Mandalorians, 
-		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn,
-		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, First_Order
+		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Trade_Federation, Commerce_Guild, Techno_Union, Banking_Clan, Mandalorians, 
+		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn, Hutt_Cartel, Black_Sun,
+		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, First_Order, Imperial_Remnant_Thrawn, Chiss_Ascendancy
 		</Enemies>
 		
 		<Can_Control_Planets>true</Can_Control_Planets>
@@ -5710,6 +6887,9 @@
 		<Faction_Leader>Rae_Sloane</Faction_Leader>
 		<Faction_Leader_Company>Rae_Sloane_Team</Faction_Leader_Company>
 
+        <!-- MusicEvents -->
+		<Strategic_Map_Music_Event> Galactic_Map_Underworld_Music_Event </Strategic_Map_Music_Event>
+		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
 
 		<!-- Allow special weapon firing in tactical maps that have no parent galactic mode -->
 		<Standalone_Space_Maps_Special_Weapon_A> Ground_Empire_Hypervelocity_Gun </Standalone_Space_Maps_Special_Weapon_A>
@@ -5793,9 +6973,9 @@
 
 		<Allies />
 		<Enemies>
-		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Hutt_Cartel, Black_Sun, Mandalorians, 
-		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn,
-		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard
+		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Trade_Federation, Commerce_Guild, Techno_Union, Banking_Clan, Mandalorians, 
+		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn, Hutt_Cartel, Black_Sun,
+		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, Imperial_Remnant_Thrawn, Chiss_Ascendancy
 		</Enemies>
 		
 		<Can_Control_Planets>true</Can_Control_Planets>
@@ -5829,6 +7009,580 @@
 		</Automatic_Planetary_Corruption_Upgrade_Type>
 
 	</Faction>
+	
+	
+	
+	
+	<Faction Name="Imperial_Remnant_Thrawn">
+
+		<Is_Debug_Switchable_To> Yes </Is_Debug_Switchable_To>
+		<Create_Player_In_Multiplayer_Games> No </Create_Player_In_Multiplayer_Games>
+
+		<Text_ID> TEXT_FACTION_REMNANT_THRAWN </Text_ID>
+		<Icon_Name> I_ENCYCLOPEDIA_REMNANT_THRAWN.tga </Icon_Name>
+		<Alternate_Icon_Name> I_ENCYCLOPEDIA_REMNANT_THRAWN.tga </Alternate_Icon_Name>
+		<Ground_Base_Icon_Name> groundbase_icon.tga </Ground_Base_Icon_Name>
+		<Star_Base_Icon_Name> spacestation_icon.tga </Star_Base_Icon_Name>
+		<Ground_Transport_Icon_Name> i_button_Elite_Pirate.tga </Ground_Transport_Icon_Name>
+		<Fleet_Icon_Name> i_icon_fleet.tga </Fleet_Icon_Name>
+		<Ship_Icon_Name> g_fleet.tga </Ship_Icon_Name>
+		<Squadron_Icon_Name> g_squad.tga </Squadron_Icon_Name>
+		<Color> 16, 181, 255, 255 </Color>
+		<No_Colorization_Color> 16, 181, 255, 255 </No_Colorization_Color>
+		<Display_Font_Color> 16, 181, 255, 255 </Display_Font_Color>
+		<Big_Fleet_Color> 16, 181, 255, 255 </Big_Fleet_Color>
+		<Credits_Accumulation_Factor> 0.85 </Credits_Accumulation_Factor>
+		<Planet_Icon_Scale> 10.0 </Planet_Icon_Scale>
+		<Planet_Icon_Offset> 7.0, 10.0, -1.1 </Planet_Icon_Offset>
+		<Is_Playable>True</Is_Playable>
+		<Primary_Enemy> New_Republic </Primary_Enemy>
+		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
+		<Is_Neutral> No </Is_Neutral>
+		<Force_Alignment>Dark</Force_Alignment>
+		<Minimum_Visible_Base_Level>1</Minimum_Visible_Base_Level>
+		<Basic_AI>BasicEmpire</Basic_AI>
+		<Faction_Super_Weapon />
+		<Skirmish_Land_Bomber>  </Skirmish_Land_Bomber>
+		<Space_Tactical_Unit_Cap>350</Space_Tactical_Unit_Cap>
+		<Maintenance_Cost>0.25</Maintenance_Cost>
+		
+		<!-- Gameplay effects of planetary corruption on this faction. -->
+		<Benefits_From_Corruption> No </Benefits_From_Corruption>
+		<Corruption_Galactic_Production_Time_Multipliers> 1.0, .95 </Corruption_Galactic_Production_Time_Multipliers>
+		<Corruption_Galactic_Production_Price_Multipliers> 1.0, .9 </Corruption_Galactic_Production_Price_Multipliers>
+		<Corruption_Tactical_Production_Time_Multipliers> 1.0, 1.0 </Corruption_Tactical_Production_Time_Multipliers>
+		<Corruption_Tactical_Production_Price_Multipliers> 1.0, 1.0 </Corruption_Tactical_Production_Price_Multipliers>
+		<Corruption_Tactical_Build_Pad_Time_Multipliers> 1.0, 1.0 </Corruption_Tactical_Build_Pad_Time_Multipliers>
+		<Corruption_Tactical_Build_Pad_Price_Multipliers> 1.0, 1.0 </Corruption_Tactical_Build_Pad_Price_Multipliers>
+		<Easily_Bribed> Yes </Easily_Bribed>
+
+		<Scatters_From_Crushers> false </Scatters_From_Crushers>
+		
+		<Infantry_Icon_Name>i_button_Elite_Pirate.tga</Infantry_Icon_Name>
+		<Vehicle_Icon_Name>i_button_New_Pirate_skiff.tga</Vehicle_Icon_Name>
+		<Carrier_Icon_Name>i_e_carrier.tga</Carrier_Icon_Name>
+		<Frigate_Icon_Name>i_button_hutt_cruiser.tga</Frigate_Icon_Name>
+		<Corvette_Icon_Name>i_e_corvette.tga</Corvette_Icon_Name>
+		<Fighter_Icon_Name>i_button_tie_fighter.tga</Fighter_Icon_Name>
+        <Tech_Tree_Dialog_Name>IDD_TECH_TREE_EMPIRE</Tech_Tree_Dialog_Name>
+        <Helper_Icon_Name>i_empire_help_droid.tga</Helper_Icon_Name>
+
+		<Space_Retreat_Countdown_Seconds> 10.99 </Space_Retreat_Countdown_Seconds> 
+		<Space_Retreat_Pursue_Max_Speed_Mod_Factor> 3.0 </Space_Retreat_Pursue_Max_Speed_Mod_Factor> 
+		<Space_Retreat_Units_Damaged_Mod_Factor> 4.0 </Space_Retreat_Units_Damaged_Mod_Factor> 
+		<Space_Retreat_Flight_Increment> 500.0 </Space_Retreat_Flight_Increment>
+		<Space_Retreat_Unit_Increment_Wait_Frames> 1 </Space_Retreat_Unit_Increment_Wait_Frames>
+		<Space_Retreat_Off_Map_Dest_Pos> 12000.0, 12000.0, 0.0 </Space_Retreat_Off_Map_Dest_Pos>	<!-- WARNING: For some reason, non-0.0 Z crashes the game -->
+		<Space_Retreat_Countdown_Color_RGBA> 16, 181, 255, 255 </Space_Retreat_Countdown_Color_RGBA>
+		<Space_Retreat_Countdown_Text_ID> TEXT_RETREAT_SPACE_REMNANT_THRAWN_COUNTDOWN </Space_Retreat_Countdown_Text_ID>
+
+		<Space_Retreat_Begin_SFXEvent> EHD_Retreat_Started_Space </Space_Retreat_Begin_SFXEvent>
+		<Space_Retreat_Cancel_SFXEvent> EHD_Retreat_Cancelled </Space_Retreat_Cancel_SFXEvent>
+		<Space_Retreat_Not_Allowed_SFXEvent> EHD_Retreat_Not_Allowed </Space_Retreat_Not_Allowed_SFXEvent>
+		<Space_Retreat_Not_Allowed_Reason_1_SFXEvent> EHD_Retreat_Interdictor </Space_Retreat_Not_Allowed_Reason_1_SFXEvent>			<!-- Reason 1: Gravity Well -->                 
+		<Space_Retreat_Not_Allowed_Reason_2_SFXEvent> Unit_Retreat_Tarkin </Space_Retreat_Not_Allowed_Reason_2_SFXEvent>                               <!-- Reason 2: Friendly Hero Preventing -->     
+		<Space_Retreat_Not_Allowed_Reason_3_SFXEvent> </Space_Retreat_Not_Allowed_Reason_3_SFXEvent>                               <!-- Reason 3: Tactical Superweaper Present --> 
+
+		<Space_Surrender_SFXEvent> EHD_Retreat_Started_Space </Space_Surrender_SFXEvent>
+
+		<Land_Retreat_Countdown_Seconds> 10.99 </Land_Retreat_Countdown_Seconds>  
+		<Land_Retreat_Pursue_Max_Speed_Mod_Factor> 2.0 </Land_Retreat_Pursue_Max_Speed_Mod_Factor> 
+		<Land_Retreat_Units_Damaged_Mod_Factor> 2.0 </Land_Retreat_Units_Damaged_Mod_Factor> 
+		<Land_Retreat_Countdown_Color_RGBA> 16, 181, 255, 255 </Land_Retreat_Countdown_Color_RGBA>
+		<Land_Retreat_Countdown_Text_ID> TEXT_RETREAT_LAND_REMNANT_THRAWN_COUNTDOWN </Land_Retreat_Countdown_Text_ID>
+
+		<Land_Retreat_Begin_SFXEvent> EHD_Retreat_Started_Land </Land_Retreat_Begin_SFXEvent>
+		<Land_Retreat_Cancel_SFXEvent> EHD_Retreat_Cancelled </Land_Retreat_Cancel_SFXEvent>
+		<Land_Retreat_Not_Allowed_SFXEvent> EHD_Retreat_Not_Allowed </Land_Retreat_Not_Allowed_SFXEvent>
+		<Land_Retreat_Not_Allowed_Reason_1_SFXEvent> </Land_Retreat_Not_Allowed_Reason_1_SFXEvent>				<!-- Reason 1: Gravity Well -->                 
+		<Land_Retreat_Not_Allowed_Reason_2_SFXEvent> </Land_Retreat_Not_Allowed_Reason_2_SFXEvent>            <!-- Reason 2: Friendly Hero Preventing -->     
+		<Land_Retreat_Not_Allowed_Reason_3_SFXEvent> </Land_Retreat_Not_Allowed_Reason_3_SFXEvent>            <!-- Reason 3: Tactical Superweaper Present --> 
+
+		<Land_Surrender_SFXEvent> EHD_Retreat_Started_Land </Land_Surrender_SFXEvent>
+
+		<!-- <Reinforcements_Selection_SFXEvent> EHD_Choose_Reinforcements </Reinforcements_Selection_SFXEvent> -->
+		<!-- <Reinforcements_Pick_Landing_Zone_SFXEvent> EHD_Choose_Landing </Reinforcements_Pick_Landing_Zone_SFXEvent> -->
+		<!-- <Reinforcements_Enroute_SFXEvent> EHD_Reinforcements_En_Route </Reinforcements_Enroute_SFXEvent> -->
+		<!-- <Reinforcements_Cancelled_SFXEvent> EHD_Reinforcements_Cancelled </Reinforcements_Cancelled_SFXEvent> -->
+		<Reinforcements_Selection_SFXEvent> EHD_Choose_Reinforcements </Reinforcements_Selection_SFXEvent>
+		<Reinforcements_Pick_Landing_Zone_SFXEvent> </Reinforcements_Pick_Landing_Zone_SFXEvent>
+		<Reinforcements_Enroute_SFXEvent> EHD_Reinforcements_En_Route </Reinforcements_Enroute_SFXEvent>
+		<Reinforcements_Cancelled_SFXEvent> EHD_Reinforcements_Cancelled </Reinforcements_Cancelled_SFXEvent>
+
+		<Reinforcements_Requesting_SFXEvent> EHD_Request_Assistance </Reinforcements_Requesting_SFXEvent>
+		<Reinforcements_Ready_SFXEvent> EHD_Reinforcements_Available </Reinforcements_Ready_SFXEvent>
+
+		<Reinforcements_Shadow_Blob_Material_Name> Reinforcement_Overlay_Empire </Reinforcements_Shadow_Blob_Material_Name>
+
+		<Bombing_Run_Shadow_Blob_Material_Name> Bombing_Run_Empire </Bombing_Run_Shadow_Blob_Material_Name>
+		<Bombing_Run_Blob_Size> 100.0 </Bombing_Run_Blob_Size>
+
+		<!-- BOMBARDMENT DATA -->
+		<Bombardment_Shadow_Blob_Material_Name> Bombardment_First_Order </Bombardment_Shadow_Blob_Material_Name>
+		<Bombardment_Blob_Size> 200.0 </Bombardment_Blob_Size>
+		<Bombardment_Required_Orbital_Ships>  </Bombardment_Required_Orbital_Ships>
+		<Bombardment_Projectile> Proj_Empire_Bombardment_Turbolaser </Bombardment_Projectile>
+		<Bombardment_Number_Of_Salvos> 2 </Bombardment_Number_Of_Salvos>
+		<Bombardment_Shots_Per_Salvo> 4 </Bombardment_Shots_Per_Salvo>
+		<Bombardment_Shot_Delay> 0.5 </Bombardment_Shot_Delay>
+		<Bombardment_Salvo_Delay> 2.15 </Bombardment_Salvo_Delay>
+		<Bombardment_Initial_Delay> 7.5 </Bombardment_Initial_Delay>
+
+		<Land_Mode_Selection_Blob_Material_Name>Selection_Imperial_Remnant_Thrawn_Land</Land_Mode_Selection_Blob_Material_Name>
+		<Space_Mode_Selection_Blob_Material_Name>Selection_Imperial_Remnant_Thrawn_Space</Space_Mode_Selection_Blob_Material_Name>
+		<Land_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Imperial_Remnant_Thrawn_Land</Land_Mode_Garrison_Selection_Blob_Material_Name>
+		<Space_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Imperial_Remnant_Thrawn_Space</Space_Mode_Garrison_Selection_Blob_Material_Name>
+        <Selection_Blob_RGBA>0,255,0,255</Selection_Blob_RGBA>
+		
+		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
+		<Space_Skirmish_AI_Default_Forces> 
+			
+		</Space_Skirmish_AI_Default_Forces>
+
+		<Land_Skirmish_Unit_Buy_Credits> 50000 </Land_Skirmish_Unit_Buy_Credits>
+		<Land_Skirmish_AI_Default_Forces> 
+			
+		</Land_Skirmish_AI_Default_Forces>
+
+		<Land_Skirmish_Unit_Cap_By_Player_Count>
+			0,10,
+			1,10,
+			8,5,
+		</Land_Skirmish_Unit_Cap_By_Player_Count>
+
+		<Debug_Ground_Structures>
+			
+		</Debug_Ground_Structures>
+
+        <Superweapon_Win_Movie />
+        <Generic_Win_Movie />
+        <Finale_Movie />
+        <Victory_Text>TEXT_REMNANT_THRAWN_VICTORY</Victory_Text>
+        <Defeat_Text>TEXT_REMNANT_THRAWN_DEFEAT</Defeat_Text>
+
+        <Space_Win_Image>i_es_win.tga</Space_Win_Image>
+        <Space_Lose_Image>i_es_lose.tga</Space_Lose_Image>
+        <Land_Win_Image>i_el_win.tga</Land_Win_Image>
+        <Land_Lose_Image>i_el_lose.tga</Land_Lose_Image>
+
+		<!-- This enables the galactic victory condition: "Win by capturing Coruscant and eliminating Emperor Palpatine" -->
+		<Home_Planet>Starkiller</Home_Planet>
+		<Faction_Leader>Rae_Sloane</Faction_Leader>
+		<Faction_Leader_Company>Rae_Sloane_Team</Faction_Leader_Company>
+
+        <!-- MusicEvents -->
+		<Strategic_Map_Music_Event> Galactic_Map_Underworld_Music_Event </Strategic_Map_Music_Event>
+		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
+
+		<!-- Allow special weapon firing in tactical maps that have no parent galactic mode -->
+		<Standalone_Space_Maps_Special_Weapon_A> Ground_Empire_Hypervelocity_Gun </Standalone_Space_Maps_Special_Weapon_A>
+		<Standalone_Space_Maps_Special_Weapon_B> </Standalone_Space_Maps_Special_Weapon_B>
+
+
+		<!-- Currently not used by Empire, but data is stubbed in for future use -->
+		<Land_Area_Effect_Range_Overlay_Material_Name> Empire_Land_Area_Effect_Range_Overlay </Land_Area_Effect_Range_Overlay_Material_Name> <!-- In ShadowBlobMaterials.xml -->
+		<Land_Area_Effect_Range_Overlay_RGBA> 128, 255, 128, 128 </Land_Area_Effect_Range_Overlay_RGBA>
+		<Land_Area_Effect_Range_Overlay_Scale_Factor> 1.20 </Land_Area_Effect_Range_Overlay_Scale_Factor> <!-- Compensate for ring ednge not being full bounds of texture size -->
+
+		<!-- Overlay ring used by Boba Fett when targeting with his "jet pack burst" jump ability, this is the ring around Boba to show click target terrain range -->
+		<Land_Ability_Targeting_Range_Overlay_Material_Name> Empire_Land_Ability_Targeting_Range_Overlay </Land_Ability_Targeting_Range_Overlay_Material_Name>	<!-- In ShadowBlobMaterials.xml -->
+		<Land_Ability_Targeting_Range_Overlay_RGBA> 255, 255, 64, 128 </Land_Ability_Targeting_Range_Overlay_RGBA>
+		<Land_Ability_Targeting_Range_Overlay_Scale_Factor> 1.20 </Land_Ability_Targeting_Range_Overlay_Scale_Factor> <!-- Compensate for ring ednge not being full bounds of texture size -->
+
+
+		<!-- ============================================== -->
+		<!-- EMPIRE DROID ADVISOR TEXT		                -->
+		<!-- ============================================== -->
+
+		<Galactic_Advisor_Hints>
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_01,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_02,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_03,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_04,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_05,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_06,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_07,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_08,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_09,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_10,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_11,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_12,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_13,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_14,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_15,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_16,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_17,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_18,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_19,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_20,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_21,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_24
+		</Galactic_Advisor_Hints>
+
+		<Space_Advisor_Hints>
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_01,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_02,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_03,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_04,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_05,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_06,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_07,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_08,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_09,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_10,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_11,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_13
+		</Space_Advisor_Hints>
+
+		<Land_Advisor_Hints>
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_00,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_01,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_02,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_03,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_04,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_05,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_06,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_07,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_08,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_09,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_10,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_11,
+				TEXT_DROID_ADVISOR_LAND_12,
+				TEXT_DROID_ADVISOR_LAND_13,
+				TEXT_DROID_ADVISOR_LAND_14
+		</Land_Advisor_Hints>
+
+		<!-- End Droid Advisor Speech/Text -->
+
+		<Allies />
+		<Enemies>
+		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Trade_Federation, Commerce_Guild, Techno_Union, Banking_Clan, Mandalorians, 
+		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn, Hutt_Cartel, Black_Sun,
+		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order, Chiss_Ascendancy
+		</Enemies>
+		
+		<Can_Control_Planets>true</Can_Control_Planets>
+
+		<Garrison_Reinforcement_Delay_Seconds>20.0</Garrison_Reinforcement_Delay_Seconds>
+		<Multiplayer_Beacon_Type>E_Multiplayer_Beacon</Multiplayer_Beacon_Type>
+		<Default_Transmission_Message>TEXT_ENCYCLOPEDIA_HOLOCRON_UPDATED</Default_Transmission_Message>
+		<SFXEvent_HUD_Advisor_Message>GUI_Droid_Hint_SFX</SFXEvent_HUD_Advisor_Message>
+		<SFXEvent_HUD_Advisor_Urgent>GUI_R2_Urgent_Hint_SFX</SFXEvent_HUD_Advisor_Urgent>
+		<SFXEvent_HUD_Advisor_Hint>GUI_Droid_Hint_SFX</SFXEvent_HUD_Advisor_Hint>
+		
+		<Multiplayer_Campaign_Heroes>
+			
+		</Multiplayer_Campaign_Heroes>
+
+		<Multiplayer_Map_Preview_Icon>I_MULTIPLAY_REMNANT_THRAWN.TGA</Multiplayer_Map_Preview_Icon>
+
+        <Tech_Level_Icon_Name> i_button_e_tech_upgrade_ </Tech_Level_Icon_Name>
+
+      <Alternate_Icon_Prefix> e_ </Alternate_Icon_Prefix>
+
+		<Automatic_Planetary_Corruption_Upgrade_Type> 
+			Generic_Intimidation_Corruption_Upgrade,
+			Generic_Piracy_Corruption_Upgrade,
+			Generic_Kidnapping_Corruption_Upgrade,
+			Generic_Racketeering_Corruption_Upgrade,
+			Generic_Corrupt_Militia_Corruption_Upgrade,
+			Generic_Bribery_Corruption_Upgrade,
+			Generic_Black_Market_Corruption_Upgrade,
+			Generic_Bonded_Citizens_Corruption_Upgrade,
+		</Automatic_Planetary_Corruption_Upgrade_Type>
+
+	</Faction>
+	
+	
+	
+	
+	<Faction Name="Chiss_Ascendancy">
+
+		<Is_Debug_Switchable_To> Yes </Is_Debug_Switchable_To>
+		<Create_Player_In_Multiplayer_Games> No </Create_Player_In_Multiplayer_Games>
+
+		<Text_ID> TEXT_FACTION_CHISS_ASCENDANCY </Text_ID>
+		<Icon_Name> I_ENCYCLOPEDIA_CHISS_ASCENDANCY_SYMBOL.tga </Icon_Name>
+		<Alternate_Icon_Name> I_ENCYCLOPEDIA_CHISS_ASCENDANCY_SYMBOL.tga </Alternate_Icon_Name>
+		<Ground_Base_Icon_Name> groundbase_icon.tga </Ground_Base_Icon_Name>
+		<Star_Base_Icon_Name> spacestation_icon.tga </Star_Base_Icon_Name>
+		<Ground_Transport_Icon_Name> i_button_Elite_Pirate.tga </Ground_Transport_Icon_Name>
+		<Fleet_Icon_Name> i_icon_fleet.tga </Fleet_Icon_Name>
+		<Ship_Icon_Name> g_fleet.tga </Ship_Icon_Name>
+		<Squadron_Icon_Name> g_squad.tga </Squadron_Icon_Name>
+		<Color> 55, 72, 110, 255 </Color>
+		<No_Colorization_Color> 55, 72, 110, 255 </No_Colorization_Color>
+		<Display_Font_Color> 55, 72, 110, 255 </Display_Font_Color>
+		<Big_Fleet_Color> 55, 72, 110, 255 </Big_Fleet_Color>
+		<Credits_Accumulation_Factor> 0.85 </Credits_Accumulation_Factor>
+		<Planet_Icon_Scale> 10.0 </Planet_Icon_Scale>
+		<Planet_Icon_Offset> 7.0, 10.0, -1.1 </Planet_Icon_Offset>
+		<Is_Playable>True</Is_Playable>
+		<Primary_Enemy> New_Republic </Primary_Enemy>
+		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
+		<Is_Neutral> No </Is_Neutral>
+		<Force_Alignment>Dark</Force_Alignment>
+		<Minimum_Visible_Base_Level>1</Minimum_Visible_Base_Level>
+		<Basic_AI>BasicEmpire</Basic_AI>
+		<Faction_Super_Weapon />
+		<Skirmish_Land_Bomber>  </Skirmish_Land_Bomber>
+		<Space_Tactical_Unit_Cap>350</Space_Tactical_Unit_Cap>
+		<Maintenance_Cost>0.25</Maintenance_Cost>
+		
+		<!-- Gameplay effects of planetary corruption on this faction. -->
+		<Benefits_From_Corruption> No </Benefits_From_Corruption>
+		<Corruption_Galactic_Production_Time_Multipliers> 1.0, .95 </Corruption_Galactic_Production_Time_Multipliers>
+		<Corruption_Galactic_Production_Price_Multipliers> 1.0, .9 </Corruption_Galactic_Production_Price_Multipliers>
+		<Corruption_Tactical_Production_Time_Multipliers> 1.0, 1.0 </Corruption_Tactical_Production_Time_Multipliers>
+		<Corruption_Tactical_Production_Price_Multipliers> 1.0, 1.0 </Corruption_Tactical_Production_Price_Multipliers>
+		<Corruption_Tactical_Build_Pad_Time_Multipliers> 1.0, 1.0 </Corruption_Tactical_Build_Pad_Time_Multipliers>
+		<Corruption_Tactical_Build_Pad_Price_Multipliers> 1.0, 1.0 </Corruption_Tactical_Build_Pad_Price_Multipliers>
+		<Easily_Bribed> Yes </Easily_Bribed>
+
+		<Scatters_From_Crushers> false </Scatters_From_Crushers>
+		
+		<Infantry_Icon_Name>i_button_Elite_Pirate.tga</Infantry_Icon_Name>
+		<Vehicle_Icon_Name>i_button_New_Pirate_skiff.tga</Vehicle_Icon_Name>
+		<Carrier_Icon_Name>i_e_carrier.tga</Carrier_Icon_Name>
+		<Frigate_Icon_Name>i_button_hutt_cruiser.tga</Frigate_Icon_Name>
+		<Corvette_Icon_Name>i_e_corvette.tga</Corvette_Icon_Name>
+		<Fighter_Icon_Name>i_button_tie_fighter.tga</Fighter_Icon_Name>
+        <Tech_Tree_Dialog_Name>IDD_TECH_TREE_EMPIRE</Tech_Tree_Dialog_Name>
+        <Helper_Icon_Name>i_empire_help_droid.tga</Helper_Icon_Name>
+
+		<Space_Retreat_Countdown_Seconds> 10.99 </Space_Retreat_Countdown_Seconds> 
+		<Space_Retreat_Pursue_Max_Speed_Mod_Factor> 3.0 </Space_Retreat_Pursue_Max_Speed_Mod_Factor> 
+		<Space_Retreat_Units_Damaged_Mod_Factor> 4.0 </Space_Retreat_Units_Damaged_Mod_Factor> 
+		<Space_Retreat_Flight_Increment> 500.0 </Space_Retreat_Flight_Increment>
+		<Space_Retreat_Unit_Increment_Wait_Frames> 1 </Space_Retreat_Unit_Increment_Wait_Frames>
+		<Space_Retreat_Off_Map_Dest_Pos> 12000.0, 12000.0, 0.0 </Space_Retreat_Off_Map_Dest_Pos>	<!-- WARNING: For some reason, non-0.0 Z crashes the game -->
+		<Space_Retreat_Countdown_Color_RGBA> 55, 72, 110, 255 </Space_Retreat_Countdown_Color_RGBA>
+		<Space_Retreat_Countdown_Text_ID> TEXT_RETREAT_SPACE_CHISS_ASCENDANCY_COUNTDOWN </Space_Retreat_Countdown_Text_ID>
+
+		<Space_Retreat_Begin_SFXEvent> EHD_Retreat_Started_Space </Space_Retreat_Begin_SFXEvent>
+		<Space_Retreat_Cancel_SFXEvent> EHD_Retreat_Cancelled </Space_Retreat_Cancel_SFXEvent>
+		<Space_Retreat_Not_Allowed_SFXEvent> EHD_Retreat_Not_Allowed </Space_Retreat_Not_Allowed_SFXEvent>
+		<Space_Retreat_Not_Allowed_Reason_1_SFXEvent> EHD_Retreat_Interdictor </Space_Retreat_Not_Allowed_Reason_1_SFXEvent>			<!-- Reason 1: Gravity Well -->                 
+		<Space_Retreat_Not_Allowed_Reason_2_SFXEvent> Unit_Retreat_Tarkin </Space_Retreat_Not_Allowed_Reason_2_SFXEvent>                               <!-- Reason 2: Friendly Hero Preventing -->     
+		<Space_Retreat_Not_Allowed_Reason_3_SFXEvent> </Space_Retreat_Not_Allowed_Reason_3_SFXEvent>                               <!-- Reason 3: Tactical Superweaper Present --> 
+
+		<Space_Surrender_SFXEvent> EHD_Retreat_Started_Space </Space_Surrender_SFXEvent>
+
+		<Land_Retreat_Countdown_Seconds> 10.99 </Land_Retreat_Countdown_Seconds>  
+		<Land_Retreat_Pursue_Max_Speed_Mod_Factor> 2.0 </Land_Retreat_Pursue_Max_Speed_Mod_Factor> 
+		<Land_Retreat_Units_Damaged_Mod_Factor> 2.0 </Land_Retreat_Units_Damaged_Mod_Factor> 
+		<Land_Retreat_Countdown_Color_RGBA> 55, 72, 110, 255 </Land_Retreat_Countdown_Color_RGBA>
+		<Land_Retreat_Countdown_Text_ID> TEXT_RETREAT_LAND_CHISS_ASCENDANCY_COUNTDOWN </Land_Retreat_Countdown_Text_ID>
+
+		<Land_Retreat_Begin_SFXEvent> EHD_Retreat_Started_Land </Land_Retreat_Begin_SFXEvent>
+		<Land_Retreat_Cancel_SFXEvent> EHD_Retreat_Cancelled </Land_Retreat_Cancel_SFXEvent>
+		<Land_Retreat_Not_Allowed_SFXEvent> EHD_Retreat_Not_Allowed </Land_Retreat_Not_Allowed_SFXEvent>
+		<Land_Retreat_Not_Allowed_Reason_1_SFXEvent> </Land_Retreat_Not_Allowed_Reason_1_SFXEvent>				<!-- Reason 1: Gravity Well -->                 
+		<Land_Retreat_Not_Allowed_Reason_2_SFXEvent> </Land_Retreat_Not_Allowed_Reason_2_SFXEvent>            <!-- Reason 2: Friendly Hero Preventing -->     
+		<Land_Retreat_Not_Allowed_Reason_3_SFXEvent> </Land_Retreat_Not_Allowed_Reason_3_SFXEvent>            <!-- Reason 3: Tactical Superweaper Present --> 
+
+		<Land_Surrender_SFXEvent> EHD_Retreat_Started_Land </Land_Surrender_SFXEvent>
+
+		<!-- <Reinforcements_Selection_SFXEvent> EHD_Choose_Reinforcements </Reinforcements_Selection_SFXEvent> -->
+		<!-- <Reinforcements_Pick_Landing_Zone_SFXEvent> EHD_Choose_Landing </Reinforcements_Pick_Landing_Zone_SFXEvent> -->
+		<!-- <Reinforcements_Enroute_SFXEvent> EHD_Reinforcements_En_Route </Reinforcements_Enroute_SFXEvent> -->
+		<!-- <Reinforcements_Cancelled_SFXEvent> EHD_Reinforcements_Cancelled </Reinforcements_Cancelled_SFXEvent> -->
+		<Reinforcements_Selection_SFXEvent> EHD_Choose_Reinforcements </Reinforcements_Selection_SFXEvent>
+		<Reinforcements_Pick_Landing_Zone_SFXEvent> </Reinforcements_Pick_Landing_Zone_SFXEvent>
+		<Reinforcements_Enroute_SFXEvent> EHD_Reinforcements_En_Route </Reinforcements_Enroute_SFXEvent>
+		<Reinforcements_Cancelled_SFXEvent> EHD_Reinforcements_Cancelled </Reinforcements_Cancelled_SFXEvent>
+
+		<Reinforcements_Requesting_SFXEvent> EHD_Request_Assistance </Reinforcements_Requesting_SFXEvent>
+		<Reinforcements_Ready_SFXEvent> EHD_Reinforcements_Available </Reinforcements_Ready_SFXEvent>
+
+		<Reinforcements_Shadow_Blob_Material_Name> Reinforcement_Overlay_Empire </Reinforcements_Shadow_Blob_Material_Name>
+
+		<Bombing_Run_Shadow_Blob_Material_Name> Bombing_Run_Empire </Bombing_Run_Shadow_Blob_Material_Name>
+		<Bombing_Run_Blob_Size> 100.0 </Bombing_Run_Blob_Size>
+
+		<!-- BOMBARDMENT DATA -->
+		<Bombardment_Shadow_Blob_Material_Name> Bombardment_First_Order </Bombardment_Shadow_Blob_Material_Name>
+		<Bombardment_Blob_Size> 200.0 </Bombardment_Blob_Size>
+		<Bombardment_Required_Orbital_Ships>  </Bombardment_Required_Orbital_Ships>
+		<Bombardment_Projectile> Proj_Empire_Bombardment_Turbolaser </Bombardment_Projectile>
+		<Bombardment_Number_Of_Salvos> 2 </Bombardment_Number_Of_Salvos>
+		<Bombardment_Shots_Per_Salvo> 4 </Bombardment_Shots_Per_Salvo>
+		<Bombardment_Shot_Delay> 0.5 </Bombardment_Shot_Delay>
+		<Bombardment_Salvo_Delay> 2.15 </Bombardment_Salvo_Delay>
+		<Bombardment_Initial_Delay> 7.5 </Bombardment_Initial_Delay>
+
+		<Land_Mode_Selection_Blob_Material_Name>Selection_Chiss_Ascendancy_Land</Land_Mode_Selection_Blob_Material_Name>
+		<Space_Mode_Selection_Blob_Material_Name>Selection_Chiss_Ascendancy_Space</Space_Mode_Selection_Blob_Material_Name>
+		<Land_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Chiss_Ascendancy_Land</Land_Mode_Garrison_Selection_Blob_Material_Name>
+		<Space_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Chiss_Ascendancy_Space</Space_Mode_Garrison_Selection_Blob_Material_Name>
+        <Selection_Blob_RGBA>0,255,0,255</Selection_Blob_RGBA>
+		
+		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
+		<Space_Skirmish_AI_Default_Forces> 
+			
+		</Space_Skirmish_AI_Default_Forces>
+
+		<Land_Skirmish_Unit_Buy_Credits> 50000 </Land_Skirmish_Unit_Buy_Credits>
+		<Land_Skirmish_AI_Default_Forces> 
+			
+		</Land_Skirmish_AI_Default_Forces>
+
+		<Land_Skirmish_Unit_Cap_By_Player_Count>
+			0,10,
+			1,10,
+			8,5,
+		</Land_Skirmish_Unit_Cap_By_Player_Count>
+
+		<Debug_Ground_Structures>
+			
+		</Debug_Ground_Structures>
+
+        <Superweapon_Win_Movie />
+        <Generic_Win_Movie />
+        <Finale_Movie />
+        <Victory_Text>TEXT_CHISS_ASCENDANCY_VICTORY</Victory_Text>
+        <Defeat_Text>TEXT_CHISS_ASCENDANCY_DEFEAT</Defeat_Text>
+
+        <Space_Win_Image>i_es_win.tga</Space_Win_Image>
+        <Space_Lose_Image>i_es_lose.tga</Space_Lose_Image>
+        <Land_Win_Image>i_el_win.tga</Land_Win_Image>
+        <Land_Lose_Image>i_el_lose.tga</Land_Lose_Image>
+
+		<!-- This enables the galactic victory condition: "Win by capturing Coruscant and eliminating Emperor Palpatine" -->
+		<Home_Planet>Csilla</Home_Planet>
+		<Faction_Leader>Chiss_Ascendancy_Government</Faction_Leader>
+		<Faction_Leader_Company>Chiss_Ascendancy_Government_Team</Faction_Leader_Company>
+
+        <!-- MusicEvents -->
+		<Strategic_Map_Music_Event> Galactic_Map_Underworld_Music_Event </Strategic_Map_Music_Event>
+		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
+
+		<!-- Allow special weapon firing in tactical maps that have no parent galactic mode -->
+		<Standalone_Space_Maps_Special_Weapon_A> Ground_Empire_Hypervelocity_Gun </Standalone_Space_Maps_Special_Weapon_A>
+		<Standalone_Space_Maps_Special_Weapon_B> </Standalone_Space_Maps_Special_Weapon_B>
+
+
+		<!-- Currently not used by Empire, but data is stubbed in for future use -->
+		<Land_Area_Effect_Range_Overlay_Material_Name> Empire_Land_Area_Effect_Range_Overlay </Land_Area_Effect_Range_Overlay_Material_Name> <!-- In ShadowBlobMaterials.xml -->
+		<Land_Area_Effect_Range_Overlay_RGBA> 128, 255, 128, 128 </Land_Area_Effect_Range_Overlay_RGBA>
+		<Land_Area_Effect_Range_Overlay_Scale_Factor> 1.20 </Land_Area_Effect_Range_Overlay_Scale_Factor> <!-- Compensate for ring ednge not being full bounds of texture size -->
+
+		<!-- Overlay ring used by Boba Fett when targeting with his "jet pack burst" jump ability, this is the ring around Boba to show click target terrain range -->
+		<Land_Ability_Targeting_Range_Overlay_Material_Name> Empire_Land_Ability_Targeting_Range_Overlay </Land_Ability_Targeting_Range_Overlay_Material_Name>	<!-- In ShadowBlobMaterials.xml -->
+		<Land_Ability_Targeting_Range_Overlay_RGBA> 255, 255, 64, 128 </Land_Ability_Targeting_Range_Overlay_RGBA>
+		<Land_Ability_Targeting_Range_Overlay_Scale_Factor> 1.20 </Land_Ability_Targeting_Range_Overlay_Scale_Factor> <!-- Compensate for ring ednge not being full bounds of texture size -->
+
+
+		<!-- ============================================== -->
+		<!-- EMPIRE DROID ADVISOR TEXT		                -->
+		<!-- ============================================== -->
+
+		<Galactic_Advisor_Hints>
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_01,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_02,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_03,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_04,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_05,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_06,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_07,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_08,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_09,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_10,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_11,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_12,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_13,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_14,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_15,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_16,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_17,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_18,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_19,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_20,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_21,
+				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_24
+		</Galactic_Advisor_Hints>
+
+		<Space_Advisor_Hints>
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_01,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_02,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_03,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_04,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_05,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_06,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_07,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_08,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_09,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_10,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_11,
+				TEXT_DROID_ADVISOR_EMPIRE_SPACE_13
+		</Space_Advisor_Hints>
+
+		<Land_Advisor_Hints>
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_00,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_01,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_02,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_03,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_04,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_05,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_06,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_07,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_08,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_09,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_10,
+				TEXT_DROID_ADVISOR_EMPIRE_LAND_11,
+				TEXT_DROID_ADVISOR_LAND_12,
+				TEXT_DROID_ADVISOR_LAND_13,
+				TEXT_DROID_ADVISOR_LAND_14
+		</Land_Advisor_Hints>
+
+		<!-- End Droid Advisor Speech/Text -->
+
+		<Allies />
+		<Enemies>
+		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Trade_Federation, Commerce_Guild, Techno_Union, Banking_Clan, Mandalorians, 
+		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn, Hutt_Cartel, Black_Sun,
+		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, Imperial_Remnant_Thrawn, First_Order, 
+		</Enemies>
+		
+		<Can_Control_Planets>true</Can_Control_Planets>
+
+		<Garrison_Reinforcement_Delay_Seconds>20.0</Garrison_Reinforcement_Delay_Seconds>
+		<Multiplayer_Beacon_Type>E_Multiplayer_Beacon</Multiplayer_Beacon_Type>
+		<Default_Transmission_Message>TEXT_ENCYCLOPEDIA_HOLOCRON_UPDATED</Default_Transmission_Message>
+		<SFXEvent_HUD_Advisor_Message>GUI_Droid_Hint_SFX</SFXEvent_HUD_Advisor_Message>
+		<SFXEvent_HUD_Advisor_Urgent>GUI_R2_Urgent_Hint_SFX</SFXEvent_HUD_Advisor_Urgent>
+		<SFXEvent_HUD_Advisor_Hint>GUI_Droid_Hint_SFX</SFXEvent_HUD_Advisor_Hint>
+		
+		<Multiplayer_Campaign_Heroes>
+			
+		</Multiplayer_Campaign_Heroes>
+
+		<Multiplayer_Map_Preview_Icon>I_MULTIPLAY_CHISS_ASCENDANCY.TGA</Multiplayer_Map_Preview_Icon>
+
+        <Tech_Level_Icon_Name> i_button_e_tech_upgrade_ </Tech_Level_Icon_Name>
+
+      <Alternate_Icon_Prefix> e_ </Alternate_Icon_Prefix>
+
+		<Automatic_Planetary_Corruption_Upgrade_Type> 
+			Generic_Intimidation_Corruption_Upgrade,
+			Generic_Piracy_Corruption_Upgrade,
+			Generic_Kidnapping_Corruption_Upgrade,
+			Generic_Racketeering_Corruption_Upgrade,
+			Generic_Corrupt_Militia_Corruption_Upgrade,
+			Generic_Bribery_Corruption_Upgrade,
+			Generic_Black_Market_Corruption_Upgrade,
+			Generic_Bonded_Citizens_Corruption_Upgrade,
+		</Automatic_Planetary_Corruption_Upgrade_Type>
+
+	</Faction>
+	
+	
+	
+	
+	<!-- Side factions -->
+	
+	
+	
 	
 	
 	
