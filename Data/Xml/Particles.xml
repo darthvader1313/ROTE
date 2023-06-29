@@ -437,9 +437,9 @@
 		<Particle_Lifetime_Frames>280</Particle_Lifetime_Frames>
 	</Particle>
 	
-	<Particle Name="Hardpoint_Explosion_Space">
-		<Land_Model_Name>p_explosion_hardpoint.alo</Land_Model_Name>
-		<Space_Model_Name>p_explosion_hardpoint.alo</Space_Model_Name>
+	<Particle Name="Hardpoint_Starbase_Explosion_Space">
+		<Land_Model_Name>p_explosion_hardpoint_starbase.alo</Land_Model_Name>
+		<Space_Model_Name>p_explosion_hardpoint_starbase.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Decoration>Yes</Is_Decoration>
 		<Behavior>PARTICLE</Behavior>
