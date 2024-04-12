@@ -223,7 +223,7 @@
 	<Min_Galactic_Zoom_Speed>400</Min_Galactic_Zoom_Speed>
 	<Max_Galactic_Zoom_Speed>3000</Max_Galactic_Zoom_Speed>
 	<Galactic_Zoom_Acceleration>3000</Galactic_Zoom_Acceleration>
-	<Galactic_Zoom_Light_Level>0.5</Galactic_Zoom_Light_Level>
+	<Galactic_Zoom_Light_Level>0.9</Galactic_Zoom_Light_Level>
 	<Galactic_Zoom_In_Light_Angle>0 80 5.5</Galactic_Zoom_In_Light_Angle>
 	<Galactic_Zoom_Out_Light_Angle>0 80 5.5</Galactic_Zoom_Out_Light_Angle>
 	<Galactic_Zoom_In_Station_Offset>-2.51 -9.11 14.93</Galactic_Zoom_In_Station_Offset>

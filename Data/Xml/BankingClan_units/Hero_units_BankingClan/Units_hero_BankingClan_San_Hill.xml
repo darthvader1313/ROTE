@@ -1,0 +1,259 @@
+<?xml version="1.0"?>
+<HERO_SAN_HILL>
+	
+	
+<HeroUnit Name="San_Hill">
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
+		<Text_ID>TEXT_HERO_SAN_HILL</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_SAN_HILL TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MAJOR </Encyclopedia_Unit_Class>
+		
+		<Land_Model_Name>NI_Geonosian.ALO</Land_Model_Name>
+		<Icon_Name>i_button_San_Hill.tga</Icon_Name>
+
+		<GalacticBehavior> SELECTABLE </GalacticBehavior>
+		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, IMPOSING_PRESENCE, HOLSTER_WEAPON, GARRISON_UNIT </LandBehavior>
+		
+		<Garrison_Category> Infantry </Garrison_Category>
+		
+		
+
+		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<CanCellStack>yes</CanCellStack>
+		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
+		<Max_Speed>1</Max_Speed>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+		<Custom_Soft_Footprint_Radius> 6.5 </Custom_Soft_Footprint_Radius>
+		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<FormationSpacing> .5 </FormationSpacing>
+		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+		<Min_Speed> .1 </Min_Speed>
+		<OverrideAcceleration> .1 </OverrideAcceleration>
+		<OverrideDeceleration> .25 </OverrideDeceleration>
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Select_Box_Scale>27</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Selection_Blob_Material_Name>Selection_Banking_Clan_Hero</Selection_Blob_Material_Name>
+        <Highlight_Blob_Material_Name>Highlight_Banking_Clan_Hero</Highlight_Blob_Material_Name>
+		
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.75</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Type>Walk</Type>
+		<Affiliation>Banking_Clan</Affiliation>
+		<!-- If you want heroes to contribute to political control, use Political_Control_Bonus_Ability -->
+		<Political_Faction>Banking_Clan</Political_Faction>
+		<IsBuildable>No</IsBuildable>
+		<Spawn_Planet>Mustafar</Spawn_Planet>
+		<Size_Value>75</Size_Value>
+
+		<Armor_Type> Armor_Hero </Armor_Type>
+		<Damage>100</Damage>
+		<Autoresolve_Health>800</Autoresolve_Health>
+		<Tactical_Health>500</Tactical_Health>
+
+		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
+		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
+		
+		<Projectile_Types>Proj_Geonosian_Sonic_Blaster</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>2</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+
+		<Targeting_Fire_Inaccuracy> Infantry, 2.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 8.0 </Targeting_Fire_Inaccuracy>
+		
+		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+		<Targeting_Max_Attack_Distance>120.0</Targeting_Max_Attack_Distance>
+
+		<Ranged_Target_Z_Adjust>16.0</Ranged_Target_Z_Adjust>
+
+		<SFXEvent_Select>Ambient_Geonosian_Random_Chatter</SFXEvent_Select>
+		<SFXEvent_Move>Ambient_Geonosian_Random_Chatter</SFXEvent_Move>
+		<SFXEvent_Attack>Ambient_Geonosian_Random_Chatter</SFXEvent_Attack>
+		<SFXEvent_Guard>Ambient_Geonosian_Random_Chatter</SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Ambient_Geonosian_Random_Chatter</SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Attack> Ambient_Geonosian_Random_Chatter</SFXEvent_Assist_Attack>
+
+		<SFXEvent_Fire>Unit_Geonosian_Fire</SFXEvent_Fire>
+		<SFXEvent_Engine_Idle_Loop> Unit_Geonosian_Idle_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Geonosian_Moving_Loop </SFXEvent_Engine_Moving_Loop>
+		<Death_SFXEvent_Start_Die> Unit_Geonosian_Death </Death_SFXEvent_Start_Die>
+
+		<Stealth_Capable>No</Stealth_Capable>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<CategoryMask> LandHero </CategoryMask>
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+		<MovementClass>Infantry</MovementClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<AI_Combat_Power>600</AI_Combat_Power>
+
+		<Idle_Chase_Range>100.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Neutralization_Cost>1000.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>No</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+
+		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
+		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
+
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+
+		<!-- Controls the range within which Palpatine has an effect on other units' animations -->
+		<Presence_Range>100.0</Presence_Range>
+	
+		<Target_Stealth_Units>Yes</Target_Stealth_Units>
+		
+		<Abilities SubObjectList="Yes">			
+
+			<Combat_Bonus_Ability Name="Emperor_Space_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>Capital | Corvette | Frigate | Fighter</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.25</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.25</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+			<Combat_Bonus_Ability Name="Emperor_Land_Combat_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Unit_Strength_Category>Vehicle | Infantry | Air</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Vehicle | Infantry | Air</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.25</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+			<Reduce_Production_Price_Ability Name="Emperor_Reduce_Production_Price">
+				<Unit_Strength_Category />
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Price_Reduction_Percentage>0.25</Price_Reduction_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Reduce_Production_Price_Ability>
+
+			<!-- Area Effect Force Corruption: Infantry Pain/Damage -->
+			<Force_Healing_Ability Name="Emperor_AE_Force_Corruption">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Heal_Range>70.0</Heal_Range>
+				<Heal_Amount>-3.0</Heal_Amount> <!-- Negative damage means inflict pain on others -->
+				<Heal_Interval_In_Secs>3.0</Heal_Interval_In_Secs>
+				<Applicable_Unit_Categories> Infantry </Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				
+				<Excluded_Unit_Types>
+					Destroyer_Droid,
+					Dark_Trooper_PhaseI,
+					Dark_Trooper_PhaseII,
+					Dark_Trooper_PhaseIII,
+					IG-88, Droid_R2D2,
+					Droid_C3P0,
+					Underworld_Mobile_Defense_Unit,
+					Empire_Mobile_Defense_Unit,
+					Rebel_Mobile_Defense_Unit
+				</Excluded_Unit_Types>
+				
+				<SFXEvent_Target_Affected>Unit_Force_Corruption</SFXEvent_Target_Affected>	<!-- STUB for Frank -->
+				<Target_Particle_Effect>Corrupt_Enemy</Target_Particle_Effect>	
+				<Target_Particle_Bone_Name>B_HEAD</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Smooth_Pulse</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>0.1, 0.1, 0.1</Target_Light_Effect_Color>	
+				<Target_Light_Effect_Color2 />
+				<Target_Light_Effect_Duration>1.0</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+			
+			<Remove_Corruption_Ability Name="Emperor_Remove_Corruption">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Corruption_Removal_Cost_Multiplier>1</Corruption_Removal_Cost_Multiplier> <!--1.2 means 20% more expensive than base cost, 0.8 means 20% cheaper-->				<Activation_Style>Ground_Activated</Activation_Style>
+				<Corruption_Removal_Time_In_Secs>3</Corruption_Removal_Time_In_Secs> <!-- Time it takes to remove corruption-->
+				<Activation_Style>Ground_Activated</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<SFXEvent_Activate>EHD_Removing_Corruption</SFXEvent_Activate>
+			</Remove_Corruption_Ability>
+			
+		</Abilities>
+	</HeroUnit>
+	
+	<HeroCompany Name="San_Hill_Team">
+		<Text_ID>TEXT_HERO_SAN_HILL</Text_ID>
+		<Icon_Name>i_button_San_Hill.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>100</Damage>
+		<Affiliation>Banking_Clan</Affiliation>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Combat_Power_Value>0</Combat_Power_Value>
+		<Tech_Level>1</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Required_Planets></Required_Planets>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
+		<Company_Units>San_Hill</Company_Units>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
+		<Available_In_Skirmish>yes</Available_In_Skirmish>
+		<Can_Be_Only_One>true</Can_Be_Only_One>
+		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>		
+		<SFXEvent_Build_Complete>Unit_Respawn_Emperor</SFXEvent_Build_Complete>
+		<SFXEvent_Hero_Respawned>Unit_Respawn_Emperor</SFXEvent_Hero_Respawned>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Emperor</SFXEvent_Fleet_Move>
+
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
+		<Tactical_Build_Cost_Multiplayer>5800</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>45</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		
+		<Encyclopedia_Text>TEXT_TOOLTIP_SAN_HILL</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MAJOR </Encyclopedia_Unit_Class>
+		<CategoryMask>LandHero</CategoryMask>
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+		<Population_Value>1</Population_Value>
+	</HeroCompany>
+	
+	
+	
+</HERO_SAN_HILL>

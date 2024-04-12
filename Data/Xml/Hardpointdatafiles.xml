@@ -5,7 +5,7 @@
 	<File>CIN_HardPoints.xml</File>
 	<File>HardPoints_Underworld.xml</File>
 	
-	<File>Starbases_Factions/HardPoints_Early_Empire_Starbase.xml</File>
-	
+	<File>Starbases_Factions/HardPoints_CIS_Starbase.xml</File>
+	<File>Early_Empire_units\Hardpoints_Early_Empire\HardPoints_empire_Imperator.xml</File>
 	
 </Hard_Point_Files>

@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<Campaigns>
+
+
+
+<!-- ************************************************************** -->
+<!-- **************** SANDBOX DUMMY CAMPAIGN ***************** -->
+<!-- ************************************************************** -->
+
+
+	
+    <Campaign Name="Birth_of_the_Empire">
+
+		<Campaign_Set> Birth_of_the_Empire </Campaign_Set>
+		<Sort_Order>0</Sort_Order>
+
+		<Text_ID> BIRTH_OF_THE_EMPIRE </Text_ID>
+		<Description_Text />
+
+		<Starting_Active_Player> Hostile </Starting_Active_Player>
+		
+    </Campaign>	
+	
+	<Campaign Name="Flame_of_the_Rebellion">
+
+		<Campaign_Set> Flame_of_the_Rebellion </Campaign_Set>
+		<Sort_Order>9</Sort_Order>
+
+		<Text_ID> FLAME_OF_THE_REBELLION</Text_ID>
+		<Description_Text />
+
+		<Starting_Active_Player> Hostile </Starting_Active_Player>
+		
+    </Campaign>	
+	
+	<Campaign Name="Awakening_of_the_New_Republic">
+
+		<Campaign_Set> Awakening_of_the_New_Republic </Campaign_Set>
+		<Sort_Order>18</Sort_Order>
+
+		<Text_ID> AWAKENING_OF_THE_NEW_REPUBLIC </Text_ID>
+		<Description_Text />
+
+		<Starting_Active_Player> Hostile </Starting_Active_Player>
+		
+    </Campaign>	
+
+	
+	
+	
+	
+	
+	
+	  
+	  
+	  
+	  
+	  
+	 
+	  
+	  
+	  
+	
+	
+	
+	
+
+
+	
+
+
+ </Campaigns>

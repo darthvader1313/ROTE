@@ -1,0 +1,2467 @@
+<?xml version="1.0"?>
+<Campaigns>
+
+
+
+<!-- ************************************************************** -->
+<!-- **************** SANDBOX CAMPAIGN "Ciutric Offensive" ***************** -->
+<!-- ************************************************************** -->
+
+
+	
+
+
+	
+  
+  
+  
+  
+  
+  
+  <Campaign Name="Sandbox_Ciutric_Offensive_Early_Empire">
+
+		<Campaign_Set> Sandbox_Ciutric_Offensive </Campaign_Set>
+		<Sort_Order>5</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_CIUTRIC_OFFENSIVE </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_CIUTRIC_OFFENSIVE_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> -27.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 56.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Mandalore, Concord_Dawn, Wayland, Phindar, Akiva, Raydonia, Celanon, Ord_Cestus,
+				Belsmuth, Dathomir, Bandomeer, Axxila, Taris, Myrkr, Castell, Carida, Corsin, 
+				Brakka, Arkania, Champala, Polus, Ithor, Ciutric, Bimmiel, Agamar, Ketaris,
+				Generis, Ajan_Kloss, Phaeda, Shili, Barlok, Ordmantell, Darkon, Wistril, Qiilura, 
+				Gleeanselm, Iridonia, Orinda, Ord_Cantrell, Garqi, Scipio, YagaMinor, Ord_Biniir, 
+				Ord_Trasi, Akuria, Dantooine, Morishim, Mygeeto, Entralla, Muunilinst, Kalee, Serenno, Bannistar,
+				Binquaros, Sheris, Botajef, Thalassia, BorgoPrime, Ebra, Obredaan, Roxuli, Vinsoth
+		</Locations>
+
+        <Trade_Routes>
+			
+		</Trade_Routes>
+
+        <Home_Location> Early_Empire, Wayland </Home_Location>
+		<Home_Location> CIS_Remnant, Ciutric </Home_Location>
+        <Home_Location> Banking_Clan, Muunilinst </Home_Location>
+		<Home_Location> Terrorists, Dantooine </Home_Location>
+		<Home_Location> Mandalorians, Mandalore </Home_Location>
+		
+		<Starting_Active_Player> Early_Empire </Starting_Active_Player>
+		
+		<Story_Name>Early_Empire, story_Ciutric_Offensive\story_Ciutric_Offensive_Early_Empire.xml </Story_Name>
+		<Story_Name>CIS_Remnant, story_Ciutric_Offensive\story_Ciutric_Offensive_CIS_Remnant.xml </Story_Name>
+		<Story_Name>Banking_Clan, story_Ciutric_Offensive\story_Ciutric_Offensive_Banking_Clan.xml </Story_Name>
+        <Story_Name>Terrorists, story_Ciutric_Offensive\story_Ciutric_Offensive_Terrorists.xml </Story_Name>
+		<Story_Name>Mandalorians, story_Ciutric_Offensive\story_Ciutric_Offensive_Mandalorians.xml </Story_Name>
+		
+		<AI_Player_Control> CIS_Remnant, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Banking_Clan, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Terrorists, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Mandalorians, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>Early_Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>CIS_Remnant, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Banking_Clan, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Terrorists, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Mandalorians, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		<!-- Early_Empire Starting Forces -->
+
+		<Starting_Credits> Early_Empire,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Early_Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Early_Empire, 5 </Max_Tech_Level>
+		
+        <!-- Barlok Space Forces -->
+	
+        <!-- Barlok Land Forces -->
+		<Starting_Forces> Early_Empire, Barlok, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Barlok, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Barlok, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Champala Space Forces -->
+	
+        <!-- Champala Land Forces -->
+		<Starting_Forces> Early_Empire, Champala, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Champala, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Champala, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Carida Space Forces -->
+	
+        <!-- Carida Land Forces -->
+		<Starting_Forces> Early_Empire, Carida, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Carida, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Carida, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Arkania Space Forces -->
+	
+        <!-- Arkania Land Forces -->
+		<Starting_Forces> Early_Empire, Arkania, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Arkania, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Arkania, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Shili Space Forces -->
+	
+        <!-- Shili Land Forces -->
+		<Starting_Forces> Early_Empire, Shili, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Shili, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Shili, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Ithor Space Forces -->
+	
+        <!-- Ithor Land Forces -->
+		<Starting_Forces> Early_Empire, Ithor, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ithor, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ithor, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Brakka Space Forces -->
+	
+        <!-- Brakka Land Forces -->
+		<Starting_Forces> Early_Empire, Brakka, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Brakka, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Brakka, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Corsin Space Forces -->
+	
+        <!-- Corsin Land Forces -->
+		<Starting_Forces> Early_Empire, Corsin, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Corsin, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Corsin, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Polus Space Forces -->
+	
+        <!-- Polus Land Forces -->
+		<Starting_Forces> Early_Empire, Polus, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Polus, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Polus, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Castell Space Forces -->
+	
+        <!-- Castell Land Forces -->
+		<Starting_Forces> Early_Empire, Castell, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Castell, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Castell, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Myrkr Space Forces -->
+	
+        <!-- Myrkr Land Forces -->
+		<Starting_Forces> Early_Empire, Myrkr, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Myrkr, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Myrkr, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Wayland Space Forces -->
+	
+        <!-- Wayland Land Forces -->
+		<Starting_Forces> Early_Empire, Wayland, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Wayland, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Wayland, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Taris Space Forces -->
+	
+        <!-- Taris Land Forces -->
+		<Starting_Forces> Early_Empire, Taris, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Taris, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Taris, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Qiilura Space Forces -->
+	
+        <!-- Qiilura Land Forces -->
+		<Starting_Forces> Early_Empire, Qiilura, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Qiilura, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Qiilura, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Iridonia Space Forces -->
+	
+        <!-- Iridonia Land Forces -->
+		<Starting_Forces> Early_Empire, Iridonia, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Iridonia, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Iridonia, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Gleeanselm Space Forces -->
+	
+        <!-- Gleeanselm Land Forces -->
+		<Starting_Forces> Early_Empire, Gleeanselm, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Gleeanselm, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Gleeanselm, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		
+		<!-- CIS_Remnant Starting Forces -->
+
+		<Starting_Credits> CIS_Remnant,  10000 </Starting_Credits>
+		<Starting_Tech_Level> CIS_Remnant, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> CIS_Remnant, 5 </Max_Tech_Level>
+                                                     
+        <!-- Serenno Space Forces -->
+
+        <!-- Serenno Land Forces -->
+		<Starting_Forces> CIS_Remnant, Serenno, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Serenno, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Serenno, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Phindar Space Forces -->
+
+        <!-- Phindar Land Forces -->
+		<Starting_Forces> CIS_Remnant, Phindar, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Phindar, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Phindar, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Akiva Space Forces -->
+
+        <!-- Akiva Land Forces -->
+		<Starting_Forces> CIS_Remnant, Akiva, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Akiva, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Akiva, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Raydonia Space Forces -->
+
+        <!-- Raydonia Land Forces -->
+		<Starting_Forces> CIS_Remnant, Raydonia, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Raydonia, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Raydonia, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Celanon Space Forces -->
+
+        <!-- Celanon Land Forces -->
+		<Starting_Forces> CIS_Remnant, Celanon, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Celanon, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Celanon, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Belsmuth Space Forces -->
+
+        <!-- Belsmuth Land Forces -->
+		<Starting_Forces> CIS_Remnant, Belsmuth, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Belsmuth, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Belsmuth, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Ord_Cestus Space Forces -->
+		
+		<!-- Ord_Cestus Land Forces -->
+		<Starting_Forces> CIS_Remnant, Ord_Cestus, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ord_Cestus, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ord_Cestus, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Axxila Space Forces -->
+
+        <!-- Axxila Land Forces -->
+		<Starting_Forces> CIS_Remnant, Axxila, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Axxila, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Axxila, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Bandomeer Space Forces -->
+		
+		<!-- Bandomeer Land Forces -->
+		<Starting_Forces> CIS_Remnant, Bandomeer, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Bandomeer, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Bandomeer, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Bannistar Space Forces -->
+
+        <!-- Bannistar Land Forces -->
+		<Starting_Forces> CIS_Remnant, Bannistar, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Bannistar, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Bannistar, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Ciutric Space Forces -->
+
+        <!-- Ciutric Land Forces -->
+		<Starting_Forces> CIS_Remnant, Ciutric, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ciutric, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ciutric, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Agamar Space Forces -->
+
+        <!-- Agamar Land Forces -->
+		<Starting_Forces> CIS_Remnant, Agamar, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Agamar, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Agamar, Super_Battledroid_Squad </Starting_Forces>
+	
+		
+		
+		<!-- Banking_Clan Starting Forces -->
+
+		<Starting_Credits> Banking_Clan,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Banking_Clan, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Banking_Clan, 5 </Max_Tech_Level>
+                                                     
+        <!-- Muunilinst Space Forces -->
+
+        <!-- Muunilinst Land Forces -->
+		<Starting_Forces> Banking_Clan, Muunilinst, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Muunilinst, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Muunilinst, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Entralla Space Forces -->
+
+        <!-- Entralla Land Forces -->
+		<Starting_Forces> Banking_Clan, Entralla, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Entralla, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Entralla, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Mygeeto Space Forces -->
+
+        <!-- Mygeeto Land Forces -->
+		<Starting_Forces> Banking_Clan, Mygeeto, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Mygeeto, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Mygeeto, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Scipio Space Forces -->
+
+        <!-- Scipio Land Forces -->
+		<Starting_Forces> Banking_Clan, Scipio, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Scipio, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Scipio, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- YagaMinor Space Forces -->
+
+        <!-- YagaMinor Land Forces -->
+		<Starting_Forces> Banking_Clan, YagaMinor, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, YagaMinor, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, YagaMinor, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Morishim Space Forces -->
+
+        <!-- Morishim Land Forces -->
+		<Starting_Forces> Banking_Clan, Morishim, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Morishim, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Morishim, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Ord_Trasi Space Forces -->
+
+        <!-- Ord_Trasi Land Forces -->
+		<Starting_Forces> Banking_Clan, Ord_Trasi, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Ord_Trasi, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Ord_Trasi, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Akuria Space Forces -->
+
+        <!-- Akuria Land Forces -->
+		<Starting_Forces> Banking_Clan, Akuria, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Akuria, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Akuria, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Ord_Biniir Space Forces -->
+
+        <!-- Ord_Biniir Land Forces -->
+		<Starting_Forces> Banking_Clan, Ord_Biniir, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Ord_Biniir, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Ord_Biniir, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Kalee Space Forces -->
+
+        <!-- Kalee Land Forces -->
+		<Starting_Forces> Banking_Clan, Kalee, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Kalee, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Kalee, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Garqi Space Forces -->
+
+        <!-- Garqi Land Forces -->
+		<Starting_Forces> Banking_Clan, Garqi, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Garqi, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Garqi, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Wistril Space Forces -->
+
+        <!-- Wistril Land Forces -->
+		<Starting_Forces> Banking_Clan, Wistril, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Wistril, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Wistril, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Orinda Space Forces -->
+
+        <!-- Orinda Land Forces -->
+		<Starting_Forces> Banking_Clan, Orinda, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Orinda, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Orinda, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Ord_Cantrell Space Forces -->
+
+        <!-- Ord_Cantrell Land Forces -->
+		<Starting_Forces> Banking_Clan, Ord_Cantrell, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Ord_Cantrell, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Ord_Cantrell, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		
+		
+		<!-- Terrorists Starting Forces -->
+
+		<Starting_Credits> Terrorists,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Terrorists, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Terrorists, 5 </Max_Tech_Level>
+		
+        <!-- Dantooine Space Forces -->
+		
+        <!-- Dantooine Land Forces -->
+		<Starting_Forces> Terrorists, Dantooine, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Dantooine, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Dantooine, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Ajan_Kloss Space Forces -->
+		
+        <!-- Ajan_Kloss Land Forces -->
+		<Starting_Forces> Terrorists, Ajan_Kloss, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Ajan_Kloss, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Ajan_Kloss, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Phaeda Space Forces -->
+		
+        <!-- Phaeda Land Forces -->
+		<Starting_Forces> Terrorists, Phaeda, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Phaeda, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Phaeda, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Dathomir Space Forces -->
+		
+        <!-- Dathomir Land Forces -->
+		<Starting_Forces> Terrorists, Dathomir, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Dathomir, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Dathomir, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Bimmiel Space Forces -->
+		
+        <!-- Bimmiel Land Forces -->
+		<Starting_Forces> Terrorists, Bimmiel, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Bimmiel, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Bimmiel, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Ordmantell Space Forces -->
+		
+        <!-- Ordmantell Land Forces -->
+		<Starting_Forces> Terrorists, Ordmantell, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Ordmantell, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Ordmantell, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Generis Space Forces -->
+		
+        <!-- Generis Land Forces -->
+		<Starting_Forces> Terrorists, Generis, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Generis, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Generis, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Ketaris Space Forces -->
+		
+        <!-- Ketaris Land Forces -->
+		<Starting_Forces> Terrorists, Ketaris, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Ketaris, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Ketaris, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Darkon Space Forces -->
+		
+        <!-- Darkon Land Forces -->
+		<Starting_Forces> Terrorists, Darkon, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Darkon, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Darkon, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		
+		
+		<!-- Mandalorians Starting Forces -->
+
+		<Starting_Credits> Mandalorians,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Mandalorians, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Mandalorians, 5 </Max_Tech_Level>
+		
+        <!-- Mandalore Space Forces -->
+		
+        <!-- Mandalore Land Forces -->
+		<Starting_Forces> Mandalorians, Mandalore, Mandalorians_Barracks  </Starting_Forces>
+		<Starting_Forces> Mandalorians, Mandalore, Mandalorian_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Mandalorians, Mandalore, Mandalorian_Smuggler_Squad </Starting_Forces>
+		
+		<!-- Concord_Dawn Space Forces -->
+		
+        <!-- Concord_Dawn Land Forces -->
+		<Starting_Forces> Mandalorians, Concord_Dawn, Mandalorians_Barracks  </Starting_Forces>
+		<Starting_Forces> Mandalorians, Concord_Dawn, Mandalorian_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Mandalorians, Concord_Dawn, Mandalorian_Smuggler_Squad </Starting_Forces>
+		
+		
+
+  
+  
+  </Campaign>
+  
+  
+  
+  
+  
+  <Campaign Name="Sandbox_Ciutric_Offensive_CIS_Remnant">
+
+		<Campaign_Set> Sandbox_Ciutric_Offensive </Campaign_Set>
+		<Sort_Order>5</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_CIUTRIC_OFFENSIVE </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_CIUTRIC_OFFENSIVE_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> -27.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 56.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Mandalore, Concord_Dawn, Wayland, Phindar, Akiva, Raydonia, Celanon, Ord_Cestus,
+				Belsmuth, Dathomir, Bandomeer, Axxila, Taris, Myrkr, Castell, Carida, Corsin, 
+				Brakka, Arkania, Champala, Polus, Ithor, Ciutric, Bimmiel, Agamar, Ketaris,
+				Generis, Ajan_Kloss, Phaeda, Shili, Barlok, Ordmantell, Darkon, Wistril, Qiilura, 
+				Gleeanselm, Iridonia, Orinda, Ord_Cantrell, Garqi, Scipio, YagaMinor, Ord_Biniir, 
+				Ord_Trasi, Akuria, Dantooine, Morishim, Mygeeto, Entralla, Muunilinst, Kalee, Serenno, Bannistar,
+				Binquaros, Sheris, Botajef, Thalassia, BorgoPrime, Ebra, Obredaan, Roxuli, Vinsoth
+		</Locations>
+
+        <Trade_Routes>
+			
+		</Trade_Routes>
+
+        <Home_Location> Early_Empire, Wayland </Home_Location>
+		<Home_Location> CIS_Remnant, Ciutric </Home_Location>
+        <Home_Location> Banking_Clan, Muunilinst </Home_Location>
+		<Home_Location> Terrorists, Dantooine </Home_Location>
+		<Home_Location> Mandalorians, Mandalore </Home_Location>
+		
+		<Starting_Active_Player> CIS_Remnant </Starting_Active_Player>
+		
+		<Story_Name>Early_Empire, story_Ciutric_Offensive\story_Ciutric_Offensive_Early_Empire.xml </Story_Name>
+		<Story_Name>CIS_Remnant, story_Ciutric_Offensive\story_Ciutric_Offensive_CIS_Remnant.xml </Story_Name>
+		<Story_Name>Banking_Clan, story_Ciutric_Offensive\story_Ciutric_Offensive_Banking_Clan.xml </Story_Name>
+        <Story_Name>Terrorists, story_Ciutric_Offensive\story_Ciutric_Offensive_Terrorists.xml </Story_Name>
+		<Story_Name>Mandalorians, story_Ciutric_Offensive\story_Ciutric_Offensive_Mandalorians.xml </Story_Name>
+		
+		<AI_Player_Control> Early_Empire, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Banking_Clan, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Terrorists, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Mandalorians, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>Early_Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>CIS_Remnant, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Banking_Clan, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Terrorists, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Mandalorians, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		<!-- Early_Empire Starting Forces -->
+
+		<Starting_Credits> Early_Empire,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Early_Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Early_Empire, 5 </Max_Tech_Level>
+		
+        <!-- Barlok Space Forces -->
+	
+        <!-- Barlok Land Forces -->
+		<Starting_Forces> Early_Empire, Barlok, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Barlok, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Barlok, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Champala Space Forces -->
+	
+        <!-- Champala Land Forces -->
+		<Starting_Forces> Early_Empire, Champala, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Champala, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Champala, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Carida Space Forces -->
+	
+        <!-- Carida Land Forces -->
+		<Starting_Forces> Early_Empire, Carida, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Carida, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Carida, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Arkania Space Forces -->
+	
+        <!-- Arkania Land Forces -->
+		<Starting_Forces> Early_Empire, Arkania, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Arkania, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Arkania, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Shili Space Forces -->
+	
+        <!-- Shili Land Forces -->
+		<Starting_Forces> Early_Empire, Shili, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Shili, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Shili, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Ithor Space Forces -->
+	
+        <!-- Ithor Land Forces -->
+		<Starting_Forces> Early_Empire, Ithor, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ithor, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ithor, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Brakka Space Forces -->
+	
+        <!-- Brakka Land Forces -->
+		<Starting_Forces> Early_Empire, Brakka, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Brakka, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Brakka, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Corsin Space Forces -->
+	
+        <!-- Corsin Land Forces -->
+		<Starting_Forces> Early_Empire, Corsin, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Corsin, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Corsin, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Polus Space Forces -->
+	
+        <!-- Polus Land Forces -->
+		<Starting_Forces> Early_Empire, Polus, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Polus, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Polus, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Castell Space Forces -->
+	
+        <!-- Castell Land Forces -->
+		<Starting_Forces> Early_Empire, Castell, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Castell, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Castell, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Myrkr Space Forces -->
+	
+        <!-- Myrkr Land Forces -->
+		<Starting_Forces> Early_Empire, Myrkr, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Myrkr, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Myrkr, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Wayland Space Forces -->
+	
+        <!-- Wayland Land Forces -->
+		<Starting_Forces> Early_Empire, Wayland, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Wayland, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Wayland, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Taris Space Forces -->
+	
+        <!-- Taris Land Forces -->
+		<Starting_Forces> Early_Empire, Taris, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Taris, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Taris, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Qiilura Space Forces -->
+	
+        <!-- Qiilura Land Forces -->
+		<Starting_Forces> Early_Empire, Qiilura, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Qiilura, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Qiilura, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Iridonia Space Forces -->
+	
+        <!-- Iridonia Land Forces -->
+		<Starting_Forces> Early_Empire, Iridonia, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Iridonia, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Iridonia, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Gleeanselm Space Forces -->
+	
+        <!-- Gleeanselm Land Forces -->
+		<Starting_Forces> Early_Empire, Gleeanselm, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Gleeanselm, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Gleeanselm, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		
+		<!-- CIS_Remnant Starting Forces -->
+
+		<Starting_Credits> CIS_Remnant,  10000 </Starting_Credits>
+		<Starting_Tech_Level> CIS_Remnant, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> CIS_Remnant, 5 </Max_Tech_Level>
+                                                     
+        <!-- Serenno Space Forces -->
+
+        <!-- Serenno Land Forces -->
+		<Starting_Forces> CIS_Remnant, Serenno, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Serenno, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Serenno, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Phindar Space Forces -->
+
+        <!-- Phindar Land Forces -->
+		<Starting_Forces> CIS_Remnant, Phindar, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Phindar, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Phindar, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Akiva Space Forces -->
+
+        <!-- Akiva Land Forces -->
+		<Starting_Forces> CIS_Remnant, Akiva, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Akiva, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Akiva, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Raydonia Space Forces -->
+
+        <!-- Raydonia Land Forces -->
+		<Starting_Forces> CIS_Remnant, Raydonia, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Raydonia, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Raydonia, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Celanon Space Forces -->
+
+        <!-- Celanon Land Forces -->
+		<Starting_Forces> CIS_Remnant, Celanon, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Celanon, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Celanon, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Belsmuth Space Forces -->
+
+        <!-- Belsmuth Land Forces -->
+		<Starting_Forces> CIS_Remnant, Belsmuth, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Belsmuth, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Belsmuth, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Ord_Cestus Space Forces -->
+		
+		<!-- Ord_Cestus Land Forces -->
+		<Starting_Forces> CIS_Remnant, Ord_Cestus, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ord_Cestus, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ord_Cestus, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Axxila Space Forces -->
+
+        <!-- Axxila Land Forces -->
+		<Starting_Forces> CIS_Remnant, Axxila, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Axxila, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Axxila, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Bandomeer Space Forces -->
+		
+		<!-- Bandomeer Land Forces -->
+		<Starting_Forces> CIS_Remnant, Bandomeer, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Bandomeer, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Bandomeer, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Bannistar Space Forces -->
+
+        <!-- Bannistar Land Forces -->
+		<Starting_Forces> CIS_Remnant, Bannistar, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Bannistar, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Bannistar, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Ciutric Space Forces -->
+
+        <!-- Ciutric Land Forces -->
+		<Starting_Forces> CIS_Remnant, Ciutric, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ciutric, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ciutric, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Agamar Space Forces -->
+
+        <!-- Agamar Land Forces -->
+		<Starting_Forces> CIS_Remnant, Agamar, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Agamar, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Agamar, Super_Battledroid_Squad </Starting_Forces>
+	
+		
+		
+		<!-- Banking_Clan Starting Forces -->
+
+		<Starting_Credits> Banking_Clan,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Banking_Clan, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Banking_Clan, 5 </Max_Tech_Level>
+                                                     
+        <!-- Muunilinst Space Forces -->
+
+        <!-- Muunilinst Land Forces -->
+		<Starting_Forces> Banking_Clan, Muunilinst, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Muunilinst, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Muunilinst, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Entralla Space Forces -->
+
+        <!-- Entralla Land Forces -->
+		<Starting_Forces> Banking_Clan, Entralla, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Entralla, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Entralla, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Mygeeto Space Forces -->
+
+        <!-- Mygeeto Land Forces -->
+		<Starting_Forces> Banking_Clan, Mygeeto, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Mygeeto, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Mygeeto, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Scipio Space Forces -->
+
+        <!-- Scipio Land Forces -->
+		<Starting_Forces> Banking_Clan, Scipio, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Scipio, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Scipio, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- YagaMinor Space Forces -->
+
+        <!-- YagaMinor Land Forces -->
+		<Starting_Forces> Banking_Clan, YagaMinor, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, YagaMinor, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, YagaMinor, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Morishim Space Forces -->
+
+        <!-- Morishim Land Forces -->
+		<Starting_Forces> Banking_Clan, Morishim, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Morishim, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Morishim, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Ord_Trasi Space Forces -->
+
+        <!-- Ord_Trasi Land Forces -->
+		<Starting_Forces> Banking_Clan, Ord_Trasi, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Ord_Trasi, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Ord_Trasi, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Akuria Space Forces -->
+
+        <!-- Akuria Land Forces -->
+		<Starting_Forces> Banking_Clan, Akuria, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Akuria, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Akuria, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Ord_Biniir Space Forces -->
+
+        <!-- Ord_Biniir Land Forces -->
+		<Starting_Forces> Banking_Clan, Ord_Biniir, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Ord_Biniir, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Ord_Biniir, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Kalee Space Forces -->
+
+        <!-- Kalee Land Forces -->
+		<Starting_Forces> Banking_Clan, Kalee, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Kalee, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Kalee, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Garqi Space Forces -->
+
+        <!-- Garqi Land Forces -->
+		<Starting_Forces> Banking_Clan, Garqi, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Garqi, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Garqi, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Wistril Space Forces -->
+
+        <!-- Wistril Land Forces -->
+		<Starting_Forces> Banking_Clan, Wistril, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Wistril, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Wistril, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Orinda Space Forces -->
+
+        <!-- Orinda Land Forces -->
+		<Starting_Forces> Banking_Clan, Orinda, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Orinda, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Orinda, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Ord_Cantrell Space Forces -->
+
+        <!-- Ord_Cantrell Land Forces -->
+		<Starting_Forces> Banking_Clan, Ord_Cantrell, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Ord_Cantrell, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Ord_Cantrell, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		
+		
+		<!-- Terrorists Starting Forces -->
+
+		<Starting_Credits> Terrorists,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Terrorists, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Terrorists, 5 </Max_Tech_Level>
+		
+        <!-- Dantooine Space Forces -->
+		
+        <!-- Dantooine Land Forces -->
+		<Starting_Forces> Terrorists, Dantooine, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Dantooine, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Dantooine, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Ajan_Kloss Space Forces -->
+		
+        <!-- Ajan_Kloss Land Forces -->
+		<Starting_Forces> Terrorists, Ajan_Kloss, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Ajan_Kloss, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Ajan_Kloss, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Phaeda Space Forces -->
+		
+        <!-- Phaeda Land Forces -->
+		<Starting_Forces> Terrorists, Phaeda, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Phaeda, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Phaeda, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Dathomir Space Forces -->
+		
+        <!-- Dathomir Land Forces -->
+		<Starting_Forces> Terrorists, Dathomir, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Dathomir, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Dathomir, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Bimmiel Space Forces -->
+		
+        <!-- Bimmiel Land Forces -->
+		<Starting_Forces> Terrorists, Bimmiel, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Bimmiel, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Bimmiel, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Ordmantell Space Forces -->
+		
+        <!-- Ordmantell Land Forces -->
+		<Starting_Forces> Terrorists, Ordmantell, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Ordmantell, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Ordmantell, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Generis Space Forces -->
+		
+        <!-- Generis Land Forces -->
+		<Starting_Forces> Terrorists, Generis, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Generis, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Generis, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Ketaris Space Forces -->
+		
+        <!-- Ketaris Land Forces -->
+		<Starting_Forces> Terrorists, Ketaris, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Ketaris, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Ketaris, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Darkon Space Forces -->
+		
+        <!-- Darkon Land Forces -->
+		<Starting_Forces> Terrorists, Darkon, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Darkon, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Darkon, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		
+		
+		<!-- Mandalorians Starting Forces -->
+
+		<Starting_Credits> Mandalorians,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Mandalorians, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Mandalorians, 5 </Max_Tech_Level>
+		
+        <!-- Mandalore Space Forces -->
+		
+        <!-- Mandalore Land Forces -->
+		<Starting_Forces> Mandalorians, Mandalore, Mandalorians_Barracks  </Starting_Forces>
+		<Starting_Forces> Mandalorians, Mandalore, Mandalorian_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Mandalorians, Mandalore, Mandalorian_Smuggler_Squad </Starting_Forces>
+		
+		<!-- Concord_Dawn Space Forces -->
+		
+        <!-- Concord_Dawn Land Forces -->
+		<Starting_Forces> Mandalorians, Concord_Dawn, Mandalorians_Barracks  </Starting_Forces>
+		<Starting_Forces> Mandalorians, Concord_Dawn, Mandalorian_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Mandalorians, Concord_Dawn, Mandalorian_Smuggler_Squad </Starting_Forces>
+		
+		
+
+  
+  
+  </Campaign>
+  
+  
+  
+  
+  
+  <Campaign Name="Sandbox_Ciutric_Offensive_Banking_Clan">
+
+		<Campaign_Set> Sandbox_Ciutric_Offensive </Campaign_Set>
+		<Sort_Order>5</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_CIUTRIC_OFFENSIVE </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_CIUTRIC_OFFENSIVE_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> -27.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 56.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Mandalore, Concord_Dawn, Wayland, Phindar, Akiva, Raydonia, Celanon, Ord_Cestus,
+				Belsmuth, Dathomir, Bandomeer, Axxila, Taris, Myrkr, Castell, Carida, Corsin, 
+				Brakka, Arkania, Champala, Polus, Ithor, Ciutric, Bimmiel, Agamar, Ketaris,
+				Generis, Ajan_Kloss, Phaeda, Shili, Barlok, Ordmantell, Darkon, Wistril, Qiilura, 
+				Gleeanselm, Iridonia, Orinda, Ord_Cantrell, Garqi, Scipio, YagaMinor, Ord_Biniir, 
+				Ord_Trasi, Akuria, Dantooine, Morishim, Mygeeto, Entralla, Muunilinst, Kalee, Serenno, Bannistar,
+				Binquaros, Sheris, Botajef, Thalassia, BorgoPrime, Ebra, Obredaan, Roxuli, Vinsoth
+		</Locations>
+
+        <Trade_Routes>
+			
+		</Trade_Routes>
+
+        <Home_Location> Early_Empire, Wayland </Home_Location>
+		<Home_Location> CIS_Remnant, Ciutric </Home_Location>
+        <Home_Location> Banking_Clan, Muunilinst </Home_Location>
+		<Home_Location> Terrorists, Dantooine </Home_Location>
+		<Home_Location> Mandalorians, Mandalore </Home_Location>
+		
+		<Starting_Active_Player> Banking_Clan </Starting_Active_Player>
+		
+		<Story_Name>Early_Empire, story_Ciutric_Offensive\story_Ciutric_Offensive_Early_Empire.xml </Story_Name>
+		<Story_Name>CIS_Remnant, story_Ciutric_Offensive\story_Ciutric_Offensive_CIS_Remnant.xml </Story_Name>
+		<Story_Name>Banking_Clan, story_Ciutric_Offensive\story_Ciutric_Offensive_Banking_Clan.xml </Story_Name>
+        <Story_Name>Terrorists, story_Ciutric_Offensive\story_Ciutric_Offensive_Terrorists.xml </Story_Name>
+		<Story_Name>Mandalorians, story_Ciutric_Offensive\story_Ciutric_Offensive_Mandalorians.xml </Story_Name>
+		
+		<AI_Player_Control> Early_Empire, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> CIS_Remnant, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Terrorists, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Mandalorians, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>Early_Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>CIS_Remnant, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Banking_Clan, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Terrorists, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Mandalorians, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		<!-- Early_Empire Starting Forces -->
+
+		<Starting_Credits> Early_Empire,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Early_Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Early_Empire, 5 </Max_Tech_Level>
+		
+        <!-- Barlok Space Forces -->
+	
+        <!-- Barlok Land Forces -->
+		<Starting_Forces> Early_Empire, Barlok, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Barlok, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Barlok, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Champala Space Forces -->
+	
+        <!-- Champala Land Forces -->
+		<Starting_Forces> Early_Empire, Champala, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Champala, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Champala, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Carida Space Forces -->
+	
+        <!-- Carida Land Forces -->
+		<Starting_Forces> Early_Empire, Carida, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Carida, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Carida, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Arkania Space Forces -->
+	
+        <!-- Arkania Land Forces -->
+		<Starting_Forces> Early_Empire, Arkania, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Arkania, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Arkania, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Shili Space Forces -->
+	
+        <!-- Shili Land Forces -->
+		<Starting_Forces> Early_Empire, Shili, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Shili, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Shili, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Ithor Space Forces -->
+	
+        <!-- Ithor Land Forces -->
+		<Starting_Forces> Early_Empire, Ithor, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ithor, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ithor, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Brakka Space Forces -->
+	
+        <!-- Brakka Land Forces -->
+		<Starting_Forces> Early_Empire, Brakka, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Brakka, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Brakka, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Corsin Space Forces -->
+	
+        <!-- Corsin Land Forces -->
+		<Starting_Forces> Early_Empire, Corsin, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Corsin, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Corsin, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Polus Space Forces -->
+	
+        <!-- Polus Land Forces -->
+		<Starting_Forces> Early_Empire, Polus, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Polus, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Polus, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Castell Space Forces -->
+	
+        <!-- Castell Land Forces -->
+		<Starting_Forces> Early_Empire, Castell, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Castell, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Castell, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Myrkr Space Forces -->
+	
+        <!-- Myrkr Land Forces -->
+		<Starting_Forces> Early_Empire, Myrkr, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Myrkr, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Myrkr, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Wayland Space Forces -->
+	
+        <!-- Wayland Land Forces -->
+		<Starting_Forces> Early_Empire, Wayland, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Wayland, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Wayland, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Taris Space Forces -->
+	
+        <!-- Taris Land Forces -->
+		<Starting_Forces> Early_Empire, Taris, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Taris, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Taris, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Qiilura Space Forces -->
+	
+        <!-- Qiilura Land Forces -->
+		<Starting_Forces> Early_Empire, Qiilura, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Qiilura, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Qiilura, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Iridonia Space Forces -->
+	
+        <!-- Iridonia Land Forces -->
+		<Starting_Forces> Early_Empire, Iridonia, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Iridonia, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Iridonia, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Gleeanselm Space Forces -->
+	
+        <!-- Gleeanselm Land Forces -->
+		<Starting_Forces> Early_Empire, Gleeanselm, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Gleeanselm, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Gleeanselm, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		
+		<!-- CIS_Remnant Starting Forces -->
+
+		<Starting_Credits> CIS_Remnant,  10000 </Starting_Credits>
+		<Starting_Tech_Level> CIS_Remnant, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> CIS_Remnant, 5 </Max_Tech_Level>
+                                                     
+        <!-- Serenno Space Forces -->
+
+        <!-- Serenno Land Forces -->
+		<Starting_Forces> CIS_Remnant, Serenno, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Serenno, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Serenno, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Phindar Space Forces -->
+
+        <!-- Phindar Land Forces -->
+		<Starting_Forces> CIS_Remnant, Phindar, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Phindar, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Phindar, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Akiva Space Forces -->
+
+        <!-- Akiva Land Forces -->
+		<Starting_Forces> CIS_Remnant, Akiva, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Akiva, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Akiva, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Raydonia Space Forces -->
+
+        <!-- Raydonia Land Forces -->
+		<Starting_Forces> CIS_Remnant, Raydonia, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Raydonia, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Raydonia, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Celanon Space Forces -->
+
+        <!-- Celanon Land Forces -->
+		<Starting_Forces> CIS_Remnant, Celanon, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Celanon, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Celanon, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Belsmuth Space Forces -->
+
+        <!-- Belsmuth Land Forces -->
+		<Starting_Forces> CIS_Remnant, Belsmuth, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Belsmuth, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Belsmuth, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Ord_Cestus Space Forces -->
+		
+		<!-- Ord_Cestus Land Forces -->
+		<Starting_Forces> CIS_Remnant, Ord_Cestus, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ord_Cestus, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ord_Cestus, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Axxila Space Forces -->
+
+        <!-- Axxila Land Forces -->
+		<Starting_Forces> CIS_Remnant, Axxila, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Axxila, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Axxila, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Bandomeer Space Forces -->
+		
+		<!-- Bandomeer Land Forces -->
+		<Starting_Forces> CIS_Remnant, Bandomeer, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Bandomeer, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Bandomeer, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Bannistar Space Forces -->
+
+        <!-- Bannistar Land Forces -->
+		<Starting_Forces> CIS_Remnant, Bannistar, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Bannistar, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Bannistar, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Ciutric Space Forces -->
+
+        <!-- Ciutric Land Forces -->
+		<Starting_Forces> CIS_Remnant, Ciutric, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ciutric, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ciutric, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Agamar Space Forces -->
+
+        <!-- Agamar Land Forces -->
+		<Starting_Forces> CIS_Remnant, Agamar, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Agamar, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Agamar, Super_Battledroid_Squad </Starting_Forces>
+	
+		
+		
+		<!-- Banking_Clan Starting Forces -->
+
+		<Starting_Credits> Banking_Clan,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Banking_Clan, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Banking_Clan, 5 </Max_Tech_Level>
+                                                     
+        <!-- Muunilinst Space Forces -->
+
+        <!-- Muunilinst Land Forces -->
+		<Starting_Forces> Banking_Clan, Muunilinst, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Muunilinst, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Muunilinst, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Entralla Space Forces -->
+
+        <!-- Entralla Land Forces -->
+		<Starting_Forces> Banking_Clan, Entralla, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Entralla, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Entralla, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Mygeeto Space Forces -->
+
+        <!-- Mygeeto Land Forces -->
+		<Starting_Forces> Banking_Clan, Mygeeto, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Mygeeto, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Mygeeto, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Scipio Space Forces -->
+
+        <!-- Scipio Land Forces -->
+		<Starting_Forces> Banking_Clan, Scipio, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Scipio, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Scipio, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- YagaMinor Space Forces -->
+
+        <!-- YagaMinor Land Forces -->
+		<Starting_Forces> Banking_Clan, YagaMinor, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, YagaMinor, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, YagaMinor, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Morishim Space Forces -->
+
+        <!-- Morishim Land Forces -->
+		<Starting_Forces> Banking_Clan, Morishim, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Morishim, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Morishim, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Ord_Trasi Space Forces -->
+
+        <!-- Ord_Trasi Land Forces -->
+		<Starting_Forces> Banking_Clan, Ord_Trasi, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Ord_Trasi, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Ord_Trasi, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Akuria Space Forces -->
+
+        <!-- Akuria Land Forces -->
+		<Starting_Forces> Banking_Clan, Akuria, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Akuria, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Akuria, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Ord_Biniir Space Forces -->
+
+        <!-- Ord_Biniir Land Forces -->
+		<Starting_Forces> Banking_Clan, Ord_Biniir, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Ord_Biniir, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Ord_Biniir, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Kalee Space Forces -->
+
+        <!-- Kalee Land Forces -->
+		<Starting_Forces> Banking_Clan, Kalee, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Kalee, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Kalee, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Garqi Space Forces -->
+
+        <!-- Garqi Land Forces -->
+		<Starting_Forces> Banking_Clan, Garqi, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Garqi, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Garqi, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Wistril Space Forces -->
+
+        <!-- Wistril Land Forces -->
+		<Starting_Forces> Banking_Clan, Wistril, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Wistril, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Wistril, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Orinda Space Forces -->
+
+        <!-- Orinda Land Forces -->
+		<Starting_Forces> Banking_Clan, Orinda, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Orinda, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Orinda, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Ord_Cantrell Space Forces -->
+
+        <!-- Ord_Cantrell Land Forces -->
+		<Starting_Forces> Banking_Clan, Ord_Cantrell, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Ord_Cantrell, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Ord_Cantrell, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		
+		
+		<!-- Terrorists Starting Forces -->
+
+		<Starting_Credits> Terrorists,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Terrorists, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Terrorists, 5 </Max_Tech_Level>
+		
+        <!-- Dantooine Space Forces -->
+		
+        <!-- Dantooine Land Forces -->
+		<Starting_Forces> Terrorists, Dantooine, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Dantooine, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Dantooine, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Ajan_Kloss Space Forces -->
+		
+        <!-- Ajan_Kloss Land Forces -->
+		<Starting_Forces> Terrorists, Ajan_Kloss, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Ajan_Kloss, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Ajan_Kloss, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Phaeda Space Forces -->
+		
+        <!-- Phaeda Land Forces -->
+		<Starting_Forces> Terrorists, Phaeda, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Phaeda, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Phaeda, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Dathomir Space Forces -->
+		
+        <!-- Dathomir Land Forces -->
+		<Starting_Forces> Terrorists, Dathomir, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Dathomir, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Dathomir, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Bimmiel Space Forces -->
+		
+        <!-- Bimmiel Land Forces -->
+		<Starting_Forces> Terrorists, Bimmiel, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Bimmiel, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Bimmiel, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Ordmantell Space Forces -->
+		
+        <!-- Ordmantell Land Forces -->
+		<Starting_Forces> Terrorists, Ordmantell, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Ordmantell, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Ordmantell, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Generis Space Forces -->
+		
+        <!-- Generis Land Forces -->
+		<Starting_Forces> Terrorists, Generis, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Generis, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Generis, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Ketaris Space Forces -->
+		
+        <!-- Ketaris Land Forces -->
+		<Starting_Forces> Terrorists, Ketaris, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Ketaris, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Ketaris, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Darkon Space Forces -->
+		
+        <!-- Darkon Land Forces -->
+		<Starting_Forces> Terrorists, Darkon, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Darkon, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Darkon, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		
+		
+		<!-- Mandalorians Starting Forces -->
+
+		<Starting_Credits> Mandalorians,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Mandalorians, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Mandalorians, 5 </Max_Tech_Level>
+		
+        <!-- Mandalore Space Forces -->
+		
+        <!-- Mandalore Land Forces -->
+		<Starting_Forces> Mandalorians, Mandalore, Mandalorians_Barracks  </Starting_Forces>
+		<Starting_Forces> Mandalorians, Mandalore, Mandalorian_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Mandalorians, Mandalore, Mandalorian_Smuggler_Squad </Starting_Forces>
+		
+		<!-- Concord_Dawn Space Forces -->
+		
+        <!-- Concord_Dawn Land Forces -->
+		<Starting_Forces> Mandalorians, Concord_Dawn, Mandalorians_Barracks  </Starting_Forces>
+		<Starting_Forces> Mandalorians, Concord_Dawn, Mandalorian_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Mandalorians, Concord_Dawn, Mandalorian_Smuggler_Squad </Starting_Forces>
+		
+		
+
+  
+  
+  </Campaign>
+  
+  
+  
+  
+  
+  <Campaign Name="Sandbox_Ciutric_Offensive_Terrorists">
+
+		<Campaign_Set> Sandbox_Ciutric_Offensive </Campaign_Set>
+		<Sort_Order>5</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_CIUTRIC_OFFENSIVE </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_CIUTRIC_OFFENSIVE_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> -27.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 56.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Mandalore, Concord_Dawn, Wayland, Phindar, Akiva, Raydonia, Celanon, Ord_Cestus,
+				Belsmuth, Dathomir, Bandomeer, Axxila, Taris, Myrkr, Castell, Carida, Corsin, 
+				Brakka, Arkania, Champala, Polus, Ithor, Ciutric, Bimmiel, Agamar, Ketaris,
+				Generis, Ajan_Kloss, Phaeda, Shili, Barlok, Ordmantell, Darkon, Wistril, Qiilura, 
+				Gleeanselm, Iridonia, Orinda, Ord_Cantrell, Garqi, Scipio, YagaMinor, Ord_Biniir, 
+				Ord_Trasi, Akuria, Dantooine, Morishim, Mygeeto, Entralla, Muunilinst, Kalee, Serenno, Bannistar,
+				Binquaros, Sheris, Botajef, Thalassia, BorgoPrime, Ebra, Obredaan, Roxuli, Vinsoth
+		</Locations>
+
+        <Trade_Routes>
+			
+		</Trade_Routes>
+
+        <Home_Location> Early_Empire, Wayland </Home_Location>
+		<Home_Location> CIS_Remnant, Ciutric </Home_Location>
+        <Home_Location> Banking_Clan, Muunilinst </Home_Location>
+		<Home_Location> Terrorists, Dantooine </Home_Location>
+		<Home_Location> Mandalorians, Mandalore </Home_Location>
+		
+		<Starting_Active_Player> Terrorists </Starting_Active_Player>
+		
+		<Story_Name>Early_Empire, story_Ciutric_Offensive\story_Ciutric_Offensive_Early_Empire.xml </Story_Name>
+		<Story_Name>CIS_Remnant, story_Ciutric_Offensive\story_Ciutric_Offensive_CIS_Remnant.xml </Story_Name>
+		<Story_Name>Banking_Clan, story_Ciutric_Offensive\story_Ciutric_Offensive_Banking_Clan.xml </Story_Name>
+        <Story_Name>Terrorists, story_Ciutric_Offensive\story_Ciutric_Offensive_Terrorists.xml </Story_Name>
+		<Story_Name>Mandalorians, story_Ciutric_Offensive\story_Ciutric_Offensive_Mandalorians.xml </Story_Name>
+		
+		<AI_Player_Control> Early_Empire, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> CIS_Remnant, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Banking_Clan, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Mandalorians, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>Early_Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>CIS_Remnant, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Banking_Clan, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Terrorists, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Mandalorians, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		<!-- Early_Empire Starting Forces -->
+
+		<Starting_Credits> Early_Empire,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Early_Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Early_Empire, 5 </Max_Tech_Level>
+		
+        <!-- Barlok Space Forces -->
+	
+        <!-- Barlok Land Forces -->
+		<Starting_Forces> Early_Empire, Barlok, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Barlok, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Barlok, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Champala Space Forces -->
+	
+        <!-- Champala Land Forces -->
+		<Starting_Forces> Early_Empire, Champala, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Champala, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Champala, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Carida Space Forces -->
+	
+        <!-- Carida Land Forces -->
+		<Starting_Forces> Early_Empire, Carida, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Carida, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Carida, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Arkania Space Forces -->
+	
+        <!-- Arkania Land Forces -->
+		<Starting_Forces> Early_Empire, Arkania, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Arkania, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Arkania, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Shili Space Forces -->
+	
+        <!-- Shili Land Forces -->
+		<Starting_Forces> Early_Empire, Shili, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Shili, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Shili, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Ithor Space Forces -->
+	
+        <!-- Ithor Land Forces -->
+		<Starting_Forces> Early_Empire, Ithor, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ithor, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ithor, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Brakka Space Forces -->
+	
+        <!-- Brakka Land Forces -->
+		<Starting_Forces> Early_Empire, Brakka, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Brakka, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Brakka, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Corsin Space Forces -->
+	
+        <!-- Corsin Land Forces -->
+		<Starting_Forces> Early_Empire, Corsin, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Corsin, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Corsin, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Polus Space Forces -->
+	
+        <!-- Polus Land Forces -->
+		<Starting_Forces> Early_Empire, Polus, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Polus, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Polus, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Castell Space Forces -->
+	
+        <!-- Castell Land Forces -->
+		<Starting_Forces> Early_Empire, Castell, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Castell, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Castell, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Myrkr Space Forces -->
+	
+        <!-- Myrkr Land Forces -->
+		<Starting_Forces> Early_Empire, Myrkr, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Myrkr, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Myrkr, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Wayland Space Forces -->
+	
+        <!-- Wayland Land Forces -->
+		<Starting_Forces> Early_Empire, Wayland, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Wayland, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Wayland, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Taris Space Forces -->
+	
+        <!-- Taris Land Forces -->
+		<Starting_Forces> Early_Empire, Taris, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Taris, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Taris, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Qiilura Space Forces -->
+	
+        <!-- Qiilura Land Forces -->
+		<Starting_Forces> Early_Empire, Qiilura, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Qiilura, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Qiilura, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Iridonia Space Forces -->
+	
+        <!-- Iridonia Land Forces -->
+		<Starting_Forces> Early_Empire, Iridonia, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Iridonia, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Iridonia, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Gleeanselm Space Forces -->
+	
+        <!-- Gleeanselm Land Forces -->
+		<Starting_Forces> Early_Empire, Gleeanselm, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Gleeanselm, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Gleeanselm, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		
+		<!-- CIS_Remnant Starting Forces -->
+
+		<Starting_Credits> CIS_Remnant,  10000 </Starting_Credits>
+		<Starting_Tech_Level> CIS_Remnant, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> CIS_Remnant, 5 </Max_Tech_Level>
+                                                     
+        <!-- Serenno Space Forces -->
+
+        <!-- Serenno Land Forces -->
+		<Starting_Forces> CIS_Remnant, Serenno, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Serenno, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Serenno, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Phindar Space Forces -->
+
+        <!-- Phindar Land Forces -->
+		<Starting_Forces> CIS_Remnant, Phindar, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Phindar, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Phindar, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Akiva Space Forces -->
+
+        <!-- Akiva Land Forces -->
+		<Starting_Forces> CIS_Remnant, Akiva, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Akiva, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Akiva, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Raydonia Space Forces -->
+
+        <!-- Raydonia Land Forces -->
+		<Starting_Forces> CIS_Remnant, Raydonia, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Raydonia, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Raydonia, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Celanon Space Forces -->
+
+        <!-- Celanon Land Forces -->
+		<Starting_Forces> CIS_Remnant, Celanon, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Celanon, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Celanon, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Belsmuth Space Forces -->
+
+        <!-- Belsmuth Land Forces -->
+		<Starting_Forces> CIS_Remnant, Belsmuth, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Belsmuth, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Belsmuth, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Ord_Cestus Space Forces -->
+		
+		<!-- Ord_Cestus Land Forces -->
+		<Starting_Forces> CIS_Remnant, Ord_Cestus, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ord_Cestus, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ord_Cestus, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Axxila Space Forces -->
+
+        <!-- Axxila Land Forces -->
+		<Starting_Forces> CIS_Remnant, Axxila, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Axxila, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Axxila, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Bandomeer Space Forces -->
+		
+		<!-- Bandomeer Land Forces -->
+		<Starting_Forces> CIS_Remnant, Bandomeer, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Bandomeer, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Bandomeer, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Bannistar Space Forces -->
+
+        <!-- Bannistar Land Forces -->
+		<Starting_Forces> CIS_Remnant, Bannistar, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Bannistar, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Bannistar, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Ciutric Space Forces -->
+
+        <!-- Ciutric Land Forces -->
+		<Starting_Forces> CIS_Remnant, Ciutric, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ciutric, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ciutric, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Agamar Space Forces -->
+
+        <!-- Agamar Land Forces -->
+		<Starting_Forces> CIS_Remnant, Agamar, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Agamar, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Agamar, Super_Battledroid_Squad </Starting_Forces>
+	
+		
+		
+		<!-- Banking_Clan Starting Forces -->
+
+		<Starting_Credits> Banking_Clan,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Banking_Clan, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Banking_Clan, 5 </Max_Tech_Level>
+                                                     
+        <!-- Muunilinst Space Forces -->
+
+        <!-- Muunilinst Land Forces -->
+		<Starting_Forces> Banking_Clan, Muunilinst, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Muunilinst, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Muunilinst, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Entralla Space Forces -->
+
+        <!-- Entralla Land Forces -->
+		<Starting_Forces> Banking_Clan, Entralla, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Entralla, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Entralla, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Mygeeto Space Forces -->
+
+        <!-- Mygeeto Land Forces -->
+		<Starting_Forces> Banking_Clan, Mygeeto, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Mygeeto, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Mygeeto, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Scipio Space Forces -->
+
+        <!-- Scipio Land Forces -->
+		<Starting_Forces> Banking_Clan, Scipio, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Scipio, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Scipio, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- YagaMinor Space Forces -->
+
+        <!-- YagaMinor Land Forces -->
+		<Starting_Forces> Banking_Clan, YagaMinor, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, YagaMinor, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, YagaMinor, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Morishim Space Forces -->
+
+        <!-- Morishim Land Forces -->
+		<Starting_Forces> Banking_Clan, Morishim, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Morishim, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Morishim, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Ord_Trasi Space Forces -->
+
+        <!-- Ord_Trasi Land Forces -->
+		<Starting_Forces> Banking_Clan, Ord_Trasi, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Ord_Trasi, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Ord_Trasi, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Akuria Space Forces -->
+
+        <!-- Akuria Land Forces -->
+		<Starting_Forces> Banking_Clan, Akuria, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Akuria, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Akuria, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Ord_Biniir Space Forces -->
+
+        <!-- Ord_Biniir Land Forces -->
+		<Starting_Forces> Banking_Clan, Ord_Biniir, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Ord_Biniir, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Ord_Biniir, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Kalee Space Forces -->
+
+        <!-- Kalee Land Forces -->
+		<Starting_Forces> Banking_Clan, Kalee, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Kalee, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Kalee, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Garqi Space Forces -->
+
+        <!-- Garqi Land Forces -->
+		<Starting_Forces> Banking_Clan, Garqi, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Garqi, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Garqi, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Wistril Space Forces -->
+
+        <!-- Wistril Land Forces -->
+		<Starting_Forces> Banking_Clan, Wistril, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Wistril, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Wistril, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Orinda Space Forces -->
+
+        <!-- Orinda Land Forces -->
+		<Starting_Forces> Banking_Clan, Orinda, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Orinda, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Orinda, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Ord_Cantrell Space Forces -->
+
+        <!-- Ord_Cantrell Land Forces -->
+		<Starting_Forces> Banking_Clan, Ord_Cantrell, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Ord_Cantrell, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Ord_Cantrell, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		
+		
+		<!-- Terrorists Starting Forces -->
+
+		<Starting_Credits> Terrorists,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Terrorists, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Terrorists, 5 </Max_Tech_Level>
+		
+        <!-- Dantooine Space Forces -->
+		
+        <!-- Dantooine Land Forces -->
+		<Starting_Forces> Terrorists, Dantooine, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Dantooine, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Dantooine, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Ajan_Kloss Space Forces -->
+		
+        <!-- Ajan_Kloss Land Forces -->
+		<Starting_Forces> Terrorists, Ajan_Kloss, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Ajan_Kloss, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Ajan_Kloss, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Phaeda Space Forces -->
+		
+        <!-- Phaeda Land Forces -->
+		<Starting_Forces> Terrorists, Phaeda, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Phaeda, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Phaeda, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Dathomir Space Forces -->
+		
+        <!-- Dathomir Land Forces -->
+		<Starting_Forces> Terrorists, Dathomir, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Dathomir, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Dathomir, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Bimmiel Space Forces -->
+		
+        <!-- Bimmiel Land Forces -->
+		<Starting_Forces> Terrorists, Bimmiel, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Bimmiel, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Bimmiel, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Ordmantell Space Forces -->
+		
+        <!-- Ordmantell Land Forces -->
+		<Starting_Forces> Terrorists, Ordmantell, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Ordmantell, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Ordmantell, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Generis Space Forces -->
+		
+        <!-- Generis Land Forces -->
+		<Starting_Forces> Terrorists, Generis, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Generis, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Generis, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Ketaris Space Forces -->
+		
+        <!-- Ketaris Land Forces -->
+		<Starting_Forces> Terrorists, Ketaris, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Ketaris, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Ketaris, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Darkon Space Forces -->
+		
+        <!-- Darkon Land Forces -->
+		<Starting_Forces> Terrorists, Darkon, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Darkon, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Darkon, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		
+		
+		<!-- Mandalorians Starting Forces -->
+
+		<Starting_Credits> Mandalorians,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Mandalorians, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Mandalorians, 5 </Max_Tech_Level>
+		
+        <!-- Mandalore Space Forces -->
+		
+        <!-- Mandalore Land Forces -->
+		<Starting_Forces> Mandalorians, Mandalore, Mandalorians_Barracks  </Starting_Forces>
+		<Starting_Forces> Mandalorians, Mandalore, Mandalorian_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Mandalorians, Mandalore, Mandalorian_Smuggler_Squad </Starting_Forces>
+		
+		<!-- Concord_Dawn Space Forces -->
+		
+        <!-- Concord_Dawn Land Forces -->
+		<Starting_Forces> Mandalorians, Concord_Dawn, Mandalorians_Barracks  </Starting_Forces>
+		<Starting_Forces> Mandalorians, Concord_Dawn, Mandalorian_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Mandalorians, Concord_Dawn, Mandalorian_Smuggler_Squad </Starting_Forces>
+		
+		
+
+  
+  
+  </Campaign>
+  
+  
+  
+  
+  
+  <Campaign Name="Sandbox_Ciutric_Offensive_Mandalorians">
+
+		<Campaign_Set> Sandbox_Ciutric_Offensive </Campaign_Set>
+		<Sort_Order>5</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_CIUTRIC_OFFENSIVE </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_CIUTRIC_OFFENSIVE_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> -27.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 56.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Mandalore, Concord_Dawn, Wayland, Phindar, Akiva, Raydonia, Celanon, Ord_Cestus,
+				Belsmuth, Dathomir, Bandomeer, Axxila, Taris, Myrkr, Castell, Carida, Corsin, 
+				Brakka, Arkania, Champala, Polus, Ithor, Ciutric, Bimmiel, Agamar, Ketaris,
+				Generis, Ajan_Kloss, Phaeda, Shili, Barlok, Ordmantell, Darkon, Wistril, Qiilura, 
+				Gleeanselm, Iridonia, Orinda, Ord_Cantrell, Garqi, Scipio, YagaMinor, Ord_Biniir, 
+				Ord_Trasi, Akuria, Dantooine, Morishim, Mygeeto, Entralla, Muunilinst, Kalee, Serenno, Bannistar, 
+				Binquaros, Sheris, Botajef, Thalassia, BorgoPrime, Ebra, Obredaan, Roxuli, Vinsoth
+		</Locations>
+
+        <Trade_Routes>
+			
+		</Trade_Routes>
+
+        <Home_Location> Early_Empire, Wayland </Home_Location>
+		<Home_Location> CIS_Remnant, Ciutric </Home_Location>
+        <Home_Location> Banking_Clan, Muunilinst </Home_Location>
+		<Home_Location> Terrorists, Dantooine </Home_Location>
+		<Home_Location> Mandalorians, Mandalore </Home_Location>
+		
+		<Starting_Active_Player> Mandalorians </Starting_Active_Player>
+		
+		<Story_Name>Early_Empire, story_Ciutric_Offensive\story_Ciutric_Offensive_Early_Empire.xml </Story_Name>
+		<Story_Name>CIS_Remnant, story_Ciutric_Offensive\story_Ciutric_Offensive_CIS_Remnant.xml </Story_Name>
+		<Story_Name>Banking_Clan, story_Ciutric_Offensive\story_Ciutric_Offensive_Banking_Clan.xml </Story_Name>
+        <Story_Name>Terrorists, story_Ciutric_Offensive\story_Ciutric_Offensive_Terrorists.xml </Story_Name>
+		<Story_Name>Mandalorians, story_Ciutric_Offensive\story_Ciutric_Offensive_Mandalorians.xml </Story_Name>
+		
+		<AI_Player_Control> Early_Empire, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> CIS_Remnant, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Banking_Clan, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Terrorists, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>Early_Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>CIS_Remnant, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Banking_Clan, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Terrorists, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Mandalorians, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		<!-- Early_Empire Starting Forces -->
+
+		<Starting_Credits> Early_Empire,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Early_Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Early_Empire, 5 </Max_Tech_Level>
+		
+        <!-- Barlok Space Forces -->
+	
+        <!-- Barlok Land Forces -->
+		<Starting_Forces> Early_Empire, Barlok, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Barlok, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Barlok, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Champala Space Forces -->
+	
+        <!-- Champala Land Forces -->
+		<Starting_Forces> Early_Empire, Champala, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Champala, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Champala, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Carida Space Forces -->
+	
+        <!-- Carida Land Forces -->
+		<Starting_Forces> Early_Empire, Carida, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Carida, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Carida, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Arkania Space Forces -->
+	
+        <!-- Arkania Land Forces -->
+		<Starting_Forces> Early_Empire, Arkania, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Arkania, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Arkania, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Shili Space Forces -->
+	
+        <!-- Shili Land Forces -->
+		<Starting_Forces> Early_Empire, Shili, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Shili, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Shili, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Ithor Space Forces -->
+	
+        <!-- Ithor Land Forces -->
+		<Starting_Forces> Early_Empire, Ithor, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ithor, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ithor, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Brakka Space Forces -->
+	
+        <!-- Brakka Land Forces -->
+		<Starting_Forces> Early_Empire, Brakka, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Brakka, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Brakka, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Corsin Space Forces -->
+	
+        <!-- Corsin Land Forces -->
+		<Starting_Forces> Early_Empire, Corsin, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Corsin, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Corsin, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Polus Space Forces -->
+	
+        <!-- Polus Land Forces -->
+		<Starting_Forces> Early_Empire, Polus, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Polus, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Polus, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Castell Space Forces -->
+	
+        <!-- Castell Land Forces -->
+		<Starting_Forces> Early_Empire, Castell, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Castell, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Castell, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Myrkr Space Forces -->
+	
+        <!-- Myrkr Land Forces -->
+		<Starting_Forces> Early_Empire, Myrkr, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Myrkr, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Myrkr, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Wayland Space Forces -->
+	
+        <!-- Wayland Land Forces -->
+		<Starting_Forces> Early_Empire, Wayland, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Wayland, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Wayland, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Taris Space Forces -->
+	
+        <!-- Taris Land Forces -->
+		<Starting_Forces> Early_Empire, Taris, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Taris, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Taris, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Qiilura Space Forces -->
+	
+        <!-- Qiilura Land Forces -->
+		<Starting_Forces> Early_Empire, Qiilura, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Qiilura, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Qiilura, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Iridonia Space Forces -->
+	
+        <!-- Iridonia Land Forces -->
+		<Starting_Forces> Early_Empire, Iridonia, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Iridonia, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Iridonia, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Gleeanselm Space Forces -->
+	
+        <!-- Gleeanselm Land Forces -->
+		<Starting_Forces> Early_Empire, Gleeanselm, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Gleeanselm, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Gleeanselm, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		
+		<!-- CIS_Remnant Starting Forces -->
+
+		<Starting_Credits> CIS_Remnant,  10000 </Starting_Credits>
+		<Starting_Tech_Level> CIS_Remnant, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> CIS_Remnant, 5 </Max_Tech_Level>
+                                                     
+        <!-- Serenno Space Forces -->
+
+        <!-- Serenno Land Forces -->
+		<Starting_Forces> CIS_Remnant, Serenno, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Serenno, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Serenno, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Phindar Space Forces -->
+
+        <!-- Phindar Land Forces -->
+		<Starting_Forces> CIS_Remnant, Phindar, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Phindar, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Phindar, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Akiva Space Forces -->
+
+        <!-- Akiva Land Forces -->
+		<Starting_Forces> CIS_Remnant, Akiva, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Akiva, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Akiva, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Raydonia Space Forces -->
+
+        <!-- Raydonia Land Forces -->
+		<Starting_Forces> CIS_Remnant, Raydonia, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Raydonia, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Raydonia, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Celanon Space Forces -->
+
+        <!-- Celanon Land Forces -->
+		<Starting_Forces> CIS_Remnant, Celanon, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Celanon, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Celanon, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Belsmuth Space Forces -->
+
+        <!-- Belsmuth Land Forces -->
+		<Starting_Forces> CIS_Remnant, Belsmuth, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Belsmuth, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Belsmuth, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Ord_Cestus Space Forces -->
+		
+		<!-- Ord_Cestus Land Forces -->
+		<Starting_Forces> CIS_Remnant, Ord_Cestus, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ord_Cestus, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ord_Cestus, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Axxila Space Forces -->
+
+        <!-- Axxila Land Forces -->
+		<Starting_Forces> CIS_Remnant, Axxila, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Axxila, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Axxila, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Bandomeer Space Forces -->
+		
+		<!-- Bandomeer Land Forces -->
+		<Starting_Forces> CIS_Remnant, Bandomeer, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Bandomeer, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Bandomeer, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Bannistar Space Forces -->
+
+        <!-- Bannistar Land Forces -->
+		<Starting_Forces> CIS_Remnant, Bannistar, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Bannistar, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Bannistar, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Ciutric Space Forces -->
+
+        <!-- Ciutric Land Forces -->
+		<Starting_Forces> CIS_Remnant, Ciutric, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ciutric, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ciutric, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Agamar Space Forces -->
+
+        <!-- Agamar Land Forces -->
+		<Starting_Forces> CIS_Remnant, Agamar, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Agamar, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Agamar, Super_Battledroid_Squad </Starting_Forces>
+	
+		
+		
+		<!-- Banking_Clan Starting Forces -->
+
+		<Starting_Credits> Banking_Clan,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Banking_Clan, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Banking_Clan, 5 </Max_Tech_Level>
+                                                     
+        <!-- Muunilinst Space Forces -->
+
+        <!-- Muunilinst Land Forces -->
+		<Starting_Forces> Banking_Clan, Muunilinst, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Muunilinst, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Muunilinst, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Entralla Space Forces -->
+
+        <!-- Entralla Land Forces -->
+		<Starting_Forces> Banking_Clan, Entralla, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Entralla, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Entralla, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Mygeeto Space Forces -->
+
+        <!-- Mygeeto Land Forces -->
+		<Starting_Forces> Banking_Clan, Mygeeto, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Mygeeto, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Mygeeto, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Scipio Space Forces -->
+
+        <!-- Scipio Land Forces -->
+		<Starting_Forces> Banking_Clan, Scipio, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Scipio, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Scipio, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- YagaMinor Space Forces -->
+
+        <!-- YagaMinor Land Forces -->
+		<Starting_Forces> Banking_Clan, YagaMinor, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, YagaMinor, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, YagaMinor, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Morishim Space Forces -->
+
+        <!-- Morishim Land Forces -->
+		<Starting_Forces> Banking_Clan, Morishim, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Morishim, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Morishim, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Ord_Trasi Space Forces -->
+
+        <!-- Ord_Trasi Land Forces -->
+		<Starting_Forces> Banking_Clan, Ord_Trasi, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Ord_Trasi, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Ord_Trasi, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Akuria Space Forces -->
+
+        <!-- Akuria Land Forces -->
+		<Starting_Forces> Banking_Clan, Akuria, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Akuria, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Akuria, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Ord_Biniir Space Forces -->
+
+        <!-- Ord_Biniir Land Forces -->
+		<Starting_Forces> Banking_Clan, Ord_Biniir, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Ord_Biniir, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Ord_Biniir, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Kalee Space Forces -->
+
+        <!-- Kalee Land Forces -->
+		<Starting_Forces> Banking_Clan, Kalee, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Kalee, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Kalee, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Garqi Space Forces -->
+
+        <!-- Garqi Land Forces -->
+		<Starting_Forces> Banking_Clan, Garqi, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Garqi, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Garqi, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Wistril Space Forces -->
+
+        <!-- Wistril Land Forces -->
+		<Starting_Forces> Banking_Clan, Wistril, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Wistril, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Wistril, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Orinda Space Forces -->
+
+        <!-- Orinda Land Forces -->
+		<Starting_Forces> Banking_Clan, Orinda, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Orinda, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Orinda, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Ord_Cantrell Space Forces -->
+
+        <!-- Ord_Cantrell Land Forces -->
+		<Starting_Forces> Banking_Clan, Ord_Cantrell, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Ord_Cantrell, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Ord_Cantrell, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
+		
+		
+		<!-- Terrorists Starting Forces -->
+
+		<Starting_Credits> Terrorists,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Terrorists, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Terrorists, 5 </Max_Tech_Level>
+		
+        <!-- Dantooine Space Forces -->
+		
+        <!-- Dantooine Land Forces -->
+		<Starting_Forces> Terrorists, Dantooine, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Dantooine, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Dantooine, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Ajan_Kloss Space Forces -->
+		
+        <!-- Ajan_Kloss Land Forces -->
+		<Starting_Forces> Terrorists, Ajan_Kloss, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Ajan_Kloss, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Ajan_Kloss, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Phaeda Space Forces -->
+		
+        <!-- Phaeda Land Forces -->
+		<Starting_Forces> Terrorists, Phaeda, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Phaeda, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Phaeda, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Dathomir Space Forces -->
+		
+        <!-- Dathomir Land Forces -->
+		<Starting_Forces> Terrorists, Dathomir, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Dathomir, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Dathomir, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Bimmiel Space Forces -->
+		
+        <!-- Bimmiel Land Forces -->
+		<Starting_Forces> Terrorists, Bimmiel, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Bimmiel, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Bimmiel, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Ordmantell Space Forces -->
+		
+        <!-- Ordmantell Land Forces -->
+		<Starting_Forces> Terrorists, Ordmantell, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Ordmantell, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Ordmantell, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Generis Space Forces -->
+		
+        <!-- Generis Land Forces -->
+		<Starting_Forces> Terrorists, Generis, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Generis, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Generis, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Ketaris Space Forces -->
+		
+        <!-- Ketaris Land Forces -->
+		<Starting_Forces> Terrorists, Ketaris, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Ketaris, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Ketaris, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Darkon Space Forces -->
+		
+        <!-- Darkon Land Forces -->
+		<Starting_Forces> Terrorists, Darkon, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Darkon, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Darkon, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		
+		
+		<!-- Mandalorians Starting Forces -->
+
+		<Starting_Credits> Mandalorians,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Mandalorians, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Mandalorians, 5 </Max_Tech_Level>
+		
+        <!-- Mandalore Space Forces -->
+		
+        <!-- Mandalore Land Forces -->
+		<Starting_Forces> Mandalorians, Mandalore, Mandalorians_Barracks  </Starting_Forces>
+		<Starting_Forces> Mandalorians, Mandalore, Mandalorian_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Mandalorians, Mandalore, Mandalorian_Smuggler_Squad </Starting_Forces>
+		
+		<!-- Concord_Dawn Space Forces -->
+		
+        <!-- Concord_Dawn Land Forces -->
+		<Starting_Forces> Mandalorians, Concord_Dawn, Mandalorians_Barracks  </Starting_Forces>
+		<Starting_Forces> Mandalorians, Concord_Dawn, Mandalorian_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Mandalorians, Concord_Dawn, Mandalorian_Smuggler_Squad </Starting_Forces>
+		
+		
+
+  
+  
+  </Campaign>
+  
+  
+  
+  
+	
+	
+	
+	
+	  
+	  
+	  
+	  
+	  
+	 
+	  
+	  
+	  
+	
+	
+	
+	
+
+
+	
+
+
+ </Campaigns>

@@ -124,7 +124,7 @@
 		</Encyclopedia_Text>
 		<Icon_Name>i_button_rebelRifleman.tga</Icon_Name>
 		<GUI_Model_Name>RI_Stormtrooper.ALO</GUI_Model_Name>
-        <GUI_Row> 0 </GUI_Row>
+        <GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>106</Damage>
 		<Autoresolve_Health>1800</Autoresolve_Health> <!-- changed to reflect the real health of the units-->
@@ -135,7 +135,7 @@
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>5</Tech_Level>
 		<Required_Special_Structures>R_Ground_Barracks</Required_Special_Structures>
 		
 		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>

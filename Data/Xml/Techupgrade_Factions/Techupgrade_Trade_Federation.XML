@@ -12,10 +12,10 @@
         <Required_Timeline>0</Required_Timeline>
         <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
         <Required_Star_Base_Level>0</Required_Star_Base_Level>
-         <Required_Special_Structures>Trade_Federation_Ground_Research_Facility</Required_Special_Structures>
+         
         <Required_Planets />
 		<Required_Orbiting_Units />
-        <Build_Time_Seconds>30</Build_Time_Seconds>
+        <Build_Time_Seconds>850</Build_Time_Seconds>
         <Build_Cost_Credits>5000</Build_Cost_Credits>
         <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
         <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
@@ -30,7 +30,7 @@
         <Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
 		<Build_Countdown_Text_ID> UPGRADE_TRADE_FEDERATION_TECH_02 </Build_Countdown_Text_ID>
-		<Build_Countdown_Text_RGBA> 21, 21, 95, 255 </Build_Countdown_Text_RGBA>
+		<Build_Countdown_Text_RGBA> 143, 92, 19, 255 </Build_Countdown_Text_RGBA>
 		<Build_Music_Completed>  </Build_Music_Completed>
 
     </SpaceUnit>
@@ -45,10 +45,10 @@
         <Required_Timeline>0</Required_Timeline>
         <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
         <Required_Star_Base_Level>0</Required_Star_Base_Level>
-         <Required_Special_Structures>Trade_Federation_Ground_Research_Facility</Required_Special_Structures>
+         
         <Required_Planets />
 		<Required_Orbiting_Units />
-        <Build_Time_Seconds>30</Build_Time_Seconds>
+        <Build_Time_Seconds>850</Build_Time_Seconds>
         <Build_Cost_Credits>5000</Build_Cost_Credits>
         <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
         <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
@@ -63,7 +63,7 @@
 
 		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
 		<Build_Countdown_Text_ID> UPGRADE_TRADE_FEDERATION_TECH_03 </Build_Countdown_Text_ID>
-		<Build_Countdown_Text_RGBA> 21, 21, 95, 255 </Build_Countdown_Text_RGBA>
+		<Build_Countdown_Text_RGBA> 143, 92, 19, 255 </Build_Countdown_Text_RGBA>
 		<Build_Music_Completed>  </Build_Music_Completed>
 
     </SpaceUnit>
@@ -78,10 +78,10 @@
         <Required_Timeline>0</Required_Timeline>
         <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
         <Required_Star_Base_Level>0</Required_Star_Base_Level>
-         <Required_Special_Structures>Trade_Federation_Ground_Research_Facility</Required_Special_Structures>
+         
         <Required_Planets />
 		<Required_Orbiting_Units />
-        <Build_Time_Seconds>30</Build_Time_Seconds>
+        <Build_Time_Seconds>850</Build_Time_Seconds>
         <Build_Cost_Credits>5000</Build_Cost_Credits>
         <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
         <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
@@ -96,7 +96,7 @@
 
 		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
 		<Build_Countdown_Text_ID> UPGRADE_TRADE_FEDERATION_TECH_04 </Build_Countdown_Text_ID>
-		<Build_Countdown_Text_RGBA> 21, 21, 95, 255 </Build_Countdown_Text_RGBA>
+		<Build_Countdown_Text_RGBA> 143, 92, 19, 255 </Build_Countdown_Text_RGBA>
 		<Build_Music_Completed>  </Build_Music_Completed>
 
     </SpaceUnit>
@@ -111,10 +111,10 @@
         <Required_Timeline>0</Required_Timeline>
         <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
         <Required_Star_Base_Level>0</Required_Star_Base_Level>
-         <Required_Special_Structures>Trade_Federation_Ground_Research_Facility</Required_Special_Structures>
+         
         <Required_Planets />
 		<Required_Orbiting_Units />
-        <Build_Time_Seconds>30</Build_Time_Seconds>
+        <Build_Time_Seconds>850</Build_Time_Seconds>
         <Build_Cost_Credits>5000</Build_Cost_Credits>
         <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
         <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
@@ -129,7 +129,7 @@
 
 		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
 		<Build_Countdown_Text_ID> UPGRADE_TRADE_FEDERATION_TECH_05 </Build_Countdown_Text_ID>
-		<Build_Countdown_Text_RGBA> 21, 21, 95, 255 </Build_Countdown_Text_RGBA>
+		<Build_Countdown_Text_RGBA> 143, 92, 19, 255 </Build_Countdown_Text_RGBA>
 		<Build_Music_Completed>  </Build_Music_Completed>
 
     </SpaceUnit>

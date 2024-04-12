@@ -1,0 +1,878 @@
+<?xml version="1.0"?>
+<Campaigns>
+
+
+
+<!-- ************************************************************** -->
+<!-- **************** SANDBOX CAMPAIGN "Western Reaches Operation" ***************** -->
+<!-- ************************************************************** -->
+
+
+	
+
+
+	
+  
+  
+  
+  
+  
+  
+  <Campaign Name="Sandbox_Western_Reaches_Operation_Early_Empire">
+
+		<Campaign_Set> Sandbox_Western_Reaches_Operation </Campaign_Set>
+		<Sort_Order>2</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_WESTERN_REACHES_OPERATION </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_WESTERN_REACHES_OPERATION_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> 297.0 </Camera_Shift_X>
+        <Camera_Shift_Y> -953.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Woostri, Alakatha, Nkllon, Bormus, Malastare, Calonica, Bomis_Koori, Crait,
+				Sullust, Belsavis, Eriadu, Tibrin, Atravis, Sluis_Van, Bespin, Anoat
+		</Locations>
+
+        <Trade_Routes>
+			
+		</Trade_Routes>
+
+        <Home_Location> Early_Empire, Eriadu </Home_Location>
+		<Home_Location> Terrorists, Crait </Home_Location>
+		<Home_Location> Trade_Federation, Nkllon </Home_Location>
+		<Home_Location> Commerce_Guild, Bomis_Koori </Home_Location>
+		
+		<Starting_Active_Player> Early_Empire </Starting_Active_Player>
+		
+		<Story_Name>Early_Empire, story_Western_Reaches_Operation\story_Western_Reaches_Operation_Early_Empire.xml </Story_Name>
+        <Story_Name>Terrorists, story_Western_Reaches_Operation\story_Western_Reaches_Operation_Terrorists.xml </Story_Name>
+		<Story_Name>Trade_Federation, story_Western_Reaches_Operation\story_Western_Reaches_Operation_Trade_Federation.xml </Story_Name>
+        <Story_Name>Commerce_Guild, story_Western_Reaches_Operation\story_Western_Reaches_Operation_Commerce_Guild.xml </Story_Name>
+		
+		<AI_Player_Control> Terrorists, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Trade_Federation, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Commerce_Guild, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>Early_Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Terrorists, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Trade_Federation, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Commerce_Guild, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		<!-- Early_Empire Starting Forces -->
+
+		<Starting_Credits> Early_Empire,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Early_Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Early_Empire, 5 </Max_Tech_Level>
+		
+        <!-- Eriadu Space Forces -->
+	
+        <!-- Eriadu Land Forces -->
+		<Starting_Forces> Early_Empire, Eriadu, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Eriadu, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Eriadu, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Atravis Space Forces -->
+	
+        <!-- Atravis Land Forces -->
+		<Starting_Forces> Early_Empire, Atravis, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Atravis, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Atravis, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Sullust Space Forces -->
+	
+        <!-- Sullust Land Forces -->
+		<Starting_Forces> Early_Empire, Sullust, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Sullust, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Sullust, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Malastare Space Forces -->
+	
+        <!-- Malastare Land Forces -->
+		<Starting_Forces> Early_Empire, Malastare, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Malastare, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Malastare, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Bormus Space Forces -->
+	
+        <!-- Bormus Land Forces -->
+		<Starting_Forces> Early_Empire, Bormus, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Bormus, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Bormus, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+
+		
+		
+		<!-- Terrorists Starting Forces -->
+
+		<Starting_Credits> Terrorists,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Terrorists, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Terrorists, 5 </Max_Tech_Level>
+                                                     
+        <!-- Crait Space Forces -->
+
+        <!-- Crait Land Forces -->
+		<Starting_Forces> Terrorists, Crait, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Crait, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Crait, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Anoat Space Forces -->
+
+        <!-- Anoat Land Forces -->
+		<Starting_Forces> Terrorists, Anoat, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Anoat, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Anoat, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Bespin Space Forces -->
+
+        <!-- Bespin Land Forces -->
+		<Starting_Forces> Terrorists, Bespin, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Bespin, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Bespin, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		<!-- Trade Federation Starting Forces -->
+
+		<Starting_Credits> Trade_Federation,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Trade_Federation, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Trade_Federation, 5 </Max_Tech_Level>
+		
+        <!-- Nkllon Space Forces -->
+		
+        <!-- Nkllon Land Forces -->
+		<Starting_Forces> Trade_Federation, Nkllon, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Nkllon, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Nkllon, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Woostri Space Forces -->
+		
+        <!-- Woostri Land Forces -->
+		<Starting_Forces> Trade_Federation, Woostri, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Woostri, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Woostri, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Calonica Space Forces -->
+		
+        <!-- Calonica Land Forces -->
+		<Starting_Forces> Trade_Federation, Calonica, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Calonica, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Calonica, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Alakatha Space Forces -->
+		
+        <!-- Alakatha Land Forces -->
+		<Starting_Forces> Trade_Federation, Alakatha, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Alakatha, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Alakatha, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+        <!-- Commerce Guild Starting Forces -->
+
+		<Starting_Credits> Commerce_Guild,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Commerce_Guild, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Commerce_Guild, 5 </Max_Tech_Level>
+		
+        <!-- Bomis_Koori Space Forces -->
+		
+        <!-- Bomis_Koori Land Forces -->
+		<Starting_Forces> Commerce_Guild, Bomis_Koori, Commerce_Guild_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Bomis_Koori, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Bomis_Koori, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		
+		<!-- Belsavis Space Forces -->
+		
+        <!-- Belsavis Land Forces -->
+		<Starting_Forces> Commerce_Guild, Belsavis, Commerce_Guild_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Belsavis, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Belsavis, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		
+		<!-- Tibrin Space Forces -->
+		
+        <!-- Tibrin Land Forces -->
+		<Starting_Forces> Commerce_Guild, Tibrin, Commerce_Guild_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Tibrin, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Tibrin, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+
+	
+  
+  
+  </Campaign>
+  
+  
+  
+  
+  
+  
+  <Campaign Name="Sandbox_Western_Reaches_Operation_Terrorists">
+
+		<Campaign_Set> Sandbox_Western_Reaches_Operation </Campaign_Set>
+		<Sort_Order>2</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_WESTERN_REACHES_OPERATION </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_WESTERN_REACHES_OPERATION_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> 372.0 </Camera_Shift_X>
+        <Camera_Shift_Y> -835.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Woostri, Alakatha, Nkllon, Bormus, Malastare, Calonica, Bomis_Koori, Crait,
+				Sullust, Belsavis, Eriadu, Tibrin, Atravis, Sluis_Van, Bespin, Anoat
+		</Locations>
+
+        <Trade_Routes>
+			
+		</Trade_Routes>
+
+        <Home_Location> Early_Empire, Eriadu </Home_Location>
+		<Home_Location> Terrorists, Crait </Home_Location>
+		<Home_Location> Trade_Federation, Nkllon </Home_Location>
+		<Home_Location> Commerce_Guild, Bomis_Koori </Home_Location>
+		
+		<Starting_Active_Player> Terrorists </Starting_Active_Player>
+		
+		<Story_Name>Early_Empire, story_Western_Reaches_Operation\story_Western_Reaches_Operation_Early_Empire.xml </Story_Name>
+        <Story_Name>Terrorists, story_Western_Reaches_Operation\story_Western_Reaches_Operation_Terrorists.xml </Story_Name>
+		<Story_Name>Trade_Federation, story_Western_Reaches_Operation\story_Western_Reaches_Operation_Trade_Federation.xml </Story_Name>
+        <Story_Name>Commerce_Guild, story_Western_Reaches_Operation\story_Western_Reaches_Operation_Commerce_Guild.xml </Story_Name>
+		
+		<AI_Player_Control> Early_Empire, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Trade_Federation, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Commerce_Guild, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>Early_Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Terrorists, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Trade_Federation, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Commerce_Guild, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		<!-- Early_Empire Starting Forces -->
+
+		<Starting_Credits> Early_Empire,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Early_Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Early_Empire, 5 </Max_Tech_Level>
+		
+        <!-- Eriadu Space Forces -->
+	
+        <!-- Eriadu Land Forces -->
+		<Starting_Forces> Early_Empire, Eriadu, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Eriadu, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Eriadu, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Atravis Space Forces -->
+	
+        <!-- Atravis Land Forces -->
+		<Starting_Forces> Early_Empire, Atravis, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Atravis, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Atravis, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Sullust Space Forces -->
+	
+        <!-- Sullust Land Forces -->
+		<Starting_Forces> Early_Empire, Sullust, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Sullust, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Sullust, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Malastare Space Forces -->
+	
+        <!-- Malastare Land Forces -->
+		<Starting_Forces> Early_Empire, Malastare, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Malastare, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Malastare, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Bormus Space Forces -->
+	
+        <!-- Bormus Land Forces -->
+		<Starting_Forces> Early_Empire, Bormus, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Bormus, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Bormus, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+
+		
+		
+		<!-- Terrorists Starting Forces -->
+
+		<Starting_Credits> Terrorists,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Terrorists, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Terrorists, 5 </Max_Tech_Level>
+                                                     
+        <!-- Crait Space Forces -->
+
+        <!-- Crait Land Forces -->
+		<Starting_Forces> Terrorists, Crait, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Crait, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Crait, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Anoat Space Forces -->
+
+        <!-- Anoat Land Forces -->
+		<Starting_Forces> Terrorists, Anoat, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Anoat, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Anoat, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Bespin Space Forces -->
+
+        <!-- Bespin Land Forces -->
+		<Starting_Forces> Terrorists, Bespin, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Bespin, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Bespin, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		<!-- Trade Federation Starting Forces -->
+
+		<Starting_Credits> Trade_Federation,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Trade_Federation, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Trade_Federation, 5 </Max_Tech_Level>
+		
+        <!-- Nkllon Space Forces -->
+		
+        <!-- Nkllon Land Forces -->
+		<Starting_Forces> Trade_Federation, Nkllon, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Nkllon, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Nkllon, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Woostri Space Forces -->
+		
+        <!-- Woostri Land Forces -->
+		<Starting_Forces> Trade_Federation, Woostri, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Woostri, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Woostri, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Calonica Space Forces -->
+		
+        <!-- Calonica Land Forces -->
+		<Starting_Forces> Trade_Federation, Calonica, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Calonica, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Calonica, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Alakatha Space Forces -->
+		
+        <!-- Alakatha Land Forces -->
+		<Starting_Forces> Trade_Federation, Alakatha, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Alakatha, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Alakatha, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+        <!-- Commerce Guild Starting Forces -->
+
+		<Starting_Credits> Commerce_Guild,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Commerce_Guild, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Commerce_Guild, 5 </Max_Tech_Level>
+		
+        <!-- Bomis_Koori Space Forces -->
+		
+        <!-- Bomis_Koori Land Forces -->
+		<Starting_Forces> Commerce_Guild, Bomis_Koori, Commerce_Guild_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Bomis_Koori, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Bomis_Koori, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		
+		<!-- Belsavis Space Forces -->
+		
+        <!-- Belsavis Land Forces -->
+		<Starting_Forces> Commerce_Guild, Belsavis, Commerce_Guild_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Belsavis, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Belsavis, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		
+		<!-- Tibrin Space Forces -->
+		
+        <!-- Tibrin Land Forces -->
+		<Starting_Forces> Commerce_Guild, Tibrin, Commerce_Guild_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Tibrin, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Tibrin, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+
+	
+  
+  
+  </Campaign>
+  
+  
+  
+  
+  
+  <Campaign Name="Sandbox_Western_Reaches_Operation_Trade_Federation">
+
+		<Campaign_Set> Sandbox_Western_Reaches_Operation </Campaign_Set>
+		<Sort_Order>2</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_WESTERN_REACHES_OPERATION </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_WESTERN_REACHES_OPERATION_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> 215.0 </Camera_Shift_X>
+        <Camera_Shift_Y> -651.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Woostri, Alakatha, Nkllon, Bormus, Malastare, Calonica, Bomis_Koori, Crait,
+				Sullust, Belsavis, Eriadu, Tibrin, Atravis, Sluis_Van, Bespin, Anoat
+		</Locations>
+
+        <Trade_Routes>
+			
+		</Trade_Routes>
+
+        <Home_Location> Early_Empire, Eriadu </Home_Location>
+		<Home_Location> Terrorists, Crait </Home_Location>
+		<Home_Location> Trade_Federation, Nkllon </Home_Location>
+		<Home_Location> Commerce_Guild, Bomis_Koori </Home_Location>
+		
+		<Starting_Active_Player> Trade_Federation </Starting_Active_Player>
+		
+		<Story_Name>Early_Empire, story_Western_Reaches_Operation\story_Western_Reaches_Operation_Early_Empire.xml </Story_Name>
+        <Story_Name>Terrorists, story_Western_Reaches_Operation\story_Western_Reaches_Operation_Terrorists.xml </Story_Name>
+		<Story_Name>Trade_Federation, story_Western_Reaches_Operation\story_Western_Reaches_Operation_Trade_Federation.xml </Story_Name>
+        <Story_Name>Commerce_Guild, story_Western_Reaches_Operation\story_Western_Reaches_Operation_Commerce_Guild.xml </Story_Name>
+		
+		<AI_Player_Control> Early_Empire, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Terrorists, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Commerce_Guild, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>Early_Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Terrorists, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Trade_Federation, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Commerce_Guild, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		<!-- Early_Empire Starting Forces -->
+
+		<Starting_Credits> Early_Empire,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Early_Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Early_Empire, 5 </Max_Tech_Level>
+		
+        <!-- Eriadu Space Forces -->
+	
+        <!-- Eriadu Land Forces -->
+		<Starting_Forces> Early_Empire, Eriadu, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Eriadu, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Eriadu, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Atravis Space Forces -->
+	
+        <!-- Atravis Land Forces -->
+		<Starting_Forces> Early_Empire, Atravis, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Atravis, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Atravis, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Sullust Space Forces -->
+	
+        <!-- Sullust Land Forces -->
+		<Starting_Forces> Early_Empire, Sullust, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Sullust, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Sullust, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Malastare Space Forces -->
+	
+        <!-- Malastare Land Forces -->
+		<Starting_Forces> Early_Empire, Malastare, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Malastare, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Malastare, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Bormus Space Forces -->
+	
+        <!-- Bormus Land Forces -->
+		<Starting_Forces> Early_Empire, Bormus, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Bormus, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Bormus, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+
+		
+		
+		<!-- Terrorists Starting Forces -->
+
+		<Starting_Credits> Terrorists,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Terrorists, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Terrorists, 5 </Max_Tech_Level>
+                                                     
+        <!-- Crait Space Forces -->
+
+        <!-- Crait Land Forces -->
+		<Starting_Forces> Terrorists, Crait, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Crait, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Crait, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Anoat Space Forces -->
+
+        <!-- Anoat Land Forces -->
+		<Starting_Forces> Terrorists, Anoat, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Anoat, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Anoat, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Bespin Space Forces -->
+
+        <!-- Bespin Land Forces -->
+		<Starting_Forces> Terrorists, Bespin, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Bespin, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Bespin, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		<!-- Trade Federation Starting Forces -->
+
+		<Starting_Credits> Trade_Federation,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Trade_Federation, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Trade_Federation, 5 </Max_Tech_Level>
+		
+        <!-- Nkllon Space Forces -->
+		
+        <!-- Nkllon Land Forces -->
+		<Starting_Forces> Trade_Federation, Nkllon, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Nkllon, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Nkllon, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Woostri Space Forces -->
+		
+        <!-- Woostri Land Forces -->
+		<Starting_Forces> Trade_Federation, Woostri, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Woostri, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Woostri, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Calonica Space Forces -->
+		
+        <!-- Calonica Land Forces -->
+		<Starting_Forces> Trade_Federation, Calonica, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Calonica, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Calonica, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Alakatha Space Forces -->
+		
+        <!-- Alakatha Land Forces -->
+		<Starting_Forces> Trade_Federation, Alakatha, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Alakatha, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Alakatha, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+        <!-- Commerce Guild Starting Forces -->
+
+		<Starting_Credits> Commerce_Guild,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Commerce_Guild, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Commerce_Guild, 5 </Max_Tech_Level>
+		
+        <!-- Bomis_Koori Space Forces -->
+		
+        <!-- Bomis_Koori Land Forces -->
+		<Starting_Forces> Commerce_Guild, Bomis_Koori, Commerce_Guild_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Bomis_Koori, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Bomis_Koori, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		
+		<!-- Belsavis Space Forces -->
+		
+        <!-- Belsavis Land Forces -->
+		<Starting_Forces> Commerce_Guild, Belsavis, Commerce_Guild_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Belsavis, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Belsavis, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		
+		<!-- Tibrin Space Forces -->
+		
+        <!-- Tibrin Land Forces -->
+		<Starting_Forces> Commerce_Guild, Tibrin, Commerce_Guild_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Tibrin, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Tibrin, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+
+	
+  
+  
+  </Campaign>
+  
+  
+  
+  
+  
+  
+  <Campaign Name="Sandbox_Western_Reaches_Operation_Commerce_Guild">
+
+		<Campaign_Set> Sandbox_Western_Reaches_Operation </Campaign_Set>
+		<Sort_Order>2</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_WESTERN_REACHES_OPERATION </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_WESTERN_REACHES_OPERATION_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> 141.0 </Camera_Shift_X>
+        <Camera_Shift_Y> -739.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Woostri, Alakatha, Nkllon, Bormus, Malastare, Calonica, Bomis_Koori, Crait,
+				Sullust, Belsavis, Eriadu, Tibrin, Atravis, Sluis_Van, Bespin, Anoat
+		</Locations>
+
+        <Trade_Routes>
+			
+		</Trade_Routes>
+
+        <Home_Location> Early_Empire, Eriadu </Home_Location>
+		<Home_Location> Terrorists, Crait </Home_Location>
+		<Home_Location> Trade_Federation, Nkllon </Home_Location>
+		<Home_Location> Commerce_Guild, Bomis_Koori </Home_Location>
+		
+		<Starting_Active_Player> Commerce_Guild </Starting_Active_Player>
+		
+		<Story_Name>Early_Empire, story_Western_Reaches_Operation\story_Western_Reaches_Operation_Early_Empire.xml </Story_Name>
+        <Story_Name>Terrorists, story_Western_Reaches_Operation\story_Western_Reaches_Operation_Terrorists.xml </Story_Name>
+		<Story_Name>Trade_Federation, story_Western_Reaches_Operation\story_Western_Reaches_Operation_Trade_Federation.xml </Story_Name>
+        <Story_Name>Commerce_Guild, story_Western_Reaches_Operation\story_Western_Reaches_Operation_Commerce_Guild.xml </Story_Name>
+		
+		<AI_Player_Control> Early_Empire, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Terrorists, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Trade_Federation, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>Early_Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Terrorists, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Trade_Federation, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Commerce_Guild, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		<!-- Early_Empire Starting Forces -->
+
+		<Starting_Credits> Early_Empire,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Early_Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Early_Empire, 5 </Max_Tech_Level>
+		
+        <!-- Eriadu Space Forces -->
+	
+        <!-- Eriadu Land Forces -->
+		<Starting_Forces> Early_Empire, Eriadu, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Eriadu, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Eriadu, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Atravis Space Forces -->
+	
+        <!-- Atravis Land Forces -->
+		<Starting_Forces> Early_Empire, Atravis, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Atravis, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Atravis, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Sullust Space Forces -->
+	
+        <!-- Sullust Land Forces -->
+		<Starting_Forces> Early_Empire, Sullust, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Sullust, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Sullust, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Malastare Space Forces -->
+	
+        <!-- Malastare Land Forces -->
+		<Starting_Forces> Early_Empire, Malastare, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Malastare, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Malastare, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Bormus Space Forces -->
+	
+        <!-- Bormus Land Forces -->
+		<Starting_Forces> Early_Empire, Bormus, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Bormus, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Bormus, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+
+		
+		
+		<!-- Terrorists Starting Forces -->
+
+		<Starting_Credits> Terrorists,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Terrorists, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Terrorists, 5 </Max_Tech_Level>
+                                                     
+        <!-- Crait Space Forces -->
+
+        <!-- Crait Land Forces -->
+		<Starting_Forces> Terrorists, Crait, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Crait, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Crait, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Anoat Space Forces -->
+
+        <!-- Anoat Land Forces -->
+		<Starting_Forces> Terrorists, Anoat, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Anoat, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Anoat, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Bespin Space Forces -->
+
+        <!-- Bespin Land Forces -->
+		<Starting_Forces> Terrorists, Bespin, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Bespin, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Bespin, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		<!-- Trade Federation Starting Forces -->
+
+		<Starting_Credits> Trade_Federation,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Trade_Federation, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Trade_Federation, 5 </Max_Tech_Level>
+		
+        <!-- Nkllon Space Forces -->
+		
+        <!-- Nkllon Land Forces -->
+		<Starting_Forces> Trade_Federation, Nkllon, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Nkllon, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Nkllon, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Woostri Space Forces -->
+		
+        <!-- Woostri Land Forces -->
+		<Starting_Forces> Trade_Federation, Woostri, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Woostri, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Woostri, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Calonica Space Forces -->
+		
+        <!-- Calonica Land Forces -->
+		<Starting_Forces> Trade_Federation, Calonica, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Calonica, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Calonica, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Alakatha Space Forces -->
+		
+        <!-- Alakatha Land Forces -->
+		<Starting_Forces> Trade_Federation, Alakatha, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Alakatha, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Alakatha, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+        <!-- Commerce Guild Starting Forces -->
+
+		<Starting_Credits> Commerce_Guild,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Commerce_Guild, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Commerce_Guild, 5 </Max_Tech_Level>
+		
+        <!-- Bomis_Koori Space Forces -->
+		
+        <!-- Bomis_Koori Land Forces -->
+		<Starting_Forces> Commerce_Guild, Bomis_Koori, Commerce_Guild_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Bomis_Koori, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Bomis_Koori, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		
+		<!-- Belsavis Space Forces -->
+		
+        <!-- Belsavis Land Forces -->
+		<Starting_Forces> Commerce_Guild, Belsavis, Commerce_Guild_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Belsavis, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Belsavis, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		
+		<!-- Tibrin Space Forces -->
+		
+        <!-- Tibrin Land Forces -->
+		<Starting_Forces> Commerce_Guild, Tibrin, Commerce_Guild_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Tibrin, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Tibrin, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+
+	
+  
+  
+  </Campaign>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+	
+	
+	
+	
+	  
+	  
+	  
+	  
+	  
+	 
+	  
+	  
+	  
+	
+	
+	
+	
+
+
+	
+
+
+ </Campaigns>

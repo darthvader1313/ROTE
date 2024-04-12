@@ -57,6 +57,86 @@
 	
 <!-- START GALACTIC THEMES -->
 
+	<MusicEvent Name="Galactic_Map_Early_Empire_Music_Event">
+		<Files> Galactic_Conquest_Early_Empire.mp3 </Files>
+        <Volume_Percent>100</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop> Yes </Loop>
+    </MusicEvent>
+	
+	<MusicEvent Name="Galactic_Map_Terrorists_Music_Event">
+		<Files> Galactic_Conquest_Terrorists.mp3 </Files>
+        <Volume_Percent>60</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop> Yes </Loop>
+    </MusicEvent>
+	
+	<MusicEvent Name="Galactic_Map_CIS_Remnant_Music_Event">
+		<Files> Galactic_Conquest_CIS_Remnant.mp3 </Files>
+        <Volume_Percent>60</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop> Yes </Loop>
+    </MusicEvent>
+	
+	<MusicEvent Name="Galactic_Map_Trade_Federation_Music_Event">
+		<Files> Galactic_Conquest_Trade_Federation.mp3 </Files>
+        <Volume_Percent>60</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop> Yes </Loop>
+    </MusicEvent>
+	
+	<MusicEvent Name="Galactic_Map_Mandalorians_Music_Event">
+		<Files> Galactic_Conquest_Mandalorians.mp3 </Files>
+        <Volume_Percent>60</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop> Yes </Loop>
+    </MusicEvent>
+	
+	<MusicEvent Name="Galactic_Map_Galactic_Empire_Music_Event">
+		<Files> Galactic_Conquest_Galactic_Empire.mp3 </Files>
+        <Volume_Percent>60</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop> Yes </Loop>
+    </MusicEvent>
+	
+	<MusicEvent Name="Galactic_Map_Rebel_Alliance_Music_Event">
+		<Files> Galactic_Conquest_Rebel_Alliance.mp3 </Files>
+        <Volume_Percent>60</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop> Yes </Loop>
+    </MusicEvent>
+	
+	<MusicEvent Name="Galactic_Map_Crimson_Dawn_Music_Event">
+		<Files> Galactic_Conquest_Crimson_Dawn.mp3 </Files>
+        <Volume_Percent>60</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop> Yes </Loop>
+    </MusicEvent>
+	
+	<MusicEvent Name="Galactic_Map_New_Republic_Music_Event">
+		<Files> Galactic_Conquest_New_Republic.mp3 </Files>
+        <Volume_Percent>60</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop> Yes </Loop>
+    </MusicEvent>
+	
+	<MusicEvent Name="Galactic_Map_Imperial_Remnant_Thrawn_Music_Event">
+		<Files> Galactic_Conquest_Imperial_Remnant_Thrawn.mp3 </Files>
+        <Volume_Percent>60</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop> Yes </Loop>
+    </MusicEvent>
+	
 	<MusicEvent Name="Galactic_Map_Rebel_Music_Event">
 		<Files> Galactic_Conquest.mp3 </Files>
         <Volume_Percent>60</Volume_Percent>

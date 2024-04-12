@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+
+
+
+<!--***********************************************-->
+<!--***** CAMPAIGN: Antar_Atrocity (Black_Sun Version) *****-->
+<!--***********************************************-->
+
+
+
+<Story>
+
+	<Event Name="Universal_Story_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>		
+	</Event>
+	
+	<Event Name="Black_Sun_AI_Unlock_Research_Facility">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Black_Sun_Ground_Research_Facility</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<!-- Spawn Tech Level 1 Heroes -->
+
+	<Event Name="Black_Sun_Enters_Tech_01">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>1</Event_Param1>
+	</Event>
+
+	<!-- Spawn Time Era 2 Heroes -->
+
+	<Event Name="Black_Sun_Enters_Tech_02">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>2</Event_Param1>
+	</Event>
+	
+	<!-- Spawn Time Era 3 Heroes -->
+
+	<Event Name="Black_Sun_Enters_Tech_03">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>3</Event_Param1>
+	</Event>
+
+	<!-- Spawn Time Era 4 Heroes -->
+
+	<Event Name="Black_Sun_Enters_Tech_04">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>4</Event_Param1>
+	</Event>
+
+	<!-- Spawn Time Era 5 Heroes -->
+
+	<Event Name="Black_Sun_Enters_Tech_05">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>5</Event_Param1>
+	</Event>
+
+    <!-- Spawn Heroes -->
+	
+	<Event Name="Spawn_Prince_Xizor">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Prince_Xizor_Team</Reward_Param1>
+		<Reward_Param2>Ordmantell</Reward_Param2>
+		<Prereq>Black_Sun_Enters_Tech_01</Prereq>
+	</Event>
+	
+	
+
+</Story>

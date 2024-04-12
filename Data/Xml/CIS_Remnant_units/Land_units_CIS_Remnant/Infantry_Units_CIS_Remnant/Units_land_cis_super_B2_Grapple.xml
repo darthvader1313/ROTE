@@ -5,7 +5,7 @@
     <GroundInfantry Name="CIS_Droid_B2_Grapple">
         <Variant_Of_Existing_Type>Infantry_Template</Variant_Of_Existing_Type>
 		
-		<Text_ID>TEXT_HERO_UNIT_BATTLEDROID_ENGINEER</Text_ID>
+		<Text_ID>TEXT_UNIT_SUPERBATTLEDROID_GRAPPLE</Text_ID>
 		<Encyclopedia_Text> 	        
 				TEXT_STATS
 		        TEXT_LINE
@@ -22,7 +22,7 @@
 				TEXT_STAT_UNIT_CAPACITY_12
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_INFANTRY_TYPE_LIGHT</Encyclopedia_Unit_Class>
-		<Icon_Name></Icon_Name>
+		<Icon_Name>I_Button_CIS_B2_Grapple_BattleDroid.tga</Icon_Name>
 		
 		<Land_Model_Name>CIS_B2_Grapple_BattleDroid.ALO</Land_Model_Name>
 		<FormationSpacing> 0.9 </FormationSpacing>
@@ -93,7 +93,7 @@
 	
 	<GroundInfantry Name="CIS_Droid_B2_Grapple_Squad_Spawner">
         <Variant_Of_Existing_Type> Company_Spawner_Template </Variant_Of_Existing_Type>
-        <Icon_Name></Icon_Name>
+        <Icon_Name>I_Button_CIS_B2_Grapple_BattleDroid.tga</Icon_Name>
         <AI_Combat_Power>36</AI_Combat_Power>
         <CategoryMask> Infantry | AntiInfantry </CategoryMask>
     </GroundInfantry>
@@ -101,7 +101,7 @@
 	
 	<GroundCompany Name="CIS_Droid_B2_Grapple_Squad">
 	<Variant_Of_Existing_Type>Company_Template</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_HERO_UNIT_BATTLEDROID_ENGINEER</Text_ID>
+		<Text_ID>TEXT_UNIT_SUPERBATTLEDROID_GRAPPLE</Text_ID>
 		<Encyclopedia_Text> 		        
 				TEXT_STATS
 		        TEXT_LINE
@@ -118,8 +118,8 @@
 				TEXT_STAT_UNIT_CAPACITY_12
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_INFANTRY_TYPE_LIGHT</Encyclopedia_Unit_Class>
-		<Icon_Name></Icon_Name>
-		<GUI_Model_Name>CIS_B1_B2_Grapple_oom.ALO</GUI_Model_Name>
+		<Icon_Name>I_Button_CIS_B2_Grapple_BattleDroid.tga</Icon_Name>
+		<GUI_Model_Name>CIS_B2_Grapple_BattleDroid_Red.ALO</GUI_Model_Name>
         <GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>106</Damage>
@@ -131,7 +131,7 @@
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>4</Tech_Level>
 		<Required_Special_Structures>CIS_Ground_Barracks</Required_Special_Structures>
 		
 		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
@@ -184,7 +184,7 @@
 
 	<Container Name="CIS_Droid_B2_Grapple_Team">
 		<Variant_Of_Existing_Type>Infantry_Team_Template</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_HERO_UNIT_BATTLEDROID_ENGINEER</Text_ID>
+		<Text_ID>TEXT_UNIT_SUPERBATTLEDROID_GRAPPLE</Text_ID>
 		<Encyclopedia_Text> 		        
 				TEXT_STATS
 		        TEXT_LINE
@@ -201,7 +201,7 @@
 				TEXT_STAT_UNIT_CAPACITY_12
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_INFANTRY_TYPE_LIGHT</Encyclopedia_Unit_Class>
-		<Icon_Name></Icon_Name>
+		<Icon_Name>I_Button_CIS_B2_Grapple_BattleDroid.tga</Icon_Name>
 		
         <Affiliation>CIS_Remnant</Affiliation>
 		<Targeting_Max_Attack_Distance>175.0</Targeting_Max_Attack_Distance>

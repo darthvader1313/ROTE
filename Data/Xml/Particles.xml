@@ -5,171 +5,61 @@
 	
 	<!--Particle ROTE -->
 	
-	
-	<Particle Name="GC_Display_First_Order">
-		<Galactic_Model_Name>p_first_order_logo.alo</Galactic_Model_Name>
+
+
+
+    <Particle Name="GC_Display_Banking_Clan">
+		<Galactic_Model_Name>p_allied_banking_clan.alo</Galactic_Model_Name>
 		<Scale_Factor>1.5</Scale_Factor>
 		<Is_Decoration>Yes</Is_Decoration>
 		<In_Midground>true</In_Midground>
 		<Behavior>PARTICLE</Behavior>
-		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Particle_Lifetime_Frames>3000</Particle_Lifetime_Frames>
 	</Particle>
 	
-	<Particle Name="GC_Display_Imperial_Remnant_Adelhard">
-		<Galactic_Model_Name>p_remnant_adelhard_logo.alo</Galactic_Model_Name>
+    <Particle Name="GC_Display_Techno_Union">
+		<Galactic_Model_Name>p_allied_techno_union.alo</Galactic_Model_Name>
 		<Scale_Factor>1.5</Scale_Factor>
 		<Is_Decoration>Yes</Is_Decoration>
 		<In_Midground>true</In_Midground>
 		<Behavior>PARTICLE</Behavior>
-		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Particle_Lifetime_Frames>3000</Particle_Lifetime_Frames>
 	</Particle>
 	
-	<Particle Name="GC_Display_Imperial_Remnant_Loring">
-		<Galactic_Model_Name>p_remnant_loring_logo.alo</Galactic_Model_Name>
+	<Particle Name="GC_Display_Trade_Federation">
+		<Galactic_Model_Name>p_allied_trade_federation.alo</Galactic_Model_Name>
 		<Scale_Factor>1.5</Scale_Factor>
 		<Is_Decoration>Yes</Is_Decoration>
 		<In_Midground>true</In_Midground>
 		<Behavior>PARTICLE</Behavior>
-		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
-	</Particle>
-	
-	<Particle Name="GC_Display_Imperial_Remnant_Gratloe">
-		<Galactic_Model_Name>p_remnant_gratloe_logo.alo</Galactic_Model_Name>
-		<Scale_Factor>1.5</Scale_Factor>
-		<Is_Decoration>Yes</Is_Decoration>
-		<In_Midground>true</In_Midground>
-		<Behavior>PARTICLE</Behavior>
-		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
-	</Particle>
-	
-	<Particle Name="GC_Display_Imperial_Remnant_Rax">
-		<Galactic_Model_Name>p_remnant_rax_logo.alo</Galactic_Model_Name>
-		<Scale_Factor>1.5</Scale_Factor>
-		<Is_Decoration>Yes</Is_Decoration>
-		<In_Midground>true</In_Midground>
-		<Behavior>PARTICLE</Behavior>
-		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
-	</Particle>
-	
-	<Particle Name="GC_Display_New_Republic">
-		<Galactic_Model_Name>p_new_republic_logo.alo</Galactic_Model_Name>
-		<Scale_Factor>1.5</Scale_Factor>
-		<Is_Decoration>Yes</Is_Decoration>
-		<In_Midground>true</In_Midground>
-		<Behavior>PARTICLE</Behavior>
-		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
-	</Particle>
-	
-	<!--Second Era Factions -->
-	
-	<Particle Name="GC_Display_Crimson_Dawn">
-		<Galactic_Model_Name>p_crimson_dawn_logo.alo</Galactic_Model_Name>
-		<Scale_Factor>1.5</Scale_Factor>
-		<Is_Decoration>Yes</Is_Decoration>
-		<In_Midground>true</In_Midground>
-		<Behavior>PARTICLE</Behavior>
-		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
-	</Particle>
-	
-	<Particle Name="GC_Display_Hapan_Consortium">
-		<Galactic_Model_Name>p_hapan_consortium_logo.alo</Galactic_Model_Name>
-		<Scale_Factor>1.5</Scale_Factor>
-		<Is_Decoration>Yes</Is_Decoration>
-		<In_Midground>true</In_Midground>
-		<Behavior>PARTICLE</Behavior>
-		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
-	</Particle>
-	
-	<Particle Name="GC_Display_Corporate_Sector">
-		<Galactic_Model_Name>p_corporate_sector_logo.alo</Galactic_Model_Name>
-		<Scale_Factor>1.5</Scale_Factor>
-		<Is_Decoration>Yes</Is_Decoration>
-		<In_Midground>true</In_Midground>
-		<Behavior>PARTICLE</Behavior>
-		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
-	</Particle>
-	
-	<Particle Name="GC_Display_Pyke_Syndicate">
-		<Galactic_Model_Name>p_pyke_syndicate_logo.alo</Galactic_Model_Name>
-		<Scale_Factor>1.5</Scale_Factor>
-		<Is_Decoration>Yes</Is_Decoration>
-		<In_Midground>true</In_Midground>
-		<Behavior>PARTICLE</Behavior>
-		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
-	</Particle>
-	
-	<Particle Name="GC_Display_Rebel_Alliance">
-		<Galactic_Model_Name>p_rebel_alliance_logo.alo</Galactic_Model_Name>
-		<Scale_Factor>1.5</Scale_Factor>
-		<Is_Decoration>Yes</Is_Decoration>
-		<In_Midground>true</In_Midground>
-		<Behavior>PARTICLE</Behavior>
-		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
-	</Particle>
-	
-	<Particle Name="GC_Display_Galactic_Empire">
-		<Galactic_Model_Name>p_galactic_empire_logo.alo</Galactic_Model_Name>
-		<Scale_Factor>1.5</Scale_Factor>
-		<Is_Decoration>Yes</Is_Decoration>
-		<In_Midground>true</In_Midground>
-		<Behavior>PARTICLE</Behavior>
-		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
-	</Particle>
-	
-	<!--First Era Factions -->
-	
-	<Particle Name="GC_Display_Mandalorians">
-		<Galactic_Model_Name>p_mandalorians_logo.alo</Galactic_Model_Name>
-		<Scale_Factor>1.5</Scale_Factor>
-		<Is_Decoration>Yes</Is_Decoration>
-		<In_Midground>true</In_Midground>
-		<Behavior>PARTICLE</Behavior>
-		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
-	</Particle>
-	
-	<Particle Name="GC_Display_Hutt_Cartel">
-		<Galactic_Model_Name>p_hutt_cartel_logo.alo</Galactic_Model_Name>
-		<Scale_Factor>1.5</Scale_Factor>
-		<Is_Decoration>Yes</Is_Decoration>
-		<In_Midground>true</In_Midground>
-		<Behavior>PARTICLE</Behavior>
-		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
-	</Particle>
-	
-	<Particle Name="GC_Display_Black_Sun">
-		<Galactic_Model_Name>p_eblack_sun_logo.alo</Galactic_Model_Name>
-		<Scale_Factor>1.5</Scale_Factor>
-		<Is_Decoration>Yes</Is_Decoration>
-		<In_Midground>true</In_Midground>
-		<Behavior>PARTICLE</Behavior>
-		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
-	</Particle>
-	
-	<Particle Name="GC_Display_CIS_Remnant">
-		<Galactic_Model_Name>p_ecis_remnant_logo.alo</Galactic_Model_Name>
-		<Scale_Factor>1.5</Scale_Factor>
-		<Is_Decoration>Yes</Is_Decoration>
-		<In_Midground>true</In_Midground>
-		<Behavior>PARTICLE</Behavior>
-		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Particle_Lifetime_Frames>3000</Particle_Lifetime_Frames>
 	</Particle>
 	
 	<Particle Name="GC_Display_Terrorists">
-		<Galactic_Model_Name>p_terrorists_logo.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>p_allied_terrorists.alo</Galactic_Model_Name>
 		<Scale_Factor>1.5</Scale_Factor>
 		<Is_Decoration>Yes</Is_Decoration>
 		<In_Midground>true</In_Midground>
 		<Behavior>PARTICLE</Behavior>
-		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Particle_Lifetime_Frames>3000</Particle_Lifetime_Frames>
+	</Particle>
+	
+	<Particle Name="GC_Display_CIS_Remnant">
+		<Galactic_Model_Name>p_allied_cis_remnant.alo</Galactic_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<In_Midground>true</In_Midground>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>3000</Particle_Lifetime_Frames>
 	</Particle>
 	
 	<Particle Name="GC_Display_Early_Empire">
-		<Galactic_Model_Name>p_early_empire_logo.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>p_allied_early_empire.alo</Galactic_Model_Name>
 		<Scale_Factor>1.5</Scale_Factor>
 		<Is_Decoration>Yes</Is_Decoration>
 		<In_Midground>true</In_Midground>
 		<Behavior>PARTICLE</Behavior>
-		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Particle_Lifetime_Frames>3000</Particle_Lifetime_Frames>
 	</Particle>
 	
 	<!--Land Particles-->

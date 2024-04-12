@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<Campaigns>
+
+
+
+<!-- ************************************************************** -->
+<!-- **************** SANDBOX CAMPAIGN "Mid Rim Retreat" ***************** -->
+<!-- ************************************************************** -->
+
+
+	
+
+
+	
+  
+  
+  
+  
+  
+  
+  <Campaign Name="Sandbox_Mid_Rim_Retreat_Galactic_Empire">
+
+		<Campaign_Set> Sandbox_Mid_Rim_Retreat </Campaign_Set>
+		<Sort_Order>13</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_MID_RIM_RETREAT </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_MID_RIM_RETREAT_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> -27.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 56.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Coruscant, Yavin
+		</Locations>
+
+        <Trade_Routes>
+			
+		</Trade_Routes>
+
+        <Home_Location> Galactic_Empire, Coruscant </Home_Location>
+		<Home_Location> Rebel_Alliance, Yavin </Home_Location>
+        
+		
+		<Starting_Active_Player> Galactic_Empire </Starting_Active_Player>
+		
+		<Story_Name>Galactic_Empire, story_Assault_on_Cymoon\Story_Assault_on_Cymoon_Galactic_Empire.xml </Story_Name>
+		<Story_Name>Rebel_Alliance, story_Assault_on_Cymoon\Story_Assault_on_Cymoon_Rebel_Alliance.xml </Story_Name>
+		
+		
+		<AI_Player_Control> Rebel_Alliance, BasicEmpire </AI_Player_Control>
+
+
+		
+		<Markup_Filename>Galactic_Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel_Alliance, DefaultGalacticHints </Markup_Filename>
+
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		<!-- Galactic_Empire Starting Forces -->
+
+		<Starting_Credits> Galactic_Empire,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Galactic_Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Galactic_Empire, 5 </Max_Tech_Level>
+		
+        <!-- Coruscant Space Forces -->
+	
+        <!-- Coruscant Land Forces -->
+		<Starting_Forces> Galactic_Empire, Coruscant, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Coruscant, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Coruscant, Galactic_Empire_Rifleman_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		<!-- Rebel Alliance Starting Forces -->
+
+		<Starting_Credits> Rebel_Alliance,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel_Alliance, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel_Alliance, 5 </Max_Tech_Level>
+                                                     
+        <!-- Yavin Space Forces -->
+
+        <!-- Yavin Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Yavin, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Yavin, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Yavin, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		
+		
+		
+
+		
+		
+		
+
+  
+  
+  </Campaign>
+  
+  
+  
+  
+  
+	
+	
+	
+	
+	  
+	  
+	  
+	  
+	  
+	 
+	  
+	  
+	  
+	
+	
+	
+	
+
+
+	
+
+
+ </Campaigns>

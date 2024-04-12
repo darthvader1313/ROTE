@@ -120,7 +120,7 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_INFANTRY_TYPE_SPECIAL</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_Rebel_Sniper.tga</Icon_Name>
 		<GUI_Model_Name>RI_Rebel_Sniper_Urban.ALO</GUI_Model_Name>
-        <GUI_Row> 0 </GUI_Row>
+        <GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>144</Damage>
 		<Autoresolve_Health>2400</Autoresolve_Health> <!-- changed to reflect unit health w/ size-->
@@ -131,7 +131,7 @@
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		
-		<Tech_Level>2</Tech_Level>
+		<Tech_Level>3</Tech_Level>
 		<Required_Special_Structures>R_Ground_Barracks</Required_Special_Structures>
 		
 		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>

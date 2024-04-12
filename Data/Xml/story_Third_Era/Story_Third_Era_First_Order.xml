@@ -1,9 +1,0 @@
-<?xml version="1.0" ?>
-
-<Story_Mode_Plots>
-	<Lua_Script></Lua_Script>
-	<Active_Plot>Story_Third_Era\Story_First_Order.XML</Active_Plot>
-	<Active_Plot>Filter_Force_Click.XML</Active_Plot>
-
-	
-</Story_Mode_Plots>

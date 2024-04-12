@@ -47,7 +47,7 @@
 		<Enemies>
 		Empire, Rebel, Pirates, Hostile, Underworld, Early_Empire, Terrorists, CIS_Remnant, Trade_Federation, Commerce_Guild, Techno_Union, Banking_Clan, Mandalorians, 
 		Galactic_Empire, Rebel_Alliance, Pyke_Syndicate, Corporate_Sector, Hapan_Consortium, Crimson_Dawn, Hutt_Cartel, Black_Sun,
-		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order, Imperial_Remnant_Thrawn, Chiss_Ascendancy
+		New_Republic, Imperial_Remnant_Rax, Imperial_Remnant_Gratloe, Imperial_Remnant_Loring, Imperial_Remnant_Adelhard, First_Order, Imperial_Remnant_Thrawn, Imperial_Remnant
 		</Enemies>
 		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
 		<Mass>1.0</Mass>

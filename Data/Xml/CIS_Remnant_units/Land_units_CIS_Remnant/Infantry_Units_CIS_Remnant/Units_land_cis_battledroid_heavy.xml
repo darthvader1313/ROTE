@@ -22,9 +22,9 @@
 				TEXT_STAT_UNIT_CAPACITY_12
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_INFANTRY_TYPE_LIGHT</Encyclopedia_Unit_Class>
-		<Icon_Name>I_BUTTON_BATTLEDROID1.tga</Icon_Name>
+		<Icon_Name>I_Button_CIS_B1_Heavy.tga</Icon_Name>
 		
-		<Land_Model_Name>CIS_B1_Heavy.ALO</Land_Model_Name>
+		<Land_Model_Name>CIS_B1_BattleDroid_Heavy.ALO</Land_Model_Name>
 		<FormationSpacing> 0.9 </FormationSpacing>
         <FormationOrder> 1 </FormationOrder>
 		
@@ -93,7 +93,7 @@
 	
 	<GroundInfantry Name="Battledroids_Heavy_Squad_Spawner">
         <Variant_Of_Existing_Type> Company_Spawner_Template </Variant_Of_Existing_Type>
-        <Icon_Name>I_BUTTON_BATTLEDROID1.tga</Icon_Name>
+        <Icon_Name>I_Button_CIS_B1_Heavy.tga</Icon_Name>
         <AI_Combat_Power>36</AI_Combat_Power>
         <CategoryMask> Infantry | AntiInfantry </CategoryMask>
     </GroundInfantry>
@@ -118,8 +118,8 @@
 				TEXT_STAT_UNIT_CAPACITY_12
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_INFANTRY_TYPE_LIGHT</Encyclopedia_Unit_Class>
-		<Icon_Name>I_BUTTON_BATTLEDROID1.tga</Icon_Name>
-		<GUI_Model_Name>CIS_B1_Heavy.ALO</GUI_Model_Name>
+		<Icon_Name>I_Button_CIS_B1_Heavy.tga</Icon_Name>
+		<GUI_Model_Name>CIS_B1_BattleDroid_Heavy.ALO</GUI_Model_Name>
         <GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>106</Damage>
@@ -131,7 +131,7 @@
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>2</Tech_Level>
 		<Required_Special_Structures>CIS_Ground_Barracks</Required_Special_Structures>
 		
 		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
@@ -201,7 +201,7 @@
 				TEXT_STAT_UNIT_CAPACITY_12
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_INFANTRY_TYPE_LIGHT</Encyclopedia_Unit_Class>
-		<Icon_Name>I_BUTTON_BATTLEDROID1.tga</Icon_Name>
+		<Icon_Name>I_Button_CIS_B1_Heavy.tga</Icon_Name>
 		
         <Affiliation>CIS_Remnant</Affiliation>
 		<Targeting_Max_Attack_Distance>175.0</Targeting_Max_Attack_Distance>

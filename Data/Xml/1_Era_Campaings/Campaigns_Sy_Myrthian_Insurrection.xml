@@ -1,0 +1,1086 @@
+<?xml version="1.0"?>
+<Campaigns>
+
+
+
+<!-- ************************************************************** -->
+<!-- **************** SANDBOX CAMPAIGN "Sy Myrthian Insurrection" ***************** -->
+<!-- ************************************************************** -->
+
+
+	
+
+
+	
+  
+  
+  
+  
+  
+  
+  <Campaign Name="Sandbox_Sy_Myrthian_Insurrection_Early_Empire">
+
+		<Campaign_Set> Sandbox_Sy_Myrthian_Insurrection </Campaign_Set>
+		<Sort_Order>6</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_SY_MYRTHIAN_INSURRECTION </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_SY_MYRTHIAN_INSURRECTION_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> -27.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 56.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Belderone, Antemeridias, Centares, Abhean, RingoVinda, Jabiim,
+				Handooine, Saleucami, Wobani, Iego, BozPity, The_Maw,
+				Kessel, Oba_Diah, Honoghr, Eadu, Ylesia, Teth, 
+				Barab, Shola, Despayre,
+		</Locations>
+
+        <Trade_Routes>
+			
+		</Trade_Routes>
+
+        <Home_Location> Early_Empire, Belderone </Home_Location>
+		<Home_Location> CIS_Remnant, Iego </Home_Location>
+		<Home_Location> Trade_Federation, Teth </Home_Location>
+		<Home_Location> Banking_Clan, Kessel </Home_Location>
+		
+		<Starting_Active_Player> Early_Empire </Starting_Active_Player>
+		
+		<Story_Name>Early_Empire, story_Sy_Myrthian_Insurrection\story_Sy_Myrthian_Insurrection_Early_Empire.xml </Story_Name>
+        <Story_Name>CIS_Remnant, story_Sy_Myrthian_Insurrection\story_Sy_Myrthian_Insurrection_CIS_Remnant.xml </Story_Name>
+		<Story_Name>Trade_Federation, story_Sy_Myrthian_Insurrection\story_Sy_Myrthian_Insurrection_Trade_Federation.xml </Story_Name>
+		<Story_Name>Banking_Clan, story_Sy_Myrthian_Insurrection\story_Sy_Myrthian_Insurrection_Banking_Clan.xml </Story_Name>
+		
+		<AI_Player_Control> CIS_Remnant, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Trade_Federation, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Banking_Clan, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>Early_Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>CIS_Remnant, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Trade_Federation, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Banking_Clan, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		<!-- Early_Empire Starting Forces -->
+
+		<Starting_Credits> Early_Empire,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Early_Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Early_Empire, 5 </Max_Tech_Level>
+		
+        <!-- Belderone Space Forces -->
+	
+        <!-- Belderone Land Forces -->
+		<Starting_Forces> Early_Empire, Belderone, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Belderone, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Belderone, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Antemeridias Space Forces -->
+	
+        <!-- Antemeridias Land Forces -->
+		<Starting_Forces> Early_Empire, Antemeridias, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Antemeridias, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Antemeridias, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Centares Space Forces -->
+	
+        <!-- Centares Land Forces -->
+		<Starting_Forces> Early_Empire, Centares, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Centares, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Centares, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Abhean Space Forces -->
+	
+        <!-- Abhean Land Forces -->
+		<Starting_Forces> Early_Empire, Abhean, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Abhean, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Abhean, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- RingoVinda Space Forces -->
+	
+        <!-- RingoVinda Land Forces -->
+		<Starting_Forces> Early_Empire, RingoVinda, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, RingoVinda, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, RingoVinda, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Wobani Space Forces -->
+	
+        <!-- Wobani Land Forces -->
+		<Starting_Forces> Early_Empire, Wobani, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Wobani, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Wobani, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		<!-- CIS_Remnant Starting Forces -->
+
+		<Starting_Credits> CIS_Remnant,  10000 </Starting_Credits>
+		<Starting_Tech_Level> CIS_Remnant, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> CIS_Remnant, 5 </Max_Tech_Level>
+                                                     
+        <!-- Iego Space Forces -->
+
+        <!-- Iego Land Forces -->
+		<Starting_Forces> CIS_Remnant, Iego, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Iego, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Iego, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Handooine Space Forces -->
+
+        <!-- Handooine Land Forces -->
+		<Starting_Forces> CIS_Remnant, Handooine, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Handooine, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Handooine, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Handooine Space Forces -->
+
+        <!-- Handooine Land Forces -->
+		<Starting_Forces> CIS_Remnant, Handooine, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Handooine, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Handooine, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- BozPity Space Forces -->
+
+        <!-- BozPity Land Forces -->
+		<Starting_Forces> CIS_Remnant, BozPity, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, BozPity, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, BozPity, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Despayre Space Forces -->
+
+        <!-- Despayre Land Forces -->
+		<Starting_Forces> CIS_Remnant, Despayre, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Despayre, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Despayre, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Saleucami Space Forces -->
+
+        <!-- Saleucami Land Forces -->
+		<Starting_Forces> CIS_Remnant, Saleucami, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Saleucami, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Saleucami, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Jabiim Space Forces -->
+
+        <!-- Jabiim Land Forces -->
+		<Starting_Forces> CIS_Remnant, Jabiim, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Jabiim, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Jabiim, Super_Battledroid_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		<!-- Trade Federation Starting Forces -->
+
+		<Starting_Credits> Trade_Federation,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Trade_Federation, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Trade_Federation, 5 </Max_Tech_Level>
+		
+        <!-- Teth Space Forces -->
+		
+        <!-- Teth Land Forces -->
+		<Starting_Forces> Trade_Federation, Teth, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Teth, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Teth, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Ylesia Space Forces -->
+		
+        <!-- Ylesia Land Forces -->
+		<Starting_Forces> Trade_Federation, Ylesia, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Ylesia, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Ylesia, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Barab Space Forces -->
+		
+        <!-- Barab Land Forces -->
+		<Starting_Forces> Trade_Federation, Barab, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Barab, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Barab, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Shola Space Forces -->
+		
+        <!-- Shola Land Forces -->
+		<Starting_Forces> Trade_Federation, Shola, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Shola, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Shola, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		<!-- Banking_Clan Starting Forces -->
+
+		<Starting_Credits> Banking_Clan,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Banking_Clan, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Banking_Clan, 5 </Max_Tech_Level>
+                                                     
+        <!-- Kessel Space Forces -->
+
+        <!-- Kessel Land Forces -->
+		<Starting_Forces> Banking_Clan, Kessel, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Kessel, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Kessel, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- The_Maw Space Forces -->
+
+        <!-- The_Maw Land Forces -->
+		<Starting_Forces> Banking_Clan, The_Maw, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, The_Maw, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, The_Maw, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Honoghr Space Forces -->
+
+        <!-- Honoghr Land Forces -->
+		<Starting_Forces> Banking_Clan, Honoghr, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Honoghr, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Honoghr, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Oba_Diah Space Forces -->
+
+        <!-- Oba_Diah Land Forces -->
+		<Starting_Forces> Banking_Clan, Oba_Diah, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Oba_Diah, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Oba_Diah, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Eadu Space Forces -->
+
+        <!-- Eadu Land Forces -->
+		<Starting_Forces> Banking_Clan, Eadu, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Eadu, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Eadu, Super_Battledroid_Squad </Starting_Forces>
+		
+
+  
+  
+  </Campaign>
+  
+  
+  
+  
+  
+  
+  <Campaign Name="Sandbox_Sy_Myrthian_Insurrection_CIS_Remnant">
+
+		<Campaign_Set> Sandbox_Sy_Myrthian_Insurrection </Campaign_Set>
+		<Sort_Order>6</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_SY_MYRTHIAN_INSURRECTION </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_SY_MYRTHIAN_INSURRECTION_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> -27.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 56.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Belderone, Antemeridias, Centares, Abhean, RingoVinda, Jabiim,
+				Handooine, Saleucami, Wobani, Iego, BozPity, The_Maw,
+				Kessel, Oba_Diah, Honoghr, Eadu, Ylesia, Teth, 
+				Barab, Shola, Despayre,
+		</Locations>
+
+        <Trade_Routes>
+			
+		</Trade_Routes>
+
+        <Home_Location> Early_Empire, Belderone </Home_Location>
+		<Home_Location> CIS_Remnant, Iego </Home_Location>
+		<Home_Location> Trade_Federation, Teth </Home_Location>
+		<Home_Location> Banking_Clan, Kessel </Home_Location>
+		
+		<Starting_Active_Player> CIS_Remnant </Starting_Active_Player>
+		
+		<Story_Name>Early_Empire, story_Sy_Myrthian_Insurrection\story_Sy_Myrthian_Insurrection_Early_Empire.xml </Story_Name>
+        <Story_Name>CIS_Remnant, story_Sy_Myrthian_Insurrection\story_Sy_Myrthian_Insurrection_CIS_Remnant.xml </Story_Name>
+		<Story_Name>Trade_Federation, story_Sy_Myrthian_Insurrection\story_Sy_Myrthian_Insurrection_Trade_Federation.xml </Story_Name>
+		<Story_Name>Banking_Clan, story_Sy_Myrthian_Insurrection\story_Sy_Myrthian_Insurrection_Banking_Clan.xml </Story_Name>
+		
+		<AI_Player_Control> Early_Empire, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Trade_Federation, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Banking_Clan, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>Early_Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>CIS_Remnant, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Trade_Federation, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Banking_Clan, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		<!-- Early_Empire Starting Forces -->
+
+		<Starting_Credits> Early_Empire,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Early_Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Early_Empire, 5 </Max_Tech_Level>
+		
+        <!-- Belderone Space Forces -->
+	
+        <!-- Belderone Land Forces -->
+		<Starting_Forces> Early_Empire, Belderone, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Belderone, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Belderone, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Antemeridias Space Forces -->
+	
+        <!-- Antemeridias Land Forces -->
+		<Starting_Forces> Early_Empire, Antemeridias, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Antemeridias, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Antemeridias, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Centares Space Forces -->
+	
+        <!-- Centares Land Forces -->
+		<Starting_Forces> Early_Empire, Centares, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Centares, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Centares, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Abhean Space Forces -->
+	
+        <!-- Abhean Land Forces -->
+		<Starting_Forces> Early_Empire, Abhean, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Abhean, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Abhean, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- RingoVinda Space Forces -->
+	
+        <!-- RingoVinda Land Forces -->
+		<Starting_Forces> Early_Empire, RingoVinda, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, RingoVinda, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, RingoVinda, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Wobani Space Forces -->
+	
+        <!-- Wobani Land Forces -->
+		<Starting_Forces> Early_Empire, Wobani, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Wobani, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Wobani, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		<!-- CIS_Remnant Starting Forces -->
+
+		<Starting_Credits> CIS_Remnant,  10000 </Starting_Credits>
+		<Starting_Tech_Level> CIS_Remnant, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> CIS_Remnant, 5 </Max_Tech_Level>
+                                                     
+        <!-- Iego Space Forces -->
+
+        <!-- Iego Land Forces -->
+		<Starting_Forces> CIS_Remnant, Iego, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Iego, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Iego, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Handooine Space Forces -->
+
+        <!-- Handooine Land Forces -->
+		<Starting_Forces> CIS_Remnant, Handooine, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Handooine, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Handooine, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Handooine Space Forces -->
+
+        <!-- Handooine Land Forces -->
+		<Starting_Forces> CIS_Remnant, Handooine, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Handooine, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Handooine, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- BozPity Space Forces -->
+
+        <!-- BozPity Land Forces -->
+		<Starting_Forces> CIS_Remnant, BozPity, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, BozPity, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, BozPity, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Despayre Space Forces -->
+
+        <!-- Despayre Land Forces -->
+		<Starting_Forces> CIS_Remnant, Despayre, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Despayre, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Despayre, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Saleucami Space Forces -->
+
+        <!-- Saleucami Land Forces -->
+		<Starting_Forces> CIS_Remnant, Saleucami, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Saleucami, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Saleucami, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Jabiim Space Forces -->
+
+        <!-- Jabiim Land Forces -->
+		<Starting_Forces> CIS_Remnant, Jabiim, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Jabiim, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Jabiim, Super_Battledroid_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		<!-- Trade Federation Starting Forces -->
+
+		<Starting_Credits> Trade_Federation,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Trade_Federation, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Trade_Federation, 5 </Max_Tech_Level>
+		
+        <!-- Teth Space Forces -->
+		
+        <!-- Teth Land Forces -->
+		<Starting_Forces> Trade_Federation, Teth, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Teth, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Teth, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Ylesia Space Forces -->
+		
+        <!-- Ylesia Land Forces -->
+		<Starting_Forces> Trade_Federation, Ylesia, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Ylesia, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Ylesia, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Barab Space Forces -->
+		
+        <!-- Barab Land Forces -->
+		<Starting_Forces> Trade_Federation, Barab, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Barab, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Barab, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Shola Space Forces -->
+		
+        <!-- Shola Land Forces -->
+		<Starting_Forces> Trade_Federation, Shola, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Shola, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Shola, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		<!-- Banking_Clan Starting Forces -->
+
+		<Starting_Credits> Banking_Clan,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Banking_Clan, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Banking_Clan, 5 </Max_Tech_Level>
+                                                     
+        <!-- Kessel Space Forces -->
+
+        <!-- Kessel Land Forces -->
+		<Starting_Forces> Banking_Clan, Kessel, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Kessel, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Kessel, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- The_Maw Space Forces -->
+
+        <!-- The_Maw Land Forces -->
+		<Starting_Forces> Banking_Clan, The_Maw, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, The_Maw, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, The_Maw, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Honoghr Space Forces -->
+
+        <!-- Honoghr Land Forces -->
+		<Starting_Forces> Banking_Clan, Honoghr, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Honoghr, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Honoghr, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Oba_Diah Space Forces -->
+
+        <!-- Oba_Diah Land Forces -->
+		<Starting_Forces> Banking_Clan, Oba_Diah, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Oba_Diah, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Oba_Diah, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Eadu Space Forces -->
+
+        <!-- Eadu Land Forces -->
+		<Starting_Forces> Banking_Clan, Eadu, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Eadu, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Eadu, Super_Battledroid_Squad </Starting_Forces>
+		
+
+  
+  
+  </Campaign>
+  
+  
+  
+  
+  
+  <Campaign Name="Sandbox_Sy_Myrthian_Insurrection_Trade_Federation">
+
+		<Campaign_Set> Sandbox_Sy_Myrthian_Insurrection </Campaign_Set>
+		<Sort_Order>6</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_SY_MYRTHIAN_INSURRECTION </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_SY_MYRTHIAN_INSURRECTION_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> -27.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 56.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Belderone, Antemeridias, Centares, Abhean, RingoVinda, Jabiim,
+				Handooine, Saleucami, Wobani, Iego, BozPity, The_Maw,
+				Kessel, Oba_Diah, Honoghr, Eadu, Ylesia, Teth, 
+				Barab, Shola, Despayre,
+		</Locations>
+
+        <Trade_Routes>
+			
+		</Trade_Routes>
+
+        <Home_Location> Early_Empire, Belderone </Home_Location>
+		<Home_Location> CIS_Remnant, Iego </Home_Location>
+		<Home_Location> Trade_Federation, Teth </Home_Location>
+		<Home_Location> Banking_Clan, Kessel </Home_Location>
+		
+		<Starting_Active_Player> Trade_Federation </Starting_Active_Player>
+		
+		<Story_Name>Early_Empire, story_Sy_Myrthian_Insurrection\story_Sy_Myrthian_Insurrection_Early_Empire.xml </Story_Name>
+        <Story_Name>CIS_Remnant, story_Sy_Myrthian_Insurrection\story_Sy_Myrthian_Insurrection_CIS_Remnant.xml </Story_Name>
+		<Story_Name>Trade_Federation, story_Sy_Myrthian_Insurrection\story_Sy_Myrthian_Insurrection_Trade_Federation.xml </Story_Name>
+		<Story_Name>Banking_Clan, story_Sy_Myrthian_Insurrection\story_Sy_Myrthian_Insurrection_Banking_Clan.xml </Story_Name>
+		
+		<AI_Player_Control> Early_Empire, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> CIS_Remnant, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Banking_Clan, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>Early_Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>CIS_Remnant, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Trade_Federation, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Banking_Clan, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		<!-- Early_Empire Starting Forces -->
+
+		<Starting_Credits> Early_Empire,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Early_Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Early_Empire, 5 </Max_Tech_Level>
+		
+        <!-- Belderone Space Forces -->
+	
+        <!-- Belderone Land Forces -->
+		<Starting_Forces> Early_Empire, Belderone, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Belderone, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Belderone, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Antemeridias Space Forces -->
+	
+        <!-- Antemeridias Land Forces -->
+		<Starting_Forces> Early_Empire, Antemeridias, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Antemeridias, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Antemeridias, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Centares Space Forces -->
+	
+        <!-- Centares Land Forces -->
+		<Starting_Forces> Early_Empire, Centares, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Centares, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Centares, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Abhean Space Forces -->
+	
+        <!-- Abhean Land Forces -->
+		<Starting_Forces> Early_Empire, Abhean, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Abhean, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Abhean, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- RingoVinda Space Forces -->
+	
+        <!-- RingoVinda Land Forces -->
+		<Starting_Forces> Early_Empire, RingoVinda, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, RingoVinda, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, RingoVinda, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Wobani Space Forces -->
+	
+        <!-- Wobani Land Forces -->
+		<Starting_Forces> Early_Empire, Wobani, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Wobani, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Wobani, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		<!-- CIS_Remnant Starting Forces -->
+
+		<Starting_Credits> CIS_Remnant,  10000 </Starting_Credits>
+		<Starting_Tech_Level> CIS_Remnant, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> CIS_Remnant, 5 </Max_Tech_Level>
+                                                     
+        <!-- Iego Space Forces -->
+
+        <!-- Iego Land Forces -->
+		<Starting_Forces> CIS_Remnant, Iego, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Iego, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Iego, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Handooine Space Forces -->
+
+        <!-- Handooine Land Forces -->
+		<Starting_Forces> CIS_Remnant, Handooine, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Handooine, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Handooine, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Handooine Space Forces -->
+
+        <!-- Handooine Land Forces -->
+		<Starting_Forces> CIS_Remnant, Handooine, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Handooine, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Handooine, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- BozPity Space Forces -->
+
+        <!-- BozPity Land Forces -->
+		<Starting_Forces> CIS_Remnant, BozPity, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, BozPity, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, BozPity, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Despayre Space Forces -->
+
+        <!-- Despayre Land Forces -->
+		<Starting_Forces> CIS_Remnant, Despayre, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Despayre, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Despayre, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Saleucami Space Forces -->
+
+        <!-- Saleucami Land Forces -->
+		<Starting_Forces> CIS_Remnant, Saleucami, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Saleucami, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Saleucami, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Jabiim Space Forces -->
+
+        <!-- Jabiim Land Forces -->
+		<Starting_Forces> CIS_Remnant, Jabiim, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Jabiim, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Jabiim, Super_Battledroid_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		<!-- Trade Federation Starting Forces -->
+
+		<Starting_Credits> Trade_Federation,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Trade_Federation, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Trade_Federation, 5 </Max_Tech_Level>
+		
+        <!-- Teth Space Forces -->
+		
+        <!-- Teth Land Forces -->
+		<Starting_Forces> Trade_Federation, Teth, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Teth, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Teth, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Ylesia Space Forces -->
+		
+        <!-- Ylesia Land Forces -->
+		<Starting_Forces> Trade_Federation, Ylesia, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Ylesia, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Ylesia, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Barab Space Forces -->
+		
+        <!-- Barab Land Forces -->
+		<Starting_Forces> Trade_Federation, Barab, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Barab, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Barab, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Shola Space Forces -->
+		
+        <!-- Shola Land Forces -->
+		<Starting_Forces> Trade_Federation, Shola, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Shola, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Shola, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		<!-- Banking_Clan Starting Forces -->
+
+		<Starting_Credits> Banking_Clan,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Banking_Clan, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Banking_Clan, 5 </Max_Tech_Level>
+                                                     
+        <!-- Kessel Space Forces -->
+
+        <!-- Kessel Land Forces -->
+		<Starting_Forces> Banking_Clan, Kessel, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Kessel, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Kessel, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- The_Maw Space Forces -->
+
+        <!-- The_Maw Land Forces -->
+		<Starting_Forces> Banking_Clan, The_Maw, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, The_Maw, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, The_Maw, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Honoghr Space Forces -->
+
+        <!-- Honoghr Land Forces -->
+		<Starting_Forces> Banking_Clan, Honoghr, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Honoghr, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Honoghr, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Oba_Diah Space Forces -->
+
+        <!-- Oba_Diah Land Forces -->
+		<Starting_Forces> Banking_Clan, Oba_Diah, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Oba_Diah, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Oba_Diah, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Eadu Space Forces -->
+
+        <!-- Eadu Land Forces -->
+		<Starting_Forces> Banking_Clan, Eadu, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Eadu, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Eadu, Super_Battledroid_Squad </Starting_Forces>
+		
+
+  
+  
+  </Campaign>
+  
+  
+  
+  
+  
+  
+  <Campaign Name="Sandbox_Sy_Myrthian_Insurrection_Banking_Clan">
+
+		<Campaign_Set> Sandbox_Sy_Myrthian_Insurrection </Campaign_Set>
+		<Sort_Order>6</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_SY_MYRTHIAN_INSURRECTION </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_SY_MYRTHIAN_INSURRECTION_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> -27.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 56.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Belderone, Antemeridias, Centares, Abhean, RingoVinda, Jabiim,
+				Handooine, Saleucami, Wobani, Iego, BozPity, The_Maw,
+				Kessel, Oba_Diah, Honoghr, Eadu, Ylesia, Teth, 
+				Barab, Shola, Despayre,
+		</Locations>
+
+        <Trade_Routes>
+			
+		</Trade_Routes>
+
+        <Home_Location> Early_Empire, Belderone </Home_Location>
+		<Home_Location> CIS_Remnant, Iego </Home_Location>
+		<Home_Location> Trade_Federation, Teth </Home_Location>
+		<Home_Location> Banking_Clan, Kessel </Home_Location>
+		
+		<Starting_Active_Player> Banking_Clan </Starting_Active_Player>
+		
+		<Story_Name>Early_Empire, story_Sy_Myrthian_Insurrection\story_Sy_Myrthian_Insurrection_Early_Empire.xml </Story_Name>
+        <Story_Name>CIS_Remnant, story_Sy_Myrthian_Insurrection\story_Sy_Myrthian_Insurrection_CIS_Remnant.xml </Story_Name>
+		<Story_Name>Trade_Federation, story_Sy_Myrthian_Insurrection\story_Sy_Myrthian_Insurrection_Trade_Federation.xml </Story_Name>
+		<Story_Name>Banking_Clan, story_Sy_Myrthian_Insurrection\story_Sy_Myrthian_Insurrection_Banking_Clan.xml </Story_Name>
+		
+		<AI_Player_Control> Early_Empire, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> CIS_Remnant, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Trade_Federation, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>Early_Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>CIS_Remnant, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Trade_Federation, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Banking_Clan, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		<!-- Early_Empire Starting Forces -->
+
+		<Starting_Credits> Early_Empire,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Early_Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Early_Empire, 5 </Max_Tech_Level>
+		
+        <!-- Belderone Space Forces -->
+	
+        <!-- Belderone Land Forces -->
+		<Starting_Forces> Early_Empire, Belderone, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Belderone, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Belderone, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Antemeridias Space Forces -->
+	
+        <!-- Antemeridias Land Forces -->
+		<Starting_Forces> Early_Empire, Antemeridias, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Antemeridias, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Antemeridias, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Centares Space Forces -->
+	
+        <!-- Centares Land Forces -->
+		<Starting_Forces> Early_Empire, Centares, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Centares, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Centares, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Abhean Space Forces -->
+	
+        <!-- Abhean Land Forces -->
+		<Starting_Forces> Early_Empire, Abhean, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Abhean, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Abhean, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- RingoVinda Space Forces -->
+	
+        <!-- RingoVinda Land Forces -->
+		<Starting_Forces> Early_Empire, RingoVinda, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, RingoVinda, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, RingoVinda, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Wobani Space Forces -->
+	
+        <!-- Wobani Land Forces -->
+		<Starting_Forces> Early_Empire, Wobani, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Wobani, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Wobani, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		<!-- CIS_Remnant Starting Forces -->
+
+		<Starting_Credits> CIS_Remnant,  10000 </Starting_Credits>
+		<Starting_Tech_Level> CIS_Remnant, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> CIS_Remnant, 5 </Max_Tech_Level>
+                                                     
+        <!-- Iego Space Forces -->
+
+        <!-- Iego Land Forces -->
+		<Starting_Forces> CIS_Remnant, Iego, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Iego, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Iego, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Handooine Space Forces -->
+
+        <!-- Handooine Land Forces -->
+		<Starting_Forces> CIS_Remnant, Handooine, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Handooine, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Handooine, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Handooine Space Forces -->
+
+        <!-- Handooine Land Forces -->
+		<Starting_Forces> CIS_Remnant, Handooine, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Handooine, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Handooine, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- BozPity Space Forces -->
+
+        <!-- BozPity Land Forces -->
+		<Starting_Forces> CIS_Remnant, BozPity, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, BozPity, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, BozPity, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Despayre Space Forces -->
+
+        <!-- Despayre Land Forces -->
+		<Starting_Forces> CIS_Remnant, Despayre, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Despayre, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Despayre, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Saleucami Space Forces -->
+
+        <!-- Saleucami Land Forces -->
+		<Starting_Forces> CIS_Remnant, Saleucami, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Saleucami, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Saleucami, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Jabiim Space Forces -->
+
+        <!-- Jabiim Land Forces -->
+		<Starting_Forces> CIS_Remnant, Jabiim, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Jabiim, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Jabiim, Super_Battledroid_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		<!-- Trade Federation Starting Forces -->
+
+		<Starting_Credits> Trade_Federation,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Trade_Federation, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Trade_Federation, 5 </Max_Tech_Level>
+		
+        <!-- Teth Space Forces -->
+		
+        <!-- Teth Land Forces -->
+		<Starting_Forces> Trade_Federation, Teth, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Teth, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Teth, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Ylesia Space Forces -->
+		
+        <!-- Ylesia Land Forces -->
+		<Starting_Forces> Trade_Federation, Ylesia, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Ylesia, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Ylesia, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Barab Space Forces -->
+		
+        <!-- Barab Land Forces -->
+		<Starting_Forces> Trade_Federation, Barab, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Barab, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Barab, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Shola Space Forces -->
+		
+        <!-- Shola Land Forces -->
+		<Starting_Forces> Trade_Federation, Shola, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Shola, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Shola, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		<!-- Banking_Clan Starting Forces -->
+
+		<Starting_Credits> Banking_Clan,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Banking_Clan, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Banking_Clan, 5 </Max_Tech_Level>
+                                                     
+        <!-- Kessel Space Forces -->
+
+        <!-- Kessel Land Forces -->
+		<Starting_Forces> Banking_Clan, Kessel, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Kessel, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Kessel, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- The_Maw Space Forces -->
+
+        <!-- The_Maw Land Forces -->
+		<Starting_Forces> Banking_Clan, The_Maw, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, The_Maw, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, The_Maw, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Honoghr Space Forces -->
+
+        <!-- Honoghr Land Forces -->
+		<Starting_Forces> Banking_Clan, Honoghr, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Honoghr, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Honoghr, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Oba_Diah Space Forces -->
+
+        <!-- Oba_Diah Land Forces -->
+		<Starting_Forces> Banking_Clan, Oba_Diah, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Oba_Diah, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Oba_Diah, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Eadu Space Forces -->
+
+        <!-- Eadu Land Forces -->
+		<Starting_Forces> Banking_Clan, Eadu, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Eadu, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Eadu, Super_Battledroid_Squad </Starting_Forces>
+		
+
+  
+  
+  </Campaign>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+	
+	
+	
+	
+	  
+	  
+	  
+	  
+	  
+	 
+	  
+	  
+	  
+	
+	
+	
+	
+
+
+	
+
+
+ </Campaigns>

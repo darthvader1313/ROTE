@@ -12,11 +12,11 @@
         <Required_Timeline>0</Required_Timeline>
         <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
         <Required_Star_Base_Level>0</Required_Star_Base_Level>
-         <Required_Special_Structures>CIS_Remnant_Ground_Research_Facility</Required_Special_Structures>
+         
         <Required_Planets />
 		<Required_Orbiting_Units />
-        <Build_Time_Seconds>30</Build_Time_Seconds>
-        <Build_Cost_Credits>5000</Build_Cost_Credits>
+        <Build_Time_Seconds>850</Build_Time_Seconds>
+        <Build_Cost_Credits>500</Build_Cost_Credits>
         <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
         <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
         <Population_Value>0</Population_Value>
@@ -26,7 +26,7 @@
 		<Build_Advances_Tech_Level>2</Build_Advances_Tech_Level>
 		<CategoryMask> Capital </CategoryMask>
 		<Ship_Class>capital</Ship_Class>
-		<AI_Combat_Power>50000</AI_Combat_Power>
+		<AI_Combat_Power>5000</AI_Combat_Power>
         <Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
 		<Build_Countdown_Text_ID> UPGRADE_CIS_TECH_02 </Build_Countdown_Text_ID>
@@ -45,11 +45,11 @@
         <Required_Timeline>0</Required_Timeline>
         <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
         <Required_Star_Base_Level>0</Required_Star_Base_Level>
-         <Required_Special_Structures>CIS_Remnant_Ground_Research_Facility</Required_Special_Structures>
+         
         <Required_Planets />
 		<Required_Orbiting_Units />
-        <Build_Time_Seconds>30</Build_Time_Seconds>
-        <Build_Cost_Credits>5000</Build_Cost_Credits>
+        <Build_Time_Seconds>850</Build_Time_Seconds>
+        <Build_Cost_Credits>500</Build_Cost_Credits>
         <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
         <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
         <Population_Value>0</Population_Value>
@@ -59,7 +59,7 @@
 		<Build_Advances_Tech_Level>3</Build_Advances_Tech_Level>
 		<CategoryMask> Capital </CategoryMask>
 		<Ship_Class>capital</Ship_Class>
-		<AI_Combat_Power>50000</AI_Combat_Power>
+		<AI_Combat_Power>5000</AI_Combat_Power>
 
 		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
 		<Build_Countdown_Text_ID> UPGRADE_CIS_TECH_03 </Build_Countdown_Text_ID>
@@ -78,11 +78,11 @@
         <Required_Timeline>0</Required_Timeline>
         <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
         <Required_Star_Base_Level>0</Required_Star_Base_Level>
-         <Required_Special_Structures>CIS_Remnant_Ground_Research_Facility</Required_Special_Structures>
+         
         <Required_Planets />
 		<Required_Orbiting_Units />
-        <Build_Time_Seconds>30</Build_Time_Seconds>
-        <Build_Cost_Credits>5000</Build_Cost_Credits>
+        <Build_Time_Seconds>850</Build_Time_Seconds>
+        <Build_Cost_Credits>500</Build_Cost_Credits>
         <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
         <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
         <Population_Value>0</Population_Value>
@@ -92,7 +92,7 @@
 		<Build_Advances_Tech_Level>4</Build_Advances_Tech_Level>
 		<CategoryMask> Capital </CategoryMask>
 		<Ship_Class>capital</Ship_Class>
-		<AI_Combat_Power>50000</AI_Combat_Power>
+		<AI_Combat_Power>5000</AI_Combat_Power>
 
 		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
 		<Build_Countdown_Text_ID> UPGRADE_CIS_TECH_04 </Build_Countdown_Text_ID>
@@ -111,11 +111,11 @@
         <Required_Timeline>0</Required_Timeline>
         <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
         <Required_Star_Base_Level>0</Required_Star_Base_Level>
-         <Required_Special_Structures>CIS_Remnant_Ground_Research_Facility</Required_Special_Structures>
+         
         <Required_Planets />
 		<Required_Orbiting_Units />
-        <Build_Time_Seconds>30</Build_Time_Seconds>
-        <Build_Cost_Credits>5000</Build_Cost_Credits>
+        <Build_Time_Seconds>850</Build_Time_Seconds>
+        <Build_Cost_Credits>500</Build_Cost_Credits>
         <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
         <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
         <Population_Value>0</Population_Value>
@@ -125,7 +125,7 @@
 		<Build_Advances_Tech_Level>5</Build_Advances_Tech_Level>
 		<CategoryMask> Capital </CategoryMask>
 		<Ship_Class>capital</Ship_Class>
-		<AI_Combat_Power>50000</AI_Combat_Power>
+		<AI_Combat_Power>5000</AI_Combat_Power>
 
 		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
 		<Build_Countdown_Text_ID> UPGRADE_CIS_TECH_05 </Build_Countdown_Text_ID>

@@ -1,0 +1,242 @@
+<?xml version="1.0"?>
+<Campaigns>
+
+
+
+<!-- ************************************************************** -->
+<!-- **************** SANDBOX CAMPAIGN "Galactic Civil War" ***************** -->
+<!-- ************************************************************** -->
+
+
+	
+
+
+	
+  
+  
+  
+  
+  
+  
+  <Campaign Name="Sandbox_Galactic_Civil_War_Galactic_Empire">
+
+		<Campaign_Set> Sandbox_Galactic_Civil_War </Campaign_Set>
+		<Sort_Order>17</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_GALACTIC_CIVIL_WAR </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_GALACTIC_CIVIL_WAR_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> -27.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 56.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Abhean, Abridon, Aguarl, Ajan_Kloss, Akuria, Alagon, Amrac, Ando, Artesia, Ansion, Antemeridias, Ardis, Aridus, Aturi, Bajic, Balamak, Bannistar, Barab, Barlok, Bassadro, Batuu,
+				Begeren, Belgaroth, Belsmuth, Bescane, Bomis_Koori, Bompreil, Bormus, Brigia, Caamas, Cal_Seti, Calonica, Carosi, Carrivar, Castell, Celwis, Centares, Cerea, Champala, Chardaan, 
+				Charros, Charubah, Chasin, Ciutric, Columex, Columus, Comra, Concord_Dawn, Contruum, Corsin, Crustai, Cularin, Daalang, Dalron, Darkon, Dellalt, Denon, Derellium, Desevro, Druckenwell,
+				Dorin, Dubrillion, Ebaq, Emberlene, Empress_Teta, Enarc, Entralla, Ession, Foless, Galidraan, Gallinore, Gamorr, Garos, Garqi, Generis, Ghorman, Gyndine, Hakassi, Handooine, Hast,
+				Helska, Hollastin, Humbarine, Jaemus, Kalist, Kampe, Ketaris, Kothlis, Lantillies, Lothal, Lwhekk, Metellos, Morishim, Nelvaan, Nkllon, Oba_Diah, Obroa_Skai, Ord_Biniir, Ord_Cantrell,
+				Ord_Trasi, Ord_Cestus, Orinda, Orion, Pantolomin, Phaeda, Phindar, Pillio, Qiilura, Rudrig, Saffalore, Sarapin, Togoria, Tunna, Wistril, Woostri, Ylesia, Zygerria, Ziost, ZonamaSekot,
+				Zakuul, YagDhul, YagaMinor, Yavin, Wobani, Wayland, Vulpter, Vjun, Vergesso, Vardos, Vandor, Utapau, Ukio Umbara, Trandosha, Thyferra, Tython, Tibrin, The_Maw, Teth, Terminus, Telos, 
+				Toydaria, Tatooine, Takodana, Taris, Taspir, StygeonPrime, Skako, Scipio, Shola, Shili, Sluis_Van, Sullust, Starkillerbase, Saleucami, Serenno, Sernpidal, Scarif, Savareen, Rendili,
+				Ryloth, RhenVar, RingoVinda, Roche, Raxus, Rattatak, Raydonia, Rodia, Ruusan, Rishi, Rentor, Reltooine, Rothana, Randon, Raltiir, Quell, Polus, PolisMassa, Pantora, Pammant, Ossus,
+				Ordmantell, Onderon, Nirauan, Nevarro, Nadiri, Naboo, NalHutta, Malastare, Maridun, MonCalamari, Minntooine, Malachor, Mortis, Muunilinst, Manaan, Myrkr, Mimban, MechisIII, Mygeeto,
+				Mustafar, Mandalore, Lianna, Loronar, Lehon, LahMu, Kuat, Kalee, Kashyyyk, Korriban, Kessel, Kamino, Jedha, Jakku, Jabiim, Iego, Iridonia, Ilum, Ithor, Hapes, HosnianPrime, Hypori,
+				Hoth, Honoghr, Gleeanselm, Geonosis, Fresia, Foerost, Fondor, Florrum, Ferixx, Felucia, Falleen, Duro, Exocron, Exogol, EttiIV, Eriadu, Endor, Eadu, DQar, Dromund, Dolomar, Devaron,
+				Despayre, Dantooine, Dathomir, Dagobah, Calus, Carida, Chandrila, Corulag, Csilla, Crait, Coruscant, Christophsis, Corellia, Commenor, Celanon, CatoNeimoidia, CatoNeimoidia, Cantonica,
+				Bandomeer, Belderone, Byss, Brakka, BozPity, Bothawui, Brentaal, Bimmiel, Bilbringi, Bestine, Bespin, Belsavis, Belkadan, Borleias, Bonadan, Bakura, Bastion, Balmorra, Aurea, Arkanis,
+				Arkania, Atravis, Alakatha, Atzerri, Ambria, Adumar, Agamar, Aargonar, Alsakan, Axxila, Axum, Antar, Anoat, Anaxes, Alderaan, Alzoc, Alarisprime, Akiva, Aeten, AchTo, Abregado_Rae, 
+				Aargau
+		</Locations>
+
+        <Trade_Routes>
+			    
+		</Trade_Routes>
+
+        <Home_Location> Galactic_Empire, Coruscant </Home_Location>
+        <Home_Location> Rebel_Alliance, Yavin </Home_Location>
+		
+		<Starting_Active_Player> Galactic_Empire </Starting_Active_Player>
+		
+		<Story_Name>Galactic_Empire, story_Galactic_Conflict\Story_Galactic_Conflict_Galactic_Empire.xml </Story_Name>
+		<Story_Name>Rebel_Alliance, story_Galactic_Conflict\Story_Galactic_Conflict_Rebel_Alliance.xml </Story_Name>
+
+		
+		<AI_Player_Control> Rebel_Alliance, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>Galactic_Empire, DefaultGalacticHints </Markup_Filename>
+        <Markup_Filename>Rebel_Alliance, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		<!-- Galactic_Empire Starting Forces -->
+
+		<Starting_Credits> Galactic_Empire,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Galactic_Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Galactic_Empire, 5 </Max_Tech_Level>
+		
+        <!-- Coruscant Space Forces -->
+	
+        <!-- Coruscant Land Forces -->
+		<Starting_Forces> Galactic_Empire, Coruscant, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Coruscant, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Coruscant, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		
+		
+		
+		<!-- Rebel_Alliance Starting Forces -->
+
+		<Starting_Credits> Rebel_Alliance,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel_Alliance, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel_Alliance, 5 </Max_Tech_Level>
+		
+        <!-- Yavin Space Forces -->
+	
+        <!-- Yavin Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Yavin, Rebel_Alliance_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Yavin, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Yavin, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		
+  
+  </Campaign>
+  
+  
+  
+  
+  <Campaign Name="Sandbox_Galactic_Civil_War_Rebel_Alliance">
+
+		<Campaign_Set> Sandbox_Galactic_Civil_War </Campaign_Set>
+		<Sort_Order>17</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_GALACTIC_CIVIL_WAR </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_GALACTIC_CIVIL_WAR_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> -27.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 56.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Abhean, Abridon, Aguarl, Ajan_Kloss, Akuria, Alagon, Amrac, Ando, Artesia, Ansion, Antemeridias, Ardis, Aridus, Aturi, Bajic, Balamak, Bannistar, Barab, Barlok, Bassadro, Batuu,
+				Begeren, Belgaroth, Belsmuth, Bescane, Bomis_Koori, Bompreil, Bormus, Brigia, Caamas, Cal_Seti, Calonica, Carosi, Carrivar, Castell, Celwis, Centares, Cerea, Champala, Chardaan, 
+				Charros, Charubah, Chasin, Ciutric, Columex, Columus, Comra, Concord_Dawn, Contruum, Corsin, Crustai, Cularin, Daalang, Dalron, Darkon, Dellalt, Denon, Derellium, Desevro, Druckenwell,
+				Dorin, Dubrillion, Ebaq, Emberlene, Empress_Teta, Enarc, Entralla, Ession, Foless, Galidraan, Gallinore, Gamorr, Garos, Garqi, Generis, Ghorman, Gyndine, Hakassi, Handooine, Hast,
+				Helska, Hollastin, Humbarine, Jaemus, Kalist, Kampe, Ketaris, Kothlis, Lantillies, Lothal, Lwhekk, Metellos, Morishim, Nelvaan, Nkllon, Oba_Diah, Obroa_Skai, Ord_Biniir, Ord_Cantrell,
+				Ord_Trasi, Ord_Cestus, Orinda, Orion, Pantolomin, Phaeda, Phindar, Pillio, Qiilura, Rudrig, Saffalore, Sarapin, Togoria, Tunna, Wistril, Woostri, Ylesia, Zygerria, Ziost, ZonamaSekot,
+				Zakuul, YagDhul, YagaMinor, Yavin, Wobani, Wayland, Vulpter, Vjun, Vergesso, Vardos, Vandor, Utapau, Ukio Umbara, Trandosha, Thyferra, Tython, Tibrin, The_Maw, Teth, Terminus, Telos, 
+				Toydaria, Tatooine, Takodana, Taris, Taspir, StygeonPrime, Skako, Scipio, Shola, Shili, Sluis_Van, Sullust, Starkillerbase, Saleucami, Serenno, Sernpidal, Scarif, Savareen, Rendili,
+				Ryloth, RhenVar, RingoVinda, Roche, Raxus, Rattatak, Raydonia, Rodia, Ruusan, Rishi, Rentor, Reltooine, Rothana, Randon, Raltiir, Quell, Polus, PolisMassa, Pantora, Pammant, Ossus,
+				Ordmantell, Onderon, Nirauan, Nevarro, Nadiri, Naboo, NalHutta, Malastare, Maridun, MonCalamari, Minntooine, Malachor, Mortis, Muunilinst, Manaan, Myrkr, Mimban, MechisIII, Mygeeto,
+				Mustafar, Mandalore, Lianna, Loronar, Lehon, LahMu, Kuat, Kalee, Kashyyyk, Korriban, Kessel, Kamino, Jedha, Jakku, Jabiim, Iego, Iridonia, Ilum, Ithor, Hapes, HosnianPrime, Hypori,
+				Hoth, Honoghr, Gleeanselm, Geonosis, Fresia, Foerost, Fondor, Florrum, Ferixx, Felucia, Falleen, Duro, Exocron, Exogol, EttiIV, Eriadu, Endor, Eadu, DQar, Dromund, Dolomar, Devaron,
+				Despayre, Dantooine, Dathomir, Dagobah, Calus, Carida, Chandrila, Corulag, Csilla, Crait, Coruscant, Christophsis, Corellia, Commenor, Celanon, CatoNeimoidia, CatoNeimoidia, Cantonica,
+				Bandomeer, Belderone, Byss, Brakka, BozPity, Bothawui, Brentaal, Bimmiel, Bilbringi, Bestine, Bespin, Belsavis, Belkadan, Borleias, Bonadan, Bakura, Bastion, Balmorra, Aurea, Arkanis,
+				Arkania, Atravis, Alakatha, Atzerri, Ambria, Adumar, Agamar, Aargonar, Alsakan, Axxila, Axum, Antar, Anoat, Anaxes, Alderaan, Alzoc, Alarisprime, Akiva, Aeten, AchTo, Abregado_Rae, 
+				Aargau
+		</Locations>
+
+        <Trade_Routes>
+			
+		</Trade_Routes>
+
+        <Home_Location> Galactic_Empire, Coruscant </Home_Location>
+        <Home_Location> Rebel_Alliance, Yavin </Home_Location>
+		
+		<Starting_Active_Player> Rebel_Alliance </Starting_Active_Player>
+		
+		<Story_Name>Galactic_Empire, story_Galactic_Conflict\Story_Galactic_Conflict_Galactic_Empire.xml </Story_Name>
+		<Story_Name>Rebel_Alliance, story_Galactic_Conflict\Story_Galactic_Conflict_Rebel_Alliance.xml </Story_Name>
+
+		
+		<AI_Player_Control> Galactic_Empire, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>Galactic_Empire, DefaultGalacticHints </Markup_Filename>
+        <Markup_Filename>Rebel_Alliance, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		<!-- Galactic_Empire Starting Forces -->
+
+		<Starting_Credits> Galactic_Empire,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Galactic_Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Galactic_Empire, 5 </Max_Tech_Level>
+		
+        <!-- Coruscant Space Forces -->
+	
+        <!-- Coruscant Land Forces -->
+		<Starting_Forces> Galactic_Empire, Coruscant, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Coruscant, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Coruscant, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		
+		
+		
+		<!-- Rebel_Alliance Starting Forces -->
+
+		<Starting_Credits> Rebel_Alliance,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel_Alliance, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel_Alliance, 5 </Max_Tech_Level>
+		
+        <!-- Yavin Space Forces -->
+	
+        <!-- Yavin Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Yavin, Rebel_Alliance_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Yavin, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Yavin, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		
+  
+  </Campaign>
+  
+  
+  
+	
+	
+	
+	
+	  
+	  
+	  
+	  
+	  
+	 
+	  
+	  
+	  
+	
+	
+	
+	
+
+
+	
+
+
+ </Campaigns>

@@ -124,7 +124,7 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_INFANTRY_TYPE_ELITE</Encyclopedia_Unit_Class>	
 		<Icon_Name>i_button_Saboteur.tga</Icon_Name>
 		<GUI_Model_Name>RI_Saboteur.ALO</GUI_Model_Name>
-        <GUI_Row> 0 </GUI_Row>
+        <GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>162</Damage>
 		<Autoresolve_Health>2400</Autoresolve_Health> <!-- changed to reflect the real health of the units-->

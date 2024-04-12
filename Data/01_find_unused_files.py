@@ -3,9 +3,9 @@ import re
 import lxml.etree as ET
 
 # Путь к папке с ванильными файлами игры
-lib = r'C:\Users\Tom\Desktop\FoC_Export'
+lib = r'F:\Darth Vader\Desktop\EaW export\FoC'
 # Путь к папке с модом
-mod = r'C:\Program Files (x86)\Steam\steamapps\common\Star Wars Empire at War\corruption\Mods\R.O.T.E.-2.9\Data'
+mod = r'C:\Program Files (x86)\Steam\steamapps\common\Star Wars Empire at War\corruption\Mods\ROTE\Data'
 
 
 class BColors:

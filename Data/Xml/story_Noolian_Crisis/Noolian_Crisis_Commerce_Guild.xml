@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+
+
+
+<!--***********************************************-->
+<!--***** CAMPAIGN: Noolian_Crisis (Commerce_Guild Version) *****-->
+<!--***********************************************-->
+
+
+
+
+<Story>
+
+    <Event Name="Universal_Story_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+	
+	<Event Name="Commerce_Guild_AI_Unlock_Research_Facility">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Commerce_Guild_Ground_Research_Facility</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="Commerce_Guild_Reveal_Galaxy">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>REVEAL_ALL_PLANETS</Reward_Type>
+        <Prereq>Universal_Story_Start</Prereq>
+    </Event>
+
+
+	
+	
+	<!-- Era 1 -->
+
+	<Event Name="Commerce_Guild_Enters_Tech_01">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>1</Event_Param1>
+	</Event>
+	
+		
+	<!-- Era 2 -->
+	<Event Name="Commerce_Guild_Enters_Tech_02">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>2</Event_Param1>
+	</Event>
+	
+
+	<!-- Era 3 -->
+	<Event Name="Commerce_Guild_Enters_Tech_03">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>3</Event_Param1>
+	</Event>
+	
+
+	<!-- Era 4 -->
+	<Event Name="Commerce_Guild_Enters_Tech_04">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>4</Event_Param1>
+	</Event>
+	
+	
+	<!-- Era 5 -->
+	<Event Name="Commerce_Guild_Enters_Tech_05">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>5</Event_Param1>
+	</Event>
+
+	
+	
+	
+	
+	
+	
+	<!-- Spawn Heroes -->
+	
+	<Event Name="Spawn_Shu_Mai">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Shu_Mai_Team</Reward_Param1>
+		<Reward_Param2>YagDhul</Reward_Param2>
+		<Prereq>Commerce_Guild_Enters_Tech_01</Prereq>
+	</Event>
+
+</Story>

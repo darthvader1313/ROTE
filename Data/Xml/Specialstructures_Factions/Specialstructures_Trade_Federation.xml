@@ -1631,7 +1631,7 @@
 
         <Build_Countdown_Timer> Yes </Build_Countdown_Timer>
 		<Build_Countdown_Text_ID> RESEARCH_FACILITY </Build_Countdown_Text_ID>
-		<Build_Countdown_Text_RGBA> 21, 21, 95, 255 </Build_Countdown_Text_RGBA>
+		<Build_Countdown_Text_RGBA> 143, 92, 19, 255 </Build_Countdown_Text_RGBA>
 		<Build_Music_Completed> Tech_Upgrade_Empire </Build_Music_Completed>
 	
 		<GUI_Bounds_Scale>0.35</GUI_Bounds_Scale>

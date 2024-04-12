@@ -1,0 +1,1129 @@
+<?xml version="1.0"?>
+<Campaigns>
+
+
+
+<!-- ************************************************************** -->
+<!-- **************** SANDBOX CAMPAIGN "Five Veils Campaign" ***************** -->
+<!-- ************************************************************** -->
+
+
+	
+
+
+	
+  
+  
+  
+  
+  
+  
+  <Campaign Name="Sandbox_Five_Veils_Campaign_Early_Empire">
+
+		<Campaign_Set> Sandbox_Five_Veils_Campaign </Campaign_Set>
+		<Sort_Order>7</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_FIVE_VEILS_CAMPAIGN </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_FIVE_VEILS_CAMPAIGN_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> -27.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 56.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Christophsis, Savareen, Arkanis, Nelvaan, Naboo, Enarc, Vergesso, DQar, Aturi, 
+				Pantora, Alzoc, Crait, Malastare, Bormus, Exocron, Utapau, Dagobah, Sluis_Van,
+				Eriadu, Tibrin, Atravis, Sullust, Belsavis, Ryndellia, Nerrif, HookNeb, Omwat,
+				Sharlissia, Reuss, Rugosa, Lianic, Zhar, Socorro, Trigalis, Farstine, 
+		</Locations>
+
+        <Trade_Routes>
+			
+		</Trade_Routes>
+
+        <Home_Location> Early_Empire, Christophsis </Home_Location>
+		<Home_Location> CIS_Remnant, Utapau </Home_Location>
+		<Home_Location> Trade_Federation, Arkanis </Home_Location>
+		<Home_Location> Terrorists, DQar </Home_Location>
+		
+		<Starting_Active_Player> Early_Empire </Starting_Active_Player>
+		
+		<Story_Name>Early_Empire, story_Five_Veils_Campaign\story_Five_Veils_Campaign_Early_Empire.xml </Story_Name>
+        <Story_Name>CIS_Remnant, story_Five_Veils_Campaign\story_Five_Veils_Campaign_CIS_Remnant.xml </Story_Name>
+		<Story_Name>Trade_Federation, story_Five_Veils_Campaign\story_Five_Veils_Campaign_Trade_Federation.xml </Story_Name>
+		<Story_Name>Terrorists, story_Five_Veils_Campaign\story_Five_Veils_Campaign_Terrorists.xml </Story_Name>
+		
+		<AI_Player_Control> CIS_Remnant, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Trade_Federation, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Terrorists, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>Early_Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>CIS_Remnant, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Trade_Federation, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Terrorists, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		<!-- Early_Empire Starting Forces -->
+
+		<Starting_Credits> Early_Empire,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Early_Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Early_Empire, 5 </Max_Tech_Level>
+		
+        <!-- Christophsis Space Forces -->
+	
+        <!-- Christophsis Land Forces -->
+		<Starting_Forces> Early_Empire, Christophsis, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Christophsis, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Christophsis, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Arkanis Space Forces -->
+	
+        <!-- Arkanis Land Forces -->
+		<Starting_Forces> Early_Empire, Arkanis, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Arkanis, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Arkanis, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Nelvaan Space Forces -->
+	
+        <!-- Nelvaan Land Forces -->
+		<Starting_Forces> Early_Empire, Nelvaan, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Nelvaan, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Nelvaan, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Enarc Space Forces -->
+	
+        <!-- Enarc Land Forces -->
+		<Starting_Forces> Early_Empire, Enarc, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Enarc, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Enarc, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Naboo Space Forces -->
+	
+        <!-- Naboo Land Forces -->
+		<Starting_Forces> Early_Empire, Naboo, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Naboo, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Naboo, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Eriadu Space Forces -->
+	
+        <!-- Eriadu Land Forces -->
+		<Starting_Forces> Early_Empire, Eriadu, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Eriadu, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Eriadu, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Pantora Space Forces -->
+	
+        <!-- Pantora Land Forces -->
+		<Starting_Forces> Early_Empire, Pantora, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Pantora, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Pantora, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Malastare Space Forces -->
+	
+        <!-- Malastare Land Forces -->
+		<Starting_Forces> Early_Empire, Malastare, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Malastare, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Malastare, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		<!-- CIS Remnant Starting Forces -->
+
+		<Starting_Credits> CIS_Remnant,  10000 </Starting_Credits>
+		<Starting_Tech_Level> CIS_Remnant, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> CIS_Remnant, 5 </Max_Tech_Level>
+                                                     
+        <!-- Utapau Space Forces -->
+
+        <!-- Utapau Land Forces -->
+		<Starting_Forces> CIS_Remnant, Utapau, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Utapau, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Utapau, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Alzoc Space Forces -->
+
+        <!-- Alzoc Land Forces -->
+		<Starting_Forces> CIS_Remnant, Alzoc, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Alzoc, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Alzoc, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Vergesso Space Forces -->
+
+        <!-- Vergesso Land Forces -->
+		<Starting_Forces> CIS_Remnant, Vergesso, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Vergesso, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Utapau, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Aturi Space Forces -->
+
+        <!-- Aturi Land Forces -->
+		<Starting_Forces> CIS_Remnant, Aturi, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Aturi, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Aturi, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Exocron Space Forces -->
+
+        <!-- Exocron Land Forces -->
+		<Starting_Forces> CIS_Remnant, Exocron, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Exocron, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Exocron, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Sluis_Van Space Forces -->
+
+        <!-- Sluis_Van Land Forces -->
+		<Starting_Forces> CIS_Remnant, Sluis_Van, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Sluis_Van, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Sluis_Van, Super_Battledroid_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		<!-- Trade Federation Starting Forces -->
+
+		<Starting_Credits> Trade_Federation,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Trade_Federation, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Trade_Federation, 5 </Max_Tech_Level>
+		
+        <!-- Atravis Space Forces -->
+		
+        <!-- Atravis Land Forces -->
+		<Starting_Forces> Trade_Federation, Atravis, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Atravis, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Atravis, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Bormus Space Forces -->
+		
+        <!-- Bormus Land Forces -->
+		<Starting_Forces> Trade_Federation, Bormus, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Bormus, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Bormus, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Belsavis Space Forces -->
+		
+        <!-- Belsavis Land Forces -->
+		<Starting_Forces> Trade_Federation, Belsavis, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Belsavis, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Belsavis, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Tibrin Space Forces -->
+		
+        <!-- Tibrin Land Forces -->
+		<Starting_Forces> Trade_Federation, Tibrin, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Tibrin, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Tibrin, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		
+		<!-- Terrorists Starting Forces -->
+
+		<Starting_Credits> Terrorists,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Terrorists, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Terrorists, 5 </Max_Tech_Level>
+		
+        <!-- Crait Space Forces -->
+		
+        <!-- Crait Land Forces -->
+		<Starting_Forces> Terrorists, Crait, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Crait, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Crait, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- DQar Space Forces -->
+		
+        <!-- DQar Land Forces -->
+		<Starting_Forces> Terrorists, DQar, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, DQar, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, DQar, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Dagobah Space Forces -->
+		
+        <!-- Dagobah Land Forces -->
+		<Starting_Forces> Terrorists, Dagobah, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Dagobah, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Dagobah, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Sullust Space Forces -->
+		
+        <!-- Sullust Land Forces -->
+		<Starting_Forces> Terrorists, Sullust, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Sullust, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Sullust, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Savareen Space Forces -->
+		
+        <!-- Savareen Land Forces -->
+		<Starting_Forces> Terrorists, Savareen, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Savareen, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Savareen, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		
+		
+
+  
+  
+  </Campaign>
+  
+  
+  
+  
+  
+  
+  
+  <Campaign Name="Sandbox_Five_Veils_Campaign_CIS_Remnant">
+
+		<Campaign_Set> Sandbox_Five_Veils_Campaign </Campaign_Set>
+		<Sort_Order>7</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_FIVE_VEILS_CAMPAIGN </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_FIVE_VEILS_CAMPAIGN_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> -27.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 56.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Christophsis, Savareen, Arkanis, Nelvaan, Naboo, Enarc, Vergesso, DQar, Aturi, 
+				Pantora, Alzoc, Crait, Malastare, Bormus, Exocron, Utapau, Dagobah, Sluis_Van,
+				Eriadu, Tibrin, Atravis, Sullust, Belsavis, Ryndellia, Nerrif, HookNeb, Omwat,
+				Sharlissia, Reuss, Rugosa, Lianic, Zhar, Socorro, Trigalis, Farstine, 
+		</Locations>
+
+        <Trade_Routes>
+			
+		</Trade_Routes>
+
+        <Home_Location> Early_Empire, Christophsis </Home_Location>
+		<Home_Location> CIS_Remnant, Utapau </Home_Location>
+		<Home_Location> Trade_Federation, Arkanis </Home_Location>
+		<Home_Location> Terrorists, DQar </Home_Location>
+		
+		<Starting_Active_Player> CIS_Remnant </Starting_Active_Player>
+		
+		<Story_Name>Early_Empire, story_Five_Veils_Campaign\story_Five_Veils_Campaign_Early_Empire.xml </Story_Name>
+        <Story_Name>CIS_Remnant, story_Five_Veils_Campaign\story_Five_Veils_Campaign_CIS_Remnant.xml </Story_Name>
+		<Story_Name>Trade_Federation, story_Five_Veils_Campaign\story_Five_Veils_Campaign_Trade_Federation.xml </Story_Name>
+		<Story_Name>Terrorists, story_Five_Veils_Campaign\story_Five_Veils_Campaign_Terrorists.xml </Story_Name>
+		
+		<AI_Player_Control> Early_Empire, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Trade_Federation, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Terrorists, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>Early_Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>CIS_Remnant, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Trade_Federation, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Terrorists, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		<!-- Early_Empire Starting Forces -->
+
+		<Starting_Credits> Early_Empire,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Early_Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Early_Empire, 5 </Max_Tech_Level>
+		
+        <!-- Christophsis Space Forces -->
+	
+        <!-- Christophsis Land Forces -->
+		<Starting_Forces> Early_Empire, Christophsis, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Christophsis, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Christophsis, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Arkanis Space Forces -->
+	
+        <!-- Arkanis Land Forces -->
+		<Starting_Forces> Early_Empire, Arkanis, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Arkanis, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Arkanis, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Nelvaan Space Forces -->
+	
+        <!-- Nelvaan Land Forces -->
+		<Starting_Forces> Early_Empire, Nelvaan, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Nelvaan, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Nelvaan, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Enarc Space Forces -->
+	
+        <!-- Enarc Land Forces -->
+		<Starting_Forces> Early_Empire, Enarc, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Enarc, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Enarc, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Naboo Space Forces -->
+	
+        <!-- Naboo Land Forces -->
+		<Starting_Forces> Early_Empire, Naboo, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Naboo, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Naboo, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Eriadu Space Forces -->
+	
+        <!-- Eriadu Land Forces -->
+		<Starting_Forces> Early_Empire, Eriadu, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Eriadu, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Eriadu, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Pantora Space Forces -->
+	
+        <!-- Pantora Land Forces -->
+		<Starting_Forces> Early_Empire, Pantora, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Pantora, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Pantora, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Malastare Space Forces -->
+	
+        <!-- Malastare Land Forces -->
+		<Starting_Forces> Early_Empire, Malastare, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Malastare, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Malastare, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		<!-- CIS Remnant Starting Forces -->
+
+		<Starting_Credits> CIS_Remnant,  10000 </Starting_Credits>
+		<Starting_Tech_Level> CIS_Remnant, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> CIS_Remnant, 5 </Max_Tech_Level>
+                                                     
+        <!-- Utapau Space Forces -->
+
+        <!-- Utapau Land Forces -->
+		<Starting_Forces> CIS_Remnant, Utapau, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Utapau, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Utapau, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Alzoc Space Forces -->
+
+        <!-- Alzoc Land Forces -->
+		<Starting_Forces> CIS_Remnant, Alzoc, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Alzoc, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Alzoc, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Vergesso Space Forces -->
+
+        <!-- Vergesso Land Forces -->
+		<Starting_Forces> CIS_Remnant, Vergesso, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Vergesso, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Utapau, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Aturi Space Forces -->
+
+        <!-- Aturi Land Forces -->
+		<Starting_Forces> CIS_Remnant, Aturi, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Aturi, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Aturi, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Exocron Space Forces -->
+
+        <!-- Exocron Land Forces -->
+		<Starting_Forces> CIS_Remnant, Exocron, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Exocron, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Exocron, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Sluis_Van Space Forces -->
+
+        <!-- Sluis_Van Land Forces -->
+		<Starting_Forces> CIS_Remnant, Sluis_Van, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Sluis_Van, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Sluis_Van, Super_Battledroid_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		<!-- Trade Federation Starting Forces -->
+
+		<Starting_Credits> Trade_Federation,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Trade_Federation, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Trade_Federation, 5 </Max_Tech_Level>
+		
+        <!-- Atravis Space Forces -->
+		
+        <!-- Atravis Land Forces -->
+		<Starting_Forces> Trade_Federation, Atravis, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Atravis, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Atravis, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Bormus Space Forces -->
+		
+        <!-- Bormus Land Forces -->
+		<Starting_Forces> Trade_Federation, Bormus, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Bormus, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Bormus, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Belsavis Space Forces -->
+		
+        <!-- Belsavis Land Forces -->
+		<Starting_Forces> Trade_Federation, Belsavis, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Belsavis, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Belsavis, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Tibrin Space Forces -->
+		
+        <!-- Tibrin Land Forces -->
+		<Starting_Forces> Trade_Federation, Tibrin, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Tibrin, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Tibrin, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		
+		<!-- Terrorists Starting Forces -->
+
+		<Starting_Credits> Terrorists,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Terrorists, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Terrorists, 5 </Max_Tech_Level>
+		
+        <!-- Crait Space Forces -->
+		
+        <!-- Crait Land Forces -->
+		<Starting_Forces> Terrorists, Crait, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Crait, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Crait, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- DQar Space Forces -->
+		
+        <!-- DQar Land Forces -->
+		<Starting_Forces> Terrorists, DQar, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, DQar, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, DQar, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Dagobah Space Forces -->
+		
+        <!-- Dagobah Land Forces -->
+		<Starting_Forces> Terrorists, Dagobah, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Dagobah, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Dagobah, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Sullust Space Forces -->
+		
+        <!-- Sullust Land Forces -->
+		<Starting_Forces> Terrorists, Sullust, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Sullust, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Sullust, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Savareen Space Forces -->
+		
+        <!-- Savareen Land Forces -->
+		<Starting_Forces> Terrorists, Savareen, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Savareen, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Savareen, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		
+		
+
+  
+  
+  </Campaign>
+  
+  
+  
+  
+  
+  
+  <Campaign Name="Sandbox_Five_Veils_Campaign_Trade_Federation">
+
+		<Campaign_Set> Sandbox_Five_Veils_Campaign </Campaign_Set>
+		<Sort_Order>7</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_FIVE_VEILS_CAMPAIGN </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_FIVE_VEILS_CAMPAIGN_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> -27.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 56.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Christophsis, Savareen, Arkanis, Nelvaan, Naboo, Enarc, Vergesso, DQar, Aturi, 
+				Pantora, Alzoc, Crait, Malastare, Bormus, Exocron, Utapau, Dagobah, Sluis_Van,
+				Eriadu, Tibrin, Atravis, Sullust, Belsavis, Ryndellia, Nerrif, HookNeb, Omwat,
+				Sharlissia, Reuss, Rugosa, Lianic, Zhar, Socorro, Trigalis, Farstine, 
+		</Locations>
+
+        <Trade_Routes>
+			
+		</Trade_Routes>
+
+        <Home_Location> Early_Empire, Christophsis </Home_Location>
+		<Home_Location> CIS_Remnant, Utapau </Home_Location>
+		<Home_Location> Trade_Federation, Arkanis </Home_Location>
+		<Home_Location> Terrorists, DQar </Home_Location>
+		
+		<Starting_Active_Player> Trade_Federation </Starting_Active_Player>
+		
+		<Story_Name>Early_Empire, story_Five_Veils_Campaign\story_Five_Veils_Campaign_Early_Empire.xml </Story_Name>
+        <Story_Name>CIS_Remnant, story_Five_Veils_Campaign\story_Five_Veils_Campaign_CIS_Remnant.xml </Story_Name>
+		<Story_Name>Trade_Federation, story_Five_Veils_Campaign\story_Five_Veils_Campaign_Trade_Federation.xml </Story_Name>
+		<Story_Name>Terrorists, story_Five_Veils_Campaign\story_Five_Veils_Campaign_Terrorists.xml </Story_Name>
+		
+		<AI_Player_Control> Early_Empire, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> CIS_Remnant, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Terrorists, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>Early_Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>CIS_Remnant, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Trade_Federation, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Terrorists, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		<!-- Early_Empire Starting Forces -->
+
+		<Starting_Credits> Early_Empire,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Early_Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Early_Empire, 5 </Max_Tech_Level>
+		
+        <!-- Christophsis Space Forces -->
+	
+        <!-- Christophsis Land Forces -->
+		<Starting_Forces> Early_Empire, Christophsis, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Christophsis, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Christophsis, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Arkanis Space Forces -->
+	
+        <!-- Arkanis Land Forces -->
+		<Starting_Forces> Early_Empire, Arkanis, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Arkanis, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Arkanis, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Nelvaan Space Forces -->
+	
+        <!-- Nelvaan Land Forces -->
+		<Starting_Forces> Early_Empire, Nelvaan, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Nelvaan, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Nelvaan, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Enarc Space Forces -->
+	
+        <!-- Enarc Land Forces -->
+		<Starting_Forces> Early_Empire, Enarc, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Enarc, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Enarc, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Naboo Space Forces -->
+	
+        <!-- Naboo Land Forces -->
+		<Starting_Forces> Early_Empire, Naboo, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Naboo, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Naboo, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Eriadu Space Forces -->
+	
+        <!-- Eriadu Land Forces -->
+		<Starting_Forces> Early_Empire, Eriadu, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Eriadu, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Eriadu, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Pantora Space Forces -->
+	
+        <!-- Pantora Land Forces -->
+		<Starting_Forces> Early_Empire, Pantora, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Pantora, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Pantora, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Malastare Space Forces -->
+	
+        <!-- Malastare Land Forces -->
+		<Starting_Forces> Early_Empire, Malastare, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Malastare, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Malastare, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		<!-- CIS Remnant Starting Forces -->
+
+		<Starting_Credits> CIS_Remnant,  10000 </Starting_Credits>
+		<Starting_Tech_Level> CIS_Remnant, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> CIS_Remnant, 5 </Max_Tech_Level>
+                                                     
+        <!-- Utapau Space Forces -->
+
+        <!-- Utapau Land Forces -->
+		<Starting_Forces> CIS_Remnant, Utapau, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Utapau, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Utapau, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Alzoc Space Forces -->
+
+        <!-- Alzoc Land Forces -->
+		<Starting_Forces> CIS_Remnant, Alzoc, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Alzoc, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Alzoc, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Vergesso Space Forces -->
+
+        <!-- Vergesso Land Forces -->
+		<Starting_Forces> CIS_Remnant, Vergesso, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Vergesso, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Utapau, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Aturi Space Forces -->
+
+        <!-- Aturi Land Forces -->
+		<Starting_Forces> CIS_Remnant, Aturi, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Aturi, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Aturi, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Exocron Space Forces -->
+
+        <!-- Exocron Land Forces -->
+		<Starting_Forces> CIS_Remnant, Exocron, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Exocron, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Exocron, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Sluis_Van Space Forces -->
+
+        <!-- Sluis_Van Land Forces -->
+		<Starting_Forces> CIS_Remnant, Sluis_Van, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Sluis_Van, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Sluis_Van, Super_Battledroid_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		<!-- Trade Federation Starting Forces -->
+
+		<Starting_Credits> Trade_Federation,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Trade_Federation, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Trade_Federation, 5 </Max_Tech_Level>
+		
+        <!-- Atravis Space Forces -->
+		
+        <!-- Atravis Land Forces -->
+		<Starting_Forces> Trade_Federation, Atravis, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Atravis, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Atravis, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Bormus Space Forces -->
+		
+        <!-- Bormus Land Forces -->
+		<Starting_Forces> Trade_Federation, Bormus, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Bormus, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Bormus, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Belsavis Space Forces -->
+		
+        <!-- Belsavis Land Forces -->
+		<Starting_Forces> Trade_Federation, Belsavis, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Belsavis, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Belsavis, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Tibrin Space Forces -->
+		
+        <!-- Tibrin Land Forces -->
+		<Starting_Forces> Trade_Federation, Tibrin, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Tibrin, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Tibrin, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		
+		<!-- Terrorists Starting Forces -->
+
+		<Starting_Credits> Terrorists,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Terrorists, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Terrorists, 5 </Max_Tech_Level>
+		
+        <!-- Crait Space Forces -->
+		
+        <!-- Crait Land Forces -->
+		<Starting_Forces> Terrorists, Crait, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Crait, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Crait, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- DQar Space Forces -->
+		
+        <!-- DQar Land Forces -->
+		<Starting_Forces> Terrorists, DQar, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, DQar, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, DQar, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Dagobah Space Forces -->
+		
+        <!-- Dagobah Land Forces -->
+		<Starting_Forces> Terrorists, Dagobah, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Dagobah, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Dagobah, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Sullust Space Forces -->
+		
+        <!-- Sullust Land Forces -->
+		<Starting_Forces> Terrorists, Sullust, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Sullust, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Sullust, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Savareen Space Forces -->
+		
+        <!-- Savareen Land Forces -->
+		<Starting_Forces> Terrorists, Savareen, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Savareen, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Savareen, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		
+		
+
+  
+  
+  </Campaign>
+  
+  
+  
+  
+  
+  
+  
+  <Campaign Name="Sandbox_Five_Veils_Campaign_Terrorists">
+
+		<Campaign_Set> Sandbox_Five_Veils_Campaign </Campaign_Set>
+		<Sort_Order>7</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_FIVE_VEILS_CAMPAIGN </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_FIVE_VEILS_CAMPAIGN_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> -27.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 56.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Christophsis, Savareen, Arkanis, Nelvaan, Naboo, Enarc, Vergesso, DQar, Aturi, 
+				Pantora, Alzoc, Crait, Malastare, Bormus, Exocron, Utapau, Dagobah, Sluis_Van,
+				Eriadu, Tibrin, Atravis, Sullust, Belsavis, Ryndellia, Nerrif, HookNeb, Omwat,
+				Sharlissia, Reuss, Rugosa, Lianic, Zhar, Socorro, Trigalis, Farstine, 
+		</Locations>
+
+        <Trade_Routes>
+			
+		</Trade_Routes>
+
+        <Home_Location> Early_Empire, Christophsis </Home_Location>
+		<Home_Location> CIS_Remnant, Utapau </Home_Location>
+		<Home_Location> Trade_Federation, Arkanis </Home_Location>
+		<Home_Location> Terrorists, DQar </Home_Location>
+		
+		<Starting_Active_Player> Terrorists </Starting_Active_Player>
+		
+		<Story_Name>Early_Empire, story_Five_Veils_Campaign\story_Five_Veils_Campaign_Early_Empire.xml </Story_Name>
+        <Story_Name>CIS_Remnant, story_Five_Veils_Campaign\story_Five_Veils_Campaign_CIS_Remnant.xml </Story_Name>
+		<Story_Name>Trade_Federation, story_Five_Veils_Campaign\story_Five_Veils_Campaign_Trade_Federation.xml </Story_Name>
+		<Story_Name>Terrorists, story_Five_Veils_Campaign\story_Five_Veils_Campaign_Terrorists.xml </Story_Name>
+		
+		<AI_Player_Control> Early_Empire, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> CIS_Remnant, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Trade_Federation, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>Early_Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>CIS_Remnant, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Trade_Federation, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Terrorists, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		<!-- Early_Empire Starting Forces -->
+
+		<Starting_Credits> Early_Empire,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Early_Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Early_Empire, 5 </Max_Tech_Level>
+		
+        <!-- Christophsis Space Forces -->
+	
+        <!-- Christophsis Land Forces -->
+		<Starting_Forces> Early_Empire, Christophsis, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Christophsis, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Christophsis, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Arkanis Space Forces -->
+	
+        <!-- Arkanis Land Forces -->
+		<Starting_Forces> Early_Empire, Arkanis, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Arkanis, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Arkanis, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Nelvaan Space Forces -->
+	
+        <!-- Nelvaan Land Forces -->
+		<Starting_Forces> Early_Empire, Nelvaan, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Nelvaan, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Nelvaan, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Enarc Space Forces -->
+	
+        <!-- Enarc Land Forces -->
+		<Starting_Forces> Early_Empire, Enarc, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Enarc, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Enarc, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Naboo Space Forces -->
+	
+        <!-- Naboo Land Forces -->
+		<Starting_Forces> Early_Empire, Naboo, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Naboo, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Naboo, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Eriadu Space Forces -->
+	
+        <!-- Eriadu Land Forces -->
+		<Starting_Forces> Early_Empire, Eriadu, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Eriadu, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Eriadu, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Pantora Space Forces -->
+	
+        <!-- Pantora Land Forces -->
+		<Starting_Forces> Early_Empire, Pantora, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Pantora, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Pantora, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Malastare Space Forces -->
+	
+        <!-- Malastare Land Forces -->
+		<Starting_Forces> Early_Empire, Malastare, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Malastare, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Malastare, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		<!-- CIS Remnant Starting Forces -->
+
+		<Starting_Credits> CIS_Remnant,  10000 </Starting_Credits>
+		<Starting_Tech_Level> CIS_Remnant, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> CIS_Remnant, 5 </Max_Tech_Level>
+                                                     
+        <!-- Utapau Space Forces -->
+
+        <!-- Utapau Land Forces -->
+		<Starting_Forces> CIS_Remnant, Utapau, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Utapau, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Utapau, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Alzoc Space Forces -->
+
+        <!-- Alzoc Land Forces -->
+		<Starting_Forces> CIS_Remnant, Alzoc, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Alzoc, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Alzoc, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Vergesso Space Forces -->
+
+        <!-- Vergesso Land Forces -->
+		<Starting_Forces> CIS_Remnant, Vergesso, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Vergesso, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Utapau, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Aturi Space Forces -->
+
+        <!-- Aturi Land Forces -->
+		<Starting_Forces> CIS_Remnant, Aturi, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Aturi, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Aturi, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Exocron Space Forces -->
+
+        <!-- Exocron Land Forces -->
+		<Starting_Forces> CIS_Remnant, Exocron, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Exocron, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Exocron, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Sluis_Van Space Forces -->
+
+        <!-- Sluis_Van Land Forces -->
+		<Starting_Forces> CIS_Remnant, Sluis_Van, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Sluis_Van, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Sluis_Van, Super_Battledroid_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		<!-- Trade Federation Starting Forces -->
+
+		<Starting_Credits> Trade_Federation,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Trade_Federation, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Trade_Federation, 5 </Max_Tech_Level>
+		
+        <!-- Atravis Space Forces -->
+		
+        <!-- Atravis Land Forces -->
+		<Starting_Forces> Trade_Federation, Atravis, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Atravis, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Atravis, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Bormus Space Forces -->
+		
+        <!-- Bormus Land Forces -->
+		<Starting_Forces> Trade_Federation, Bormus, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Bormus, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Bormus, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Belsavis Space Forces -->
+		
+        <!-- Belsavis Land Forces -->
+		<Starting_Forces> Trade_Federation, Belsavis, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Belsavis, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Belsavis, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Tibrin Space Forces -->
+		
+        <!-- Tibrin Land Forces -->
+		<Starting_Forces> Trade_Federation, Tibrin, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Tibrin, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Tibrin, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		
+		<!-- Terrorists Starting Forces -->
+
+		<Starting_Credits> Terrorists,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Terrorists, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Terrorists, 5 </Max_Tech_Level>
+		
+        <!-- Crait Space Forces -->
+		
+        <!-- Crait Land Forces -->
+		<Starting_Forces> Terrorists, Crait, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Crait, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Crait, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- DQar Space Forces -->
+		
+        <!-- DQar Land Forces -->
+		<Starting_Forces> Terrorists, DQar, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, DQar, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, DQar, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Dagobah Space Forces -->
+		
+        <!-- Dagobah Land Forces -->
+		<Starting_Forces> Terrorists, Dagobah, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Dagobah, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Dagobah, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Sullust Space Forces -->
+		
+        <!-- Sullust Land Forces -->
+		<Starting_Forces> Terrorists, Sullust, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Sullust, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Sullust, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Savareen Space Forces -->
+		
+        <!-- Savareen Land Forces -->
+		<Starting_Forces> Terrorists, Savareen, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Savareen, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Savareen, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		
+		
+
+  
+  
+  </Campaign>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+	
+	
+	
+	
+	  
+	  
+	  
+	  
+	  
+	 
+	  
+	  
+	  
+	
+	
+	
+	
+
+
+	
+
+
+ </Campaigns>

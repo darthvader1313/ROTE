@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+
+<Story_Mode_Plots>
+	<Lua_Script>GCMain</Lua_Script>
+	<Active_Plot>Story_Five_Veils_Campaign\Five_Veils_Campaign_Early_Empire.XML</Active_Plot>
+	<Active_Plot>Filter_Force_Click.XML</Active_Plot>
+	
+
+	
+</Story_Mode_Plots>

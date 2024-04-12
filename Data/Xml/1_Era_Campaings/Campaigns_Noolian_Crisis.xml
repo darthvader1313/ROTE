@@ -1,0 +1,1105 @@
+<?xml version="1.0"?>
+<Campaigns>
+
+
+
+<!-- ************************************************************** -->
+<!-- **************** SANDBOX CAMPAIGN "Noolian Crisis" ***************** -->
+<!-- ************************************************************** -->
+
+
+	
+
+
+	
+  
+  
+  
+  
+  
+  
+  <Campaign Name="Sandbox_Noolian_Crisis_Early_Empire">
+
+		<Campaign_Set> Sandbox_Noolian_Crisis </Campaign_Set>
+		<Sort_Order>4</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_NOOLIAN_CRISIS </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_NOOLIAN_CRISIS_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> -27.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 56.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Bothawui, Kothlis, Vandor, Aridus, Cularin, Tynna, Chardaan, Atzerri, 
+				Druckenwell, Falleen, Aguarl, Ando, Rodia, Christophsis, Savareen, Denon,
+				Devaron, Foless, Bestine, Thyferra, MechisIII, YagDhul, Calus
+		</Locations>
+
+        <Trade_Routes>
+			
+		</Trade_Routes>
+
+        <Home_Location> Early_Empire, Druckenwell </Home_Location>
+		<Home_Location> Trade_Federation, Foless </Home_Location>
+		<Home_Location> Terrorists, Bothawui </Home_Location>
+		<Home_Location> Commerce_Guild, YagDhul </Home_Location>
+		
+		<Starting_Active_Player> Early_Empire </Starting_Active_Player>
+		
+		<Story_Name>Early_Empire, story_Noolian_Crisis\story_Noolian_Crisis_Early_Empire.xml </Story_Name>
+        <Story_Name>Trade_Federation, story_Noolian_Crisis\story_Noolian_Crisis_CIS_Remnant.xml </Story_Name>
+		<Story_Name>Terrorists, story_Noolian_Crisis\story_Noolian_Crisis_Trade_Federation.xml </Story_Name>
+		<Story_Name>Commerce_Guild, story_Noolian_Crisis\story_Noolian_Crisis_Banking_Clan.xml </Story_Name>
+		
+		<AI_Player_Control> Trade_Federation, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Terrorists, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Commerce_Guild, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>Early_Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Trade_Federation, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Terrorists, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Commerce_Guild, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		<!-- Early_Empire Starting Forces -->
+
+		<Starting_Credits> Early_Empire,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Early_Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Early_Empire, 5 </Max_Tech_Level>
+		
+        <!-- Druckenwell Space Forces -->
+	
+        <!-- Druckenwell Land Forces -->
+		<Starting_Forces> Early_Empire, Druckenwell, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Druckenwell, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Druckenwell, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Tynna Space Forces -->
+	
+        <!-- Tynna Land Forces -->
+		<Starting_Forces> Early_Empire, Tynna, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Tynna, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Tynna, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Vandor Space Forces -->
+	
+        <!-- Vandor Land Forces -->
+		<Starting_Forces> Early_Empire, Vandor, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Vandor, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Vandor, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Aridus Space Forces -->
+	
+        <!-- Aridus Land Forces -->
+		<Starting_Forces> Early_Empire, Aridus, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Aridus, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Aridus, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Cularin Space Forces -->
+	
+        <!-- Cularin Land Forces -->
+		<Starting_Forces> Early_Empire, Cularin, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Cularin, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Cularin, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Chardaan Space Forces -->
+	
+        <!-- Chardaan Land Forces -->
+		<Starting_Forces> Early_Empire, Chardaan, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Chardaan, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Chardaan, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Rodia Space Forces -->
+	
+        <!-- Rodia Land Forces -->
+		<Starting_Forces> Early_Empire, Rodia, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Rodia, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Rodia, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Christophsis Space Forces -->
+	
+        <!-- Christophsis Land Forces -->
+		<Starting_Forces> Early_Empire, Christophsis, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Christophsis, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Christophsis, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		
+		<!-- Terrorists Starting Forces -->
+
+		<Starting_Credits> Terrorists,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Terrorists, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Terrorists, 5 </Max_Tech_Level>
+		
+        <!-- Bothawui Space Forces -->
+		
+        <!-- Bothawui Land Forces -->
+		<Starting_Forces> Terrorists, Bothawui, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Bothawui, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Bothawui, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Kothlis Space Forces -->
+		
+        <!-- Kothlis Land Forces -->
+		<Starting_Forces> Terrorists, Kothlis, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Kothlis, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Kothlis, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Atzerri Space Forces -->
+		
+        <!-- Atzerri Land Forces -->
+		<Starting_Forces> Terrorists, Atzerri, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Atzerri, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Atzerri, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Ando Space Forces -->
+		
+        <!-- Ando Land Forces -->
+		<Starting_Forces> Terrorists, Ando, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Ando, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Ando, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Falleen Space Forces -->
+		
+        <!-- Falleen Land Forces -->
+		<Starting_Forces> Terrorists, Falleen, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Falleen, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Falleen, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		
+		
+		
+		<!-- Trade Federation Starting Forces -->
+
+		<Starting_Credits> Trade_Federation,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Trade_Federation, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Trade_Federation, 5 </Max_Tech_Level>
+		
+        <!-- Foless Space Forces -->
+		
+        <!-- Foless Land Forces -->
+		<Starting_Forces> Trade_Federation, Foless, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Foless, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Foless, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Bestine Space Forces -->
+		
+        <!-- Bestine Land Forces -->
+		<Starting_Forces> Trade_Federation, Bestine, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Bestine, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Bestine, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Thyferra Space Forces -->
+		
+        <!-- Thyferra Land Forces -->
+		<Starting_Forces> Trade_Federation, Thyferra, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Thyferra, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Thyferra, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Denon Land Forces -->
+		<Starting_Forces> Trade_Federation, Denon, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Denon, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Denon, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Devaron Space Forces -->
+		
+        <!-- Devaron Land Forces -->
+		<Starting_Forces> Trade_Federation, Devaron, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Devaron, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Devaron, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		
+		
+		<!-- Commerce Guild Starting Forces -->
+
+		<Starting_Credits> Commerce_Guild,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Commerce_Guild, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Commerce_Guild, 5 </Max_Tech_Level>
+		
+        <!-- YagDhul Space Forces -->
+		
+        <!-- YagDhul Land Forces -->
+		<Starting_Forces> Commerce_Guild, YagDhul, Commerce_Guild_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, YagDhul, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, YagDhul, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		
+		<!-- MechisIII Space Forces -->
+		
+        <!-- MechisIII Land Forces -->
+		<Starting_Forces> Commerce_Guild, MechisIII, Commerce_Guild_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, MechisIII, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, MechisIII, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		
+		<!-- Calus Space Forces -->
+		
+        <!-- Calus Land Forces -->
+		<Starting_Forces> Commerce_Guild, Calus, Commerce_Guild_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Calus, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Calus, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		
+		<!-- Aguarl Space Forces -->
+		
+        <!-- Aguarl Land Forces -->
+		<Starting_Forces> Commerce_Guild, Aguarl, Commerce_Guild_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Aguarl, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Aguarl, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		
+		<!-- Savareen Space Forces -->
+		
+        <!-- Savareen Land Forces -->
+		<Starting_Forces> Commerce_Guild, Savareen, Commerce_Guild_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Savareen, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Savareen, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		
+		
+		
+
+  
+  
+  </Campaign>
+  
+  
+  
+  
+  
+  
+  
+  <Campaign Name="Sandbox_Noolian_Crisis_Terrorists">
+
+		<Campaign_Set> Sandbox_Noolian_Crisis </Campaign_Set>
+		<Sort_Order>4</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_NOOLIAN_CRISIS </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_NOOLIAN_CRISIS_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> -27.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 56.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Bothawui, Kothlis, Vandor, Aridus, Cularin, Tynna, Chardaan, Atzerri, 
+				Druckenwell, Falleen, Aguarl, Ando, Rodia, Christophsis, Savareen, Denon,
+				Devaron, Foless, Bestine, Thyferra, MechisIII, YagDhul, Calus
+		</Locations>
+
+        <Trade_Routes>
+			
+		</Trade_Routes>
+
+        <Home_Location> Early_Empire, Druckenwell </Home_Location>
+		<Home_Location> Trade_Federation, Foless </Home_Location>
+		<Home_Location> Terrorists, Bothawui </Home_Location>
+		<Home_Location> Commerce_Guild, YagDhul </Home_Location>
+		
+		<Starting_Active_Player> Terrorists </Starting_Active_Player>
+		
+		<Story_Name>Early_Empire, story_Noolian_Crisis\story_Noolian_Crisis_Early_Empire.xml </Story_Name>
+        <Story_Name>Trade_Federation, story_Noolian_Crisis\story_Noolian_Crisis_CIS_Remnant.xml </Story_Name>
+		<Story_Name>Terrorists, story_Noolian_Crisis\story_Noolian_Crisis_Trade_Federation.xml </Story_Name>
+		<Story_Name>Commerce_Guild, story_Noolian_Crisis\story_Noolian_Crisis_Banking_Clan.xml </Story_Name>
+		
+		<AI_Player_Control> Trade_Federation, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Early_Empire, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Commerce_Guild, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>Early_Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Trade_Federation, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Terrorists, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Commerce_Guild, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		<!-- Early_Empire Starting Forces -->
+
+		<Starting_Credits> Early_Empire,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Early_Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Early_Empire, 5 </Max_Tech_Level>
+		
+        <!-- Druckenwell Space Forces -->
+	
+        <!-- Druckenwell Land Forces -->
+		<Starting_Forces> Early_Empire, Druckenwell, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Druckenwell, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Druckenwell, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Tynna Space Forces -->
+	
+        <!-- Tynna Land Forces -->
+		<Starting_Forces> Early_Empire, Tynna, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Tynna, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Tynna, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Vandor Space Forces -->
+	
+        <!-- Vandor Land Forces -->
+		<Starting_Forces> Early_Empire, Vandor, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Vandor, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Vandor, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Aridus Space Forces -->
+	
+        <!-- Aridus Land Forces -->
+		<Starting_Forces> Early_Empire, Aridus, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Aridus, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Aridus, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Cularin Space Forces -->
+	
+        <!-- Cularin Land Forces -->
+		<Starting_Forces> Early_Empire, Cularin, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Cularin, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Cularin, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Chardaan Space Forces -->
+	
+        <!-- Chardaan Land Forces -->
+		<Starting_Forces> Early_Empire, Chardaan, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Chardaan, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Chardaan, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Rodia Space Forces -->
+	
+        <!-- Rodia Land Forces -->
+		<Starting_Forces> Early_Empire, Rodia, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Rodia, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Rodia, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Christophsis Space Forces -->
+	
+        <!-- Christophsis Land Forces -->
+		<Starting_Forces> Early_Empire, Christophsis, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Christophsis, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Christophsis, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		
+		<!-- Terrorists Starting Forces -->
+
+		<Starting_Credits> Terrorists,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Terrorists, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Terrorists, 5 </Max_Tech_Level>
+		
+        <!-- Bothawui Space Forces -->
+		
+        <!-- Bothawui Land Forces -->
+		<Starting_Forces> Terrorists, Bothawui, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Bothawui, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Bothawui, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Kothlis Space Forces -->
+		
+        <!-- Kothlis Land Forces -->
+		<Starting_Forces> Terrorists, Kothlis, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Kothlis, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Kothlis, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Atzerri Space Forces -->
+		
+        <!-- Atzerri Land Forces -->
+		<Starting_Forces> Terrorists, Atzerri, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Atzerri, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Atzerri, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Ando Space Forces -->
+		
+        <!-- Ando Land Forces -->
+		<Starting_Forces> Terrorists, Ando, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Ando, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Ando, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Falleen Space Forces -->
+		
+        <!-- Falleen Land Forces -->
+		<Starting_Forces> Terrorists, Falleen, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Falleen, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Falleen, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		
+		
+		
+		<!-- Trade Federation Starting Forces -->
+
+		<Starting_Credits> Trade_Federation,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Trade_Federation, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Trade_Federation, 5 </Max_Tech_Level>
+		
+        <!-- Foless Space Forces -->
+		
+        <!-- Foless Land Forces -->
+		<Starting_Forces> Trade_Federation, Foless, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Foless, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Foless, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Bestine Space Forces -->
+		
+        <!-- Bestine Land Forces -->
+		<Starting_Forces> Trade_Federation, Bestine, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Bestine, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Bestine, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Thyferra Space Forces -->
+		
+        <!-- Thyferra Land Forces -->
+		<Starting_Forces> Trade_Federation, Thyferra, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Thyferra, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Thyferra, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Denon Land Forces -->
+		<Starting_Forces> Trade_Federation, Denon, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Denon, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Denon, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Devaron Space Forces -->
+		
+        <!-- Devaron Land Forces -->
+		<Starting_Forces> Trade_Federation, Devaron, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Devaron, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Devaron, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		
+		
+		<!-- Commerce Guild Starting Forces -->
+
+		<Starting_Credits> Commerce_Guild,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Commerce_Guild, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Commerce_Guild, 5 </Max_Tech_Level>
+		
+        <!-- YagDhul Space Forces -->
+		
+        <!-- YagDhul Land Forces -->
+		<Starting_Forces> Commerce_Guild, YagDhul, Commerce_Guild_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, YagDhul, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, YagDhul, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		
+		<!-- MechisIII Space Forces -->
+		
+        <!-- MechisIII Land Forces -->
+		<Starting_Forces> Commerce_Guild, MechisIII, Commerce_Guild_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, MechisIII, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, MechisIII, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		
+		<!-- Calus Space Forces -->
+		
+        <!-- Calus Land Forces -->
+		<Starting_Forces> Commerce_Guild, Calus, Commerce_Guild_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Calus, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Calus, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		
+		<!-- Aguarl Space Forces -->
+		
+        <!-- Aguarl Land Forces -->
+		<Starting_Forces> Commerce_Guild, Aguarl, Commerce_Guild_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Aguarl, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Aguarl, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		
+		<!-- Savareen Space Forces -->
+		
+        <!-- Savareen Land Forces -->
+		<Starting_Forces> Commerce_Guild, Savareen, Commerce_Guild_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Savareen, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Savareen, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		
+		
+		
+
+  
+  
+  </Campaign>
+  
+  
+  
+  
+  
+  
+  <Campaign Name="Sandbox_Noolian_Crisis_Trade_Federation">
+
+		<Campaign_Set> Sandbox_Noolian_Crisis </Campaign_Set>
+		<Sort_Order>4</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_NOOLIAN_CRISIS </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_NOOLIAN_CRISIS_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> -27.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 56.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Bothawui, Kothlis, Vandor, Aridus, Cularin, Tynna, Chardaan, Atzerri, 
+				Druckenwell, Falleen, Aguarl, Ando, Rodia, Christophsis, Savareen, Denon,
+				Devaron, Foless, Bestine, Thyferra, MechisIII, YagDhul, Calus
+		</Locations>
+
+        <Trade_Routes>
+			
+		</Trade_Routes>
+
+        <Home_Location> Early_Empire, Druckenwell </Home_Location>
+		<Home_Location> Trade_Federation, Foless </Home_Location>
+		<Home_Location> Terrorists, Bothawui </Home_Location>
+		<Home_Location> Commerce_Guild, YagDhul </Home_Location>
+		
+		<Starting_Active_Player> Trade_Federation </Starting_Active_Player>
+		
+		<Story_Name>Early_Empire, story_Noolian_Crisis\story_Noolian_Crisis_Early_Empire.xml </Story_Name>
+        <Story_Name>Trade_Federation, story_Noolian_Crisis\story_Noolian_Crisis_CIS_Remnant.xml </Story_Name>
+		<Story_Name>Terrorists, story_Noolian_Crisis\story_Noolian_Crisis_Trade_Federation.xml </Story_Name>
+		<Story_Name>Commerce_Guild, story_Noolian_Crisis\story_Noolian_Crisis_Banking_Clan.xml </Story_Name>
+		
+		<AI_Player_Control> Terrorists, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Early_Empire, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Commerce_Guild, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>Early_Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Trade_Federation, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Terrorists, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Commerce_Guild, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		<!-- Early_Empire Starting Forces -->
+
+		<Starting_Credits> Early_Empire,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Early_Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Early_Empire, 5 </Max_Tech_Level>
+		
+        <!-- Druckenwell Space Forces -->
+	
+        <!-- Druckenwell Land Forces -->
+		<Starting_Forces> Early_Empire, Druckenwell, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Druckenwell, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Druckenwell, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Tynna Space Forces -->
+	
+        <!-- Tynna Land Forces -->
+		<Starting_Forces> Early_Empire, Tynna, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Tynna, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Tynna, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Vandor Space Forces -->
+	
+        <!-- Vandor Land Forces -->
+		<Starting_Forces> Early_Empire, Vandor, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Vandor, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Vandor, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Aridus Space Forces -->
+	
+        <!-- Aridus Land Forces -->
+		<Starting_Forces> Early_Empire, Aridus, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Aridus, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Aridus, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Cularin Space Forces -->
+	
+        <!-- Cularin Land Forces -->
+		<Starting_Forces> Early_Empire, Cularin, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Cularin, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Cularin, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Chardaan Space Forces -->
+	
+        <!-- Chardaan Land Forces -->
+		<Starting_Forces> Early_Empire, Chardaan, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Chardaan, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Chardaan, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Rodia Space Forces -->
+	
+        <!-- Rodia Land Forces -->
+		<Starting_Forces> Early_Empire, Rodia, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Rodia, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Rodia, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Christophsis Space Forces -->
+	
+        <!-- Christophsis Land Forces -->
+		<Starting_Forces> Early_Empire, Christophsis, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Christophsis, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Christophsis, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		
+		<!-- Terrorists Starting Forces -->
+
+		<Starting_Credits> Terrorists,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Terrorists, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Terrorists, 5 </Max_Tech_Level>
+		
+        <!-- Bothawui Space Forces -->
+		
+        <!-- Bothawui Land Forces -->
+		<Starting_Forces> Terrorists, Bothawui, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Bothawui, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Bothawui, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Kothlis Space Forces -->
+		
+        <!-- Kothlis Land Forces -->
+		<Starting_Forces> Terrorists, Kothlis, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Kothlis, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Kothlis, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Atzerri Space Forces -->
+		
+        <!-- Atzerri Land Forces -->
+		<Starting_Forces> Terrorists, Atzerri, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Atzerri, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Atzerri, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Ando Space Forces -->
+		
+        <!-- Ando Land Forces -->
+		<Starting_Forces> Terrorists, Ando, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Ando, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Ando, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Falleen Space Forces -->
+		
+        <!-- Falleen Land Forces -->
+		<Starting_Forces> Terrorists, Falleen, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Falleen, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Falleen, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		
+		
+		
+		<!-- Trade Federation Starting Forces -->
+
+		<Starting_Credits> Trade_Federation,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Trade_Federation, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Trade_Federation, 5 </Max_Tech_Level>
+		
+        <!-- Foless Space Forces -->
+		
+        <!-- Foless Land Forces -->
+		<Starting_Forces> Trade_Federation, Foless, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Foless, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Foless, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Bestine Space Forces -->
+		
+        <!-- Bestine Land Forces -->
+		<Starting_Forces> Trade_Federation, Bestine, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Bestine, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Bestine, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Thyferra Space Forces -->
+		
+        <!-- Thyferra Land Forces -->
+		<Starting_Forces> Trade_Federation, Thyferra, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Thyferra, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Thyferra, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Denon Land Forces -->
+		<Starting_Forces> Trade_Federation, Denon, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Denon, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Denon, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Devaron Space Forces -->
+		
+        <!-- Devaron Land Forces -->
+		<Starting_Forces> Trade_Federation, Devaron, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Devaron, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Devaron, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		
+		
+		<!-- Commerce Guild Starting Forces -->
+
+		<Starting_Credits> Commerce_Guild,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Commerce_Guild, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Commerce_Guild, 5 </Max_Tech_Level>
+		
+        <!-- YagDhul Space Forces -->
+		
+        <!-- YagDhul Land Forces -->
+		<Starting_Forces> Commerce_Guild, YagDhul, Commerce_Guild_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, YagDhul, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, YagDhul, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		
+		<!-- MechisIII Space Forces -->
+		
+        <!-- MechisIII Land Forces -->
+		<Starting_Forces> Commerce_Guild, MechisIII, Commerce_Guild_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, MechisIII, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, MechisIII, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		
+		<!-- Calus Space Forces -->
+		
+        <!-- Calus Land Forces -->
+		<Starting_Forces> Commerce_Guild, Calus, Commerce_Guild_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Calus, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Calus, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		
+		<!-- Aguarl Space Forces -->
+		
+        <!-- Aguarl Land Forces -->
+		<Starting_Forces> Commerce_Guild, Aguarl, Commerce_Guild_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Aguarl, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Aguarl, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		
+		<!-- Savareen Space Forces -->
+		
+        <!-- Savareen Land Forces -->
+		<Starting_Forces> Commerce_Guild, Savareen, Commerce_Guild_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Savareen, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Savareen, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		
+		
+		
+
+  
+  
+  </Campaign>
+  
+  
+  
+  
+  
+  
+  
+  <Campaign Name="Sandbox_Noolian_Crisis_Commerce_Guild">
+
+		<Campaign_Set> Sandbox_Noolian_Crisis </Campaign_Set>
+		<Sort_Order>4</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_NOOLIAN_CRISIS </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_NOOLIAN_CRISIS_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> -27.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 56.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Bothawui, Kothlis, Vandor, Aridus, Cularin, Tynna, Chardaan, Atzerri, 
+				Druckenwell, Falleen, Aguarl, Ando, Rodia, Christophsis, Savareen, Denon,
+				Devaron, Foless, Bestine, Thyferra, MechisIII, YagDhul, Calus
+		</Locations>
+
+        <Trade_Routes>
+			
+		</Trade_Routes>
+
+        <Home_Location> Early_Empire, Druckenwell </Home_Location>
+		<Home_Location> Trade_Federation, Foless </Home_Location>
+		<Home_Location> Terrorists, Bothawui </Home_Location>
+		<Home_Location> Commerce_Guild, YagDhul </Home_Location>
+		
+		<Starting_Active_Player> Commerce_Guild </Starting_Active_Player>
+		
+		<Story_Name>Early_Empire, story_Noolian_Crisis\story_Noolian_Crisis_Early_Empire.xml </Story_Name>
+        <Story_Name>Trade_Federation, story_Noolian_Crisis\story_Noolian_Crisis_CIS_Remnant.xml </Story_Name>
+		<Story_Name>Terrorists, story_Noolian_Crisis\story_Noolian_Crisis_Trade_Federation.xml </Story_Name>
+		<Story_Name>Commerce_Guild, story_Noolian_Crisis\story_Noolian_Crisis_Banking_Clan.xml </Story_Name>
+		
+		<AI_Player_Control> Terrorists, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Early_Empire, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Trade_Federation, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>Early_Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Trade_Federation, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Terrorists, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Commerce_Guild, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		<!-- Early_Empire Starting Forces -->
+
+		<Starting_Credits> Early_Empire,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Early_Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Early_Empire, 5 </Max_Tech_Level>
+		
+        <!-- Druckenwell Space Forces -->
+	
+        <!-- Druckenwell Land Forces -->
+		<Starting_Forces> Early_Empire, Druckenwell, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Druckenwell, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Druckenwell, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Tynna Space Forces -->
+	
+        <!-- Tynna Land Forces -->
+		<Starting_Forces> Early_Empire, Tynna, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Tynna, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Tynna, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Vandor Space Forces -->
+	
+        <!-- Vandor Land Forces -->
+		<Starting_Forces> Early_Empire, Vandor, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Vandor, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Vandor, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Aridus Space Forces -->
+	
+        <!-- Aridus Land Forces -->
+		<Starting_Forces> Early_Empire, Aridus, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Aridus, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Aridus, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Cularin Space Forces -->
+	
+        <!-- Cularin Land Forces -->
+		<Starting_Forces> Early_Empire, Cularin, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Cularin, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Cularin, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Chardaan Space Forces -->
+	
+        <!-- Chardaan Land Forces -->
+		<Starting_Forces> Early_Empire, Chardaan, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Chardaan, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Chardaan, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Rodia Space Forces -->
+	
+        <!-- Rodia Land Forces -->
+		<Starting_Forces> Early_Empire, Rodia, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Rodia, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Rodia, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Christophsis Space Forces -->
+	
+        <!-- Christophsis Land Forces -->
+		<Starting_Forces> Early_Empire, Christophsis, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Christophsis, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Christophsis, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		
+		<!-- Terrorists Starting Forces -->
+
+		<Starting_Credits> Terrorists,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Terrorists, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Terrorists, 5 </Max_Tech_Level>
+		
+        <!-- Bothawui Space Forces -->
+		
+        <!-- Bothawui Land Forces -->
+		<Starting_Forces> Terrorists, Bothawui, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Bothawui, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Bothawui, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Kothlis Space Forces -->
+		
+        <!-- Kothlis Land Forces -->
+		<Starting_Forces> Terrorists, Kothlis, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Kothlis, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Kothlis, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Atzerri Space Forces -->
+		
+        <!-- Atzerri Land Forces -->
+		<Starting_Forces> Terrorists, Atzerri, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Atzerri, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Atzerri, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Ando Space Forces -->
+		
+        <!-- Ando Land Forces -->
+		<Starting_Forces> Terrorists, Ando, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Ando, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Ando, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Falleen Space Forces -->
+		
+        <!-- Falleen Land Forces -->
+		<Starting_Forces> Terrorists, Falleen, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Falleen, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Falleen, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		
+		
+		
+		<!-- Trade Federation Starting Forces -->
+
+		<Starting_Credits> Trade_Federation,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Trade_Federation, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Trade_Federation, 5 </Max_Tech_Level>
+		
+        <!-- Foless Space Forces -->
+		
+        <!-- Foless Land Forces -->
+		<Starting_Forces> Trade_Federation, Foless, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Foless, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Foless, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Bestine Space Forces -->
+		
+        <!-- Bestine Land Forces -->
+		<Starting_Forces> Trade_Federation, Bestine, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Bestine, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Bestine, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Thyferra Space Forces -->
+		
+        <!-- Thyferra Land Forces -->
+		<Starting_Forces> Trade_Federation, Thyferra, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Thyferra, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Thyferra, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Denon Land Forces -->
+		<Starting_Forces> Trade_Federation, Denon, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Denon, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Denon, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Devaron Space Forces -->
+		
+        <!-- Devaron Land Forces -->
+		<Starting_Forces> Trade_Federation, Devaron, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Devaron, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Devaron, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		
+		
+		<!-- Commerce Guild Starting Forces -->
+
+		<Starting_Credits> Commerce_Guild,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Commerce_Guild, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Commerce_Guild, 5 </Max_Tech_Level>
+		
+        <!-- YagDhul Space Forces -->
+		
+        <!-- YagDhul Land Forces -->
+		<Starting_Forces> Commerce_Guild, YagDhul, Commerce_Guild_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, YagDhul, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, YagDhul, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		
+		<!-- MechisIII Space Forces -->
+		
+        <!-- MechisIII Land Forces -->
+		<Starting_Forces> Commerce_Guild, MechisIII, Commerce_Guild_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, MechisIII, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, MechisIII, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		
+		<!-- Calus Space Forces -->
+		
+        <!-- Calus Land Forces -->
+		<Starting_Forces> Commerce_Guild, Calus, Commerce_Guild_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Calus, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Calus, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		
+		<!-- Aguarl Space Forces -->
+		
+        <!-- Aguarl Land Forces -->
+		<Starting_Forces> Commerce_Guild, Aguarl, Commerce_Guild_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Aguarl, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Aguarl, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		
+		<!-- Savareen Space Forces -->
+		
+        <!-- Savareen Land Forces -->
+		<Starting_Forces> Commerce_Guild, Savareen, Commerce_Guild_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Savareen, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Savareen, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		
+		
+		
+
+  
+  
+  </Campaign>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+	
+	
+	
+	
+	  
+	  
+	  
+	  
+	  
+	 
+	  
+	  
+	  
+	
+	
+	
+	
+
+
+	
+
+
+ </Campaigns>

@@ -872,6 +872,24 @@
             <Toggle>True</Toggle>
             <Click_Shift>True</Click_Shift>
     </CommandBarComponent>
+	
+	<CommandBarComponent Name="b_filter_all">
+                <Type>Button</Type>
+                <Tooltip_Text>TEXT_TOOLTIP_FILTERALL</Tooltip_Text>
+                <Blank_Texture_Name>i_button_back_new.tga</Blank_Texture_Name>
+                <Icon_Texture_Name>i_button_command_bar_filter1.tga</Icon_Texture_Name>
+                <Mouse_Over_Texture_Name>i_button_command_bar_filter_over.tga</Mouse_Over_Texture_Name>
+                <Selected_Texture_Name>i_button_command_bar_filter1_press.tga</Selected_Texture_Name>
+                <Disabled_Texture_Name>i_button_command_bar_filter1.tga</Disabled_Texture_Name>
+                <Group>Filter_Overlay</Group>
+                <Swap_Texture>False</Swap_Texture>
+                <Tab>True</Tab>
+                <Selected_Alpha>True</Selected_Alpha>               
+                <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
+                <Click_SFX>GUI_Dial_Switch_SFX</Click_SFX>
+                <Toggle>True</Toggle>
+                <Click_Shift>True</Click_Shift>
+        </CommandBarComponent>
 
     <CommandBarComponent Name="b_story_arc_g">
             <Type>Button</Type>
@@ -8658,7 +8676,7 @@
             <Type>TextButton</Type>
             <Font_Name>EmpireAtWar-Medium</Font_Name>
             <Font_Point_Size>10</Font_Point_Size>
-            <Text_Color>0 0 0 255</Text_Color>
+            <Text_Color>147 147 147 255</Text_Color>
             <Max_Text_Width>110</Max_Text_Width>
    </CommandBarComponent> 
 
@@ -8666,7 +8684,7 @@
             <Type>TextButton</Type>
             <Font_Name>EmpireAtWar-Medium</Font_Name>
             <Font_Point_Size>10</Font_Point_Size>
-            <Text_Color>0 0 0 255</Text_Color>
+            <Text_Color>147 147 147 255</Text_Color>
             <Max_Text_Width>110</Max_Text_Width>
    </CommandBarComponent> 
    
@@ -8674,7 +8692,7 @@
             <Type>TextButton</Type>
             <Font_Name>EmpireAtWar-Medium</Font_Name>
             <Font_Point_Size>10</Font_Point_Size>
-            <Text_Color>0 0 0 255</Text_Color>
+            <Text_Color>147 147 147 255</Text_Color>
             <Max_Text_Width>110</Max_Text_Width>
 	</CommandBarComponent>    
    

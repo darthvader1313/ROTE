@@ -120,7 +120,7 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_INFANTRY_TYPE_SPECIAL</Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_501st_Stormtrooper.tga</Icon_Name>
 		<GUI_Model_Name>501st_Clonetrooper.ALO</GUI_Model_Name>
-        <GUI_Row> 0 </GUI_Row>
+        <GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>144</Damage>
 		<Autoresolve_Health>2400</Autoresolve_Health> <!-- changed to reflect the real health of the units-->
@@ -131,8 +131,8 @@
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		
-		<Tech_Level>1</Tech_Level>
-		<Required_Special_Structures>E_Ground_Barracks</Required_Special_Structures>
+		<Tech_Level>4</Tech_Level>
+		<Required_Special_Structures>Early_Empire_Ground_Barracks</Required_Special_Structures>
 		
 		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
 		<Company_Units>

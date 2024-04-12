@@ -12,10 +12,10 @@
         <Required_Timeline>0</Required_Timeline>
         <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
         <Required_Star_Base_Level>0</Required_Star_Base_Level>
-         <Required_Special_Structures>Terrorists_Ground_Research_Facility</Required_Special_Structures>
+         
         <Required_Planets />
 		<Required_Orbiting_Units />
-        <Build_Time_Seconds>600</Build_Time_Seconds>
+        <Build_Time_Seconds>850</Build_Time_Seconds>
         <Build_Cost_Credits>5000</Build_Cost_Credits>
         <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
         <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
@@ -45,10 +45,10 @@
         <Required_Timeline>0</Required_Timeline>
         <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
         <Required_Star_Base_Level>0</Required_Star_Base_Level>
-         <Required_Special_Structures>Terrorists_Ground_Research_Facility</Required_Special_Structures>
+         
         <Required_Planets />
 		<Required_Orbiting_Units />
-        <Build_Time_Seconds>600</Build_Time_Seconds>
+        <Build_Time_Seconds>850</Build_Time_Seconds>
         <Build_Cost_Credits>5000</Build_Cost_Credits>
         <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
         <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
@@ -78,10 +78,10 @@
         <Required_Timeline>0</Required_Timeline>
         <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
         <Required_Star_Base_Level>0</Required_Star_Base_Level>
-         <Required_Special_Structures>Terrorists_Ground_Research_Facility</Required_Special_Structures>
+         
         <Required_Planets />
 		<Required_Orbiting_Units />
-        <Build_Time_Seconds>600</Build_Time_Seconds>
+        <Build_Time_Seconds>850</Build_Time_Seconds>
         <Build_Cost_Credits>5000</Build_Cost_Credits>
         <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
         <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
@@ -111,10 +111,10 @@
         <Required_Timeline>0</Required_Timeline>
         <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
         <Required_Star_Base_Level>0</Required_Star_Base_Level>
-         <Required_Special_Structures>Terrorists_Ground_Research_Facility</Required_Special_Structures>
+         
         <Required_Planets />
 		<Required_Orbiting_Units />
-        <Build_Time_Seconds>600</Build_Time_Seconds>
+        <Build_Time_Seconds>850</Build_Time_Seconds>
         <Build_Cost_Credits>5000</Build_Cost_Credits>
         <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
         <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>

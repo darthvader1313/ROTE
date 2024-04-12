@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<Campaigns>
+
+
+
+<!-- ************************************************************** -->
+<!-- **************** SANDBOX CAMPAIGN "Coruscant Civil War" ***************** -->
+<!-- ************************************************************** -->
+
+
+	
+
+
+	
+  
+  
+  
+  
+  
+  
+  <Campaign Name="Sandbox_Coruscant_Civil_War_New_Republic">
+
+		<Campaign_Set> Sandbox_Coruscant_Civil_War </Campaign_Set>
+		<Sort_Order>19</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_CORUSCANT_CIVIL_WAR </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_CORUSCANT_CIVIL_WAR_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> -27.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 56.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, Coruscant, Alsakan, Anaxes, Corulag, Chandrila, Brentaal, Nadiri, Raltiir,
+				Skako, Champala, Castel, Carida, Arkania, Caamas, Alderaan, Sarapin, Vulpter, Columus, Aurea,
+				Kuat, Rendili, Balmorra, Humbarine, Commenor, CatoNeimodia, Ebac, Corellia, Hakassi, Duro, Chasin,
+				Loronar, HosnianPrime, Denon, Atzerri, Chardaan, Devaron, Foless, Bestine, Mechis, YagDhul, Calus,
+				Thyferra, Bassadro, Ghorman, Fondor, Abregado, Belgaroth, Kalist, Byss, Kampe, Empres_Teta, Aargau,
+				Foerost, Fresia, Pillio, Cal_Seti, Vardos, Dolomar, Metellos, Pantolomin, Borleas, Bilbringi
+		</Locations>
+
+        <Trade_Routes>
+			
+		</Trade_Routes>
+
+        <Home_Location> New_Republic, Commenor </Home_Location>
+        <Home_Location> Imperial_Remnant_Rax, Coruscant </Home_Location>
+		<Home_Location> Imperial_Remnant_Gratloe, Calus </Home_Location>
+        <Home_Location> Imperial_Remnant_Loring, Calus </Home_Location>
+		
+		<Starting_Active_Player> New_Republic </Starting_Active_Player>
+		
+		<Story_Name>New_Republic, story_Coruscant_Civil_War\Story_Coruscant_Civil_War_New_Republic.xml </Story_Name>
+		<Story_Name>Imperial_Remnant_Rax, story_Coruscant_Civil_War\Story_Coruscant_Civil_War_Remnant_Rax.xml </Story_Name>
+        <Story_Name>Imperial_Remnant_Gratloe, story_Coruscant_Civil_War\Story_Coruscant_Civil_War_Remnant_Gratloe.xml </Story_Name>
+		<Story_Name>Imperial_Remnant_Gratloe, story_Coruscant_Civil_War\Story_Coruscant_Civil_War_Remnant_Loring.xml </Story_Name>
+		
+		<AI_Player_Control> Imperial_Remnant_Rax, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Imperial_Remnant_Gratloe, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Imperial_Remnant_Loring, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>New_Republic, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Imperial_Remnant_Rax, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Imperial_Remnant_Gratloe, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Imperial_Remnant_Loring, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		<!-- New_Republic Starting Forces -->
+
+		<Starting_Credits> New_Republic,  10000 </Starting_Credits>
+		<Starting_Tech_Level> New_Republic, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> New_Republic, 5 </Max_Tech_Level>
+		
+        <!-- Commenor Space Forces -->
+	
+        <!-- Commenor Land Forces -->
+		<Starting_Forces> New_Republic, Commenor, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Commenor, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Commenor, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		
+		
+		<!-- Imperial_Remnant_Rax Starting Forces -->
+
+		<Starting_Credits> Imperial_Remnant_Rax,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Imperial_Remnant_Rax, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Imperial_Remnant_Rax, 5 </Max_Tech_Level>
+		
+        <!-- Coruscant Space Forces -->
+	
+        <!-- Coruscant Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Coruscant, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Coruscant, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Coruscant, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		
+		
+		<!-- Imperial_Remnant_Gratloe Starting Forces -->
+
+		<Starting_Credits> Imperial_Remnant_Gratloe,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Imperial_Remnant_Gratloe, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Imperial_Remnant_Gratloe, 5 </Max_Tech_Level>
+		
+        <!-- Calus Space Forces -->
+	
+        <!-- Calus Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Gratloe, Calus, Remnant_Gratloe_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Calus, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Calus, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		
+		
+		
+		
+
+  
+  
+  </Campaign>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+	
+	
+	
+	
+	  
+	  
+	  
+	  
+	  
+	 
+	  
+	  
+	  
+	
+	
+	
+	
+
+
+	
+
+
+ </Campaigns>
