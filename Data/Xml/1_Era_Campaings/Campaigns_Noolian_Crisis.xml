@@ -52,7 +52,7 @@
 		<Story_Name>Early_Empire, story_Noolian_Crisis\story_Noolian_Crisis_Early_Empire.xml </Story_Name>
         <Story_Name>Trade_Federation, story_Noolian_Crisis\story_Noolian_Crisis_CIS_Remnant.xml </Story_Name>
 		<Story_Name>Terrorists, story_Noolian_Crisis\story_Noolian_Crisis_Trade_Federation.xml </Story_Name>
-		<Story_Name>Commerce_Guild, story_Noolian_Crisis\story_Noolian_Crisis_Banking_Clan.xml </Story_Name>
+		<Story_Name>Commerce_Guild, story_Noolian_Crisis\story_Noolian_Crisis_Commerce_Guild.xml </Story_Name>
 		
 		<AI_Player_Control> Trade_Federation, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Terrorists, BasicEmpire </AI_Player_Control>
@@ -140,6 +140,13 @@
 		<Starting_Forces> Early_Empire, Christophsis, Imperial_Clonetroopers_Squad </Starting_Forces>
 		<Starting_Forces> Early_Empire, Christophsis, Early_Empire_Rifleman_Squad </Starting_Forces>
 		
+		<!-- Leritor Space Forces -->
+	
+        <!-- Leritor Land Forces -->
+		<Starting_Forces> Early_Empire, Leritor, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Leritor, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Leritor, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
 		
 		
 		
@@ -216,6 +223,8 @@
 		<Starting_Forces> Trade_Federation, Thyferra, Trade_Federation_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Trade_Federation, Thyferra, Trade_Federation_Battledroids_Squad </Starting_Forces>
 		
+		<!-- Denon Space Forces -->
+		
 		<!-- Denon Land Forces -->
 		<Starting_Forces> Trade_Federation, Denon, Trade_Federation_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Trade_Federation, Denon, Trade_Federation_Battledroids_Squad </Starting_Forces>
@@ -227,6 +236,34 @@
 		<Starting_Forces> Trade_Federation, Devaron, Trade_Federation_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Trade_Federation, Devaron, Trade_Federation_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Trade_Federation, Devaron, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Nooli Space Forces -->
+		
+		<!-- Nooli Land Forces -->
+		<Starting_Forces> Trade_Federation, Nooli, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Nooli, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Nooli, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Galboron Space Forces -->
+		
+        <!-- Galboron Land Forces -->
+		<Starting_Forces> Trade_Federation, Galboron, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Galboron, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Galboron, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Lorahns Space Forces -->
+		
+		<!-- Lorahns Land Forces -->
+		<Starting_Forces> Trade_Federation, Lorahns, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Lorahns, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Lorahns, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Dressel Space Forces -->
+		
+        <!-- Dressel Land Forces -->
+		<Starting_Forces> Trade_Federation, Dressel, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Dressel, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Dressel, Trade_Federation_Battledroids_Squad </Starting_Forces>
 		
 		
 		
@@ -270,6 +307,13 @@
 		<Starting_Forces> Commerce_Guild, Savareen, Commerce_Guild_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Commerce_Guild, Savareen, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
 		<Starting_Forces> Commerce_Guild, Savareen, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		
+		<!-- Monastery Space Forces -->
+		
+        <!-- Monastery Land Forces -->
+		<Starting_Forces> Commerce_Guild, Monastery, Commerce_Guild_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Monastery, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Monastery, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
 		
 		
 		
@@ -406,6 +450,13 @@
 		<Starting_Forces> Early_Empire, Christophsis, Imperial_Clonetroopers_Squad </Starting_Forces>
 		<Starting_Forces> Early_Empire, Christophsis, Early_Empire_Rifleman_Squad </Starting_Forces>
 		
+		<!-- Leritor Space Forces -->
+	
+        <!-- Leritor Land Forces -->
+		<Starting_Forces> Early_Empire, Leritor, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Leritor, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Leritor, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
 		
 		
 		
@@ -482,6 +533,8 @@
 		<Starting_Forces> Trade_Federation, Thyferra, Trade_Federation_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Trade_Federation, Thyferra, Trade_Federation_Battledroids_Squad </Starting_Forces>
 		
+		<!-- Denon Space Forces -->
+		
 		<!-- Denon Land Forces -->
 		<Starting_Forces> Trade_Federation, Denon, Trade_Federation_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Trade_Federation, Denon, Trade_Federation_Battledroids_Squad </Starting_Forces>
@@ -493,6 +546,34 @@
 		<Starting_Forces> Trade_Federation, Devaron, Trade_Federation_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Trade_Federation, Devaron, Trade_Federation_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Trade_Federation, Devaron, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Nooli Space Forces -->
+		
+		<!-- Nooli Land Forces -->
+		<Starting_Forces> Trade_Federation, Nooli, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Nooli, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Nooli, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Galboron Space Forces -->
+		
+        <!-- Galboron Land Forces -->
+		<Starting_Forces> Trade_Federation, Galboron, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Galboron, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Galboron, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Lorahns Space Forces -->
+		
+		<!-- Lorahns Land Forces -->
+		<Starting_Forces> Trade_Federation, Lorahns, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Lorahns, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Lorahns, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Dressel Space Forces -->
+		
+        <!-- Dressel Land Forces -->
+		<Starting_Forces> Trade_Federation, Dressel, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Dressel, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Dressel, Trade_Federation_Battledroids_Squad </Starting_Forces>
 		
 		
 		
@@ -536,6 +617,13 @@
 		<Starting_Forces> Commerce_Guild, Savareen, Commerce_Guild_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Commerce_Guild, Savareen, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
 		<Starting_Forces> Commerce_Guild, Savareen, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		
+		<!-- Monastery Space Forces -->
+		
+        <!-- Monastery Land Forces -->
+		<Starting_Forces> Commerce_Guild, Monastery, Commerce_Guild_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Monastery, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Monastery, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
 		
 		
 		
@@ -583,7 +671,7 @@
 		<Story_Name>Early_Empire, story_Noolian_Crisis\story_Noolian_Crisis_Early_Empire.xml </Story_Name>
         <Story_Name>Trade_Federation, story_Noolian_Crisis\story_Noolian_Crisis_CIS_Remnant.xml </Story_Name>
 		<Story_Name>Terrorists, story_Noolian_Crisis\story_Noolian_Crisis_Trade_Federation.xml </Story_Name>
-		<Story_Name>Commerce_Guild, story_Noolian_Crisis\story_Noolian_Crisis_Banking_Clan.xml </Story_Name>
+		<Story_Name>Commerce_Guild, story_Noolian_Crisis\story_Noolian_Crisis_Commerce_Guild.xml </Story_Name>
 		
 		<AI_Player_Control> Terrorists, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Early_Empire, BasicEmpire </AI_Player_Control>
@@ -671,6 +759,13 @@
 		<Starting_Forces> Early_Empire, Christophsis, Imperial_Clonetroopers_Squad </Starting_Forces>
 		<Starting_Forces> Early_Empire, Christophsis, Early_Empire_Rifleman_Squad </Starting_Forces>
 		
+		<!-- Leritor Space Forces -->
+	
+        <!-- Leritor Land Forces -->
+		<Starting_Forces> Early_Empire, Leritor, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Leritor, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Leritor, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
 		
 		
 		
@@ -747,6 +842,8 @@
 		<Starting_Forces> Trade_Federation, Thyferra, Trade_Federation_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Trade_Federation, Thyferra, Trade_Federation_Battledroids_Squad </Starting_Forces>
 		
+		<!-- Denon Space Forces -->
+		
 		<!-- Denon Land Forces -->
 		<Starting_Forces> Trade_Federation, Denon, Trade_Federation_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Trade_Federation, Denon, Trade_Federation_Battledroids_Squad </Starting_Forces>
@@ -758,6 +855,34 @@
 		<Starting_Forces> Trade_Federation, Devaron, Trade_Federation_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Trade_Federation, Devaron, Trade_Federation_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Trade_Federation, Devaron, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Nooli Space Forces -->
+		
+		<!-- Nooli Land Forces -->
+		<Starting_Forces> Trade_Federation, Nooli, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Nooli, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Nooli, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Galboron Space Forces -->
+		
+        <!-- Galboron Land Forces -->
+		<Starting_Forces> Trade_Federation, Galboron, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Galboron, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Galboron, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Lorahns Space Forces -->
+		
+		<!-- Lorahns Land Forces -->
+		<Starting_Forces> Trade_Federation, Lorahns, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Lorahns, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Lorahns, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Dressel Space Forces -->
+		
+        <!-- Dressel Land Forces -->
+		<Starting_Forces> Trade_Federation, Dressel, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Dressel, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Dressel, Trade_Federation_Battledroids_Squad </Starting_Forces>
 		
 		
 		
@@ -801,6 +926,13 @@
 		<Starting_Forces> Commerce_Guild, Savareen, Commerce_Guild_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Commerce_Guild, Savareen, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
 		<Starting_Forces> Commerce_Guild, Savareen, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		
+		<!-- Monastery Space Forces -->
+		
+        <!-- Monastery Land Forces -->
+		<Starting_Forces> Commerce_Guild, Monastery, Commerce_Guild_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Monastery, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Monastery, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
 		
 		
 		
@@ -849,7 +981,7 @@
 		<Story_Name>Early_Empire, story_Noolian_Crisis\story_Noolian_Crisis_Early_Empire.xml </Story_Name>
         <Story_Name>Trade_Federation, story_Noolian_Crisis\story_Noolian_Crisis_CIS_Remnant.xml </Story_Name>
 		<Story_Name>Terrorists, story_Noolian_Crisis\story_Noolian_Crisis_Trade_Federation.xml </Story_Name>
-		<Story_Name>Commerce_Guild, story_Noolian_Crisis\story_Noolian_Crisis_Banking_Clan.xml </Story_Name>
+		<Story_Name>Commerce_Guild, story_Noolian_Crisis\story_Noolian_Crisis_Commerce_Guild.xml </Story_Name>
 		
 		<AI_Player_Control> Terrorists, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Early_Empire, BasicEmpire </AI_Player_Control>
@@ -937,6 +1069,13 @@
 		<Starting_Forces> Early_Empire, Christophsis, Imperial_Clonetroopers_Squad </Starting_Forces>
 		<Starting_Forces> Early_Empire, Christophsis, Early_Empire_Rifleman_Squad </Starting_Forces>
 		
+		<!-- Leritor Space Forces -->
+	
+        <!-- Leritor Land Forces -->
+		<Starting_Forces> Early_Empire, Leritor, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Leritor, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Leritor, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
 		
 		
 		
@@ -1013,6 +1152,8 @@
 		<Starting_Forces> Trade_Federation, Thyferra, Trade_Federation_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Trade_Federation, Thyferra, Trade_Federation_Battledroids_Squad </Starting_Forces>
 		
+		<!-- Denon Space Forces -->
+		
 		<!-- Denon Land Forces -->
 		<Starting_Forces> Trade_Federation, Denon, Trade_Federation_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Trade_Federation, Denon, Trade_Federation_Battledroids_Squad </Starting_Forces>
@@ -1024,6 +1165,34 @@
 		<Starting_Forces> Trade_Federation, Devaron, Trade_Federation_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Trade_Federation, Devaron, Trade_Federation_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Trade_Federation, Devaron, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Nooli Space Forces -->
+		
+		<!-- Nooli Land Forces -->
+		<Starting_Forces> Trade_Federation, Nooli, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Nooli, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Nooli, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Galboron Space Forces -->
+		
+        <!-- Galboron Land Forces -->
+		<Starting_Forces> Trade_Federation, Galboron, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Galboron, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Galboron, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Lorahns Space Forces -->
+		
+		<!-- Lorahns Land Forces -->
+		<Starting_Forces> Trade_Federation, Lorahns, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Lorahns, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Lorahns, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Dressel Space Forces -->
+		
+        <!-- Dressel Land Forces -->
+		<Starting_Forces> Trade_Federation, Dressel, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Dressel, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Dressel, Trade_Federation_Battledroids_Squad </Starting_Forces>
 		
 		
 		
@@ -1067,6 +1236,13 @@
 		<Starting_Forces> Commerce_Guild, Savareen, Commerce_Guild_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Commerce_Guild, Savareen, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
 		<Starting_Forces> Commerce_Guild, Savareen, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		
+		<!-- Monastery Space Forces -->
+		
+        <!-- Monastery Land Forces -->
+		<Starting_Forces> Commerce_Guild, Monastery, Commerce_Guild_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Monastery, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Commerce_Guild, Monastery, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
 		
 		
 		

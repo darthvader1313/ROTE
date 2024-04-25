@@ -34,11 +34,16 @@
 				Galaxy_Core_Art_Model, 
 				Cal_Seti, Fresia, Coruscant, Alsakan, Anaxes, Axum, Corulag, Chandrila, 
 				Brentaal, Raltiir, Barlok, Shili, Champala, Carida, Arkania, Castell, 
-				Vardos, Dolomar, Metellos, Pantolomin, Borleias, Bilbringi, Dorin, Gleanselm,
-				Darkon, Iridonia, Orinda, Qiilura, Ordmantell, Ithor, Brakka, Corsin, Phaeda, 
-				Ketaris, Agamar, Polus, Obroa_Skai, Myrkr, Charubah, Gallinore, Hapes, 
-				Wayland, Taris, Contruum, Lantilles, Garros, Bompreil, Phindar, Bandomeer, 
-				Belsmuth, Raydonia, Akiva, Celanon, Ord_Cestus, Dathomir, Axxila, Yavin
+				Vardos, Dolomar, Metellos, Pantolomin, Borleias, Bilbringi, Ithor, Brakka, 
+				Corsin, Obroa_Skai, Myrkr, Charubah, Gallinore, Hapes, Wayland, 
+				Taris, Contruum, Lantilles, Garros, Bompreil, Phindar, Belsmuth, Akiva, Yavin,
+				Skako, Caamas, Alderaan, Kuat, Humbarine, Balmorra, Commenor, Onderon,
+				Ambria, Umbara, AlarisPrime, Kashyyyk, Trandosha, Randon, Ruusan, Artesia,
+				CatoNeimoidia, Manaan, Mimban, Antar, Gyndine, Emberlene, Daalang, Toydaria,
+				NallHutta, Despayre, Hollastin, The_Maw, Kessel, Honoghr, Oba_Diah, Eadu,
+				BozPity, Charros, Balamak, Kubindi, Randa, Ulmatra, Barab, Ylesia, Teth,
+				Varl, Syvris, Arami, Orondia, Gamorr, Shola, Moralan, Garos, Togoria,
+				Alagon, Roche
 		</Locations>
 
         <Trade_Routes>
@@ -47,28 +52,28 @@
 
         <Home_Location> Galactic_Empire, Coruscant </Home_Location>
         <Home_Location> Rebel_Alliance, Yavin </Home_Location>
-		<Home_Location> Black_Sun, Ordmantell </Home_Location>
+		<Home_Location> Hutt_Cartel, NallHutta </Home_Location>
 		<Home_Location> Hapan_Consortium, Hapes </Home_Location>
-		<Home_Location> Crimson_Dawn, Dathomir </Home_Location>
+		<Home_Location> Pyke_Syndicate, Oba_Diah </Home_Location>
 		
 		<Starting_Active_Player> Galactic_Empire </Starting_Active_Player>
 		
 		<Story_Name>Galactic_Empire, story_Fresian_Campaign\Story_Fresian_Campaign_Galactic_Empire.xml </Story_Name>
 		<Story_Name>Rebel_Alliance, story_Fresian_Campaign\Story_Fresian_Campaign_Rebel_Alliance.xml </Story_Name>
-        <Story_Name>Black_Sun, story_Fresian_Campaign\Story_Fresian_Campaign_Black_Sun.xml </Story_Name>
+        <Story_Name>Hutt_Cartel, story_Fresian_Campaign\Story_Fresian_Campaign_Hutt_Cartel.xml </Story_Name>
 		<Story_Name>Hapan_Consortium, story_Fresian_Campaign\Story_Fresian_Campaign_Hapan_Consortium.xml </Story_Name>
-		<Story_Name>Crimson_Dawn, story_Fresian_Campaign\Story_Fresian_Campaign_Crimson_Dawn.xml </Story_Name>
+		<Story_Name>Pyke_Syndicate, story_Fresian_Campaign\Story_Fresian_Campaign_Pyke_Syndicate.xml </Story_Name>
 		
 		<AI_Player_Control> Rebel_Alliance, BasicEmpire </AI_Player_Control>
-		<AI_Player_Control> Black_Sun, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Hutt_Cartel, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Hapan_Consortium, BasicEmpire </AI_Player_Control>
-		<AI_Player_Control> Crimson_Dawn, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Pyke_Syndicate, BasicEmpire </AI_Player_Control>
 		
 		<Markup_Filename>Galactic_Empire, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Rebel_Alliance, DefaultGalacticHints </Markup_Filename>
-		<Markup_Filename>Black_Sun, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Hutt_Cartel, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Hapan_Consortium, DefaultGalacticHints </Markup_Filename>
-		<Markup_Filename>Crimson_Dawn, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Pyke_Syndicate, DefaultGalacticHints </Markup_Filename>
 		
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>True</Show_Completed_Tab>
@@ -266,6 +271,139 @@
 		<Starting_Forces> Galactic_Empire, Shili, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Galactic_Empire, Shili, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
 		
+		<!-- Brakka Space Forces -->
+	
+        <!-- Brakka Land Forces -->
+		<Starting_Forces> Galactic_Empire, Brakka, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Brakka, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Brakka, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Corsin Space Forces -->
+	
+        <!-- Corsin Land Forces -->
+		<Starting_Forces> Galactic_Empire, Corsin, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Corsin, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Corsin, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Skako Space Forces -->
+	
+        <!-- Skako Land Forces -->
+		<Starting_Forces> Galactic_Empire, Skako, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Skako, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Skako, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Caamas Space Forces -->
+	
+        <!-- Caamas Land Forces -->
+		<Starting_Forces> Galactic_Empire, Caamas, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Caamas, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Caamas, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Alderaan Space Forces -->
+	
+        <!-- Alderaan Land Forces -->
+		<Starting_Forces> Galactic_Empire, Alderaan, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Alderaan, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Alderaan, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Kuat Space Forces -->
+	
+        <!-- Kuat Land Forces -->
+		<Starting_Forces> Galactic_Empire, Kuat, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Kuat, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Kuat, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Balmorra Space Forces -->
+	
+        <!-- Balmorra Land Forces -->
+		<Starting_Forces> Galactic_Empire, Balmorra, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Balmorra, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Balmorra, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Humbarine Space Forces -->
+	
+        <!-- Humbarine Land Forces -->
+		<Starting_Forces> Galactic_Empire, Humbarine, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Humbarine, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Humbarine, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Commenor Space Forces -->
+	
+        <!-- Commenor Land Forces -->
+		<Starting_Forces> Galactic_Empire, Commenor, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Commenor, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Commenor, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- CatoNeimoidia Space Forces -->
+	
+        <!-- CatoNeimoidia Land Forces -->
+		<Starting_Forces> Galactic_Empire, CatoNeimoidia, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, CatoNeimoidia, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, CatoNeimoidia, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Onderon Space Forces -->
+	
+        <!-- Onderon Land Forces -->
+		<Starting_Forces> Galactic_Empire, Onderon, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Onderon, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Onderon, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Ambria Space Forces -->
+	
+        <!-- Ambria Land Forces -->
+		<Starting_Forces> Galactic_Empire, Ambria, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Ambria, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Ambria, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Umbara Space Forces -->
+	
+        <!-- Umbara Land Forces -->
+		<Starting_Forces> Galactic_Empire, Umbara, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Umbara, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Umbara, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Antar Space Forces -->
+	
+        <!-- Antar Land Forces -->
+		<Starting_Forces> Galactic_Empire, Antar, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Antar, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Antar, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Gyndine Space Forces -->
+	
+        <!-- Gyndine Land Forces -->
+		<Starting_Forces> Galactic_Empire, Gyndine, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Gyndine, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Gyndine, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Bilbringi Space Forces -->
+	
+        <!-- Bilbringi Land Forces -->
+		<Starting_Forces> Galactic_Empire, Bilbringi, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Bilbringi, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Bilbringi, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Honoghr Space Forces -->
+	
+        <!-- Honoghr Land Forces -->
+		<Starting_Forces> Galactic_Empire, Honoghr, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Honoghr, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Honoghr, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Eadu Space Forces -->
+	
+        <!-- Eadu Land Forces -->
+		<Starting_Forces> Galactic_Empire, Eadu, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Eadu, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Eadu, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Emberlene Space Forces -->
+	
+        <!-- Emberlene Land Forces -->
+		<Starting_Forces> Galactic_Empire, Emberlene, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Emberlene, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Emberlene, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
 		
 		
 		
@@ -315,61 +453,194 @@
 		<Starting_Forces> Rebel_Alliance, Bandomeer, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		<Starting_Forces> Rebel_Alliance, Bandomeer, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-		
-		<!-- Black_Sun Starting Forces -->
+		<!-- Kashyyyk Space Forces -->
 
-		<Starting_Credits> Black_Sun,  10000 </Starting_Credits>
-		<Starting_Tech_Level> Black_Sun, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> Black_Sun, 5 </Max_Tech_Level>
+        <!-- Kashyyyk Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Kashyyyk, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Kashyyyk, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Kashyyyk, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-        <!-- Ordmantell Space Forces -->
+		<!-- Randon Space Forces -->
+
+        <!-- Randon Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Randon, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Randon, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Randon, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-        <!-- Ordmantell Land Forces -->
-		<Starting_Forces> Black_Sun, Ordmantell, Black_Sun_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Black_Sun, Ordmantell, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Black_Sun, Ordmantell, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
+		<!-- AlarisPrime Space Forces -->
+
+        <!-- AlarisPrime Land Forces -->
+		<Starting_Forces> Rebel_Alliance, AlarisPrime, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, AlarisPrime, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, AlarisPrime, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-		<!-- Qiilura Space Forces -->
+		<!-- Ruusan Space Forces -->
+
+        <!-- Ruusan Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Ruusan, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Ruusan, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Ruusan, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-        <!-- Qiilura Land Forces -->
-		<Starting_Forces> Black_Sun, Qiilura, Black_Sun_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Black_Sun, Qiilura, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Black_Sun, Qiilura, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
+		<!-- Artesia Space Forces -->
+
+        <!-- Artesia Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Artesia, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Artesia, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Artesia, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-		<!-- Orinda Space Forces -->
+		<!-- Mimban Space Forces -->
+
+        <!-- Mimban Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Mimban, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Mimban, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Mimban, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-        <!-- Orinda Land Forces -->
-		<Starting_Forces> Black_Sun, Orinda, Black_Sun_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Black_Sun, Orinda, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Black_Sun, Orinda, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
+		<!-- Manaan Space Forces -->
+
+        <!-- Manaan Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Manaan, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Manaan, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Manaan, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-		<!-- Iridonia Space Forces -->
+		<!-- Garos Space Forces -->
+
+        <!-- Garos Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Garos, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Garos, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Garos, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-        <!-- Iridonia Land Forces -->
-		<Starting_Forces> Black_Sun, Iridonia, Black_Sun_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Black_Sun, Iridonia, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Black_Sun, Iridonia, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
+		<!-- Togoria Space Forces -->
+
+        <!-- Togoria Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Togoria, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Togoria, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Togoria, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-		<!-- Darkon Space Forces -->
+		<!-- Alagon Space Forces -->
+
+        <!-- Alagon Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Alagon, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Alagon, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Alagon, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-        <!-- Darkon Land Forces -->
-		<Starting_Forces> Black_Sun, Darkon, Black_Sun_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Black_Sun, Darkon, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Black_Sun, Darkon, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
+		<!-- Roche Space Forces -->
+        <Starting_Forces> Rebel_Alliance, Roche, Rebel_Alliance_Star_Base  </Starting_Forces>
+        <!-- Roche Land Forces -->
 		
-		<!-- Dorin Space Forces -->
 		
-        <!-- Dorin Land Forces -->
-		<Starting_Forces> Black_Sun, Dorin, Black_Sun_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Black_Sun, Dorin, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Black_Sun, Dorin, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
 		
-		<!-- Phaeda Space Forces -->
+		<!-- Hutt_Cartel Starting Forces -->
+
+		<Starting_Credits> Hutt_Cartel,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Hutt_Cartel, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Hutt_Cartel, 5 </Max_Tech_Level>
 		
-        <!-- Phaeda Land Forces -->
-		<Starting_Forces> Black_Sun, Phaeda, Black_Sun_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Black_Sun, Phaeda, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Black_Sun, Phaeda, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
+        <!-- NallHutta Space Forces -->
+		
+        <!-- NallHutta Land Forces -->
+		<Starting_Forces> Hutt_Cartel, NallHutta, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, NallHutta, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, NallHutta, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Toydaria Space Forces -->
+		
+        <!-- Toydaria Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Toydaria, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Toydaria, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Toydaria, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Hollastin Space Forces -->
+		
+        <!-- Hollastin Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Hollastin, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Hollastin, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Hollastin, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Despayre Space Forces -->
+		
+        <!-- Despayre Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Despayre, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Despayre, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Despayre, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Daalang Space Forces -->
+		
+        <!-- Daalang Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Daalang, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Daalang, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Daalang, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Barab Space Forces -->
+		
+        <!-- Barab Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Barab, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Barab, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Barab, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Ylesia Space Forces -->
+		
+        <!-- Ylesia Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Ylesia, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Ylesia, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Ylesia, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Teth Space Forces -->
+		
+        <!-- Teth Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Teth, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Teth, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Teth, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Varl Space Forces -->
+		
+        <!-- Varl Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Varl, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Varl, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Varl, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Syvris Space Forces -->
+		
+        <!-- Syvris Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Syvris, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Syvris, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Syvris, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Orondia Space Forces -->
+		
+        <!-- Orondia Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Orondia, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Orondia, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Orondia, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Arami Space Forces -->
+		
+        <!-- Arami Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Arami, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Arami, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Arami, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Gamorr Space Forces -->
+		
+        <!-- Gamorr Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Gamorr, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Gamorr, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Gamorr, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Shola Space Forces -->
+		
+        <!-- Shola Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Shola, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Shola, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Shola, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Trandosha Space Forces -->
+		
+        <!-- Trandosha Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Trandosha, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Trandosha, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Trandosha, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		
 		
 		
 		
@@ -416,94 +687,91 @@
 		
 		
 		
-		<!-- Crimson_Dawn Starting Forces -->
+		<!-- Pyke_Syndicate Starting Forces -->
 
-		<Starting_Credits> Crimson_Dawn,  10000 </Starting_Credits>
-		<Starting_Tech_Level> Crimson_Dawn, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> Crimson_Dawn, 5 </Max_Tech_Level>
+		<Starting_Credits> Pyke_Syndicate,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Pyke_Syndicate, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Pyke_Syndicate, 5 </Max_Tech_Level>
 		
-        <!-- Dathomir Space Forces -->
+        <!-- Oba_Diah Space Forces -->
 		
-        <!-- Dathomir Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Dathomir, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Dathomir, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Dathomir, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Oba_Diah Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Oba_Diah, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Oba_Diah, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Oba_Diah, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Bandomeer Space Forces -->
+		<!-- The_Maw Space Forces -->
 		
-        <!-- Bandomeer Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Bandomeer, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Bandomeer, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Bandomeer, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- The_Maw Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, The_Maw, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, The_Maw, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, The_Maw, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Ord_Cestus Space Forces -->
+		<!-- Kessel Space Forces -->
 		
-        <!-- Ord_Cestus Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Ord_Cestus, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Ord_Cestus, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Ord_Cestus, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Kessel Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Kessel, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Kessel, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Kessel, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Celanon Space Forces -->
+		<!-- Kubindi Space Forces -->
 		
-        <!-- Celanon Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Celanon, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Celanon, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Celanon, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Kubindi Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Kubindi, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Kubindi, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Kubindi, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Agamar Space Forces -->
+		<!-- Randa Space Forces -->
 		
-        <!-- Agamar Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Agamar, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Agamar, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Agamar, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Randa Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Randa, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Randa, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Randa, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Polus Space Forces -->
+		<!-- Ulmatra Space Forces -->
 		
-        <!-- Polus Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Polus, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Polus, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Polus, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Ulmatra Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Ulmatra, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Ulmatra, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Ulmatra, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Ketaris Space Forces -->
+		<!-- Moralan Space Forces -->
 		
-        <!-- Ketaris Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Ketaris, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Ketaris, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Ketaris, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Moralan Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Moralan, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Moralan, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Moralan, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Brakka Space Forces -->
+		<!-- BozPity Space Forces -->
 		
-        <!-- Brakka Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Brakka, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Brakka, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Brakka, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- BozPity Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, BozPity, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, BozPity, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, BozPity, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Corsin Space Forces -->
+		<!-- Charros Space Forces -->
 		
-        <!-- Corsin Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Corsin, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Corsin, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Corsin, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Charros Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Charros, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Charros, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Charros, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Axxila Space Forces -->
+		<!-- Balamak Space Forces -->
 		
-        <!-- Axxila Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Axxila, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Axxila, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Axxila, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Balamak Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Balamak, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Balamak, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Balamak, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Raydonia Space Forces -->
 		
-        <!-- Raydonia Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Raydonia, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Raydonia, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Raydonia, Crimson_Dawn_Trooper_Squad </Starting_Forces>
 		
 		
 
   
   
   </Campaign>
+  
+  
   
   
   
@@ -525,11 +793,16 @@
 				Galaxy_Core_Art_Model, 
 				Cal_Seti, Fresia, Coruscant, Alsakan, Anaxes, Axum, Corulag, Chandrila, 
 				Brentaal, Raltiir, Barlok, Shili, Champala, Carida, Arkania, Castell, 
-				Vardos, Dolomar, Metellos, Pantolomin, Borleias, Bilbringi, Dorin, Gleanselm,
-				Darkon, Iridonia, Orinda, Qiilura, Ordmantell, Ithor, Brakka, Corsin, Phaeda, 
-				Ketaris, Agamar, Polus, Obroa_Skai, Myrkr, Charubah, Gallinore, Hapes, 
-				Wayland, Taris, Contruum, Lantilles, Garros, Bompreil, Phindar, Bandomeer, 
-				Belsmuth, Raydonia, Akiva, Celanon, Ord_Cestus, Dathomir, Axxila, Yavin
+				Vardos, Dolomar, Metellos, Pantolomin, Borleias, Bilbringi, Ithor, Brakka, 
+				Corsin, Obroa_Skai, Myrkr, Charubah, Gallinore, Hapes, Wayland, 
+				Taris, Contruum, Lantilles, Garros, Bompreil, Phindar, Belsmuth, Akiva, Yavin,
+				Skako, Caamas, Alderaan, Kuat, Humbarine, Balmorra, Commenor, Onderon,
+				Ambria, Umbara, AlarisPrime, Kashyyyk, Trandosha, Randon, Ruusan, Artesia,
+				CatoNeimoidia, Manaan, Mimban, Antar, Gyndine, Emberlene, Daalang, Toydaria,
+				NallHutta, Despayre, Hollastin, The_Maw, Kessel, Honoghr, Oba_Diah, Eadu,
+				BozPity, Charros, Balamak, Kubindi, Randa, Ulmatra, Barab, Ylesia, Teth,
+				Varl, Syvris, Arami, Orondia, Gamorr, Shola, Moralan, Garos, Togoria,
+				Alagon, Roche
 		</Locations>
 
         <Trade_Routes>
@@ -538,28 +811,28 @@
 
         <Home_Location> Galactic_Empire, Coruscant </Home_Location>
         <Home_Location> Rebel_Alliance, Yavin </Home_Location>
-		<Home_Location> Black_Sun, Ordmantell </Home_Location>
+		<Home_Location> Hutt_Cartel, NallHutta </Home_Location>
 		<Home_Location> Hapan_Consortium, Hapes </Home_Location>
-		<Home_Location> Crimson_Dawn, Dathomir </Home_Location>
+		<Home_Location> Pyke_Syndicate, Oba_Diah </Home_Location>
 		
 		<Starting_Active_Player> Rebel_Alliance </Starting_Active_Player>
 		
 		<Story_Name>Galactic_Empire, story_Fresian_Campaign\Story_Fresian_Campaign_Galactic_Empire.xml </Story_Name>
 		<Story_Name>Rebel_Alliance, story_Fresian_Campaign\Story_Fresian_Campaign_Rebel_Alliance.xml </Story_Name>
-        <Story_Name>Black_Sun, story_Fresian_Campaign\Story_Fresian_Campaign_Black_Sun.xml </Story_Name>
+        <Story_Name>Hutt_Cartel, story_Fresian_Campaign\Story_Fresian_Campaign_Hutt_Cartel.xml </Story_Name>
 		<Story_Name>Hapan_Consortium, story_Fresian_Campaign\Story_Fresian_Campaign_Hapan_Consortium.xml </Story_Name>
-		<Story_Name>Crimson_Dawn, story_Fresian_Campaign\Story_Fresian_Campaign_Crimson_Dawn.xml </Story_Name>
+		<Story_Name>Pyke_Syndicate, story_Fresian_Campaign\Story_Fresian_Campaign_Pyke_Syndicate.xml </Story_Name>
 		
 		<AI_Player_Control> Galactic_Empire, BasicEmpire </AI_Player_Control>
-		<AI_Player_Control> Black_Sun, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Hutt_Cartel, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Hapan_Consortium, BasicEmpire </AI_Player_Control>
-		<AI_Player_Control> Crimson_Dawn, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Pyke_Syndicate, BasicEmpire </AI_Player_Control>
 		
 		<Markup_Filename>Galactic_Empire, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Rebel_Alliance, DefaultGalacticHints </Markup_Filename>
-		<Markup_Filename>Black_Sun, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Hutt_Cartel, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Hapan_Consortium, DefaultGalacticHints </Markup_Filename>
-		<Markup_Filename>Crimson_Dawn, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Pyke_Syndicate, DefaultGalacticHints </Markup_Filename>
 		
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>True</Show_Completed_Tab>
@@ -757,6 +1030,139 @@
 		<Starting_Forces> Galactic_Empire, Shili, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Galactic_Empire, Shili, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
 		
+		<!-- Brakka Space Forces -->
+	
+        <!-- Brakka Land Forces -->
+		<Starting_Forces> Galactic_Empire, Brakka, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Brakka, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Brakka, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Corsin Space Forces -->
+	
+        <!-- Corsin Land Forces -->
+		<Starting_Forces> Galactic_Empire, Corsin, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Corsin, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Corsin, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Skako Space Forces -->
+	
+        <!-- Skako Land Forces -->
+		<Starting_Forces> Galactic_Empire, Skako, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Skako, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Skako, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Caamas Space Forces -->
+	
+        <!-- Caamas Land Forces -->
+		<Starting_Forces> Galactic_Empire, Caamas, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Caamas, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Caamas, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Alderaan Space Forces -->
+	
+        <!-- Alderaan Land Forces -->
+		<Starting_Forces> Galactic_Empire, Alderaan, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Alderaan, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Alderaan, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Kuat Space Forces -->
+	
+        <!-- Kuat Land Forces -->
+		<Starting_Forces> Galactic_Empire, Kuat, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Kuat, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Kuat, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Balmorra Space Forces -->
+	
+        <!-- Balmorra Land Forces -->
+		<Starting_Forces> Galactic_Empire, Balmorra, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Balmorra, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Balmorra, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Humbarine Space Forces -->
+	
+        <!-- Humbarine Land Forces -->
+		<Starting_Forces> Galactic_Empire, Humbarine, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Humbarine, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Humbarine, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Commenor Space Forces -->
+	
+        <!-- Commenor Land Forces -->
+		<Starting_Forces> Galactic_Empire, Commenor, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Commenor, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Commenor, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- CatoNeimoidia Space Forces -->
+	
+        <!-- CatoNeimoidia Land Forces -->
+		<Starting_Forces> Galactic_Empire, CatoNeimoidia, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, CatoNeimoidia, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, CatoNeimoidia, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Onderon Space Forces -->
+	
+        <!-- Onderon Land Forces -->
+		<Starting_Forces> Galactic_Empire, Onderon, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Onderon, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Onderon, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Ambria Space Forces -->
+	
+        <!-- Ambria Land Forces -->
+		<Starting_Forces> Galactic_Empire, Ambria, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Ambria, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Ambria, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Umbara Space Forces -->
+	
+        <!-- Umbara Land Forces -->
+		<Starting_Forces> Galactic_Empire, Umbara, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Umbara, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Umbara, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Antar Space Forces -->
+	
+        <!-- Antar Land Forces -->
+		<Starting_Forces> Galactic_Empire, Antar, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Antar, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Antar, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Gyndine Space Forces -->
+	
+        <!-- Gyndine Land Forces -->
+		<Starting_Forces> Galactic_Empire, Gyndine, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Gyndine, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Gyndine, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Bilbringi Space Forces -->
+	
+        <!-- Bilbringi Land Forces -->
+		<Starting_Forces> Galactic_Empire, Bilbringi, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Bilbringi, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Bilbringi, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Honoghr Space Forces -->
+	
+        <!-- Honoghr Land Forces -->
+		<Starting_Forces> Galactic_Empire, Honoghr, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Honoghr, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Honoghr, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Eadu Space Forces -->
+	
+        <!-- Eadu Land Forces -->
+		<Starting_Forces> Galactic_Empire, Eadu, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Eadu, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Eadu, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Emberlene Space Forces -->
+	
+        <!-- Emberlene Land Forces -->
+		<Starting_Forces> Galactic_Empire, Emberlene, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Emberlene, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Emberlene, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
 		
 		
 		
@@ -783,6 +1189,7 @@
 		<!-- Bompreil Space Forces -->
         <Starting_Forces> Rebel_Alliance, Bompreil, Rebel_Alliance_Star_Base  </Starting_Forces>
         <!-- Bompreil Land Forces -->
+
 		
 		<!-- Phindar Space Forces -->
 
@@ -805,61 +1212,194 @@
 		<Starting_Forces> Rebel_Alliance, Bandomeer, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		<Starting_Forces> Rebel_Alliance, Bandomeer, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-		
-		<!-- Black_Sun Starting Forces -->
+		<!-- Kashyyyk Space Forces -->
 
-		<Starting_Credits> Black_Sun,  10000 </Starting_Credits>
-		<Starting_Tech_Level> Black_Sun, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> Black_Sun, 5 </Max_Tech_Level>
+        <!-- Kashyyyk Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Kashyyyk, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Kashyyyk, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Kashyyyk, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-        <!-- Ordmantell Space Forces -->
+		<!-- Randon Space Forces -->
+
+        <!-- Randon Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Randon, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Randon, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Randon, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-        <!-- Ordmantell Land Forces -->
-		<Starting_Forces> Black_Sun, Ordmantell, Black_Sun_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Black_Sun, Ordmantell, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Black_Sun, Ordmantell, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
+		<!-- AlarisPrime Space Forces -->
+
+        <!-- AlarisPrime Land Forces -->
+		<Starting_Forces> Rebel_Alliance, AlarisPrime, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, AlarisPrime, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, AlarisPrime, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-		<!-- Qiilura Space Forces -->
+		<!-- Ruusan Space Forces -->
+
+        <!-- Ruusan Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Ruusan, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Ruusan, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Ruusan, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-        <!-- Qiilura Land Forces -->
-		<Starting_Forces> Black_Sun, Qiilura, Black_Sun_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Black_Sun, Qiilura, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Black_Sun, Qiilura, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
+		<!-- Artesia Space Forces -->
+
+        <!-- Artesia Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Artesia, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Artesia, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Artesia, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-		<!-- Orinda Space Forces -->
+		<!-- Mimban Space Forces -->
+
+        <!-- Mimban Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Mimban, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Mimban, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Mimban, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-        <!-- Orinda Land Forces -->
-		<Starting_Forces> Black_Sun, Orinda, Black_Sun_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Black_Sun, Orinda, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Black_Sun, Orinda, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
+		<!-- Manaan Space Forces -->
+
+        <!-- Manaan Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Manaan, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Manaan, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Manaan, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-		<!-- Iridonia Space Forces -->
+		<!-- Garos Space Forces -->
+
+        <!-- Garos Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Garos, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Garos, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Garos, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-        <!-- Iridonia Land Forces -->
-		<Starting_Forces> Black_Sun, Iridonia, Black_Sun_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Black_Sun, Iridonia, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Black_Sun, Iridonia, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
+		<!-- Togoria Space Forces -->
+
+        <!-- Togoria Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Togoria, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Togoria, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Togoria, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-		<!-- Darkon Space Forces -->
+		<!-- Alagon Space Forces -->
+
+        <!-- Alagon Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Alagon, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Alagon, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Alagon, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-        <!-- Darkon Land Forces -->
-		<Starting_Forces> Black_Sun, Darkon, Black_Sun_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Black_Sun, Darkon, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Black_Sun, Darkon, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
+		<!-- Roche Space Forces -->
+        <Starting_Forces> Rebel_Alliance, Roche, Rebel_Alliance_Star_Base  </Starting_Forces>
+        <!-- Roche Land Forces -->
 		
-		<!-- Dorin Space Forces -->
 		
-        <!-- Dorin Land Forces -->
-		<Starting_Forces> Black_Sun, Dorin, Black_Sun_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Black_Sun, Dorin, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Black_Sun, Dorin, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
 		
-		<!-- Phaeda Space Forces -->
+		<!-- Hutt_Cartel Starting Forces -->
+
+		<Starting_Credits> Hutt_Cartel,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Hutt_Cartel, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Hutt_Cartel, 5 </Max_Tech_Level>
 		
-        <!-- Phaeda Land Forces -->
-		<Starting_Forces> Black_Sun, Phaeda, Black_Sun_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Black_Sun, Phaeda, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Black_Sun, Phaeda, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
+        <!-- NallHutta Space Forces -->
+		
+        <!-- NallHutta Land Forces -->
+		<Starting_Forces> Hutt_Cartel, NallHutta, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, NallHutta, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, NallHutta, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Toydaria Space Forces -->
+		
+        <!-- Toydaria Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Toydaria, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Toydaria, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Toydaria, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Hollastin Space Forces -->
+		
+        <!-- Hollastin Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Hollastin, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Hollastin, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Hollastin, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Despayre Space Forces -->
+		
+        <!-- Despayre Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Despayre, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Despayre, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Despayre, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Daalang Space Forces -->
+		
+        <!-- Daalang Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Daalang, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Daalang, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Daalang, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Barab Space Forces -->
+		
+        <!-- Barab Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Barab, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Barab, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Barab, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Ylesia Space Forces -->
+		
+        <!-- Ylesia Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Ylesia, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Ylesia, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Ylesia, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Teth Space Forces -->
+		
+        <!-- Teth Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Teth, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Teth, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Teth, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Varl Space Forces -->
+		
+        <!-- Varl Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Varl, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Varl, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Varl, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Syvris Space Forces -->
+		
+        <!-- Syvris Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Syvris, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Syvris, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Syvris, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Orondia Space Forces -->
+		
+        <!-- Orondia Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Orondia, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Orondia, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Orondia, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Arami Space Forces -->
+		
+        <!-- Arami Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Arami, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Arami, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Arami, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Gamorr Space Forces -->
+		
+        <!-- Gamorr Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Gamorr, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Gamorr, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Gamorr, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Shola Space Forces -->
+		
+        <!-- Shola Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Shola, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Shola, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Shola, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Trandosha Space Forces -->
+		
+        <!-- Trandosha Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Trandosha, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Trandosha, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Trandosha, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		
 		
 		
 		
@@ -906,88 +1446,83 @@
 		
 		
 		
-		<!-- Crimson_Dawn Starting Forces -->
+		<!-- Pyke_Syndicate Starting Forces -->
 
-		<Starting_Credits> Crimson_Dawn,  10000 </Starting_Credits>
-		<Starting_Tech_Level> Crimson_Dawn, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> Crimson_Dawn, 5 </Max_Tech_Level>
+		<Starting_Credits> Pyke_Syndicate,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Pyke_Syndicate, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Pyke_Syndicate, 5 </Max_Tech_Level>
 		
-        <!-- Dathomir Space Forces -->
+        <!-- Oba_Diah Space Forces -->
 		
-        <!-- Dathomir Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Dathomir, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Dathomir, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Dathomir, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Oba_Diah Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Oba_Diah, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Oba_Diah, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Oba_Diah, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Bandomeer Space Forces -->
+		<!-- The_Maw Space Forces -->
 		
-        <!-- Bandomeer Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Bandomeer, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Bandomeer, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Bandomeer, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- The_Maw Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, The_Maw, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, The_Maw, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, The_Maw, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Ord_Cestus Space Forces -->
+		<!-- Kessel Space Forces -->
 		
-        <!-- Ord_Cestus Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Ord_Cestus, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Ord_Cestus, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Ord_Cestus, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Kessel Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Kessel, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Kessel, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Kessel, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Celanon Space Forces -->
+		<!-- Kubindi Space Forces -->
 		
-        <!-- Celanon Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Celanon, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Celanon, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Celanon, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Kubindi Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Kubindi, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Kubindi, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Kubindi, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Agamar Space Forces -->
+		<!-- Randa Space Forces -->
 		
-        <!-- Agamar Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Agamar, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Agamar, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Agamar, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Randa Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Randa, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Randa, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Randa, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Polus Space Forces -->
+		<!-- Ulmatra Space Forces -->
 		
-        <!-- Polus Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Polus, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Polus, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Polus, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Ulmatra Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Ulmatra, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Ulmatra, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Ulmatra, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Ketaris Space Forces -->
+		<!-- Moralan Space Forces -->
 		
-        <!-- Ketaris Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Ketaris, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Ketaris, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Ketaris, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Moralan Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Moralan, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Moralan, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Moralan, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Brakka Space Forces -->
+		<!-- BozPity Space Forces -->
 		
-        <!-- Brakka Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Brakka, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Brakka, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Brakka, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- BozPity Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, BozPity, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, BozPity, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, BozPity, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Corsin Space Forces -->
+		<!-- Charros Space Forces -->
 		
-        <!-- Corsin Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Corsin, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Corsin, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Corsin, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Charros Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Charros, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Charros, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Charros, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Axxila Space Forces -->
+		<!-- Balamak Space Forces -->
 		
-        <!-- Axxila Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Axxila, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Axxila, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Axxila, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Balamak Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Balamak, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Balamak, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Balamak, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Raydonia Space Forces -->
 		
-        <!-- Raydonia Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Raydonia, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Raydonia, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Raydonia, Crimson_Dawn_Trooper_Squad </Starting_Forces>
 		
 		
 
@@ -998,8 +1533,7 @@
   
   
   
-  
-  <Campaign Name="Sandbox_Fresian_Campaign_Black_Sun">
+  <Campaign Name="Sandbox_Fresian_Campaign_Hutt_Cartel">
 
 		<Campaign_Set> Sandbox_Fresian_Campaign </Campaign_Set>
 		<Sort_Order>10</Sort_Order>
@@ -1015,11 +1549,16 @@
 				Galaxy_Core_Art_Model, 
 				Cal_Seti, Fresia, Coruscant, Alsakan, Anaxes, Axum, Corulag, Chandrila, 
 				Brentaal, Raltiir, Barlok, Shili, Champala, Carida, Arkania, Castell, 
-				Vardos, Dolomar, Metellos, Pantolomin, Borleias, Bilbringi, Dorin, Gleanselm,
-				Darkon, Iridonia, Orinda, Qiilura, Ordmantell, Ithor, Brakka, Corsin, Phaeda, 
-				Ketaris, Agamar, Polus, Obroa_Skai, Myrkr, Charubah, Gallinore, Hapes, 
-				Wayland, Taris, Contruum, Lantilles, Garros, Bompreil, Phindar, Bandomeer, 
-				Belsmuth, Raydonia, Akiva, Celanon, Ord_Cestus, Dathomir, Axxila, Yavin
+				Vardos, Dolomar, Metellos, Pantolomin, Borleias, Bilbringi, Ithor, Brakka, 
+				Corsin, Obroa_Skai, Myrkr, Charubah, Gallinore, Hapes, Wayland, 
+				Taris, Contruum, Lantilles, Garros, Bompreil, Phindar, Belsmuth, Akiva, Yavin,
+				Skako, Caamas, Alderaan, Kuat, Humbarine, Balmorra, Commenor, Onderon,
+				Ambria, Umbara, AlarisPrime, Kashyyyk, Trandosha, Randon, Ruusan, Artesia,
+				CatoNeimoidia, Manaan, Mimban, Antar, Gyndine, Emberlene, Daalang, Toydaria,
+				NallHutta, Despayre, Hollastin, The_Maw, Kessel, Honoghr, Oba_Diah, Eadu,
+				BozPity, Charros, Balamak, Kubindi, Randa, Ulmatra, Barab, Ylesia, Teth,
+				Varl, Syvris, Arami, Orondia, Gamorr, Shola, Moralan, Garos, Togoria,
+				Alagon, Roche
 		</Locations>
 
         <Trade_Routes>
@@ -1028,28 +1567,28 @@
 
         <Home_Location> Galactic_Empire, Coruscant </Home_Location>
         <Home_Location> Rebel_Alliance, Yavin </Home_Location>
-		<Home_Location> Black_Sun, Ordmantell </Home_Location>
+		<Home_Location> Hutt_Cartel, NallHutta </Home_Location>
 		<Home_Location> Hapan_Consortium, Hapes </Home_Location>
-		<Home_Location> Crimson_Dawn, Dathomir </Home_Location>
+		<Home_Location> Pyke_Syndicate, Oba_Diah </Home_Location>
 		
-		<Starting_Active_Player> Black_Sun </Starting_Active_Player>
+		<Starting_Active_Player> Hutt_Cartel </Starting_Active_Player>
 		
 		<Story_Name>Galactic_Empire, story_Fresian_Campaign\Story_Fresian_Campaign_Galactic_Empire.xml </Story_Name>
 		<Story_Name>Rebel_Alliance, story_Fresian_Campaign\Story_Fresian_Campaign_Rebel_Alliance.xml </Story_Name>
-        <Story_Name>Black_Sun, story_Fresian_Campaign\Story_Fresian_Campaign_Black_Sun.xml </Story_Name>
+        <Story_Name>Hutt_Cartel, story_Fresian_Campaign\Story_Fresian_Campaign_Hutt_Cartel.xml </Story_Name>
 		<Story_Name>Hapan_Consortium, story_Fresian_Campaign\Story_Fresian_Campaign_Hapan_Consortium.xml </Story_Name>
-		<Story_Name>Crimson_Dawn, story_Fresian_Campaign\Story_Fresian_Campaign_Crimson_Dawn.xml </Story_Name>
+		<Story_Name>Pyke_Syndicate, story_Fresian_Campaign\Story_Fresian_Campaign_Pyke_Syndicate.xml </Story_Name>
 		
 		<AI_Player_Control> Galactic_Empire, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Rebel_Alliance, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Hapan_Consortium, BasicEmpire </AI_Player_Control>
-		<AI_Player_Control> Crimson_Dawn, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Pyke_Syndicate, BasicEmpire </AI_Player_Control>
 		
 		<Markup_Filename>Galactic_Empire, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Rebel_Alliance, DefaultGalacticHints </Markup_Filename>
-		<Markup_Filename>Black_Sun, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Hutt_Cartel, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Hapan_Consortium, DefaultGalacticHints </Markup_Filename>
-		<Markup_Filename>Crimson_Dawn, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Pyke_Syndicate, DefaultGalacticHints </Markup_Filename>
 		
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>True</Show_Completed_Tab>
@@ -1247,6 +1786,139 @@
 		<Starting_Forces> Galactic_Empire, Shili, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Galactic_Empire, Shili, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
 		
+		<!-- Brakka Space Forces -->
+	
+        <!-- Brakka Land Forces -->
+		<Starting_Forces> Galactic_Empire, Brakka, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Brakka, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Brakka, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Corsin Space Forces -->
+	
+        <!-- Corsin Land Forces -->
+		<Starting_Forces> Galactic_Empire, Corsin, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Corsin, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Corsin, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Skako Space Forces -->
+	
+        <!-- Skako Land Forces -->
+		<Starting_Forces> Galactic_Empire, Skako, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Skako, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Skako, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Caamas Space Forces -->
+	
+        <!-- Caamas Land Forces -->
+		<Starting_Forces> Galactic_Empire, Caamas, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Caamas, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Caamas, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Alderaan Space Forces -->
+	
+        <!-- Alderaan Land Forces -->
+		<Starting_Forces> Galactic_Empire, Alderaan, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Alderaan, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Alderaan, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Kuat Space Forces -->
+	
+        <!-- Kuat Land Forces -->
+		<Starting_Forces> Galactic_Empire, Kuat, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Kuat, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Kuat, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Balmorra Space Forces -->
+	
+        <!-- Balmorra Land Forces -->
+		<Starting_Forces> Galactic_Empire, Balmorra, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Balmorra, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Balmorra, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Humbarine Space Forces -->
+	
+        <!-- Humbarine Land Forces -->
+		<Starting_Forces> Galactic_Empire, Humbarine, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Humbarine, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Humbarine, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Commenor Space Forces -->
+	
+        <!-- Commenor Land Forces -->
+		<Starting_Forces> Galactic_Empire, Commenor, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Commenor, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Commenor, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- CatoNeimoidia Space Forces -->
+	
+        <!-- CatoNeimoidia Land Forces -->
+		<Starting_Forces> Galactic_Empire, CatoNeimoidia, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, CatoNeimoidia, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, CatoNeimoidia, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Onderon Space Forces -->
+	
+        <!-- Onderon Land Forces -->
+		<Starting_Forces> Galactic_Empire, Onderon, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Onderon, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Onderon, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Ambria Space Forces -->
+	
+        <!-- Ambria Land Forces -->
+		<Starting_Forces> Galactic_Empire, Ambria, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Ambria, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Ambria, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Umbara Space Forces -->
+	
+        <!-- Umbara Land Forces -->
+		<Starting_Forces> Galactic_Empire, Umbara, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Umbara, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Umbara, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Antar Space Forces -->
+	
+        <!-- Antar Land Forces -->
+		<Starting_Forces> Galactic_Empire, Antar, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Antar, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Antar, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Gyndine Space Forces -->
+	
+        <!-- Gyndine Land Forces -->
+		<Starting_Forces> Galactic_Empire, Gyndine, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Gyndine, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Gyndine, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Bilbringi Space Forces -->
+	
+        <!-- Bilbringi Land Forces -->
+		<Starting_Forces> Galactic_Empire, Bilbringi, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Bilbringi, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Bilbringi, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Honoghr Space Forces -->
+	
+        <!-- Honoghr Land Forces -->
+		<Starting_Forces> Galactic_Empire, Honoghr, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Honoghr, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Honoghr, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Eadu Space Forces -->
+	
+        <!-- Eadu Land Forces -->
+		<Starting_Forces> Galactic_Empire, Eadu, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Eadu, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Eadu, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Emberlene Space Forces -->
+	
+        <!-- Emberlene Land Forces -->
+		<Starting_Forces> Galactic_Empire, Emberlene, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Emberlene, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Emberlene, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
 		
 		
 		
@@ -1273,6 +1945,7 @@
 		<!-- Bompreil Space Forces -->
         <Starting_Forces> Rebel_Alliance, Bompreil, Rebel_Alliance_Star_Base  </Starting_Forces>
         <!-- Bompreil Land Forces -->
+
 		
 		<!-- Phindar Space Forces -->
 
@@ -1295,61 +1968,194 @@
 		<Starting_Forces> Rebel_Alliance, Bandomeer, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		<Starting_Forces> Rebel_Alliance, Bandomeer, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-		
-		<!-- Black_Sun Starting Forces -->
+		<!-- Kashyyyk Space Forces -->
 
-		<Starting_Credits> Black_Sun,  10000 </Starting_Credits>
-		<Starting_Tech_Level> Black_Sun, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> Black_Sun, 5 </Max_Tech_Level>
+        <!-- Kashyyyk Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Kashyyyk, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Kashyyyk, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Kashyyyk, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-        <!-- Ordmantell Space Forces -->
+		<!-- Randon Space Forces -->
+
+        <!-- Randon Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Randon, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Randon, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Randon, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-        <!-- Ordmantell Land Forces -->
-		<Starting_Forces> Black_Sun, Ordmantell, Black_Sun_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Black_Sun, Ordmantell, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Black_Sun, Ordmantell, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
+		<!-- AlarisPrime Space Forces -->
+
+        <!-- AlarisPrime Land Forces -->
+		<Starting_Forces> Rebel_Alliance, AlarisPrime, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, AlarisPrime, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, AlarisPrime, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-		<!-- Qiilura Space Forces -->
+		<!-- Ruusan Space Forces -->
+
+        <!-- Ruusan Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Ruusan, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Ruusan, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Ruusan, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-        <!-- Qiilura Land Forces -->
-		<Starting_Forces> Black_Sun, Qiilura, Black_Sun_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Black_Sun, Qiilura, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Black_Sun, Qiilura, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
+		<!-- Artesia Space Forces -->
+
+        <!-- Artesia Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Artesia, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Artesia, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Artesia, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-		<!-- Orinda Space Forces -->
+		<!-- Mimban Space Forces -->
+
+        <!-- Mimban Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Mimban, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Mimban, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Mimban, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-        <!-- Orinda Land Forces -->
-		<Starting_Forces> Black_Sun, Orinda, Black_Sun_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Black_Sun, Orinda, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Black_Sun, Orinda, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
+		<!-- Manaan Space Forces -->
+
+        <!-- Manaan Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Manaan, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Manaan, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Manaan, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-		<!-- Iridonia Space Forces -->
+		<!-- Garos Space Forces -->
+
+        <!-- Garos Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Garos, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Garos, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Garos, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-        <!-- Iridonia Land Forces -->
-		<Starting_Forces> Black_Sun, Iridonia, Black_Sun_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Black_Sun, Iridonia, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Black_Sun, Iridonia, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
+		<!-- Togoria Space Forces -->
+
+        <!-- Togoria Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Togoria, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Togoria, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Togoria, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-		<!-- Darkon Space Forces -->
+		<!-- Alagon Space Forces -->
+
+        <!-- Alagon Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Alagon, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Alagon, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Alagon, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-        <!-- Darkon Land Forces -->
-		<Starting_Forces> Black_Sun, Darkon, Black_Sun_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Black_Sun, Darkon, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Black_Sun, Darkon, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
+		<!-- Roche Space Forces -->
+        <Starting_Forces> Rebel_Alliance, Roche, Rebel_Alliance_Star_Base  </Starting_Forces>
+        <!-- Roche Land Forces -->
 		
-		<!-- Dorin Space Forces -->
 		
-        <!-- Dorin Land Forces -->
-		<Starting_Forces> Black_Sun, Dorin, Black_Sun_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Black_Sun, Dorin, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Black_Sun, Dorin, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
 		
-		<!-- Phaeda Space Forces -->
+		<!-- Hutt_Cartel Starting Forces -->
+
+		<Starting_Credits> Hutt_Cartel,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Hutt_Cartel, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Hutt_Cartel, 5 </Max_Tech_Level>
 		
-        <!-- Phaeda Land Forces -->
-		<Starting_Forces> Black_Sun, Phaeda, Black_Sun_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Black_Sun, Phaeda, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Black_Sun, Phaeda, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
+        <!-- NallHutta Space Forces -->
+		
+        <!-- NallHutta Land Forces -->
+		<Starting_Forces> Hutt_Cartel, NallHutta, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, NallHutta, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, NallHutta, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Toydaria Space Forces -->
+		
+        <!-- Toydaria Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Toydaria, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Toydaria, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Toydaria, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Hollastin Space Forces -->
+		
+        <!-- Hollastin Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Hollastin, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Hollastin, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Hollastin, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Despayre Space Forces -->
+		
+        <!-- Despayre Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Despayre, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Despayre, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Despayre, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Daalang Space Forces -->
+		
+        <!-- Daalang Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Daalang, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Daalang, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Daalang, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Barab Space Forces -->
+		
+        <!-- Barab Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Barab, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Barab, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Barab, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Ylesia Space Forces -->
+		
+        <!-- Ylesia Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Ylesia, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Ylesia, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Ylesia, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Teth Space Forces -->
+		
+        <!-- Teth Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Teth, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Teth, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Teth, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Varl Space Forces -->
+		
+        <!-- Varl Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Varl, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Varl, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Varl, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Syvris Space Forces -->
+		
+        <!-- Syvris Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Syvris, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Syvris, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Syvris, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Orondia Space Forces -->
+		
+        <!-- Orondia Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Orondia, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Orondia, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Orondia, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Arami Space Forces -->
+		
+        <!-- Arami Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Arami, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Arami, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Arami, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Gamorr Space Forces -->
+		
+        <!-- Gamorr Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Gamorr, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Gamorr, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Gamorr, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Shola Space Forces -->
+		
+        <!-- Shola Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Shola, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Shola, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Shola, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Trandosha Space Forces -->
+		
+        <!-- Trandosha Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Trandosha, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Trandosha, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Trandosha, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		
 		
 		
 		
@@ -1396,88 +2202,83 @@
 		
 		
 		
-		<!-- Crimson_Dawn Starting Forces -->
+		<!-- Pyke_Syndicate Starting Forces -->
 
-		<Starting_Credits> Crimson_Dawn,  10000 </Starting_Credits>
-		<Starting_Tech_Level> Crimson_Dawn, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> Crimson_Dawn, 5 </Max_Tech_Level>
+		<Starting_Credits> Pyke_Syndicate,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Pyke_Syndicate, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Pyke_Syndicate, 5 </Max_Tech_Level>
 		
-        <!-- Dathomir Space Forces -->
+        <!-- Oba_Diah Space Forces -->
 		
-        <!-- Dathomir Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Dathomir, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Dathomir, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Dathomir, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Oba_Diah Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Oba_Diah, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Oba_Diah, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Oba_Diah, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Bandomeer Space Forces -->
+		<!-- The_Maw Space Forces -->
 		
-        <!-- Bandomeer Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Bandomeer, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Bandomeer, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Bandomeer, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- The_Maw Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, The_Maw, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, The_Maw, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, The_Maw, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Ord_Cestus Space Forces -->
+		<!-- Kessel Space Forces -->
 		
-        <!-- Ord_Cestus Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Ord_Cestus, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Ord_Cestus, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Ord_Cestus, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Kessel Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Kessel, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Kessel, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Kessel, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Celanon Space Forces -->
+		<!-- Kubindi Space Forces -->
 		
-        <!-- Celanon Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Celanon, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Celanon, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Celanon, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Kubindi Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Kubindi, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Kubindi, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Kubindi, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Agamar Space Forces -->
+		<!-- Randa Space Forces -->
 		
-        <!-- Agamar Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Agamar, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Agamar, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Agamar, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Randa Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Randa, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Randa, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Randa, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Polus Space Forces -->
+		<!-- Ulmatra Space Forces -->
 		
-        <!-- Polus Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Polus, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Polus, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Polus, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Ulmatra Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Ulmatra, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Ulmatra, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Ulmatra, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Ketaris Space Forces -->
+		<!-- Moralan Space Forces -->
 		
-        <!-- Ketaris Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Ketaris, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Ketaris, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Ketaris, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Moralan Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Moralan, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Moralan, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Moralan, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Brakka Space Forces -->
+		<!-- BozPity Space Forces -->
 		
-        <!-- Brakka Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Brakka, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Brakka, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Brakka, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- BozPity Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, BozPity, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, BozPity, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, BozPity, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Corsin Space Forces -->
+		<!-- Charros Space Forces -->
 		
-        <!-- Corsin Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Corsin, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Corsin, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Corsin, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Charros Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Charros, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Charros, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Charros, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Axxila Space Forces -->
+		<!-- Balamak Space Forces -->
 		
-        <!-- Axxila Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Axxila, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Axxila, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Axxila, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Balamak Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Balamak, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Balamak, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Balamak, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Raydonia Space Forces -->
 		
-        <!-- Raydonia Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Raydonia, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Raydonia, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Raydonia, Crimson_Dawn_Trooper_Squad </Starting_Forces>
 		
 		
 
@@ -1505,11 +2306,16 @@
 				Galaxy_Core_Art_Model, 
 				Cal_Seti, Fresia, Coruscant, Alsakan, Anaxes, Axum, Corulag, Chandrila, 
 				Brentaal, Raltiir, Barlok, Shili, Champala, Carida, Arkania, Castell, 
-				Vardos, Dolomar, Metellos, Pantolomin, Borleias, Bilbringi, Dorin, Gleanselm,
-				Darkon, Iridonia, Orinda, Qiilura, Ordmantell, Ithor, Brakka, Corsin, Phaeda, 
-				Ketaris, Agamar, Polus, Obroa_Skai, Myrkr, Charubah, Gallinore, Hapes, 
-				Wayland, Taris, Contruum, Lantilles, Garros, Bompreil, Phindar, Bandomeer, 
-				Belsmuth, Raydonia, Akiva, Celanon, Ord_Cestus, Dathomir, Axxila, Yavin
+				Vardos, Dolomar, Metellos, Pantolomin, Borleias, Bilbringi, Ithor, Brakka, 
+				Corsin, Obroa_Skai, Myrkr, Charubah, Gallinore, Hapes, Wayland, 
+				Taris, Contruum, Lantilles, Garros, Bompreil, Phindar, Belsmuth, Akiva, Yavin,
+				Skako, Caamas, Alderaan, Kuat, Humbarine, Balmorra, Commenor, Onderon,
+				Ambria, Umbara, AlarisPrime, Kashyyyk, Trandosha, Randon, Ruusan, Artesia,
+				CatoNeimoidia, Manaan, Mimban, Antar, Gyndine, Emberlene, Daalang, Toydaria,
+				NallHutta, Despayre, Hollastin, The_Maw, Kessel, Honoghr, Oba_Diah, Eadu,
+				BozPity, Charros, Balamak, Kubindi, Randa, Ulmatra, Barab, Ylesia, Teth,
+				Varl, Syvris, Arami, Orondia, Gamorr, Shola, Moralan, Garos, Togoria,
+				Alagon, Roche
 		</Locations>
 
         <Trade_Routes>
@@ -1518,28 +2324,28 @@
 
         <Home_Location> Galactic_Empire, Coruscant </Home_Location>
         <Home_Location> Rebel_Alliance, Yavin </Home_Location>
-		<Home_Location> Black_Sun, Ordmantell </Home_Location>
+		<Home_Location> Hutt_Cartel, NallHutta </Home_Location>
 		<Home_Location> Hapan_Consortium, Hapes </Home_Location>
-		<Home_Location> Crimson_Dawn, Dathomir </Home_Location>
+		<Home_Location> Pyke_Syndicate, Oba_Diah </Home_Location>
 		
 		<Starting_Active_Player> Hapan_Consortium </Starting_Active_Player>
 		
 		<Story_Name>Galactic_Empire, story_Fresian_Campaign\Story_Fresian_Campaign_Galactic_Empire.xml </Story_Name>
 		<Story_Name>Rebel_Alliance, story_Fresian_Campaign\Story_Fresian_Campaign_Rebel_Alliance.xml </Story_Name>
-        <Story_Name>Black_Sun, story_Fresian_Campaign\Story_Fresian_Campaign_Black_Sun.xml </Story_Name>
+        <Story_Name>Hutt_Cartel, story_Fresian_Campaign\Story_Fresian_Campaign_Hutt_Cartel.xml </Story_Name>
 		<Story_Name>Hapan_Consortium, story_Fresian_Campaign\Story_Fresian_Campaign_Hapan_Consortium.xml </Story_Name>
-		<Story_Name>Crimson_Dawn, story_Fresian_Campaign\Story_Fresian_Campaign_Crimson_Dawn.xml </Story_Name>
+		<Story_Name>Pyke_Syndicate, story_Fresian_Campaign\Story_Fresian_Campaign_Pyke_Syndicate.xml </Story_Name>
 		
 		<AI_Player_Control> Galactic_Empire, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Rebel_Alliance, BasicEmpire </AI_Player_Control>
-		<AI_Player_Control> Black_Sun, BasicEmpire </AI_Player_Control>
-		<AI_Player_Control> Crimson_Dawn, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Hutt_Cartel, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Pyke_Syndicate, BasicEmpire </AI_Player_Control>
 		
 		<Markup_Filename>Galactic_Empire, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Rebel_Alliance, DefaultGalacticHints </Markup_Filename>
-		<Markup_Filename>Black_Sun, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Hutt_Cartel, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Hapan_Consortium, DefaultGalacticHints </Markup_Filename>
-		<Markup_Filename>Crimson_Dawn, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Pyke_Syndicate, DefaultGalacticHints </Markup_Filename>
 		
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>True</Show_Completed_Tab>
@@ -1737,6 +2543,139 @@
 		<Starting_Forces> Galactic_Empire, Shili, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Galactic_Empire, Shili, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
 		
+		<!-- Brakka Space Forces -->
+	
+        <!-- Brakka Land Forces -->
+		<Starting_Forces> Galactic_Empire, Brakka, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Brakka, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Brakka, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Corsin Space Forces -->
+	
+        <!-- Corsin Land Forces -->
+		<Starting_Forces> Galactic_Empire, Corsin, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Corsin, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Corsin, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Skako Space Forces -->
+	
+        <!-- Skako Land Forces -->
+		<Starting_Forces> Galactic_Empire, Skako, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Skako, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Skako, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Caamas Space Forces -->
+	
+        <!-- Caamas Land Forces -->
+		<Starting_Forces> Galactic_Empire, Caamas, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Caamas, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Caamas, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Alderaan Space Forces -->
+	
+        <!-- Alderaan Land Forces -->
+		<Starting_Forces> Galactic_Empire, Alderaan, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Alderaan, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Alderaan, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Kuat Space Forces -->
+	
+        <!-- Kuat Land Forces -->
+		<Starting_Forces> Galactic_Empire, Kuat, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Kuat, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Kuat, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Balmorra Space Forces -->
+	
+        <!-- Balmorra Land Forces -->
+		<Starting_Forces> Galactic_Empire, Balmorra, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Balmorra, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Balmorra, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Humbarine Space Forces -->
+	
+        <!-- Humbarine Land Forces -->
+		<Starting_Forces> Galactic_Empire, Humbarine, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Humbarine, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Humbarine, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Commenor Space Forces -->
+	
+        <!-- Commenor Land Forces -->
+		<Starting_Forces> Galactic_Empire, Commenor, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Commenor, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Commenor, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- CatoNeimoidia Space Forces -->
+	
+        <!-- CatoNeimoidia Land Forces -->
+		<Starting_Forces> Galactic_Empire, CatoNeimoidia, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, CatoNeimoidia, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, CatoNeimoidia, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Onderon Space Forces -->
+	
+        <!-- Onderon Land Forces -->
+		<Starting_Forces> Galactic_Empire, Onderon, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Onderon, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Onderon, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Ambria Space Forces -->
+	
+        <!-- Ambria Land Forces -->
+		<Starting_Forces> Galactic_Empire, Ambria, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Ambria, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Ambria, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Umbara Space Forces -->
+	
+        <!-- Umbara Land Forces -->
+		<Starting_Forces> Galactic_Empire, Umbara, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Umbara, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Umbara, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Antar Space Forces -->
+	
+        <!-- Antar Land Forces -->
+		<Starting_Forces> Galactic_Empire, Antar, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Antar, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Antar, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Gyndine Space Forces -->
+	
+        <!-- Gyndine Land Forces -->
+		<Starting_Forces> Galactic_Empire, Gyndine, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Gyndine, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Gyndine, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Bilbringi Space Forces -->
+	
+        <!-- Bilbringi Land Forces -->
+		<Starting_Forces> Galactic_Empire, Bilbringi, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Bilbringi, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Bilbringi, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Honoghr Space Forces -->
+	
+        <!-- Honoghr Land Forces -->
+		<Starting_Forces> Galactic_Empire, Honoghr, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Honoghr, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Honoghr, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Eadu Space Forces -->
+	
+        <!-- Eadu Land Forces -->
+		<Starting_Forces> Galactic_Empire, Eadu, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Eadu, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Eadu, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Emberlene Space Forces -->
+	
+        <!-- Emberlene Land Forces -->
+		<Starting_Forces> Galactic_Empire, Emberlene, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Emberlene, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Emberlene, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
 		
 		
 		
@@ -1763,6 +2702,7 @@
 		<!-- Bompreil Space Forces -->
         <Starting_Forces> Rebel_Alliance, Bompreil, Rebel_Alliance_Star_Base  </Starting_Forces>
         <!-- Bompreil Land Forces -->
+
 		
 		<!-- Phindar Space Forces -->
 
@@ -1785,61 +2725,194 @@
 		<Starting_Forces> Rebel_Alliance, Bandomeer, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		<Starting_Forces> Rebel_Alliance, Bandomeer, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-		
-		<!-- Black_Sun Starting Forces -->
+		<!-- Kashyyyk Space Forces -->
 
-		<Starting_Credits> Black_Sun,  10000 </Starting_Credits>
-		<Starting_Tech_Level> Black_Sun, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> Black_Sun, 5 </Max_Tech_Level>
+        <!-- Kashyyyk Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Kashyyyk, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Kashyyyk, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Kashyyyk, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-        <!-- Ordmantell Space Forces -->
+		<!-- Randon Space Forces -->
+
+        <!-- Randon Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Randon, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Randon, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Randon, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-        <!-- Ordmantell Land Forces -->
-		<Starting_Forces> Black_Sun, Ordmantell, Black_Sun_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Black_Sun, Ordmantell, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Black_Sun, Ordmantell, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
+		<!-- AlarisPrime Space Forces -->
+
+        <!-- AlarisPrime Land Forces -->
+		<Starting_Forces> Rebel_Alliance, AlarisPrime, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, AlarisPrime, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, AlarisPrime, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-		<!-- Qiilura Space Forces -->
+		<!-- Ruusan Space Forces -->
+
+        <!-- Ruusan Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Ruusan, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Ruusan, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Ruusan, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-        <!-- Qiilura Land Forces -->
-		<Starting_Forces> Black_Sun, Qiilura, Black_Sun_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Black_Sun, Qiilura, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Black_Sun, Qiilura, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
+		<!-- Artesia Space Forces -->
+
+        <!-- Artesia Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Artesia, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Artesia, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Artesia, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-		<!-- Orinda Space Forces -->
+		<!-- Mimban Space Forces -->
+
+        <!-- Mimban Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Mimban, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Mimban, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Mimban, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-        <!-- Orinda Land Forces -->
-		<Starting_Forces> Black_Sun, Orinda, Black_Sun_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Black_Sun, Orinda, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Black_Sun, Orinda, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
+		<!-- Manaan Space Forces -->
+
+        <!-- Manaan Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Manaan, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Manaan, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Manaan, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-		<!-- Iridonia Space Forces -->
+		<!-- Garos Space Forces -->
+
+        <!-- Garos Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Garos, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Garos, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Garos, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-        <!-- Iridonia Land Forces -->
-		<Starting_Forces> Black_Sun, Iridonia, Black_Sun_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Black_Sun, Iridonia, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Black_Sun, Iridonia, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
+		<!-- Togoria Space Forces -->
+
+        <!-- Togoria Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Togoria, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Togoria, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Togoria, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-		<!-- Darkon Space Forces -->
+		<!-- Alagon Space Forces -->
+
+        <!-- Alagon Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Alagon, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Alagon, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Alagon, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-        <!-- Darkon Land Forces -->
-		<Starting_Forces> Black_Sun, Darkon, Black_Sun_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Black_Sun, Darkon, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Black_Sun, Darkon, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
+		<!-- Roche Space Forces -->
+        <Starting_Forces> Rebel_Alliance, Roche, Rebel_Alliance_Star_Base  </Starting_Forces>
+        <!-- Roche Land Forces -->
 		
-		<!-- Dorin Space Forces -->
 		
-        <!-- Dorin Land Forces -->
-		<Starting_Forces> Black_Sun, Dorin, Black_Sun_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Black_Sun, Dorin, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Black_Sun, Dorin, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
 		
-		<!-- Phaeda Space Forces -->
+		<!-- Hutt_Cartel Starting Forces -->
+
+		<Starting_Credits> Hutt_Cartel,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Hutt_Cartel, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Hutt_Cartel, 5 </Max_Tech_Level>
 		
-        <!-- Phaeda Land Forces -->
-		<Starting_Forces> Black_Sun, Phaeda, Black_Sun_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Black_Sun, Phaeda, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Black_Sun, Phaeda, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
+        <!-- NallHutta Space Forces -->
+		
+        <!-- NallHutta Land Forces -->
+		<Starting_Forces> Hutt_Cartel, NallHutta, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, NallHutta, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, NallHutta, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Toydaria Space Forces -->
+		
+        <!-- Toydaria Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Toydaria, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Toydaria, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Toydaria, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Hollastin Space Forces -->
+		
+        <!-- Hollastin Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Hollastin, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Hollastin, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Hollastin, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Despayre Space Forces -->
+		
+        <!-- Despayre Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Despayre, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Despayre, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Despayre, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Daalang Space Forces -->
+		
+        <!-- Daalang Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Daalang, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Daalang, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Daalang, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Barab Space Forces -->
+		
+        <!-- Barab Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Barab, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Barab, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Barab, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Ylesia Space Forces -->
+		
+        <!-- Ylesia Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Ylesia, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Ylesia, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Ylesia, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Teth Space Forces -->
+		
+        <!-- Teth Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Teth, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Teth, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Teth, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Varl Space Forces -->
+		
+        <!-- Varl Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Varl, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Varl, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Varl, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Syvris Space Forces -->
+		
+        <!-- Syvris Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Syvris, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Syvris, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Syvris, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Orondia Space Forces -->
+		
+        <!-- Orondia Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Orondia, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Orondia, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Orondia, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Arami Space Forces -->
+		
+        <!-- Arami Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Arami, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Arami, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Arami, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Gamorr Space Forces -->
+		
+        <!-- Gamorr Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Gamorr, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Gamorr, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Gamorr, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Shola Space Forces -->
+		
+        <!-- Shola Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Shola, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Shola, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Shola, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Trandosha Space Forces -->
+		
+        <!-- Trandosha Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Trandosha, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Trandosha, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Trandosha, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		
 		
 		
 		
@@ -1886,88 +2959,83 @@
 		
 		
 		
-		<!-- Crimson_Dawn Starting Forces -->
+		<!-- Pyke_Syndicate Starting Forces -->
 
-		<Starting_Credits> Crimson_Dawn,  10000 </Starting_Credits>
-		<Starting_Tech_Level> Crimson_Dawn, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> Crimson_Dawn, 5 </Max_Tech_Level>
+		<Starting_Credits> Pyke_Syndicate,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Pyke_Syndicate, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Pyke_Syndicate, 5 </Max_Tech_Level>
 		
-        <!-- Dathomir Space Forces -->
+        <!-- Oba_Diah Space Forces -->
 		
-        <!-- Dathomir Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Dathomir, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Dathomir, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Dathomir, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Oba_Diah Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Oba_Diah, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Oba_Diah, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Oba_Diah, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Bandomeer Space Forces -->
+		<!-- The_Maw Space Forces -->
 		
-        <!-- Bandomeer Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Bandomeer, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Bandomeer, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Bandomeer, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- The_Maw Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, The_Maw, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, The_Maw, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, The_Maw, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Ord_Cestus Space Forces -->
+		<!-- Kessel Space Forces -->
 		
-        <!-- Ord_Cestus Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Ord_Cestus, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Ord_Cestus, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Ord_Cestus, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Kessel Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Kessel, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Kessel, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Kessel, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Celanon Space Forces -->
+		<!-- Kubindi Space Forces -->
 		
-        <!-- Celanon Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Celanon, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Celanon, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Celanon, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Kubindi Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Kubindi, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Kubindi, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Kubindi, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Agamar Space Forces -->
+		<!-- Randa Space Forces -->
 		
-        <!-- Agamar Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Agamar, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Agamar, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Agamar, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Randa Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Randa, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Randa, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Randa, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Polus Space Forces -->
+		<!-- Ulmatra Space Forces -->
 		
-        <!-- Polus Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Polus, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Polus, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Polus, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Ulmatra Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Ulmatra, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Ulmatra, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Ulmatra, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Ketaris Space Forces -->
+		<!-- Moralan Space Forces -->
 		
-        <!-- Ketaris Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Ketaris, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Ketaris, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Ketaris, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Moralan Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Moralan, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Moralan, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Moralan, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Brakka Space Forces -->
+		<!-- BozPity Space Forces -->
 		
-        <!-- Brakka Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Brakka, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Brakka, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Brakka, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- BozPity Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, BozPity, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, BozPity, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, BozPity, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Corsin Space Forces -->
+		<!-- Charros Space Forces -->
 		
-        <!-- Corsin Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Corsin, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Corsin, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Corsin, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Charros Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Charros, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Charros, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Charros, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Axxila Space Forces -->
+		<!-- Balamak Space Forces -->
 		
-        <!-- Axxila Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Axxila, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Axxila, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Axxila, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Balamak Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Balamak, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Balamak, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Balamak, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Raydonia Space Forces -->
 		
-        <!-- Raydonia Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Raydonia, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Raydonia, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Raydonia, Crimson_Dawn_Trooper_Squad </Starting_Forces>
 		
 		
 
@@ -1978,7 +3046,9 @@
   
   
   
-  <Campaign Name="Sandbox_Fresian_Campaign_Crimson_Dawn">
+  
+  
+  <Campaign Name="Sandbox_Fresian_Campaign_Pyke_Syndicate">
 
 		<Campaign_Set> Sandbox_Fresian_Campaign </Campaign_Set>
 		<Sort_Order>10</Sort_Order>
@@ -1994,11 +3064,16 @@
 				Galaxy_Core_Art_Model, 
 				Cal_Seti, Fresia, Coruscant, Alsakan, Anaxes, Axum, Corulag, Chandrila, 
 				Brentaal, Raltiir, Barlok, Shili, Champala, Carida, Arkania, Castell, 
-				Vardos, Dolomar, Metellos, Pantolomin, Borleias, Bilbringi, Dorin, Gleanselm,
-				Darkon, Iridonia, Orinda, Qiilura, Ordmantell, Ithor, Brakka, Corsin, Phaeda, 
-				Ketaris, Agamar, Polus, Obroa_Skai, Myrkr, Charubah, Gallinore, Hapes, 
-				Wayland, Taris, Contruum, Lantilles, Garros, Bompreil, Phindar, Bandomeer, 
-				Belsmuth, Raydonia, Akiva, Celanon, Ord_Cestus, Dathomir, Axxila, Yavin
+				Vardos, Dolomar, Metellos, Pantolomin, Borleias, Bilbringi, Ithor, Brakka, 
+				Corsin, Obroa_Skai, Myrkr, Charubah, Gallinore, Hapes, Wayland, 
+				Taris, Contruum, Lantilles, Garros, Bompreil, Phindar, Belsmuth, Akiva, Yavin,
+				Skako, Caamas, Alderaan, Kuat, Humbarine, Balmorra, Commenor, Onderon,
+				Ambria, Umbara, AlarisPrime, Kashyyyk, Trandosha, Randon, Ruusan, Artesia,
+				CatoNeimoidia, Manaan, Mimban, Antar, Gyndine, Emberlene, Daalang, Toydaria,
+				NallHutta, Despayre, Hollastin, The_Maw, Kessel, Honoghr, Oba_Diah, Eadu,
+				BozPity, Charros, Balamak, Kubindi, Randa, Ulmatra, Barab, Ylesia, Teth,
+				Varl, Syvris, Arami, Orondia, Gamorr, Shola, Moralan, Garos, Togoria,
+				Alagon, Roche
 		</Locations>
 
         <Trade_Routes>
@@ -2007,28 +3082,28 @@
 
         <Home_Location> Galactic_Empire, Coruscant </Home_Location>
         <Home_Location> Rebel_Alliance, Yavin </Home_Location>
-		<Home_Location> Black_Sun, Ordmantell </Home_Location>
+		<Home_Location> Hutt_Cartel, NallHutta </Home_Location>
 		<Home_Location> Hapan_Consortium, Hapes </Home_Location>
-		<Home_Location> Crimson_Dawn, Dathomir </Home_Location>
+		<Home_Location> Pyke_Syndicate, Oba_Diah </Home_Location>
 		
-		<Starting_Active_Player> Crimson_Dawn </Starting_Active_Player>
+		<Starting_Active_Player> Pyke_Syndicate </Starting_Active_Player>
 		
 		<Story_Name>Galactic_Empire, story_Fresian_Campaign\Story_Fresian_Campaign_Galactic_Empire.xml </Story_Name>
 		<Story_Name>Rebel_Alliance, story_Fresian_Campaign\Story_Fresian_Campaign_Rebel_Alliance.xml </Story_Name>
-        <Story_Name>Black_Sun, story_Fresian_Campaign\Story_Fresian_Campaign_Black_Sun.xml </Story_Name>
+        <Story_Name>Hutt_Cartel, story_Fresian_Campaign\Story_Fresian_Campaign_Hutt_Cartel.xml </Story_Name>
 		<Story_Name>Hapan_Consortium, story_Fresian_Campaign\Story_Fresian_Campaign_Hapan_Consortium.xml </Story_Name>
-		<Story_Name>Crimson_Dawn, story_Fresian_Campaign\Story_Fresian_Campaign_Crimson_Dawn.xml </Story_Name>
+		<Story_Name>Pyke_Syndicate, story_Fresian_Campaign\Story_Fresian_Campaign_Pyke_Syndicate.xml </Story_Name>
 		
 		<AI_Player_Control> Galactic_Empire, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Rebel_Alliance, BasicEmpire </AI_Player_Control>
-		<AI_Player_Control> Black_Sun, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Hutt_Cartel, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Hapan_Consortium, BasicEmpire </AI_Player_Control>
 		
 		<Markup_Filename>Galactic_Empire, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Rebel_Alliance, DefaultGalacticHints </Markup_Filename>
-		<Markup_Filename>Black_Sun, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Hutt_Cartel, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Hapan_Consortium, DefaultGalacticHints </Markup_Filename>
-		<Markup_Filename>Crimson_Dawn, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Pyke_Syndicate, DefaultGalacticHints </Markup_Filename>
 		
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>True</Show_Completed_Tab>
@@ -2226,6 +3301,139 @@
 		<Starting_Forces> Galactic_Empire, Shili, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Galactic_Empire, Shili, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
 		
+		<!-- Brakka Space Forces -->
+	
+        <!-- Brakka Land Forces -->
+		<Starting_Forces> Galactic_Empire, Brakka, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Brakka, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Brakka, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Corsin Space Forces -->
+	
+        <!-- Corsin Land Forces -->
+		<Starting_Forces> Galactic_Empire, Corsin, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Corsin, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Corsin, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Skako Space Forces -->
+	
+        <!-- Skako Land Forces -->
+		<Starting_Forces> Galactic_Empire, Skako, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Skako, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Skako, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Caamas Space Forces -->
+	
+        <!-- Caamas Land Forces -->
+		<Starting_Forces> Galactic_Empire, Caamas, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Caamas, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Caamas, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Alderaan Space Forces -->
+	
+        <!-- Alderaan Land Forces -->
+		<Starting_Forces> Galactic_Empire, Alderaan, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Alderaan, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Alderaan, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Kuat Space Forces -->
+	
+        <!-- Kuat Land Forces -->
+		<Starting_Forces> Galactic_Empire, Kuat, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Kuat, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Kuat, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Balmorra Space Forces -->
+	
+        <!-- Balmorra Land Forces -->
+		<Starting_Forces> Galactic_Empire, Balmorra, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Balmorra, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Balmorra, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Humbarine Space Forces -->
+	
+        <!-- Humbarine Land Forces -->
+		<Starting_Forces> Galactic_Empire, Humbarine, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Humbarine, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Humbarine, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Commenor Space Forces -->
+	
+        <!-- Commenor Land Forces -->
+		<Starting_Forces> Galactic_Empire, Commenor, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Commenor, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Commenor, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- CatoNeimoidia Space Forces -->
+	
+        <!-- CatoNeimoidia Land Forces -->
+		<Starting_Forces> Galactic_Empire, CatoNeimoidia, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, CatoNeimoidia, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, CatoNeimoidia, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Onderon Space Forces -->
+	
+        <!-- Onderon Land Forces -->
+		<Starting_Forces> Galactic_Empire, Onderon, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Onderon, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Onderon, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Ambria Space Forces -->
+	
+        <!-- Ambria Land Forces -->
+		<Starting_Forces> Galactic_Empire, Ambria, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Ambria, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Ambria, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Umbara Space Forces -->
+	
+        <!-- Umbara Land Forces -->
+		<Starting_Forces> Galactic_Empire, Umbara, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Umbara, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Umbara, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Antar Space Forces -->
+	
+        <!-- Antar Land Forces -->
+		<Starting_Forces> Galactic_Empire, Antar, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Antar, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Antar, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Gyndine Space Forces -->
+	
+        <!-- Gyndine Land Forces -->
+		<Starting_Forces> Galactic_Empire, Gyndine, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Gyndine, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Gyndine, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Bilbringi Space Forces -->
+	
+        <!-- Bilbringi Land Forces -->
+		<Starting_Forces> Galactic_Empire, Bilbringi, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Bilbringi, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Bilbringi, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Honoghr Space Forces -->
+	
+        <!-- Honoghr Land Forces -->
+		<Starting_Forces> Galactic_Empire, Honoghr, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Honoghr, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Honoghr, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Eadu Space Forces -->
+	
+        <!-- Eadu Land Forces -->
+		<Starting_Forces> Galactic_Empire, Eadu, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Eadu, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Eadu, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Emberlene Space Forces -->
+	
+        <!-- Emberlene Land Forces -->
+		<Starting_Forces> Galactic_Empire, Emberlene, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Emberlene, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Emberlene, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
 		
 		
 		
@@ -2252,6 +3460,7 @@
 		<!-- Bompreil Space Forces -->
         <Starting_Forces> Rebel_Alliance, Bompreil, Rebel_Alliance_Star_Base  </Starting_Forces>
         <!-- Bompreil Land Forces -->
+
 		
 		<!-- Phindar Space Forces -->
 
@@ -2274,61 +3483,194 @@
 		<Starting_Forces> Rebel_Alliance, Bandomeer, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		<Starting_Forces> Rebel_Alliance, Bandomeer, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-		
-		<!-- Black_Sun Starting Forces -->
+		<!-- Kashyyyk Space Forces -->
 
-		<Starting_Credits> Black_Sun,  10000 </Starting_Credits>
-		<Starting_Tech_Level> Black_Sun, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> Black_Sun, 5 </Max_Tech_Level>
+        <!-- Kashyyyk Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Kashyyyk, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Kashyyyk, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Kashyyyk, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-        <!-- Ordmantell Space Forces -->
+		<!-- Randon Space Forces -->
+
+        <!-- Randon Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Randon, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Randon, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Randon, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-        <!-- Ordmantell Land Forces -->
-		<Starting_Forces> Black_Sun, Ordmantell, Black_Sun_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Black_Sun, Ordmantell, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Black_Sun, Ordmantell, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
+		<!-- AlarisPrime Space Forces -->
+
+        <!-- AlarisPrime Land Forces -->
+		<Starting_Forces> Rebel_Alliance, AlarisPrime, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, AlarisPrime, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, AlarisPrime, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-		<!-- Qiilura Space Forces -->
+		<!-- Ruusan Space Forces -->
+
+        <!-- Ruusan Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Ruusan, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Ruusan, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Ruusan, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-        <!-- Qiilura Land Forces -->
-		<Starting_Forces> Black_Sun, Qiilura, Black_Sun_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Black_Sun, Qiilura, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Black_Sun, Qiilura, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
+		<!-- Artesia Space Forces -->
+
+        <!-- Artesia Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Artesia, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Artesia, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Artesia, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-		<!-- Orinda Space Forces -->
+		<!-- Mimban Space Forces -->
+
+        <!-- Mimban Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Mimban, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Mimban, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Mimban, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-        <!-- Orinda Land Forces -->
-		<Starting_Forces> Black_Sun, Orinda, Black_Sun_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Black_Sun, Orinda, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Black_Sun, Orinda, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
+		<!-- Manaan Space Forces -->
+
+        <!-- Manaan Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Manaan, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Manaan, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Manaan, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-		<!-- Iridonia Space Forces -->
+		<!-- Garos Space Forces -->
+
+        <!-- Garos Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Garos, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Garos, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Garos, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-        <!-- Iridonia Land Forces -->
-		<Starting_Forces> Black_Sun, Iridonia, Black_Sun_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Black_Sun, Iridonia, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Black_Sun, Iridonia, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
+		<!-- Togoria Space Forces -->
+
+        <!-- Togoria Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Togoria, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Togoria, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Togoria, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-		<!-- Darkon Space Forces -->
+		<!-- Alagon Space Forces -->
+
+        <!-- Alagon Land Forces -->
+		<Starting_Forces> Rebel_Alliance, Alagon, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Alagon, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> Rebel_Alliance, Alagon, Rebel_Alliance_Soldier_Squad </Starting_Forces>
 		
-        <!-- Darkon Land Forces -->
-		<Starting_Forces> Black_Sun, Darkon, Black_Sun_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Black_Sun, Darkon, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Black_Sun, Darkon, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
+		<!-- Roche Space Forces -->
+        <Starting_Forces> Rebel_Alliance, Roche, Rebel_Alliance_Star_Base  </Starting_Forces>
+        <!-- Roche Land Forces -->
 		
-		<!-- Dorin Space Forces -->
 		
-        <!-- Dorin Land Forces -->
-		<Starting_Forces> Black_Sun, Dorin, Black_Sun_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Black_Sun, Dorin, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Black_Sun, Dorin, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
 		
-		<!-- Phaeda Space Forces -->
+		<!-- Hutt_Cartel Starting Forces -->
+
+		<Starting_Credits> Hutt_Cartel,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Hutt_Cartel, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Hutt_Cartel, 5 </Max_Tech_Level>
 		
-        <!-- Phaeda Land Forces -->
-		<Starting_Forces> Black_Sun, Phaeda, Black_Sun_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Black_Sun, Phaeda, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Black_Sun, Phaeda, Black_Sun_Sand_Trooper_Squad </Starting_Forces>
+        <!-- NallHutta Space Forces -->
+		
+        <!-- NallHutta Land Forces -->
+		<Starting_Forces> Hutt_Cartel, NallHutta, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, NallHutta, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, NallHutta, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Toydaria Space Forces -->
+		
+        <!-- Toydaria Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Toydaria, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Toydaria, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Toydaria, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Hollastin Space Forces -->
+		
+        <!-- Hollastin Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Hollastin, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Hollastin, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Hollastin, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Despayre Space Forces -->
+		
+        <!-- Despayre Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Despayre, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Despayre, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Despayre, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Daalang Space Forces -->
+		
+        <!-- Daalang Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Daalang, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Daalang, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Daalang, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Barab Space Forces -->
+		
+        <!-- Barab Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Barab, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Barab, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Barab, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Ylesia Space Forces -->
+		
+        <!-- Ylesia Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Ylesia, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Ylesia, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Ylesia, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Teth Space Forces -->
+		
+        <!-- Teth Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Teth, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Teth, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Teth, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Varl Space Forces -->
+		
+        <!-- Varl Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Varl, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Varl, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Varl, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Syvris Space Forces -->
+		
+        <!-- Syvris Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Syvris, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Syvris, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Syvris, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Orondia Space Forces -->
+		
+        <!-- Orondia Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Orondia, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Orondia, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Orondia, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Arami Space Forces -->
+		
+        <!-- Arami Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Arami, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Arami, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Arami, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Gamorr Space Forces -->
+		
+        <!-- Gamorr Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Gamorr, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Gamorr, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Gamorr, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Shola Space Forces -->
+		
+        <!-- Shola Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Shola, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Shola, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Shola, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		<!-- Trandosha Space Forces -->
+		
+        <!-- Trandosha Land Forces -->
+		<Starting_Forces> Hutt_Cartel, Trandosha, Hutt_Cartel_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Trandosha, Hutt_Twilek_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hutt_Cartel, Trandosha, Hutt_Rodian3_Trooper_Squad </Starting_Forces>
+		
+		
 		
 		
 		
@@ -2375,94 +3717,95 @@
 		
 		
 		
-		<!-- Crimson_Dawn Starting Forces -->
+		<!-- Pyke_Syndicate Starting Forces -->
 
-		<Starting_Credits> Crimson_Dawn,  10000 </Starting_Credits>
-		<Starting_Tech_Level> Crimson_Dawn, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> Crimson_Dawn, 5 </Max_Tech_Level>
+		<Starting_Credits> Pyke_Syndicate,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Pyke_Syndicate, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Pyke_Syndicate, 5 </Max_Tech_Level>
 		
-        <!-- Dathomir Space Forces -->
+        <!-- Oba_Diah Space Forces -->
 		
-        <!-- Dathomir Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Dathomir, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Dathomir, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Dathomir, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Oba_Diah Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Oba_Diah, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Oba_Diah, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Oba_Diah, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Bandomeer Space Forces -->
+		<!-- The_Maw Space Forces -->
 		
-        <!-- Bandomeer Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Bandomeer, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Bandomeer, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Bandomeer, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- The_Maw Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, The_Maw, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, The_Maw, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, The_Maw, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Ord_Cestus Space Forces -->
+		<!-- Kessel Space Forces -->
 		
-        <!-- Ord_Cestus Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Ord_Cestus, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Ord_Cestus, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Ord_Cestus, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Kessel Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Kessel, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Kessel, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Kessel, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Celanon Space Forces -->
+		<!-- Kubindi Space Forces -->
 		
-        <!-- Celanon Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Celanon, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Celanon, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Celanon, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Kubindi Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Kubindi, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Kubindi, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Kubindi, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Agamar Space Forces -->
+		<!-- Randa Space Forces -->
 		
-        <!-- Agamar Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Agamar, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Agamar, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Agamar, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Randa Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Randa, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Randa, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Randa, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Polus Space Forces -->
+		<!-- Ulmatra Space Forces -->
 		
-        <!-- Polus Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Polus, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Polus, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Polus, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Ulmatra Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Ulmatra, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Ulmatra, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Ulmatra, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Ketaris Space Forces -->
+		<!-- Moralan Space Forces -->
 		
-        <!-- Ketaris Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Ketaris, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Ketaris, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Ketaris, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Moralan Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Moralan, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Moralan, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Moralan, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Brakka Space Forces -->
+		<!-- BozPity Space Forces -->
 		
-        <!-- Brakka Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Brakka, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Brakka, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Brakka, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- BozPity Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, BozPity, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, BozPity, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, BozPity, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Corsin Space Forces -->
+		<!-- Charros Space Forces -->
 		
-        <!-- Corsin Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Corsin, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Corsin, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Corsin, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Charros Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Charros, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Charros, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Charros, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Axxila Space Forces -->
+		<!-- Balamak Space Forces -->
 		
-        <!-- Axxila Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Axxila, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Axxila, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Axxila, Crimson_Dawn_Trooper_Squad </Starting_Forces>
+        <!-- Balamak Land Forces -->
+		<Starting_Forces> Pyke_Syndicate, Balamak, Pyke_Syndicate_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Balamak, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Pyke_Syndicate, Balamak, Pyke_Syndicate_Trooper_Squad </Starting_Forces>
 		
-		<!-- Raydonia Space Forces -->
 		
-        <!-- Raydonia Land Forces -->
-		<Starting_Forces> Crimson_Dawn, Raydonia, Crimson_Dawn_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Raydonia, Crimson_Dawn_Trooper_Squad </Starting_Forces>
-		<Starting_Forces> Crimson_Dawn, Raydonia, Crimson_Dawn_Trooper_Squad </Starting_Forces>
 		
 		
 
   
   
   </Campaign>
+  
+  
+  
+  
+  
+  
   
   
   

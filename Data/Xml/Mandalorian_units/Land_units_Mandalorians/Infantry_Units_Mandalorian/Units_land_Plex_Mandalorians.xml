@@ -131,7 +131,7 @@
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		
 		<Tech_Level>1</Tech_Level>
-		<Required_Special_Structures>Mandalorians_Barracks</Required_Special_Structures>
+		<Required_Special_Structures>Mandalorians_Ground_Barracks</Required_Special_Structures>
 		
 		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
 		<Company_Units>

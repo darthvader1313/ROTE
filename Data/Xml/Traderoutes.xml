@@ -482,7 +482,7 @@
 	
 	
 	
-	<TradeRoute Name="TR_1">
+	<TradeRoute Name="TR_44">
 		
             <Point_A>Jakku</Point_A>
             <Point_B>Jedha</Point_B>
@@ -493,7 +493,7 @@
         
     </TradeRoute> 
 	
-	<TradeRoute Name="TR_2">
+	<TradeRoute Name="TR_45">
 		
             <Point_A>Jedha</Point_A>
             <Point_B>Gleeanselm</Point_B>

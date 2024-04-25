@@ -49,23 +49,23 @@
         <Home_Location> Early_Empire, Coruscant </Home_Location>
         <Home_Location> CIS_Remnant, Antar </Home_Location>
 		<Home_Location> Trade_Federation, CatoNeimoidia </Home_Location>
-		<Home_Location> Commerce_Guild, Emberlene </Home_Location>
+		<Home_Location> Techno_Union, Emberlene </Home_Location>
 		
 		<Starting_Active_Player> Early_Empire </Starting_Active_Player>
 		
 		<Story_Name>Early_Empire, story_Antar_Atrocity\Story_Antar_Atrocity_Early_Empire.xml </Story_Name>
 		<Story_Name>CIS_Remnant, story_Antar_Atrocity\Story_Antar_Atrocity_CIS_Remnant.xml </Story_Name>
         <Story_Name>Trade_Federation, story_Antar_Atrocity\Story_Antar_Atrocity_Trade_Federation.xml </Story_Name>
-		<Story_Name>Commerce_Guild, story_Antar_Atrocity\Story_Antar_Atrocity_Commerce_Guild.xml </Story_Name>
+		<Story_Name>Techno_Union, story_Antar_Atrocity\Story_Antar_Atrocity_Techno_Union.xml </Story_Name>
 		
-		<AI_Player_Control> CIS_Remnant, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> CIS_Remnant, BasicEarlyEmpire </AI_Player_Control>
 		<AI_Player_Control> Trade_Federation, BasicEmpire </AI_Player_Control>
-		<AI_Player_Control> Commerce_Guild, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Techno_Union, BasicEmpire </AI_Player_Control>
 		
 		<Markup_Filename>Early_Empire, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>CIS_Remnant, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Trade_Federation, DefaultGalacticHints </Markup_Filename>
-		<Markup_Filename>Commerce_Guild, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Techno_Union, DefaultGalacticHints </Markup_Filename>
 		
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>True</Show_Completed_Tab>
@@ -320,6 +320,20 @@
 		<Starting_Forces> CIS_Remnant, Mimban, Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> CIS_Remnant, Mimban, Super_Battledroid_Squad </Starting_Forces>
 		
+		<!-- Castell Space Forces -->
+
+        <!-- Castell Land Forces -->
+		<Starting_Forces> CIS_Remnant, Castell, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Castell, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Castell, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Castell Space Forces -->
+
+        <!-- Castell Land Forces -->
+		<Starting_Forces> CIS_Remnant, Castell, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Castell, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Castell, Super_Battledroid_Squad </Starting_Forces>
+		
 		<!-- Gyndine Space Forces -->
 
         <!-- Gyndine Land Forces -->
@@ -456,65 +470,58 @@
 		
 		<!-- Commerce Guild Starting Forces -->
 
-		<Starting_Credits> Commerce_Guild,  10000 </Starting_Credits>
-		<Starting_Tech_Level> Commerce_Guild, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> Commerce_Guild, 5 </Max_Tech_Level>
+		<Starting_Credits> Techno_Union,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Techno_Union, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Techno_Union, 5 </Max_Tech_Level>
 		
         <!-- Emberlene Space Forces -->
 		
         <!-- Emberlene Land Forces -->
-		<Starting_Forces> Commerce_Guild, Emberlene, Commerce_Guild_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Emberlene, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Emberlene, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Emberlene, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Emberlene, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Emberlene, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
 		
 		<!-- Daalang Space Forces -->
 		
         <!-- Daalang Land Forces -->
-		<Starting_Forces> Commerce_Guild, Daalang, Commerce_Guild_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Daalang, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Daalang, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Daalang, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Daalang, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Daalang, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
 		
 		<!-- Artesia Space Forces -->
 		
         <!-- Artesia Land Forces -->
-		<Starting_Forces> Commerce_Guild, Artesia, Commerce_Guild_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Artesia, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Artesia, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Artesia, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Artesia, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Artesia, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
 		
 		<!-- Randon Space Forces -->
 		
         <!-- Randon Land Forces -->
-		<Starting_Forces> Commerce_Guild, Randon, Commerce_Guild_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Randon, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Randon, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Randon, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Randon, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Randon, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
 		
 		<!-- Ruusan Space Forces -->
 		
         <!-- Ruusan Land Forces -->
-		<Starting_Forces> Commerce_Guild, Ruusan, Commerce_Guild_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Ruusan, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Ruusan, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
-		
-		<!-- Ferixx Space Forces -->
-		
-        <!-- Ferixx Land Forces -->
-		<Starting_Forces> Commerce_Guild, Ferixx, Commerce_Guild_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Ferixx, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Ferixx, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Ruusan, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Ruusan, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Ruusan, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
 		
 		<!-- AlarisPrime Space Forces -->
 		
         <!-- AlarisPrime Land Forces -->
-		<Starting_Forces> Commerce_Guild, AlarisPrime, Commerce_Guild_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, AlarisPrime, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, AlarisPrime, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, AlarisPrime, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, AlarisPrime, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, AlarisPrime, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
 		
 		<!-- Skako Space Forces -->
 		
         <!-- Skako Land Forces -->
-		<Starting_Forces> Commerce_Guild, Skako, Commerce_Guild_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Skako, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Skako, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Skako, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Skako, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Skako, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
 		
 
   
@@ -552,23 +559,23 @@
         <Home_Location> Early_Empire, Coruscant </Home_Location>
         <Home_Location> CIS_Remnant, Antar </Home_Location>
 		<Home_Location> Trade_Federation, Cato_Neimodia </Home_Location>
-		<Home_Location> Commerce_Guild, Emberlene </Home_Location>
+		<Home_Location> Techno_Union, Emberlene </Home_Location>
 		
 		<Starting_Active_Player> CIS_Remnant </Starting_Active_Player>
 		
 		<Story_Name>Early_Empire, story_Antar_Atrocity\Story_Antar_Atrocity_Early_Empire.xml </Story_Name>
 		<Story_Name>CIS_Remnant, story_Antar_Atrocity\Story_Antar_Atrocity_CIS_Remnant.xml </Story_Name>
         <Story_Name>Trade_Federation, story_Antar_Atrocity\Story_Antar_Atrocity_Trade_Federation.xml </Story_Name>
-		<Story_Name>Commerce_Guild, story_Antar_Atrocity\Story_Antar_Atrocity_Commerce_Guild.xml </Story_Name>
+		<Story_Name>Techno_Union, story_Antar_Atrocity\Story_Antar_Atrocity_Techno_Union.xml </Story_Name>
 		
 		<AI_Player_Control> Early_Empire, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Trade_Federation, BasicEmpire </AI_Player_Control>
-		<AI_Player_Control> Commerce_Guild, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Techno_Union, BasicEmpire </AI_Player_Control>
 		
 		<Markup_Filename>Early_Empire, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>CIS_Remnant, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Trade_Federation, DefaultGalacticHints </Markup_Filename>
-		<Markup_Filename>Commerce_Guild, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Techno_Union, DefaultGalacticHints </Markup_Filename>
 		
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>True</Show_Completed_Tab>
@@ -823,6 +830,20 @@
 		<Starting_Forces> CIS_Remnant, Mimban, Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> CIS_Remnant, Mimban, Super_Battledroid_Squad </Starting_Forces>
 		
+		<!-- Castell Space Forces -->
+
+        <!-- Castell Land Forces -->
+		<Starting_Forces> CIS_Remnant, Castell, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Castell, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Castell, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Castell Space Forces -->
+
+        <!-- Castell Land Forces -->
+		<Starting_Forces> CIS_Remnant, Castell, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Castell, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Castell, Super_Battledroid_Squad </Starting_Forces>
+		
 		<!-- Gyndine Space Forces -->
 
         <!-- Gyndine Land Forces -->
@@ -959,65 +980,58 @@
 		
 		<!-- Commerce Guild Starting Forces -->
 
-		<Starting_Credits> Commerce_Guild,  10000 </Starting_Credits>
-		<Starting_Tech_Level> Commerce_Guild, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> Commerce_Guild, 5 </Max_Tech_Level>
+		<Starting_Credits> Techno_Union,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Techno_Union, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Techno_Union, 5 </Max_Tech_Level>
 		
         <!-- Emberlene Space Forces -->
 		
         <!-- Emberlene Land Forces -->
-		<Starting_Forces> Commerce_Guild, Emberlene, Commerce_Guild_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Emberlene, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Emberlene, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Emberlene, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Emberlene, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Emberlene, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
 		
 		<!-- Daalang Space Forces -->
 		
         <!-- Daalang Land Forces -->
-		<Starting_Forces> Commerce_Guild, Daalang, Commerce_Guild_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Daalang, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Daalang, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Daalang, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Daalang, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Daalang, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
 		
 		<!-- Artesia Space Forces -->
 		
         <!-- Artesia Land Forces -->
-		<Starting_Forces> Commerce_Guild, Artesia, Commerce_Guild_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Artesia, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Artesia, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Artesia, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Artesia, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Artesia, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
 		
 		<!-- Randon Space Forces -->
 		
         <!-- Randon Land Forces -->
-		<Starting_Forces> Commerce_Guild, Randon, Commerce_Guild_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Randon, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Randon, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Randon, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Randon, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Randon, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
 		
 		<!-- Ruusan Space Forces -->
 		
         <!-- Ruusan Land Forces -->
-		<Starting_Forces> Commerce_Guild, Ruusan, Commerce_Guild_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Ruusan, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Ruusan, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
-		
-		<!-- Ferixx Space Forces -->
-		
-        <!-- Ferixx Land Forces -->
-		<Starting_Forces> Commerce_Guild, Ferixx, Commerce_Guild_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Ferixx, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Ferixx, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
-		
+		<Starting_Forces> Techno_Union, Ruusan, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Ruusan, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Ruusan, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
+
 		<!-- AlarisPrime Space Forces -->
 		
         <!-- AlarisPrime Land Forces -->
-		<Starting_Forces> Commerce_Guild, AlarisPrime, Commerce_Guild_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, AlarisPrime, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, AlarisPrime, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, AlarisPrime, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, AlarisPrime, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, AlarisPrime, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
 		
 		<!-- Skako Space Forces -->
 		
         <!-- Skako Land Forces -->
-		<Starting_Forces> Commerce_Guild, Skako, Commerce_Guild_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Skako, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Skako, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Skako, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Skako, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Skako, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
 
   
   
@@ -1054,23 +1068,23 @@
         <Home_Location> Early_Empire, Coruscant </Home_Location>
         <Home_Location> CIS_Remnant, Antar </Home_Location>
 		<Home_Location> Trade_Federation, CatoNeimoidia </Home_Location>
-		<Home_Location> Commerce_Guild, Emberlene </Home_Location>
+		<Home_Location> Techno_Union, Emberlene </Home_Location>
 		
 		<Starting_Active_Player> Trade_Federation </Starting_Active_Player>
 		
 		<Story_Name>Early_Empire, story_Antar_Atrocity\Story_Antar_Atrocity_Early_Empire.xml </Story_Name>
 		<Story_Name>CIS_Remnant, story_Antar_Atrocity\Story_Antar_Atrocity_CIS_Remnant.xml </Story_Name>
         <Story_Name>Trade_Federation, story_Antar_Atrocity\Story_Antar_Atrocity_Trade_Federation.xml </Story_Name>
-		<Story_Name>Commerce_Guild, story_Antar_Atrocity\Story_Antar_Atrocity_Commerce_Guild.xml </Story_Name>
+		<Story_Name>Techno_Union, story_Antar_Atrocity\Story_Antar_Atrocity_Techno_Union.xml </Story_Name>
 		
 		<AI_Player_Control> Early_Empire, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> CIS_Remnant, BasicEmpire </AI_Player_Control>
-		<AI_Player_Control> Commerce_Guild, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Techno_Union, BasicEmpire </AI_Player_Control>
 		
 		<Markup_Filename>Early_Empire, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>CIS_Remnant, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Trade_Federation, DefaultGalacticHints </Markup_Filename>
-		<Markup_Filename>Commerce_Guild, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Techno_Union, DefaultGalacticHints </Markup_Filename>
 		
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>True</Show_Completed_Tab>
@@ -1325,6 +1339,20 @@
 		<Starting_Forces> CIS_Remnant, Mimban, Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> CIS_Remnant, Mimban, Super_Battledroid_Squad </Starting_Forces>
 		
+		<!-- Castell Space Forces -->
+
+        <!-- Castell Land Forces -->
+		<Starting_Forces> CIS_Remnant, Castell, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Castell, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Castell, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Castell Space Forces -->
+
+        <!-- Castell Land Forces -->
+		<Starting_Forces> CIS_Remnant, Castell, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Castell, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Castell, Super_Battledroid_Squad </Starting_Forces>
+		
 		<!-- Gyndine Space Forces -->
 
         <!-- Gyndine Land Forces -->
@@ -1461,71 +1489,64 @@
 		
 		<!-- Commerce Guild Starting Forces -->
 
-		<Starting_Credits> Commerce_Guild,  10000 </Starting_Credits>
-		<Starting_Tech_Level> Commerce_Guild, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> Commerce_Guild, 5 </Max_Tech_Level>
+		<Starting_Credits> Techno_Union,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Techno_Union, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Techno_Union, 5 </Max_Tech_Level>
 		
         <!-- Emberlene Space Forces -->
 		
         <!-- Emberlene Land Forces -->
-		<Starting_Forces> Commerce_Guild, Emberlene, Commerce_Guild_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Emberlene, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Emberlene, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Emberlene, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Emberlene, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Emberlene, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
 		
 		<!-- Daalang Space Forces -->
 		
         <!-- Daalang Land Forces -->
-		<Starting_Forces> Commerce_Guild, Daalang, Commerce_Guild_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Daalang, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Daalang, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Daalang, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Daalang, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Daalang, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
 		
 		<!-- Artesia Space Forces -->
 		
         <!-- Artesia Land Forces -->
-		<Starting_Forces> Commerce_Guild, Artesia, Commerce_Guild_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Artesia, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Artesia, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Artesia, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Artesia, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Artesia, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
 		
 		<!-- Randon Space Forces -->
 		
         <!-- Randon Land Forces -->
-		<Starting_Forces> Commerce_Guild, Randon, Commerce_Guild_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Randon, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Randon, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Randon, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Randon, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Randon, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
 		
 		<!-- Ruusan Space Forces -->
 		
         <!-- Ruusan Land Forces -->
-		<Starting_Forces> Commerce_Guild, Ruusan, Commerce_Guild_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Ruusan, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Ruusan, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
-		
-		<!-- Ferixx Space Forces -->
-		
-        <!-- Ferixx Land Forces -->
-		<Starting_Forces> Commerce_Guild, Ferixx, Commerce_Guild_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Ferixx, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Ferixx, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
-		
+		<Starting_Forces> Techno_Union, Ruusan, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Ruusan, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Ruusan, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
+
 		<!-- AlarisPrime Space Forces -->
 		
         <!-- AlarisPrime Land Forces -->
-		<Starting_Forces> Commerce_Guild, AlarisPrime, Commerce_Guild_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, AlarisPrime, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, AlarisPrime, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, AlarisPrime, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, AlarisPrime, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, AlarisPrime, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
 		
 		<!-- Skako Space Forces -->
 		
         <!-- Skako Land Forces -->
-		<Starting_Forces> Commerce_Guild, Skako, Commerce_Guild_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Skako, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Skako, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Skako, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Skako, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Skako, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
 
   
   
   </Campaign>
   
-  <Campaign Name="Sandbox_Antar_Atrocity_Commerce_Guild">
+  <Campaign Name="Sandbox_Antar_Atrocity_Techno_Union">
 
 		<Campaign_Set> Sandbox_Antar_Atrocity </Campaign_Set>
 		<Sort_Order>1</Sort_Order>
@@ -1556,14 +1577,14 @@
         <Home_Location> Early_Empire, Coruscant </Home_Location>
         <Home_Location> CIS_Remnant, Antar </Home_Location>
 		<Home_Location> Trade_Federation, CatoNeimoidia </Home_Location>
-		<Home_Location> Commerce_Guild, Emberlene </Home_Location>
+		<Home_Location> Techno_Union, Emberlene </Home_Location>
 		
-		<Starting_Active_Player> Commerce_Guild </Starting_Active_Player>
+		<Starting_Active_Player> Techno_Union </Starting_Active_Player>
 		
 		<Story_Name>Early_Empire, story_Antar_Atrocity\Story_Antar_Atrocity_Early_Empire.xml </Story_Name>
 		<Story_Name>CIS_Remnant, story_Antar_Atrocity\Story_Antar_Atrocity_CIS_Remnant.xml </Story_Name>
         <Story_Name>Trade_Federation, story_Antar_Atrocity\Story_Antar_Atrocity_Trade_Federation.xml </Story_Name>
-		<Story_Name>Commerce_Guild, story_Antar_Atrocity\Story_Antar_Atrocity_Commerce_Guild.xml </Story_Name>
+		<Story_Name>Techno_Union, story_Antar_Atrocity\Story_Antar_Atrocity_Techno_Union.xml </Story_Name>
 		
 		<AI_Player_Control> Early_Empire, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> CIS_Remnant, BasicEmpire </AI_Player_Control>
@@ -1572,7 +1593,7 @@
 		<Markup_Filename>Early_Empire, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>CIS_Remnant, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Trade_Federation, DefaultGalacticHints </Markup_Filename>
-		<Markup_Filename>Commerce_Guild, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Techno_Union, DefaultGalacticHints </Markup_Filename>
 		
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>True</Show_Completed_Tab>
@@ -1827,6 +1848,13 @@
 		<Starting_Forces> CIS_Remnant, Mimban, Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> CIS_Remnant, Mimban, Super_Battledroid_Squad </Starting_Forces>
 		
+		<!-- Castell Space Forces -->
+
+        <!-- Castell Land Forces -->
+		<Starting_Forces> CIS_Remnant, Castell, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Castell, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Castell, Super_Battledroid_Squad </Starting_Forces>
+		
 		<!-- Gyndine Space Forces -->
 
         <!-- Gyndine Land Forces -->
@@ -1963,65 +1991,58 @@
 		
 		<!-- Commerce Guild Starting Forces -->
 
-		<Starting_Credits> Commerce_Guild,  10000 </Starting_Credits>
-		<Starting_Tech_Level> Commerce_Guild, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> Commerce_Guild, 5 </Max_Tech_Level>
+		<Starting_Credits> Techno_Union,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Techno_Union, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Techno_Union, 5 </Max_Tech_Level>
 		
         <!-- Emberlene Space Forces -->
 		
         <!-- Emberlene Land Forces -->
-		<Starting_Forces> Commerce_Guild, Emberlene, Commerce_Guild_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Emberlene, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Emberlene, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Emberlene, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Emberlene, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Emberlene, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
 		
 		<!-- Daalang Space Forces -->
 		
         <!-- Daalang Land Forces -->
-		<Starting_Forces> Commerce_Guild, Daalang, Commerce_Guild_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Daalang, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Daalang, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Daalang, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Daalang, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Daalang, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
 		
 		<!-- Artesia Space Forces -->
 		
         <!-- Artesia Land Forces -->
-		<Starting_Forces> Commerce_Guild, Artesia, Commerce_Guild_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Artesia, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Artesia, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Artesia, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Artesia, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Artesia, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
 		
 		<!-- Randon Space Forces -->
 		
         <!-- Randon Land Forces -->
-		<Starting_Forces> Commerce_Guild, Randon, Commerce_Guild_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Randon, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Randon, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Randon, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Randon, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Randon, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
 		
 		<!-- Ruusan Space Forces -->
 		
         <!-- Ruusan Land Forces -->
-		<Starting_Forces> Commerce_Guild, Ruusan, Commerce_Guild_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Ruusan, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Ruusan, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
-		
-		<!-- Ferixx Space Forces -->
-		
-        <!-- Ferixx Land Forces -->
-		<Starting_Forces> Commerce_Guild, Ferixx, Commerce_Guild_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Ferixx, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Ferixx, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
-		
+		<Starting_Forces> Techno_Union, Ruusan, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Ruusan, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Ruusan, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
+
 		<!-- AlarisPrime Space Forces -->
 		
         <!-- AlarisPrime Land Forces -->
-		<Starting_Forces> Commerce_Guild, AlarisPrime, Commerce_Guild_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, AlarisPrime, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, AlarisPrime, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, AlarisPrime, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, AlarisPrime, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, AlarisPrime, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
 		
 		<!-- Skako Space Forces -->
 		
         <!-- Skako Land Forces -->
-		<Starting_Forces> Commerce_Guild, Skako, Commerce_Guild_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Skako, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
-		<Starting_Forces> Commerce_Guild, Skako, Commerce_Guild_Droid_Commander_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Skako, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Skako, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Skako, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
 
   
   

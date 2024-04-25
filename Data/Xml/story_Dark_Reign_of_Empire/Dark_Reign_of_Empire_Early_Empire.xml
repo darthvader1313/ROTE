@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+
+
+
+<!--***********************************************-->
+<!--***** CAMPAIGN: Dark_Reign_of_Empire (Early_Empire Version) *****-->
+<!--***********************************************-->
+
+
+
+<Story>
+
+	<Event Name="Universal_Story_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Story_Dialog>Dialog_Expansion_GC_Solo</Story_Dialog>
+		<Event_Param1>0</Event_Param1>	
+		<Story_Chapter>12</Story_Chapter>
+		<Story_Tag>Intro_Tag</Story_Tag>
+	</Event>
+	
+	<Event Name="Early_Empire_AI_Unlock_Research_Facility">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Early_Empire_Ground_Research_Facility</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="Early_Empire_Reveal_Galaxy">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>REVEAL_ALL_PLANETS</Reward_Type>
+        <Prereq>Universal_Story_Start</Prereq>
+    </Event>
+
+	<!-- Spawn Tech Level 1 Heroes -->
+
+	<Event Name="Early_Empire_Enters_Tech_01">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>1</Event_Param1>
+	</Event>
+
+	<!-- Spawn Time Era 2 Heroes -->
+
+	<Event Name="Early_Empire_Enters_Tech_02">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>2</Event_Param1>
+	</Event>
+	
+	<!-- Spawn Time Era 3 Heroes -->
+
+	<Event Name="Early_Empire_Enters_Tech_03">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>3</Event_Param1>
+	</Event>
+
+	<!-- Spawn Time Era 4 Heroes -->
+
+	<Event Name="Early_Empire_Enters_Tech_04">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>4</Event_Param1>
+	</Event>
+
+	<!-- Spawn Time Era 5 Heroes -->
+
+	<Event Name="Early_Empire_Enters_Tech_05">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>5</Event_Param1>
+	</Event>
+
+    <!-- Spawn Heroes -->
+	
+	<Event Name="Spawn_Emperor_Sheev_Palpatine">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Sheev_Palpatine_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Early_Empire_Enters_Tech_01</Prereq>
+	</Event>
+	
+	
+
+</Story>

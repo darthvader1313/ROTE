@@ -37,7 +37,7 @@
 				Kessel, Oba_Diah, Honoghr, Eadu, Ylesia, Teth, 
 				Barab, Shola, Despayre, SyMyrth, Kwenn, Nimban,
 				Delacrix, Klatooine, Dennogra, Boonta, Ubrikkia, Tramesene,
-				Diado
+				Diado, Metalorn
 		</Locations>
 
         <Trade_Routes>
@@ -187,6 +187,48 @@
 		<Starting_Forces> CIS_Remnant, Jabiim, Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> CIS_Remnant, Jabiim, Super_Battledroid_Squad </Starting_Forces>
 		
+		<!-- Diado Space Forces -->
+
+        <!-- Diado Land Forces -->
+		<Starting_Forces> CIS_Remnant, Diado, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Diado, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Diado, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Metalorn Space Forces -->
+
+        <!-- Metalorn Land Forces -->
+		<Starting_Forces> CIS_Remnant, Metalorn, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Metalorn, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Metalorn, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- SyMyrth Space Forces -->
+
+        <!-- SyMyrth Land Forces -->
+		<Starting_Forces> CIS_Remnant, SyMyrth, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, SyMyrth, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, SyMyrth, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Tramesene Space Forces -->
+
+        <!-- Tramesene Land Forces -->
+		<Starting_Forces> CIS_Remnant, Tramesene, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Tramesene, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Tramesene, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Kwenn Space Forces -->
+
+        <!-- Kwenn Land Forces -->
+		<Starting_Forces> CIS_Remnant, Kwenn, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Kwenn, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Kwenn, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Ubrikkia Space Forces -->
+
+        <!-- Ubrikkia Land Forces -->
+		<Starting_Forces> CIS_Remnant, Ubrikkia, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ubrikkia, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ubrikkia, Super_Battledroid_Squad </Starting_Forces>
+		
 		
 		
 		
@@ -224,6 +266,27 @@
 		<Starting_Forces> Trade_Federation, Shola, Trade_Federation_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Trade_Federation, Shola, Trade_Federation_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Trade_Federation, Shola, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Boonta Space Forces -->
+		
+        <!-- Boonta Land Forces -->
+		<Starting_Forces> Trade_Federation, Boonta, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Boonta, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Boonta, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Klatooine Space Forces -->
+		
+        <!-- Klatooine Land Forces -->
+		<Starting_Forces> Trade_Federation, Klatooine, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Klatooine, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Klatooine, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Dennogra Space Forces -->
+		
+        <!-- Dennogra Land Forces -->
+		<Starting_Forces> Trade_Federation, Dennogra, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Dennogra, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Dennogra, Trade_Federation_Battledroids_Squad </Starting_Forces>
 		
 		
 		
@@ -270,6 +333,20 @@
 		<Starting_Forces> Banking_Clan, Eadu, Banking_Clan_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Eadu, Super_Battledroid_Squad </Starting_Forces>
 		
+		<!-- Delacrix Space Forces -->
+
+        <!-- Delacrix Land Forces -->
+		<Starting_Forces> Banking_Clan, Delacrix, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Delacrix, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Delacrix, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Nimban Space Forces -->
+
+        <!-- Nimban Land Forces -->
+		<Starting_Forces> Banking_Clan, Nimban, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Nimban, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Nimban, Super_Battledroid_Squad </Starting_Forces>
+		
 
   
   
@@ -299,7 +376,7 @@
 				Kessel, Oba_Diah, Honoghr, Eadu, Ylesia, Teth, 
 				Barab, Shola, Despayre, SyMyrth, Kwenn, Nimban,
 				Delacrix, Klatooine, Dennogra, Boonta, Ubrikkia, Tramesene,
-				Diado
+				Diado, Metalorn
 		</Locations>
 
         <Trade_Routes>
@@ -449,6 +526,48 @@
 		<Starting_Forces> CIS_Remnant, Jabiim, Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> CIS_Remnant, Jabiim, Super_Battledroid_Squad </Starting_Forces>
 		
+		<!-- Diado Space Forces -->
+
+        <!-- Diado Land Forces -->
+		<Starting_Forces> CIS_Remnant, Diado, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Diado, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Diado, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Metalorn Space Forces -->
+
+        <!-- Metalorn Land Forces -->
+		<Starting_Forces> CIS_Remnant, Metalorn, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Metalorn, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Metalorn, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- SyMyrth Space Forces -->
+
+        <!-- SyMyrth Land Forces -->
+		<Starting_Forces> CIS_Remnant, SyMyrth, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, SyMyrth, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, SyMyrth, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Tramesene Space Forces -->
+
+        <!-- Tramesene Land Forces -->
+		<Starting_Forces> CIS_Remnant, Tramesene, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Tramesene, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Tramesene, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Kwenn Space Forces -->
+
+        <!-- Kwenn Land Forces -->
+		<Starting_Forces> CIS_Remnant, Kwenn, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Kwenn, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Kwenn, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Ubrikkia Space Forces -->
+
+        <!-- Ubrikkia Land Forces -->
+		<Starting_Forces> CIS_Remnant, Ubrikkia, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ubrikkia, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ubrikkia, Super_Battledroid_Squad </Starting_Forces>
+		
 		
 		
 		
@@ -486,6 +605,27 @@
 		<Starting_Forces> Trade_Federation, Shola, Trade_Federation_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Trade_Federation, Shola, Trade_Federation_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Trade_Federation, Shola, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Boonta Space Forces -->
+		
+        <!-- Boonta Land Forces -->
+		<Starting_Forces> Trade_Federation, Boonta, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Boonta, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Boonta, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Klatooine Space Forces -->
+		
+        <!-- Klatooine Land Forces -->
+		<Starting_Forces> Trade_Federation, Klatooine, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Klatooine, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Klatooine, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Dennogra Space Forces -->
+		
+        <!-- Dennogra Land Forces -->
+		<Starting_Forces> Trade_Federation, Dennogra, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Dennogra, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Dennogra, Trade_Federation_Battledroids_Squad </Starting_Forces>
 		
 		
 		
@@ -532,6 +672,20 @@
 		<Starting_Forces> Banking_Clan, Eadu, Banking_Clan_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Eadu, Super_Battledroid_Squad </Starting_Forces>
 		
+		<!-- Delacrix Space Forces -->
+
+        <!-- Delacrix Land Forces -->
+		<Starting_Forces> Banking_Clan, Delacrix, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Delacrix, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Delacrix, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Nimban Space Forces -->
+
+        <!-- Nimban Land Forces -->
+		<Starting_Forces> Banking_Clan, Nimban, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Nimban, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Nimban, Super_Battledroid_Squad </Starting_Forces>
+		
 
   
   
@@ -560,7 +714,7 @@
 				Kessel, Oba_Diah, Honoghr, Eadu, Ylesia, Teth, 
 				Barab, Shola, Despayre, SyMyrth, Kwenn, Nimban,
 				Delacrix, Klatooine, Dennogra, Boonta, Ubrikkia, Tramesene,
-				Diado
+				Diado, Metalorn
 		</Locations>
 
         <Trade_Routes>
@@ -655,6 +809,8 @@
 		
 		
 		
+		
+		
 		<!-- CIS_Remnant Starting Forces -->
 
 		<Starting_Credits> CIS_Remnant,  10000 </Starting_Credits>
@@ -710,6 +866,48 @@
 		<Starting_Forces> CIS_Remnant, Jabiim, Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> CIS_Remnant, Jabiim, Super_Battledroid_Squad </Starting_Forces>
 		
+		<!-- Diado Space Forces -->
+
+        <!-- Diado Land Forces -->
+		<Starting_Forces> CIS_Remnant, Diado, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Diado, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Diado, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Metalorn Space Forces -->
+
+        <!-- Metalorn Land Forces -->
+		<Starting_Forces> CIS_Remnant, Metalorn, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Metalorn, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Metalorn, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- SyMyrth Space Forces -->
+
+        <!-- SyMyrth Land Forces -->
+		<Starting_Forces> CIS_Remnant, SyMyrth, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, SyMyrth, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, SyMyrth, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Tramesene Space Forces -->
+
+        <!-- Tramesene Land Forces -->
+		<Starting_Forces> CIS_Remnant, Tramesene, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Tramesene, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Tramesene, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Kwenn Space Forces -->
+
+        <!-- Kwenn Land Forces -->
+		<Starting_Forces> CIS_Remnant, Kwenn, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Kwenn, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Kwenn, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Ubrikkia Space Forces -->
+
+        <!-- Ubrikkia Land Forces -->
+		<Starting_Forces> CIS_Remnant, Ubrikkia, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ubrikkia, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ubrikkia, Super_Battledroid_Squad </Starting_Forces>
+		
 		
 		
 		
@@ -747,6 +945,27 @@
 		<Starting_Forces> Trade_Federation, Shola, Trade_Federation_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Trade_Federation, Shola, Trade_Federation_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Trade_Federation, Shola, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Boonta Space Forces -->
+		
+        <!-- Boonta Land Forces -->
+		<Starting_Forces> Trade_Federation, Boonta, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Boonta, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Boonta, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Klatooine Space Forces -->
+		
+        <!-- Klatooine Land Forces -->
+		<Starting_Forces> Trade_Federation, Klatooine, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Klatooine, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Klatooine, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Dennogra Space Forces -->
+		
+        <!-- Dennogra Land Forces -->
+		<Starting_Forces> Trade_Federation, Dennogra, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Dennogra, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Dennogra, Trade_Federation_Battledroids_Squad </Starting_Forces>
 		
 		
 		
@@ -793,6 +1012,20 @@
 		<Starting_Forces> Banking_Clan, Eadu, Banking_Clan_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Eadu, Super_Battledroid_Squad </Starting_Forces>
 		
+		<!-- Delacrix Space Forces -->
+
+        <!-- Delacrix Land Forces -->
+		<Starting_Forces> Banking_Clan, Delacrix, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Delacrix, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Delacrix, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Nimban Space Forces -->
+
+        <!-- Nimban Land Forces -->
+		<Starting_Forces> Banking_Clan, Nimban, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Nimban, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Nimban, Super_Battledroid_Squad </Starting_Forces>
+		
 
   
   
@@ -822,7 +1055,7 @@
 				Kessel, Oba_Diah, Honoghr, Eadu, Ylesia, Teth, 
 				Barab, Shola, Despayre, SyMyrth, Kwenn, Nimban,
 				Delacrix, Klatooine, Dennogra, Boonta, Ubrikkia, Tramesene,
-				Diado
+				Diado, Metalorn
 		</Locations>
 
         <Trade_Routes>
@@ -972,6 +1205,48 @@
 		<Starting_Forces> CIS_Remnant, Jabiim, Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> CIS_Remnant, Jabiim, Super_Battledroid_Squad </Starting_Forces>
 		
+		<!-- Diado Space Forces -->
+
+        <!-- Diado Land Forces -->
+		<Starting_Forces> CIS_Remnant, Diado, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Diado, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Diado, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Metalorn Space Forces -->
+
+        <!-- Metalorn Land Forces -->
+		<Starting_Forces> CIS_Remnant, Metalorn, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Metalorn, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Metalorn, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- SyMyrth Space Forces -->
+
+        <!-- SyMyrth Land Forces -->
+		<Starting_Forces> CIS_Remnant, SyMyrth, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, SyMyrth, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, SyMyrth, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Tramesene Space Forces -->
+
+        <!-- Tramesene Land Forces -->
+		<Starting_Forces> CIS_Remnant, Tramesene, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Tramesene, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Tramesene, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Kwenn Space Forces -->
+
+        <!-- Kwenn Land Forces -->
+		<Starting_Forces> CIS_Remnant, Kwenn, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Kwenn, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Kwenn, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Ubrikkia Space Forces -->
+
+        <!-- Ubrikkia Land Forces -->
+		<Starting_Forces> CIS_Remnant, Ubrikkia, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ubrikkia, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ubrikkia, Super_Battledroid_Squad </Starting_Forces>
+		
 		
 		
 		
@@ -1009,6 +1284,27 @@
 		<Starting_Forces> Trade_Federation, Shola, Trade_Federation_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Trade_Federation, Shola, Trade_Federation_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Trade_Federation, Shola, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Boonta Space Forces -->
+		
+        <!-- Boonta Land Forces -->
+		<Starting_Forces> Trade_Federation, Boonta, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Boonta, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Boonta, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Klatooine Space Forces -->
+		
+        <!-- Klatooine Land Forces -->
+		<Starting_Forces> Trade_Federation, Klatooine, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Klatooine, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Klatooine, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Dennogra Space Forces -->
+		
+        <!-- Dennogra Land Forces -->
+		<Starting_Forces> Trade_Federation, Dennogra, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Dennogra, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Dennogra, Trade_Federation_Battledroids_Squad </Starting_Forces>
 		
 		
 		
@@ -1054,6 +1350,20 @@
 		<Starting_Forces> Banking_Clan, Eadu, CIS_Remnant_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Eadu, Banking_Clan_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Eadu, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Delacrix Space Forces -->
+
+        <!-- Delacrix Land Forces -->
+		<Starting_Forces> Banking_Clan, Delacrix, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Delacrix, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Delacrix, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Nimban Space Forces -->
+
+        <!-- Nimban Land Forces -->
+		<Starting_Forces> Banking_Clan, Nimban, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Nimban, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Nimban, Super_Battledroid_Squad </Starting_Forces>
 		
 
   

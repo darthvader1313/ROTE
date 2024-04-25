@@ -293,6 +293,34 @@
 		<Starting_Forces> CIS_Remnant, Agamar, CIS_Remnant_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> CIS_Remnant, Agamar, Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> CIS_Remnant, Agamar, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Botajef Space Forces -->
+
+        <!-- Botajef Land Forces -->
+		<Starting_Forces> CIS_Remnant, Botajef, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Botajef, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Botajef, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Sheris Space Forces -->
+
+        <!-- Sheris Land Forces -->
+		<Starting_Forces> CIS_Remnant, Sheris, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Sheris, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Sheris, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Thalassia Space Forces -->
+
+        <!-- Thalassia Land Forces -->
+		<Starting_Forces> CIS_Remnant, Thalassia, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Thalassia, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Thalassia, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Binquaros Space Forces -->
+
+        <!-- Binquaros Land Forces -->
+		<Starting_Forces> CIS_Remnant, Binquaros, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Binquaros, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Binquaros, Super_Battledroid_Squad </Starting_Forces>
 	
 		
 		
@@ -305,28 +333,28 @@
         <!-- Muunilinst Space Forces -->
 
         <!-- Muunilinst Land Forces -->
-		<Starting_Forces> Banking_Clan, Muunilinst, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Muunilinst, Banking_Clan_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Muunilinst, Banking_Clan_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Muunilinst, Super_Battledroid_Squad </Starting_Forces>
 		
 		<!-- Entralla Space Forces -->
 
         <!-- Entralla Land Forces -->
-		<Starting_Forces> Banking_Clan, Entralla, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Entralla, Banking_Clan_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Entralla, Banking_Clan_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Entralla, Super_Battledroid_Squad </Starting_Forces>
 		
 		<!-- Mygeeto Space Forces -->
 
         <!-- Mygeeto Land Forces -->
-		<Starting_Forces> Banking_Clan, Mygeeto, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Mygeeto, Banking_Clan_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Mygeeto, Banking_Clan_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Mygeeto, Super_Battledroid_Squad </Starting_Forces>
 		
 		<!-- Scipio Space Forces -->
 
         <!-- Scipio Land Forces -->
-		<Starting_Forces> Banking_Clan, Scipio, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Scipio, Banking_Clan_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Scipio, Banking_Clan_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Scipio, Super_Battledroid_Squad </Starting_Forces>
 		
@@ -400,6 +428,13 @@
 		<Starting_Forces> Banking_Clan, Ord_Cantrell, Banking_Clan_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Ord_Cantrell, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
 		
+		<!-- Roxuli Space Forces -->
+
+        <!-- Roxuli Land Forces -->
+		<Starting_Forces> Banking_Clan, Roxuli, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Roxuli, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Roxuli, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
 		
 		
 		<!-- Terrorists Starting Forces -->
@@ -471,6 +506,27 @@
 		<Starting_Forces> Terrorists, Darkon, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Terrorists, Darkon, Terrorist_Duro_Soldier_Squad </Starting_Forces>
 		
+		<!-- Vinsoth Space Forces -->
+		
+        <!-- Vinsoth Land Forces -->
+		<Starting_Forces> Terrorists, Vinsoth, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Vinsoth, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Vinsoth, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- BorgoPrime Space Forces -->
+		
+        <!-- BorgoPrime Land Forces -->
+		<Starting_Forces> Terrorists, BorgoPrime, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, BorgoPrime, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, BorgoPrime, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Ebra Space Forces -->
+		
+        <!-- Ebra Land Forces -->
+		<Starting_Forces> Terrorists, Ebra, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Ebra, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Ebra, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
 		
 		
 		<!-- Mandalorians Starting Forces -->
@@ -482,14 +538,14 @@
         <!-- Mandalore Space Forces -->
 		
         <!-- Mandalore Land Forces -->
-		<Starting_Forces> Mandalorians, Mandalore, Mandalorians_Barracks  </Starting_Forces>
+		<Starting_Forces> Mandalorians, Mandalore, Mandalorians_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Mandalorians, Mandalore, Mandalorian_Trooper_Squad </Starting_Forces>
 		<Starting_Forces> Mandalorians, Mandalore, Mandalorian_Smuggler_Squad </Starting_Forces>
 		
 		<!-- Concord_Dawn Space Forces -->
 		
         <!-- Concord_Dawn Land Forces -->
-		<Starting_Forces> Mandalorians, Concord_Dawn, Mandalorians_Barracks  </Starting_Forces>
+		<Starting_Forces> Mandalorians, Concord_Dawn, Mandalorians_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Mandalorians, Concord_Dawn, Mandalorian_Trooper_Squad </Starting_Forces>
 		<Starting_Forces> Mandalorians, Concord_Dawn, Mandalorian_Smuggler_Squad </Starting_Forces>
 		
@@ -778,6 +834,34 @@
 		<Starting_Forces> CIS_Remnant, Agamar, CIS_Remnant_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> CIS_Remnant, Agamar, Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> CIS_Remnant, Agamar, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Botajef Space Forces -->
+
+        <!-- Botajef Land Forces -->
+		<Starting_Forces> CIS_Remnant, Botajef, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Botajef, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Botajef, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Sheris Space Forces -->
+
+        <!-- Sheris Land Forces -->
+		<Starting_Forces> CIS_Remnant, Sheris, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Sheris, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Sheris, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Thalassia Space Forces -->
+
+        <!-- Thalassia Land Forces -->
+		<Starting_Forces> CIS_Remnant, Thalassia, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Thalassia, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Thalassia, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Binquaros Space Forces -->
+
+        <!-- Binquaros Land Forces -->
+		<Starting_Forces> CIS_Remnant, Binquaros, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Binquaros, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Binquaros, Super_Battledroid_Squad </Starting_Forces>
 	
 		
 		
@@ -790,28 +874,28 @@
         <!-- Muunilinst Space Forces -->
 
         <!-- Muunilinst Land Forces -->
-		<Starting_Forces> Banking_Clan, Muunilinst, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Muunilinst, Banking_Clan_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Muunilinst, Banking_Clan_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Muunilinst, Super_Battledroid_Squad </Starting_Forces>
 		
 		<!-- Entralla Space Forces -->
 
         <!-- Entralla Land Forces -->
-		<Starting_Forces> Banking_Clan, Entralla, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Entralla, Banking_Clan_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Entralla, Banking_Clan_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Entralla, Super_Battledroid_Squad </Starting_Forces>
 		
 		<!-- Mygeeto Space Forces -->
 
         <!-- Mygeeto Land Forces -->
-		<Starting_Forces> Banking_Clan, Mygeeto, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Mygeeto, Banking_Clan_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Mygeeto, Banking_Clan_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Mygeeto, Super_Battledroid_Squad </Starting_Forces>
 		
 		<!-- Scipio Space Forces -->
 
         <!-- Scipio Land Forces -->
-		<Starting_Forces> Banking_Clan, Scipio, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Scipio, Banking_Clan_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Scipio, Banking_Clan_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Scipio, Super_Battledroid_Squad </Starting_Forces>
 		
@@ -885,6 +969,13 @@
 		<Starting_Forces> Banking_Clan, Ord_Cantrell, Banking_Clan_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Ord_Cantrell, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
 		
+		<!-- Roxuli Space Forces -->
+
+        <!-- Roxuli Land Forces -->
+		<Starting_Forces> Banking_Clan, Roxuli, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Roxuli, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Roxuli, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
 		
 		
 		<!-- Terrorists Starting Forces -->
@@ -956,6 +1047,27 @@
 		<Starting_Forces> Terrorists, Darkon, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Terrorists, Darkon, Terrorist_Duro_Soldier_Squad </Starting_Forces>
 		
+		<!-- Vinsoth Space Forces -->
+		
+        <!-- Vinsoth Land Forces -->
+		<Starting_Forces> Terrorists, Vinsoth, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Vinsoth, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Vinsoth, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- BorgoPrime Space Forces -->
+		
+        <!-- BorgoPrime Land Forces -->
+		<Starting_Forces> Terrorists, BorgoPrime, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, BorgoPrime, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, BorgoPrime, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Ebra Space Forces -->
+		
+        <!-- Ebra Land Forces -->
+		<Starting_Forces> Terrorists, Ebra, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Ebra, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Ebra, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
 		
 		
 		<!-- Mandalorians Starting Forces -->
@@ -967,14 +1079,14 @@
         <!-- Mandalore Space Forces -->
 		
         <!-- Mandalore Land Forces -->
-		<Starting_Forces> Mandalorians, Mandalore, Mandalorians_Barracks  </Starting_Forces>
+		<Starting_Forces> Mandalorians, Mandalore, Mandalorians_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Mandalorians, Mandalore, Mandalorian_Trooper_Squad </Starting_Forces>
 		<Starting_Forces> Mandalorians, Mandalore, Mandalorian_Smuggler_Squad </Starting_Forces>
 		
 		<!-- Concord_Dawn Space Forces -->
 		
         <!-- Concord_Dawn Land Forces -->
-		<Starting_Forces> Mandalorians, Concord_Dawn, Mandalorians_Barracks  </Starting_Forces>
+		<Starting_Forces> Mandalorians, Concord_Dawn, Mandalorians_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Mandalorians, Concord_Dawn, Mandalorian_Trooper_Squad </Starting_Forces>
 		<Starting_Forces> Mandalorians, Concord_Dawn, Mandalorian_Smuggler_Squad </Starting_Forces>
 		
@@ -1263,6 +1375,34 @@
 		<Starting_Forces> CIS_Remnant, Agamar, CIS_Remnant_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> CIS_Remnant, Agamar, Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> CIS_Remnant, Agamar, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Botajef Space Forces -->
+
+        <!-- Botajef Land Forces -->
+		<Starting_Forces> CIS_Remnant, Botajef, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Botajef, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Botajef, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Sheris Space Forces -->
+
+        <!-- Sheris Land Forces -->
+		<Starting_Forces> CIS_Remnant, Sheris, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Sheris, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Sheris, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Thalassia Space Forces -->
+
+        <!-- Thalassia Land Forces -->
+		<Starting_Forces> CIS_Remnant, Thalassia, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Thalassia, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Thalassia, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Binquaros Space Forces -->
+
+        <!-- Binquaros Land Forces -->
+		<Starting_Forces> CIS_Remnant, Binquaros, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Binquaros, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Binquaros, Super_Battledroid_Squad </Starting_Forces>
 	
 		
 		
@@ -1275,28 +1415,28 @@
         <!-- Muunilinst Space Forces -->
 
         <!-- Muunilinst Land Forces -->
-		<Starting_Forces> Banking_Clan, Muunilinst, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Muunilinst, Banking_Clan_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Muunilinst, Banking_Clan_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Muunilinst, Super_Battledroid_Squad </Starting_Forces>
 		
 		<!-- Entralla Space Forces -->
 
         <!-- Entralla Land Forces -->
-		<Starting_Forces> Banking_Clan, Entralla, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Entralla, Banking_Clan_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Entralla, Banking_Clan_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Entralla, Super_Battledroid_Squad </Starting_Forces>
 		
 		<!-- Mygeeto Space Forces -->
 
         <!-- Mygeeto Land Forces -->
-		<Starting_Forces> Banking_Clan, Mygeeto, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Mygeeto, Banking_Clan_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Mygeeto, Banking_Clan_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Mygeeto, Super_Battledroid_Squad </Starting_Forces>
 		
 		<!-- Scipio Space Forces -->
 
         <!-- Scipio Land Forces -->
-		<Starting_Forces> Banking_Clan, Scipio, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Scipio, Banking_Clan_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Scipio, Banking_Clan_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Scipio, Super_Battledroid_Squad </Starting_Forces>
 		
@@ -1370,6 +1510,13 @@
 		<Starting_Forces> Banking_Clan, Ord_Cantrell, Banking_Clan_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Ord_Cantrell, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
 		
+		<!-- Roxuli Space Forces -->
+
+        <!-- Roxuli Land Forces -->
+		<Starting_Forces> Banking_Clan, Roxuli, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Roxuli, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Roxuli, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
 		
 		
 		<!-- Terrorists Starting Forces -->
@@ -1441,6 +1588,27 @@
 		<Starting_Forces> Terrorists, Darkon, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Terrorists, Darkon, Terrorist_Duro_Soldier_Squad </Starting_Forces>
 		
+		<!-- Vinsoth Space Forces -->
+		
+        <!-- Vinsoth Land Forces -->
+		<Starting_Forces> Terrorists, Vinsoth, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Vinsoth, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Vinsoth, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- BorgoPrime Space Forces -->
+		
+        <!-- BorgoPrime Land Forces -->
+		<Starting_Forces> Terrorists, BorgoPrime, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, BorgoPrime, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, BorgoPrime, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Ebra Space Forces -->
+		
+        <!-- Ebra Land Forces -->
+		<Starting_Forces> Terrorists, Ebra, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Ebra, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Ebra, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
 		
 		
 		<!-- Mandalorians Starting Forces -->
@@ -1452,14 +1620,14 @@
         <!-- Mandalore Space Forces -->
 		
         <!-- Mandalore Land Forces -->
-		<Starting_Forces> Mandalorians, Mandalore, Mandalorians_Barracks  </Starting_Forces>
+		<Starting_Forces> Mandalorians, Mandalore, Mandalorians_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Mandalorians, Mandalore, Mandalorian_Trooper_Squad </Starting_Forces>
 		<Starting_Forces> Mandalorians, Mandalore, Mandalorian_Smuggler_Squad </Starting_Forces>
 		
 		<!-- Concord_Dawn Space Forces -->
 		
         <!-- Concord_Dawn Land Forces -->
-		<Starting_Forces> Mandalorians, Concord_Dawn, Mandalorians_Barracks  </Starting_Forces>
+		<Starting_Forces> Mandalorians, Concord_Dawn, Mandalorians_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Mandalorians, Concord_Dawn, Mandalorian_Trooper_Squad </Starting_Forces>
 		<Starting_Forces> Mandalorians, Concord_Dawn, Mandalorian_Smuggler_Squad </Starting_Forces>
 		
@@ -1748,6 +1916,34 @@
 		<Starting_Forces> CIS_Remnant, Agamar, CIS_Remnant_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> CIS_Remnant, Agamar, Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> CIS_Remnant, Agamar, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Botajef Space Forces -->
+
+        <!-- Botajef Land Forces -->
+		<Starting_Forces> CIS_Remnant, Botajef, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Botajef, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Botajef, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Sheris Space Forces -->
+
+        <!-- Sheris Land Forces -->
+		<Starting_Forces> CIS_Remnant, Sheris, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Sheris, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Sheris, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Thalassia Space Forces -->
+
+        <!-- Thalassia Land Forces -->
+		<Starting_Forces> CIS_Remnant, Thalassia, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Thalassia, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Thalassia, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Binquaros Space Forces -->
+
+        <!-- Binquaros Land Forces -->
+		<Starting_Forces> CIS_Remnant, Binquaros, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Binquaros, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Binquaros, Super_Battledroid_Squad </Starting_Forces>
 	
 		
 		
@@ -1760,28 +1956,28 @@
         <!-- Muunilinst Space Forces -->
 
         <!-- Muunilinst Land Forces -->
-		<Starting_Forces> Banking_Clan, Muunilinst, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Muunilinst, Banking_Clan_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Muunilinst, Banking_Clan_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Muunilinst, Super_Battledroid_Squad </Starting_Forces>
 		
 		<!-- Entralla Space Forces -->
 
         <!-- Entralla Land Forces -->
-		<Starting_Forces> Banking_Clan, Entralla, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Entralla, Banking_Clan_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Entralla, Banking_Clan_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Entralla, Super_Battledroid_Squad </Starting_Forces>
 		
 		<!-- Mygeeto Space Forces -->
 
         <!-- Mygeeto Land Forces -->
-		<Starting_Forces> Banking_Clan, Mygeeto, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Mygeeto, Banking_Clan_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Mygeeto, Banking_Clan_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Mygeeto, Super_Battledroid_Squad </Starting_Forces>
 		
 		<!-- Scipio Space Forces -->
 
         <!-- Scipio Land Forces -->
-		<Starting_Forces> Banking_Clan, Scipio, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Scipio, Banking_Clan_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Scipio, Banking_Clan_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Scipio, Super_Battledroid_Squad </Starting_Forces>
 		
@@ -1855,6 +2051,13 @@
 		<Starting_Forces> Banking_Clan, Ord_Cantrell, Banking_Clan_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Ord_Cantrell, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
 		
+		<!-- Roxuli Space Forces -->
+
+        <!-- Roxuli Land Forces -->
+		<Starting_Forces> Banking_Clan, Roxuli, Banking_Clan_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Roxuli, Banking_Clan_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Roxuli, Banking_Clan_Super_Battledroid_Squad </Starting_Forces>
+		
 		
 		
 		<!-- Terrorists Starting Forces -->
@@ -1926,6 +2129,27 @@
 		<Starting_Forces> Terrorists, Darkon, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Terrorists, Darkon, Terrorist_Duro_Soldier_Squad </Starting_Forces>
 		
+		<!-- Vinsoth Space Forces -->
+		
+        <!-- Vinsoth Land Forces -->
+		<Starting_Forces> Terrorists, Vinsoth, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Vinsoth, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Vinsoth, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- BorgoPrime Space Forces -->
+		
+        <!-- BorgoPrime Land Forces -->
+		<Starting_Forces> Terrorists, BorgoPrime, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, BorgoPrime, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, BorgoPrime, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
+		<!-- Ebra Space Forces -->
+		
+        <!-- Ebra Land Forces -->
+		<Starting_Forces> Terrorists, Ebra, Terrorists_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Terrorists, Ebra, Terrorist_Vanguard_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Terrorists, Ebra, Terrorist_Duro_Soldier_Squad </Starting_Forces>
+		
 		
 		
 		<!-- Mandalorians Starting Forces -->
@@ -1937,14 +2161,14 @@
         <!-- Mandalore Space Forces -->
 		
         <!-- Mandalore Land Forces -->
-		<Starting_Forces> Mandalorians, Mandalore, Mandalorians_Barracks  </Starting_Forces>
+		<Starting_Forces> Mandalorians, Mandalore, Mandalorians_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Mandalorians, Mandalore, Mandalorian_Trooper_Squad </Starting_Forces>
 		<Starting_Forces> Mandalorians, Mandalore, Mandalorian_Smuggler_Squad </Starting_Forces>
 		
 		<!-- Concord_Dawn Space Forces -->
 		
         <!-- Concord_Dawn Land Forces -->
-		<Starting_Forces> Mandalorians, Concord_Dawn, Mandalorians_Barracks  </Starting_Forces>
+		<Starting_Forces> Mandalorians, Concord_Dawn, Mandalorians_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Mandalorians, Concord_Dawn, Mandalorian_Trooper_Squad </Starting_Forces>
 		<Starting_Forces> Mandalorians, Concord_Dawn, Mandalorian_Smuggler_Squad </Starting_Forces>
 		
@@ -2245,28 +2469,28 @@
         <!-- Muunilinst Space Forces -->
 
         <!-- Muunilinst Land Forces -->
-		<Starting_Forces> Banking_Clan, Muunilinst, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Muunilinst, Banking_Clan_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Muunilinst, Banking_Clan_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Muunilinst, Super_Battledroid_Squad </Starting_Forces>
 		
 		<!-- Entralla Space Forces -->
 
         <!-- Entralla Land Forces -->
-		<Starting_Forces> Banking_Clan, Entralla, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Entralla, Banking_Clan_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Entralla, Banking_Clan_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Entralla, Super_Battledroid_Squad </Starting_Forces>
 		
 		<!-- Mygeeto Space Forces -->
 
         <!-- Mygeeto Land Forces -->
-		<Starting_Forces> Banking_Clan, Mygeeto, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Mygeeto, Banking_Clan_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Mygeeto, Banking_Clan_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Mygeeto, Super_Battledroid_Squad </Starting_Forces>
 		
 		<!-- Scipio Space Forces -->
 
         <!-- Scipio Land Forces -->
-		<Starting_Forces> Banking_Clan, Scipio, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Banking_Clan, Scipio, Banking_Clan_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Scipio, Banking_Clan_Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> Banking_Clan, Scipio, Super_Battledroid_Squad </Starting_Forces>
 		
@@ -2422,14 +2646,14 @@
         <!-- Mandalore Space Forces -->
 		
         <!-- Mandalore Land Forces -->
-		<Starting_Forces> Mandalorians, Mandalore, Mandalorians_Barracks  </Starting_Forces>
+		<Starting_Forces> Mandalorians, Mandalore, Mandalorians_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Mandalorians, Mandalore, Mandalorian_Trooper_Squad </Starting_Forces>
 		<Starting_Forces> Mandalorians, Mandalore, Mandalorian_Smuggler_Squad </Starting_Forces>
 		
 		<!-- Concord_Dawn Space Forces -->
 		
         <!-- Concord_Dawn Land Forces -->
-		<Starting_Forces> Mandalorians, Concord_Dawn, Mandalorians_Barracks  </Starting_Forces>
+		<Starting_Forces> Mandalorians, Concord_Dawn, Mandalorians_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Mandalorians, Concord_Dawn, Mandalorian_Trooper_Squad </Starting_Forces>
 		<Starting_Forces> Mandalorians, Concord_Dawn, Mandalorian_Smuggler_Squad </Starting_Forces>
 		

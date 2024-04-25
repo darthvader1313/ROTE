@@ -5162,14 +5162,14 @@
 		<Alternate_Icon_Name> I_ENCYCLOPEDIA_HUTT_CARTEL_SYMBOL.tga </Alternate_Icon_Name>
 		<Ground_Base_Icon_Name> groundbase_icon.tga </Ground_Base_Icon_Name>
 		<Star_Base_Icon_Name> spacestation_icon.tga </Star_Base_Icon_Name>
-		<Ground_Transport_Icon_Name> i_button_Twilek_Pirate.tga </Ground_Transport_Icon_Name>
+		<Ground_Transport_Icon_Name> i_button_Elite_Pirate.tga </Ground_Transport_Icon_Name>
 		<Fleet_Icon_Name> i_icon_fleet.tga </Fleet_Icon_Name>
 		<Ship_Icon_Name> g_fleet.tga </Ship_Icon_Name>
 		<Squadron_Icon_Name> g_squad.tga </Squadron_Icon_Name>
 		<Color> 0, 150, 71, 255 </Color>
-		<No_Colorization_Color> 0, 150, 71, 255 </No_Colorization_Color>
 		<Display_Font_Color> 0, 150, 71, 255 </Display_Font_Color>
-		<Big_Fleet_Color> 0, 150, 71, 255 </Big_Fleet_Color>
+		<No_Colorization_Color> 0, 150, 71, 255 </No_Colorization_Color>
+		<Big_Fleet_Color> 0, 150, 71, 150 </Big_Fleet_Color>
 		<Credits_Accumulation_Factor> 0.85 </Credits_Accumulation_Factor>
 		<Planet_Icon_Scale> 10.0 </Planet_Icon_Scale>
 		<Planet_Icon_Offset> 7.0, 10.0, -1.1 </Planet_Icon_Offset>
@@ -5260,7 +5260,7 @@
 		<Bombardment_Shadow_Blob_Material_Name> Bombardment_Hutt_Cartel </Bombardment_Shadow_Blob_Material_Name>
 		<Bombardment_Blob_Size> 200.0 </Bombardment_Blob_Size>
 		<Bombardment_Required_Orbital_Ships>  </Bombardment_Required_Orbital_Ships>
-		<Bombardment_Projectile>  </Bombardment_Projectile>
+		<Bombardment_Projectile> Proj_Empire_Bombardment_Turbolaser </Bombardment_Projectile>
 		<Bombardment_Number_Of_Salvos> 2 </Bombardment_Number_Of_Salvos>
 		<Bombardment_Shots_Per_Salvo> 4 </Bombardment_Shots_Per_Salvo>
 		<Bombardment_Shot_Delay> 0.5 </Bombardment_Shot_Delay>
@@ -5309,14 +5309,13 @@
         <Land_Lose_Image>i_el_lose.tga</Land_Lose_Image>
 
 		<!-- This enables the galactic victory condition: "Win by capturing Coruscant and eliminating Emperor Palpatine" -->
-		<Home_Planet>NalHutta</Home_Planet>
+		<Home_Planet>NallHutta</Home_Planet>
 		<Faction_Leader>Jabba_The_Hutt</Faction_Leader>
 		<Faction_Leader_Company>Jabba_The_Hutt_Team</Faction_Leader_Company>
-
-       
+        
 
 		<!-- Allow special weapon firing in tactical maps that have no parent galactic mode -->
-		<Standalone_Space_Maps_Special_Weapon_A> Ground_Empire_Hypervelocity_Gun </Standalone_Space_Maps_Special_Weapon_A>
+		<Standalone_Space_Maps_Special_Weapon_A>  </Standalone_Space_Maps_Special_Weapon_A>
 		<Standalone_Space_Maps_Special_Weapon_B> </Standalone_Space_Maps_Special_Weapon_B>
 
 

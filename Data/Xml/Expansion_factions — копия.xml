@@ -2935,7 +2935,11 @@
 		</Land_Skirmish_Unit_Cap_By_Player_Count>
 
 		<Debug_Ground_Structures>
-			
+			Empire_Ground_Barracks,
+			Empire_Ground_Officer_Academy,
+			Empire_Ground_Light_Vehicle_Factory
+			Empire_Power_Generator,
+			Empire_Communications_Array
 		</Debug_Ground_Structures>
 
         <Superweapon_Win_Movie />

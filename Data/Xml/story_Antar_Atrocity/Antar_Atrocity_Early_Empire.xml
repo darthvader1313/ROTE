@@ -12,7 +12,7 @@
 
 	<Event Name="Universal_Story_Start">
 		<Event_Type>STORY_ELAPSED</Event_Type>
-		<Story_Dialog>Dialog_Expansion_GC_Solo</Story_Dialog>
+		<Story_Dialog>Dialog_expansion_gc_solo</Story_Dialog>
 		<Event_Param1>0</Event_Param1>	
 		<Story_Chapter>12</Story_Chapter>
 		<Story_Tag>Intro_Tag</Story_Tag>
