@@ -2906,8 +2906,8 @@
 		<IDC_STATIC_MEDIUM>
 			<Name>EmpireAtWar-Bold</Name>
 			<Size>14</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_STATIC_MEDIUM>

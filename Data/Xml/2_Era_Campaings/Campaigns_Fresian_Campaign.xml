@@ -43,7 +43,8 @@
 				NallHutta, Despayre, Hollastin, The_Maw, Kessel, Honoghr, Oba_Diah, Eadu,
 				BozPity, Charros, Balamak, Kubindi, Randa, Ulmatra, Barab, Ylesia, Teth,
 				Varl, Syvris, Arami, Orondia, Gamorr, Shola, Moralan, Garos, Togoria,
-				Alagon, Roche
+				Alagon, Roche, Aquaris, Kalist, Sarapin, Aargau, Foerost, Tython, Empress_Teta,
+				Kampe, Vulpter, Ebaq, Hakassi, Duro, Rendili
 		</Locations>
 
         <Trade_Routes>
@@ -404,6 +405,90 @@
 		<Starting_Forces> Galactic_Empire, Emberlene, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Galactic_Empire, Emberlene, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
 		
+		<!-- Kalist Space Forces -->
+	
+        <!-- Kalist Land Forces -->
+		<Starting_Forces> Galactic_Empire, Kalist, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Kalist, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Kalist, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Sarapin Space Forces -->
+	
+        <!-- Sarapin Land Forces -->
+		<Starting_Forces> Galactic_Empire, Sarapin, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Sarapin, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Sarapin, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Aargau Space Forces -->
+	
+        <!-- Aargau Land Forces -->
+		<Starting_Forces> Galactic_Empire, Aargau, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Aargau, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Aargau, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Foerost Space Forces -->
+	
+        <!-- Foerost Land Forces -->
+		<Starting_Forces> Galactic_Empire, Foerost, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Foerost, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Foerost, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Tython Space Forces -->
+	
+        <!-- Tython Land Forces -->
+		<Starting_Forces> Galactic_Empire, Tython, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Tython, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Tython, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Empress_Teta Space Forces -->
+	
+        <!-- Empress_Teta Land Forces -->
+		<Starting_Forces> Galactic_Empire, Empress_Teta, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Empress_Teta, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Empress_Teta, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Kampe Space Forces -->
+	
+        <!-- Kampe Land Forces -->
+		<Starting_Forces> Galactic_Empire, Kampe, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Kampe, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Kampe, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Vulpter Space Forces -->
+	
+        <!-- Vulpter Land Forces -->
+		<Starting_Forces> Galactic_Empire, Vulpter, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Vulpter, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Vulpter, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Ebaq Space Forces -->
+	
+        <!-- Ebaq Land Forces -->
+		<Starting_Forces> Galactic_Empire, Ebaq, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Ebaq, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Ebaq, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Hakassi Space Forces -->
+	
+        <!-- Hakassi Land Forces -->
+		<Starting_Forces> Galactic_Empire, Hakassi, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Hakassi, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Hakassi, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Duro Space Forces -->
+	
+        <!-- Duro Land Forces -->
+		<Starting_Forces> Galactic_Empire, Duro, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Duro, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Duro, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Rendili Space Forces -->
+	
+        <!-- Rendili Land Forces -->
+		<Starting_Forces> Galactic_Empire, Rendili, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Rendili, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Rendili, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
 		
 		
 		
@@ -685,6 +770,13 @@
 		<Starting_Forces> Hapan_Consortium, Obroa_Skai, Hapan_Consortium_Trooper_Squad </Starting_Forces>
 		<Starting_Forces> Hapan_Consortium, Obroa_Skai, Hapan_Consortium_Trooper_Squad </Starting_Forces>
 		
+		<!-- Aquaris Space Forces -->
+		
+        <!-- Aquaris Land Forces -->
+		<Starting_Forces> Hapan_Consortium, Aquaris, Hapan_Consortium_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Aquaris, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Aquaris, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		
 		
 		
 		<!-- Pyke_Syndicate Starting Forces -->
@@ -802,7 +894,8 @@
 				NallHutta, Despayre, Hollastin, The_Maw, Kessel, Honoghr, Oba_Diah, Eadu,
 				BozPity, Charros, Balamak, Kubindi, Randa, Ulmatra, Barab, Ylesia, Teth,
 				Varl, Syvris, Arami, Orondia, Gamorr, Shola, Moralan, Garos, Togoria,
-				Alagon, Roche
+				Alagon, Roche, Aquaris, Kalist, Sarapin, Aargau, Foerost, Tython, Empress_Teta,
+				Kampe, Vulpter, Ebaq, Hakassi, Duro, Rendili
 		</Locations>
 
         <Trade_Routes>
@@ -1163,6 +1256,90 @@
 		<Starting_Forces> Galactic_Empire, Emberlene, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Galactic_Empire, Emberlene, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
 		
+		<!-- Kalist Space Forces -->
+	
+        <!-- Kalist Land Forces -->
+		<Starting_Forces> Galactic_Empire, Kalist, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Kalist, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Kalist, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Sarapin Space Forces -->
+	
+        <!-- Sarapin Land Forces -->
+		<Starting_Forces> Galactic_Empire, Sarapin, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Sarapin, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Sarapin, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Aargau Space Forces -->
+	
+        <!-- Aargau Land Forces -->
+		<Starting_Forces> Galactic_Empire, Aargau, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Aargau, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Aargau, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Foerost Space Forces -->
+	
+        <!-- Foerost Land Forces -->
+		<Starting_Forces> Galactic_Empire, Foerost, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Foerost, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Foerost, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Tython Space Forces -->
+	
+        <!-- Tython Land Forces -->
+		<Starting_Forces> Galactic_Empire, Tython, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Tython, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Tython, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Empress_Teta Space Forces -->
+	
+        <!-- Empress_Teta Land Forces -->
+		<Starting_Forces> Galactic_Empire, Empress_Teta, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Empress_Teta, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Empress_Teta, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Kampe Space Forces -->
+	
+        <!-- Kampe Land Forces -->
+		<Starting_Forces> Galactic_Empire, Kampe, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Kampe, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Kampe, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Vulpter Space Forces -->
+	
+        <!-- Vulpter Land Forces -->
+		<Starting_Forces> Galactic_Empire, Vulpter, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Vulpter, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Vulpter, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Ebaq Space Forces -->
+	
+        <!-- Ebaq Land Forces -->
+		<Starting_Forces> Galactic_Empire, Ebaq, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Ebaq, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Ebaq, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Hakassi Space Forces -->
+	
+        <!-- Hakassi Land Forces -->
+		<Starting_Forces> Galactic_Empire, Hakassi, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Hakassi, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Hakassi, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Duro Space Forces -->
+	
+        <!-- Duro Land Forces -->
+		<Starting_Forces> Galactic_Empire, Duro, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Duro, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Duro, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Rendili Space Forces -->
+	
+        <!-- Rendili Land Forces -->
+		<Starting_Forces> Galactic_Empire, Rendili, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Rendili, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Rendili, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
 		
 		
 		
@@ -1444,6 +1621,13 @@
 		<Starting_Forces> Hapan_Consortium, Obroa_Skai, Hapan_Consortium_Trooper_Squad </Starting_Forces>
 		<Starting_Forces> Hapan_Consortium, Obroa_Skai, Hapan_Consortium_Trooper_Squad </Starting_Forces>
 		
+		<!-- Aquaris Space Forces -->
+		
+        <!-- Aquaris Land Forces -->
+		<Starting_Forces> Hapan_Consortium, Aquaris, Hapan_Consortium_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Aquaris, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Aquaris, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		
 		
 		
 		<!-- Pyke_Syndicate Starting Forces -->
@@ -1558,7 +1742,8 @@
 				NallHutta, Despayre, Hollastin, The_Maw, Kessel, Honoghr, Oba_Diah, Eadu,
 				BozPity, Charros, Balamak, Kubindi, Randa, Ulmatra, Barab, Ylesia, Teth,
 				Varl, Syvris, Arami, Orondia, Gamorr, Shola, Moralan, Garos, Togoria,
-				Alagon, Roche
+				Alagon, Roche, Aquaris, Kalist, Sarapin, Aargau, Foerost, Tython, Empress_Teta,
+				Kampe, Vulpter, Ebaq, Hakassi, Duro, Rendili
 		</Locations>
 
         <Trade_Routes>
@@ -1919,6 +2104,90 @@
 		<Starting_Forces> Galactic_Empire, Emberlene, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Galactic_Empire, Emberlene, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
 		
+		<!-- Kalist Space Forces -->
+	
+        <!-- Kalist Land Forces -->
+		<Starting_Forces> Galactic_Empire, Kalist, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Kalist, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Kalist, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Sarapin Space Forces -->
+	
+        <!-- Sarapin Land Forces -->
+		<Starting_Forces> Galactic_Empire, Sarapin, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Sarapin, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Sarapin, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Aargau Space Forces -->
+	
+        <!-- Aargau Land Forces -->
+		<Starting_Forces> Galactic_Empire, Aargau, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Aargau, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Aargau, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Foerost Space Forces -->
+	
+        <!-- Foerost Land Forces -->
+		<Starting_Forces> Galactic_Empire, Foerost, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Foerost, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Foerost, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Tython Space Forces -->
+	
+        <!-- Tython Land Forces -->
+		<Starting_Forces> Galactic_Empire, Tython, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Tython, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Tython, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Empress_Teta Space Forces -->
+	
+        <!-- Empress_Teta Land Forces -->
+		<Starting_Forces> Galactic_Empire, Empress_Teta, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Empress_Teta, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Empress_Teta, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Kampe Space Forces -->
+	
+        <!-- Kampe Land Forces -->
+		<Starting_Forces> Galactic_Empire, Kampe, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Kampe, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Kampe, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Vulpter Space Forces -->
+	
+        <!-- Vulpter Land Forces -->
+		<Starting_Forces> Galactic_Empire, Vulpter, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Vulpter, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Vulpter, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Ebaq Space Forces -->
+	
+        <!-- Ebaq Land Forces -->
+		<Starting_Forces> Galactic_Empire, Ebaq, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Ebaq, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Ebaq, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Hakassi Space Forces -->
+	
+        <!-- Hakassi Land Forces -->
+		<Starting_Forces> Galactic_Empire, Hakassi, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Hakassi, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Hakassi, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Duro Space Forces -->
+	
+        <!-- Duro Land Forces -->
+		<Starting_Forces> Galactic_Empire, Duro, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Duro, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Duro, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Rendili Space Forces -->
+	
+        <!-- Rendili Land Forces -->
+		<Starting_Forces> Galactic_Empire, Rendili, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Rendili, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Rendili, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
 		
 		
 		
@@ -2200,6 +2469,13 @@
 		<Starting_Forces> Hapan_Consortium, Obroa_Skai, Hapan_Consortium_Trooper_Squad </Starting_Forces>
 		<Starting_Forces> Hapan_Consortium, Obroa_Skai, Hapan_Consortium_Trooper_Squad </Starting_Forces>
 		
+		<!-- Aquaris Space Forces -->
+		
+        <!-- Aquaris Land Forces -->
+		<Starting_Forces> Hapan_Consortium, Aquaris, Hapan_Consortium_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Aquaris, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Aquaris, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		
 		
 		
 		<!-- Pyke_Syndicate Starting Forces -->
@@ -2315,7 +2591,8 @@
 				NallHutta, Despayre, Hollastin, The_Maw, Kessel, Honoghr, Oba_Diah, Eadu,
 				BozPity, Charros, Balamak, Kubindi, Randa, Ulmatra, Barab, Ylesia, Teth,
 				Varl, Syvris, Arami, Orondia, Gamorr, Shola, Moralan, Garos, Togoria,
-				Alagon, Roche
+				Alagon, Roche, Aquaris, Kalist, Sarapin, Aargau, Foerost, Tython, Empress_Teta,
+				Kampe, Vulpter, Ebaq, Hakassi, Duro, Rendili
 		</Locations>
 
         <Trade_Routes>
@@ -2676,6 +2953,90 @@
 		<Starting_Forces> Galactic_Empire, Emberlene, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Galactic_Empire, Emberlene, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
 		
+		<!-- Kalist Space Forces -->
+	
+        <!-- Kalist Land Forces -->
+		<Starting_Forces> Galactic_Empire, Kalist, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Kalist, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Kalist, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Sarapin Space Forces -->
+	
+        <!-- Sarapin Land Forces -->
+		<Starting_Forces> Galactic_Empire, Sarapin, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Sarapin, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Sarapin, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Aargau Space Forces -->
+	
+        <!-- Aargau Land Forces -->
+		<Starting_Forces> Galactic_Empire, Aargau, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Aargau, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Aargau, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Foerost Space Forces -->
+	
+        <!-- Foerost Land Forces -->
+		<Starting_Forces> Galactic_Empire, Foerost, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Foerost, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Foerost, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Tython Space Forces -->
+	
+        <!-- Tython Land Forces -->
+		<Starting_Forces> Galactic_Empire, Tython, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Tython, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Tython, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Empress_Teta Space Forces -->
+	
+        <!-- Empress_Teta Land Forces -->
+		<Starting_Forces> Galactic_Empire, Empress_Teta, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Empress_Teta, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Empress_Teta, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Kampe Space Forces -->
+	
+        <!-- Kampe Land Forces -->
+		<Starting_Forces> Galactic_Empire, Kampe, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Kampe, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Kampe, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Vulpter Space Forces -->
+	
+        <!-- Vulpter Land Forces -->
+		<Starting_Forces> Galactic_Empire, Vulpter, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Vulpter, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Vulpter, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Ebaq Space Forces -->
+	
+        <!-- Ebaq Land Forces -->
+		<Starting_Forces> Galactic_Empire, Ebaq, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Ebaq, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Ebaq, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Hakassi Space Forces -->
+	
+        <!-- Hakassi Land Forces -->
+		<Starting_Forces> Galactic_Empire, Hakassi, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Hakassi, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Hakassi, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Duro Space Forces -->
+	
+        <!-- Duro Land Forces -->
+		<Starting_Forces> Galactic_Empire, Duro, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Duro, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Duro, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Rendili Space Forces -->
+	
+        <!-- Rendili Land Forces -->
+		<Starting_Forces> Galactic_Empire, Rendili, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Rendili, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Rendili, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
 		
 		
 		
@@ -2957,6 +3318,13 @@
 		<Starting_Forces> Hapan_Consortium, Obroa_Skai, Hapan_Consortium_Trooper_Squad </Starting_Forces>
 		<Starting_Forces> Hapan_Consortium, Obroa_Skai, Hapan_Consortium_Trooper_Squad </Starting_Forces>
 		
+		<!-- Aquaris Space Forces -->
+		
+        <!-- Aquaris Land Forces -->
+		<Starting_Forces> Hapan_Consortium, Aquaris, Hapan_Consortium_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Aquaris, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Aquaris, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		
 		
 		
 		<!-- Pyke_Syndicate Starting Forces -->
@@ -3073,7 +3441,8 @@
 				NallHutta, Despayre, Hollastin, The_Maw, Kessel, Honoghr, Oba_Diah, Eadu,
 				BozPity, Charros, Balamak, Kubindi, Randa, Ulmatra, Barab, Ylesia, Teth,
 				Varl, Syvris, Arami, Orondia, Gamorr, Shola, Moralan, Garos, Togoria,
-				Alagon, Roche
+				Alagon, Roche, Aquaris, Kalist, Sarapin, Aargau, Foerost, Tython, Empress_Teta,
+				Kampe, Vulpter, Ebaq, Hakassi, Duro, Rendili
 		</Locations>
 
         <Trade_Routes>
@@ -3434,6 +3803,90 @@
 		<Starting_Forces> Galactic_Empire, Emberlene, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Galactic_Empire, Emberlene, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
 		
+		<!-- Kalist Space Forces -->
+	
+        <!-- Kalist Land Forces -->
+		<Starting_Forces> Galactic_Empire, Kalist, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Kalist, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Kalist, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Sarapin Space Forces -->
+	
+        <!-- Sarapin Land Forces -->
+		<Starting_Forces> Galactic_Empire, Sarapin, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Sarapin, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Sarapin, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Aargau Space Forces -->
+	
+        <!-- Aargau Land Forces -->
+		<Starting_Forces> Galactic_Empire, Aargau, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Aargau, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Aargau, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Foerost Space Forces -->
+	
+        <!-- Foerost Land Forces -->
+		<Starting_Forces> Galactic_Empire, Foerost, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Foerost, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Foerost, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Tython Space Forces -->
+	
+        <!-- Tython Land Forces -->
+		<Starting_Forces> Galactic_Empire, Tython, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Tython, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Tython, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Empress_Teta Space Forces -->
+	
+        <!-- Empress_Teta Land Forces -->
+		<Starting_Forces> Galactic_Empire, Empress_Teta, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Empress_Teta, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Empress_Teta, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Kampe Space Forces -->
+	
+        <!-- Kampe Land Forces -->
+		<Starting_Forces> Galactic_Empire, Kampe, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Kampe, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Kampe, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Vulpter Space Forces -->
+	
+        <!-- Vulpter Land Forces -->
+		<Starting_Forces> Galactic_Empire, Vulpter, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Vulpter, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Vulpter, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Ebaq Space Forces -->
+	
+        <!-- Ebaq Land Forces -->
+		<Starting_Forces> Galactic_Empire, Ebaq, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Ebaq, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Ebaq, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Hakassi Space Forces -->
+	
+        <!-- Hakassi Land Forces -->
+		<Starting_Forces> Galactic_Empire, Hakassi, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Hakassi, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Hakassi, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Duro Space Forces -->
+	
+        <!-- Duro Land Forces -->
+		<Starting_Forces> Galactic_Empire, Duro, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Duro, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Duro, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Rendili Space Forces -->
+	
+        <!-- Rendili Land Forces -->
+		<Starting_Forces> Galactic_Empire, Rendili, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Rendili, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Rendili, Galactic_Empire_Stormtrooper_Squad </Starting_Forces>
+		
 		
 		
 		
@@ -3714,6 +4167,13 @@
 		<Starting_Forces> Hapan_Consortium, Obroa_Skai, Hapan_Consortium_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> Hapan_Consortium, Obroa_Skai, Hapan_Consortium_Trooper_Squad </Starting_Forces>
 		<Starting_Forces> Hapan_Consortium, Obroa_Skai, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		
+		<!-- Aquaris Space Forces -->
+		
+        <!-- Aquaris Land Forces -->
+		<Starting_Forces> Hapan_Consortium, Aquaris, Hapan_Consortium_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Aquaris, Hapan_Consortium_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> Hapan_Consortium, Aquaris, Hapan_Consortium_Trooper_Squad </Starting_Forces>
 		
 		
 		
