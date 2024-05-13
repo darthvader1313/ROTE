@@ -37,7 +37,7 @@
 	 
     <!-- Star Base 1 -->
 
-<HardPoint Name="HP_CIS_Star_Base1_01">
+<HardPoint Name="HP_E_Star_Base1_01">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -70,7 +70,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base1_02">
+	<HardPoint Name="HP_E_Star_Base1_02">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -103,7 +103,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base1_03">
+	<HardPoint Name="HP_E_Star_Base1_03">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -136,7 +136,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base1_04">
+	<HardPoint Name="HP_E_Star_Base1_04">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -169,7 +169,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base1_05">
+	<HardPoint Name="HP_E_Star_Base1_05">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -202,7 +202,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base1_06">
+	<HardPoint Name="HP_E_Star_Base1_06">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -235,7 +235,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base1_07">
+	<HardPoint Name="HP_E_Star_Base1_07">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -268,7 +268,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base1_08">
+	<HardPoint Name="HP_E_Star_Base1_08">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -301,7 +301,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base1_Shield">
+	<HardPoint Name="HP_E_Star_Base1_Shield">
 			<Type> HARD_POINT_SHIELD_GENERATOR </Type>
             <Is_Targetable>yes</Is_Targetable>
             <Is_Destroyable>yes</Is_Destroyable>
@@ -317,7 +317,7 @@
             <Damage_Particles>SHIELDGEN</Damage_Particles>
     </HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base1_Fighter_Bay01">
+	<HardPoint Name="HP_E_Star_Base1_Fighter_Bay01">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -329,7 +329,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base1_Fighter_Bay02">
+	<HardPoint Name="HP_E_Star_Base1_Fighter_Bay02">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -341,7 +341,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base1_Fighter_Bay03">
+	<HardPoint Name="HP_E_Star_Base1_Fighter_Bay03">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -353,7 +353,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base1_Fighter_Bay04">
+	<HardPoint Name="HP_E_Star_Base1_Fighter_Bay04">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -365,7 +365,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base1_Fighter_Bay05">
+	<HardPoint Name="HP_E_Star_Base1_Fighter_Bay05">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -377,7 +377,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base1_Fighter_Bay06">
+	<HardPoint Name="HP_E_Star_Base1_Fighter_Bay06">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -393,7 +393,7 @@
 	
 	<!-- Star Base 2 -->
 	
-	<HardPoint Name="HP_CIS_Star_Base2_01">
+	<HardPoint Name="HP_E_Star_Base2_01">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -426,7 +426,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base2_02">
+	<HardPoint Name="HP_E_Star_Base2_02">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -459,7 +459,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base2_03">
+	<HardPoint Name="HP_E_Star_Base2_03">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -492,7 +492,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base2_04">
+	<HardPoint Name="HP_E_Star_Base2_04">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -525,7 +525,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base2_05">
+	<HardPoint Name="HP_E_Star_Base2_05">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -558,7 +558,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base2_06">
+	<HardPoint Name="HP_E_Star_Base2_06">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -591,7 +591,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base2_07">
+	<HardPoint Name="HP_E_Star_Base2_07">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -624,7 +624,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base2_08">
+	<HardPoint Name="HP_E_Star_Base2_08">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -657,7 +657,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base2_09">
+	<HardPoint Name="HP_E_Star_Base2_09">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -690,7 +690,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base2_10">
+	<HardPoint Name="HP_E_Star_Base2_10">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -723,7 +723,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base2_11">
+	<HardPoint Name="HP_E_Star_Base2_11">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -756,7 +756,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base2_12">
+	<HardPoint Name="HP_E_Star_Base2_12">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -789,7 +789,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base2_13">
+	<HardPoint Name="HP_E_Star_Base2_13">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -822,7 +822,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base2_14">
+	<HardPoint Name="HP_E_Star_Base2_14">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -855,7 +855,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base2_15">
+	<HardPoint Name="HP_E_Star_Base2_15">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -888,7 +888,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base2_16">
+	<HardPoint Name="HP_E_Star_Base2_16">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -921,7 +921,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base2_17">
+	<HardPoint Name="HP_E_Star_Base2_17">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -954,7 +954,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base2_18">
+	<HardPoint Name="HP_E_Star_Base2_18">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -987,7 +987,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base2_19">
+	<HardPoint Name="HP_E_Star_Base2_19">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -1020,7 +1020,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base2_20">
+	<HardPoint Name="HP_E_Star_Base2_20">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -1058,7 +1058,7 @@
 	
 	<!-- Star Base 3 -->
 	
-	<HardPoint Name="HP_CIS_Star_Base3_01">
+	<HardPoint Name="HP_E_Star_Base3_01">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -1091,7 +1091,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base3_02">
+	<HardPoint Name="HP_E_Star_Base3_02">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -1124,7 +1124,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base3_03">
+	<HardPoint Name="HP_E_Star_Base3_03">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -1157,7 +1157,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base3_04">
+	<HardPoint Name="HP_E_Star_Base3_04">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -1190,7 +1190,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base3_05">
+	<HardPoint Name="HP_E_Star_Base3_05">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -1223,7 +1223,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base3_06">
+	<HardPoint Name="HP_E_Star_Base3_06">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -1256,7 +1256,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base3_07">
+	<HardPoint Name="HP_E_Star_Base3_07">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -1289,7 +1289,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base3_08">
+	<HardPoint Name="HP_E_Star_Base3_08">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -1326,7 +1326,7 @@
 	
 	<!-- Star Base 4 -->
 	
-	<HardPoint Name="HP_CIS_Star_Base4_01">
+	<HardPoint Name="HP_E_Star_Base4_01">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -1359,7 +1359,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base4_02">
+	<HardPoint Name="HP_E_Star_Base4_02">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -1392,7 +1392,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base4_03">
+	<HardPoint Name="HP_E_Star_Base4_03">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -1425,7 +1425,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base4_04">
+	<HardPoint Name="HP_E_Star_Base4_04">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -1458,7 +1458,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base4_05">
+	<HardPoint Name="HP_E_Star_Base4_05">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -1491,7 +1491,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base4_06">
+	<HardPoint Name="HP_E_Star_Base4_06">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -1524,7 +1524,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base4_07">
+	<HardPoint Name="HP_E_Star_Base4_07">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -1557,7 +1557,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base4_08">
+	<HardPoint Name="HP_E_Star_Base4_08">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -1590,7 +1590,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base4_09">
+	<HardPoint Name="HP_E_Star_Base4_09">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -1623,7 +1623,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base4_10">
+	<HardPoint Name="HP_E_Star_Base4_10">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -1656,7 +1656,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base4_11">
+	<HardPoint Name="HP_E_Star_Base4_11">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -1689,7 +1689,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base4_12">
+	<HardPoint Name="HP_E_Star_Base4_12">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -1722,7 +1722,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base4_13">
+	<HardPoint Name="HP_E_Star_Base4_13">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -1755,7 +1755,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base4_14">
+	<HardPoint Name="HP_E_Star_Base4_14">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -1788,7 +1788,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base4_15">
+	<HardPoint Name="HP_E_Star_Base4_15">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -1821,7 +1821,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base4_16">
+	<HardPoint Name="HP_E_Star_Base4_16">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -1854,7 +1854,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base4_17">
+	<HardPoint Name="HP_E_Star_Base4_17">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -1887,7 +1887,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base4_18">
+	<HardPoint Name="HP_E_Star_Base4_18">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -1920,7 +1920,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base4_19">
+	<HardPoint Name="HP_E_Star_Base4_19">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -1953,7 +1953,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base4_20">
+	<HardPoint Name="HP_E_Star_Base4_20">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -1990,7 +1990,7 @@
 	
 	<!-- Star Base 5 -->
 	
-	<HardPoint Name="HP_CIS_Star_Base5_01">
+	<HardPoint Name="HP_E_Star_Base5_01">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -2023,7 +2023,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base5_02">
+	<HardPoint Name="HP_E_Star_Base5_02">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -2056,7 +2056,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base5_03">
+	<HardPoint Name="HP_E_Star_Base5_03">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -2089,7 +2089,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base5_04">
+	<HardPoint Name="HP_E_Star_Base5_04">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -2122,7 +2122,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base5_05">
+	<HardPoint Name="HP_E_Star_Base5_05">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -2155,7 +2155,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base5_06">
+	<HardPoint Name="HP_E_Star_Base5_06">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -2188,7 +2188,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base5_07">
+	<HardPoint Name="HP_E_Star_Base5_07">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -2221,7 +2221,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base5_08">
+	<HardPoint Name="HP_E_Star_Base5_08">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -2254,7 +2254,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base5_09">
+	<HardPoint Name="HP_E_Star_Base5_09">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -2287,7 +2287,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base5_10">
+	<HardPoint Name="HP_E_Star_Base5_10">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -2320,7 +2320,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base5_11">
+	<HardPoint Name="HP_E_Star_Base5_11">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -2353,7 +2353,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base5_12">
+	<HardPoint Name="HP_E_Star_Base5_12">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -2386,7 +2386,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base5_13">
+	<HardPoint Name="HP_E_Star_Base5_13">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -2419,7 +2419,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base5_14">
+	<HardPoint Name="HP_E_Star_Base5_14">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -2452,7 +2452,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base5_15">
+	<HardPoint Name="HP_E_Star_Base5_15">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -2485,7 +2485,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base5_16">
+	<HardPoint Name="HP_E_Star_Base5_16">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -2518,7 +2518,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base5_17">
+	<HardPoint Name="HP_E_Star_Base5_17">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -2551,7 +2551,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base5_18">
+	<HardPoint Name="HP_E_Star_Base5_18">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -2584,7 +2584,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base5_19">
+	<HardPoint Name="HP_E_Star_Base5_19">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -2617,7 +2617,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base5_20">
+	<HardPoint Name="HP_E_Star_Base5_20">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -2650,7 +2650,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base5_21">
+	<HardPoint Name="HP_E_Star_Base5_21">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -2683,7 +2683,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base5_22">
+	<HardPoint Name="HP_E_Star_Base5_22">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -2716,7 +2716,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base5_23">
+	<HardPoint Name="HP_E_Star_Base5_23">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -2749,7 +2749,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 	
-	<HardPoint Name="HP_CIS_Star_Base5_24">
+	<HardPoint Name="HP_E_Star_Base5_24">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>

@@ -42,7 +42,7 @@
 				Orondia, Arami, Gamorr, Shola, Trandosha, Tatooine, Dathomir, Bandomeer, Ord_Cestus, Celanon,
 				Agamar, Polus, Ketaris, Axxila, Raydonia, Belsmuth, Vinsoth, Binquaros, Bimmiel,
 				BorgoPrime, Generis, Oba_Diah, The_Maw, Kessel, Kubindi, Randa, Ulmatra, Moralan, BozPity,
-				Charros, Balamak, Tynna, Aridus, Vandor, Cularin, Aguarl
+				Charros, Balamak, Tynna, Aridus, Vandor, Cularin, Aguarl, Jedha
 		</Locations>
 
         <Trade_Routes>
@@ -467,7 +467,19 @@
 		<Starting_Forces> Galactic_Empire, Tynna, Imperial_Clonetroopers_Squad </Starting_Forces>
 		<Starting_Forces> Galactic_Empire, Tynna, Galactic_Empire_Rifleman_Squad </Starting_Forces>
 		
+		<!-- Cymoon Space Forces -->
+	
+        <!-- Cymoon Land Forces -->
+		<Starting_Forces> Galactic_Empire, Cymoon, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Cymoon, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Cymoon, Galactic_Empire_Rifleman_Squad </Starting_Forces>
 		
+		<!-- Jedha Space Forces -->
+	
+        <!-- Jedha Land Forces -->
+		<Starting_Forces> Galactic_Empire, Jedha, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Jedha, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Jedha, Galactic_Empire_Rifleman_Squad </Starting_Forces>
 		
 		
 		
@@ -938,7 +950,7 @@
 				Orondia, Arami, Gamorr, Shola, Trandosha, Tatooine, Dathomir, Bandomeer, Ord_Cestus, Celanon,
 				Agamar, Polus, Ketaris, Axxila, Raydonia, Belsmuth, Vinsoth, Binquaros, Bimmiel,
 				BorgoPrime, Generis, Oba_Diah, The_Maw, Kessel, Kubindi, Randa, Ulmatra, Moralan, BozPity,
-				Charros, Balamak, Tynna, Aridus, Vandor, Cularin, Aguarl
+				Charros, Balamak, Tynna, Aridus, Vandor, Cularin, Aguarl, Jedha
 		</Locations>
 
         <Trade_Routes>
@@ -1363,7 +1375,19 @@
 		<Starting_Forces> Galactic_Empire, Tynna, Imperial_Clonetroopers_Squad </Starting_Forces>
 		<Starting_Forces> Galactic_Empire, Tynna, Galactic_Empire_Rifleman_Squad </Starting_Forces>
 		
+		<!-- Cymoon Space Forces -->
+	
+        <!-- Cymoon Land Forces -->
+		<Starting_Forces> Galactic_Empire, Cymoon, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Cymoon, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Cymoon, Galactic_Empire_Rifleman_Squad </Starting_Forces>
 		
+		<!-- Jedha Space Forces -->
+	
+        <!-- Jedha Land Forces -->
+		<Starting_Forces> Galactic_Empire, Jedha, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Jedha, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Jedha, Galactic_Empire_Rifleman_Squad </Starting_Forces>
 		
 		
 		
@@ -1836,7 +1860,7 @@
 				Orondia, Arami, Gamorr, Shola, Trandosha, Tatooine, Dathomir, Bandomeer, Ord_Cestus, Celanon,
 				Agamar, Polus, Ketaris, Axxila, Raydonia, Belsmuth, Vinsoth, Binquaros, Bimmiel,
 				BorgoPrime, Generis, Oba_Diah, The_Maw, Kessel, Kubindi, Randa, Ulmatra, Moralan, BozPity,
-				Charros, Balamak, Tynna, Aridus, Vandor, Cularin, Aguarl
+				Charros, Balamak, Tynna, Aridus, Vandor, Cularin, Aguarl, Jedha
 		</Locations>
 
         <Trade_Routes>
@@ -2261,7 +2285,19 @@
 		<Starting_Forces> Galactic_Empire, Tynna, Imperial_Clonetroopers_Squad </Starting_Forces>
 		<Starting_Forces> Galactic_Empire, Tynna, Galactic_Empire_Rifleman_Squad </Starting_Forces>
 		
+		<!-- Cymoon Space Forces -->
+	
+        <!-- Cymoon Land Forces -->
+		<Starting_Forces> Galactic_Empire, Cymoon, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Cymoon, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Cymoon, Galactic_Empire_Rifleman_Squad </Starting_Forces>
 		
+		<!-- Jedha Space Forces -->
+	
+        <!-- Jedha Land Forces -->
+		<Starting_Forces> Galactic_Empire, Jedha, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Jedha, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Jedha, Galactic_Empire_Rifleman_Squad </Starting_Forces>
 		
 		
 		
@@ -2732,7 +2768,7 @@
 				Orondia, Arami, Gamorr, Shola, Trandosha, Tatooine, Dathomir, Bandomeer, Ord_Cestus, Celanon,
 				Agamar, Polus, Ketaris, Axxila, Raydonia, Belsmuth, Vinsoth, Binquaros, Bimmiel,
 				BorgoPrime, Generis, Oba_Diah, The_Maw, Kessel, Kubindi, Randa, Ulmatra, Moralan, BozPity,
-				Charros, Balamak, Tynna, Aridus, Vandor, Cularin, Aguarl
+				Charros, Balamak, Tynna, Aridus, Vandor, Cularin, Aguarl, Jedha
 		</Locations>
 
         <Trade_Routes>
@@ -3157,7 +3193,19 @@
 		<Starting_Forces> Galactic_Empire, Tynna, Imperial_Clonetroopers_Squad </Starting_Forces>
 		<Starting_Forces> Galactic_Empire, Tynna, Galactic_Empire_Rifleman_Squad </Starting_Forces>
 		
+		<!-- Cymoon Space Forces -->
+	
+        <!-- Cymoon Land Forces -->
+		<Starting_Forces> Galactic_Empire, Cymoon, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Cymoon, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Cymoon, Galactic_Empire_Rifleman_Squad </Starting_Forces>
 		
+		<!-- Jedha Space Forces -->
+	
+        <!-- Jedha Land Forces -->
+		<Starting_Forces> Galactic_Empire, Jedha, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Jedha, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Jedha, Galactic_Empire_Rifleman_Squad </Starting_Forces>
 		
 		
 		
@@ -3629,7 +3677,7 @@
 				Orondia, Arami, Gamorr, Shola, Trandosha, Tatooine, Dathomir, Bandomeer, Ord_Cestus, Celanon,
 				Agamar, Polus, Ketaris, Axxila, Raydonia, Belsmuth, Vinsoth, Binquaros, Bimmiel,
 				BorgoPrime, Generis, Oba_Diah, The_Maw, Kessel, Kubindi, Randa, Ulmatra, Moralan, BozPity,
-				Charros, Balamak, Tynna, Aridus, Vandor, Cularin, Aguarl
+				Charros, Balamak, Tynna, Aridus, Vandor, Cularin, Aguarl, Jedha
 		</Locations>
 
         <Trade_Routes>
@@ -4054,7 +4102,19 @@
 		<Starting_Forces> Galactic_Empire, Tynna, Imperial_Clonetroopers_Squad </Starting_Forces>
 		<Starting_Forces> Galactic_Empire, Tynna, Galactic_Empire_Rifleman_Squad </Starting_Forces>
 		
+		<!-- Cymoon Space Forces -->
+	
+        <!-- Cymoon Land Forces -->
+		<Starting_Forces> Galactic_Empire, Cymoon, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Cymoon, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Cymoon, Galactic_Empire_Rifleman_Squad </Starting_Forces>
 		
+		<!-- Jedha Space Forces -->
+	
+        <!-- Jedha Land Forces -->
+		<Starting_Forces> Galactic_Empire, Jedha, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Jedha, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Jedha, Galactic_Empire_Rifleman_Squad </Starting_Forces>
 		
 		
 		

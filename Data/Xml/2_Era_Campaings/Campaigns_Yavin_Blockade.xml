@@ -337,13 +337,6 @@
 		<Starting_Forces> Galactic_Empire, Ilum, Imperial_Clonetroopers_Squad </Starting_Forces>
 		<Starting_Forces> Galactic_Empire, Ilum, Galactic_Empire_Rifleman_Squad </Starting_Forces>
 		
-		<!-- Ithor Space Forces -->
-	
-        <!-- Ithor Land Forces -->
-		<Starting_Forces> Galactic_Empire, Ithor, Galactic_Empire_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Galactic_Empire, Ithor, Imperial_Clonetroopers_Squad </Starting_Forces>
-		<Starting_Forces> Galactic_Empire, Ithor, Galactic_Empire_Rifleman_Squad </Starting_Forces>
-		
 		<!-- Brakka Space Forces -->
 	
         <!-- Brakka Land Forces -->
@@ -1495,13 +1488,6 @@
 		<Starting_Forces> Galactic_Empire, Ilum, Galactic_Empire_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Galactic_Empire, Ilum, Imperial_Clonetroopers_Squad </Starting_Forces>
 		<Starting_Forces> Galactic_Empire, Ilum, Galactic_Empire_Rifleman_Squad </Starting_Forces>
-		
-		<!-- Ithor Space Forces -->
-	
-        <!-- Ithor Land Forces -->
-		<Starting_Forces> Galactic_Empire, Ithor, Galactic_Empire_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Galactic_Empire, Ithor, Imperial_Clonetroopers_Squad </Starting_Forces>
-		<Starting_Forces> Galactic_Empire, Ithor, Galactic_Empire_Rifleman_Squad </Starting_Forces>
 		
 		<!-- Brakka Space Forces -->
 	
@@ -2656,13 +2642,6 @@
 		<Starting_Forces> Galactic_Empire, Ilum, Imperial_Clonetroopers_Squad </Starting_Forces>
 		<Starting_Forces> Galactic_Empire, Ilum, Galactic_Empire_Rifleman_Squad </Starting_Forces>
 		
-		<!-- Ithor Space Forces -->
-	
-        <!-- Ithor Land Forces -->
-		<Starting_Forces> Galactic_Empire, Ithor, Galactic_Empire_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Galactic_Empire, Ithor, Imperial_Clonetroopers_Squad </Starting_Forces>
-		<Starting_Forces> Galactic_Empire, Ithor, Galactic_Empire_Rifleman_Squad </Starting_Forces>
-		
 		<!-- Brakka Space Forces -->
 	
         <!-- Brakka Land Forces -->
@@ -3816,13 +3795,6 @@
 		<Starting_Forces> Galactic_Empire, Ilum, Imperial_Clonetroopers_Squad </Starting_Forces>
 		<Starting_Forces> Galactic_Empire, Ilum, Galactic_Empire_Rifleman_Squad </Starting_Forces>
 		
-		<!-- Ithor Space Forces -->
-	
-        <!-- Ithor Land Forces -->
-		<Starting_Forces> Galactic_Empire, Ithor, Galactic_Empire_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Galactic_Empire, Ithor, Imperial_Clonetroopers_Squad </Starting_Forces>
-		<Starting_Forces> Galactic_Empire, Ithor, Galactic_Empire_Rifleman_Squad </Starting_Forces>
-		
 		<!-- Brakka Space Forces -->
 	
         <!-- Brakka Land Forces -->
@@ -4975,13 +4947,6 @@
 		<Starting_Forces> Galactic_Empire, Ilum, Galactic_Empire_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Galactic_Empire, Ilum, Imperial_Clonetroopers_Squad </Starting_Forces>
 		<Starting_Forces> Galactic_Empire, Ilum, Galactic_Empire_Rifleman_Squad </Starting_Forces>
-		
-		<!-- Ithor Space Forces -->
-	
-        <!-- Ithor Land Forces -->
-		<Starting_Forces> Galactic_Empire, Ithor, Galactic_Empire_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Galactic_Empire, Ithor, Imperial_Clonetroopers_Squad </Starting_Forces>
-		<Starting_Forces> Galactic_Empire, Ithor, Galactic_Empire_Rifleman_Squad </Starting_Forces>
 		
 		<!-- Brakka Space Forces -->
 	
