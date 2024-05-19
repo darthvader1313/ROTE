@@ -59,11 +59,11 @@
 		
 		<Starting_Active_Player> Galactic_Empire </Starting_Active_Player>
 		
-		<Story_Name>Galactic_Empire, story_Fresian_Campaign\Story_Fresian_Campaign_Galactic_Empire.xml </Story_Name>
-		<Story_Name>Rebel_Alliance, story_Fresian_Campaign\Story_Fresian_Campaign_Rebel_Alliance.xml </Story_Name>
-        <Story_Name>Hutt_Cartel, story_Fresian_Campaign\Story_Fresian_Campaign_Hutt_Cartel.xml </Story_Name>
-		<Story_Name>Hapan_Consortium, story_Fresian_Campaign\Story_Fresian_Campaign_Hapan_Consortium.xml </Story_Name>
-		<Story_Name>Pyke_Syndicate, story_Fresian_Campaign\Story_Fresian_Campaign_Pyke_Syndicate.xml </Story_Name>
+		<Story_Name>Galactic_Empire, 2_Era_Story\story_Fresian_Campaign\Story_Fresian_Campaign_Galactic_Empire.xml </Story_Name>
+		<Story_Name>Rebel_Alliance, 2_Era_Story\story_Fresian_Campaign\Story_Fresian_Campaign_Rebel_Alliance.xml </Story_Name>
+        <Story_Name>Hutt_Cartel, 2_Era_Story\story_Fresian_Campaign\Story_Fresian_Campaign_Hutt_Cartel.xml </Story_Name>
+		<Story_Name>Hapan_Consortium, 2_Era_Story\story_Fresian_Campaign\Story_Fresian_Campaign_Hapan_Consortium.xml </Story_Name>
+		<Story_Name>Pyke_Syndicate, 2_Era_Story\story_Fresian_Campaign\Story_Fresian_Campaign_Pyke_Syndicate.xml </Story_Name>
 		
 		<AI_Player_Control> Rebel_Alliance, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Hutt_Cartel, BasicEmpire </AI_Player_Control>
@@ -910,11 +910,11 @@
 		
 		<Starting_Active_Player> Rebel_Alliance </Starting_Active_Player>
 		
-		<Story_Name>Galactic_Empire, story_Fresian_Campaign\Story_Fresian_Campaign_Galactic_Empire.xml </Story_Name>
-		<Story_Name>Rebel_Alliance, story_Fresian_Campaign\Story_Fresian_Campaign_Rebel_Alliance.xml </Story_Name>
-        <Story_Name>Hutt_Cartel, story_Fresian_Campaign\Story_Fresian_Campaign_Hutt_Cartel.xml </Story_Name>
-		<Story_Name>Hapan_Consortium, story_Fresian_Campaign\Story_Fresian_Campaign_Hapan_Consortium.xml </Story_Name>
-		<Story_Name>Pyke_Syndicate, story_Fresian_Campaign\Story_Fresian_Campaign_Pyke_Syndicate.xml </Story_Name>
+		<Story_Name>Galactic_Empire, 2_Era_Story\story_Fresian_Campaign\Story_Fresian_Campaign_Galactic_Empire.xml </Story_Name>
+		<Story_Name>Rebel_Alliance, 2_Era_Story\story_Fresian_Campaign\Story_Fresian_Campaign_Rebel_Alliance.xml </Story_Name>
+        <Story_Name>Hutt_Cartel, 2_Era_Story\story_Fresian_Campaign\Story_Fresian_Campaign_Hutt_Cartel.xml </Story_Name>
+		<Story_Name>Hapan_Consortium, 2_Era_Story\story_Fresian_Campaign\Story_Fresian_Campaign_Hapan_Consortium.xml </Story_Name>
+		<Story_Name>Pyke_Syndicate, 2_Era_Story\story_Fresian_Campaign\Story_Fresian_Campaign_Pyke_Syndicate.xml </Story_Name>
 		
 		<AI_Player_Control> Galactic_Empire, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Hutt_Cartel, BasicEmpire </AI_Player_Control>
@@ -1758,11 +1758,11 @@
 		
 		<Starting_Active_Player> Hutt_Cartel </Starting_Active_Player>
 		
-		<Story_Name>Galactic_Empire, story_Fresian_Campaign\Story_Fresian_Campaign_Galactic_Empire.xml </Story_Name>
-		<Story_Name>Rebel_Alliance, story_Fresian_Campaign\Story_Fresian_Campaign_Rebel_Alliance.xml </Story_Name>
-        <Story_Name>Hutt_Cartel, story_Fresian_Campaign\Story_Fresian_Campaign_Hutt_Cartel.xml </Story_Name>
-		<Story_Name>Hapan_Consortium, story_Fresian_Campaign\Story_Fresian_Campaign_Hapan_Consortium.xml </Story_Name>
-		<Story_Name>Pyke_Syndicate, story_Fresian_Campaign\Story_Fresian_Campaign_Pyke_Syndicate.xml </Story_Name>
+		<Story_Name>Galactic_Empire, 2_Era_Story\story_Fresian_Campaign\Story_Fresian_Campaign_Galactic_Empire.xml </Story_Name>
+		<Story_Name>Rebel_Alliance, 2_Era_Story\story_Fresian_Campaign\Story_Fresian_Campaign_Rebel_Alliance.xml </Story_Name>
+        <Story_Name>Hutt_Cartel, 2_Era_Story\story_Fresian_Campaign\Story_Fresian_Campaign_Hutt_Cartel.xml </Story_Name>
+		<Story_Name>Hapan_Consortium, 2_Era_Story\story_Fresian_Campaign\Story_Fresian_Campaign_Hapan_Consortium.xml </Story_Name>
+		<Story_Name>Pyke_Syndicate, 2_Era_Story\story_Fresian_Campaign\Story_Fresian_Campaign_Pyke_Syndicate.xml </Story_Name>
 		
 		<AI_Player_Control> Galactic_Empire, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Rebel_Alliance, BasicEmpire </AI_Player_Control>
@@ -2607,11 +2607,11 @@
 		
 		<Starting_Active_Player> Hapan_Consortium </Starting_Active_Player>
 		
-		<Story_Name>Galactic_Empire, story_Fresian_Campaign\Story_Fresian_Campaign_Galactic_Empire.xml </Story_Name>
-		<Story_Name>Rebel_Alliance, story_Fresian_Campaign\Story_Fresian_Campaign_Rebel_Alliance.xml </Story_Name>
-        <Story_Name>Hutt_Cartel, story_Fresian_Campaign\Story_Fresian_Campaign_Hutt_Cartel.xml </Story_Name>
-		<Story_Name>Hapan_Consortium, story_Fresian_Campaign\Story_Fresian_Campaign_Hapan_Consortium.xml </Story_Name>
-		<Story_Name>Pyke_Syndicate, story_Fresian_Campaign\Story_Fresian_Campaign_Pyke_Syndicate.xml </Story_Name>
+		<Story_Name>Galactic_Empire, 2_Era_Story\story_Fresian_Campaign\Story_Fresian_Campaign_Galactic_Empire.xml </Story_Name>
+		<Story_Name>Rebel_Alliance, 2_Era_Story\story_Fresian_Campaign\Story_Fresian_Campaign_Rebel_Alliance.xml </Story_Name>
+        <Story_Name>Hutt_Cartel, 2_Era_Story\story_Fresian_Campaign\Story_Fresian_Campaign_Hutt_Cartel.xml </Story_Name>
+		<Story_Name>Hapan_Consortium, 2_Era_Story\story_Fresian_Campaign\Story_Fresian_Campaign_Hapan_Consortium.xml </Story_Name>
+		<Story_Name>Pyke_Syndicate, 2_Era_Story\story_Fresian_Campaign\Story_Fresian_Campaign_Pyke_Syndicate.xml </Story_Name>
 		
 		<AI_Player_Control> Galactic_Empire, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Rebel_Alliance, BasicEmpire </AI_Player_Control>
@@ -3457,11 +3457,11 @@
 		
 		<Starting_Active_Player> Pyke_Syndicate </Starting_Active_Player>
 		
-		<Story_Name>Galactic_Empire, story_Fresian_Campaign\Story_Fresian_Campaign_Galactic_Empire.xml </Story_Name>
-		<Story_Name>Rebel_Alliance, story_Fresian_Campaign\Story_Fresian_Campaign_Rebel_Alliance.xml </Story_Name>
-        <Story_Name>Hutt_Cartel, story_Fresian_Campaign\Story_Fresian_Campaign_Hutt_Cartel.xml </Story_Name>
-		<Story_Name>Hapan_Consortium, story_Fresian_Campaign\Story_Fresian_Campaign_Hapan_Consortium.xml </Story_Name>
-		<Story_Name>Pyke_Syndicate, story_Fresian_Campaign\Story_Fresian_Campaign_Pyke_Syndicate.xml </Story_Name>
+		<Story_Name>Galactic_Empire, 2_Era_Story\story_Fresian_Campaign\Story_Fresian_Campaign_Galactic_Empire.xml </Story_Name>
+		<Story_Name>Rebel_Alliance, 2_Era_Story\story_Fresian_Campaign\Story_Fresian_Campaign_Rebel_Alliance.xml </Story_Name>
+        <Story_Name>Hutt_Cartel, 2_Era_Story\story_Fresian_Campaign\Story_Fresian_Campaign_Hutt_Cartel.xml </Story_Name>
+		<Story_Name>Hapan_Consortium, 2_Era_Story\story_Fresian_Campaign\Story_Fresian_Campaign_Hapan_Consortium.xml </Story_Name>
+		<Story_Name>Pyke_Syndicate, 2_Era_Story\story_Fresian_Campaign\Story_Fresian_Campaign_Pyke_Syndicate.xml </Story_Name>
 		
 		<AI_Player_Control> Galactic_Empire, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Rebel_Alliance, BasicEmpire </AI_Player_Control>

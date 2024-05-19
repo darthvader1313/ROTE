@@ -43,7 +43,7 @@
 				NallHutta, Despayre, Hollastin, The_Maw, Kessel, Honoghr, Oba_Diah, Eadu,
 				BozPity, Charros, Balamak, Kubindi, Randa, Ulmatra, Barab, Ylesia, Teth,
 				Varl, Syvris, Arami, Orondia, Gamorr, Shola, Moralan, Garos, Togoria,
-				Alagon, Roche, Aquaris, Aurea, Atzerri, Byss, Kalist, Abregado_rae, Belgaroth, 
+				Alagon, Roche, Aquaris, Aurea, Atzerri, Byss, Kalist, Abregado, Belgaroth, 
 				Ghorman, PhorsaGedd, Bamayar, Ord_Tiddell, HaidoralPrime, Coyerti, Enrivi,
 				Fondor, Bassadro, Thyferra, Bestine, Foless, Denon, HosnianPrime, Chasin, 
 				Cymoon, MechisIII, YagDhul, Calus, Chardaan, Tynna, Aridus, Vandor, Cularin, Bothawui, Kothlis, 
@@ -92,14 +92,14 @@
 		
 		<Starting_Active_Player> Galactic_Empire </Starting_Active_Player>
 		
-		<Story_Name>Galactic_Empire, story_Galactic_Civil_War\Story_Galactic_Civil_War_Galactic_Empire.xml </Story_Name>
-		<Story_Name>Rebel_Alliance, story_Galactic_Civil_War\Story_Galactic_Civil_War_Rebel_Alliance.xml </Story_Name>
-        <Story_Name>Black_Sun, story_Galactic_Civil_War\Story_Galactic_Civil_War_Black_Sun.xml </Story_Name>
-		<Story_Name>Hutt_Cartel, story_Galactic_Civil_War\Story_Galactic_Civil_War_Hutt_Cartel.xml </Story_Name>
-		<Story_Name>Pyke_Syndicate, story_Galactic_Civil_War\Story_Galactic_Civil_War_Pyke_Syndicate.xml </Story_Name>
-		<Story_Name>Crimson_Dawn, story_Galactic_Civil_War\Story_Galactic_Civil_War_Crimson_Dawn.xml </Story_Name>
-		<Story_Name>Hapan_Consortium, story_Galactic_Civil_War\Story_Galactic_Civil_War_Hapan_Consortium.xml </Story_Name>
-		<Story_Name>Corporate_Sector, story_Galactic_Civil_War\Story_Galactic_Civil_War_Corporate_Sector.xml </Story_Name>
+		<Story_Name>Galactic_Empire, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Galactic_Empire.xml </Story_Name>
+		<Story_Name>Rebel_Alliance, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Rebel_Alliance.xml </Story_Name>
+        <Story_Name>Black_Sun, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Black_Sun.xml </Story_Name>
+		<Story_Name>Hutt_Cartel, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Hutt_Cartel.xml </Story_Name>
+		<Story_Name>Pyke_Syndicate, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Pyke_Syndicate.xml </Story_Name>
+		<Story_Name>Crimson_Dawn, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Crimson_Dawn.xml </Story_Name>
+		<Story_Name>Hapan_Consortium, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Hapan_Consortium.xml </Story_Name>
+		<Story_Name>Corporate_Sector, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Corporate_Sector.xml </Story_Name>
 		
 		<AI_Player_Control> Rebel_Alliance, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Black_Sun, BasicEmpire </AI_Player_Control>
@@ -699,12 +699,12 @@
 		<Starting_Forces> Galactic_Empire, Cymoon, Imperial_Clonetroopers_Squad </Starting_Forces>
 		<Starting_Forces> Galactic_Empire, Cymoon, Galactic_Empire_Rifleman_Squad </Starting_Forces>
 		
-		<!-- Abregado_rae Space Forces -->
+		<!-- Abregado Space Forces -->
 	
-        <!-- Abregado_rae Land Forces -->
-		<Starting_Forces> Galactic_Empire, Abregado_rae, Galactic_Empire_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Galactic_Empire, Abregado_rae, Imperial_Clonetroopers_Squad </Starting_Forces>
-		<Starting_Forces> Galactic_Empire, Abregado_rae, Galactic_Empire_Rifleman_Squad </Starting_Forces>
+        <!-- Abregado Land Forces -->
+		<Starting_Forces> Galactic_Empire, Abregado, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Abregado, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Abregado, Galactic_Empire_Rifleman_Squad </Starting_Forces>
 		
 		<!-- Taris Space Forces -->
 	
@@ -2795,7 +2795,7 @@
 				NallHutta, Despayre, Hollastin, The_Maw, Kessel, Honoghr, Oba_Diah, Eadu,
 				BozPity, Charros, Balamak, Kubindi, Randa, Ulmatra, Barab, Ylesia, Teth,
 				Varl, Syvris, Arami, Orondia, Gamorr, Shola, Moralan, Garos, Togoria,
-				Alagon, Roche, Aquaris, Aurea, Atzerri, Byss, Kalist, Abregado_rae, Belgaroth, 
+				Alagon, Roche, Aquaris, Aurea, Atzerri, Byss, Kalist, Abregado, Belgaroth, 
 				Ghorman, PhorsaGedd, Bamayar, Ord_Tiddell, HaidoralPrime, Coyerti, Enrivi,
 				Fondor, Bassadro, Thyferra, Bestine, Foless, Denon, HosnianPrime, Chasin, 
 				Cymoon, MechisIII, YagDhul, Calus, Chardaan, Tynna, Aridus, Vandor, Cularin, Bothawui, Kothlis, 
@@ -2844,14 +2844,14 @@
 		
 		<Starting_Active_Player> Rebel_Alliance </Starting_Active_Player>
 		
-		<Story_Name>Galactic_Empire, story_Galactic_Civil_War\Story_Galactic_Civil_War_Galactic_Empire.xml </Story_Name>
-		<Story_Name>Rebel_Alliance, story_Galactic_Civil_War\Story_Galactic_Civil_War_Rebel_Alliance.xml </Story_Name>
-        <Story_Name>Black_Sun, story_Galactic_Civil_War\Story_Galactic_Civil_War_Black_Sun.xml </Story_Name>
-		<Story_Name>Hutt_Cartel, story_Galactic_Civil_War\Story_Galactic_Civil_War_Hutt_Cartel.xml </Story_Name>
-		<Story_Name>Pyke_Syndicate, story_Galactic_Civil_War\Story_Galactic_Civil_War_Pyke_Syndicate.xml </Story_Name>
-		<Story_Name>Crimson_Dawn, story_Galactic_Civil_War\Story_Galactic_Civil_War_Crimson_Dawn.xml </Story_Name>
-		<Story_Name>Hapan_Consortium, story_Galactic_Civil_War\Story_Galactic_Civil_War_Hapan_Consortium.xml </Story_Name>
-		<Story_Name>Corporate_Sector, story_Galactic_Civil_War\Story_Galactic_Civil_War_Corporate_Sector.xml </Story_Name>
+		<Story_Name>Galactic_Empire, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Galactic_Empire.xml </Story_Name>
+		<Story_Name>Rebel_Alliance, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Rebel_Alliance.xml </Story_Name>
+        <Story_Name>Black_Sun, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Black_Sun.xml </Story_Name>
+		<Story_Name>Hutt_Cartel, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Hutt_Cartel.xml </Story_Name>
+		<Story_Name>Pyke_Syndicate, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Pyke_Syndicate.xml </Story_Name>
+		<Story_Name>Crimson_Dawn, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Crimson_Dawn.xml </Story_Name>
+		<Story_Name>Hapan_Consortium, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Hapan_Consortium.xml </Story_Name>
+		<Story_Name>Corporate_Sector, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Corporate_Sector.xml </Story_Name>
 		
 		<AI_Player_Control> Galactic_Empire, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Black_Sun, BasicEmpire </AI_Player_Control>
@@ -3451,12 +3451,12 @@
 		<Starting_Forces> Galactic_Empire, Cymoon, Imperial_Clonetroopers_Squad </Starting_Forces>
 		<Starting_Forces> Galactic_Empire, Cymoon, Galactic_Empire_Rifleman_Squad </Starting_Forces>
 		
-		<!-- Abregado_rae Space Forces -->
+		<!-- Abregado Space Forces -->
 	
-        <!-- Abregado_rae Land Forces -->
-		<Starting_Forces> Galactic_Empire, Abregado_rae, Galactic_Empire_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Galactic_Empire, Abregado_rae, Imperial_Clonetroopers_Squad </Starting_Forces>
-		<Starting_Forces> Galactic_Empire, Abregado_rae, Galactic_Empire_Rifleman_Squad </Starting_Forces>
+        <!-- Abregado Land Forces -->
+		<Starting_Forces> Galactic_Empire, Abregado, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Abregado, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Abregado, Galactic_Empire_Rifleman_Squad </Starting_Forces>
 		
 		<!-- Taris Space Forces -->
 	
@@ -5545,7 +5545,7 @@
 				NallHutta, Despayre, Hollastin, The_Maw, Kessel, Honoghr, Oba_Diah, Eadu,
 				BozPity, Charros, Balamak, Kubindi, Randa, Ulmatra, Barab, Ylesia, Teth,
 				Varl, Syvris, Arami, Orondia, Gamorr, Shola, Moralan, Garos, Togoria,
-				Alagon, Roche, Aquaris, Aurea, Atzerri, Byss, Kalist, Abregado_rae, Belgaroth, 
+				Alagon, Roche, Aquaris, Aurea, Atzerri, Byss, Kalist, Abregado, Belgaroth, 
 				Ghorman, PhorsaGedd, Bamayar, Ord_Tiddell, HaidoralPrime, Coyerti, Enrivi,
 				Fondor, Bassadro, Thyferra, Bestine, Foless, Denon, HosnianPrime, Chasin, 
 				Cymoon, MechisIII, YagDhul, Calus, Chardaan, Tynna, Aridus, Vandor, Cularin, Bothawui, Kothlis, 
@@ -5594,14 +5594,14 @@
 		
 		<Starting_Active_Player> Black_Sun </Starting_Active_Player>
 		
-		<Story_Name>Galactic_Empire, story_Galactic_Civil_War\Story_Galactic_Civil_War_Galactic_Empire.xml </Story_Name>
-		<Story_Name>Rebel_Alliance, story_Galactic_Civil_War\Story_Galactic_Civil_War_Rebel_Alliance.xml </Story_Name>
-        <Story_Name>Black_Sun, story_Galactic_Civil_War\Story_Galactic_Civil_War_Black_Sun.xml </Story_Name>
-		<Story_Name>Hutt_Cartel, story_Galactic_Civil_War\Story_Galactic_Civil_War_Hutt_Cartel.xml </Story_Name>
-		<Story_Name>Pyke_Syndicate, story_Galactic_Civil_War\Story_Galactic_Civil_War_Pyke_Syndicate.xml </Story_Name>
-		<Story_Name>Crimson_Dawn, story_Galactic_Civil_War\Story_Galactic_Civil_War_Crimson_Dawn.xml </Story_Name>
-		<Story_Name>Hapan_Consortium, story_Galactic_Civil_War\Story_Galactic_Civil_War_Hapan_Consortium.xml </Story_Name>
-		<Story_Name>Corporate_Sector, story_Galactic_Civil_War\Story_Galactic_Civil_War_Corporate_Sector.xml </Story_Name>
+		<Story_Name>Galactic_Empire, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Galactic_Empire.xml </Story_Name>
+		<Story_Name>Rebel_Alliance, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Rebel_Alliance.xml </Story_Name>
+        <Story_Name>Black_Sun, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Black_Sun.xml </Story_Name>
+		<Story_Name>Hutt_Cartel, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Hutt_Cartel.xml </Story_Name>
+		<Story_Name>Pyke_Syndicate, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Pyke_Syndicate.xml </Story_Name>
+		<Story_Name>Crimson_Dawn, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Crimson_Dawn.xml </Story_Name>
+		<Story_Name>Hapan_Consortium, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Hapan_Consortium.xml </Story_Name>
+		<Story_Name>Corporate_Sector, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Corporate_Sector.xml </Story_Name>
 		
 		<AI_Player_Control> Galactic_Empire, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Rebel_Alliance, BasicEmpire </AI_Player_Control>
@@ -6201,12 +6201,12 @@
 		<Starting_Forces> Galactic_Empire, Cymoon, Imperial_Clonetroopers_Squad </Starting_Forces>
 		<Starting_Forces> Galactic_Empire, Cymoon, Galactic_Empire_Rifleman_Squad </Starting_Forces>
 		
-		<!-- Abregado_rae Space Forces -->
+		<!-- Abregado Space Forces -->
 	
-        <!-- Abregado_rae Land Forces -->
-		<Starting_Forces> Galactic_Empire, Abregado_rae, Galactic_Empire_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Galactic_Empire, Abregado_rae, Imperial_Clonetroopers_Squad </Starting_Forces>
-		<Starting_Forces> Galactic_Empire, Abregado_rae, Galactic_Empire_Rifleman_Squad </Starting_Forces>
+        <!-- Abregado Land Forces -->
+		<Starting_Forces> Galactic_Empire, Abregado, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Abregado, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Abregado, Galactic_Empire_Rifleman_Squad </Starting_Forces>
 		
 		<!-- Taris Space Forces -->
 	
@@ -8295,7 +8295,7 @@
 				NallHutta, Despayre, Hollastin, The_Maw, Kessel, Honoghr, Oba_Diah, Eadu,
 				BozPity, Charros, Balamak, Kubindi, Randa, Ulmatra, Barab, Ylesia, Teth,
 				Varl, Syvris, Arami, Orondia, Gamorr, Shola, Moralan, Garos, Togoria,
-				Alagon, Roche, Aquaris, Aurea, Atzerri, Byss, Kalist, Abregado_rae, Belgaroth, 
+				Alagon, Roche, Aquaris, Aurea, Atzerri, Byss, Kalist, Abregado, Belgaroth, 
 				Ghorman, PhorsaGedd, Bamayar, Ord_Tiddell, HaidoralPrime, Coyerti, Enrivi,
 				Fondor, Bassadro, Thyferra, Bestine, Foless, Denon, HosnianPrime, Chasin, 
 				Cymoon, MechisIII, YagDhul, Calus, Chardaan, Tynna, Aridus, Vandor, Cularin, Bothawui, Kothlis, 
@@ -8344,14 +8344,14 @@
 		
 		<Starting_Active_Player> Hutt_Cartel </Starting_Active_Player>
 		
-		<Story_Name>Galactic_Empire, story_Galactic_Civil_War\Story_Galactic_Civil_War_Galactic_Empire.xml </Story_Name>
-		<Story_Name>Rebel_Alliance, story_Galactic_Civil_War\Story_Galactic_Civil_War_Rebel_Alliance.xml </Story_Name>
-        <Story_Name>Black_Sun, story_Galactic_Civil_War\Story_Galactic_Civil_War_Black_Sun.xml </Story_Name>
-		<Story_Name>Hutt_Cartel, story_Galactic_Civil_War\Story_Galactic_Civil_War_Hutt_Cartel.xml </Story_Name>
-		<Story_Name>Pyke_Syndicate, story_Galactic_Civil_War\Story_Galactic_Civil_War_Pyke_Syndicate.xml </Story_Name>
-		<Story_Name>Crimson_Dawn, story_Galactic_Civil_War\Story_Galactic_Civil_War_Crimson_Dawn.xml </Story_Name>
-		<Story_Name>Hapan_Consortium, story_Galactic_Civil_War\Story_Galactic_Civil_War_Hapan_Consortium.xml </Story_Name>
-		<Story_Name>Corporate_Sector, story_Galactic_Civil_War\Story_Galactic_Civil_War_Corporate_Sector.xml </Story_Name>
+		<Story_Name>Galactic_Empire, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Galactic_Empire.xml </Story_Name>
+		<Story_Name>Rebel_Alliance, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Rebel_Alliance.xml </Story_Name>
+        <Story_Name>Black_Sun, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Black_Sun.xml </Story_Name>
+		<Story_Name>Hutt_Cartel, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Hutt_Cartel.xml </Story_Name>
+		<Story_Name>Pyke_Syndicate, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Pyke_Syndicate.xml </Story_Name>
+		<Story_Name>Crimson_Dawn, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Crimson_Dawn.xml </Story_Name>
+		<Story_Name>Hapan_Consortium, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Hapan_Consortium.xml </Story_Name>
+		<Story_Name>Corporate_Sector, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Corporate_Sector.xml </Story_Name>
 		
 		<AI_Player_Control> Galactic_Empire, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Rebel_Alliance, BasicEmpire </AI_Player_Control>
@@ -8951,12 +8951,12 @@
 		<Starting_Forces> Galactic_Empire, Cymoon, Imperial_Clonetroopers_Squad </Starting_Forces>
 		<Starting_Forces> Galactic_Empire, Cymoon, Galactic_Empire_Rifleman_Squad </Starting_Forces>
 		
-		<!-- Abregado_rae Space Forces -->
+		<!-- Abregado Space Forces -->
 	
-        <!-- Abregado_rae Land Forces -->
-		<Starting_Forces> Galactic_Empire, Abregado_rae, Galactic_Empire_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Galactic_Empire, Abregado_rae, Imperial_Clonetroopers_Squad </Starting_Forces>
-		<Starting_Forces> Galactic_Empire, Abregado_rae, Galactic_Empire_Rifleman_Squad </Starting_Forces>
+        <!-- Abregado Land Forces -->
+		<Starting_Forces> Galactic_Empire, Abregado, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Abregado, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Abregado, Galactic_Empire_Rifleman_Squad </Starting_Forces>
 		
 		<!-- Taris Space Forces -->
 	
@@ -11045,7 +11045,7 @@
 				NallHutta, Despayre, Hollastin, The_Maw, Kessel, Honoghr, Oba_Diah, Eadu,
 				BozPity, Charros, Balamak, Kubindi, Randa, Ulmatra, Barab, Ylesia, Teth,
 				Varl, Syvris, Arami, Orondia, Gamorr, Shola, Moralan, Garos, Togoria,
-				Alagon, Roche, Aquaris, Aurea, Atzerri, Byss, Kalist, Abregado_rae, Belgaroth, 
+				Alagon, Roche, Aquaris, Aurea, Atzerri, Byss, Kalist, Abregado, Belgaroth, 
 				Ghorman, PhorsaGedd, Bamayar, Ord_Tiddell, HaidoralPrime, Coyerti, Enrivi,
 				Fondor, Bassadro, Thyferra, Bestine, Foless, Denon, HosnianPrime, Chasin, 
 				Cymoon, MechisIII, YagDhul, Calus, Chardaan, Tynna, Aridus, Vandor, Cularin, Bothawui, Kothlis, 
@@ -11094,14 +11094,14 @@
 		
 		<Starting_Active_Player> Pyke_Syndicate </Starting_Active_Player>
 		
-		<Story_Name>Galactic_Empire, story_Galactic_Civil_War\Story_Galactic_Civil_War_Galactic_Empire.xml </Story_Name>
-		<Story_Name>Rebel_Alliance, story_Galactic_Civil_War\Story_Galactic_Civil_War_Rebel_Alliance.xml </Story_Name>
-        <Story_Name>Black_Sun, story_Galactic_Civil_War\Story_Galactic_Civil_War_Black_Sun.xml </Story_Name>
-		<Story_Name>Hutt_Cartel, story_Galactic_Civil_War\Story_Galactic_Civil_War_Hutt_Cartel.xml </Story_Name>
-		<Story_Name>Pyke_Syndicate, story_Galactic_Civil_War\Story_Galactic_Civil_War_Pyke_Syndicate.xml </Story_Name>
-		<Story_Name>Crimson_Dawn, story_Galactic_Civil_War\Story_Galactic_Civil_War_Crimson_Dawn.xml </Story_Name>
-		<Story_Name>Hapan_Consortium, story_Galactic_Civil_War\Story_Galactic_Civil_War_Hapan_Consortium.xml </Story_Name>
-		<Story_Name>Corporate_Sector, story_Galactic_Civil_War\Story_Galactic_Civil_War_Corporate_Sector.xml </Story_Name>
+		<Story_Name>Galactic_Empire, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Galactic_Empire.xml </Story_Name>
+		<Story_Name>Rebel_Alliance, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Rebel_Alliance.xml </Story_Name>
+        <Story_Name>Black_Sun, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Black_Sun.xml </Story_Name>
+		<Story_Name>Hutt_Cartel, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Hutt_Cartel.xml </Story_Name>
+		<Story_Name>Pyke_Syndicate, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Pyke_Syndicate.xml </Story_Name>
+		<Story_Name>Crimson_Dawn, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Crimson_Dawn.xml </Story_Name>
+		<Story_Name>Hapan_Consortium, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Hapan_Consortium.xml </Story_Name>
+		<Story_Name>Corporate_Sector, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Corporate_Sector.xml </Story_Name>
 		
 		<AI_Player_Control> Galactic_Empire, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Rebel_Alliance, BasicEmpire </AI_Player_Control>
@@ -11701,12 +11701,12 @@
 		<Starting_Forces> Galactic_Empire, Cymoon, Imperial_Clonetroopers_Squad </Starting_Forces>
 		<Starting_Forces> Galactic_Empire, Cymoon, Galactic_Empire_Rifleman_Squad </Starting_Forces>
 		
-		<!-- Abregado_rae Space Forces -->
+		<!-- Abregado Space Forces -->
 	
-        <!-- Abregado_rae Land Forces -->
-		<Starting_Forces> Galactic_Empire, Abregado_rae, Galactic_Empire_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Galactic_Empire, Abregado_rae, Imperial_Clonetroopers_Squad </Starting_Forces>
-		<Starting_Forces> Galactic_Empire, Abregado_rae, Galactic_Empire_Rifleman_Squad </Starting_Forces>
+        <!-- Abregado Land Forces -->
+		<Starting_Forces> Galactic_Empire, Abregado, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Abregado, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Abregado, Galactic_Empire_Rifleman_Squad </Starting_Forces>
 		
 		<!-- Taris Space Forces -->
 	
@@ -13795,7 +13795,7 @@
 				NallHutta, Despayre, Hollastin, The_Maw, Kessel, Honoghr, Oba_Diah, Eadu,
 				BozPity, Charros, Balamak, Kubindi, Randa, Ulmatra, Barab, Ylesia, Teth,
 				Varl, Syvris, Arami, Orondia, Gamorr, Shola, Moralan, Garos, Togoria,
-				Alagon, Roche, Aquaris, Aurea, Atzerri, Byss, Kalist, Abregado_rae, Belgaroth, 
+				Alagon, Roche, Aquaris, Aurea, Atzerri, Byss, Kalist, Abregado, Belgaroth, 
 				Ghorman, PhorsaGedd, Bamayar, Ord_Tiddell, HaidoralPrime, Coyerti, Enrivi,
 				Fondor, Bassadro, Thyferra, Bestine, Foless, Denon, HosnianPrime, Chasin, 
 				Cymoon, MechisIII, YagDhul, Calus, Chardaan, Tynna, Aridus, Vandor, Cularin, Bothawui, Kothlis, 
@@ -13844,14 +13844,14 @@
 		
 		<Starting_Active_Player> Crimson_Dawn </Starting_Active_Player>
 		
-		<Story_Name>Galactic_Empire, story_Galactic_Civil_War\Story_Galactic_Civil_War_Galactic_Empire.xml </Story_Name>
-		<Story_Name>Rebel_Alliance, story_Galactic_Civil_War\Story_Galactic_Civil_War_Rebel_Alliance.xml </Story_Name>
-        <Story_Name>Black_Sun, story_Galactic_Civil_War\Story_Galactic_Civil_War_Black_Sun.xml </Story_Name>
-		<Story_Name>Hutt_Cartel, story_Galactic_Civil_War\Story_Galactic_Civil_War_Hutt_Cartel.xml </Story_Name>
-		<Story_Name>Pyke_Syndicate, story_Galactic_Civil_War\Story_Galactic_Civil_War_Pyke_Syndicate.xml </Story_Name>
-		<Story_Name>Crimson_Dawn, story_Galactic_Civil_War\Story_Galactic_Civil_War_Crimson_Dawn.xml </Story_Name>
-		<Story_Name>Hapan_Consortium, story_Galactic_Civil_War\Story_Galactic_Civil_War_Hapan_Consortium.xml </Story_Name>
-		<Story_Name>Corporate_Sector, story_Galactic_Civil_War\Story_Galactic_Civil_War_Corporate_Sector.xml </Story_Name>
+		<Story_Name>Galactic_Empire, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Galactic_Empire.xml </Story_Name>
+		<Story_Name>Rebel_Alliance, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Rebel_Alliance.xml </Story_Name>
+        <Story_Name>Black_Sun, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Black_Sun.xml </Story_Name>
+		<Story_Name>Hutt_Cartel, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Hutt_Cartel.xml </Story_Name>
+		<Story_Name>Pyke_Syndicate, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Pyke_Syndicate.xml </Story_Name>
+		<Story_Name>Crimson_Dawn, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Crimson_Dawn.xml </Story_Name>
+		<Story_Name>Hapan_Consortium, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Hapan_Consortium.xml </Story_Name>
+		<Story_Name>Corporate_Sector, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Corporate_Sector.xml </Story_Name>
 		
 		<AI_Player_Control> Galactic_Empire, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Rebel_Alliance, BasicEmpire </AI_Player_Control>
@@ -14451,12 +14451,12 @@
 		<Starting_Forces> Galactic_Empire, Cymoon, Imperial_Clonetroopers_Squad </Starting_Forces>
 		<Starting_Forces> Galactic_Empire, Cymoon, Galactic_Empire_Rifleman_Squad </Starting_Forces>
 		
-		<!-- Abregado_rae Space Forces -->
+		<!-- Abregado Space Forces -->
 	
-        <!-- Abregado_rae Land Forces -->
-		<Starting_Forces> Galactic_Empire, Abregado_rae, Galactic_Empire_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Galactic_Empire, Abregado_rae, Imperial_Clonetroopers_Squad </Starting_Forces>
-		<Starting_Forces> Galactic_Empire, Abregado_rae, Galactic_Empire_Rifleman_Squad </Starting_Forces>
+        <!-- Abregado Land Forces -->
+		<Starting_Forces> Galactic_Empire, Abregado, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Abregado, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Abregado, Galactic_Empire_Rifleman_Squad </Starting_Forces>
 		
 		<!-- Taris Space Forces -->
 	
@@ -16544,7 +16544,7 @@
 				NallHutta, Despayre, Hollastin, The_Maw, Kessel, Honoghr, Oba_Diah, Eadu,
 				BozPity, Charros, Balamak, Kubindi, Randa, Ulmatra, Barab, Ylesia, Teth,
 				Varl, Syvris, Arami, Orondia, Gamorr, Shola, Moralan, Garos, Togoria,
-				Alagon, Roche, Aquaris, Aurea, Atzerri, Byss, Kalist, Abregado_rae, Belgaroth, 
+				Alagon, Roche, Aquaris, Aurea, Atzerri, Byss, Kalist, Abregado, Belgaroth, 
 				Ghorman, PhorsaGedd, Bamayar, Ord_Tiddell, HaidoralPrime, Coyerti, Enrivi,
 				Fondor, Bassadro, Thyferra, Bestine, Foless, Denon, HosnianPrime, Chasin, 
 				Cymoon, MechisIII, YagDhul, Calus, Chardaan, Tynna, Aridus, Vandor, Cularin, Bothawui, Kothlis, 
@@ -16593,14 +16593,14 @@
 		
 		<Starting_Active_Player> Hapan_Consortium </Starting_Active_Player>
 		
-		<Story_Name>Galactic_Empire, story_Galactic_Civil_War\Story_Galactic_Civil_War_Galactic_Empire.xml </Story_Name>
-		<Story_Name>Rebel_Alliance, story_Galactic_Civil_War\Story_Galactic_Civil_War_Rebel_Alliance.xml </Story_Name>
-        <Story_Name>Black_Sun, story_Galactic_Civil_War\Story_Galactic_Civil_War_Black_Sun.xml </Story_Name>
-		<Story_Name>Hutt_Cartel, story_Galactic_Civil_War\Story_Galactic_Civil_War_Hutt_Cartel.xml </Story_Name>
-		<Story_Name>Pyke_Syndicate, story_Galactic_Civil_War\Story_Galactic_Civil_War_Pyke_Syndicate.xml </Story_Name>
-		<Story_Name>Crimson_Dawn, story_Galactic_Civil_War\Story_Galactic_Civil_War_Crimson_Dawn.xml </Story_Name>
-		<Story_Name>Hapan_Consortium, story_Galactic_Civil_War\Story_Galactic_Civil_War_Hapan_Consortium.xml </Story_Name>
-		<Story_Name>Corporate_Sector, story_Galactic_Civil_War\Story_Galactic_Civil_War_Corporate_Sector.xml </Story_Name>
+		<Story_Name>Galactic_Empire, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Galactic_Empire.xml </Story_Name>
+		<Story_Name>Rebel_Alliance, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Rebel_Alliance.xml </Story_Name>
+        <Story_Name>Black_Sun, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Black_Sun.xml </Story_Name>
+		<Story_Name>Hutt_Cartel, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Hutt_Cartel.xml </Story_Name>
+		<Story_Name>Pyke_Syndicate, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Pyke_Syndicate.xml </Story_Name>
+		<Story_Name>Crimson_Dawn, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Crimson_Dawn.xml </Story_Name>
+		<Story_Name>Hapan_Consortium, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Hapan_Consortium.xml </Story_Name>
+		<Story_Name>Corporate_Sector, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Corporate_Sector.xml </Story_Name>
 		
 		<AI_Player_Control> Galactic_Empire, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Rebel_Alliance, BasicEmpire </AI_Player_Control>
@@ -17200,12 +17200,12 @@
 		<Starting_Forces> Galactic_Empire, Cymoon, Imperial_Clonetroopers_Squad </Starting_Forces>
 		<Starting_Forces> Galactic_Empire, Cymoon, Galactic_Empire_Rifleman_Squad </Starting_Forces>
 		
-		<!-- Abregado_rae Space Forces -->
+		<!-- Abregado Space Forces -->
 	
-        <!-- Abregado_rae Land Forces -->
-		<Starting_Forces> Galactic_Empire, Abregado_rae, Galactic_Empire_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Galactic_Empire, Abregado_rae, Imperial_Clonetroopers_Squad </Starting_Forces>
-		<Starting_Forces> Galactic_Empire, Abregado_rae, Galactic_Empire_Rifleman_Squad </Starting_Forces>
+        <!-- Abregado Land Forces -->
+		<Starting_Forces> Galactic_Empire, Abregado, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Abregado, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Abregado, Galactic_Empire_Rifleman_Squad </Starting_Forces>
 		
 		<!-- Taris Space Forces -->
 	
@@ -19292,7 +19292,7 @@
 				NallHutta, Despayre, Hollastin, The_Maw, Kessel, Honoghr, Oba_Diah, Eadu,
 				BozPity, Charros, Balamak, Kubindi, Randa, Ulmatra, Barab, Ylesia, Teth,
 				Varl, Syvris, Arami, Orondia, Gamorr, Shola, Moralan, Garos, Togoria,
-				Alagon, Roche, Aquaris, Aurea, Atzerri, Byss, Kalist, Abregado_rae, Belgaroth, 
+				Alagon, Roche, Aquaris, Aurea, Atzerri, Byss, Kalist, Abregado, Belgaroth, 
 				Ghorman, PhorsaGedd, Bamayar, Ord_Tiddell, HaidoralPrime, Coyerti, Enrivi,
 				Fondor, Bassadro, Thyferra, Bestine, Foless, Denon, HosnianPrime, Chasin, 
 				Cymoon, MechisIII, YagDhul, Calus, Chardaan, Tynna, Aridus, Vandor, Cularin, Bothawui, Kothlis, 
@@ -19341,14 +19341,14 @@
 		
 		<Starting_Active_Player> Corporate_Sector </Starting_Active_Player>
 		
-		<Story_Name>Galactic_Empire, story_Galactic_Civil_War\Story_Galactic_Civil_War_Galactic_Empire.xml </Story_Name>
-		<Story_Name>Rebel_Alliance, story_Galactic_Civil_War\Story_Galactic_Civil_War_Rebel_Alliance.xml </Story_Name>
-        <Story_Name>Black_Sun, story_Galactic_Civil_War\Story_Galactic_Civil_War_Black_Sun.xml </Story_Name>
-		<Story_Name>Hutt_Cartel, story_Galactic_Civil_War\Story_Galactic_Civil_War_Hutt_Cartel.xml </Story_Name>
-		<Story_Name>Pyke_Syndicate, story_Galactic_Civil_War\Story_Galactic_Civil_War_Pyke_Syndicate.xml </Story_Name>
-		<Story_Name>Crimson_Dawn, story_Galactic_Civil_War\Story_Galactic_Civil_War_Crimson_Dawn.xml </Story_Name>
-		<Story_Name>Hapan_Consortium, story_Galactic_Civil_War\Story_Galactic_Civil_War_Hapan_Consortium.xml </Story_Name>
-		<Story_Name>Corporate_Sector, story_Galactic_Civil_War\Story_Galactic_Civil_War_Corporate_Sector.xml </Story_Name>
+		<Story_Name>Galactic_Empire, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Galactic_Empire.xml </Story_Name>
+		<Story_Name>Rebel_Alliance, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Rebel_Alliance.xml </Story_Name>
+        <Story_Name>Black_Sun, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Black_Sun.xml </Story_Name>
+		<Story_Name>Hutt_Cartel, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Hutt_Cartel.xml </Story_Name>
+		<Story_Name>Pyke_Syndicate, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Pyke_Syndicate.xml </Story_Name>
+		<Story_Name>Crimson_Dawn, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Crimson_Dawn.xml </Story_Name>
+		<Story_Name>Hapan_Consortium, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Hapan_Consortium.xml </Story_Name>
+		<Story_Name>Corporate_Sector, 2_Era_Story\story_Galactic_Civil_War\Story_Galactic_Civil_War_Corporate_Sector.xml </Story_Name>
 		
 		<AI_Player_Control> Galactic_Empire, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Rebel_Alliance, BasicEmpire </AI_Player_Control>
@@ -19948,12 +19948,12 @@
 		<Starting_Forces> Galactic_Empire, Cymoon, Imperial_Clonetroopers_Squad </Starting_Forces>
 		<Starting_Forces> Galactic_Empire, Cymoon, Galactic_Empire_Rifleman_Squad </Starting_Forces>
 		
-		<!-- Abregado_rae Space Forces -->
+		<!-- Abregado Space Forces -->
 	
-        <!-- Abregado_rae Land Forces -->
-		<Starting_Forces> Galactic_Empire, Abregado_rae, Galactic_Empire_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Galactic_Empire, Abregado_rae, Imperial_Clonetroopers_Squad </Starting_Forces>
-		<Starting_Forces> Galactic_Empire, Abregado_rae, Galactic_Empire_Rifleman_Squad </Starting_Forces>
+        <!-- Abregado Land Forces -->
+		<Starting_Forces> Galactic_Empire, Abregado, Galactic_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Abregado, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Galactic_Empire, Abregado, Galactic_Empire_Rifleman_Squad </Starting_Forces>
 		
 		<!-- Taris Space Forces -->
 	

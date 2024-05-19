@@ -19394,7 +19394,7 @@
     
   </Planet>
   
-    <Planet Name="Abregado_Rae">
+    <Planet Name="Abregado">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_ABREGADORAE</Text_ID>
     <Galactic_Model_Name>w_planetGC_temperate01.alo</Galactic_Model_Name>

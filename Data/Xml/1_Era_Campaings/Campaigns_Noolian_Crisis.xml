@@ -49,10 +49,10 @@
 		
 		<Starting_Active_Player> Early_Empire </Starting_Active_Player>
 		
-		<Story_Name>Early_Empire, story_Noolian_Crisis\story_Noolian_Crisis_Early_Empire.xml </Story_Name>
-        <Story_Name>Trade_Federation, story_Noolian_Crisis\story_Noolian_Crisis_CIS_Remnant.xml </Story_Name>
-		<Story_Name>Terrorists, story_Noolian_Crisis\story_Noolian_Crisis_Trade_Federation.xml </Story_Name>
-		<Story_Name>Commerce_Guild, story_Noolian_Crisis\story_Noolian_Crisis_Commerce_Guild.xml </Story_Name>
+		<Story_Name>Early_Empire, 1_Era_Story\story_Noolian_Crisis\story_Noolian_Crisis_Early_Empire.xml </Story_Name>
+        <Story_Name>Trade_Federation, 1_Era_Story\story_Noolian_Crisis\story_Noolian_Crisis_CIS_Remnant.xml </Story_Name>
+		<Story_Name>Terrorists, 1_Era_Story\story_Noolian_Crisis\story_Noolian_Crisis_Trade_Federation.xml </Story_Name>
+		<Story_Name>Commerce_Guild, 1_Era_Story\story_Noolian_Crisis\story_Noolian_Crisis_Commerce_Guild.xml </Story_Name>
 		
 		<AI_Player_Control> Trade_Federation, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Terrorists, BasicEmpire </AI_Player_Control>
@@ -359,10 +359,10 @@
 		
 		<Starting_Active_Player> Terrorists </Starting_Active_Player>
 		
-		<Story_Name>Early_Empire, story_Noolian_Crisis\story_Noolian_Crisis_Early_Empire.xml </Story_Name>
-        <Story_Name>Trade_Federation, story_Noolian_Crisis\story_Noolian_Crisis_CIS_Remnant.xml </Story_Name>
-		<Story_Name>Terrorists, story_Noolian_Crisis\story_Noolian_Crisis_Trade_Federation.xml </Story_Name>
-		<Story_Name>Commerce_Guild, story_Noolian_Crisis\story_Noolian_Crisis_Banking_Clan.xml </Story_Name>
+		<Story_Name>Early_Empire, 1_Era_Story\story_Noolian_Crisis\story_Noolian_Crisis_Early_Empire.xml </Story_Name>
+        <Story_Name>Trade_Federation, 1_Era_Story\story_Noolian_Crisis\story_Noolian_Crisis_CIS_Remnant.xml </Story_Name>
+		<Story_Name>Terrorists, 1_Era_Story\story_Noolian_Crisis\story_Noolian_Crisis_Trade_Federation.xml </Story_Name>
+		<Story_Name>Commerce_Guild, 1_Era_Story\story_Noolian_Crisis\story_Noolian_Crisis_Banking_Clan.xml </Story_Name>
 		
 		<AI_Player_Control> Trade_Federation, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Early_Empire, BasicEmpire </AI_Player_Control>
@@ -668,10 +668,10 @@
 		
 		<Starting_Active_Player> Trade_Federation </Starting_Active_Player>
 		
-		<Story_Name>Early_Empire, story_Noolian_Crisis\story_Noolian_Crisis_Early_Empire.xml </Story_Name>
-        <Story_Name>Trade_Federation, story_Noolian_Crisis\story_Noolian_Crisis_CIS_Remnant.xml </Story_Name>
-		<Story_Name>Terrorists, story_Noolian_Crisis\story_Noolian_Crisis_Trade_Federation.xml </Story_Name>
-		<Story_Name>Commerce_Guild, story_Noolian_Crisis\story_Noolian_Crisis_Commerce_Guild.xml </Story_Name>
+		<Story_Name>Early_Empire, 1_Era_Story\story_Noolian_Crisis\story_Noolian_Crisis_Early_Empire.xml </Story_Name>
+        <Story_Name>Trade_Federation, 1_Era_Story\story_Noolian_Crisis\story_Noolian_Crisis_CIS_Remnant.xml </Story_Name>
+		<Story_Name>Terrorists, 1_Era_Story\story_Noolian_Crisis\story_Noolian_Crisis_Trade_Federation.xml </Story_Name>
+		<Story_Name>Commerce_Guild, 1_Era_Story\story_Noolian_Crisis\story_Noolian_Crisis_Commerce_Guild.xml </Story_Name>
 		
 		<AI_Player_Control> Terrorists, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Early_Empire, BasicEmpire </AI_Player_Control>
@@ -978,10 +978,10 @@
 		
 		<Starting_Active_Player> Commerce_Guild </Starting_Active_Player>
 		
-		<Story_Name>Early_Empire, story_Noolian_Crisis\story_Noolian_Crisis_Early_Empire.xml </Story_Name>
-        <Story_Name>Trade_Federation, story_Noolian_Crisis\story_Noolian_Crisis_CIS_Remnant.xml </Story_Name>
-		<Story_Name>Terrorists, story_Noolian_Crisis\story_Noolian_Crisis_Trade_Federation.xml </Story_Name>
-		<Story_Name>Commerce_Guild, story_Noolian_Crisis\story_Noolian_Crisis_Commerce_Guild.xml </Story_Name>
+		<Story_Name>Early_Empire, 1_Era_Story\story_Noolian_Crisis\story_Noolian_Crisis_Early_Empire.xml </Story_Name>
+        <Story_Name>Trade_Federation, 1_Era_Story\story_Noolian_Crisis\story_Noolian_Crisis_CIS_Remnant.xml </Story_Name>
+		<Story_Name>Terrorists, 1_Era_Story\story_Noolian_Crisis\story_Noolian_Crisis_Trade_Federation.xml </Story_Name>
+		<Story_Name>Commerce_Guild, 1_Era_Story\story_Noolian_Crisis\story_Noolian_Crisis_Commerce_Guild.xml </Story_Name>
 		
 		<AI_Player_Control> Terrorists, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Early_Empire, BasicEmpire </AI_Player_Control>

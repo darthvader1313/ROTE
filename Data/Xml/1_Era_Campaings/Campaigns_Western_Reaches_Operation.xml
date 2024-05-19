@@ -50,10 +50,10 @@
 		
 		<Starting_Active_Player> Early_Empire </Starting_Active_Player>
 		
-		<Story_Name>Early_Empire, story_Western_Reaches_Operation\story_Western_Reaches_Operation_Early_Empire.xml </Story_Name>
-        <Story_Name>Terrorists, story_Western_Reaches_Operation\story_Western_Reaches_Operation_Terrorists.xml </Story_Name>
-		<Story_Name>Trade_Federation, story_Western_Reaches_Operation\story_Western_Reaches_Operation_Trade_Federation.xml </Story_Name>
-        <Story_Name>Commerce_Guild, story_Western_Reaches_Operation\story_Western_Reaches_Operation_Commerce_Guild.xml </Story_Name>
+		<Story_Name>Early_Empire, 1_Era_Story\story_Western_Reaches_Operation\story_Western_Reaches_Operation_Early_Empire.xml </Story_Name>
+        <Story_Name>Terrorists, 1_Era_Story\story_Western_Reaches_Operation\story_Western_Reaches_Operation_Terrorists.xml </Story_Name>
+		<Story_Name>Trade_Federation, 1_Era_Story\story_Western_Reaches_Operation\story_Western_Reaches_Operation_Trade_Federation.xml </Story_Name>
+        <Story_Name>Commerce_Guild, 1_Era_Story\story_Western_Reaches_Operation\story_Western_Reaches_Operation_Commerce_Guild.xml </Story_Name>
 		
 		<AI_Player_Control> Terrorists, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Trade_Federation, BasicEmpire </AI_Player_Control>
@@ -415,10 +415,10 @@
 		
 		<Starting_Active_Player> Terrorists </Starting_Active_Player>
 		
-		<Story_Name>Early_Empire, story_Western_Reaches_Operation\story_Western_Reaches_Operation_Early_Empire.xml </Story_Name>
-        <Story_Name>Terrorists, story_Western_Reaches_Operation\story_Western_Reaches_Operation_Terrorists.xml </Story_Name>
-		<Story_Name>Trade_Federation, story_Western_Reaches_Operation\story_Western_Reaches_Operation_Trade_Federation.xml </Story_Name>
-        <Story_Name>Commerce_Guild, story_Western_Reaches_Operation\story_Western_Reaches_Operation_Commerce_Guild.xml </Story_Name>
+		<Story_Name>Early_Empire, 1_Era_Story\story_Western_Reaches_Operation\story_Western_Reaches_Operation_Early_Empire.xml </Story_Name>
+        <Story_Name>Terrorists, 1_Era_Story\story_Western_Reaches_Operation\story_Western_Reaches_Operation_Terrorists.xml </Story_Name>
+		<Story_Name>Trade_Federation, 1_Era_Story\story_Western_Reaches_Operation\story_Western_Reaches_Operation_Trade_Federation.xml </Story_Name>
+        <Story_Name>Commerce_Guild, 1_Era_Story\story_Western_Reaches_Operation\story_Western_Reaches_Operation_Commerce_Guild.xml </Story_Name>
 		
 		<AI_Player_Control> Early_Empire, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Trade_Federation, BasicEmpire </AI_Player_Control>
@@ -779,10 +779,10 @@
 		
 		<Starting_Active_Player> Trade_Federation </Starting_Active_Player>
 		
-		<Story_Name>Early_Empire, story_Western_Reaches_Operation\story_Western_Reaches_Operation_Early_Empire.xml </Story_Name>
-        <Story_Name>Terrorists, story_Western_Reaches_Operation\story_Western_Reaches_Operation_Terrorists.xml </Story_Name>
-		<Story_Name>Trade_Federation, story_Western_Reaches_Operation\story_Western_Reaches_Operation_Trade_Federation.xml </Story_Name>
-        <Story_Name>Commerce_Guild, story_Western_Reaches_Operation\story_Western_Reaches_Operation_Commerce_Guild.xml </Story_Name>
+		<Story_Name>Early_Empire, 1_Era_Story\story_Western_Reaches_Operation\story_Western_Reaches_Operation_Early_Empire.xml </Story_Name>
+        <Story_Name>Terrorists, 1_Era_Story\story_Western_Reaches_Operation\story_Western_Reaches_Operation_Terrorists.xml </Story_Name>
+		<Story_Name>Trade_Federation, 1_Era_Story\story_Western_Reaches_Operation\story_Western_Reaches_Operation_Trade_Federation.xml </Story_Name>
+        <Story_Name>Commerce_Guild, 1_Era_Story\story_Western_Reaches_Operation\story_Western_Reaches_Operation_Commerce_Guild.xml </Story_Name>
 		
 		<AI_Player_Control> Early_Empire, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Terrorists, BasicEmpire </AI_Player_Control>
@@ -1144,10 +1144,10 @@
 		
 		<Starting_Active_Player> Commerce_Guild </Starting_Active_Player>
 		
-		<Story_Name>Early_Empire, story_Western_Reaches_Operation\story_Western_Reaches_Operation_Early_Empire.xml </Story_Name>
-        <Story_Name>Terrorists, story_Western_Reaches_Operation\story_Western_Reaches_Operation_Terrorists.xml </Story_Name>
-		<Story_Name>Trade_Federation, story_Western_Reaches_Operation\story_Western_Reaches_Operation_Trade_Federation.xml </Story_Name>
-        <Story_Name>Commerce_Guild, story_Western_Reaches_Operation\story_Western_Reaches_Operation_Commerce_Guild.xml </Story_Name>
+		<Story_Name>Early_Empire, 1_Era_Story\story_Western_Reaches_Operation\story_Western_Reaches_Operation_Early_Empire.xml </Story_Name>
+        <Story_Name>Terrorists, 1_Era_Story\story_Western_Reaches_Operation\story_Western_Reaches_Operation_Terrorists.xml </Story_Name>
+		<Story_Name>Trade_Federation, 1_Era_Story\story_Western_Reaches_Operation\story_Western_Reaches_Operation_Trade_Federation.xml </Story_Name>
+        <Story_Name>Commerce_Guild, 1_Era_Story\story_Western_Reaches_Operation\story_Western_Reaches_Operation_Commerce_Guild.xml </Story_Name>
 		
 		<AI_Player_Control> Early_Empire, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Terrorists, BasicEmpire </AI_Player_Control>

@@ -61,11 +61,11 @@
 		
 		<Starting_Active_Player> Galactic_Empire </Starting_Active_Player>
 		
-		<Story_Name>Galactic_Empire, story_Yavin_Blockade\Story_Yavin_Blockade_Galactic_Empire.xml </Story_Name>
-		<Story_Name>Rebel_Alliance, story_Yavin_Blockade\Story_Yavin_Blockade_Rebel_Alliance.xml </Story_Name>
-		<Story_Name>Crimson_Dawn, story_Yavin_Blockade\Story_Yavin_Blockade_Crimson_Dawn.xml </Story_Name>
-		<Story_Name>Corporate_Sector, story_Yavin_Blockade\Story_Yavin_Blockade_Corporate_Sector.xml </Story_Name>
-		<Story_Name>Black_Sun, story_Yavin_Blockade\Story_Yavin_Blockade_Black_Sun.xml </Story_Name>
+		<Story_Name>Galactic_Empire, 2_Era_Story\story_Yavin_Blockade\Story_Yavin_Blockade_Galactic_Empire.xml </Story_Name>
+		<Story_Name>Rebel_Alliance, 2_Era_Story\story_Yavin_Blockade\Story_Yavin_Blockade_Rebel_Alliance.xml </Story_Name>
+		<Story_Name>Crimson_Dawn, 2_Era_Story\story_Yavin_Blockade\Story_Yavin_Blockade_Crimson_Dawn.xml </Story_Name>
+		<Story_Name>Corporate_Sector, 2_Era_Story\story_Yavin_Blockade\Story_Yavin_Blockade_Corporate_Sector.xml </Story_Name>
+		<Story_Name>Black_Sun, 2_Era_Story\story_Yavin_Blockade\Story_Yavin_Blockade_Black_Sun.xml </Story_Name>
 		
 		<AI_Player_Control> Rebel_Alliance, BasicEmpire </AI_Player_Control>
         <AI_Player_Control> Crimson_Dawn, BasicEmpire </AI_Player_Control>
@@ -1213,11 +1213,11 @@
 		
 		<Starting_Active_Player> Rebel_Alliance </Starting_Active_Player>
 		
-		<Story_Name>Galactic_Empire, story_Yavin_Blockade\Story_Yavin_Blockade_Galactic_Empire.xml </Story_Name>
-		<Story_Name>Rebel_Alliance, story_Yavin_Blockade\Story_Yavin_Blockade_Rebel_Alliance.xml </Story_Name>
-		<Story_Name>Crimson_Dawn, story_Yavin_Blockade\Story_Yavin_Blockade_Crimson_Dawn.xml </Story_Name>
-		<Story_Name>Corporate_Sector, story_Yavin_Blockade\Story_Yavin_Blockade_Corporate_Sector.xml </Story_Name>
-		<Story_Name>Black_Sun, story_Yavin_Blockade\Story_Yavin_Blockade_Black_Sun.xml </Story_Name>
+		<Story_Name>Galactic_Empire, 2_Era_Story\story_Yavin_Blockade\Story_Yavin_Blockade_Galactic_Empire.xml </Story_Name>
+		<Story_Name>Rebel_Alliance, 2_Era_Story\story_Yavin_Blockade\Story_Yavin_Blockade_Rebel_Alliance.xml </Story_Name>
+		<Story_Name>Crimson_Dawn, 2_Era_Story\story_Yavin_Blockade\Story_Yavin_Blockade_Crimson_Dawn.xml </Story_Name>
+		<Story_Name>Corporate_Sector, 2_Era_Story\story_Yavin_Blockade\Story_Yavin_Blockade_Corporate_Sector.xml </Story_Name>
+		<Story_Name>Black_Sun, 2_Era_Story\story_Yavin_Blockade\Story_Yavin_Blockade_Black_Sun.xml </Story_Name>
 		
 		<AI_Player_Control> Galactic_Empire, BasicEmpire </AI_Player_Control>
         <AI_Player_Control> Crimson_Dawn, BasicEmpire </AI_Player_Control>
@@ -2366,11 +2366,11 @@
 		
 		<Starting_Active_Player> Black_Sun </Starting_Active_Player>
 		
-		<Story_Name>Galactic_Empire, story_Yavin_Blockade\Story_Yavin_Blockade_Galactic_Empire.xml </Story_Name>
-		<Story_Name>Rebel_Alliance, story_Yavin_Blockade\Story_Yavin_Blockade_Rebel_Alliance.xml </Story_Name>
-		<Story_Name>Crimson_Dawn, story_Yavin_Blockade\Story_Yavin_Blockade_Crimson_Dawn.xml </Story_Name>
-		<Story_Name>Corporate_Sector, story_Yavin_Blockade\Story_Yavin_Blockade_Corporate_Sector.xml </Story_Name>
-		<Story_Name>Black_Sun, story_Yavin_Blockade\Story_Yavin_Blockade_Black_Sun.xml </Story_Name>
+		<Story_Name>Galactic_Empire, 2_Era_Story\story_Yavin_Blockade\Story_Yavin_Blockade_Galactic_Empire.xml </Story_Name>
+		<Story_Name>Rebel_Alliance, 2_Era_Story\story_Yavin_Blockade\Story_Yavin_Blockade_Rebel_Alliance.xml </Story_Name>
+		<Story_Name>Crimson_Dawn, 2_Era_Story\story_Yavin_Blockade\Story_Yavin_Blockade_Crimson_Dawn.xml </Story_Name>
+		<Story_Name>Corporate_Sector, 2_Era_Story\story_Yavin_Blockade\Story_Yavin_Blockade_Corporate_Sector.xml </Story_Name>
+		<Story_Name>Black_Sun, 2_Era_Story\story_Yavin_Blockade\Story_Yavin_Blockade_Black_Sun.xml </Story_Name>
 		
 		<AI_Player_Control> Galactic_Empire, BasicEmpire </AI_Player_Control>
         <AI_Player_Control> Crimson_Dawn, BasicEmpire </AI_Player_Control>
@@ -3519,11 +3519,11 @@
 		
 		<Starting_Active_Player> Crimson_Dawn </Starting_Active_Player>
 		
-		<Story_Name>Galactic_Empire, story_Yavin_Blockade\Story_Yavin_Blockade_Galactic_Empire.xml </Story_Name>
-		<Story_Name>Rebel_Alliance, story_Yavin_Blockade\Story_Yavin_Blockade_Rebel_Alliance.xml </Story_Name>
-		<Story_Name>Crimson_Dawn, story_Yavin_Blockade\Story_Yavin_Blockade_Crimson_Dawn.xml </Story_Name>
-		<Story_Name>Corporate_Sector, story_Yavin_Blockade\Story_Yavin_Blockade_Corporate_Sector.xml </Story_Name>
-		<Story_Name>Black_Sun, story_Yavin_Blockade\Story_Yavin_Blockade_Black_Sun.xml </Story_Name>
+		<Story_Name>Galactic_Empire, 2_Era_Story\story_Yavin_Blockade\Story_Yavin_Blockade_Galactic_Empire.xml </Story_Name>
+		<Story_Name>Rebel_Alliance, 2_Era_Story\story_Yavin_Blockade\Story_Yavin_Blockade_Rebel_Alliance.xml </Story_Name>
+		<Story_Name>Crimson_Dawn, 2_Era_Story\story_Yavin_Blockade\Story_Yavin_Blockade_Crimson_Dawn.xml </Story_Name>
+		<Story_Name>Corporate_Sector, 2_Era_Story\story_Yavin_Blockade\Story_Yavin_Blockade_Corporate_Sector.xml </Story_Name>
+		<Story_Name>Black_Sun, 2_Era_Story\story_Yavin_Blockade\Story_Yavin_Blockade_Black_Sun.xml </Story_Name>
 		
 		<AI_Player_Control> Galactic_Empire, BasicEmpire </AI_Player_Control>
         <AI_Player_Control> Rebel_Alliance, BasicEmpire </AI_Player_Control>
@@ -4672,11 +4672,11 @@
 		
 		<Starting_Active_Player> Corporate_Sector </Starting_Active_Player>
 		
-		<Story_Name>Galactic_Empire, story_Yavin_Blockade\Story_Yavin_Blockade_Galactic_Empire.xml </Story_Name>
-		<Story_Name>Rebel_Alliance, story_Yavin_Blockade\Story_Yavin_Blockade_Rebel_Alliance.xml </Story_Name>
-		<Story_Name>Crimson_Dawn, story_Yavin_Blockade\Story_Yavin_Blockade_Crimson_Dawn.xml </Story_Name>
-		<Story_Name>Corporate_Sector, story_Yavin_Blockade\Story_Yavin_Blockade_Corporate_Sector.xml </Story_Name>
-		<Story_Name>Black_Sun, story_Yavin_Blockade\Story_Yavin_Blockade_Black_Sun.xml </Story_Name>
+		<Story_Name>Galactic_Empire, 2_Era_Story\story_Yavin_Blockade\Story_Yavin_Blockade_Galactic_Empire.xml </Story_Name>
+		<Story_Name>Rebel_Alliance, 2_Era_Story\story_Yavin_Blockade\Story_Yavin_Blockade_Rebel_Alliance.xml </Story_Name>
+		<Story_Name>Crimson_Dawn, 2_Era_Story\story_Yavin_Blockade\Story_Yavin_Blockade_Crimson_Dawn.xml </Story_Name>
+		<Story_Name>Corporate_Sector, 2_Era_Story\story_Yavin_Blockade\Story_Yavin_Blockade_Corporate_Sector.xml </Story_Name>
+		<Story_Name>Black_Sun, 2_Era_Story\story_Yavin_Blockade\Story_Yavin_Blockade_Black_Sun.xml </Story_Name>
 		
 		<AI_Player_Control> Galactic_Empire, BasicEmpire </AI_Player_Control>
         <AI_Player_Control> Rebel_Alliance, BasicEmpire </AI_Player_Control>

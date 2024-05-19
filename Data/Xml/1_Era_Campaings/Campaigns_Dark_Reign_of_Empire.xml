@@ -89,14 +89,14 @@
 		
 		<Starting_Active_Player> Early_Empire </Starting_Active_Player>
 		
-		<Story_Name>Early_Empire, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Early_Empire.xml </Story_Name>
-		<Story_Name>CIS_Remnant, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_CIS_Remnant.xml </Story_Name>
-		<Story_Name>Trade_Federation, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Trade_Federation.xml </Story_Name>
-        <Story_Name>Commerce_Guild, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Commerce_Guild.xml </Story_Name>
-		<Story_Name>Terrorists, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Terrorists.xml </Story_Name>
-		<Story_Name>Techno_Union, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Techno_Union.xml </Story_Name>
-		<Story_Name>Banking_Clan, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Banking_Clan.xml </Story_Name>
-		<Story_Name>Mandalorians, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Mandalorians.xml </Story_Name>
+		<Story_Name>Early_Empire, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Early_Empire.xml </Story_Name>
+		<Story_Name>CIS_Remnant, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_CIS_Remnant.xml </Story_Name>
+		<Story_Name>Trade_Federation, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Trade_Federation.xml </Story_Name>
+        <Story_Name>Commerce_Guild, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Commerce_Guild.xml </Story_Name>
+		<Story_Name>Terrorists, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Terrorists.xml </Story_Name>
+		<Story_Name>Techno_Union, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Techno_Union.xml </Story_Name>
+		<Story_Name>Banking_Clan, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Banking_Clan.xml </Story_Name>
+		<Story_Name>Mandalorians, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Mandalorians.xml </Story_Name>
 		
 		<AI_Player_Control> CIS_Remnant, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Trade_Federation, BasicEmpire </AI_Player_Control>
@@ -2544,14 +2544,14 @@
 		
 		<Starting_Active_Player> CIS_Remnant </Starting_Active_Player>
 		
-		<Story_Name>Early_Empire, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Early_Empire.xml </Story_Name>
-		<Story_Name>CIS_Remnant, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_CIS_Remnant.xml </Story_Name>
-		<Story_Name>Trade_Federation, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Trade_Federation.xml </Story_Name>
-        <Story_Name>Commerce_Guild, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Commerce_Guild.xml </Story_Name>
-		<Story_Name>Terrorists, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Terrorists.xml </Story_Name>
-		<Story_Name>Techno_Union, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Techno_Union.xml </Story_Name>
-		<Story_Name>Banking_Clan, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Banking_Clan.xml </Story_Name>
-		<Story_Name>Mandalorians, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Mandalorians.xml </Story_Name>
+		<Story_Name>Early_Empire, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Early_Empire.xml </Story_Name>
+		<Story_Name>CIS_Remnant, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_CIS_Remnant.xml </Story_Name>
+		<Story_Name>Trade_Federation, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Trade_Federation.xml </Story_Name>
+        <Story_Name>Commerce_Guild, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Commerce_Guild.xml </Story_Name>
+		<Story_Name>Terrorists, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Terrorists.xml </Story_Name>
+		<Story_Name>Techno_Union, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Techno_Union.xml </Story_Name>
+		<Story_Name>Banking_Clan, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Banking_Clan.xml </Story_Name>
+		<Story_Name>Mandalorians, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Mandalorians.xml </Story_Name>
 		
 		<AI_Player_Control> Early_Empire, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Trade_Federation, BasicEmpire </AI_Player_Control>
@@ -5000,14 +5000,14 @@
 		
 		<Starting_Active_Player> Trade_Federation </Starting_Active_Player>
 		
-		<Story_Name>Early_Empire, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Early_Empire.xml </Story_Name>
-		<Story_Name>CIS_Remnant, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_CIS_Remnant.xml </Story_Name>
-		<Story_Name>Trade_Federation, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Trade_Federation.xml </Story_Name>
-        <Story_Name>Commerce_Guild, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Commerce_Guild.xml </Story_Name>
-		<Story_Name>Terrorists, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Terrorists.xml </Story_Name>
-		<Story_Name>Techno_Union, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Techno_Union.xml </Story_Name>
-		<Story_Name>Banking_Clan, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Banking_Clan.xml </Story_Name>
-		<Story_Name>Mandalorians, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Mandalorians.xml </Story_Name>
+		<Story_Name>Early_Empire, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Early_Empire.xml </Story_Name>
+		<Story_Name>CIS_Remnant, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_CIS_Remnant.xml </Story_Name>
+		<Story_Name>Trade_Federation, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Trade_Federation.xml </Story_Name>
+        <Story_Name>Commerce_Guild, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Commerce_Guild.xml </Story_Name>
+		<Story_Name>Terrorists, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Terrorists.xml </Story_Name>
+		<Story_Name>Techno_Union, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Techno_Union.xml </Story_Name>
+		<Story_Name>Banking_Clan, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Banking_Clan.xml </Story_Name>
+		<Story_Name>Mandalorians, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Mandalorians.xml </Story_Name>
 		
 		<AI_Player_Control> Early_Empire, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> CIS_Remnant, BasicEmpire </AI_Player_Control>
@@ -7455,14 +7455,14 @@
 		
 		<Starting_Active_Player> Commerce_Guild </Starting_Active_Player>
 		
-		<Story_Name>Early_Empire, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Early_Empire.xml </Story_Name>
-		<Story_Name>CIS_Remnant, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_CIS_Remnant.xml </Story_Name>
-		<Story_Name>Trade_Federation, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Trade_Federation.xml </Story_Name>
-        <Story_Name>Commerce_Guild, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Commerce_Guild.xml </Story_Name>
-		<Story_Name>Terrorists, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Terrorists.xml </Story_Name>
-		<Story_Name>Techno_Union, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Techno_Union.xml </Story_Name>
-		<Story_Name>Banking_Clan, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Banking_Clan.xml </Story_Name>
-		<Story_Name>Mandalorians, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Mandalorians.xml </Story_Name>
+		<Story_Name>Early_Empire, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Early_Empire.xml </Story_Name>
+		<Story_Name>CIS_Remnant, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_CIS_Remnant.xml </Story_Name>
+		<Story_Name>Trade_Federation, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Trade_Federation.xml </Story_Name>
+        <Story_Name>Commerce_Guild, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Commerce_Guild.xml </Story_Name>
+		<Story_Name>Terrorists, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Terrorists.xml </Story_Name>
+		<Story_Name>Techno_Union, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Techno_Union.xml </Story_Name>
+		<Story_Name>Banking_Clan, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Banking_Clan.xml </Story_Name>
+		<Story_Name>Mandalorians, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Mandalorians.xml </Story_Name>
 		
 		<AI_Player_Control> Early_Empire, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> CIS_Remnant, BasicEmpire </AI_Player_Control>
@@ -9910,14 +9910,14 @@
 		
 		<Starting_Active_Player> Terrorists </Starting_Active_Player>
 		
-		<Story_Name>Early_Empire, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Early_Empire.xml </Story_Name>
-		<Story_Name>CIS_Remnant, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_CIS_Remnant.xml </Story_Name>
-		<Story_Name>Trade_Federation, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Trade_Federation.xml </Story_Name>
-        <Story_Name>Commerce_Guild, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Commerce_Guild.xml </Story_Name>
-		<Story_Name>Terrorists, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Terrorists.xml </Story_Name>
-		<Story_Name>Techno_Union, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Techno_Union.xml </Story_Name>
-		<Story_Name>Banking_Clan, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Banking_Clan.xml </Story_Name>
-		<Story_Name>Mandalorians, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Mandalorians.xml </Story_Name>
+		<Story_Name>Early_Empire, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Early_Empire.xml </Story_Name>
+		<Story_Name>CIS_Remnant, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_CIS_Remnant.xml </Story_Name>
+		<Story_Name>Trade_Federation, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Trade_Federation.xml </Story_Name>
+        <Story_Name>Commerce_Guild, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Commerce_Guild.xml </Story_Name>
+		<Story_Name>Terrorists, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Terrorists.xml </Story_Name>
+		<Story_Name>Techno_Union, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Techno_Union.xml </Story_Name>
+		<Story_Name>Banking_Clan, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Banking_Clan.xml </Story_Name>
+		<Story_Name>Mandalorians, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Mandalorians.xml </Story_Name>
 		
 		<AI_Player_Control> Early_Empire, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> CIS_Remnant, BasicEmpire </AI_Player_Control>
@@ -12366,14 +12366,14 @@
 		
 		<Starting_Active_Player> Techno_Union </Starting_Active_Player>
 		
-		<Story_Name>Early_Empire, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Early_Empire.xml </Story_Name>
-		<Story_Name>CIS_Remnant, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_CIS_Remnant.xml </Story_Name>
-		<Story_Name>Trade_Federation, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Trade_Federation.xml </Story_Name>
-        <Story_Name>Commerce_Guild, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Commerce_Guild.xml </Story_Name>
-		<Story_Name>Terrorists, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Terrorists.xml </Story_Name>
-		<Story_Name>Techno_Union, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Techno_Union.xml </Story_Name>
-		<Story_Name>Banking_Clan, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Banking_Clan.xml </Story_Name>
-		<Story_Name>Mandalorians, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Mandalorians.xml </Story_Name>
+		<Story_Name>Early_Empire, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Early_Empire.xml </Story_Name>
+		<Story_Name>CIS_Remnant, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_CIS_Remnant.xml </Story_Name>
+		<Story_Name>Trade_Federation, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Trade_Federation.xml </Story_Name>
+        <Story_Name>Commerce_Guild, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Commerce_Guild.xml </Story_Name>
+		<Story_Name>Terrorists, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Terrorists.xml </Story_Name>
+		<Story_Name>Techno_Union, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Techno_Union.xml </Story_Name>
+		<Story_Name>Banking_Clan, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Banking_Clan.xml </Story_Name>
+		<Story_Name>Mandalorians, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Mandalorians.xml </Story_Name>
 		
 		<AI_Player_Control> Early_Empire, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> CIS_Remnant, BasicEmpire </AI_Player_Control>
@@ -14821,14 +14821,14 @@
 		
 		<Starting_Active_Player> Banking_Clan </Starting_Active_Player>
 		
-		<Story_Name>Early_Empire, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Early_Empire.xml </Story_Name>
-		<Story_Name>CIS_Remnant, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_CIS_Remnant.xml </Story_Name>
-		<Story_Name>Trade_Federation, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Trade_Federation.xml </Story_Name>
-        <Story_Name>Commerce_Guild, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Commerce_Guild.xml </Story_Name>
-		<Story_Name>Terrorists, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Terrorists.xml </Story_Name>
-		<Story_Name>Techno_Union, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Techno_Union.xml </Story_Name>
-		<Story_Name>Banking_Clan, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Banking_Clan.xml </Story_Name>
-		<Story_Name>Mandalorians, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Mandalorians.xml </Story_Name>
+		<Story_Name>Early_Empire, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Early_Empire.xml </Story_Name>
+		<Story_Name>CIS_Remnant, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_CIS_Remnant.xml </Story_Name>
+		<Story_Name>Trade_Federation, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Trade_Federation.xml </Story_Name>
+        <Story_Name>Commerce_Guild, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Commerce_Guild.xml </Story_Name>
+		<Story_Name>Terrorists, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Terrorists.xml </Story_Name>
+		<Story_Name>Techno_Union, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Techno_Union.xml </Story_Name>
+		<Story_Name>Banking_Clan, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Banking_Clan.xml </Story_Name>
+		<Story_Name>Mandalorians, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Mandalorians.xml </Story_Name>
 		
 		<AI_Player_Control> Early_Empire, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> CIS_Remnant, BasicEmpire </AI_Player_Control>
@@ -17278,14 +17278,14 @@
 		
 		<Starting_Active_Player> Mandalorians </Starting_Active_Player>
 		
-		<Story_Name>Early_Empire, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Early_Empire.xml </Story_Name>
-		<Story_Name>CIS_Remnant, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_CIS_Remnant.xml </Story_Name>
-		<Story_Name>Trade_Federation, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Trade_Federation.xml </Story_Name>
-        <Story_Name>Commerce_Guild, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Commerce_Guild.xml </Story_Name>
-		<Story_Name>Terrorists, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Terrorists.xml </Story_Name>
-		<Story_Name>Techno_Union, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Techno_Union.xml </Story_Name>
-		<Story_Name>Banking_Clan, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Banking_Clan.xml </Story_Name>
-		<Story_Name>Mandalorians, story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Mandalorians.xml </Story_Name>
+		<Story_Name>Early_Empire, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Early_Empire.xml </Story_Name>
+		<Story_Name>CIS_Remnant, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_CIS_Remnant.xml </Story_Name>
+		<Story_Name>Trade_Federation, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Trade_Federation.xml </Story_Name>
+        <Story_Name>Commerce_Guild, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Commerce_Guild.xml </Story_Name>
+		<Story_Name>Terrorists, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Terrorists.xml </Story_Name>
+		<Story_Name>Techno_Union, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Techno_Union.xml </Story_Name>
+		<Story_Name>Banking_Clan, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Banking_Clan.xml </Story_Name>
+		<Story_Name>Mandalorians, 1_Era_Story\story_Dark_Reign_of_Empire\Story_Dark_Reign_of_Empire_Mandalorians.xml </Story_Name>
 		
 		<AI_Player_Control> Early_Empire, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> CIS_Remnant, BasicEmpire </AI_Player_Control>
