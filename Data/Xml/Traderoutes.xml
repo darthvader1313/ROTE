@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<TradeRoutes>
+
+	
+
+	<TradeRoute Name="TR1">
+            <Point_A>Tython</Point_A>
+            <Point_B>Empress_Teta</Point_B>
+            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
+
+    </TradeRoute>
+
+	<TradeRoute Name="TR2">
+            <Point_A>Empress_Teta</Point_A>
+            <Point_B>Aargau</Point_B>
+            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
+	
+	</TradeRoute>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</TradeRoutes>
