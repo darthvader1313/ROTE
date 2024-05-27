@@ -6,7 +6,7 @@
 		<Settings_For_Faction Name="Neutral">
 				<Color_Zoomed_Out>200, 200, 200, 255</Color_Zoomed_Out>
 				<Color_Zoomed_In>150, 150, 150, 255</Color_Zoomed_In>
-				<Width>3.0</Width>
+				<Width>1.0</Width>
 				<Render_Mode>ADDITIVE</Render_Mode>		
       </Settings_For_Faction>
         
@@ -14,7 +14,7 @@
 		<Settings_For_Faction Name="Enemy">
 				<Color_Zoomed_Out>225, 0, 0, 255</Color_Zoomed_Out>
 				<Color_Zoomed_In>128, 0 0, 255</Color_Zoomed_In>
-				<Width>3.0</Width>
+				<Width>1.0</Width>
 				<Render_Mode>ADDITIVE</Render_Mode>		
       </Settings_For_Faction>
 
@@ -22,7 +22,7 @@
 		<Settings_For_Faction Name="Ally">
 				<Color_Zoomed_Out>0, 255, 0, 255</Color_Zoomed_Out>
 				<Color_Zoomed_In>0, 128, 0, 255</Color_Zoomed_In>
-				<Width>3.0</Width>
+				<Width>1.0</Width>
 				<Render_Mode>ADDITIVE</Render_Mode>		
       </Settings_For_Faction>
         
@@ -30,7 +30,7 @@
 		<Settings_For_Faction Name="Good">
 				<Color_Zoomed_Out>225, 0, 0, 255</Color_Zoomed_Out>
 				<Color_Zoomed_In>128, 0 0, 255</Color_Zoomed_In>
-				<Width>3.0</Width>
+				<Width>1.0</Width>
 				<Render_Mode>ADDITIVE</Render_Mode>		
       </Settings_For_Faction>
 
@@ -38,7 +38,7 @@
 		<Settings_For_Faction Name="Evil">
 				<Color_Zoomed_Out>0, 0, 255, 255</Color_Zoomed_Out>
 				<Color_Zoomed_In>0, 0, 255, 255</Color_Zoomed_In>
-				<Width>3.0</Width>
+				<Width>1.0</Width>
 				<Render_Mode>ADDITIVE</Render_Mode>		
       </Settings_For_Faction>
 
@@ -46,7 +46,7 @@
 		<Settings_For_Faction Name="Corrupt">
 				<Color_Zoomed_Out>255, 255, 255, 255</Color_Zoomed_Out>
 				<Color_Zoomed_In>255, 255, 255, 255</Color_Zoomed_In>
-				<Width>3.0</Width>
+				<Width>1.0</Width>
 				<Render_Mode>ADDITIVE</Render_Mode>		
       </Settings_For_Faction>
         
