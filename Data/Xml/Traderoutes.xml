@@ -833,7 +833,7 @@
 
 	<TradeRoute Name="Route93">
             <Point_A>Serenno</Point_A>
-            <Point_B>Cuitric</Point_B>
+            <Point_B>Ciutric</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>  
@@ -1364,7 +1364,7 @@
 
 	<TradeRoute Name="Route152">
             <Point_A>Bimmiel</Point_A>
-            <Point_B>Cuitric</Point_B>
+            <Point_B>Ciutric</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>   
@@ -1372,7 +1372,7 @@
     </TradeRoute>
 
 	<TradeRoute Name="Route153">
-            <Point_A>Cuitric</Point_A>
+            <Point_A>Ciutric</Point_A>
             <Point_B>Binquaros</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
