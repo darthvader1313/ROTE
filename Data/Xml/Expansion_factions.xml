@@ -923,6 +923,45 @@
 		<Strategic_Map_Music_Event> Galactic_Map_Early_Empire_Music_Event </Strategic_Map_Music_Event>
 		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
 		
+		<SFX_Event_Tactical_Land_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Land_Battle_Pending>
+		<SFX_Event_Tactical_Space_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Space_Battle_Pending>
+		<Music_Event_Tactical_Land_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Land_Battle_Pending>
+		<Music_Event_Tactical_Space_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Space_Battle_Pending>
+		
+		<!-- Early_Empire: Space maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Space, Space_Map_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Temperate land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Temperate, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Arctic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Arctic, Ice_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Desert land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Desert, Desert_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Forest land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Forest, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Swamp land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Swamp, Swamp_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Volcanic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Volcanic, Volcanic_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Urban land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Urban, Urban_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+
+		<!-- Early_Empire: Space maps: Music events for battle -->
+		<Music_Event_List_Battle> Space, Space_Map_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Temperate land maps: Music evnts for battle -->
+		<Music_Event_List_Battle> Temperate, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Arctic land maps: Music events for battle -->
+		<Music_Event_List_Battle> Arctic, Ice_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Desert land maps: Music events for battle -->
+		<Music_Event_List_Battle> Desert, Desert_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Forest land maps: Music events for battle -->
+		<Music_Event_List_Battle> Forest, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Swamp land maps: Music events for battle -->
+		<Music_Event_List_Battle> Swamp, Swamp_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Volcanic land maps: Music evets for battle -->
+		<Music_Event_List_Battle> Volcanic, Volcanic_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Urban land maps: Music events for battle -->
+		<Music_Event_List_Battle> Urban, Urban_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
 		<Space_Skirmish_AI_Default_Forces> 
 			
@@ -1208,6 +1247,45 @@
 		<Strategic_Map_Music_Event> Galactic_Map_Terrorists_Music_Event </Strategic_Map_Music_Event>
 		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
 		
+		<SFX_Event_Tactical_Land_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Land_Battle_Pending>
+		<SFX_Event_Tactical_Space_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Space_Battle_Pending>
+		<Music_Event_Tactical_Land_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Land_Battle_Pending>
+		<Music_Event_Tactical_Space_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Space_Battle_Pending>
+		
+		<!-- Early_Empire: Space maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Space, Space_Map_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Temperate land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Temperate, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Arctic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Arctic, Ice_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Desert land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Desert, Desert_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Forest land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Forest, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Swamp land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Swamp, Swamp_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Volcanic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Volcanic, Volcanic_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Urban land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Urban, Urban_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+
+		<!-- Early_Empire: Space maps: Music events for battle -->
+		<Music_Event_List_Battle> Space, Space_Map_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Temperate land maps: Music evnts for battle -->
+		<Music_Event_List_Battle> Temperate, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Arctic land maps: Music events for battle -->
+		<Music_Event_List_Battle> Arctic, Ice_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Desert land maps: Music events for battle -->
+		<Music_Event_List_Battle> Desert, Desert_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Forest land maps: Music events for battle -->
+		<Music_Event_List_Battle> Forest, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Swamp land maps: Music events for battle -->
+		<Music_Event_List_Battle> Swamp, Swamp_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Volcanic land maps: Music evets for battle -->
+		<Music_Event_List_Battle> Volcanic, Volcanic_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Urban land maps: Music events for battle -->
+		<Music_Event_List_Battle> Urban, Urban_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
 		<Space_Skirmish_AI_Default_Forces> 
 			
@@ -1491,6 +1569,45 @@
 		<!-- MusicEvents -->
 		<Strategic_Map_Music_Event> Galactic_Map_CIS_Remnant_Music_Event </Strategic_Map_Music_Event>
 		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
+		
+		<SFX_Event_Tactical_Land_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Land_Battle_Pending>
+		<SFX_Event_Tactical_Space_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Space_Battle_Pending>
+		<Music_Event_Tactical_Land_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Land_Battle_Pending>
+		<Music_Event_Tactical_Space_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Space_Battle_Pending>
+		
+		<!-- Early_Empire: Space maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Space, Space_Map_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Temperate land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Temperate, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Arctic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Arctic, Ice_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Desert land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Desert, Desert_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Forest land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Forest, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Swamp land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Swamp, Swamp_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Volcanic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Volcanic, Volcanic_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Urban land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Urban, Urban_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+
+		<!-- Early_Empire: Space maps: Music events for battle -->
+		<Music_Event_List_Battle> Space, Space_Map_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Temperate land maps: Music evnts for battle -->
+		<Music_Event_List_Battle> Temperate, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Arctic land maps: Music events for battle -->
+		<Music_Event_List_Battle> Arctic, Ice_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Desert land maps: Music events for battle -->
+		<Music_Event_List_Battle> Desert, Desert_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Forest land maps: Music events for battle -->
+		<Music_Event_List_Battle> Forest, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Swamp land maps: Music events for battle -->
+		<Music_Event_List_Battle> Swamp, Swamp_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Volcanic land maps: Music evets for battle -->
+		<Music_Event_List_Battle> Volcanic, Volcanic_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Urban land maps: Music events for battle -->
+		<Music_Event_List_Battle> Urban, Urban_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
 		
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
 		<Space_Skirmish_AI_Default_Forces> 
@@ -1777,6 +1894,45 @@
 		<Strategic_Map_Music_Event> Galactic_Map_CIS_Remnant_Music_Event </Strategic_Map_Music_Event>
 		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
 		
+		<SFX_Event_Tactical_Land_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Land_Battle_Pending>
+		<SFX_Event_Tactical_Space_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Space_Battle_Pending>
+		<Music_Event_Tactical_Land_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Land_Battle_Pending>
+		<Music_Event_Tactical_Space_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Space_Battle_Pending>
+		
+		<!-- Early_Empire: Space maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Space, Space_Map_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Temperate land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Temperate, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Arctic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Arctic, Ice_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Desert land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Desert, Desert_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Forest land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Forest, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Swamp land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Swamp, Swamp_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Volcanic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Volcanic, Volcanic_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Urban land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Urban, Urban_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+
+		<!-- Early_Empire: Space maps: Music events for battle -->
+		<Music_Event_List_Battle> Space, Space_Map_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Temperate land maps: Music evnts for battle -->
+		<Music_Event_List_Battle> Temperate, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Arctic land maps: Music events for battle -->
+		<Music_Event_List_Battle> Arctic, Ice_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Desert land maps: Music events for battle -->
+		<Music_Event_List_Battle> Desert, Desert_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Forest land maps: Music events for battle -->
+		<Music_Event_List_Battle> Forest, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Swamp land maps: Music events for battle -->
+		<Music_Event_List_Battle> Swamp, Swamp_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Volcanic land maps: Music evets for battle -->
+		<Music_Event_List_Battle> Volcanic, Volcanic_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Urban land maps: Music events for battle -->
+		<Music_Event_List_Battle> Urban, Urban_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
 		<Space_Skirmish_AI_Default_Forces> 
 			
@@ -2061,6 +2217,45 @@
 		<!-- MusicEvents -->
 		<Strategic_Map_Music_Event> Galactic_Map_CIS_Remnant_Music_Event </Strategic_Map_Music_Event>
 		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
+		
+		<SFX_Event_Tactical_Land_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Land_Battle_Pending>
+		<SFX_Event_Tactical_Space_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Space_Battle_Pending>
+		<Music_Event_Tactical_Land_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Land_Battle_Pending>
+		<Music_Event_Tactical_Space_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Space_Battle_Pending>
+		
+		<!-- Early_Empire: Space maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Space, Space_Map_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Temperate land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Temperate, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Arctic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Arctic, Ice_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Desert land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Desert, Desert_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Forest land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Forest, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Swamp land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Swamp, Swamp_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Volcanic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Volcanic, Volcanic_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Urban land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Urban, Urban_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+
+		<!-- Early_Empire: Space maps: Music events for battle -->
+		<Music_Event_List_Battle> Space, Space_Map_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Temperate land maps: Music evnts for battle -->
+		<Music_Event_List_Battle> Temperate, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Arctic land maps: Music events for battle -->
+		<Music_Event_List_Battle> Arctic, Ice_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Desert land maps: Music events for battle -->
+		<Music_Event_List_Battle> Desert, Desert_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Forest land maps: Music events for battle -->
+		<Music_Event_List_Battle> Forest, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Swamp land maps: Music events for battle -->
+		<Music_Event_List_Battle> Swamp, Swamp_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Volcanic land maps: Music evets for battle -->
+		<Music_Event_List_Battle> Volcanic, Volcanic_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Urban land maps: Music events for battle -->
+		<Music_Event_List_Battle> Urban, Urban_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
 		
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
 		<Space_Skirmish_AI_Default_Forces> 
@@ -2347,6 +2542,45 @@
 		<Strategic_Map_Music_Event> Galactic_Map_CIS_Remnant_Music_Event </Strategic_Map_Music_Event>
 		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
 		
+		<SFX_Event_Tactical_Land_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Land_Battle_Pending>
+		<SFX_Event_Tactical_Space_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Space_Battle_Pending>
+		<Music_Event_Tactical_Land_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Land_Battle_Pending>
+		<Music_Event_Tactical_Space_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Space_Battle_Pending>
+		
+		<!-- Early_Empire: Space maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Space, Space_Map_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Temperate land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Temperate, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Arctic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Arctic, Ice_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Desert land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Desert, Desert_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Forest land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Forest, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Swamp land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Swamp, Swamp_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Volcanic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Volcanic, Volcanic_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Urban land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Urban, Urban_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+
+		<!-- Early_Empire: Space maps: Music events for battle -->
+		<Music_Event_List_Battle> Space, Space_Map_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Temperate land maps: Music evnts for battle -->
+		<Music_Event_List_Battle> Temperate, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Arctic land maps: Music events for battle -->
+		<Music_Event_List_Battle> Arctic, Ice_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Desert land maps: Music events for battle -->
+		<Music_Event_List_Battle> Desert, Desert_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Forest land maps: Music events for battle -->
+		<Music_Event_List_Battle> Forest, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Swamp land maps: Music events for battle -->
+		<Music_Event_List_Battle> Swamp, Swamp_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Volcanic land maps: Music evets for battle -->
+		<Music_Event_List_Battle> Volcanic, Volcanic_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Urban land maps: Music events for battle -->
+		<Music_Event_List_Battle> Urban, Urban_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
 		<Space_Skirmish_AI_Default_Forces> 
 			
@@ -2631,6 +2865,45 @@
 		<!-- MusicEvents -->
 		<Strategic_Map_Music_Event> Galactic_Map_CIS_Remnant_Music_Event </Strategic_Map_Music_Event>
 		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
+		
+		<SFX_Event_Tactical_Land_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Land_Battle_Pending>
+		<SFX_Event_Tactical_Space_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Space_Battle_Pending>
+		<Music_Event_Tactical_Land_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Land_Battle_Pending>
+		<Music_Event_Tactical_Space_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Space_Battle_Pending>
+		
+		<!-- Early_Empire: Space maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Space, Space_Map_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Temperate land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Temperate, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Arctic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Arctic, Ice_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Desert land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Desert, Desert_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Forest land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Forest, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Swamp land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Swamp, Swamp_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Volcanic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Volcanic, Volcanic_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Urban land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Urban, Urban_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+
+		<!-- Early_Empire: Space maps: Music events for battle -->
+		<Music_Event_List_Battle> Space, Space_Map_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Temperate land maps: Music evnts for battle -->
+		<Music_Event_List_Battle> Temperate, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Arctic land maps: Music events for battle -->
+		<Music_Event_List_Battle> Arctic, Ice_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Desert land maps: Music events for battle -->
+		<Music_Event_List_Battle> Desert, Desert_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Forest land maps: Music events for battle -->
+		<Music_Event_List_Battle> Forest, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Swamp land maps: Music events for battle -->
+		<Music_Event_List_Battle> Swamp, Swamp_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Volcanic land maps: Music evets for battle -->
+		<Music_Event_List_Battle> Volcanic, Volcanic_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Urban land maps: Music events for battle -->
+		<Music_Event_List_Battle> Urban, Urban_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
 		
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
 		<Space_Skirmish_AI_Default_Forces> 
@@ -2917,6 +3190,45 @@
 		<!-- MusicEvents -->
 		<Strategic_Map_Music_Event> Galactic_Map_Mandalorians_Music_Event </Strategic_Map_Music_Event>
 		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
+		
+		<SFX_Event_Tactical_Land_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Land_Battle_Pending>
+		<SFX_Event_Tactical_Space_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Space_Battle_Pending>
+		<Music_Event_Tactical_Land_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Land_Battle_Pending>
+		<Music_Event_Tactical_Space_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Space_Battle_Pending>
+		
+		<!-- Early_Empire: Space maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Space, Space_Map_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Temperate land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Temperate, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Arctic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Arctic, Ice_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Desert land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Desert, Desert_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Forest land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Forest, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Swamp land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Swamp, Swamp_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Volcanic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Volcanic, Volcanic_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Urban land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Urban, Urban_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+
+		<!-- Early_Empire: Space maps: Music events for battle -->
+		<Music_Event_List_Battle> Space, Space_Map_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Temperate land maps: Music evnts for battle -->
+		<Music_Event_List_Battle> Temperate, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Arctic land maps: Music events for battle -->
+		<Music_Event_List_Battle> Arctic, Ice_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Desert land maps: Music events for battle -->
+		<Music_Event_List_Battle> Desert, Desert_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Forest land maps: Music events for battle -->
+		<Music_Event_List_Battle> Forest, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Swamp land maps: Music events for battle -->
+		<Music_Event_List_Battle> Swamp, Swamp_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Volcanic land maps: Music evets for battle -->
+		<Music_Event_List_Battle> Volcanic, Volcanic_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Urban land maps: Music events for battle -->
+		<Music_Event_List_Battle> Urban, Urban_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
 		
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
 		<Space_Skirmish_AI_Default_Forces> 
@@ -3261,6 +3573,45 @@
 		<Strategic_Map_Music_Event> Galactic_Map_Galactic_Empire_Music_Event </Strategic_Map_Music_Event>
 		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
 		
+		<SFX_Event_Tactical_Land_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Land_Battle_Pending>
+		<SFX_Event_Tactical_Space_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Space_Battle_Pending>
+		<Music_Event_Tactical_Land_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Land_Battle_Pending>
+		<Music_Event_Tactical_Space_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Space_Battle_Pending>
+		
+		<!-- Early_Empire: Space maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Space, Space_Map_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Temperate land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Temperate, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Arctic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Arctic, Ice_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Desert land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Desert, Desert_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Forest land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Forest, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Swamp land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Swamp, Swamp_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Volcanic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Volcanic, Volcanic_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Urban land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Urban, Urban_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+
+		<!-- Early_Empire: Space maps: Music events for battle -->
+		<Music_Event_List_Battle> Space, Space_Map_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Temperate land maps: Music evnts for battle -->
+		<Music_Event_List_Battle> Temperate, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Arctic land maps: Music events for battle -->
+		<Music_Event_List_Battle> Arctic, Ice_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Desert land maps: Music events for battle -->
+		<Music_Event_List_Battle> Desert, Desert_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Forest land maps: Music events for battle -->
+		<Music_Event_List_Battle> Forest, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Swamp land maps: Music events for battle -->
+		<Music_Event_List_Battle> Swamp, Swamp_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Volcanic land maps: Music evets for battle -->
+		<Music_Event_List_Battle> Volcanic, Volcanic_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Urban land maps: Music events for battle -->
+		<Music_Event_List_Battle> Urban, Urban_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
 		<Space_Skirmish_AI_Default_Forces> 
 			
@@ -3554,6 +3905,45 @@
 		<Strategic_Map_Music_Event> Galactic_Map_Rebel_Alliance_Music_Event </Strategic_Map_Music_Event>
 		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
 		
+		<SFX_Event_Tactical_Land_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Land_Battle_Pending>
+		<SFX_Event_Tactical_Space_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Space_Battle_Pending>
+		<Music_Event_Tactical_Land_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Land_Battle_Pending>
+		<Music_Event_Tactical_Space_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Space_Battle_Pending>
+		
+		<!-- Early_Empire: Space maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Space, Space_Map_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Temperate land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Temperate, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Arctic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Arctic, Ice_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Desert land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Desert, Desert_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Forest land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Forest, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Swamp land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Swamp, Swamp_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Volcanic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Volcanic, Volcanic_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Urban land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Urban, Urban_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+
+		<!-- Early_Empire: Space maps: Music events for battle -->
+		<Music_Event_List_Battle> Space, Space_Map_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Temperate land maps: Music evnts for battle -->
+		<Music_Event_List_Battle> Temperate, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Arctic land maps: Music events for battle -->
+		<Music_Event_List_Battle> Arctic, Ice_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Desert land maps: Music events for battle -->
+		<Music_Event_List_Battle> Desert, Desert_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Forest land maps: Music events for battle -->
+		<Music_Event_List_Battle> Forest, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Swamp land maps: Music events for battle -->
+		<Music_Event_List_Battle> Swamp, Swamp_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Volcanic land maps: Music evets for battle -->
+		<Music_Event_List_Battle> Volcanic, Volcanic_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Urban land maps: Music events for battle -->
+		<Music_Event_List_Battle> Urban, Urban_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
 		<Space_Skirmish_AI_Default_Forces> 
 			
@@ -3846,6 +4236,45 @@
 		<Strategic_Map_Music_Event> Galactic_Map_Pyke_Syndicate_Music_Event </Strategic_Map_Music_Event>
 		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
 		
+		<SFX_Event_Tactical_Land_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Land_Battle_Pending>
+		<SFX_Event_Tactical_Space_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Space_Battle_Pending>
+		<Music_Event_Tactical_Land_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Land_Battle_Pending>
+		<Music_Event_Tactical_Space_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Space_Battle_Pending>
+		
+		<!-- Early_Empire: Space maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Space, Space_Map_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Temperate land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Temperate, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Arctic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Arctic, Ice_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Desert land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Desert, Desert_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Forest land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Forest, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Swamp land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Swamp, Swamp_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Volcanic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Volcanic, Volcanic_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Urban land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Urban, Urban_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+
+		<!-- Early_Empire: Space maps: Music events for battle -->
+		<Music_Event_List_Battle> Space, Space_Map_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Temperate land maps: Music evnts for battle -->
+		<Music_Event_List_Battle> Temperate, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Arctic land maps: Music events for battle -->
+		<Music_Event_List_Battle> Arctic, Ice_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Desert land maps: Music events for battle -->
+		<Music_Event_List_Battle> Desert, Desert_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Forest land maps: Music events for battle -->
+		<Music_Event_List_Battle> Forest, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Swamp land maps: Music events for battle -->
+		<Music_Event_List_Battle> Swamp, Swamp_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Volcanic land maps: Music evets for battle -->
+		<Music_Event_List_Battle> Volcanic, Volcanic_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Urban land maps: Music events for battle -->
+		<Music_Event_List_Battle> Urban, Urban_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
 		<Space_Skirmish_AI_Default_Forces> 
 			
@@ -4133,6 +4562,45 @@
 		<Strategic_Map_Music_Event> Galactic_Map_Corporate_Sector_Music_Event </Strategic_Map_Music_Event>
 		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
 		
+		<SFX_Event_Tactical_Land_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Land_Battle_Pending>
+		<SFX_Event_Tactical_Space_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Space_Battle_Pending>
+		<Music_Event_Tactical_Land_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Land_Battle_Pending>
+		<Music_Event_Tactical_Space_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Space_Battle_Pending>
+		
+		<!-- Early_Empire: Space maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Space, Space_Map_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Temperate land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Temperate, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Arctic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Arctic, Ice_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Desert land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Desert, Desert_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Forest land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Forest, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Swamp land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Swamp, Swamp_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Volcanic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Volcanic, Volcanic_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Urban land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Urban, Urban_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+
+		<!-- Early_Empire: Space maps: Music events for battle -->
+		<Music_Event_List_Battle> Space, Space_Map_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Temperate land maps: Music evnts for battle -->
+		<Music_Event_List_Battle> Temperate, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Arctic land maps: Music events for battle -->
+		<Music_Event_List_Battle> Arctic, Ice_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Desert land maps: Music events for battle -->
+		<Music_Event_List_Battle> Desert, Desert_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Forest land maps: Music events for battle -->
+		<Music_Event_List_Battle> Forest, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Swamp land maps: Music events for battle -->
+		<Music_Event_List_Battle> Swamp, Swamp_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Volcanic land maps: Music evets for battle -->
+		<Music_Event_List_Battle> Volcanic, Volcanic_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Urban land maps: Music events for battle -->
+		<Music_Event_List_Battle> Urban, Urban_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
 		<Space_Skirmish_AI_Default_Forces> 
 			
@@ -4418,6 +4886,45 @@
 		<!-- MusicEvents -->
 		<Strategic_Map_Music_Event> Galactic_Map_Hapan_Consortium_Music_Event </Strategic_Map_Music_Event>
 		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
+		
+		<SFX_Event_Tactical_Land_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Land_Battle_Pending>
+		<SFX_Event_Tactical_Space_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Space_Battle_Pending>
+		<Music_Event_Tactical_Land_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Land_Battle_Pending>
+		<Music_Event_Tactical_Space_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Space_Battle_Pending>
+		
+		<!-- Early_Empire: Space maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Space, Space_Map_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Temperate land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Temperate, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Arctic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Arctic, Ice_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Desert land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Desert, Desert_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Forest land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Forest, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Swamp land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Swamp, Swamp_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Volcanic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Volcanic, Volcanic_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Urban land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Urban, Urban_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+
+		<!-- Early_Empire: Space maps: Music events for battle -->
+		<Music_Event_List_Battle> Space, Space_Map_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Temperate land maps: Music evnts for battle -->
+		<Music_Event_List_Battle> Temperate, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Arctic land maps: Music events for battle -->
+		<Music_Event_List_Battle> Arctic, Ice_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Desert land maps: Music events for battle -->
+		<Music_Event_List_Battle> Desert, Desert_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Forest land maps: Music events for battle -->
+		<Music_Event_List_Battle> Forest, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Swamp land maps: Music events for battle -->
+		<Music_Event_List_Battle> Swamp, Swamp_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Volcanic land maps: Music evets for battle -->
+		<Music_Event_List_Battle> Volcanic, Volcanic_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Urban land maps: Music events for battle -->
+		<Music_Event_List_Battle> Urban, Urban_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
 		
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
 		<Space_Skirmish_AI_Default_Forces> 
@@ -4706,6 +5213,45 @@
 		<Strategic_Map_Music_Event> Galactic_Map_Crimson_Dawn_Music_Event </Strategic_Map_Music_Event>
 		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
 		
+		<SFX_Event_Tactical_Land_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Land_Battle_Pending>
+		<SFX_Event_Tactical_Space_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Space_Battle_Pending>
+		<Music_Event_Tactical_Land_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Land_Battle_Pending>
+		<Music_Event_Tactical_Space_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Space_Battle_Pending>
+		
+		<!-- Early_Empire: Space maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Space, Space_Map_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Temperate land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Temperate, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Arctic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Arctic, Ice_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Desert land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Desert, Desert_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Forest land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Forest, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Swamp land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Swamp, Swamp_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Volcanic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Volcanic, Volcanic_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Urban land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Urban, Urban_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+
+		<!-- Early_Empire: Space maps: Music events for battle -->
+		<Music_Event_List_Battle> Space, Space_Map_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Temperate land maps: Music evnts for battle -->
+		<Music_Event_List_Battle> Temperate, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Arctic land maps: Music events for battle -->
+		<Music_Event_List_Battle> Arctic, Ice_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Desert land maps: Music events for battle -->
+		<Music_Event_List_Battle> Desert, Desert_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Forest land maps: Music events for battle -->
+		<Music_Event_List_Battle> Forest, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Swamp land maps: Music events for battle -->
+		<Music_Event_List_Battle> Swamp, Swamp_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Volcanic land maps: Music evets for battle -->
+		<Music_Event_List_Battle> Volcanic, Volcanic_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Urban land maps: Music events for battle -->
+		<Music_Event_List_Battle> Urban, Urban_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
 		<Space_Skirmish_AI_Default_Forces> 
 			
@@ -4989,6 +5535,45 @@
 		<!-- MusicEvents -->
 		<Strategic_Map_Music_Event> Galactic_Map_Black_Sun_Music_Event </Strategic_Map_Music_Event>
 		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
+		
+		<SFX_Event_Tactical_Land_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Land_Battle_Pending>
+		<SFX_Event_Tactical_Space_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Space_Battle_Pending>
+		<Music_Event_Tactical_Land_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Land_Battle_Pending>
+		<Music_Event_Tactical_Space_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Space_Battle_Pending>
+		
+		<!-- Early_Empire: Space maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Space, Space_Map_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Temperate land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Temperate, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Arctic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Arctic, Ice_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Desert land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Desert, Desert_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Forest land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Forest, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Swamp land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Swamp, Swamp_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Volcanic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Volcanic, Volcanic_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Urban land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Urban, Urban_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+
+		<!-- Early_Empire: Space maps: Music events for battle -->
+		<Music_Event_List_Battle> Space, Space_Map_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Temperate land maps: Music evnts for battle -->
+		<Music_Event_List_Battle> Temperate, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Arctic land maps: Music events for battle -->
+		<Music_Event_List_Battle> Arctic, Ice_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Desert land maps: Music events for battle -->
+		<Music_Event_List_Battle> Desert, Desert_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Forest land maps: Music events for battle -->
+		<Music_Event_List_Battle> Forest, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Swamp land maps: Music events for battle -->
+		<Music_Event_List_Battle> Swamp, Swamp_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Volcanic land maps: Music evets for battle -->
+		<Music_Event_List_Battle> Volcanic, Volcanic_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Urban land maps: Music events for battle -->
+		<Music_Event_List_Battle> Urban, Urban_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
 		
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
 		<Space_Skirmish_AI_Default_Forces> 
@@ -5276,6 +5861,45 @@
 		<!-- MusicEvents -->
 		<Strategic_Map_Music_Event> Galactic_Map_Hutt_Cartel_Music_Event </Strategic_Map_Music_Event>
 		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
+		
+		<SFX_Event_Tactical_Land_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Land_Battle_Pending>
+		<SFX_Event_Tactical_Space_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Space_Battle_Pending>
+		<Music_Event_Tactical_Land_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Land_Battle_Pending>
+		<Music_Event_Tactical_Space_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Space_Battle_Pending>
+		
+		<!-- Early_Empire: Space maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Space, Space_Map_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Temperate land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Temperate, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Arctic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Arctic, Ice_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Desert land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Desert, Desert_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Forest land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Forest, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Swamp land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Swamp, Swamp_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Volcanic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Volcanic, Volcanic_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Urban land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Urban, Urban_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+
+		<!-- Early_Empire: Space maps: Music events for battle -->
+		<Music_Event_List_Battle> Space, Space_Map_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Temperate land maps: Music evnts for battle -->
+		<Music_Event_List_Battle> Temperate, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Arctic land maps: Music events for battle -->
+		<Music_Event_List_Battle> Arctic, Ice_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Desert land maps: Music events for battle -->
+		<Music_Event_List_Battle> Desert, Desert_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Forest land maps: Music events for battle -->
+		<Music_Event_List_Battle> Forest, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Swamp land maps: Music events for battle -->
+		<Music_Event_List_Battle> Swamp, Swamp_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Volcanic land maps: Music evets for battle -->
+		<Music_Event_List_Battle> Volcanic, Volcanic_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Urban land maps: Music events for battle -->
+		<Music_Event_List_Battle> Urban, Urban_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
 		
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
 		<Space_Skirmish_AI_Default_Forces> 
@@ -5617,6 +6241,45 @@
 		<Strategic_Map_Music_Event> Galactic_Map_New_Republic_Music_Event </Strategic_Map_Music_Event>
 		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
 		
+		<SFX_Event_Tactical_Land_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Land_Battle_Pending>
+		<SFX_Event_Tactical_Space_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Space_Battle_Pending>
+		<Music_Event_Tactical_Land_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Land_Battle_Pending>
+		<Music_Event_Tactical_Space_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Space_Battle_Pending>
+		
+		<!-- Early_Empire: Space maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Space, Space_Map_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Temperate land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Temperate, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Arctic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Arctic, Ice_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Desert land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Desert, Desert_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Forest land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Forest, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Swamp land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Swamp, Swamp_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Volcanic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Volcanic, Volcanic_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Urban land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Urban, Urban_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+
+		<!-- Early_Empire: Space maps: Music events for battle -->
+		<Music_Event_List_Battle> Space, Space_Map_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Temperate land maps: Music evnts for battle -->
+		<Music_Event_List_Battle> Temperate, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Arctic land maps: Music events for battle -->
+		<Music_Event_List_Battle> Arctic, Ice_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Desert land maps: Music events for battle -->
+		<Music_Event_List_Battle> Desert, Desert_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Forest land maps: Music events for battle -->
+		<Music_Event_List_Battle> Forest, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Swamp land maps: Music events for battle -->
+		<Music_Event_List_Battle> Swamp, Swamp_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Volcanic land maps: Music evets for battle -->
+		<Music_Event_List_Battle> Volcanic, Volcanic_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Urban land maps: Music events for battle -->
+		<Music_Event_List_Battle> Urban, Urban_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
 		<Space_Skirmish_AI_Default_Forces> 
 			
@@ -5902,6 +6565,45 @@
 		<Strategic_Map_Music_Event> Galactic_Map_Imperial_Remnant_Music_Event </Strategic_Map_Music_Event>
 		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
 		
+		<SFX_Event_Tactical_Land_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Land_Battle_Pending>
+		<SFX_Event_Tactical_Space_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Space_Battle_Pending>
+		<Music_Event_Tactical_Land_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Land_Battle_Pending>
+		<Music_Event_Tactical_Space_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Space_Battle_Pending>
+		
+		<!-- Early_Empire: Space maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Space, Space_Map_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Temperate land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Temperate, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Arctic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Arctic, Ice_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Desert land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Desert, Desert_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Forest land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Forest, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Swamp land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Swamp, Swamp_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Volcanic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Volcanic, Volcanic_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Urban land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Urban, Urban_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+
+		<!-- Early_Empire: Space maps: Music events for battle -->
+		<Music_Event_List_Battle> Space, Space_Map_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Temperate land maps: Music evnts for battle -->
+		<Music_Event_List_Battle> Temperate, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Arctic land maps: Music events for battle -->
+		<Music_Event_List_Battle> Arctic, Ice_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Desert land maps: Music events for battle -->
+		<Music_Event_List_Battle> Desert, Desert_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Forest land maps: Music events for battle -->
+		<Music_Event_List_Battle> Forest, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Swamp land maps: Music events for battle -->
+		<Music_Event_List_Battle> Swamp, Swamp_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Volcanic land maps: Music evets for battle -->
+		<Music_Event_List_Battle> Volcanic, Volcanic_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Urban land maps: Music events for battle -->
+		<Music_Event_List_Battle> Urban, Urban_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
 		<Space_Skirmish_AI_Default_Forces> 
 			
@@ -6186,6 +6888,45 @@
 		<!-- MusicEvents -->
 		<Strategic_Map_Music_Event> Galactic_Map_Imperial_Remnant_Rax_Music_Event </Strategic_Map_Music_Event>
 		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
+		
+		<SFX_Event_Tactical_Land_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Land_Battle_Pending>
+		<SFX_Event_Tactical_Space_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Space_Battle_Pending>
+		<Music_Event_Tactical_Land_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Land_Battle_Pending>
+		<Music_Event_Tactical_Space_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Space_Battle_Pending>
+		
+		<!-- Early_Empire: Space maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Space, Space_Map_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Temperate land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Temperate, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Arctic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Arctic, Ice_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Desert land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Desert, Desert_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Forest land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Forest, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Swamp land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Swamp, Swamp_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Volcanic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Volcanic, Volcanic_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Urban land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Urban, Urban_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+
+		<!-- Early_Empire: Space maps: Music events for battle -->
+		<Music_Event_List_Battle> Space, Space_Map_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Temperate land maps: Music evnts for battle -->
+		<Music_Event_List_Battle> Temperate, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Arctic land maps: Music events for battle -->
+		<Music_Event_List_Battle> Arctic, Ice_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Desert land maps: Music events for battle -->
+		<Music_Event_List_Battle> Desert, Desert_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Forest land maps: Music events for battle -->
+		<Music_Event_List_Battle> Forest, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Swamp land maps: Music events for battle -->
+		<Music_Event_List_Battle> Swamp, Swamp_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Volcanic land maps: Music evets for battle -->
+		<Music_Event_List_Battle> Volcanic, Volcanic_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Urban land maps: Music events for battle -->
+		<Music_Event_List_Battle> Urban, Urban_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
 		
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
 		<Space_Skirmish_AI_Default_Forces> 
@@ -6474,6 +7215,45 @@
 		<Strategic_Map_Music_Event> Galactic_Map_Imperial_Remnant_Gratloe_Music_Event </Strategic_Map_Music_Event>
 		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
 		
+		<SFX_Event_Tactical_Land_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Land_Battle_Pending>
+		<SFX_Event_Tactical_Space_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Space_Battle_Pending>
+		<Music_Event_Tactical_Land_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Land_Battle_Pending>
+		<Music_Event_Tactical_Space_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Space_Battle_Pending>
+		
+		<!-- Early_Empire: Space maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Space, Space_Map_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Temperate land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Temperate, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Arctic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Arctic, Ice_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Desert land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Desert, Desert_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Forest land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Forest, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Swamp land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Swamp, Swamp_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Volcanic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Volcanic, Volcanic_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Urban land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Urban, Urban_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+
+		<!-- Early_Empire: Space maps: Music events for battle -->
+		<Music_Event_List_Battle> Space, Space_Map_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Temperate land maps: Music evnts for battle -->
+		<Music_Event_List_Battle> Temperate, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Arctic land maps: Music events for battle -->
+		<Music_Event_List_Battle> Arctic, Ice_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Desert land maps: Music events for battle -->
+		<Music_Event_List_Battle> Desert, Desert_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Forest land maps: Music events for battle -->
+		<Music_Event_List_Battle> Forest, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Swamp land maps: Music events for battle -->
+		<Music_Event_List_Battle> Swamp, Swamp_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Volcanic land maps: Music evets for battle -->
+		<Music_Event_List_Battle> Volcanic, Volcanic_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Urban land maps: Music events for battle -->
+		<Music_Event_List_Battle> Urban, Urban_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
 		<Space_Skirmish_AI_Default_Forces> 
 			
@@ -6760,6 +7540,45 @@
 		<Strategic_Map_Music_Event> Galactic_Map_Imperial_Remnant_Loring_Music_Event </Strategic_Map_Music_Event>
 		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
 		
+		<SFX_Event_Tactical_Land_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Land_Battle_Pending>
+		<SFX_Event_Tactical_Space_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Space_Battle_Pending>
+		<Music_Event_Tactical_Land_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Land_Battle_Pending>
+		<Music_Event_Tactical_Space_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Space_Battle_Pending>
+		
+		<!-- Early_Empire: Space maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Space, Space_Map_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Temperate land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Temperate, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Arctic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Arctic, Ice_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Desert land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Desert, Desert_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Forest land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Forest, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Swamp land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Swamp, Swamp_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Volcanic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Volcanic, Volcanic_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Urban land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Urban, Urban_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+
+		<!-- Early_Empire: Space maps: Music events for battle -->
+		<Music_Event_List_Battle> Space, Space_Map_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Temperate land maps: Music evnts for battle -->
+		<Music_Event_List_Battle> Temperate, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Arctic land maps: Music events for battle -->
+		<Music_Event_List_Battle> Arctic, Ice_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Desert land maps: Music events for battle -->
+		<Music_Event_List_Battle> Desert, Desert_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Forest land maps: Music events for battle -->
+		<Music_Event_List_Battle> Forest, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Swamp land maps: Music events for battle -->
+		<Music_Event_List_Battle> Swamp, Swamp_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Volcanic land maps: Music evets for battle -->
+		<Music_Event_List_Battle> Volcanic, Volcanic_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Urban land maps: Music events for battle -->
+		<Music_Event_List_Battle> Urban, Urban_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
 		<Space_Skirmish_AI_Default_Forces> 
 			
@@ -7045,6 +7864,45 @@
 		<!-- MusicEvents -->
 		<Strategic_Map_Music_Event> Galactic_Map_Imperial_Remnant_Adelhard_Music_Event </Strategic_Map_Music_Event>
 		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
+		
+		<SFX_Event_Tactical_Land_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Land_Battle_Pending>
+		<SFX_Event_Tactical_Space_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Space_Battle_Pending>
+		<Music_Event_Tactical_Land_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Land_Battle_Pending>
+		<Music_Event_Tactical_Space_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Space_Battle_Pending>
+		
+		<!-- Early_Empire: Space maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Space, Space_Map_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Temperate land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Temperate, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Arctic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Arctic, Ice_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Desert land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Desert, Desert_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Forest land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Forest, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Swamp land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Swamp, Swamp_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Volcanic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Volcanic, Volcanic_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Urban land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Urban, Urban_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+
+		<!-- Early_Empire: Space maps: Music events for battle -->
+		<Music_Event_List_Battle> Space, Space_Map_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Temperate land maps: Music evnts for battle -->
+		<Music_Event_List_Battle> Temperate, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Arctic land maps: Music events for battle -->
+		<Music_Event_List_Battle> Arctic, Ice_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Desert land maps: Music events for battle -->
+		<Music_Event_List_Battle> Desert, Desert_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Forest land maps: Music events for battle -->
+		<Music_Event_List_Battle> Forest, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Swamp land maps: Music events for battle -->
+		<Music_Event_List_Battle> Swamp, Swamp_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Volcanic land maps: Music evets for battle -->
+		<Music_Event_List_Battle> Volcanic, Volcanic_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Urban land maps: Music events for battle -->
+		<Music_Event_List_Battle> Urban, Urban_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
 		
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
 		<Space_Skirmish_AI_Default_Forces> 
@@ -7333,6 +8191,45 @@
 		<Strategic_Map_Music_Event> Galactic_Map_First_Order_Music_Event </Strategic_Map_Music_Event>
 		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
 		
+		<SFX_Event_Tactical_Land_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Land_Battle_Pending>
+		<SFX_Event_Tactical_Space_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Space_Battle_Pending>
+		<Music_Event_Tactical_Land_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Land_Battle_Pending>
+		<Music_Event_Tactical_Space_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Space_Battle_Pending>
+		
+		<!-- Early_Empire: Space maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Space, Space_Map_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Temperate land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Temperate, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Arctic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Arctic, Ice_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Desert land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Desert, Desert_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Forest land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Forest, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Swamp land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Swamp, Swamp_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Volcanic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Volcanic, Volcanic_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Urban land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Urban, Urban_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+
+		<!-- Early_Empire: Space maps: Music events for battle -->
+		<Music_Event_List_Battle> Space, Space_Map_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Temperate land maps: Music evnts for battle -->
+		<Music_Event_List_Battle> Temperate, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Arctic land maps: Music events for battle -->
+		<Music_Event_List_Battle> Arctic, Ice_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Desert land maps: Music events for battle -->
+		<Music_Event_List_Battle> Desert, Desert_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Forest land maps: Music events for battle -->
+		<Music_Event_List_Battle> Forest, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Swamp land maps: Music events for battle -->
+		<Music_Event_List_Battle> Swamp, Swamp_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Volcanic land maps: Music evets for battle -->
+		<Music_Event_List_Battle> Volcanic, Volcanic_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Urban land maps: Music events for battle -->
+		<Music_Event_List_Battle> Urban, Urban_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
 		<Space_Skirmish_AI_Default_Forces> 
 			
@@ -7617,6 +8514,45 @@
 		<!-- MusicEvents -->
 		<Strategic_Map_Music_Event> Galactic_Map_Imperial_Remnant_Thrawn_Music_Event </Strategic_Map_Music_Event>
 		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
+		
+		<SFX_Event_Tactical_Land_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Land_Battle_Pending>
+		<SFX_Event_Tactical_Space_Battle_Pending> UHD_Battle_Pending </SFX_Event_Tactical_Space_Battle_Pending>
+		<Music_Event_Tactical_Land_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Land_Battle_Pending>
+		<Music_Event_Tactical_Space_Battle_Pending> Tactical_Battle_Loading_Loop_Event </Music_Event_Tactical_Space_Battle_Pending>
+		
+		<!-- Early_Empire: Space maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Space, Space_Map_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Temperate land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Temperate, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Arctic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Arctic, Ice_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Desert land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Desert, Desert_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Forest land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Forest, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Swamp land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Swamp, Swamp_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Volcanic land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Volcanic, Volcanic_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<!-- Early_Empire: Urban land maps: Music events for ambient (non-battle) -->
+		<Music_Event_List_Ambient> Urban, Urban_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+
+		<!-- Early_Empire: Space maps: Music events for battle -->
+		<Music_Event_List_Battle> Space, Space_Map_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Temperate land maps: Music evnts for battle -->
+		<Music_Event_List_Battle> Temperate, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Arctic land maps: Music events for battle -->
+		<Music_Event_List_Battle> Arctic, Ice_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Desert land maps: Music events for battle -->
+		<Music_Event_List_Battle> Desert, Desert_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Forest land maps: Music events for battle -->
+		<Music_Event_List_Battle> Forest, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Swamp land maps: Music events for battle -->
+		<Music_Event_List_Battle> Swamp, Swamp_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Volcanic land maps: Music evets for battle -->
+		<Music_Event_List_Battle> Volcanic, Volcanic_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<!-- Early_Empire: Urban land maps: Music events for battle -->
+		<Music_Event_List_Battle> Urban, Urban_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
 		
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
 		<Space_Skirmish_AI_Default_Forces> 

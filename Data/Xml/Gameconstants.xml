@@ -836,9 +836,9 @@
 	<Land_Collidable_Grid_Cull_Size>64.0f</Land_Collidable_Grid_Cull_Size>
 	
 	<!-- Settings to define a "Raid Force" (ie. a land combat force that can bypass space combat) -->
-	<Raid_Force_Required_Faction> Mandalorians </Raid_Force_Required_Faction>
+	<Raid_Force_Required_Faction> Terrorists, CIS_Remnant, Trade_Federation, Commerce_Guild, Techno_Union, Banking_Clan, Mandalorians  </Raid_Force_Required_Faction>
 	<Raid_Force_Limited_Object_Category_Mask> Infantry </Raid_Force_Limited_Object_Category_Mask>
-	<Raid_Force_Max_Limited_Objects> 3 </Raid_Force_Max_Limited_Objects>
+	<Raid_Force_Max_Limited_Objects> 4 </Raid_Force_Max_Limited_Objects>
     <Raid_Force_Max_Heros> 0 </Raid_Force_Max_Heros>
 	<Raid_Force_Free_Object_Category_Mask /> 	<!-- can have as many of these as you want -->
 
