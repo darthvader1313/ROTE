@@ -186,7 +186,7 @@
 
 	<MusicEvent Name="Tactical_Battle_Loading_Loop_Event">
 		<Files> Battle_Pending_1.mp3 </Files>
-		<Volume_Percent> 55 </Volume_Percent>
+		<Volume_Percent> 85 </Volume_Percent>
 		<Fade_In_Seconds> 0.0 </Fade_In_Seconds>
 		<Fade_Out_Previous_Seconds> 2.0 </Fade_Out_Previous_Seconds>
 		<Loop> Yes </Loop>

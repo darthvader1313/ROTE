@@ -3623,7 +3623,7 @@
 
 	<TradeRoute Name="Route404">
             <Point_A>Fresia</Point_A>
-            <Point_B>Cal Seti</Point_B>
+            <Point_B>Cal_Seti</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
@@ -3631,7 +3631,7 @@
      </TradeRoute>
 
 	<TradeRoute Name="Route405">
-            <Point_A>Cal Seti</Point_A>
+            <Point_A>Cal_Seti</Point_A>
             <Point_B>Pillio</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
