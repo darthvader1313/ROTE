@@ -7014,7 +7014,7 @@
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Planet_Credit_Value>150</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>15</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>247.0, 214.0, 10.0</Galactic_Position>
+    <Galactic_Position>247.0, 224.0, 10.0</Galactic_Position>
     <Special_Structures_Land>6</Special_Structures_Land>
     <Special_Structures_Space>4</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
@@ -16082,7 +16082,23 @@
     <Planet_Black_Market_Modifier>800</Planet_Black_Market_Modifier>
     <Describe_Population></Describe_Population>
     
-    <Describe_History>TEXT_PLANET_FRESIA_INFO_HIS_01</Describe_History>
+    <Describe_Population>TEXT_PLANET_FRESIA_INFO_POP</Describe_Population>
+	<Describe_Wildlife>TEXT_PLANET_FRESIA_INFO_WL</Describe_Wildlife>
+	<Describe_Terrain>TEXT_PLANET_FRESIA_INFO_TER</Describe_Terrain>
+	<Describe_Weather>TEXT_PLANET_FRESIA_INFO_WEA</Describe_Weather>
+	<Describe_Tactical>TEXT_PLANET_FRESIA_ENCYC_01</Describe_Tactical>
+	<Describe_Advantage>TEXT_PLANET_FRESIA_INFO_ADV_01</Describe_Advantage>
+	<Describe_History>TEXT_PLANET_FRESIA_INFO_HIS_01</Describe_History>
+
+	<Planet_Ability_Name> TEXT_PLANET_FRESIA_INFO_ADV_01 </Planet_Ability_Name>
+	<Planet_Ability_Description> TEXT_PLANET_FRESIA_ENCYC_01 </Planet_Ability_Description>
+
+	<Encyclopedia_Text>TEXT_PLANET_FRESIA_ENCYC_01</Encyclopedia_Text>
+	<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>
+	<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
+	<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
+	<Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
+	<Native_Icon_Name>load_swamp.tga</Native_Icon_Name>
     
     
     <Planet_Ability_Icon></Planet_Ability_Icon>
@@ -18557,7 +18573,7 @@
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Planet_Credit_Value>150</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>15</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>221.0, -75.0, 10.0</Galactic_Position>
+    <Galactic_Position>226.0, -60.0, 10.0</Galactic_Position>
     <Special_Structures_Land>4</Special_Structures_Land>
     <Special_Structures_Space>4</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>

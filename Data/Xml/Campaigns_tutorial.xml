@@ -1,0 +1,424 @@
+<?xml version="1.0"?>
+<Campaigns>
+
+
+<!-- Tutorial 0: Galactic Intro (Rebel) -->
+<!--
+	<Campaign Name="Tutorial_Zero">
+
+		<Campaign_Set> Tutorial_Zero_Rebel_Only </Campaign_Set>
+
+		<Text_ID> TEXT_STORY_TUTORIAL_REBEL_ACT00_00 </Text_ID>
+		<Description_Text> TEXT_STORY_TUTORIAL_REBEL_DESC_ACT00 </Description_Text>
+
+		<Camera_Shift_X> 80.0 </Camera_Shift_X>
+		<Camera_Shift_Y> -50.0 </Camera_Shift_Y>
+		<Camera_Distance> 500.0 </Camera_Distance>
+		<Is_Listed>false</Is_Listed>
+		<Tutorial>true</Tutorial>
+
+		<Rebel_Story_Name>Story_Plots_Tutorial_Zero.xml</Rebel_Story_Name>
+
+		<Locations> Galaxy_Core_Art_Model, Tatooine, Kashyyyk, Bothawui, NalHutta, Kuat, Corellia, Geonosis </Locations>
+		<Planet_Auto_Reveal>FALSE</Planet_Auto_Reveal>
+		< ! - - <Trade_Routes> Alderaan_Corellia </Trade_Routes> - - >
+
+		<Starting_Active_Player> Rebel </Starting_Active_Player>
+		<AI_Player_Control> Empire, None </AI_Player_Control>
+		<AI_Player_Control> Pirates, None </AI_Player_Control>
+
+		<Starting_Credits> Rebel, 1000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
+		
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+
+
+		< ! - - Rebel - - >
+		<Starting_Forces> Rebel, Corellia, Z95_Headhunter_Rebel_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Corellia, Z95_Headhunter_Rebel_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Corellia, Z95_Headhunter_Rebel_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Corellia, Z95_Headhunter_Rebel_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Corellia, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Corellia, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Corellia, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Corellia, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Corellia, Corellian_Corvette </Starting_Forces>
+      <Starting_Forces> Rebel, Corellia, Ground_Ion_Cannon </Starting_Forces>
+		<Starting_Forces> Rebel, Corellia, Rebel_Star_Base_1 </Starting_Forces>	
+			<Starting_Forces> Rebel, Corellia, R_Ground_Barracks </Starting_Forces>
+			<Starting_Forces> Rebel, Corellia, Rebel_Infantry_Squad </Starting_Forces>
+			<Starting_Forces> Rebel, Corellia, Rebel_Infantry_Squad </Starting_Forces>
+			<Starting_Forces> Rebel, Corellia, Rebel_Infantry_Squad </Starting_Forces>
+			
+		<Starting_Forces> Rebel, Ryloth, Z95_Headhunter_Rebel_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Ryloth, Z95_Headhunter_Rebel_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Ryloth, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Ryloth, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Ryloth, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Ryloth, Rebel_Star_Base_1 </Starting_Forces>	
+			<Starting_Forces> Rebel, Ryloth, R_Ground_Barracks </Starting_Forces>
+			<Starting_Forces> Rebel, Ryloth, Rebel_Infantry_Squad </Starting_Forces>
+			<Starting_Forces> Rebel, Ryloth, Rebel_Infantry_Squad </Starting_Forces>
+			<Starting_Forces> Rebel, Ryloth, Rebel_Infantry_Squad </Starting_Forces>
+
+		<Starting_Forces> Rebel, Kashyyyk, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Kashyyyk, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Kashyyyk, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Kashyyyk, Rebel_Infantry_Squad </Starting_Forces>
+
+
+		< ! - - Empire - - >
+		<Starting_Forces> Empire, NalHutta, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, NalHutta, Interdictor_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, NalHutta, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, NalHutta, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, NalHutta, Empire_Star_Base_1 </Starting_Forces>	
+			<Starting_Forces> Empire, NalHutta, E_Ground_Barracks </Starting_Forces>
+			<Starting_Forces> Empire, NalHutta, Power_Generator_E </Starting_Forces>
+			<Starting_Forces> Empire, NalHutta, E_Ground_Light_Vehicle_Factory </Starting_Forces>
+		
+		<Starting_Forces> Empire, Geonosis, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Geonosis, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Geonosis, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Geonosis, TIE_Scout_Squadron </Starting_Forces>
+		<Starting_Forces> Empire, Geonosis, TIE_Scout_Squadron </Starting_Forces>
+		<Starting_Forces> Empire, Geonosis, TIE_Scout_Squadron </Starting_Forces>
+			<Starting_Forces> Empire, Geonosis, E_Ground_Barracks </Starting_Forces>
+			<Starting_Forces> Empire, Geonosis, Power_Generator_E </Starting_Forces>
+			<Starting_Forces> Empire, Geonosis, E_Ground_Light_Vehicle_Factory </Starting_Forces>
+
+		<Starting_Forces> Empire, Kuat, Interdictor_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Kuat, Empire_Star_Base_1 </Starting_Forces>	
+		<Starting_Forces> Empire, Kuat, TIE_Scout_Squadron </Starting_Forces>
+		<Starting_Forces> Empire, Kuat, TIE_Scout_Squadron </Starting_Forces>
+		<Starting_Forces> Empire, Kuat, TIE_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Empire, Kuat, TIE_Fighter_Squadron </Starting_Forces>
+			<Starting_Forces> Empire, Kuat, E_Ground_Barracks </Starting_Forces>
+			<Starting_Forces> Empire, Kuat, Power_Generator_E </Starting_Forces>
+			<Starting_Forces> Empire, Kuat, E_Ground_Light_Vehicle_Factory </Starting_Forces>
+		
+	</Campaign>
+-->
+
+<!-- Tutorial 1: Land (Rebel) -->
+
+	<Campaign Name="Tutorial_One">
+
+		
+		<Campaign_Set> Tutorial_I_Rebel_Only </Campaign_Set>
+
+		<Text_ID> TEXT_STORY_TUTORIAL_REBEL_ACT01_00 </Text_ID>
+		<Description_Text> TEXT_STORY_TUTORIAL_REBEL_DESC_ACT01 </Description_Text>
+
+		<Camera_Shift_X> 30.0 </Camera_Shift_X>
+		<Camera_Shift_Y> -10.0 </Camera_Shift_Y>
+		<Camera_Distance> 500.0 </Camera_Distance>
+		<Is_Listed>false</Is_Listed>
+		<Tutorial>true</Tutorial>
+
+		<Rebel_Story_Name>Story_Plots_Tutorial_I.xml</Rebel_Story_Name>
+
+		<Locations> Galaxy_Core_Art_Model, Tatooine, Kashyyyk, Bothawui, NalHutta, Kuat, Corellia, Ryloth </Locations>
+
+		<Starting_Active_Player> Rebel </Starting_Active_Player>
+		
+		<AI_Player_Control> Empire, None </AI_Player_Control>
+		<AI_Player_Control> Pirates, None </AI_Player_Control>
+
+		<Starting_Credits> Rebel, 5000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 1 </Starting_Tech_Level>
+		
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+
+		<Starting_Forces> Rebel, Tatooine, R_Ground_Barracks </Starting_Forces>
+
+		<Starting_Forces> Rebel, Kashyyyk, R_Ground_Barracks </Starting_Forces>
+
+		<Starting_Forces> Empire, NalHutta, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, NalHutta, Interdictor_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, NalHutta, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, NalHutta, Tartan_Patrol_Cruiser </Starting_Forces>
+
+	</Campaign>
+
+
+
+
+
+<!-- Tutorial 2: Galactic (Rebel) -->
+
+	<Campaign Name="Tutorial_Two">
+
+		<Campaign_Set> Tutorial_II_Rebel_Only </Campaign_Set>
+
+		<Text_ID> TEXT_STORY_TUTORIAL_REBEL_ACT02_00 </Text_ID>
+		<Description_Text> TEXT_STORY_TUTORIAL_REBEL_DESC_ACT02 </Description_Text>
+
+		<Camera_Shift_X> 80.0 </Camera_Shift_X>
+		<Camera_Shift_Y> -50.0 </Camera_Shift_Y>
+		<Camera_Distance> 500.0 </Camera_Distance>
+		<Is_Listed>false</Is_Listed>
+		<Tutorial>true</Tutorial>
+
+		<Rebel_Story_Name>Story_Plots_Tutorial_II.xml</Rebel_Story_Name>
+
+		<Locations> Galaxy_Core_Art_Model, Tatooine, Kashyyyk, Bothawui, NalHutta, Kuat, Corellia, Ryloth </Locations>
+		<Planet_Auto_Reveal>FALSE</Planet_Auto_Reveal>
+
+		<Trade_Routes> Bothawui_Ryloth </Trade_Routes>
+
+		<Starting_Active_Player> Rebel </Starting_Active_Player>
+
+		<Starting_Credits> Rebel, 30000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 1 </Starting_Tech_Level>
+		
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+
+		<Starting_Forces> Rebel, Kashyyyk, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Kashyyyk, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Kashyyyk, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Kashyyyk, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Kashyyyk, Rebel_Tank_Buster_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Kashyyyk, Rebel_Tank_Buster_Squad </Starting_Forces>
+
+		<Starting_Forces> Empire, Tatooine, Empire_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Empire, Tatooine, Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Tatooine, Interdictor_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Tatooine, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Tatooine, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Tatooine, Tartan_Patrol_Cruiser </Starting_Forces>
+		
+		<Starting_Forces> Empire, NalHutta, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, NalHutta, Interdictor_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, NalHutta, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, NalHutta, Tartan_Patrol_Cruiser </Starting_Forces>
+
+        <Starting_Forces> Empire, NalHutta, E_Ground_Barracks </Starting_Forces>
+        <Starting_Forces> Empire, NalHutta, Power_Generator_E </Starting_Forces>
+        <Starting_Forces> Empire, NalHutta, E_Ground_Light_Vehicle_Factory </Starting_Forces>
+		
+	</Campaign>
+
+
+<!-- Tutorial 3: Space (Empire) -->
+
+	<Campaign Name="Tutorial_Three">
+
+		<Campaign_Set> Tutorial_III_Rebel_Only </Campaign_Set>
+
+		<Text_ID> TEXT_STORY_TUTORIAL_EMPIRE_ACT03_00 </Text_ID>
+		<Description_Text> TEXT_STORY_TUTORIAL_EMPIRE_DESC_ACT03 </Description_Text>
+
+		<Camera_Shift_X> 10.0 </Camera_Shift_X>
+		<Camera_Shift_Y> -40.0 </Camera_Shift_Y>
+		<Camera_Distance> 550.0 </Camera_Distance>
+		<Is_Listed>false</Is_Listed>
+		<Tutorial>true</Tutorial>
+
+      <Home_Location> Empire, NalHutta </Home_Location>
+
+		<Empire_Story_Name>Story_Plots_Tutorial_III.xml</Empire_Story_Name>
+
+		<Locations> Galaxy_Core_Art_Model, Tatooine, Kashyyyk, Bothawui, NalHutta, Kuat, Corellia, Ryloth </Locations>
+		<Planet_Auto_Reveal>FALSE</Planet_Auto_Reveal>
+
+		<Starting_Active_Player> Empire </Starting_Active_Player>
+
+		<Starting_Credits> Empire,  0 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 0 </Starting_Tech_Level>
+		
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+
+		<Starting_Forces> Rebel, Kashyyyk, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Kashyyyk, Z95_Headhunter_Rebel_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Kashyyyk, Z95_Headhunter_Rebel_Squadron </Starting_Forces>
+
+		<Starting_Forces> Empire, NalHutta, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, NalHutta, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, NalHutta, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, NalHutta, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, NalHutta, Tartan_Patrol_Cruiser </Starting_Forces>
+		<!--<Starting_Forces> Empire, NalHutta, TIE_Scout_Squadron </Starting_Forces>
+		<Starting_Forces> Empire, NalHutta, TIE_Scout_Squadron </Starting_Forces>-->
+		
+	</Campaign>
+
+
+
+<!-- Tutorial 4: Galactic: Bounty Hunters, Empire Tech, Special Weapons, Galactic Attack (Empire) -->
+
+	<Campaign Name="Tutorial_Four">
+
+		<Campaign_Set> Tutorial_IV_Empire_Only </Campaign_Set>
+
+		<Text_ID> TEXT_STORY_TUTORIAL_EMPIRE_ACT04_00 </Text_ID>
+		<Description_Text> TEXT_STORY_TUTORIAL_EMPIRE_DESC_ACT04 </Description_Text>
+
+		<Camera_Shift_X> 10.0 </Camera_Shift_X>
+		<Camera_Shift_Y> -40.0 </Camera_Shift_Y>
+		<Camera_Distance> 550.0 </Camera_Distance>
+		<Is_Listed>false</Is_Listed>
+		<Tutorial>true</Tutorial>
+
+		<Empire_Story_Name>Story_Plots_Tutorial_IV.xml</Empire_Story_Name>
+
+		<Locations> Galaxy_Core_Art_Model, Tatooine, Kashyyyk, Bothawui, NalHutta_Tutorial_4, Kuat, Corellia, Ryloth </Locations>
+
+		<Planet_Auto_Reveal>FALSE</Planet_Auto_Reveal>
+
+		<Trade_Routes> Kashyyyk_NalHutta_Tutorial_4, NalHutta_Tutorial_4_Ryloth, Corellia_NalHutta_Tutorial_4 </Trade_Routes>
+
+		<Starting_Active_Player> Empire </Starting_Active_Player>
+		<Starting_Credits> Empire,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 2 </Max_Tech_Level>
+
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+
+			<Starting_Forces> Rebel, Ryloth, R_Ground_Barracks </Starting_Forces>
+			<Starting_Forces> Rebel, Ryloth, Rebel_Infantry_Squad </Starting_Forces>
+			<Starting_Forces> Rebel, Ryloth, Rebel_Infantry_Squad </Starting_Forces>
+			<Starting_Forces> Rebel, Ryloth, Rebel_Infantry_Squad </Starting_Forces>
+		
+		<Starting_Forces> Empire, NalHutta_Tutorial_4, Empire_Star_Base_1 </Starting_Forces>
+
+			<!--<Starting_Forces> Empire, NalHutta_Tutorial_4, E_Ground_Officer_Academy </Starting_Forces>-->
+			<Starting_Forces> Empire, NalHutta_Tutorial_4, E_Ground_Barracks </Starting_Forces>
+			<Starting_Forces> Empire, NalHutta_Tutorial_4, Ground_Hutt_Palace_E </Starting_Forces>
+			<Starting_Forces> Empire, NalHutta_Tutorial_4, Power_Generator_E </Starting_Forces>
+
+			<Starting_Forces> Rebel, NalHutta_Tutorial_4, Smuggler_Team_R_Tutorial </Starting_Forces>
+
+         <Starting_Forces> Pirates, MonCalimari, Pirate_Fighter_Squadron </Starting_Forces>
+         <Starting_Forces> Pirates, MonCalimari, Pirate_Fighter_Squadron </Starting_Forces>		
+         <Starting_Forces> Pirates, MonCalimari, Pirate_Fighter_Squadron </Starting_Forces>		
+         <Starting_Forces> Pirates, MonCalimari, Pirate_Frigate </Starting_Forces>
+         <Starting_Forces> Pirates, MonCalimari, Pirate_Soldier_Squad </Starting_Forces>
+         <Starting_Forces> Pirates, MonCalimari, Pirate_Soldier_Squad </Starting_Forces>
+         <Starting_Forces> Pirates, MonCalimari, Pirate_Swamp_Speeder_Team </Starting_Forces>
+
+         <Starting_Forces> Pirates, Corellia, Pirate_Fighter_Squadron </Starting_Forces>
+         <Starting_Forces> Pirates, Corellia, Pirate_Fighter_Squadron </Starting_Forces>		
+         <Starting_Forces> Pirates, Corellia, Pirate_Fighter_Squadron </Starting_Forces>		
+         <Starting_Forces> Pirates, Corellia, Pirate_Soldier_Squad </Starting_Forces>
+         <Starting_Forces> Pirates, Corellia, Pirate_Soldier_Squad </Starting_Forces>
+         <Starting_Forces> Pirates, Corellia, Pirate_PLEX_Squad </Starting_Forces>
+
+	</Campaign>
+
+
+<!-- Tutorial 5:  (Empire) -->
+
+	<Campaign Name="Tutorial_Five">
+
+		<Campaign_Set> Tutorial_V_Empire_Only </Campaign_Set>
+
+		<Text_ID> TEXT_STORY_TUTORIAL_EMPIRE_ACT05_00 </Text_ID>
+		<Description_Text> TEXT_STORY_TUTORIAL_EMPIRE_DESC_ACT05 </Description_Text>
+
+		<Camera_Shift_X> 10.0 </Camera_Shift_X>
+		<Camera_Shift_Y> -40.0 </Camera_Shift_Y>
+		<Camera_Distance> 550.0 </Camera_Distance>
+		<Is_Listed>false</Is_Listed>
+		<Tutorial>true</Tutorial>
+
+		<Empire_Story_Name>Story_Plots_Tutorial_V.xml</Empire_Story_Name>
+
+		<Locations> Galaxy_Core_Art_Model, Tatooine, Kashyyyk, Bothawui, NalHutta, Kuat, Corellia, Ryloth </Locations>
+
+		<Planet_Auto_Reveal>FALSE</Planet_Auto_Reveal>
+		
+		<Trade_Routes> NalHutta_Ryloth </Trade_Routes>
+
+		<Starting_Active_Player> Empire </Starting_Active_Player>
+
+		<Starting_Credits> Empire,  1000 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 0 </Starting_Tech_Level>
+		
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+
+		<!-- put a Rebel planet somewhere in the universe to keep the game-end logic from firing -->
+		<Starting_Forces> Rebel, Tatooine, R_Ground_Barracks </Starting_Forces>
+
+		<Starting_Forces> Rebel, Ryloth, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Ryloth, Rebel_Infantry_Squad </Starting_Forces>
+
+		<Starting_Forces> Empire, NalHutta, Acclamator_Assault_Ship </Starting_Forces>		
+		<Starting_Forces> Empire, NalHutta, Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, NalHutta, Empire_Star_Base_2 </Starting_Forces>
+			<Starting_Forces> Empire, NalHutta, E_Ground_Officer_Academy </Starting_Forces>
+			<Starting_Forces> Empire, NalHutta, E_Ground_Research_Facility </Starting_Forces>
+			<Starting_Forces> Empire, NalHutta, E_Ground_Barracks </Starting_Forces>
+			<Starting_Forces> Empire, NalHutta, Ground_Hutt_Palace_E </Starting_Forces>
+			<Starting_Forces> Empire, NalHutta, Power_Generator_E </Starting_Forces>
+			<Starting_Forces> Empire, NalHutta, Field_Com_Empire_Team </Starting_Forces>
+			<Starting_Forces> Empire, NalHutta, Imperial_Stormtrooper_Squad </Starting_Forces>
+			<Starting_Forces> Empire, NalHutta, Imperial_Stormtrooper_Squad </Starting_Forces>
+		
+	</Campaign>
+
+
+<!-- Tutorial 6:  Multiplayer Land (Rebel) -->
+
+	<Campaign Name="Tutorial_Six">
+
+		<Campaign_Set> Tutorial_VI_Rebel_Only </Campaign_Set>
+
+		<Text_ID> TEXT_STORY_TUTORIAL_MP_ACT06_00 </Text_ID>
+		<Description_Text> TEXT_STORY_TUTORIAL_MP_DESC_ACT06 </Description_Text>
+
+		<Camera_Shift_X> 30.0 </Camera_Shift_X>
+		<Camera_Shift_Y> -10.0 </Camera_Shift_Y>
+		<Camera_Distance> 500.0 </Camera_Distance>
+		<Is_Listed>false</Is_Listed>
+		<Tutorial>true</Tutorial>
+
+		<Rebel_Story_Name>Story_Plots_Tutorial_VI.xml</Rebel_Story_Name>
+
+		<Locations> Galaxy_Core_Art_Model, Tatooine, Endor </Locations>
+
+		<Starting_Active_Player> Rebel </Starting_Active_Player>
+		
+		<AI_Player_Control> Empire, None </AI_Player_Control>
+		<AI_Player_Control> Pirates, None </AI_Player_Control>
+
+		<Starting_Credits> Rebel, 10000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 1 </Starting_Tech_Level>
+		
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+
+	</Campaign>
+
+
+<!-- Tutorial 7:  Multiplayer Space (Rebel) -->
+	<Campaign Name="Tutorial_Seven">
+
+		<Campaign_Set> Tutorial_VII_Rebel_Only </Campaign_Set>
+
+		<Text_ID> TEXT_STORY_TUTORIAL_MP_ACT07_00 </Text_ID>
+		<Description_Text> TEXT_STORY_TUTORIAL_MP_DESC_ACT07 </Description_Text>
+
+		<Camera_Shift_X> 30.0 </Camera_Shift_X>
+		<Camera_Shift_Y> -10.0 </Camera_Shift_Y>
+		<Camera_Distance> 500.0 </Camera_Distance>
+		<Is_Listed>false</Is_Listed>
+		<Tutorial>true</Tutorial>
+
+		<Rebel_Story_Name>Story_Plots_Tutorial_VII.xml</Rebel_Story_Name>
+
+		<Locations> Galaxy_Core_Art_Model, Tatooine, Kashyyyk, Bothawui, NalHutta, Kuat, Corellia, Ryloth </Locations>
+
+		<Starting_Active_Player> Rebel </Starting_Active_Player>
+		
+		<AI_Player_Control> Empire, None </AI_Player_Control>
+		<AI_Player_Control> Pirates, None </AI_Player_Control>
+
+		<Starting_Credits> Rebel, 10000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 1 </Starting_Tech_Level>
+		
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+
+	</Campaign>
+
+
+</Campaigns>

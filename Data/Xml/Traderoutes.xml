@@ -4,7 +4,7 @@
 	
 
 	<TradeRoute Name="Route01">
-            <Point_A>Raxus Prime</Point_A>
+            <Point_A>Raxus</Point_A>
             <Point_B>Rudrig</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
@@ -58,8 +58,8 @@
     </TradeRoute>
 
 	<TradeRoute Name="Route07">
-            <Point_A>RaxusPrime</Point_A>
-            <Point_B>Deservo</Point_B>
+            <Point_A>Raxus</Point_A>
+            <Point_B>Desevro</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor> 
@@ -67,7 +67,7 @@
     </TradeRoute>
 
 	<TradeRoute Name="Route08">
-            <Point_A>Deservo</Point_A>
+            <Point_A>Desevro</Point_A>
             <Point_B>Derellium</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
@@ -76,7 +76,7 @@
     </TradeRoute>
 
 	<TradeRoute Name="Route09">
-            <Point_A>Deservo</Point_A>
+            <Point_A>Desevro</Point_A>
             <Point_B>Felucia</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
@@ -85,7 +85,7 @@
     </TradeRoute>
 
 	<TradeRoute Name="Route10">
-            <Point_A>Deservo</Point_A>
+            <Point_A>Desevro</Point_A>
             <Point_B>Lianna</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
@@ -284,7 +284,7 @@
 
 	<TradeRoute Name="Route32">
             <Point_A>Oba_Diah</Point_A>
-            <Point_B>Honoghr</Point_B>
+            <Point_B>Eadu</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>  
@@ -297,15 +297,15 @@
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor> 
-    
+
     </TradeRoute>
 
 	<TradeRoute Name="Route34">
-            <Point_A></Point_A>
-            <Point_B></Point_B>
+            <Point_A>Ord_Cantrell</Point_A>
+            <Point_B>Phaeda</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
-            <Credit_Gain_Factor>0.5</Credit_Gain_Factor>  
+            <Credit_Gain_Factor>0.5</Credit_Gain_Factor> 
 
     </TradeRoute>
 
@@ -1157,7 +1157,7 @@
 
 	<TradeRoute Name="Route129">
             <Point_A>Phindar</Point_A>
-            <Point_B></Point_B>
+            <Point_B>Mandalore</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>  
@@ -1259,7 +1259,7 @@
             <Point_B>Taris</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
-            <Credit_Gain_Factor>0.5</Credit_Gain_Factor> 
+            <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
 
    </TradeRoute>
 
@@ -1508,7 +1508,7 @@
 
 	<TradeRoute Name="Route168">
             <Point_A>Arkania</Point_A>
-            <Point_B>Ralltiir</Point_B>
+            <Point_B>Raltiir</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor> 
@@ -1823,7 +1823,7 @@
 
 	<TradeRoute Name="Route203">
             <Point_A>Orinda</Point_A>
-            <Point_B>Iridonia</Point_B>
+            <Point_B>Irirdonia</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor> 
@@ -1831,7 +1831,7 @@
    </TradeRoute>
 
 	<TradeRoute Name="Route204">
-            <Point_A>Iridonia</Point_A>
+            <Point_A>Irirdonia</Point_A>
             <Point_B>Obredaan</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
@@ -1840,7 +1840,7 @@
     </TradeRoute>
 
 	<TradeRoute Name="Route205">
-            <Point_A>Iridonia</Point_A>
+            <Point_A>Irirdonia</Point_A>
             <Point_B>Darkon</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
@@ -1922,7 +1922,7 @@
 
 	<TradeRoute Name="Route214">
             <Point_A>Brentaal</Point_A>
-            <Point_B>Ralltiir</Point_B>
+            <Point_B>Raltiir</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>     
@@ -1930,7 +1930,7 @@
    </TradeRoute>
 
 	<TradeRoute Name="Route215">
-            <Point_A>Ralltiir</Point_A>
+            <Point_A>Raltiir</Point_A>
             <Point_B>Skako</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
@@ -1967,7 +1967,7 @@
 
 	<TradeRoute Name="Route219">
             <Point_A>Vulpter</Point_A>
-            <Point_B>Serapin</Point_B>
+            <Point_B>Sarapin</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>   
@@ -1975,7 +1975,7 @@
     </TradeRoute>
 
 	<TradeRoute Name="Route220">
-            <Point_A>Serapin</Point_A>
+            <Point_A>Sarapin</Point_A>
             <Point_B>Alderaan</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
@@ -2002,7 +2002,7 @@
     </TradeRoute>
 
 	<TradeRoute Name="Route223">
-            <Point_A>Serapin</Point_A>
+            <Point_A>Sarapin</Point_A>
             <Point_B>Kuat</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
@@ -2137,8 +2137,8 @@
     </TradeRoute>
 
 	<TradeRoute Name="Route238">
-            <Point_A></Point_A>
-            <Point_B></Point_B>
+            <Point_A>Ketaris</Point_A>
+            <Point_B>Phaeda</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>   
@@ -2480,7 +2480,7 @@
 
 	<TradeRoute Name="Route276">
             <Point_A>Rugosa</Point_A>
-            <Point_B>D'Qar</Point_B>
+            <Point_B>DQar</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor> 
@@ -2488,8 +2488,8 @@
     </TradeRoute>
 
 	<TradeRoute Name="Route277">
-            <Point_A></Point_A>
-            <Point_B></Point_B>
+            <Point_A>DQar</Point_A>
+            <Point_B>Crait</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor> 
@@ -2506,7 +2506,7 @@
     </TradeRoute>
 
 	<TradeRoute Name="Route279">
-            <Point_A>D'Qar</Point_A>
+            <Point_A>DQar</Point_A>
             <Point_B>Sharlissia</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
@@ -2975,7 +2975,7 @@
 
 	<TradeRoute Name="Route331">
             <Point_A>Alakatha</Point_A>
-            <Point_B>BOrmus</Point_B>
+            <Point_B>Bormus</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor> 
@@ -3669,7 +3669,7 @@
 	<TradeRoute Name="Route409">
             <Point_A>Coruscant</Point_A>
             <Point_B>Foerost</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>5.0</HS_Speed_Factor>     
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
 
@@ -3710,7 +3710,96 @@
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
 
     </TradeRoute>
-	
+
+	<TradeRoute Name="Route414">
+            <Point_A>Raltiir</Point_A>
+            <Point_B>Brentaal</Point_B>
+            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.5</Credit_Gain_Factor> 
+
+    </TradeRoute>
+
+	<TradeRoute Name="Route415">
+            <Point_A>Raltiir</Point_A>
+            <Point_B>Skako</Point_B>
+            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.5</Credit_Gain_Factor> 
+
+    </TradeRoute>
+
+	<TradeRoute Name="Route416">
+            <Point_A>Carida</Point_A>
+            <Point_B>Raltiir</Point_B>
+            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.5</Credit_Gain_Factor> 
+ 
+     </TradeRoute>
+
+	<TradeRoute Name="Route417">
+            <Point_A>Phindar</Point_A>
+            <Point_B>Maridun</Point_B>
+            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.5</Credit_Gain_Factor> 
+
+      </TradeRoute>
+
+	<TradeRoute Name="Route418">
+            <Point_A>Crait</Point_A>
+            <Point_B>Naboo</Point_B>
+            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.5</Credit_Gain_Factor> 
+
+       </TradeRoute>
+
+	<TradeRoute Name="Route419">
+            <Point_A>Crait</Point_A>
+            <Point_B>DQar</Point_B>
+            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.5</Credit_Gain_Factor> 
+
+        </TradeRoute>
+
+	<TradeRoute Name="Route420">
+            <Point_A>Crait</Point_A>
+            <Point_B>Sullust</Point_B>
+            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.5</Credit_Gain_Factor> 
+
+         </TradeRoute>
+
+	<TradeRoute Name="Route421">
+            <Point_A>Crait</Point_A>
+            <Point_B>Vondarc</Point_B>
+            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.5</Credit_Gain_Factor> 
+ 
+          </TradeRoute>
+
+	<TradeRoute Name="Route422">
+            <Point_A>Crait</Point_A>
+            <Point_B>Bormus</Point_B>
+            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.5</Credit_Gain_Factor> 
+ 
+          </TradeRoute>
+
+	<TradeRoute Name="Route423">
+            <Point_A>Bormus</Point_A>
+            <Point_B>FeatherNebula</Point_B>
+            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.5</Credit_Gain_Factor> 	
+			
+	</TradeRoute>
 	
 	
 	

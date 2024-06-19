@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 
 <Story_Mode_Plots>
-	<Lua_Script>GCMain</Lua_Script>
+	<Lua_Script></Lua_Script>
 	<Active_Plot>1_Era_Story\Story_Antar_Atrocity\Antar_Atrocity_Early_Empire.XML</Active_Plot>
 	<Active_Plot>Filter_Force_Click.XML</Active_Plot>
 	

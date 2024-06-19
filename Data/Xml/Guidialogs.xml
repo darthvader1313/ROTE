@@ -1174,19 +1174,19 @@
 		</IDC_RADIO_HARD>
 
 		<IDC_RADIO_CUSTOM_EASY>
-			<Radio_On>i_button_difficulty.tga</Radio_On>
+			<Radio_On>i_button_difficulty_easy.tga</Radio_On>
 			<Radio_Off>i_button_difficulty_off.tga</Radio_Off>
 			<Radio_Mouse_Over>i_button_difficulty_over.tga</Radio_Mouse_Over>
 		</IDC_RADIO_CUSTOM_EASY>
 		
 		<IDC_RADIO_CUSTOM_MEDIUM>
-			<Radio_On>i_button_difficulty.tga</Radio_On>
+			<Radio_On>i_button_difficulty_medium.tga</Radio_On>
 			<Radio_Off>i_button_difficulty_off.tga</Radio_Off>
 			<Radio_Mouse_Over>i_button_difficulty_over.tga</Radio_Mouse_Over>
 		</IDC_RADIO_CUSTOM_MEDIUM>
 		
 		<IDC_RADIO_CUSTOM_HARD>
-			<Radio_On>i_button_difficulty.tga</Radio_On>
+			<Radio_On>i_button_difficulty_hard.tga</Radio_On>
 			<Radio_Off>i_button_difficulty_off.tga</Radio_Off>
 			<Radio_Mouse_Over>i_button_difficulty_over.tga</Radio_Mouse_Over>
 		</IDC_RADIO_CUSTOM_HARD>
@@ -2877,8 +2877,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.5</Stretch_Factor>
 			<Size>10</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>Yes</Emboss>
 			<Outline>No</Outline>
 		</IDC_STATIC_MAIN_MENU>
@@ -2888,8 +2888,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.5</Stretch_Factor>
 			<Size>9</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>Yes</Emboss>
 			<Outline>No</Outline>
 		</IDC_STATIC_MULTIPLAYER>
@@ -2897,8 +2897,8 @@
 		<IDC_STATIC_IN_GAME_OPTIONS>
 			<Name>EmpireAtWar-Bold</Name>
 			<Size>14</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_STATIC_IN_GAME_OPTIONS>
@@ -2915,8 +2915,8 @@
 		<IDC_TITLE_STATIC>
 			<Name>EmpireAtWar-Bold</Name>
 			<Size>12</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_TITLE_STATIC>
@@ -2951,8 +2951,8 @@
 		<IDC_STATIC_MEDIUM2>
 			<Name>EmpireAtWar-Bold</Name>
 			<Size>14</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_STATIC_MEDIUM2>
@@ -2978,8 +2978,8 @@
 		<IDC_INTERNET_DIALOG_HEADER>
 			<Name>EmpireAtWar-Bold</Name>
 			<Size>12</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_INTERNET_DIALOG_HEADER>
@@ -3005,8 +3005,8 @@
 		<IDC_STATIC_SMALL>
 			<Name>EmpireAtWar-Medium</Name>
 			<Size>8</Size>
-			<Top_Color>234,197,144,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_STATIC_SMALL>
@@ -3068,8 +3068,8 @@
 		<IDC_STATIC_SKIRMISH_STAGING_CAPTION>
 			<Name>EmpireAtWar-Bold</Name>
 			<Size>12</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_STATIC_SKIRMISH_STAGING_CAPTION>

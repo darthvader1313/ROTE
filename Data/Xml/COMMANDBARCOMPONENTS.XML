@@ -6679,15 +6679,15 @@
             <Scale>1.0</Scale>
             <Font_Name>EmpireAtWar-Bold</Font_Name>
             <Alternate_Font_Name>EmpireAtWar-Medium, EmpireAtWar-Medium, EmpireAtWar-Bold</Alternate_Font_Name>
-            <Font_Point_Size>5</Font_Point_Size>
-            <Text_Offset>0 0</Text_Offset>
-            <Text_Offset2>0 -5</Text_Offset2>
+            <Font_Point_Size>6</Font_Point_Size>
+            <Text_Offset>0 32</Text_Offset>
+            <Text_Offset2>0 0</Text_Offset2>
             <Text_Outline>True</Text_Outline>
             <Text_Color2>255 255 255 180</Text_Color2>
             <No_Shell>True</No_Shell>
-            <Left_Justified>True</Left_Justified>
+            <Left_Justified>False</Left_Justified>
             <Base_Layer>0</Base_Layer>
-            <Offset>30 0</Offset>    <!-- x = pixels to offset planet name -->
+            <Offset>0 0</Offset>    <!-- x = pixels to offset planet name -->
     </CommandBarComponent>
 
     <CommandBarComponent Name="g_planet_fleet">
@@ -6702,8 +6702,8 @@
             <Base_Layer>0</Base_Layer>
             <Group>Fleet Icon</Group>
             <Size>0.75 5</Size>      <!-- x = icon scale, y = amount to y-offset icon in encyclopedia header -->
-            <Offset>3 47</Offset>    <!-- x = pixels to offset per stack layer, y = center fleet y offset -->
-            <Default_Offset>36 42</Default_Offset> <!-- x = left/right fleet x offset, y = left/right fleet y offset -->
+            <Offset>3 57</Offset>    <!-- x = pixels to offset per stack layer, y = center fleet y offset -->
+            <Default_Offset>36 56</Default_Offset> <!-- x = left/right fleet x offset, y = left/right fleet y offset -->
             <Drag_Back>True</Drag_Back> <!-- show the pancakes while dragging -->
     </CommandBarComponent>
     
@@ -6719,7 +6719,7 @@
             <No_Shell>True</No_Shell>
             <Left_Justified>True</Left_Justified>
             <Base_Layer>0</Base_Layer>
-            <Offset>30 -11</Offset>                 <!-- x,y = number of command bar units to shift credits -->
+            <Offset>54 32</Offset>                 <!-- x,y = number of command bar units to shift credits -->
             <Default_Offset>0 0</Default_Offset>
             <Blink_Rate>0.15</Blink_Rate>
             <Blink_Duration>3</Blink_Duration>
@@ -6742,7 +6742,7 @@
             <No_Shell>True</No_Shell>
             <Base_Layer>0</Base_Layer>
             <Scale>1.0</Scale>
-            <Default_Offset>72 -26</Default_Offset>
+            <Default_Offset>74 -26</Default_Offset>
     </CommandBarComponent>
 
     <CommandBarComponent Name="g_ground_icon">
@@ -6773,7 +6773,7 @@
             <No_Shell>True</No_Shell>
             <Base_Layer>0</Base_Layer>
             <Scale>1.0</Scale>
-            <Default_Offset>72 -13</Default_Offset>
+            <Default_Offset>74 -13</Default_Offset>
     </CommandBarComponent>
 
     <CommandBarComponent Name="g_space_icon">
@@ -6910,7 +6910,7 @@
             <Drag_And_Drop>True</Drag_And_Drop>
             <Color>255 255 255 255</Color>
             <Size>0.75 0</Size>      <!-- x = icon scale -->
-            <Offset>3 5</Offset>    <!-- x = pixels to offset per stack layer, y = y offset -->
+            <Offset>3 -4</Offset>    <!-- x = pixels to offset per stack layer, y = y offset -->
     </CommandBarComponent>
 
     <CommandBarComponent Name="g_radar_blip">
@@ -7006,7 +7006,7 @@
             <Scale>1.0</Scale>
             <Color>255 255 255 255</Color>
             <Base_Layer>0</Base_Layer>
-            <Offset>-20 -31</Offset>
+            <Offset>39 -13</Offset>
     </CommandBarComponent>
     
     <CommandBarComponent Name="g_planet_ability">
@@ -7015,7 +7015,7 @@
             <Scale>1.0</Scale>
             <Color>255 255 255 255</Color>
             <Base_Layer>0</Base_Layer>
-            <Offset>0 -34</Offset>
+            <Offset>60 -13</Offset>
     </CommandBarComponent>
 
     <CommandBarComponent Name="g_corruption_text">

@@ -1,9 +1,24 @@
 <?xml version="1.0"?>
 <SpecialStructures>
 
+	<Template Name="UPGRADE_TEMPLATE_DUMMY">
+		<Variant_Of_Existing_Type>Ground_Vehicle_Template</Variant_Of_Existing_Type>
+		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Damage>0</Damage>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Lua_Script/>
+		<CategoryMask> Structure </CategoryMask>
+		<Stealth_Capable>Yes</Stealth_Capable>
+		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
+		<Victory_Relevant>No</Victory_Relevant>
 
+		<Unit_Abilities_Data SubObjectList="Yes">
+		</Unit_Abilities_Data>
+	</Template>
 
-	<SpecialStructure Name="Early_Empire_Command_Center">
+	<SpecialStructure Name="Early_Empire_Command_Center_lvl1">
 		<GUI_Bounds_Scale>0.33</GUI_Bounds_Scale>
 		
 		<Text_ID>TEXT_STRUCTURE_IMPERIAL_COMMAND_CENTER</Text_ID>
@@ -52,6 +67,180 @@
 		<Required_Special_Structures />
 		<Required_Planets />
 		<Icon_Name>i_button_eb_commandcenter.tga</Icon_Name>
+		
+		<Tactical_Buildable_Objects_Multiplayer> 
+	
+		</Tactical_Buildable_Objects_Multiplayer>
+	
+		<Select_Box_Scale>300</Select_Box_Scale>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+
+		<Mass>1.0</Mass>
+		<Scale_Factor>.66</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>9000</Tactical_Health>
+		<Autoresolve_Health>1600</Autoresolve_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Early_Empire</Affiliation>
+		<Base_Level_Available>1</Base_Level_Available>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<CategoryMask>Structure</CategoryMask>
+
+		<GUI_Bracket_Size>2</GUI_Bracket_Size> 
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		
+		<!-- The ground structures have this data which looks like it's space only because the
+		snowspeeders are using space style pathfinding which needs this information so that we won't
+		path speeders through structures -->
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> Corvette </Space_Layer>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Unit_Under_Attack> EHD_Command_Center_Under_Attack </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Lost> EHD_Command_Center_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Select>Structure_Command_Center_Select_SFX</SFXEvent_Select>
+		
+		<Lua_Script>Upgrade_Empire_Barracks</Lua_Script>
+		
+		<Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_COMMAND_CENTER_EMPIRE_00  </Encyclopedia_Text>
+		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_COMMAND_CENTER_EMPIRE_00, MP_TEXT_ENCYCLOPEDIA_COMMAND_CENTER_EMPIRE_01 </MP_Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Score_Cost_Credits> 4000 </Score_Cost_Credits>
+		<Property_Flags>InBase</Property_Flags>
+		<Abilities SubObjectList="Yes">
+			<Force_Healing_Ability Name="E_Command_Center_Self_Repair">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Heal_Range>0.0</Heal_Range>
+				<Heal_Percent>0.02</Heal_Percent>
+				<Heal_Amount>0.0</Heal_Amount>
+				<Heal_Interval_In_Secs>2.5</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types />
+				<SFXEvent_Target_Affected />
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.8, 1.8, 1.8</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+			<Income_Stream_Ability Name="Empire_Command_Center_Income_Stream">
+				<!-- Income streams only exist in tactical modes that are not spawned from galatic, so this will not affect campaign play. -->
+				<Base_Income_Value>45</Base_Income_Value>
+				<Base_Interval_In_Secs>5</Base_Interval_In_Secs>
+				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
+				<Split_Favors_Owner>No</Split_Favors_Owner>
+				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
+			</Income_Stream_Ability>
+			<Redirect_Blaster_Ability Name="E_Magnetically_Sealed_Structure">
+				<Initially_Enabled> No </Initially_Enabled>
+				<Activation_Style>Take_Damage</Activation_Style>
+				<Redirect_Chance>0.0</Redirect_Chance>
+				<Block_Chance>0.30</Block_Chance>
+				<Reaction_Arc_In_Degrees>360.0</Reaction_Arc_In_Degrees>
+				<Max_Projectile_Redirection_Angle_In_Degrees> 30.0 </Max_Projectile_Redirection_Angle_In_Degrees>
+				<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
+				<!-- We can block/redirect shots from the following units types: -->
+				<Applicable_Unit_Categories>Hero | Infantry | Vehicle | Structure</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
+			</Redirect_Blaster_Ability>
+			
+		</Abilities>
+    </SpecialStructure>
+	
+	<GroundCompany Name="UpgradeEarly_Empire_Command_Center_1_TO_2">
+		<Text_ID>AOTR_TEXT_UPGRADE_BARRACKS_1_TO_2</Text_ID>
+		<Icon_Name>I_BUTTON_E_INFANTRY_BARRACKS_2_UPGRADE.tga</Icon_Name>
+		<Encyclopedia_Text>
+			
+		</Encyclopedia_Text>
+		<Variant_Of_Existing_Type>UPGRADE_TEMPLATE</Variant_Of_Existing_Type>
+		<Required_Special_Structures> Early_Empire_Command_Center_lvl1 </Required_Special_Structures>
+		<Affiliation>Early_Empire</Affiliation>
+		<Build_Cost_Credits>3500</Build_Cost_Credits>
+		<Build_Time_Seconds>70</Build_Time_Seconds>
+		<GUI_Row> 0 </GUI_Row>
+		<Tech_Level>0</Tech_Level>
+		<Is_Stealth_Company>Yes</Is_Stealth_Company>
+		<Company_Units>Upgrade_Early_Empire_Command_Center_1_TO_2_DUMMY</Company_Units>
+		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
+		<SFXEvent_Build_Started>EHD_Upgrade_Under_Construction</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+	</GroundCompany>
+
+	<GroundVehicle Name="Upgrade_Early_Empire_Command_Center_1_TO_2_DUMMY">
+		<Variant_Of_Existing_Type>UPGRADE_TEMPLATE_DUMMY</Variant_Of_Existing_Type>
+		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
+		<Lua_Script>Upgrade_Empire_Barracks</Lua_Script>
+		<AI_Combat_Power>300</AI_Combat_Power>
+	</GroundVehicle>
+	
+	<SpecialStructure Name="Early_Empire_Command_Center_lvl2">
+		<GUI_Bounds_Scale>0.33</GUI_Bounds_Scale>
+		
+		<Text_ID>TEXT_STRUCTURE_IMPERIAL_COMMAND_CENTER</Text_ID>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<HQ_Win_Condition_Relevant>yes</HQ_Win_Condition_Relevant>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<GUI_Row> 0 </GUI_Row>
+		<Land_Model_Name>EB_CommandCenter.alo</Land_Model_Name>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<SFXEvent_Ambient_Loop>Structure_Communications_Array_Loop</SFXEvent_Ambient_Loop>
+		<Is_Community_Property>Yes</Is_Community_Property>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Explosion_Ground_Structure</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<Ranged_Target_Z_Adjust>20.0</Ranged_Target_Z_Adjust>
+		<Behavior>DUMMY_GROUND_STRUCTURE,SELECTABLE</Behavior>
+		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,SELECTABLE, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI, IDLE,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
+		<Obstacle_Proxy_Type> Imperial_Command_Center_Build_Pad </Obstacle_Proxy_Type>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		
+		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+
+		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
+		<Terrain_Texture_Modifier_Join_Distance>1.0</Terrain_Texture_Modifier_Join_Distance>	
+		<Terrain_Texture_Modifier_Square>true</Terrain_Texture_Modifier_Square>
+				
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.15  0.15</Radar_Icon_Size>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Armor_Type> Armor_Structure </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
+
+		<Build_Cost_Credits>1500</Build_Cost_Credits>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<Required_Special_Structures>Early_Empire_Command_Center_lvl1</Required_Special_Structures>
+		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
+		<Size_Value>50</Size_Value>
+		<Base_Position>In_Base</Base_Position>
+		<Tech_Level>1</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Planets />
+		<Icon_Name>i_button_eb_commandcenter2.tga</Icon_Name>
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
 	
@@ -146,6 +335,52 @@
 		</Abilities>
     </SpecialStructure>
 	
+	<Template Name="UPGRADE_TEMPLATE">
+		<Text_ID>AOTR_TEXT_EMPTY</Text_ID>
+		<Encyclopedia_Text>AOTR_TEXT_EMPTY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_GROUND_UPGRADE</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_e_vehicle_factory.tga</Icon_Name>
+		<Required_Special_Structures/>
+		<Required_Orbiting_Units/>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Build_Cost_Credits>3200</Build_Cost_Credits>
+		<Build_Time_Seconds>5</Build_Time_Seconds>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Neutral</Affiliation>
+		<Damage>0</Damage>
+		<Autoresolve_Health>350</Autoresolve_Health>
+		<Piracy_Value_Credits>1</Piracy_Value_Credits>
+		<Score_Cost_Credits>98</Score_Cost_Credits>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Tech_Level>0</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+		<Create_Team_Type> Imp_Guard_Team </Create_Team_Type>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<GUI_Model_Name>EI_RoyalGaurd.alo</GUI_Model_Name>
+		<Land_Model_Name>EI_RoyalGaurd.alo</Land_Model_Name>
+		<Scale_Factor>5</Scale_Factor>
+		<GUI_Offset>0 0 5</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<Company_Units>UPGRADE_TEMPLATE_DUMMY</Company_Units>
+		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
+		<SFXEvent_Build_Started>EHD_Upgrade_Under_Construction</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<CategoryMask> Structure </CategoryMask>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Is_Stealth_Company>Yes</Is_Stealth_Company>
+		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
+		<Victory_Relevant>No</Victory_Relevant>
+	</Template>	
 	
 	<SpecialStructure Name="Early_Empire_Financial_Center">
 		<Select_Box_Scale>200</Select_Box_Scale>

@@ -749,7 +749,7 @@
 	<Faction Name="First_Era">
 
 		<Is_Debug_Switchable_To> No </Is_Debug_Switchable_To>
-		<Create_Player_In_Multiplayer_Games> Yes </Create_Player_In_Multiplayer_Games>
+		<Create_Player_In_Multiplayer_Games> No </Create_Player_In_Multiplayer_Games>
 
 		<Text_ID> TEXT_FACTION_FIRST_ERA </Text_ID>
 		<Icon_Name> i_icon_pirate.tga </Icon_Name>
@@ -3397,7 +3397,7 @@
 	<Faction Name="Second_Era">
 
 		<Is_Debug_Switchable_To> No </Is_Debug_Switchable_To>
-		<Create_Player_In_Multiplayer_Games> Yes </Create_Player_In_Multiplayer_Games>
+		<Create_Player_In_Multiplayer_Games> No </Create_Player_In_Multiplayer_Games>
 
 		<Text_ID> TEXT_FACTION_SECOND_ERA </Text_ID>
 		<Icon_Name> i_icon_pirate.tga </Icon_Name>
@@ -6064,7 +6064,7 @@
 	<Faction Name="Third_Era">
 
 		<Is_Debug_Switchable_To> No </Is_Debug_Switchable_To>
-		<Create_Player_In_Multiplayer_Games> Yes </Create_Player_In_Multiplayer_Games>
+		<Create_Player_In_Multiplayer_Games> No </Create_Player_In_Multiplayer_Games>
 
 		<Text_ID> TEXT_FACTION_THIRD_ERA </Text_ID>
 		<Icon_Name> i_icon_pirate.tga </Icon_Name>
