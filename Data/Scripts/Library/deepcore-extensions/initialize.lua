@@ -1,1 +1,0 @@
-require("deepcore-extensions/std/plugintargets")
