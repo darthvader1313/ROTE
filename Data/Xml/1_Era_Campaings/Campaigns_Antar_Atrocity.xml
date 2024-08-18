@@ -84,9 +84,9 @@
 		
 		<!-- Early_Empire Starting Forces -->
 
-		<Starting_Credits> Early_Empire,  10000 </Starting_Credits>
+		<Starting_Credits> Early_Empire,  5000 </Starting_Credits>
 		<Starting_Tech_Level> Early_Empire, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> Early_Empire, 5 </Max_Tech_Level>
+		<Max_Tech_Level> Early_Empire, 11 </Max_Tech_Level>
 		
         <!-- Coruscant Space Forces -->
 	    <Starting_Forces> Early_Empire, Coruscant, Star_Destroyer_1_Template </Starting_Forces>
@@ -302,9 +302,9 @@
 		
 		<!-- CIS Remnant Starting Forces -->
 
-		<Starting_Credits> CIS_Remnant,  10000 </Starting_Credits>
+		<Starting_Credits> CIS_Remnant,  5000 </Starting_Credits>
 		<Starting_Tech_Level> CIS_Remnant, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> CIS_Remnant, 5 </Max_Tech_Level>
+		<Max_Tech_Level> CIS_Remnant, 11 </Max_Tech_Level>
                                                      
         <!-- Antar Space Forces -->
 
@@ -408,9 +408,9 @@
 		
 		<!-- Trade Federation Starting Forces -->
 
-		<Starting_Credits> Trade_Federation,  10000 </Starting_Credits>
+		<Starting_Credits> Trade_Federation,  5000 </Starting_Credits>
 		<Starting_Tech_Level> Trade_Federation, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> Trade_Federation, 5 </Max_Tech_Level>
+		<Max_Tech_Level> Trade_Federation, 11 </Max_Tech_Level>
 		
         <!-- CatoNeimoidia Space Forces -->
 		
@@ -470,9 +470,9 @@
 		
 		<!-- Commerce Guild Starting Forces -->
 
-		<Starting_Credits> Techno_Union,  10000 </Starting_Credits>
+		<Starting_Credits> Techno_Union,  5000 </Starting_Credits>
 		<Starting_Tech_Level> Techno_Union, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> Techno_Union, 5 </Max_Tech_Level>
+		<Max_Tech_Level> Techno_Union, 11 </Max_Tech_Level>
 		
         <!-- Emberlene Space Forces -->
 		
@@ -594,9 +594,9 @@
 		
 		<!-- Early_Empire Starting Forces -->
 
-		<Starting_Credits> Early_Empire,  10000 </Starting_Credits>
+		<Starting_Credits> Early_Empire,  5000 </Starting_Credits>
 		<Starting_Tech_Level> Early_Empire, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> Early_Empire, 5 </Max_Tech_Level>
+		<Max_Tech_Level> Early_Empire, 11 </Max_Tech_Level>
 		
         <!-- Coruscant Space Forces -->
 	
@@ -812,9 +812,9 @@
 		
 		<!-- CIS Remnant Starting Forces -->
 
-		<Starting_Credits> CIS_Remnant,  10000 </Starting_Credits>
+		<Starting_Credits> CIS_Remnant,  5000 </Starting_Credits>
 		<Starting_Tech_Level> CIS_Remnant, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> CIS_Remnant, 5 </Max_Tech_Level>
+		<Max_Tech_Level> CIS_Remnant, 11 </Max_Tech_Level>
                                                      
         <!-- Antar Space Forces -->
 
@@ -918,9 +918,9 @@
 		
 		<!-- Trade Federation Starting Forces -->
 
-		<Starting_Credits> Trade_Federation,  10000 </Starting_Credits>
+		<Starting_Credits> Trade_Federation,  5000 </Starting_Credits>
 		<Starting_Tech_Level> Trade_Federation, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> Trade_Federation, 5 </Max_Tech_Level>
+		<Max_Tech_Level> Trade_Federation, 11 </Max_Tech_Level>
 		
         <!-- CatoNeimoidia Space Forces -->
 		
@@ -980,9 +980,9 @@
 		
 		<!-- Commerce Guild Starting Forces -->
 
-		<Starting_Credits> Techno_Union,  10000 </Starting_Credits>
+		<Starting_Credits> Techno_Union,  5000 </Starting_Credits>
 		<Starting_Tech_Level> Techno_Union, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> Techno_Union, 5 </Max_Tech_Level>
+		<Max_Tech_Level> Techno_Union, 11 </Max_Tech_Level>
 		
         <!-- Emberlene Space Forces -->
 		
@@ -1103,9 +1103,9 @@
 		
 		<!-- Early_Empire Starting Forces -->
 
-		<Starting_Credits> Early_Empire,  10000 </Starting_Credits>
+		<Starting_Credits> Early_Empire,  5000 </Starting_Credits>
 		<Starting_Tech_Level> Early_Empire, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> Early_Empire, 5 </Max_Tech_Level>
+		<Max_Tech_Level> Early_Empire, 11 </Max_Tech_Level>
 		
         <!-- Coruscant Space Forces -->
 	
@@ -1321,9 +1321,9 @@
 		
 		<!-- CIS Remnant Starting Forces -->
 
-		<Starting_Credits> CIS_Remnant,  10000 </Starting_Credits>
+		<Starting_Credits> CIS_Remnant,  5000 </Starting_Credits>
 		<Starting_Tech_Level> CIS_Remnant, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> CIS_Remnant, 5 </Max_Tech_Level>
+		<Max_Tech_Level> CIS_Remnant, 11 </Max_Tech_Level>
                                                      
         <!-- Antar Space Forces -->
 
@@ -1427,9 +1427,9 @@
 		
 		<!-- Trade Federation Starting Forces -->
 
-		<Starting_Credits> Trade_Federation,  10000 </Starting_Credits>
+		<Starting_Credits> Trade_Federation,  5000 </Starting_Credits>
 		<Starting_Tech_Level> Trade_Federation, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> Trade_Federation, 5 </Max_Tech_Level>
+		<Max_Tech_Level> Trade_Federation, 11 </Max_Tech_Level>
 		
         <!-- CatoNeimoidia Space Forces -->
 		
@@ -1489,9 +1489,9 @@
 		
 		<!-- Commerce Guild Starting Forces -->
 
-		<Starting_Credits> Techno_Union,  10000 </Starting_Credits>
+		<Starting_Credits> Techno_Union,  5000 </Starting_Credits>
 		<Starting_Tech_Level> Techno_Union, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> Techno_Union, 5 </Max_Tech_Level>
+		<Max_Tech_Level> Techno_Union, 11 </Max_Tech_Level>
 		
         <!-- Emberlene Space Forces -->
 		
@@ -1612,9 +1612,9 @@
 		
 		<!-- Early_Empire Starting Forces -->
 
-		<Starting_Credits> Early_Empire,  10000 </Starting_Credits>
+		<Starting_Credits> Early_Empire,  5000 </Starting_Credits>
 		<Starting_Tech_Level> Early_Empire, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> Early_Empire, 5 </Max_Tech_Level>
+		<Max_Tech_Level> Early_Empire, 11 </Max_Tech_Level>
 		
         <!-- Coruscant Space Forces -->
 	
@@ -1830,9 +1830,9 @@
 		
 		<!-- CIS Remnant Starting Forces -->
 
-		<Starting_Credits> CIS_Remnant,  10000 </Starting_Credits>
+		<Starting_Credits> CIS_Remnant,  5000 </Starting_Credits>
 		<Starting_Tech_Level> CIS_Remnant, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> CIS_Remnant, 5 </Max_Tech_Level>
+		<Max_Tech_Level> CIS_Remnant, 11 </Max_Tech_Level>
                                                      
         <!-- Antar Space Forces -->
 
@@ -1929,9 +1929,9 @@
 		
 		<!-- Trade Federation Starting Forces -->
 
-		<Starting_Credits> Trade_Federation,  10000 </Starting_Credits>
+		<Starting_Credits> Trade_Federation,  5000 </Starting_Credits>
 		<Starting_Tech_Level> Trade_Federation, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> Trade_Federation, 5 </Max_Tech_Level>
+		<Max_Tech_Level> Trade_Federation, 11 </Max_Tech_Level>
 		
         <!-- CatoNeimoidia Space Forces -->
 		
@@ -1991,9 +1991,9 @@
 		
 		<!-- Commerce Guild Starting Forces -->
 
-		<Starting_Credits> Techno_Union,  10000 </Starting_Credits>
+		<Starting_Credits> Techno_Union,  5000 </Starting_Credits>
 		<Starting_Tech_Level> Techno_Union, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> Techno_Union, 5 </Max_Tech_Level>
+		<Max_Tech_Level> Techno_Union, 11 </Max_Tech_Level>
 		
         <!-- Emberlene Space Forces -->
 		

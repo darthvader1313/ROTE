@@ -6,6 +6,7 @@
     <File>LayerZDummy.xml</File>
 	<File>TechBuilding.xml</File>	<!-- AJA 10/12/2005 - Moved to the top so that tech upgrades always show up on the left of the build bar. -->
 	<File>GroundBases.xml</File>
+	<File>Templates.xml</File>
 	<!-- First Era -->
 	<File>Groundbases\Groundbases_Early_Empire.xml</File>
 	<File>Groundbases\Groundbases_Terrorists.xml</File>

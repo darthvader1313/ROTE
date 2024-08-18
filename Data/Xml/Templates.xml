@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<Templates>
+
+
+
+
+    <Template Name="Ground_Vehicle_Template">
+		<Mass>1.0</Mass>
+		<Encyclopedia_Good_Against/>
+		<Encyclopedia_Vulnerable_To/>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<Scale_Factor>1.0</Scale_Factor>
+		<Deploys>No</Deploys>
+		<Political_Control>0</Political_Control>
+
+		<GUI_Bracket_Size>1</GUI_Bracket_Size>
+		<GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
+
+		<Affiliation>Neutral</Affiliation>
+
+		<Ranking_In_Category>6</Ranking_In_Category>
+
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Vehicle </UnitCollisionClass>
+		<CategoryMask> Vehicle </CategoryMask>
+
+		<Behavior>SELECTABLE</Behavior>
+
+		<FormationSpacing> 1 </FormationSpacing>
+		<FormationOrder> 5 </FormationOrder>
+		<FormationGrouping> Standard </FormationGrouping>
+
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
+
+		<Shield_Points>0</Shield_Points>
+		<Shield_Refresh_Rate>0.0</Shield_Refresh_Rate>
+
+		<Energy_Capacity>999</Energy_Capacity>
+		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+		<Score_Cost_Credits>0</Score_Cost_Credits>
+
+		<Size_Value>10</Size_Value>
+		<Damage>1</Damage>
+		<Sensor_Range>80</Sensor_Range>
+
+		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
+		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
+
+		<UnitCollisionClass> Large Vehicle </UnitCollisionClass>
+
+		<OccupationStyle>1x1</OccupationStyle>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>60.0, 60.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+
+		<Wind_Disturbance_Radius>50</Wind_Disturbance_Radius>
+		<Wind_Disturbance_Strength>10</Wind_Disturbance_Strength>
+		<Wind_Disturbance_Sphere_Alpha>0.4</Wind_Disturbance_Sphere_Alpha>
+
+		<Ground_Vehicle_Turret_Target> Yes </Ground_Vehicle_Turret_Target>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Select_Box_Scale>60</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
+
+		<Dense_FOW_Reveal_Range_Multiplier>0.1</Dense_FOW_Reveal_Range_Multiplier>
+		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed> <!-- Higher number means slower -->
+		<Rotation_Animation_Speed> 1.0 </Rotation_Animation_Speed> <!-- Higher number means slower -->
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>0.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Autonomous_Move_Extension_Vs_Attacker>0.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Death_Explosions>Medium_Explosion_Land</Death_Explosions>
+
+		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Should_Reinforcements_Move> false </Should_Reinforcements_Move>
+		<Destroy_When_Used_As_Corruption_Prereq> No </Destroy_When_Used_As_Corruption_Prereq>
+		<Converted_To_Enemy_Die_Time_Seconds>60</Converted_To_Enemy_Die_Time_Seconds>
+	</Template>
+
+
+
+
+
+</Templates>

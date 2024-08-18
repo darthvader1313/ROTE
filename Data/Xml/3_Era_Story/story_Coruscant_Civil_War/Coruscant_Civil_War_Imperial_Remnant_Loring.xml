@@ -79,7 +79,7 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Kenner_Loring_Team</Reward_Param1>
-		<Reward_Param2>Calus</Reward_Param2>
+		<Reward_Param2>BorgoPrime</Reward_Param2>
 		<Prereq>Imperial_Remnant_Loring_Enters_Tech_01</Prereq>
 	</Event>
 

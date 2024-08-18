@@ -18,7 +18,7 @@
   
   
   
-  <Campaign Name="Sandbox_Rebellion_on_Akiva_Galactic_Empire">
+  <Campaign Name="Sandbox_Rebellion_on_Akiva_New_Republic">
 
 		<Campaign_Set> Sandbox_Rebellion_on_Akiva </Campaign_Set>
 		<Sort_Order>22</Sort_Order>
@@ -39,23 +39,25 @@
 			
 		</Trade_Routes>
 
-        <Home_Location> Galactic_Empire, Coruscant </Home_Location>
-		<Home_Location> Rebel_Alliance, Yavin </Home_Location>
+        <Home_Location> New_Republic, Coruscant </Home_Location>
+		<Home_Location> Imperial_Remnant, Yavin </Home_Location>
         
 		
-		<Starting_Active_Player> Galactic_Empire </Starting_Active_Player>
+		<Starting_Active_Player> New_Republic </Starting_Active_Player>
 		
-		<Story_Name>Galactic_Empire, story_Rebellion_on_Akiva\Story_Rebellion_on_Akiva_Galactic_Empire.xml </Story_Name>
-		<Story_Name>Rebel_Alliance, story_Rebellion_on_Akiva\Story_Rebellion_on_Akiva_Rebel_Alliance.xml </Story_Name>
+		<Story_Name>New_Republic, story_Rebellion_on_Akiva\Story_Rebellion_on_Akiva_New_Republic.xml </Story_Name>
+		<Story_Name>Imperial_Remnant, story_Rebellion_on_Akiva\Story_Rebellion_on_Akiva_Imperial_Remnant.xml </Story_Name>
+		<Story_Name>Imperial_Remnant_Rax, story_Rebellion_on_Akiva\Story_Rebellion_on_Akiva_Imperial_Remnant_Rax.xml </Story_Name>
+		<Story_Name>First_Order, story_Rebellion_on_Akiva\Story_Rebellion_on_Akiva_First_Order.xml </Story_Name>
 		
+		<AI_Player_Control> Imperial_Remnant, BasicEmpire </AI_Player_Control>
+        <AI_Player_Control> Imperial_Remnant_Rax, BasicEmpire </AI_Player_Control>
+        <AI_Player_Control> First_Order, BasicEmpire </AI_Player_Control>
 		
-		<AI_Player_Control> Rebel_Alliance, BasicEmpire </AI_Player_Control>
-
-
-		
-		<Markup_Filename>Galactic_Empire, DefaultGalacticHints </Markup_Filename>
-		<Markup_Filename>Rebel_Alliance, DefaultGalacticHints </Markup_Filename>
-
+		<Markup_Filename>New_Republic, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Imperial_Remnant, DefaultGalacticHints </Markup_Filename>
+        <Markup_Filename>Imperial_Remnant_Rax, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>First_Order, DefaultGalacticHints </Markup_Filename>
 		
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>True</Show_Completed_Tab>

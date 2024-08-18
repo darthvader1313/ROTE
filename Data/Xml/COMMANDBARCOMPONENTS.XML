@@ -8632,7 +8632,7 @@
             <Color>0 50 255 175</Color>
             <Font_Point_Size>7</Font_Point_Size>
             <Scale>1.0</Scale>
-            <Text_Color>192 192 192 200</Text_Color>
+            <Text_Color>255 255 255 200</Text_Color>
             <Text_Offset>0 0</Text_Offset>
             <Size>44 14</Size>
             <Offset_Render>True</Offset_Render>
@@ -8647,7 +8647,7 @@
             <Color>0 50 255 175</Color>
             <Font_Point_Size>7</Font_Point_Size>
             <Scale>1.0</Scale>
-            <Text_Color>192 192 192 200</Text_Color>
+            <Text_Color>255 255 255 200</Text_Color>
             <Text_Offset>0 0</Text_Offset>
             <Size>44 14</Size>
             <Offset_Render>True</Offset_Render>

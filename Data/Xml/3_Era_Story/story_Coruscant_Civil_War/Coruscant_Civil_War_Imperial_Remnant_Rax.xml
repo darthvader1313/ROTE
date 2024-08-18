@@ -77,7 +77,7 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Gallius_Rax_Team</Reward_Param1>
-		<Reward_Param2>Empres_Teta</Reward_Param2>
+		<Reward_Param2>Dorin</Reward_Param2>
 		<Prereq>Imperial_Remnant_Rax_Enters_Tech_01</Prereq>
 	</Event>
 

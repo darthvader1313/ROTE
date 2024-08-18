@@ -7,9 +7,9 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Affiliation>Early_Empire</Affiliation>
 		<Behavior>DUMMY_GROUND_BASE</Behavior>
-		<Build_Cost_Credits>1500</Build_Cost_Credits>
+		<Build_Cost_Credits>1000</Build_Cost_Credits>
 		<AI_Combat_Power>1400</AI_Combat_Power>
-		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Build_Tab_Outpost>Yes</Build_Tab_Outpost>
 		<Size_Value>10</Size_Value>
 		<Autoresolve_Health>4000</Autoresolve_Health>
@@ -34,9 +34,9 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Affiliation>Early_Empire</Affiliation>
 		<Behavior>DUMMY_GROUND_BASE</Behavior>
-		<Build_Cost_Credits>3000</Build_Cost_Credits>
+		<Build_Cost_Credits>2000</Build_Cost_Credits>
 		<AI_Combat_Power>3300</AI_Combat_Power>
-		<Build_Time_Seconds>40</Build_Time_Seconds>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Build_Tab_Outpost>Yes</Build_Tab_Outpost>
 		<Size_Value>20</Size_Value>
 		<Autoresolve_Health>7000</Autoresolve_Health>
@@ -61,9 +61,9 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Affiliation>Early_Empire</Affiliation>
 		<Behavior>DUMMY_GROUND_BASE</Behavior>
-		<Build_Cost_Credits>6000</Build_Cost_Credits>
+		<Build_Cost_Credits>4000</Build_Cost_Credits>
 		<AI_Combat_Power>5500</AI_Combat_Power>
-		<Build_Time_Seconds>80</Build_Time_Seconds>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Build_Tab_Outpost>Yes</Build_Tab_Outpost>
 		<Size_Value>30</Size_Value>
 		<Autoresolve_Health>13000</Autoresolve_Health>
@@ -88,9 +88,9 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Affiliation>Early_Empire</Affiliation>
 		<Behavior>DUMMY_GROUND_BASE</Behavior>
-		<Build_Cost_Credits>12000</Build_Cost_Credits>
+		<Build_Cost_Credits>8000</Build_Cost_Credits>
 		<AI_Combat_Power>8300</AI_Combat_Power>
-		<Build_Time_Seconds>120</Build_Time_Seconds>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Build_Tab_Outpost>Yes</Build_Tab_Outpost>
 		<Size_Value>40</Size_Value>
 		<Autoresolve_Health>18000</Autoresolve_Health>
@@ -115,9 +115,9 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Affiliation>Early_Empire</Affiliation>
 		<Behavior>DUMMY_GROUND_BASE</Behavior>
-		<Build_Cost_Credits>24000</Build_Cost_Credits>
+		<Build_Cost_Credits>16000</Build_Cost_Credits>
 		<AI_Combat_Power>12800</AI_Combat_Power>
-		<Build_Time_Seconds>200</Build_Time_Seconds>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Build_Tab_Outpost>Yes</Build_Tab_Outpost>
 		<Size_Value>50</Size_Value>
 		<Autoresolve_Health>25000</Autoresolve_Health>
@@ -127,6 +127,168 @@
 		<Prev_Level_Base>Early_Empire_Ground_Base_4</Prev_Level_Base>
 		<Next_Level_Base></Next_Level_Base>
 		<Required_Ground_Base_Level>4</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<CategoryMask> Structure </CategoryMask>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+      <Icon_Name>i_button_imperial_base.tga</Icon_Name>
+	</GroundBase>
+	
+	<GroundBase Name="Early_Empire_Ground_Base_6">
+		<Text_ID>TEXT_EMPIRE_GROUND_BASE_6</Text_ID>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Early_Empire</Affiliation>
+		<Behavior>DUMMY_GROUND_BASE</Behavior>
+		<Build_Cost_Credits>32000</Build_Cost_Credits>
+		<AI_Combat_Power>1400</AI_Combat_Power>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
+		<Build_Tab_Outpost>Yes</Build_Tab_Outpost>
+		<Size_Value>10</Size_Value>
+		<Autoresolve_Health>4000</Autoresolve_Health>
+		<Damage>15</Damage>
+		<Tech_Level>0</Tech_Level>
+		<Base_Level>6</Base_Level>
+		<Prev_Level_Base>Early_Empire_Ground_Base_5</Prev_Level_Base>
+		<Next_Level_Base>Early_Empire_Ground_Base_7</Next_Level_Base>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>5</Required_Star_Base_Level>
+		<CategoryMask> Structure </CategoryMask>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+      <Icon_Name>i_button_imperial_base.tga</Icon_Name>
+	</GroundBase>
+
+	<GroundBase Name="Early_Empire_Ground_Base_7">
+		<Text_ID>TEXT_EMPIRE_GROUND_BASE_7</Text_ID>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Early_Empire</Affiliation>
+		<Behavior>DUMMY_GROUND_BASE</Behavior>
+		<Build_Cost_Credits>64000</Build_Cost_Credits>
+		<AI_Combat_Power>3300</AI_Combat_Power>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
+		<Build_Tab_Outpost>Yes</Build_Tab_Outpost>
+		<Size_Value>20</Size_Value>
+		<Autoresolve_Health>7000</Autoresolve_Health>
+		<Damage>15</Damage>
+		<Tech_Level>0</Tech_Level>
+		<Base_Level>7</Base_Level>
+		<Prev_Level_Base>Early_Empire_Ground_Base_6</Prev_Level_Base>
+		<Next_Level_Base>Early_Empire_Ground_Base_8</Next_Level_Base>
+		<Required_Ground_Base_Level>6</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<CategoryMask> Structure </CategoryMask>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+      <Icon_Name>i_button_imperial_base.tga</Icon_Name>
+	</GroundBase>
+
+	<GroundBase Name="Early_Empire_Ground_Base_8">
+		<Text_ID>TEXT_EMPIRE_GROUND_BASE_8</Text_ID>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Early_Empire</Affiliation>
+		<Behavior>DUMMY_GROUND_BASE</Behavior>
+		<Build_Cost_Credits>128000</Build_Cost_Credits>
+		<AI_Combat_Power>5500</AI_Combat_Power>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
+		<Build_Tab_Outpost>Yes</Build_Tab_Outpost>
+		<Size_Value>30</Size_Value>
+		<Autoresolve_Health>13000</Autoresolve_Health>
+		<Damage>15</Damage>
+		<Tech_Level>0</Tech_Level>
+		<Base_Level>8</Base_Level>
+		<Prev_Level_Base>Early_Empire_Ground_Base_7</Prev_Level_Base>
+		<Next_Level_Base>Early_Empire_Ground_Base_9</Next_Level_Base>
+		<Required_Ground_Base_Level>7</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<CategoryMask> Structure </CategoryMask>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+      <Icon_Name>i_button_imperial_base.tga</Icon_Name>
+	</GroundBase>
+
+	<GroundBase Name="Early_Empire_Ground_Base_9">
+		<Text_ID>TEXT_EMPIRE_GROUND_BASE_9</Text_ID>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Early_Empire</Affiliation>
+		<Behavior>DUMMY_GROUND_BASE</Behavior>
+		<Build_Cost_Credits>256000</Build_Cost_Credits>
+		<AI_Combat_Power>8300</AI_Combat_Power>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
+		<Build_Tab_Outpost>Yes</Build_Tab_Outpost>
+		<Size_Value>40</Size_Value>
+		<Autoresolve_Health>18000</Autoresolve_Health>
+		<Damage>15</Damage>
+		<Tech_Level>0</Tech_Level>
+		<Base_Level>9</Base_Level>
+		<Prev_Level_Base>Early_Empire_Ground_Base_8</Prev_Level_Base>
+		<Next_Level_Base>Early_Empire_Ground_Base_10</Next_Level_Base>
+		<Required_Ground_Base_Level>8</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<CategoryMask> Structure </CategoryMask>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+      <Icon_Name>i_button_imperial_base.tga</Icon_Name>
+	</GroundBase>
+
+	<GroundBase Name="Early_Empire_Ground_Base_10">
+		<Text_ID>TEXT_EMPIRE_GROUND_BASE_10</Text_ID>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Early_Empire</Affiliation>
+		<Behavior>DUMMY_GROUND_BASE</Behavior>
+		<Build_Cost_Credits>512000</Build_Cost_Credits>
+		<AI_Combat_Power>12800</AI_Combat_Power>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
+		<Build_Tab_Outpost>Yes</Build_Tab_Outpost>
+		<Size_Value>50</Size_Value>
+		<Autoresolve_Health>25000</Autoresolve_Health>
+		<Damage>15</Damage>
+		<Tech_Level>0</Tech_Level>
+		<Base_Level>10</Base_Level>
+		<Prev_Level_Base>Early_Empire_Ground_Base_9</Prev_Level_Base>
+		<Next_Level_Base>Early_Empire_Ground_Base_11</Next_Level_Base>
+		<Required_Ground_Base_Level>9</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<CategoryMask> Structure </CategoryMask>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+      <Icon_Name>i_button_imperial_base.tga</Icon_Name>
+	</GroundBase>
+	
+	<GroundBase Name="Early_Empire_Ground_Base_11">
+		<Text_ID>TEXT_EMPIRE_GROUND_BASE_11</Text_ID>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Early_Empire</Affiliation>
+		<Behavior>DUMMY_GROUND_BASE</Behavior>
+		<Build_Cost_Credits>1024000</Build_Cost_Credits>
+		<AI_Combat_Power>12800</AI_Combat_Power>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
+		<Build_Tab_Outpost>Yes</Build_Tab_Outpost>
+		<Size_Value>50</Size_Value>
+		<Autoresolve_Health>25000</Autoresolve_Health>
+		<Damage>15</Damage>
+		<Tech_Level>0</Tech_Level>
+		<Base_Level>11</Base_Level>
+		<Prev_Level_Base>Early_Empire_Ground_Base_10</Prev_Level_Base>
+		<Next_Level_Base></Next_Level_Base>
+		<Required_Ground_Base_Level>10</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<CategoryMask> Structure </CategoryMask>
 		<Victory_Relevant>yes</Victory_Relevant>

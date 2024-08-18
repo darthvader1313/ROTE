@@ -1,0 +1,2075 @@
+<?xml version="1.0"?>
+<Campaigns>
+
+
+
+<!-- ************************************************************** -->
+<!-- **************** SANDBOX CAMPAIGN "Antar Atrocity" ***************** -->
+<!-- ************************************************************** -->
+
+
+	
+
+
+	
+  
+  
+  
+  
+  
+  
+  <Campaign Name="Sandbox_Antar_Atrocity_Early_Empire">
+
+		<Campaign_Set> Sandbox_Antar_Atrocity </Campaign_Set>
+		<Sort_Order>1</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_ANTAR_ATROCITY </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_ANTAR_ATROCITY_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> -27.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 56.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Cal_Seti, Fresia, Coruscant, Alsakan, Anaxes, Axum, Corulag, Chandrila, 
+				Brentaal, Raltiir, Barlok, Shili, Champala, Carida, Arkania, Castell, 
+				Skako, Alderaan, Balmorra, Kuat, Humbarine, Commenor, CatoNeimoidia, Rendili, 
+				Sarapin, Vulpter, Columus, Ebaq, Corellia, Duro, Hakassi, HosnianPrime, 
+				Chasin, Loronar, Denon, Byss, Pillio, Tython, Empress_Teta, Foerost, 
+				Aargau, Ferixx, Randon, Ruusan, Artesia, AlarisPrime, Ambria, Umbara,
+				Onderon, Daalang, Mimban, Gyndine, Corsin, Brakka, Ithor, Polus,
+				Antar, Emberlene, Aurea
+		</Locations>
+
+        <Trade_Routes>
+			TR1, TR2
+		</Trade_Routes>
+
+        <Home_Location> Early_Empire, Coruscant </Home_Location>
+        <Home_Location> CIS_Remnant, Antar </Home_Location>
+		<Home_Location> Trade_Federation, CatoNeimoidia </Home_Location>
+		<Home_Location> Techno_Union, Emberlene </Home_Location>
+		
+		<Starting_Active_Player> Early_Empire </Starting_Active_Player>
+		
+		<Story_Name>Early_Empire, 1_Era_Story\story_Antar_Atrocity\Story_Antar_Atrocity_Early_Empire.xml </Story_Name>
+		<Story_Name>CIS_Remnant, 1_Era_Story\story_Antar_Atrocity\Story_Antar_Atrocity_CIS_Remnant.xml </Story_Name>
+        <Story_Name>Trade_Federation, 1_Era_Story\story_Antar_Atrocity\Story_Antar_Atrocity_Trade_Federation.xml </Story_Name>
+		<Story_Name>Techno_Union, 1_Era_Story\story_Antar_Atrocity\Story_Antar_Atrocity_Techno_Union.xml </Story_Name>
+		
+		<AI_Player_Control> CIS_Remnant, BasicEarlyEmpire </AI_Player_Control>
+		<AI_Player_Control> Trade_Federation, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Techno_Union, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>Early_Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>CIS_Remnant, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Trade_Federation, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Techno_Union, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		<!-- Early_Empire Starting Forces -->
+
+		<Starting_Credits> Early_Empire,  5000 </Starting_Credits>
+		<Starting_Tech_Level> Early_Empire, 4 </Starting_Tech_Level>
+		<Max_Tech_Level> Early_Empire, 11 </Max_Tech_Level>
+		
+        <!-- Coruscant Space Forces -->
+	    <Starting_Forces> Early_Empire, Coruscant, Star_Destroyer_1_Template </Starting_Forces>
+        <!-- Coruscant Land Forces -->
+		<Starting_Forces> Early_Empire, Coruscant, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Coruscant, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Coruscant, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Byss Space Forces -->
+	
+        <!-- Byss Land Forces -->
+		<Starting_Forces> Early_Empire, Byss, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Byss, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Byss, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Tython Space Forces -->
+	
+        <!-- Tython Land Forces -->
+		<Starting_Forces> Early_Empire, Tython, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Tython, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Tython, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Foerost Space Forces -->
+	
+        <!-- Foerost Land Forces -->
+		<Starting_Forces> Early_Empire, Foerost, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Foerost, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Foerost, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Empress_Teta Space Forces -->
+	
+        <!-- Empress_Teta Land Forces -->
+		<Starting_Forces> Early_Empire, Empress_Teta, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Empress_Teta, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Empress_Teta, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Aargau Space Forces -->
+	
+        <!-- Aargau Land Forces -->
+		<Starting_Forces> Early_Empire, Aargau, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Aargau, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Aargau, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Cal_Seti Space Forces -->
+	
+        <!-- Cal_Seti Land Forces -->
+		<Starting_Forces> Early_Empire, Cal_Seti, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Cal_Seti, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Cal_Seti, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Pillio Space Forces -->
+	
+        <!-- Pillio Land Forces -->
+		<Starting_Forces> Early_Empire, Pillio, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Pillio, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Pillio, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Fresia Space Forces -->
+	
+        <!-- Fresia Land Forces -->
+		<Starting_Forces> Early_Empire, Fresia, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Fresia, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Fresia, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Alsakan Space Forces -->
+	
+        <!-- Alsakan Land Forces -->
+		<Starting_Forces> Early_Empire, Alsakan, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Alsakan, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Alsakan, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Anaxes Space Forces -->
+	
+        <!-- Anaxes Land Forces -->
+		<Starting_Forces> Early_Empire, Anaxes, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Anaxes, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Anaxes, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Axum Space Forces -->
+	
+        <!-- Axum Land Forces -->
+		<Starting_Forces> Early_Empire, Axum, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Axum, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Axum, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Corulag Space Forces -->
+	
+        <!-- Corulag Land Forces -->
+		<Starting_Forces> Early_Empire, Corulag, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Corulag, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Corulag, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Chandrila Space Forces -->
+	
+        <!-- Chandrila Land Forces -->
+		<Starting_Forces> Early_Empire, Chandrila, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Chandrila, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Chandrila, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Brentaal Space Forces -->
+	
+        <!-- Brentaal Land Forces -->
+		<Starting_Forces> Early_Empire, Brentaal, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Brentaal, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Brentaal, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Raltiir Space Forces -->
+	
+        <!-- Raltiir Land Forces -->
+		<Starting_Forces> Early_Empire, Raltiir, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Raltiir, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Raltiir, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Barlok Space Forces -->
+	
+        <!-- Barlok Land Forces -->
+		<Starting_Forces> Early_Empire, Barlok, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Barlok, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Barlok, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Shili Space Forces -->
+	
+        <!-- Shili Land Forces -->
+		<Starting_Forces> Early_Empire, Shili, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Shili, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Shili, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Champala Space Forces -->
+	
+        <!-- Champala Land Forces -->
+		<Starting_Forces> Early_Empire, Champala, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Champala, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Champala, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Ithor Space Forces -->
+	
+        <!-- Ithor Land Forces -->
+		<Starting_Forces> Early_Empire, Ithor, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ithor, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ithor, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Brakka Space Forces -->
+	
+        <!-- Brakka Land Forces -->
+		<Starting_Forces> Early_Empire, Brakka, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Brakka, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Brakka, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Corsin Space Forces -->
+	
+        <!-- Corsin Land Forces -->
+		<Starting_Forces> Early_Empire, Corsin, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Corsin, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Corsin, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Carida Space Forces -->
+	
+        <!-- Carida Land Forces -->
+		<Starting_Forces> Early_Empire, Carida, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Carida, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Carida, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Polus Space Forces -->
+	
+        <!-- Polus Land Forces -->
+		<Starting_Forces> Early_Empire, Polus, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Polus, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Polus, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Alderaan Space Forces -->
+	
+        <!-- Alderaan Land Forces -->
+		<Starting_Forces> Early_Empire, Alderaan, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Alderaan, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Alderaan, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Kuat Space Forces -->
+	
+        <!-- Kuat Land Forces -->
+		<Starting_Forces> Early_Empire, Kuat, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Kuat, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Kuat, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Rendili Space Forces -->
+	
+        <!-- Rendili Land Forces -->
+		<Starting_Forces> Early_Empire, Rendili, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Rendili, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Rendili, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Corellia Space Forces -->
+	
+        <!-- Corellia Land Forces -->
+		<Starting_Forces> Early_Empire, Corellia, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Corellia, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Corellia, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Onderon Space Forces -->
+	
+        <!-- Onderon Land Forces -->
+		<Starting_Forces> Early_Empire, Onderon, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Onderon, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Onderon, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Umbara Space Forces -->
+	
+        <!-- Umbara Land Forces -->
+		<Starting_Forces> Early_Empire, Umbara, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Umbara, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Umbara, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		
+		
+		<!-- CIS Remnant Starting Forces -->
+
+		<Starting_Credits> CIS_Remnant,  5000 </Starting_Credits>
+		<Starting_Tech_Level> CIS_Remnant, 4 </Starting_Tech_Level>
+		<Max_Tech_Level> CIS_Remnant, 11 </Max_Tech_Level>
+                                                     
+        <!-- Antar Space Forces -->
+
+        <!-- Antar Land Forces -->
+		<Starting_Forces> CIS_Remnant, Antar, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Antar, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Antar, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Mimban Space Forces -->
+
+        <!-- Mimban Land Forces -->
+		<Starting_Forces> CIS_Remnant, Mimban, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Mimban, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Mimban, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Castell Space Forces -->
+
+        <!-- Castell Land Forces -->
+		<Starting_Forces> CIS_Remnant, Castell, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Castell, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Castell, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Castell Space Forces -->
+
+        <!-- Castell Land Forces -->
+		<Starting_Forces> CIS_Remnant, Castell, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Castell, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Castell, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Gyndine Space Forces -->
+
+        <!-- Gyndine Land Forces -->
+		<Starting_Forces> CIS_Remnant, Gyndine, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Gyndine, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Gyndine, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Loronar Space Forces -->
+
+        <!-- Loronar Land Forces -->
+		<Starting_Forces> CIS_Remnant, Loronar, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Loronar, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Loronar, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- HosnianPrime Space Forces -->
+        <Starting_Forces> CIS_Remnant, HosnianPrime, CIS_Remnant_Star_Base  </Starting_Forces>
+        <!-- HosnianPrime Land Forces -->
+		<Starting_Forces> CIS_Remnant, HosnianPrime, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, HosnianPrime, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, HosnianPrime, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Denon Space Forces -->
+
+        <!-- Denon Land Forces -->
+		<Starting_Forces> CIS_Remnant, Denon, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Denon, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Denon, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Chasin Space Forces -->
+
+        <!-- Chasin Land Forces -->
+		<Starting_Forces> CIS_Remnant, Chasin, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Chasin, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Chasin, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Duro Space Forces -->
+
+        <!-- Duro Land Forces -->
+		<Starting_Forces> CIS_Remnant, Duro, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Duro, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Duro, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Hakassi Space Forces -->
+
+        <!-- Hakassi Land Forces -->
+		<Starting_Forces> CIS_Remnant, Hakassi, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Hakassi, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Hakassi, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Ambria Space Forces -->
+
+        <!-- Ambria Land Forces -->
+		<Starting_Forces> CIS_Remnant, Ambria, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ambria, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ambria, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Arkania Space Forces -->
+
+        <!-- Arkania Land Forces -->
+		<Starting_Forces> CIS_Remnant, Arkania, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Arkania, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Arkania, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Aurea Space Forces -->
+
+        <!-- Aurea Land Forces -->
+		<Starting_Forces> CIS_Remnant, Aurea, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Aurea, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Aurea, Super_Battledroid_Squad </Starting_Forces>
+		
+
+		
+		<!-- Trade Federation Starting Forces -->
+
+		<Starting_Credits> Trade_Federation,  5000 </Starting_Credits>
+		<Starting_Tech_Level> Trade_Federation, 4 </Starting_Tech_Level>
+		<Max_Tech_Level> Trade_Federation, 11 </Max_Tech_Level>
+		
+        <!-- CatoNeimoidia Space Forces -->
+		
+        <!-- CatoNeimoidia Land Forces -->
+		<Starting_Forces> Trade_Federation, CatoNeimoidia, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, CatoNeimoidia, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, CatoNeimoidia, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Commenor Space Forces -->
+		
+        <!-- Commenor Land Forces -->
+		<Starting_Forces> Trade_Federation, Commenor, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Commenor, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Commenor, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Humbarine Space Forces -->
+		
+        <!-- Humbarine Land Forces -->
+		<Starting_Forces> Trade_Federation, Humbarine, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Humbarine, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Humbarine, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Balmorra Space Forces -->
+		
+        <!-- Balmorra Land Forces -->
+		<Starting_Forces> Trade_Federation, Balmorra, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Balmorra, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Balmorra, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Sarapin Space Forces -->
+		
+        <!-- Sarapin Land Forces -->
+		<Starting_Forces> Trade_Federation, Sarapin, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Sarapin, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Sarapin, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Columus Space Forces -->
+		
+        <!-- Columus Land Forces -->
+		<Starting_Forces> Trade_Federation, Columus, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Columus, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Columus, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Vulpter Space Forces -->
+		
+        <!-- Vulpter Land Forces -->
+		<Starting_Forces> Trade_Federation, Vulpter, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Vulpter, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Vulpter, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Ebaq Space Forces -->
+		
+        <!-- Ebaq Land Forces -->
+		<Starting_Forces> Trade_Federation, Ebaq, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Ebaq, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Ebaq, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Commerce Guild Starting Forces -->
+
+		<Starting_Credits> Techno_Union,  5000 </Starting_Credits>
+		<Starting_Tech_Level> Techno_Union, 4 </Starting_Tech_Level>
+		<Max_Tech_Level> Techno_Union, 11 </Max_Tech_Level>
+		
+        <!-- Emberlene Space Forces -->
+		
+        <!-- Emberlene Land Forces -->
+		<Starting_Forces> Techno_Union, Emberlene, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Emberlene, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Emberlene, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Daalang Space Forces -->
+		
+        <!-- Daalang Land Forces -->
+		<Starting_Forces> Techno_Union, Daalang, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Daalang, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Daalang, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Artesia Space Forces -->
+		
+        <!-- Artesia Land Forces -->
+		<Starting_Forces> Techno_Union, Artesia, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Artesia, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Artesia, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Randon Space Forces -->
+		
+        <!-- Randon Land Forces -->
+		<Starting_Forces> Techno_Union, Randon, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Randon, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Randon, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Ruusan Space Forces -->
+		
+        <!-- Ruusan Land Forces -->
+		<Starting_Forces> Techno_Union, Ruusan, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Ruusan, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Ruusan, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- AlarisPrime Space Forces -->
+		
+        <!-- AlarisPrime Land Forces -->
+		<Starting_Forces> Techno_Union, AlarisPrime, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, AlarisPrime, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, AlarisPrime, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Skako Space Forces -->
+		
+        <!-- Skako Land Forces -->
+		<Starting_Forces> Techno_Union, Skako, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Skako, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Skako, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
+		
+
+  
+  
+  </Campaign>
+  
+  <Campaign Name="Sandbox_Antar_Atrocity_CIS_Remnant">
+
+		<Campaign_Set> Sandbox_Antar_Atrocity </Campaign_Set>
+		<Sort_Order>1</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_ANTAR_ATROCITY </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_ANTAR_ATROCITY_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> 369.0 </Camera_Shift_X>
+        <Camera_Shift_Y> -126.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Cal_Seti, Fresia, Coruscant, Alsakan, Anaxes, Axum, Corulag, Chandrila, 
+				Brentaal, Raltiir, Barlok, Shili, Champala, Carida, Arkania, Castell, 
+				Skako, Alderaan, Balmorra, Kuat, Humbarine, Commenor, CatoNeimoidia, Rendili, 
+				Sarapin, Vulpter, Columus, Ebaq, Corellia, Duro, Hakassi, HosnianPrime, 
+				Chasin, Loronar, Denon, Byss, Pillio, Tython, Empress_Teta, Foerost, 
+				Aargau, Ferixx, Randon, Ruusan, Artesia, AlarisPrime, Ambria, Umbara,
+				Onderon, Daalang, Mimban, Gyndine, Corsin, Brakka, Ithor, Polus,	
+				Antar, Emberlene, Aurea
+		</Locations>
+
+        <Trade_Routes>
+			
+		</Trade_Routes>
+
+        <Home_Location> Early_Empire, Coruscant </Home_Location>
+        <Home_Location> CIS_Remnant, Antar </Home_Location>
+		<Home_Location> Trade_Federation, Cato_Neimodia </Home_Location>
+		<Home_Location> Techno_Union, Emberlene </Home_Location>
+		
+		<Starting_Active_Player> CIS_Remnant </Starting_Active_Player>
+		
+		<Story_Name>Early_Empire, 1_Era_Story\story_Antar_Atrocity\Story_Antar_Atrocity_Early_Empire.xml </Story_Name>
+		<Story_Name>CIS_Remnant, 1_Era_Story\story_Antar_Atrocity\Story_Antar_Atrocity_CIS_Remnant.xml </Story_Name>
+        <Story_Name>Trade_Federation, 1_Era_Story\story_Antar_Atrocity\Story_Antar_Atrocity_Trade_Federation.xml </Story_Name>
+		<Story_Name>Techno_Union, 1_Era_Story\story_Antar_Atrocity\Story_Antar_Atrocity_Techno_Union.xml </Story_Name>
+		
+		<AI_Player_Control> Early_Empire, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Trade_Federation, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Techno_Union, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>Early_Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>CIS_Remnant, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Trade_Federation, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Techno_Union, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		<!-- Early_Empire Starting Forces -->
+
+		<Starting_Credits> Early_Empire,  5000 </Starting_Credits>
+		<Starting_Tech_Level> Early_Empire, 4 </Starting_Tech_Level>
+		<Max_Tech_Level> Early_Empire, 11 </Max_Tech_Level>
+		
+        <!-- Coruscant Space Forces -->
+	
+        <!-- Coruscant Land Forces -->
+		<Starting_Forces> Early_Empire, Coruscant, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Coruscant, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Coruscant, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Byss Space Forces -->
+	
+        <!-- Byss Land Forces -->
+		<Starting_Forces> Early_Empire, Byss, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Byss, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Byss, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Tython Space Forces -->
+	
+        <!-- Tython Land Forces -->
+		<Starting_Forces> Early_Empire, Tython, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Tython, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Tython, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Foerost Space Forces -->
+	
+        <!-- Foerost Land Forces -->
+		<Starting_Forces> Early_Empire, Foerost, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Foerost, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Foerost, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Empress_Teta Space Forces -->
+	
+        <!-- Empress_Teta Land Forces -->
+		<Starting_Forces> Early_Empire, Empress_Teta, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Empress_Teta, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Empress_Teta, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Aargau Space Forces -->
+	
+        <!-- Aargau Land Forces -->
+		<Starting_Forces> Early_Empire, Aargau, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Aargau, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Aargau, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Cal_Seti Space Forces -->
+	
+        <!-- Cal_Seti Land Forces -->
+		<Starting_Forces> Early_Empire, Cal_Seti, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Cal_Seti, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Cal_Seti, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Pillio Space Forces -->
+	
+        <!-- Pillio Land Forces -->
+		<Starting_Forces> Early_Empire, Pillio, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Pillio, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Pillio, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Fresia Space Forces -->
+	
+        <!-- Fresia Land Forces -->
+		<Starting_Forces> Early_Empire, Fresia, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Fresia, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Fresia, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Alsakan Space Forces -->
+	
+        <!-- Alsakan Land Forces -->
+		<Starting_Forces> Early_Empire, Alsakan, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Alsakan, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Alsakan, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Anaxes Space Forces -->
+	
+        <!-- Anaxes Land Forces -->
+		<Starting_Forces> Early_Empire, Anaxes, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Anaxes, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Anaxes, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Axum Space Forces -->
+	
+        <!-- Axum Land Forces -->
+		<Starting_Forces> Early_Empire, Axum, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Axum, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Axum, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Corulag Space Forces -->
+	
+        <!-- Corulag Land Forces -->
+		<Starting_Forces> Early_Empire, Corulag, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Corulag, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Corulag, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Chandrila Space Forces -->
+	
+        <!-- Chandrila Land Forces -->
+		<Starting_Forces> Early_Empire, Chandrila, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Chandrila, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Chandrila, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Brentaal Space Forces -->
+	
+        <!-- Brentaal Land Forces -->
+		<Starting_Forces> Early_Empire, Brentaal, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Brentaal, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Brentaal, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Raltiir Space Forces -->
+	
+        <!-- Raltiir Land Forces -->
+		<Starting_Forces> Early_Empire, Raltiir, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Raltiir, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Raltiir, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Barlok Space Forces -->
+	
+        <!-- Barlok Land Forces -->
+		<Starting_Forces> Early_Empire, Barlok, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Barlok, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Barlok, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Shili Space Forces -->
+	
+        <!-- Shili Land Forces -->
+		<Starting_Forces> Early_Empire, Shili, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Shili, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Shili, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Champala Space Forces -->
+	
+        <!-- Champala Land Forces -->
+		<Starting_Forces> Early_Empire, Champala, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Champala, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Champala, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Ithor Space Forces -->
+	
+        <!-- Ithor Land Forces -->
+		<Starting_Forces> Early_Empire, Ithor, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ithor, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ithor, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Brakka Space Forces -->
+	
+        <!-- Brakka Land Forces -->
+		<Starting_Forces> Early_Empire, Brakka, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Brakka, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Brakka, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Corsin Space Forces -->
+	
+        <!-- Corsin Land Forces -->
+		<Starting_Forces> Early_Empire, Corsin, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Corsin, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Corsin, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Carida Space Forces -->
+	
+        <!-- Carida Land Forces -->
+		<Starting_Forces> Early_Empire, Carida, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Carida, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Carida, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Polus Space Forces -->
+	
+        <!-- Polus Land Forces -->
+		<Starting_Forces> Early_Empire, Polus, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Polus, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Polus, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Alderaan Space Forces -->
+	
+        <!-- Alderaan Land Forces -->
+		<Starting_Forces> Early_Empire, Alderaan, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Alderaan, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Alderaan, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Kuat Space Forces -->
+	
+        <!-- Kuat Land Forces -->
+		<Starting_Forces> Early_Empire, Kuat, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Kuat, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Kuat, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Rendili Space Forces -->
+	
+        <!-- Rendili Land Forces -->
+		<Starting_Forces> Early_Empire, Rendili, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Rendili, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Rendili, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Corellia Space Forces -->
+	
+        <!-- Corellia Land Forces -->
+		<Starting_Forces> Early_Empire, Corellia, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Corellia, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Corellia, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Onderon Space Forces -->
+	
+        <!-- Onderon Land Forces -->
+		<Starting_Forces> Early_Empire, Onderon, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Onderon, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Onderon, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Umbara Space Forces -->
+	
+        <!-- Umbara Land Forces -->
+		<Starting_Forces> Early_Empire, Umbara, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Umbara, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Umbara, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		
+		
+		<!-- CIS Remnant Starting Forces -->
+
+		<Starting_Credits> CIS_Remnant,  5000 </Starting_Credits>
+		<Starting_Tech_Level> CIS_Remnant, 4 </Starting_Tech_Level>
+		<Max_Tech_Level> CIS_Remnant, 11 </Max_Tech_Level>
+                                                     
+        <!-- Antar Space Forces -->
+
+        <!-- Antar Land Forces -->
+		<Starting_Forces> CIS_Remnant, Antar, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Antar, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Antar, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Mimban Space Forces -->
+
+        <!-- Mimban Land Forces -->
+		<Starting_Forces> CIS_Remnant, Mimban, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Mimban, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Mimban, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Castell Space Forces -->
+
+        <!-- Castell Land Forces -->
+		<Starting_Forces> CIS_Remnant, Castell, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Castell, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Castell, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Castell Space Forces -->
+
+        <!-- Castell Land Forces -->
+		<Starting_Forces> CIS_Remnant, Castell, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Castell, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Castell, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Gyndine Space Forces -->
+
+        <!-- Gyndine Land Forces -->
+		<Starting_Forces> CIS_Remnant, Gyndine, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Gyndine, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Gyndine, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Loronar Space Forces -->
+
+        <!-- Loronar Land Forces -->
+		<Starting_Forces> CIS_Remnant, Loronar, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Loronar, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Loronar, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- HosnianPrime Space Forces -->
+
+        <!-- HosnianPrime Land Forces -->
+		<Starting_Forces> CIS_Remnant, HosnianPrime, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, HosnianPrime, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, HosnianPrime, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Denon Space Forces -->
+
+        <!-- Denon Land Forces -->
+		<Starting_Forces> CIS_Remnant, Denon, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Denon, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Denon, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Chasin Space Forces -->
+
+        <!-- Chasin Land Forces -->
+		<Starting_Forces> CIS_Remnant, Chasin, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Chasin, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Chasin, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Duro Space Forces -->
+
+        <!-- Duro Land Forces -->
+		<Starting_Forces> CIS_Remnant, Duro, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Duro, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Duro, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Hakassi Space Forces -->
+
+        <!-- Hakassi Land Forces -->
+		<Starting_Forces> CIS_Remnant, Hakassi, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Hakassi, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Hakassi, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Ambria Space Forces -->
+
+        <!-- Ambria Land Forces -->
+		<Starting_Forces> CIS_Remnant, Ambria, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ambria, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ambria, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Arkania Space Forces -->
+
+        <!-- Arkania Land Forces -->
+		<Starting_Forces> CIS_Remnant, Arkania, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Arkania, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Arkania, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Aurea Space Forces -->
+
+        <!-- Aurea Land Forces -->
+		<Starting_Forces> CIS_Remnant, Aurea, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Aurea, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Aurea, Super_Battledroid_Squad </Starting_Forces>
+		
+
+		
+		<!-- Trade Federation Starting Forces -->
+
+		<Starting_Credits> Trade_Federation,  5000 </Starting_Credits>
+		<Starting_Tech_Level> Trade_Federation, 4 </Starting_Tech_Level>
+		<Max_Tech_Level> Trade_Federation, 11 </Max_Tech_Level>
+		
+        <!-- CatoNeimoidia Space Forces -->
+		
+        <!-- CatoNeimoidia Land Forces -->
+		<Starting_Forces> Trade_Federation, CatoNeimoidia, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, CatoNeimoidia, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, CatoNeimoidia, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Commenor Space Forces -->
+		
+        <!-- Commenor Land Forces -->
+		<Starting_Forces> Trade_Federation, Commenor, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Commenor, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Commenor, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Humbarine Space Forces -->
+		
+        <!-- Humbarine Land Forces -->
+		<Starting_Forces> Trade_Federation, Humbarine, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Humbarine, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Humbarine, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Balmorra Space Forces -->
+		
+        <!-- Balmorra Land Forces -->
+		<Starting_Forces> Trade_Federation, Balmorra, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Balmorra, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Balmorra, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Sarapin Space Forces -->
+		
+        <!-- Sarapin Land Forces -->
+		<Starting_Forces> Trade_Federation, Sarapin, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Sarapin, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Sarapin, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Columus Space Forces -->
+		
+        <!-- Columus Land Forces -->
+		<Starting_Forces> Trade_Federation, Columus, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Columus, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Columus, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Vulpter Space Forces -->
+		
+        <!-- Vulpter Land Forces -->
+		<Starting_Forces> Trade_Federation, Vulpter, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Vulpter, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Vulpter, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Ebaq Space Forces -->
+		
+        <!-- Ebaq Land Forces -->
+		<Starting_Forces> Trade_Federation, Ebaq, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Ebaq, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Ebaq, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Commerce Guild Starting Forces -->
+
+		<Starting_Credits> Techno_Union,  5000 </Starting_Credits>
+		<Starting_Tech_Level> Techno_Union, 4 </Starting_Tech_Level>
+		<Max_Tech_Level> Techno_Union, 11 </Max_Tech_Level>
+		
+        <!-- Emberlene Space Forces -->
+		
+        <!-- Emberlene Land Forces -->
+		<Starting_Forces> Techno_Union, Emberlene, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Emberlene, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Emberlene, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Daalang Space Forces -->
+		
+        <!-- Daalang Land Forces -->
+		<Starting_Forces> Techno_Union, Daalang, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Daalang, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Daalang, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Artesia Space Forces -->
+		
+        <!-- Artesia Land Forces -->
+		<Starting_Forces> Techno_Union, Artesia, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Artesia, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Artesia, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Randon Space Forces -->
+		
+        <!-- Randon Land Forces -->
+		<Starting_Forces> Techno_Union, Randon, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Randon, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Randon, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Ruusan Space Forces -->
+		
+        <!-- Ruusan Land Forces -->
+		<Starting_Forces> Techno_Union, Ruusan, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Ruusan, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Ruusan, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
+
+		<!-- AlarisPrime Space Forces -->
+		
+        <!-- AlarisPrime Land Forces -->
+		<Starting_Forces> Techno_Union, AlarisPrime, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, AlarisPrime, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, AlarisPrime, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Skako Space Forces -->
+		
+        <!-- Skako Land Forces -->
+		<Starting_Forces> Techno_Union, Skako, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Skako, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Skako, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
+
+  
+  
+  </Campaign>
+  
+  <Campaign Name="Sandbox_Antar_Atrocity_Trade_Federation">
+
+		<Campaign_Set> Sandbox_Antar_Atrocity </Campaign_Set>
+		<Sort_Order>1</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_ANTAR_ATROCITY </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_ANTAR_ATROCITY_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> 330.0 </Camera_Shift_X>
+        <Camera_Shift_Y> -49.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Cal_Seti, Fresia, Coruscant, Alsakan, Anaxes, Axum, Corulag, Chandrila, 
+				Brentaal, Raltiir, Barlok, Shili, Champala, Carida, Arkania, Castell, 
+				Skako, Alderaan, Balmorra, Kuat, Humbarine, Commenor, CatoNeimoidia, Rendili, 
+				Sarapin, Vulpter, Columus, Ebaq, Corellia, Duro, Hakassi, HosnianPrime, 
+				Chasin, Loronar, Denon, Byss, Pillio, Tython, Empress_Teta, Foerost, 
+				Aargau, Ferixx, Randon, Ruusan, Artesia, AlarisPrime, Ambria, Umbara,
+				Onderon, Daalang, Mimban, Gyndine, Corsin, Brakka, Ithor, Polus,	
+                Antar, Emberlene, Aurea			
+		</Locations>
+
+        <Trade_Routes>
+			
+		</Trade_Routes>
+
+        <Home_Location> Early_Empire, Coruscant </Home_Location>
+        <Home_Location> CIS_Remnant, Antar </Home_Location>
+		<Home_Location> Trade_Federation, CatoNeimoidia </Home_Location>
+		<Home_Location> Techno_Union, Emberlene </Home_Location>
+		
+		<Starting_Active_Player> Trade_Federation </Starting_Active_Player>
+		
+		<Story_Name>Early_Empire, 1_Era_Story\story_Antar_Atrocity\Story_Antar_Atrocity_Early_Empire.xml </Story_Name>
+		<Story_Name>CIS_Remnant, 1_Era_Story\story_Antar_Atrocity\Story_Antar_Atrocity_CIS_Remnant.xml </Story_Name>
+        <Story_Name>Trade_Federation, 1_Era_Story\story_Antar_Atrocity\Story_Antar_Atrocity_Trade_Federation.xml </Story_Name>
+		<Story_Name>Techno_Union, 1_Era_Story\story_Antar_Atrocity\Story_Antar_Atrocity_Techno_Union.xml </Story_Name>
+		
+		<AI_Player_Control> Early_Empire, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> CIS_Remnant, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Techno_Union, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>Early_Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>CIS_Remnant, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Trade_Federation, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Techno_Union, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		<!-- Early_Empire Starting Forces -->
+
+		<Starting_Credits> Early_Empire,  5000 </Starting_Credits>
+		<Starting_Tech_Level> Early_Empire, 4 </Starting_Tech_Level>
+		<Max_Tech_Level> Early_Empire, 11 </Max_Tech_Level>
+		
+        <!-- Coruscant Space Forces -->
+	
+        <!-- Coruscant Land Forces -->
+		<Starting_Forces> Early_Empire, Coruscant, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Coruscant, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Coruscant, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Byss Space Forces -->
+	
+        <!-- Byss Land Forces -->
+		<Starting_Forces> Early_Empire, Byss, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Byss, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Byss, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Tython Space Forces -->
+	
+        <!-- Tython Land Forces -->
+		<Starting_Forces> Early_Empire, Tython, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Tython, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Tython, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Foerost Space Forces -->
+	
+        <!-- Foerost Land Forces -->
+		<Starting_Forces> Early_Empire, Foerost, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Foerost, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Foerost, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Empress_Teta Space Forces -->
+	
+        <!-- Empress_Teta Land Forces -->
+		<Starting_Forces> Early_Empire, Empress_Teta, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Empress_Teta, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Empress_Teta, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Aargau Space Forces -->
+	
+        <!-- Aargau Land Forces -->
+		<Starting_Forces> Early_Empire, Aargau, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Aargau, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Aargau, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Cal_Seti Space Forces -->
+	
+        <!-- Cal_Seti Land Forces -->
+		<Starting_Forces> Early_Empire, Cal_Seti, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Cal_Seti, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Cal_Seti, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Pillio Space Forces -->
+	
+        <!-- Pillio Land Forces -->
+		<Starting_Forces> Early_Empire, Pillio, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Pillio, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Pillio, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Fresia Space Forces -->
+	
+        <!-- Fresia Land Forces -->
+		<Starting_Forces> Early_Empire, Fresia, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Fresia, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Fresia, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Alsakan Space Forces -->
+	
+        <!-- Alsakan Land Forces -->
+		<Starting_Forces> Early_Empire, Alsakan, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Alsakan, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Alsakan, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Anaxes Space Forces -->
+	
+        <!-- Anaxes Land Forces -->
+		<Starting_Forces> Early_Empire, Anaxes, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Anaxes, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Anaxes, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Axum Space Forces -->
+	
+        <!-- Axum Land Forces -->
+		<Starting_Forces> Early_Empire, Axum, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Axum, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Axum, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Corulag Space Forces -->
+	
+        <!-- Corulag Land Forces -->
+		<Starting_Forces> Early_Empire, Corulag, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Corulag, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Corulag, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Chandrila Space Forces -->
+	
+        <!-- Chandrila Land Forces -->
+		<Starting_Forces> Early_Empire, Chandrila, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Chandrila, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Chandrila, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Brentaal Space Forces -->
+	
+        <!-- Brentaal Land Forces -->
+		<Starting_Forces> Early_Empire, Brentaal, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Brentaal, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Brentaal, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Raltiir Space Forces -->
+	
+        <!-- Raltiir Land Forces -->
+		<Starting_Forces> Early_Empire, Raltiir, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Raltiir, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Raltiir, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Barlok Space Forces -->
+	
+        <!-- Barlok Land Forces -->
+		<Starting_Forces> Early_Empire, Barlok, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Barlok, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Barlok, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Shili Space Forces -->
+	
+        <!-- Shili Land Forces -->
+		<Starting_Forces> Early_Empire, Shili, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Shili, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Shili, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Champala Space Forces -->
+	
+        <!-- Champala Land Forces -->
+		<Starting_Forces> Early_Empire, Champala, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Champala, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Champala, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Ithor Space Forces -->
+	
+        <!-- Ithor Land Forces -->
+		<Starting_Forces> Early_Empire, Ithor, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ithor, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ithor, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Brakka Space Forces -->
+	
+        <!-- Brakka Land Forces -->
+		<Starting_Forces> Early_Empire, Brakka, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Brakka, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Brakka, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Corsin Space Forces -->
+	
+        <!-- Corsin Land Forces -->
+		<Starting_Forces> Early_Empire, Corsin, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Corsin, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Corsin, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Carida Space Forces -->
+	
+        <!-- Carida Land Forces -->
+		<Starting_Forces> Early_Empire, Carida, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Carida, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Carida, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Polus Space Forces -->
+	
+        <!-- Polus Land Forces -->
+		<Starting_Forces> Early_Empire, Polus, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Polus, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Polus, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Alderaan Space Forces -->
+	
+        <!-- Alderaan Land Forces -->
+		<Starting_Forces> Early_Empire, Alderaan, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Alderaan, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Alderaan, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Kuat Space Forces -->
+	
+        <!-- Kuat Land Forces -->
+		<Starting_Forces> Early_Empire, Kuat, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Kuat, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Kuat, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Rendili Space Forces -->
+	
+        <!-- Rendili Land Forces -->
+		<Starting_Forces> Early_Empire, Rendili, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Rendili, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Rendili, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Corellia Space Forces -->
+	
+        <!-- Corellia Land Forces -->
+		<Starting_Forces> Early_Empire, Corellia, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Corellia, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Corellia, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Onderon Space Forces -->
+	
+        <!-- Onderon Land Forces -->
+		<Starting_Forces> Early_Empire, Onderon, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Onderon, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Onderon, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Umbara Space Forces -->
+	
+        <!-- Umbara Land Forces -->
+		<Starting_Forces> Early_Empire, Umbara, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Umbara, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Umbara, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		
+		
+		<!-- CIS Remnant Starting Forces -->
+
+		<Starting_Credits> CIS_Remnant,  5000 </Starting_Credits>
+		<Starting_Tech_Level> CIS_Remnant, 4 </Starting_Tech_Level>
+		<Max_Tech_Level> CIS_Remnant, 11 </Max_Tech_Level>
+                                                     
+        <!-- Antar Space Forces -->
+
+        <!-- Antar Land Forces -->
+		<Starting_Forces> CIS_Remnant, Antar, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Antar, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Antar, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Mimban Space Forces -->
+
+        <!-- Mimban Land Forces -->
+		<Starting_Forces> CIS_Remnant, Mimban, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Mimban, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Mimban, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Castell Space Forces -->
+
+        <!-- Castell Land Forces -->
+		<Starting_Forces> CIS_Remnant, Castell, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Castell, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Castell, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Castell Space Forces -->
+
+        <!-- Castell Land Forces -->
+		<Starting_Forces> CIS_Remnant, Castell, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Castell, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Castell, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Gyndine Space Forces -->
+
+        <!-- Gyndine Land Forces -->
+		<Starting_Forces> CIS_Remnant, Gyndine, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Gyndine, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Gyndine, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Loronar Space Forces -->
+
+        <!-- Loronar Land Forces -->
+		<Starting_Forces> CIS_Remnant, Loronar, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Loronar, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Loronar, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- HosnianPrime Space Forces -->
+
+        <!-- HosnianPrime Land Forces -->
+		<Starting_Forces> CIS_Remnant, HosnianPrime, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, HosnianPrime, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, HosnianPrime, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Denon Space Forces -->
+
+        <!-- Denon Land Forces -->
+		<Starting_Forces> CIS_Remnant, Denon, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Denon, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Denon, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Chasin Space Forces -->
+
+        <!-- Chasin Land Forces -->
+		<Starting_Forces> CIS_Remnant, Chasin, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Chasin, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Chasin, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Duro Space Forces -->
+
+        <!-- Duro Land Forces -->
+		<Starting_Forces> CIS_Remnant, Duro, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Duro, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Duro, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Hakassi Space Forces -->
+
+        <!-- Hakassi Land Forces -->
+		<Starting_Forces> CIS_Remnant, Hakassi, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Hakassi, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Hakassi, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Ambria Space Forces -->
+
+        <!-- Ambria Land Forces -->
+		<Starting_Forces> CIS_Remnant, Ambria, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ambria, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ambria, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Arkania Space Forces -->
+
+        <!-- Arkania Land Forces -->
+		<Starting_Forces> CIS_Remnant, Arkania, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Arkania, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Arkania, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Aurea Space Forces -->
+
+        <!-- Aurea Land Forces -->
+		<Starting_Forces> CIS_Remnant, Aurea, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Aurea, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Aurea, Super_Battledroid_Squad </Starting_Forces>
+		
+
+		
+		<!-- Trade Federation Starting Forces -->
+
+		<Starting_Credits> Trade_Federation,  5000 </Starting_Credits>
+		<Starting_Tech_Level> Trade_Federation, 4 </Starting_Tech_Level>
+		<Max_Tech_Level> Trade_Federation, 11 </Max_Tech_Level>
+		
+        <!-- CatoNeimoidia Space Forces -->
+		
+        <!-- CatoNeimoidia Land Forces -->
+		<Starting_Forces> Trade_Federation, CatoNeimoidia, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, CatoNeimoidia, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, CatoNeimoidia, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Commenor Space Forces -->
+		
+        <!-- Commenor Land Forces -->
+		<Starting_Forces> Trade_Federation, Commenor, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Commenor, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Commenor, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Humbarine Space Forces -->
+		
+        <!-- Humbarine Land Forces -->
+		<Starting_Forces> Trade_Federation, Humbarine, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Humbarine, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Humbarine, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Balmorra Space Forces -->
+		
+        <!-- Balmorra Land Forces -->
+		<Starting_Forces> Trade_Federation, Balmorra, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Balmorra, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Balmorra, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Sarapin Space Forces -->
+		
+        <!-- Sarapin Land Forces -->
+		<Starting_Forces> Trade_Federation, Sarapin, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Sarapin, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Sarapin, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Columus Space Forces -->
+		
+        <!-- Columus Land Forces -->
+		<Starting_Forces> Trade_Federation, Columus, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Columus, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Columus, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Vulpter Space Forces -->
+		
+        <!-- Vulpter Land Forces -->
+		<Starting_Forces> Trade_Federation, Vulpter, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Vulpter, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Vulpter, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Ebaq Space Forces -->
+		
+        <!-- Ebaq Land Forces -->
+		<Starting_Forces> Trade_Federation, Ebaq, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Ebaq, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Ebaq, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Commerce Guild Starting Forces -->
+
+		<Starting_Credits> Techno_Union,  5000 </Starting_Credits>
+		<Starting_Tech_Level> Techno_Union, 4 </Starting_Tech_Level>
+		<Max_Tech_Level> Techno_Union, 11 </Max_Tech_Level>
+		
+        <!-- Emberlene Space Forces -->
+		
+        <!-- Emberlene Land Forces -->
+		<Starting_Forces> Techno_Union, Emberlene, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Emberlene, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Emberlene, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Daalang Space Forces -->
+		
+        <!-- Daalang Land Forces -->
+		<Starting_Forces> Techno_Union, Daalang, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Daalang, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Daalang, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Artesia Space Forces -->
+		
+        <!-- Artesia Land Forces -->
+		<Starting_Forces> Techno_Union, Artesia, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Artesia, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Artesia, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Randon Space Forces -->
+		
+        <!-- Randon Land Forces -->
+		<Starting_Forces> Techno_Union, Randon, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Randon, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Randon, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Ruusan Space Forces -->
+		
+        <!-- Ruusan Land Forces -->
+		<Starting_Forces> Techno_Union, Ruusan, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Ruusan, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Ruusan, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
+
+		<!-- AlarisPrime Space Forces -->
+		
+        <!-- AlarisPrime Land Forces -->
+		<Starting_Forces> Techno_Union, AlarisPrime, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, AlarisPrime, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, AlarisPrime, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Skako Space Forces -->
+		
+        <!-- Skako Land Forces -->
+		<Starting_Forces> Techno_Union, Skako, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Skako, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Skako, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
+
+  
+  
+  </Campaign>
+  
+  <Campaign Name="Sandbox_Antar_Atrocity_Techno_Union">
+
+		<Campaign_Set> Sandbox_Antar_Atrocity </Campaign_Set>
+		<Sort_Order>1</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_ANTAR_ATROCITY </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_ANTAR_ATROCITY_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> 537.0 </Camera_Shift_X>
+        <Camera_Shift_Y> -165.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Cal_Seti, Fresia, Coruscant, Alsakan, Anaxes, Axum, Corulag, Chandrila, 
+				Brentaal, Raltiir, Barlok, Shili, Champala, Carida, Arkania, Castell, 
+				Skako, Alderaan, Balmorra, Kuat, Humbarine, Commenor, CatoNeimoidia, Rendili, 
+				Sarapin, Vulpter, Columus, Ebaq, Corellia, Duro, Hakassi, HosnianPrime, 
+				Chasin, Loronar, Denon, Byss, Pillio, Tython, Empress_Teta, Foerost, 
+				Aargau, Ferixx, Randon, Ruusan, Artesia, AlarisPrime, Ambria, Umbara,
+				Onderon, Daalang, Mimban, Gyndine, Corsin, Brakka, Ithor, Polus,	
+                Antar, Emberlene, Aurea			
+		</Locations>
+
+        <Trade_Routes>
+			
+		</Trade_Routes>
+
+        <Home_Location> Early_Empire, Coruscant </Home_Location>
+        <Home_Location> CIS_Remnant, Antar </Home_Location>
+		<Home_Location> Trade_Federation, CatoNeimoidia </Home_Location>
+		<Home_Location> Techno_Union, Emberlene </Home_Location>
+		
+		<Starting_Active_Player> Techno_Union </Starting_Active_Player>
+		
+		<Story_Name>Early_Empire, 1_Era_Story\story_Antar_Atrocity\Story_Antar_Atrocity_Early_Empire.xml </Story_Name>
+		<Story_Name>CIS_Remnant, 1_Era_Story\story_Antar_Atrocity\Story_Antar_Atrocity_CIS_Remnant.xml </Story_Name>
+        <Story_Name>Trade_Federation, 1_Era_Story\story_Antar_Atrocity\Story_Antar_Atrocity_Trade_Federation.xml </Story_Name>
+		<Story_Name>Techno_Union, 1_Era_Story\story_Antar_Atrocity\Story_Antar_Atrocity_Techno_Union.xml </Story_Name>
+		
+		<AI_Player_Control> Early_Empire, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> CIS_Remnant, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Trade_Federation, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>Early_Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>CIS_Remnant, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Trade_Federation, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Techno_Union, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		<!-- Early_Empire Starting Forces -->
+
+		<Starting_Credits> Early_Empire,  5000 </Starting_Credits>
+		<Starting_Tech_Level> Early_Empire, 4 </Starting_Tech_Level>
+		<Max_Tech_Level> Early_Empire, 11 </Max_Tech_Level>
+		
+        <!-- Coruscant Space Forces -->
+	
+        <!-- Coruscant Land Forces -->
+		<Starting_Forces> Early_Empire, Coruscant, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Coruscant, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Coruscant, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Byss Space Forces -->
+	
+        <!-- Byss Land Forces -->
+		<Starting_Forces> Early_Empire, Byss, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Byss, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Byss, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Tython Space Forces -->
+	
+        <!-- Tython Land Forces -->
+		<Starting_Forces> Early_Empire, Tython, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Tython, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Tython, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Foerost Space Forces -->
+	
+        <!-- Foerost Land Forces -->
+		<Starting_Forces> Early_Empire, Foerost, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Foerost, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Foerost, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Empress_Teta Space Forces -->
+	
+        <!-- Empress_Teta Land Forces -->
+		<Starting_Forces> Early_Empire, Empress_Teta, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Empress_Teta, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Empress_Teta, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Aargau Space Forces -->
+	
+        <!-- Aargau Land Forces -->
+		<Starting_Forces> Early_Empire, Aargau, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Aargau, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Aargau, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Cal_Seti Space Forces -->
+	
+        <!-- Cal_Seti Land Forces -->
+		<Starting_Forces> Early_Empire, Cal_Seti, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Cal_Seti, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Cal_Seti, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Pillio Space Forces -->
+	
+        <!-- Pillio Land Forces -->
+		<Starting_Forces> Early_Empire, Pillio, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Pillio, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Pillio, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Fresia Space Forces -->
+	
+        <!-- Fresia Land Forces -->
+		<Starting_Forces> Early_Empire, Fresia, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Fresia, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Fresia, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Alsakan Space Forces -->
+	
+        <!-- Alsakan Land Forces -->
+		<Starting_Forces> Early_Empire, Alsakan, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Alsakan, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Alsakan, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Anaxes Space Forces -->
+	
+        <!-- Anaxes Land Forces -->
+		<Starting_Forces> Early_Empire, Anaxes, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Anaxes, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Anaxes, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Axum Space Forces -->
+	
+        <!-- Axum Land Forces -->
+		<Starting_Forces> Early_Empire, Axum, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Axum, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Axum, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Corulag Space Forces -->
+	
+        <!-- Corulag Land Forces -->
+		<Starting_Forces> Early_Empire, Corulag, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Corulag, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Corulag, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Chandrila Space Forces -->
+	
+        <!-- Chandrila Land Forces -->
+		<Starting_Forces> Early_Empire, Chandrila, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Chandrila, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Chandrila, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Brentaal Space Forces -->
+	
+        <!-- Brentaal Land Forces -->
+		<Starting_Forces> Early_Empire, Brentaal, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Brentaal, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Brentaal, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Raltiir Space Forces -->
+	
+        <!-- Raltiir Land Forces -->
+		<Starting_Forces> Early_Empire, Raltiir, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Raltiir, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Raltiir, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Barlok Space Forces -->
+	
+        <!-- Barlok Land Forces -->
+		<Starting_Forces> Early_Empire, Barlok, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Barlok, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Barlok, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Shili Space Forces -->
+	
+        <!-- Shili Land Forces -->
+		<Starting_Forces> Early_Empire, Shili, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Shili, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Shili, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Champala Space Forces -->
+	
+        <!-- Champala Land Forces -->
+		<Starting_Forces> Early_Empire, Champala, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Champala, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Champala, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Ithor Space Forces -->
+	
+        <!-- Ithor Land Forces -->
+		<Starting_Forces> Early_Empire, Ithor, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ithor, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ithor, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Brakka Space Forces -->
+	
+        <!-- Brakka Land Forces -->
+		<Starting_Forces> Early_Empire, Brakka, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Brakka, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Brakka, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Corsin Space Forces -->
+	
+        <!-- Corsin Land Forces -->
+		<Starting_Forces> Early_Empire, Corsin, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Corsin, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Corsin, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Carida Space Forces -->
+	
+        <!-- Carida Land Forces -->
+		<Starting_Forces> Early_Empire, Carida, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Carida, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Carida, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Polus Space Forces -->
+	
+        <!-- Polus Land Forces -->
+		<Starting_Forces> Early_Empire, Polus, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Polus, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Polus, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Alderaan Space Forces -->
+	
+        <!-- Alderaan Land Forces -->
+		<Starting_Forces> Early_Empire, Alderaan, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Alderaan, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Alderaan, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Kuat Space Forces -->
+	
+        <!-- Kuat Land Forces -->
+		<Starting_Forces> Early_Empire, Kuat, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Kuat, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Kuat, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Rendili Space Forces -->
+	
+        <!-- Rendili Land Forces -->
+		<Starting_Forces> Early_Empire, Rendili, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Rendili, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Rendili, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Corellia Space Forces -->
+	
+        <!-- Corellia Land Forces -->
+		<Starting_Forces> Early_Empire, Corellia, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Corellia, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Corellia, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Onderon Space Forces -->
+	
+        <!-- Onderon Land Forces -->
+		<Starting_Forces> Early_Empire, Onderon, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Onderon, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Onderon, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Umbara Space Forces -->
+	
+        <!-- Umbara Land Forces -->
+		<Starting_Forces> Early_Empire, Umbara, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Umbara, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Umbara, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		
+		
+		<!-- CIS Remnant Starting Forces -->
+
+		<Starting_Credits> CIS_Remnant,  5000 </Starting_Credits>
+		<Starting_Tech_Level> CIS_Remnant, 4 </Starting_Tech_Level>
+		<Max_Tech_Level> CIS_Remnant, 11 </Max_Tech_Level>
+                                                     
+        <!-- Antar Space Forces -->
+
+        <!-- Antar Land Forces -->
+		<Starting_Forces> CIS_Remnant, Antar, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Antar, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Antar, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Mimban Space Forces -->
+
+        <!-- Mimban Land Forces -->
+		<Starting_Forces> CIS_Remnant, Mimban, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Mimban, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Mimban, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Castell Space Forces -->
+
+        <!-- Castell Land Forces -->
+		<Starting_Forces> CIS_Remnant, Castell, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Castell, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Castell, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Gyndine Space Forces -->
+
+        <!-- Gyndine Land Forces -->
+		<Starting_Forces> CIS_Remnant, Gyndine, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Gyndine, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Gyndine, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Loronar Space Forces -->
+
+        <!-- Loronar Land Forces -->
+		<Starting_Forces> CIS_Remnant, Loronar, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Loronar, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Loronar, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- HosnianPrime Space Forces -->
+
+        <!-- HosnianPrime Land Forces -->
+		<Starting_Forces> CIS_Remnant, HosnianPrime, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, HosnianPrime, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, HosnianPrime, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Denon Space Forces -->
+
+        <!-- Denon Land Forces -->
+		<Starting_Forces> CIS_Remnant, Denon, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Denon, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Denon, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Chasin Space Forces -->
+
+        <!-- Chasin Land Forces -->
+		<Starting_Forces> CIS_Remnant, Chasin, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Chasin, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Chasin, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Duro Space Forces -->
+
+        <!-- Duro Land Forces -->
+		<Starting_Forces> CIS_Remnant, Duro, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Duro, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Duro, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Hakassi Space Forces -->
+
+        <!-- Hakassi Land Forces -->
+		<Starting_Forces> CIS_Remnant, Hakassi, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Hakassi, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Hakassi, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Ambria Space Forces -->
+
+        <!-- Ambria Land Forces -->
+		<Starting_Forces> CIS_Remnant, Ambria, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ambria, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ambria, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Arkania Space Forces -->
+
+        <!-- Arkania Land Forces -->
+		<Starting_Forces> CIS_Remnant, Arkania, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Arkania, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Arkania, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Aurea Space Forces -->
+
+        <!-- Aurea Land Forces -->
+		<Starting_Forces> CIS_Remnant, Aurea, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Aurea, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Aurea, Super_Battledroid_Squad </Starting_Forces>
+		
+
+		
+		<!-- Trade Federation Starting Forces -->
+
+		<Starting_Credits> Trade_Federation,  5000 </Starting_Credits>
+		<Starting_Tech_Level> Trade_Federation, 4 </Starting_Tech_Level>
+		<Max_Tech_Level> Trade_Federation, 11 </Max_Tech_Level>
+		
+        <!-- CatoNeimoidia Space Forces -->
+		
+        <!-- CatoNeimoidia Land Forces -->
+		<Starting_Forces> Trade_Federation, CatoNeimoidia, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, CatoNeimoidia, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, CatoNeimoidia, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Commenor Space Forces -->
+		
+        <!-- Commenor Land Forces -->
+		<Starting_Forces> Trade_Federation, Commenor, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Commenor, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Commenor, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Humbarine Space Forces -->
+		
+        <!-- Humbarine Land Forces -->
+		<Starting_Forces> Trade_Federation, Humbarine, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Humbarine, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Humbarine, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Balmorra Space Forces -->
+		
+        <!-- Balmorra Land Forces -->
+		<Starting_Forces> Trade_Federation, Balmorra, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Balmorra, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Balmorra, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Sarapin Space Forces -->
+		
+        <!-- Sarapin Land Forces -->
+		<Starting_Forces> Trade_Federation, Sarapin, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Sarapin, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Sarapin, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Columus Space Forces -->
+		
+        <!-- Columus Land Forces -->
+		<Starting_Forces> Trade_Federation, Columus, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Columus, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Columus, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Vulpter Space Forces -->
+		
+        <!-- Vulpter Land Forces -->
+		<Starting_Forces> Trade_Federation, Vulpter, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Vulpter, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Vulpter, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Ebaq Space Forces -->
+		
+        <!-- Ebaq Land Forces -->
+		<Starting_Forces> Trade_Federation, Ebaq, Trade_Federation_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Ebaq, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Trade_Federation, Ebaq, Trade_Federation_Battledroids_Squad </Starting_Forces>
+		
+		<!-- Commerce Guild Starting Forces -->
+
+		<Starting_Credits> Techno_Union,  5000 </Starting_Credits>
+		<Starting_Tech_Level> Techno_Union, 4 </Starting_Tech_Level>
+		<Max_Tech_Level> Techno_Union, 11 </Max_Tech_Level>
+		
+        <!-- Emberlene Space Forces -->
+		
+        <!-- Emberlene Land Forces -->
+		<Starting_Forces> Techno_Union, Emberlene, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Emberlene, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Emberlene, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Daalang Space Forces -->
+		
+        <!-- Daalang Land Forces -->
+		<Starting_Forces> Techno_Union, Daalang, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Daalang, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Daalang, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Artesia Space Forces -->
+		
+        <!-- Artesia Land Forces -->
+		<Starting_Forces> Techno_Union, Artesia, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Artesia, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Artesia, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Randon Space Forces -->
+		
+        <!-- Randon Land Forces -->
+		<Starting_Forces> Techno_Union, Randon, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Randon, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Randon, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Ruusan Space Forces -->
+		
+        <!-- Ruusan Land Forces -->
+		<Starting_Forces> Techno_Union, Ruusan, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Ruusan, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Ruusan, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
+
+		<!-- AlarisPrime Space Forces -->
+		
+        <!-- AlarisPrime Land Forces -->
+		<Starting_Forces> Techno_Union, AlarisPrime, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, AlarisPrime, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, AlarisPrime, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Skako Space Forces -->
+		
+        <!-- Skako Land Forces -->
+		<Starting_Forces> Techno_Union, Skako, Techno_Union_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Techno_Union, Skako, Techno_Union_Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> Techno_Union, Skako, Techno_Union_Super_Battledroid_Squad </Starting_Forces>
+
+  
+  
+  </Campaign>
+  
+  
+  
+	
+	
+	
+	
+	  
+	  
+	  
+	  
+	  
+	 
+	  
+	  
+	  
+	
+	
+	
+	
+
+
+	
+
+
+ </Campaigns>
