@@ -18,10 +18,11 @@
   
   
   
-  <Campaign Name="Sandbox_Antar_Atrocity_Early_Empire">
+  <Campaign Name="Sandbox_Antar_Atrocity_Early_Empire_Tech09">
 
-		<Campaign_Set> Sandbox_Antar_Atrocity </Campaign_Set>
+		<Campaign_Set> Sandbox_Antar_Atrocity_Tech09 </Campaign_Set>
 		<Sort_Order>1</Sort_Order>
+		<Is_Listed>false</Is_Listed>
 
         <Text_ID> TEXT_CAMPAIGN_ANTAR_ATROCITY </Text_ID>
         <Description_Text> TEXT_CAMPAIGN_ANTAR_ATROCITY_DESCRIPTION </Description_Text>
@@ -528,10 +529,11 @@
   
   </Campaign>
   
-  <Campaign Name="Sandbox_Antar_Atrocity_CIS_Remnant">
+  <Campaign Name="Sandbox_Antar_Atrocity_CIS_Remnant_Tech09">
 
 		<Campaign_Set> Sandbox_Antar_Atrocity </Campaign_Set>
 		<Sort_Order>1</Sort_Order>
+		<Is_Listed>false</Is_Listed>
 
         <Text_ID> TEXT_CAMPAIGN_ANTAR_ATROCITY </Text_ID>
         <Description_Text> TEXT_CAMPAIGN_ANTAR_ATROCITY_DESCRIPTION </Description_Text>
@@ -1037,10 +1039,11 @@
   
   </Campaign>
   
-  <Campaign Name="Sandbox_Antar_Atrocity_Trade_Federation">
+  <Campaign Name="Sandbox_Antar_Atrocity_Trade_Federation_Tech09">
 
 		<Campaign_Set> Sandbox_Antar_Atrocity </Campaign_Set>
 		<Sort_Order>1</Sort_Order>
+		<Is_Listed>false</Is_Listed>
 
         <Text_ID> TEXT_CAMPAIGN_ANTAR_ATROCITY </Text_ID>
         <Description_Text> TEXT_CAMPAIGN_ANTAR_ATROCITY_DESCRIPTION </Description_Text>
@@ -1546,10 +1549,11 @@
   
   </Campaign>
   
-  <Campaign Name="Sandbox_Antar_Atrocity_Techno_Union">
+  <Campaign Name="Sandbox_Antar_Atrocity_Techno_Union_Tech09">
 
 		<Campaign_Set> Sandbox_Antar_Atrocity </Campaign_Set>
 		<Sort_Order>1</Sort_Order>
+		<Is_Listed>false</Is_Listed>
 
         <Text_ID> TEXT_CAMPAIGN_ANTAR_ATROCITY </Text_ID>
         <Description_Text> TEXT_CAMPAIGN_ANTAR_ATROCITY_DESCRIPTION </Description_Text>

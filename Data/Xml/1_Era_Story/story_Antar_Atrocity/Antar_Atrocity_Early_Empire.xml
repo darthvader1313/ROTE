@@ -30,6 +30,25 @@
         <Reward_Type>REVEAL_ALL_PLANETS</Reward_Type>
         <Prereq>Universal_Story_Start</Prereq>
     </Event>
+	
+	<!-- adding in flash event for Coruscant -->
+	<Event Name="Early_Empire_Flash_Coruscant">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>FLASH_PLANET_GUI</Reward_Type>
+		<Reward_Param1>Coruscant</Reward_Param1>
+		<Reward_Param2>FLASH_PLANET</Reward_Param2>
+		<Reward_Param4>Coruscant_GUI_Flash</Reward_Param4>
+		<Reward_Param5>True</Reward_Param5>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="Early_Empire_Remove_Flash_Coruscant">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Event_Param1>click</Event_Param1>
+		<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
+		<Reward_Param1>Early_Empire_Flash_Coruscant</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
 
 	<!-- Spawn Tech Level 1 Heroes -->
 

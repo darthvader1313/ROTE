@@ -7,6 +7,7 @@
 	<File>TechBuilding.xml</File>	<!-- AJA 10/12/2005 - Moved to the top so that tech upgrades always show up on the left of the build bar. -->
 	<File>GroundBases.xml</File>
 	<File>Templates.xml</File>
+	<File>Planets_Dummy.xml</File>
 	<!-- First Era -->
 	<File>Groundbases\Groundbases_Early_Empire.xml</File>
 	<File>Groundbases\Groundbases_Terrorists.xml</File>
@@ -72,7 +73,6 @@
 
 	<File>SpecialStructures.xml</File>
 	<File>Specialstructures_Bunkers.xml</File>
-	<File>Specialstructures_Factions\Planet_dummy.xml</File>
 	<!-- First Era -->
 	<File>Specialstructures_Factions\Specialstructures_Terrorists.xml</File>
 	<File>Specialstructures_Factions\Specialstructures_Early_Empire.xml</File>
@@ -305,7 +305,12 @@
 	
 	<File>Early_Empire_units\Hero_units_Early_Empire\Units_hero_Early_Empire_Palpatine.xml</File>
 	
+	<File>Early_Empire_units\Space_Units_Early_Empire\Units_space_Empire_Allegiance.xml</File>
+	<File>Early_Empire_units\Space_Units_Early_Empire\Units_space_Empire_Procursator.xml</File>
 	<File>Early_Empire_units\Space_Units_Early_Empire\Units_space_Empire_Star_Destroyer.xml</File>
+	<File>Early_Empire_units\Space_Units_Early_Empire\Units_space_Empire_Star_Destroyer2.xml</File>
+	<File>Early_Empire_units\Space_Units_Early_Empire\Units_space_Empire_Tector.xml</File>
+	<File>Early_Empire_units\Space_Units_Early_Empire\Units_space_Empire_Vindicator.xml</File>
 	
 	<File>Early_Empire_units\Land_units_Early_Empire\Infantry_units_Early_Empire\Units_land_early_empire_501st.xml</File>
 	<File>Early_Empire_units\Land_units_Early_Empire\Infantry_units_Early_Empire\Units_land_early_empire_armytrooper.xml</File>

@@ -37,13 +37,13 @@
 				Skako, Alderaan, Balmorra, Kuat, Humbarine, Commenor, CatoNeimoidia, Rendili, 
 				Sarapin, Vulpter, Columus, Ebaq, Corellia, Duro, Hakassi, HosnianPrime, 
 				Chasin, Loronar, Denon, Byss, Pillio, Tython, Empress_Teta, Foerost, 
-				Aargau, Ferixx, Randon, Ruusan, Artesia, AlarisPrime, Ambria, Umbara,
+				Aargau, Ferrix, Randon, Ruusan, Artesia, AlarisPrime, Ambria, Umbara,
 				Onderon, Daalang, Mimban, Gyndine, Corsin, Brakka, Ithor, Polus,
 				Antar, Emberlene, Aurea
 		</Locations>
 
         <Trade_Routes>
-			TR1, TR2
+			
 		</Trade_Routes>
 
         <Home_Location> Early_Empire, Coruscant </Home_Location>
@@ -52,6 +52,8 @@
 		<Home_Location> Techno_Union, Emberlene </Home_Location>
 		
 		<Starting_Active_Player> Early_Empire </Starting_Active_Player>
+		
+		<Underworld_Story_Name>Sandbox_Loader\Story_Plots_Sandbox_Loader.xml</Underworld_Story_Name>
 		
 		<Story_Name>Early_Empire, 1_Era_Story\story_Antar_Atrocity\Story_Antar_Atrocity_Early_Empire.xml </Story_Name>
 		<Story_Name>CIS_Remnant, 1_Era_Story\story_Antar_Atrocity\Story_Antar_Atrocity_CIS_Remnant.xml </Story_Name>
@@ -404,6 +406,13 @@
 		<Starting_Forces> CIS_Remnant, Aurea, Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> CIS_Remnant, Aurea, Super_Battledroid_Squad </Starting_Forces>
 		
+		<!-- Ferrix Space Forces -->
+
+        <!-- Ferrix Land Forces -->
+		<Starting_Forces> CIS_Remnant, Ferrix, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ferrix, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ferrix, Super_Battledroid_Squad </Starting_Forces>
+		
 
 		
 		<!-- Trade Federation Starting Forces -->
@@ -547,7 +556,7 @@
 				Skako, Alderaan, Balmorra, Kuat, Humbarine, Commenor, CatoNeimoidia, Rendili, 
 				Sarapin, Vulpter, Columus, Ebaq, Corellia, Duro, Hakassi, HosnianPrime, 
 				Chasin, Loronar, Denon, Byss, Pillio, Tython, Empress_Teta, Foerost, 
-				Aargau, Ferixx, Randon, Ruusan, Artesia, AlarisPrime, Ambria, Umbara,
+				Aargau, Ferrix, Randon, Ruusan, Artesia, AlarisPrime, Ambria, Umbara,
 				Onderon, Daalang, Mimban, Gyndine, Corsin, Brakka, Ithor, Polus,	
 				Antar, Emberlene, Aurea
 		</Locations>
@@ -914,6 +923,13 @@
 		<Starting_Forces> CIS_Remnant, Aurea, Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> CIS_Remnant, Aurea, Super_Battledroid_Squad </Starting_Forces>
 		
+		<!-- Ferrix Space Forces -->
+
+        <!-- Ferrix Land Forces -->
+		<Starting_Forces> CIS_Remnant, Ferrix, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ferrix, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ferrix, Super_Battledroid_Squad </Starting_Forces>
+		
 
 		
 		<!-- Trade Federation Starting Forces -->
@@ -1056,7 +1072,7 @@
 				Skako, Alderaan, Balmorra, Kuat, Humbarine, Commenor, CatoNeimoidia, Rendili, 
 				Sarapin, Vulpter, Columus, Ebaq, Corellia, Duro, Hakassi, HosnianPrime, 
 				Chasin, Loronar, Denon, Byss, Pillio, Tython, Empress_Teta, Foerost, 
-				Aargau, Ferixx, Randon, Ruusan, Artesia, AlarisPrime, Ambria, Umbara,
+				Aargau, Ferrix, Randon, Ruusan, Artesia, AlarisPrime, Ambria, Umbara,
 				Onderon, Daalang, Mimban, Gyndine, Corsin, Brakka, Ithor, Polus,	
                 Antar, Emberlene, Aurea			
 		</Locations>
@@ -1423,6 +1439,13 @@
 		<Starting_Forces> CIS_Remnant, Aurea, Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> CIS_Remnant, Aurea, Super_Battledroid_Squad </Starting_Forces>
 		
+		<!-- Ferrix Space Forces -->
+
+        <!-- Ferrix Land Forces -->
+		<Starting_Forces> CIS_Remnant, Ferrix, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ferrix, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ferrix, Super_Battledroid_Squad </Starting_Forces>
+		
 
 		
 		<!-- Trade Federation Starting Forces -->
@@ -1565,7 +1588,7 @@
 				Skako, Alderaan, Balmorra, Kuat, Humbarine, Commenor, CatoNeimoidia, Rendili, 
 				Sarapin, Vulpter, Columus, Ebaq, Corellia, Duro, Hakassi, HosnianPrime, 
 				Chasin, Loronar, Denon, Byss, Pillio, Tython, Empress_Teta, Foerost, 
-				Aargau, Ferixx, Randon, Ruusan, Artesia, AlarisPrime, Ambria, Umbara,
+				Aargau, Ferrix, Randon, Ruusan, Artesia, AlarisPrime, Ambria, Umbara,
 				Onderon, Daalang, Mimban, Gyndine, Corsin, Brakka, Ithor, Polus,	
                 Antar, Emberlene, Aurea			
 		</Locations>
@@ -1924,6 +1947,13 @@
 		<Starting_Forces> CIS_Remnant, Aurea, CIS_Remnant_Ground_Barracks  </Starting_Forces>
 		<Starting_Forces> CIS_Remnant, Aurea, Battledroids_Squad </Starting_Forces>
 		<Starting_Forces> CIS_Remnant, Aurea, Super_Battledroid_Squad </Starting_Forces>
+		
+		<!-- Ferrix Space Forces -->
+
+        <!-- Ferrix Land Forces -->
+		<Starting_Forces> CIS_Remnant, Ferrix, CIS_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ferrix, Battledroids_Squad </Starting_Forces>
+		<Starting_Forces> CIS_Remnant, Ferrix, Super_Battledroid_Squad </Starting_Forces>
 		
 
 		

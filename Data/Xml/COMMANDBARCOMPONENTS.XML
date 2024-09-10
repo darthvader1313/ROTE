@@ -873,7 +873,7 @@
             <Click_Shift>True</Click_Shift>
     </CommandBarComponent>
 	
-	<CommandBarComponent Name="b_filter_all">
+	    <CommandBarComponent Name="b_filter_all">
                 <Type>Button</Type>
                 <Tooltip_Text>TEXT_TOOLTIP_FILTERALL</Tooltip_Text>
                 <Blank_Texture_Name>i_button_back_new.tga</Blank_Texture_Name>
@@ -890,6 +890,237 @@
                 <Toggle>True</Toggle>
                 <Click_Shift>True</Click_Shift>
         </CommandBarComponent>
+		
+		<!--Filterbuttons Space-->
+	
+	<CommandBarComponent Name="b_filters_station">
+			<Type>Button</Type>
+			 <Icon_Texture_Name>i_button_filters_spacestructures.tga</Icon_Texture_Name>
+			<Blank_Texture_Name>i_button_command_bar_filter_over.tga</Blank_Texture_Name>
+			<Disabled_Texture_Name>i_button_filters_spacestructures.tga</Disabled_Texture_Name>
+			<Mouse_Over_Texture_Name>i_button_command_bar_filter_over.tga</Mouse_Over_Texture_Name>
+			<Selected_Texture_Name>i_button_filters_spacestructures.tga</Selected_Texture_Name>
+			<Build_Texture_Name>i_button_build.tga</Build_Texture_Name>
+			<Flash_Texture_Name>i_button_flash.tga</Flash_Texture_Name>
+                        <Group>Filter_Space</Group>
+			<Font_Name>EmpireAtWar-Medium</Font_Name>
+			<Font_Point_Size>6</Font_Point_Size>
+			<Scale>1.0</Scale>
+			<Text_Offset>0 0</Text_Offset>
+			<Text_Offset2>0 -20</Text_Offset2>
+			<Text_Color2>255 255 255 180</Text_Color2>
+			<Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
+			<Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
+			<Text_Emboss>False</Text_Emboss>
+			<Text_Outline>True</Text_Outline>
+			<Selected_Alpha>True</Selected_Alpha>
+			<Tooltip_Text>TEXT_FILTER_SPACE_STRUCTURES</Tooltip_Text>
+			<Click_Shift>True</Click_Shift>
+			<Toggle>True</Toggle>
+			<Swap_Texture>False</Swap_Texture>
+			<Tab>True</Tab>
+	</CommandBarComponent>
+
+	<CommandBarComponent Name="b_filters_space_units">
+			<Type>Button</Type>
+			 <Icon_Texture_Name>i_button_filters_spacesunits.tga</Icon_Texture_Name>
+			<Blank_Texture_Name>i_button_command_bar_filter_over.tga</Blank_Texture_Name>
+			<Disabled_Texture_Name>i_button_filters_spacesunits.tga</Disabled_Texture_Name>
+			<Mouse_Over_Texture_Name>i_button_command_bar_filter_over.tga</Mouse_Over_Texture_Name>
+			<Selected_Texture_Name>i_button_filters_spacesunits.tga</Selected_Texture_Name>
+			<Build_Texture_Name>i_button_build.tga</Build_Texture_Name>
+			<Flash_Texture_Name>i_button_flash.tga</Flash_Texture_Name>
+            <Group>Filter_Space</Group>
+			<Font_Name>EmpireAtWar-Medium</Font_Name>
+			<Font_Point_Size>6</Font_Point_Size>
+			<Scale>1.0</Scale>
+			<Text_Offset>0 0</Text_Offset>
+			<Text_Offset2>0 -20</Text_Offset2>
+			<Text_Color2>255 255 255 180</Text_Color2>
+			<Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
+			<Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
+			<Text_Emboss>False</Text_Emboss>
+			<Text_Outline>True</Text_Outline>
+			<Selected_Alpha>True</Selected_Alpha>
+			<Tooltip_Text>TEXT_FILTER_SPACE_UNITS</Tooltip_Text>
+			<Click_Shift>True</Click_Shift>
+			<Toggle>True</Toggle>
+			<Swap_Texture>False</Swap_Texture>
+			<Tab>True</Tab>
+	</CommandBarComponent>
+
+	<CommandBarComponent Name="b_filters_frigate">
+			<Type>Button</Type>
+			 <Icon_Texture_Name>I_BUTTON_FILTER_FRIGATE.tga</Icon_Texture_Name>
+			<Blank_Texture_Name>i_button_command_bar_filter_over.tga</Blank_Texture_Name>
+			<Disabled_Texture_Name>I_BUTTON_FILTER_FRIGATE.tga</Disabled_Texture_Name>
+			<Mouse_Over_Texture_Name>i_button_command_bar_filter_over.tga</Mouse_Over_Texture_Name>
+			<Selected_Texture_Name>I_BUTTON_FILTER_FRIGATE_PRESSED.tga</Selected_Texture_Name>
+			<Build_Texture_Name>i_button_build.tga</Build_Texture_Name>
+			<Flash_Texture_Name>i_button_flash.tga</Flash_Texture_Name>
+                        <Group>Filter_Space</Group>
+			<Font_Name>EmpireAtWar-Medium</Font_Name>
+			<Font_Point_Size>6</Font_Point_Size>
+			<Scale>0.75</Scale>
+			<Text_Offset>0 0</Text_Offset>
+			<Text_Offset2>0 -20</Text_Offset2>
+			<Text_Color2>255 255 255 180</Text_Color2>
+			<Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
+			<Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
+			<Text_Emboss>False</Text_Emboss>
+			<Text_Outline>True</Text_Outline>
+			<Selected_Alpha>True</Selected_Alpha>
+			<Tooltip_Text>TEXT_FILTER_FRIGATE</Tooltip_Text>
+			<Click_Shift>True</Click_Shift>
+			<Toggle>True</Toggle>
+			<Swap_Texture>False</Swap_Texture>
+			<Tab>True</Tab>
+	</CommandBarComponent>
+
+	<CommandBarComponent Name="b_filters_corvette">
+			<Type>Button</Type>
+			 <Icon_Texture_Name>I_BUTTON_FILTER_FIGHTER_CORVETTE.tga</Icon_Texture_Name>
+			<Blank_Texture_Name>i_button_command_bar_filter_over.tga</Blank_Texture_Name>
+			<Disabled_Texture_Name>I_BUTTON_FILTER_FIGHTER_CORVETTE.tga</Disabled_Texture_Name>
+			<Mouse_Over_Texture_Name>i_button_command_bar_filter_over.tga</Mouse_Over_Texture_Name>
+			<Selected_Texture_Name>I_BUTTON_FILTER_FIGHTER_CORVETTE_PRESSED.tga</Selected_Texture_Name>
+			<Build_Texture_Name>i_button_build.tga</Build_Texture_Name>
+			<Flash_Texture_Name>i_button_flash.tga</Flash_Texture_Name>
+                        <Group>Filter_Space</Group>
+			<Font_Name>EmpireAtWar-Medium</Font_Name>
+			<Font_Point_Size>6</Font_Point_Size>
+			<Scale>0.75</Scale>
+			<Text_Offset>0 0</Text_Offset>
+			<Text_Offset2>0 -20</Text_Offset2>
+			<Text_Color2>255 255 255 180</Text_Color2>
+			<Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
+			<Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
+			<Text_Emboss>False</Text_Emboss>
+			<Text_Outline>True</Text_Outline>
+			<Selected_Alpha>True</Selected_Alpha>
+			<Tooltip_Text>TEXT_FILTER_CORVETTE_FIGHTER</Tooltip_Text>
+			<Click_Shift>True</Click_Shift>
+			<Toggle>True</Toggle>
+			<Swap_Texture>False</Swap_Texture>
+			<Tab>True</Tab>
+	</CommandBarComponent>
+	<!--Filterbuttons Space End-->
+
+
+	
+	<!--Filterbuttons Land-->
+
+	<CommandBarComponent Name="b_filters_buildings">
+			<Type>Button</Type>
+			 <Icon_Texture_Name>i_button_filters_groundstructures.tga</Icon_Texture_Name>
+			<Blank_Texture_Name>i_button_filters_groundstructures.tga</Blank_Texture_Name>
+			<Disabled_Texture_Name>I_BUTTON_FILTER_BUILDING.tga</Disabled_Texture_Name>
+			<Mouse_Over_Texture_Name>i_button_filters_groundstructures.tga</Mouse_Over_Texture_Name>
+			<Selected_Texture_Name>I_BUTTON_FILTER_BUILDING_PRESSED.tga</Selected_Texture_Name>
+			<Build_Texture_Name>i_button_build.tga</Build_Texture_Name>
+			<Flash_Texture_Name>i_button_flash.tga</Flash_Texture_Name>
+                        <Group>Filter_Ground</Group>
+			<Font_Name>EmpireAtWar-Medium</Font_Name>
+			<Font_Point_Size>6</Font_Point_Size>
+			<Scale>1.0</Scale>
+			<Text_Offset>0 0</Text_Offset>
+			<Text_Offset2>0 -20</Text_Offset2>
+			<Text_Color2>255 255 255 180</Text_Color2>
+			<Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
+			<Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
+			<Text_Emboss>False</Text_Emboss>
+			<Text_Outline>True</Text_Outline>
+			<Selected_Alpha>True</Selected_Alpha>
+			<Tooltip_Text>TEXT_FILTER_GROUND_BUILDINGS</Tooltip_Text>
+			<Click_Shift>True</Click_Shift>
+			<Toggle>True</Toggle>
+			<Swap_Texture>False</Swap_Texture>
+			<Tab>True</Tab>
+	</CommandBarComponent>
+
+	<CommandBarComponent Name="b_filters_ground_units">
+			<Type>Button</Type>
+			 <Icon_Texture_Name>i_button_filters_groundunits.tga</Icon_Texture_Name>
+			<Blank_Texture_Name>i_button_filters_groundunits.tga</Blank_Texture_Name>
+			<Disabled_Texture_Name>I_BUTTON_FILTER_VEHICLE.tga</Disabled_Texture_Name>
+			<Mouse_Over_Texture_Name>i_button_filters_groundunits.tga</Mouse_Over_Texture_Name>
+			<Selected_Texture_Name>I_BUTTON_FILTER_VEHICLE_PRESSED.tga</Selected_Texture_Name>
+			<Build_Texture_Name>i_button_build.tga</Build_Texture_Name>
+			<Flash_Texture_Name>i_button_flash.tga</Flash_Texture_Name>
+            <Group>Filter_Ground</Group>
+			<Font_Name>EmpireAtWar-Medium</Font_Name>
+			<Font_Point_Size>6</Font_Point_Size>
+			<Scale>1.0</Scale>
+			<Text_Offset>0 0</Text_Offset>
+			<Text_Offset2>0 -20</Text_Offset2>
+			<Text_Color2>255 255 255 180</Text_Color2>
+			<Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
+			<Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
+			<Text_Emboss>False</Text_Emboss>
+			<Text_Outline>True</Text_Outline>
+			<Selected_Alpha>True</Selected_Alpha>
+			<Tooltip_Text>TEXT_FILTER_GROUND_UNITS</Tooltip_Text>
+			<Click_Shift>True</Click_Shift>
+			<Toggle>True</Toggle>
+			<Swap_Texture>False</Swap_Texture>
+			<Tab>True</Tab>
+	</CommandBarComponent>
+
+	<CommandBarComponent Name="b_filters_infantry">
+			<Type>Button</Type>
+			 <Icon_Texture_Name>I_BUTTON_FILTER_INFANTRY.tga</Icon_Texture_Name>
+			<Blank_Texture_Name>i_button_command_bar_filter_over.tga</Blank_Texture_Name>
+			<Disabled_Texture_Name>I_BUTTON_FILTER_INFANTRY.tga</Disabled_Texture_Name>
+			<Mouse_Over_Texture_Name>i_button_command_bar_filter_over.tga</Mouse_Over_Texture_Name>
+			<Selected_Texture_Name>I_BUTTON_FILTER_INFANTRY_PRESSED.tga</Selected_Texture_Name>
+			<Build_Texture_Name>i_button_build.tga</Build_Texture_Name>
+			<Flash_Texture_Name>i_button_flash.tga</Flash_Texture_Name>
+			<Group>Filter_Ground</Group>
+			<Font_Name>EmpireAtWar-Medium</Font_Name>
+			<Font_Point_Size>6</Font_Point_Size>
+			<Scale>1.0</Scale>
+			<Text_Offset>0 0</Text_Offset>
+			<Text_Offset2>0 -20</Text_Offset2>
+			<Text_Color2>255 255 255 180</Text_Color2>
+			<Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
+			<Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
+			<Text_Emboss>False</Text_Emboss>
+			<Text_Outline>True</Text_Outline>
+			<Selected_Alpha>True</Selected_Alpha>
+			<Tooltip_Text>TEXT_FILTER_GROUND_INFANTRY</Tooltip_Text>
+			<Click_Shift>True</Click_Shift>
+			<Toggle>True</Toggle>
+			<Swap_Texture>False</Swap_Texture>
+			<Tab>True</Tab>
+	</CommandBarComponent>
+
+	<CommandBarComponent Name="b_filters_walker">
+			<Type>Button</Type>
+            <Icon_Texture_Name>I_BUTTON_FILTER_UPGRADE.tga</Icon_Texture_Name>
+			<Blank_Texture_Name>i_button_command_bar_filter_over.tga</Blank_Texture_Name>
+			<Disabled_Texture_Name>I_BUTTON_FILTER_UPGRADE.tga</Disabled_Texture_Name>
+			<Mouse_Over_Texture_Name>i_button_command_bar_filter_over.tga</Mouse_Over_Texture_Name>
+			<Selected_Texture_Name>I_BUTTON_FILTER_UPGRADE_PRESSED.tga</Selected_Texture_Name>
+			<Group>Filter_Ground</Group>
+			<Font_Name>EmpireAtWar-Medium</Font_Name>
+			<Font_Point_Size>6</Font_Point_Size>
+			<Scale>0.5</Scale>
+			<Text_Offset>0 0</Text_Offset>
+			<Text_Offset2>0 -20</Text_Offset2>
+			<Text_Color2>255 255 255 180</Text_Color2>
+			<Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
+			<Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
+			<Text_Emboss>False</Text_Emboss>
+			<Text_Outline>True</Text_Outline>
+			<Selected_Alpha>True</Selected_Alpha>
+			<Tooltip_Text>TEXT_FILTER_GROUND_UPGRADES</Tooltip_Text>
+			<Click_Shift>True</Click_Shift>
+			<Toggle>True</Toggle>
+			<Swap_Texture>False</Swap_Texture>
+			<Tab>True</Tab>
+	</CommandBarComponent>
+	
+	<!--Filterbuttons Land End-->
 
     <CommandBarComponent Name="b_story_arc_g">
             <Type>Button</Type>
@@ -7006,16 +7237,16 @@
             <Scale>1.0</Scale>
             <Color>255 255 255 255</Color>
             <Base_Layer>0</Base_Layer>
-            <Offset>39 -13</Offset>
+            <Offset>66 -13</Offset>
     </CommandBarComponent>
     
     <CommandBarComponent Name="g_planet_ability">
             <Type>Button</Type>
             <No_Shell>True</No_Shell>
-            <Scale>1.0</Scale>
+            <Scale>0.5</Scale>
             <Color>255 255 255 255</Color>
             <Base_Layer>0</Base_Layer>
-            <Offset>60 -13</Offset>
+            <Offset>39 -13</Offset>
     </CommandBarComponent>
 
     <CommandBarComponent Name="g_corruption_text">

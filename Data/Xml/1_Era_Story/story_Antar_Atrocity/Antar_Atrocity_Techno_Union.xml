@@ -29,7 +29,15 @@
         <Prereq>Universal_Story_Start</Prereq>
     </Event>
 
-
+    <Event Name="Techno_Union_Flash_Skako">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>FLASH_PLANET_GUI</Reward_Type>
+		<Reward_Param1>Skako</Reward_Param1>
+		<Reward_Param2>FLASH_PLANET</Reward_Param2>
+		<Reward_Param4>Skako_GUI_Flash</Reward_Param4>
+		<Reward_Param5>True</Reward_Param5>
+		<Prereq>Techno_Union_Enters_Tech_01</Prereq>
+	</Event>
 	
 	
 	<!-- Era 1 -->

@@ -37,8 +37,8 @@
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BATTLESHIP</Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_IMPERATOR1.tga</Icon_Name>
 
-		<Space_Model_Name>imperial_i-class_star_destroyer.alo</Space_Model_Name>
-		<Scale_Factor>0.49</Scale_Factor>
+		<Space_Model_Name>Empire_Star_DestroyerI.alo</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 		<Select_Box_Scale>1600</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
@@ -79,14 +79,14 @@
 		<Transport_Capacity>20</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
-		<Build_Cost_Credits>8000</Build_Cost_Credits>
+		<Build_Cost_Credits>800</Build_Cost_Credits>
 		<Autoresolve_Health>60000</Autoresolve_Health>
 		<Shield_Points>30000</Shield_Points>
 		<Tactical_Health>60000</Tactical_Health> <!-- was 6000 -->
 		<Shield_Refresh_Rate>200</Shield_Refresh_Rate>
 		<Energy_Capacity>10000</Energy_Capacity>
 		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
-		<Build_Time_Seconds>120</Build_Time_Seconds>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<GUI_Row>1</GUI_Row>

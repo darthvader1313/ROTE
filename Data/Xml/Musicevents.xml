@@ -113,6 +113,14 @@
         <Loop> Yes </Loop>
     </MusicEvent>
 	
+	<MusicEvent Name="Galactic_Map_Hutt_Cartel_Music_Event">
+		<Files> Galactic_Conquest_Hutt_Cartel.mp3 </Files>
+        <Volume_Percent>60</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop> Yes </Loop>
+    </MusicEvent>
+	
 	<MusicEvent Name="Galactic_Map_Crimson_Dawn_Music_Event">
 		<Files> Galactic_Conquest_Crimson_Dawn.mp3 </Files>
         <Volume_Percent>60</Volume_Percent>
