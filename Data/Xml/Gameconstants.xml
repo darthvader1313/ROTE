@@ -136,7 +136,7 @@
     <GMC_ZoomedPitchAngleDegrees>-35.0</GMC_ZoomedPitchAngleDegrees>
     <GMC_InitialPullbackDistance>700.0</GMC_InitialPullbackDistance>
     <GMC_ZoomedPullbackPlanetRadiusFraction>-0.1</GMC_ZoomedPullbackPlanetRadiusFraction>
-    <GMC_ZoomedPositionOffsetPlanetRadiusFractions>0.4, -7.1, 4.9</GMC_ZoomedPositionOffsetPlanetRadiusFractions>
+    <GMC_ZoomedPositionOffsetPlanetRadiusFractions>0.9, -6.35, 4.9</GMC_ZoomedPositionOffsetPlanetRadiusFractions>
     <GMC_ZoomTime>1.1</GMC_ZoomTime>
     <GMC_Battle_Zoom_Time>3.3</GMC_Battle_Zoom_Time>
     <GMC_Battle_Fade_Time>2.75</GMC_Battle_Fade_Time>
@@ -223,9 +223,9 @@
 	<Min_Galactic_Zoom_Speed>400</Min_Galactic_Zoom_Speed>
 	<Max_Galactic_Zoom_Speed>3000</Max_Galactic_Zoom_Speed>
 	<Galactic_Zoom_Acceleration>3000</Galactic_Zoom_Acceleration>
-	<Galactic_Zoom_Light_Level>0.9</Galactic_Zoom_Light_Level>
-	<Galactic_Zoom_In_Light_Angle>0 80 5.5</Galactic_Zoom_In_Light_Angle>
-	<Galactic_Zoom_Out_Light_Angle>0 80 5.5</Galactic_Zoom_Out_Light_Angle>
+	<Galactic_Zoom_Light_Level>0.5</Galactic_Zoom_Light_Level>
+	<Galactic_Zoom_In_Light_Angle>10 60 15.5</Galactic_Zoom_In_Light_Angle>
+	<Galactic_Zoom_Out_Light_Angle>10 60 15.5</Galactic_Zoom_Out_Light_Angle>
 	<Galactic_Zoom_In_Station_Offset>-2.51 -9.11 14.93</Galactic_Zoom_In_Station_Offset>
 	<Galactic_Zoom_In_Station_Rotation>0.001</Galactic_Zoom_In_Station_Rotation>
 

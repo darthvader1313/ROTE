@@ -32,7 +32,33 @@
 
         <Locations> 
 				Galaxy_Core_Art_Model, 
-				Coruscant, Yavin
+				Cal_Seti, Fresia, Coruscant, Alsakan, Anaxes, Axum, Corulag, Chandrila, 
+				Brentaal, Raltiir, Barlok, Shili, Champala, Carida, Arkania, Castell, 
+				Vardos, Dolomar, Metellos, Pantolomin, Borleias, Bilbringi, Ithor, Brakka, 
+				Corsin, Obroa_Skai, Myrkr, Charubah, Gallinore, Hapes, Wayland, 
+				Taris, Contruum, Lantilles, Garros, Bompreil, Phindar, Belsmuth, Akiva, Yavin,
+				Skako, Caamas, Alderaan, Kuat, Humbarine, Balmorra, Commenor, Onderon,
+				Ambria, Umbara, AlarisPrime, Kashyyyk, Trandosha, Randon, Ruusan, Artesia,
+				CatoNeimoidia, Manaan, Mimban, Antar, Gyndine, Emberlene, Daalang, Toydaria,
+				NallHutta, Despayre, Hollastin, The_Maw, Kessel, Honoghr, Oba_Diah, Eadu,
+				BozPity, Charros, Balamak, Kubindi, Randa, Ulmatra, Barab, Ylesia, Teth,
+				Varl, Syvris, Arami, Orondia, Gamorr, Shola, Moralan, Garos, Togoria,
+				Gleanselm, Darkon, Iridonia, Orinda, Qiilura, Ordmantell, Phaeda, Ilum, Ansion, 
+				Adumar, Amrac, Nirauan, Aeten, Dalron, Comra, Dorin, Wistril, Garqi, Ord_Cantrell, 
+				Scipio, YagaMinor, Entrala, Mygeeto, Muunilinst, Kalee, Dantooine, AjanKloss, 
+				Ciutric, Mandalore, Roxuli, Ebra, Botajef, Serenno, Bannistar, Carosi,
+				Shu-Torun, Jarnollen, Taanab, Vallusk_Cluster, Lianna, Galidraan, Columex, Ossus, RhenVar, 
+				Belderone, Antemeridias, Quell, Handooine, Jabiim, Centares, Vjun, Aargonar, StygeonPrime, 
+				Abhean, RingoVinda, Wobani, Saleucami, Balamack, Desevro, 
+				Derellium, Raxus, Rudrig, Brigia, Orion, Murkhana, Lucazec, Metalorn, 
+				Bimmisaari, Maridun, Felucia, Florrum, Dromund, Begeren, Korriban, Ziost,
+				Kwenn, Nimban, Delacrix, Klatooine, Dennogra, Boonta, Tramesene, Diado,
+				Telos, Malachor, Zygerria, Saffalore, Cantonica, Bonadan, Hast, Reltooine,
+				EttiIV, Dellalt, Minntooine, Pammant, MonCalamari, Lothal,
+				Csilla, Rentor, Jedha, Pillio, Nadiri, Lehon, Celwis, Carrivar,
+				Morishim, Entralla, Binquaros, Sheris, Thalassia, BorgoPrime, Obredaan,
+				Bimmiel, Agamar, Ketaris, Generis, Ord_Biniir, Ord_Trasi, Akuria, 
+				Ajan_Kloss, Tython, Foerost, Byss
 		</Locations>
 
         <Trade_Routes>
@@ -40,22 +66,25 @@
 		</Trade_Routes>
 
         <Home_Location> New_Republic, Coruscant </Home_Location>
-		<Home_Location> Imperial_Remnant_Thrawn, Yavin </Home_Location>
-        
+		<Home_Location> Imperial_Remnant, Byss </Home_Location>
+		<Home_Location> First_Order, Yavin </Home_Location>
+		<Home_Location> Imperial_Remnant_Thrawn, Dathomir </Home_Location>       
 		
 		<Starting_Active_Player> New_Republic </Starting_Active_Player>
 		
-		<Story_Name>New_Republic, 3_Era_Story\story_Thrawn_Campaign\Story_Thrawn_campaign_New_Republic.xml </Story_Name>
+		<Story_Name>New_Republic 3_Era_Story\story_Thrawn_Campaign\Story_Thrawn_campaign_Republic.xml </Story_Name>
+		<Story_Name>Imperial_Remnant, 3_Era_Story\story_Thrawn_Campaign\Story_Thrawn_campaign_Imperial_Remnant.xml </Story_Name>
+		<Story_Name>First_Order, 3_Era_Story\story_Thrawn_Campaign\Story_Thrawn_campaign_First_Order.xml </Story_Name>
 		<Story_Name>Imperial_Remnant_Thrawn, 3_Era_Story\story_Thrawn_Campaign\Story_Thrawn_campaign_Remnant_Thrawn.xml </Story_Name>
-		
-		
-		<AI_Player_Control> Imperial_Remnant_Thrawn, BasicEmpire </AI_Player_Control>
-
-
+			
+		<AI_Player_Control> Imperial_Remnant, BasicEmpire </AI_Player_Control>
+        <AI_Player_Control> First_Order, BasicEmpire </AI_Player_Control>
+        <AI_Player_Control> Imperial_Remnant_Thrawn, BasicEmpire </AI_Player_Control>
 		
 		<Markup_Filename>New_Republic, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Imperial_Remnant, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>First_Order, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Imperial_Remnant_Thrawn, DefaultGalacticHints </Markup_Filename>
-
 		
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>True</Show_Completed_Tab>
@@ -131,7 +160,33 @@
 
         <Locations> 
 				Galaxy_Core_Art_Model, 
-				Coruscant, Yavin
+				Cal_Seti, Fresia, Coruscant, Alsakan, Anaxes, Axum, Corulag, Chandrila, 
+				Brentaal, Raltiir, Barlok, Shili, Champala, Carida, Arkania, Castell, 
+				Vardos, Dolomar, Metellos, Pantolomin, Borleias, Bilbringi, Ithor, Brakka, 
+				Corsin, Obroa_Skai, Myrkr, Charubah, Gallinore, Hapes, Wayland, 
+				Taris, Contruum, Lantilles, Garros, Bompreil, Phindar, Belsmuth, Akiva, Yavin,
+				Skako, Caamas, Alderaan, Kuat, Humbarine, Balmorra, Commenor, Onderon,
+				Ambria, Umbara, AlarisPrime, Kashyyyk, Trandosha, Randon, Ruusan, Artesia,
+				CatoNeimoidia, Manaan, Mimban, Antar, Gyndine, Emberlene, Daalang, Toydaria,
+				NallHutta, Despayre, Hollastin, The_Maw, Kessel, Honoghr, Oba_Diah, Eadu,
+				BozPity, Charros, Balamak, Kubindi, Randa, Ulmatra, Barab, Ylesia, Teth,
+				Varl, Syvris, Arami, Orondia, Gamorr, Shola, Moralan, Garos, Togoria,
+				Gleanselm, Darkon, Iridonia, Orinda, Qiilura, Ordmantell, Phaeda, Ilum, Ansion, 
+				Adumar, Amrac, Nirauan, Aeten, Dalron, Comra, Dorin, Wistril, Garqi, Ord_Cantrell, 
+				Scipio, YagaMinor, Entrala, Mygeeto, Muunilinst, Kalee, Dantooine, AjanKloss, 
+				Ciutric, Mandalore, Roxuli, Ebra, Botajef, Serenno, Bannistar, Carosi,
+				Shu-Torun, Jarnollen, Taanab, Vallusk_Cluster, Lianna, Galidraan, Columex, Ossus, RhenVar, 
+				Belderone, Antemeridias, Quell, Handooine, Jabiim, Centares, Vjun, Aargonar, StygeonPrime, 
+				Abhean, RingoVinda, Wobani, Saleucami, Balamack, Desevro, 
+				Derellium, Raxus, Rudrig, Brigia, Orion, Murkhana, Lucazec, Metalorn, 
+				Bimmisaari, Maridun, Felucia, Florrum, Dromund, Begeren, Korriban, Ziost,
+				Kwenn, Nimban, Delacrix, Klatooine, Dennogra, Boonta, Tramesene, Diado,
+				Telos, Malachor, Zygerria, Saffalore, Cantonica, Bonadan, Hast, Reltooine,
+				EttiIV, Dellalt, Minntooine, Pammant, MonCalamari, Lothal,
+				Csilla, Rentor, Jedha, Pillio, Nadiri, Lehon, Celwis, Carrivar,
+				Morishim, Entralla, Binquaros, Sheris, Thalassia, BorgoPrime, Obredaan,
+				Bimmiel, Agamar, Ketaris, Generis, Ord_Biniir, Ord_Trasi, Akuria, 
+				Ajan_Kloss, Tython, Foerost, Byss
 		</Locations>
 
         <Trade_Routes>

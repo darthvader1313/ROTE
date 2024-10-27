@@ -28,18 +28,15 @@
         <Reward_Type>REVEAL_ALL_PLANETS</Reward_Type>
         <Prereq>Universal_Story_Start</Prereq>
     </Event>
-    
-	<Event Name="CIS_Remnant_Flash_Antar">
+  
+    <!-- Center camera -->
+	<Event Name="CIS_Remnant_Center_Camera">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>FLASH_PLANET_GUI</Reward_Type>
+		<Reward_Type>POSITION_CAMERA</Reward_Type>
 		<Reward_Param1>Antar</Reward_Param1>
-		<Reward_Param2>FLASH_PLANET</Reward_Param2>
-		<Reward_Param4>Antar_GUI_Flash</Reward_Param4>
-		<Reward_Param5>True</Reward_Param5>
-		<Prereq>CIS_Remnant_Enters_Tech_01</Prereq>
+		<Reward_Param2>0,0,0</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
 	</Event>
-
-	
 	
 	<!-- Era 1 -->
 

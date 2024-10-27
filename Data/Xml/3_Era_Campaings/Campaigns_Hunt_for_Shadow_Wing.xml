@@ -1,0 +1,929 @@
+<?xml version="1.0"?>
+<Campaigns>
+
+
+
+<!-- ************************************************************** -->
+<!-- **************** SANDBOX CAMPAIGN "Hunt for Shadow Wing" ***************** -->
+<!-- ************************************************************** -->
+
+
+	
+
+
+	
+  
+  
+  
+  
+  
+  
+  <Campaign Name="Sandbox_Hunt_for_Shadow_Wing_New_Republic">
+
+		<Campaign_Set> Sandbox_Hunt_for_Shadow_Wing </Campaign_Set>
+		<Sort_Order>24</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_HUNT_FOR_SHADOW_WING </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_HUNT_FOR_SHADOW_WING_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> -27.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 56.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Chadawa, Chardaan, Atzerri, MechisIII, Bestine, Foless, Devaron, Denon, HosnianPrime, Bassadro,
+				Chasin, Loronar, Duro, Aurea, Corellia, Rendili, Antar, Gyndine, YagDhul, Calus, Thyferra, Ghorman,
+				Aridus, Vandor, Cularin, Aguarl, Fondor, Abregado, Belgaroth
+		</Locations>
+
+        <Trade_Routes>
+			
+		</Trade_Routes>
+
+        <Home_Location> New_Republic, HosnianPrime </Home_Location>
+		<Home_Location> First_Order, Fondor </Home_Location>
+        <Home_Location> Imperial_Remnant_Gratloe, MechisIII </Home_Location>
+		
+		<Starting_Active_Player> New_Republic </Starting_Active_Player>
+		
+		<Story_Name>New_Republic, 3_Era_Story\story_Hunt_for_Shadow_Wing\Story_Hunt_for_Shadow_Wing_New_Republic.xml </Story_Name>
+		<Story_Name>First_Order, 3_Era_Story\story_Hunt_for_Shadow_Wing\Story_Hunt_for_Shadow_Wing_First_Ordere.xml </Story_Name>
+		<Story_Name>Imperial_Remnant_Gratloe, 3_Era_Story\story_Hunt_for_Shadow_Wing\Story_Hunt_for_Shadow_Wing_Imperial_Remnant_Gratloe.xml </Story_Name>
+		
+		<AI_Player_Control> First_Order, BasicEmpire </AI_Player_Control>
+        <AI_Player_Control> Imperial_Remnant_Gratloe, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>New_Republic, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>First_Order, DefaultGalacticHints </Markup_Filename>
+        <Markup_Filename>Imperial_Remnant_Gratloe, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		<!-- New_Republic Starting Forces -->
+
+		<Starting_Credits> New_Republic,  10000 </Starting_Credits>
+		<Starting_Tech_Level> New_Republic, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> New_Republic, 5 </Max_Tech_Level>
+		
+        <!-- HosnianPrime Space Forces -->
+	
+        <!-- HosnianPrime Land Forces -->
+		<Starting_Forces> New_Republic, HosnianPrime, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, HosnianPrime, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, HosnianPrime, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Rendili Space Forces -->
+	
+        <!-- Rendili Land Forces -->
+		<Starting_Forces> New_Republic, Rendili, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Rendili, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Rendili, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Corellia Space Forces -->
+	
+        <!-- Corellia Land Forces -->
+		<Starting_Forces> New_Republic, Corellia, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Corellia, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Corellia, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Duro Space Forces -->
+	
+        <!-- Duro Land Forces -->
+		<Starting_Forces> New_Republic, Duro, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Duro, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Duro, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Chasin Space Forces -->
+	
+        <!-- Chasin Land Forces -->
+		<Starting_Forces> New_Republic, Chasin, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Chasin, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Chasin, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Denon Space Forces -->
+	
+        <!-- Denon Land Forces -->
+		<Starting_Forces> New_Republic, Denon, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Denon, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Denon, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Devaron Space Forces -->
+	
+        <!-- Devaron Land Forces -->
+		<Starting_Forces> New_Republic, Devaron, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Devaron, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Devaron, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Atzerri Space Forces -->
+	
+        <!-- Atzerri Land Forces -->
+		<Starting_Forces> New_Republic, Atzerri, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Atzerri, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Atzerri, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Foless Space Forces -->
+	
+        <!-- Foless Land Forces -->
+		<Starting_Forces> New_Republic, Foless, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Foless, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Foless, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Bestine Space Forces -->
+	
+        <!-- Bestine Land Forces -->
+		<Starting_Forces> New_Republic, Bestine, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Bestine, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Bestine, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Antar Space Forces -->
+	
+        <!-- Antar Land Forces -->
+		<Starting_Forces> New_Republic, Antar, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Antar, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Antar, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Gyndine Space Forces -->
+	
+        <!-- Gyndine Land Forces -->
+		<Starting_Forces> New_Republic, Gyndine, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Gyndine, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Gyndine, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Loronar Space Forces -->
+	
+        <!-- Loronar Land Forces -->
+		<Starting_Forces> New_Republic, Loronar, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Loronar, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Loronar, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Aurea Space Forces -->
+	
+        <!-- Aurea Land Forces -->
+		<Starting_Forces> New_Republic, Aurea, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Aurea, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Aurea, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		<!-- First_Order Starting Forces -->
+
+		<Starting_Credits> First_Order,  10000 </Starting_Credits>
+		<Starting_Tech_Level> First_Order, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> First_Order, 5 </Max_Tech_Level>
+                                                     
+        <!-- Fondor Space Forces -->
+
+        <!-- Fondor Land Forces -->
+		<Starting_Forces> First_Order, Fondor, First_Order_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> First_Order, Fondor, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Fondor, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Abregado Space Forces -->
+
+        <!-- Abregado Land Forces -->
+		<Starting_Forces> First_Order, Abregado, First_Order_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> First_Order, Abregado, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Abregado, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Belgaroth Space Forces -->
+
+        <!-- Belgaroth Land Forces -->
+		<Starting_Forces> First_Order, Belgaroth, First_Order_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> First_Order, Belgaroth, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Belgaroth, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Ghorman Space Forces -->
+
+        <!-- Ghorman Land Forces -->
+		<Starting_Forces> First_Order, Ghorman, First_Order_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> First_Order, Ghorman, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Ghorman, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Bassadro Space Forces -->
+
+        <!-- Bassadro Land Forces -->
+		<Starting_Forces> First_Order, Bassadro, First_Order_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> First_Order, Bassadro, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Bassadro, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Thyferra Space Forces -->
+
+        <!-- Thyferra Land Forces -->
+		<Starting_Forces> First_Order, Thyferra, First_Order_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> First_Order, Thyferra, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Thyferra, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		
+		
+		
+		<!-- Imperial_Remnant_Gratloe Starting Forces -->
+
+		<Starting_Credits> Imperial_Remnant_Gratloe,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Imperial_Remnant_Gratloe, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Imperial_Remnant_Gratloe, 5 </Max_Tech_Level>
+                                                     
+        <!-- MechisIII Space Forces -->
+
+        <!-- MechisIII Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Gratloe, MechisIII, Remnant_Gratloe_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, MechisIII, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, MechisIII, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Chadawa Space Forces -->
+
+        <!-- Chadawa Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Gratloe, Chadawa, Remnant_Gratloe_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Chadawa, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Chadawa, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		
+        <!-- Chardaan Space Forces -->
+
+        <!-- Chardaan Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Gratloe, Chardaan, Remnant_Gratloe_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Chardaan, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Chardaan, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Aridus Space Forces -->
+
+        <!-- Aridus Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Gratloe, Aridus, Remnant_Gratloe_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Aridus, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Aridus, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Vandor Space Forces -->
+
+        <!-- Vandor Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Gratloe, Vandor, Remnant_Gratloe_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Vandor, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Vandor, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		
+        <!-- Cularin Space Forces -->
+
+        <!-- Cularin Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Gratloe, Cularin, Remnant_Gratloe_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Cularin, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Cularin, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Aguarl Space Forces -->
+
+        <!-- Aguarl Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Gratloe, Aguarl, Remnant_Gratloe_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Aguarl, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Aguarl, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- YagDhul Space Forces -->
+
+        <!-- YagDhul Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Gratloe, YagDhul, Remnant_Gratloe_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, YagDhul, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, YagDhul, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		
+        <!-- Calus Space Forces -->
+
+        <!-- Calus Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Gratloe, Calus, Remnant_Gratloe_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Calus, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Calus, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		
+		
+		
+
+  
+  
+  </Campaign>
+  
+  
+  
+  
+  
+  
+  
+  <Campaign Name="Sandbox_Hunt_for_Shadow_Wing_First_Order">
+
+		<Campaign_Set> Sandbox_Hunt_for_Shadow_Wing </Campaign_Set>
+		<Sort_Order>24</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_HUNT_FOR_SHADOW_WING </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_HUNT_FOR_SHADOW_WING_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> -27.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 56.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Chadawa, Chardaan, Atzerri, MechisIII, Bestine, Foless, Devaron, Denon, HosnianPrime, Bassadro,
+				Chasin, Loronar, Duro, Aurea, Corellia, Rendili, Antar, Gyndine, YagDhul, Calus, Thyferra, Ghorman,
+				Aridus, Vandor, Cularin, Aguarl, Fondor, Abregado, Belgaroth
+		</Locations>
+
+        <Trade_Routes>
+			
+		</Trade_Routes>
+
+        <Home_Location> New_Republic, HosnianPrime </Home_Location>
+		<Home_Location> First_Order, Fondor </Home_Location>
+        <Home_Location> Imperial_Remnant_Gratloe, MechisIII </Home_Location>
+		
+		<Starting_Active_Player> First_Order </Starting_Active_Player>
+		
+		<Story_Name>New_Republic, 3_Era_Story\story_Hunt_for_Shadow_Wing\Story_Hunt_for_Shadow_Wing_New_Republic.xml </Story_Name>
+		<Story_Name>First_Order, 3_Era_Story\story_Hunt_for_Shadow_Wing\Story_Hunt_for_Shadow_Wing_First_Ordere.xml </Story_Name>
+		<Story_Name>Imperial_Remnant_Gratloe, 3_Era_Story\story_Hunt_for_Shadow_Wing\Story_Hunt_for_Shadow_Wing_Imperial_Remnant_Gratloe.xml </Story_Name>
+		
+		<AI_Player_Control> New_Republic, BasicEmpire </AI_Player_Control>
+        <AI_Player_Control> Imperial_Remnant_Gratloe, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>New_Republic, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>First_Order, DefaultGalacticHints </Markup_Filename>
+        <Markup_Filename>Imperial_Remnant_Gratloe, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		<!-- New_Republic Starting Forces -->
+
+		<Starting_Credits> New_Republic,  10000 </Starting_Credits>
+		<Starting_Tech_Level> New_Republic, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> New_Republic, 5 </Max_Tech_Level>
+		
+        <!-- HosnianPrime Space Forces -->
+	
+        <!-- HosnianPrime Land Forces -->
+		<Starting_Forces> New_Republic, HosnianPrime, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, HosnianPrime, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, HosnianPrime, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Rendili Space Forces -->
+	
+        <!-- Rendili Land Forces -->
+		<Starting_Forces> New_Republic, Rendili, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Rendili, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Rendili, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Corellia Space Forces -->
+	
+        <!-- Corellia Land Forces -->
+		<Starting_Forces> New_Republic, Corellia, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Corellia, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Corellia, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Duro Space Forces -->
+	
+        <!-- Duro Land Forces -->
+		<Starting_Forces> New_Republic, Duro, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Duro, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Duro, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Chasin Space Forces -->
+	
+        <!-- Chasin Land Forces -->
+		<Starting_Forces> New_Republic, Chasin, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Chasin, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Chasin, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Denon Space Forces -->
+	
+        <!-- Denon Land Forces -->
+		<Starting_Forces> New_Republic, Denon, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Denon, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Denon, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Devaron Space Forces -->
+	
+        <!-- Devaron Land Forces -->
+		<Starting_Forces> New_Republic, Devaron, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Devaron, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Devaron, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Atzerri Space Forces -->
+	
+        <!-- Atzerri Land Forces -->
+		<Starting_Forces> New_Republic, Atzerri, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Atzerri, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Atzerri, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Foless Space Forces -->
+	
+        <!-- Foless Land Forces -->
+		<Starting_Forces> New_Republic, Foless, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Foless, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Foless, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Bestine Space Forces -->
+	
+        <!-- Bestine Land Forces -->
+		<Starting_Forces> New_Republic, Bestine, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Bestine, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Bestine, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Antar Space Forces -->
+	
+        <!-- Antar Land Forces -->
+		<Starting_Forces> New_Republic, Antar, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Antar, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Antar, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Gyndine Space Forces -->
+	
+        <!-- Gyndine Land Forces -->
+		<Starting_Forces> New_Republic, Gyndine, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Gyndine, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Gyndine, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Loronar Space Forces -->
+	
+        <!-- Loronar Land Forces -->
+		<Starting_Forces> New_Republic, Loronar, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Loronar, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Loronar, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Aurea Space Forces -->
+	
+        <!-- Aurea Land Forces -->
+		<Starting_Forces> New_Republic, Aurea, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Aurea, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Aurea, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		<!-- First_Order Starting Forces -->
+
+		<Starting_Credits> First_Order,  10000 </Starting_Credits>
+		<Starting_Tech_Level> First_Order, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> First_Order, 5 </Max_Tech_Level>
+                                                     
+        <!-- Fondor Space Forces -->
+
+        <!-- Fondor Land Forces -->
+		<Starting_Forces> First_Order, Fondor, First_Order_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> First_Order, Fondor, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Fondor, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Abregado Space Forces -->
+
+        <!-- Abregado Land Forces -->
+		<Starting_Forces> First_Order, Abregado, First_Order_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> First_Order, Abregado, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Abregado, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Belgaroth Space Forces -->
+
+        <!-- Belgaroth Land Forces -->
+		<Starting_Forces> First_Order, Belgaroth, First_Order_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> First_Order, Belgaroth, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Belgaroth, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Ghorman Space Forces -->
+
+        <!-- Ghorman Land Forces -->
+		<Starting_Forces> First_Order, Ghorman, First_Order_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> First_Order, Ghorman, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Ghorman, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Bassadro Space Forces -->
+
+        <!-- Bassadro Land Forces -->
+		<Starting_Forces> First_Order, Bassadro, First_Order_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> First_Order, Bassadro, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Bassadro, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Thyferra Space Forces -->
+
+        <!-- Thyferra Land Forces -->
+		<Starting_Forces> First_Order, Thyferra, First_Order_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> First_Order, Thyferra, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Thyferra, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		
+		
+		
+		<!-- Imperial_Remnant_Gratloe Starting Forces -->
+
+		<Starting_Credits> Imperial_Remnant_Gratloe,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Imperial_Remnant_Gratloe, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Imperial_Remnant_Gratloe, 5 </Max_Tech_Level>
+                                                     
+        <!-- MechisIII Space Forces -->
+
+        <!-- MechisIII Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Gratloe, MechisIII, Remnant_Gratloe_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, MechisIII, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, MechisIII, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Chadawa Space Forces -->
+
+        <!-- Chadawa Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Gratloe, Chadawa, Remnant_Gratloe_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Chadawa, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Chadawa, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		
+        <!-- Chardaan Space Forces -->
+
+        <!-- Chardaan Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Gratloe, Chardaan, Remnant_Gratloe_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Chardaan, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Chardaan, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Aridus Space Forces -->
+
+        <!-- Aridus Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Gratloe, Aridus, Remnant_Gratloe_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Aridus, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Aridus, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Vandor Space Forces -->
+
+        <!-- Vandor Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Gratloe, Vandor, Remnant_Gratloe_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Vandor, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Vandor, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		
+        <!-- Cularin Space Forces -->
+
+        <!-- Cularin Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Gratloe, Cularin, Remnant_Gratloe_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Cularin, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Cularin, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Aguarl Space Forces -->
+
+        <!-- Aguarl Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Gratloe, Aguarl, Remnant_Gratloe_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Aguarl, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Aguarl, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- YagDhul Space Forces -->
+
+        <!-- YagDhul Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Gratloe, YagDhul, Remnant_Gratloe_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, YagDhul, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, YagDhul, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		
+        <!-- Calus Space Forces -->
+
+        <!-- Calus Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Gratloe, Calus, Remnant_Gratloe_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Calus, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Calus, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		
+		
+		
+
+  
+  
+  </Campaign>
+  
+  
+  
+  
+  
+  
+  
+  
+  <Campaign Name="Sandbox_Hunt_for_Shadow_Wing_Imperial_Remnant_Gratloe">
+
+		<Campaign_Set> Sandbox_Hunt_for_Shadow_Wing </Campaign_Set>
+		<Sort_Order>24</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_HUNT_FOR_SHADOW_WING </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_HUNT_FOR_SHADOW_WING_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> -27.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 56.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Chadawa, Chardaan, Atzerri, MechisIII, Bestine, Foless, Devaron, Denon, HosnianPrime, Bassadro,
+				Chasin, Loronar, Duro, Aurea, Corellia, Rendili, Antar, Gyndine, YagDhul, Calus, Thyferra, Ghorman,
+				Aridus, Vandor, Cularin, Aguarl, Fondor, Abregado, Belgaroth
+		</Locations>
+
+        <Trade_Routes>
+			
+		</Trade_Routes>
+
+        <Home_Location> New_Republic, HosnianPrime </Home_Location>
+		<Home_Location> First_Order, Fondor </Home_Location>
+        <Home_Location> Imperial_Remnant_Gratloe, MechisIII </Home_Location>
+		
+		<Starting_Active_Player> Imperial_Remnant_Gratloe </Starting_Active_Player>
+		
+		<Story_Name>New_Republic, 3_Era_Story\story_Hunt_for_Shadow_Wing\Story_Hunt_for_Shadow_Wing_New_Republic.xml </Story_Name>
+		<Story_Name>First_Order, 3_Era_Story\story_Hunt_for_Shadow_Wing\Story_Hunt_for_Shadow_Wing_First_Ordere.xml </Story_Name>
+		<Story_Name>Imperial_Remnant_Gratloe, 3_Era_Story\story_Hunt_for_Shadow_Wing\Story_Hunt_for_Shadow_Wing_Imperial_Remnant_Gratloe.xml </Story_Name>
+		
+		<AI_Player_Control> New_Republic, BasicEmpire </AI_Player_Control>
+        <AI_Player_Control> First_Order, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>New_Republic, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>First_Order, DefaultGalacticHints </Markup_Filename>
+        <Markup_Filename>Imperial_Remnant_Gratloe, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		<!-- New_Republic Starting Forces -->
+
+		<Starting_Credits> New_Republic,  10000 </Starting_Credits>
+		<Starting_Tech_Level> New_Republic, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> New_Republic, 5 </Max_Tech_Level>
+		
+        <!-- HosnianPrime Space Forces -->
+	
+        <!-- HosnianPrime Land Forces -->
+		<Starting_Forces> New_Republic, HosnianPrime, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, HosnianPrime, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, HosnianPrime, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Rendili Space Forces -->
+	
+        <!-- Rendili Land Forces -->
+		<Starting_Forces> New_Republic, Rendili, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Rendili, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Rendili, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Corellia Space Forces -->
+	
+        <!-- Corellia Land Forces -->
+		<Starting_Forces> New_Republic, Corellia, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Corellia, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Corellia, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Duro Space Forces -->
+	
+        <!-- Duro Land Forces -->
+		<Starting_Forces> New_Republic, Duro, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Duro, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Duro, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Chasin Space Forces -->
+	
+        <!-- Chasin Land Forces -->
+		<Starting_Forces> New_Republic, Chasin, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Chasin, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Chasin, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Denon Space Forces -->
+	
+        <!-- Denon Land Forces -->
+		<Starting_Forces> New_Republic, Denon, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Denon, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Denon, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Devaron Space Forces -->
+	
+        <!-- Devaron Land Forces -->
+		<Starting_Forces> New_Republic, Devaron, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Devaron, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Devaron, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Atzerri Space Forces -->
+	
+        <!-- Atzerri Land Forces -->
+		<Starting_Forces> New_Republic, Atzerri, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Atzerri, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Atzerri, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Foless Space Forces -->
+	
+        <!-- Foless Land Forces -->
+		<Starting_Forces> New_Republic, Foless, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Foless, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Foless, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Bestine Space Forces -->
+	
+        <!-- Bestine Land Forces -->
+		<Starting_Forces> New_Republic, Bestine, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Bestine, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Bestine, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Antar Space Forces -->
+	
+        <!-- Antar Land Forces -->
+		<Starting_Forces> New_Republic, Antar, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Antar, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Antar, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Gyndine Space Forces -->
+	
+        <!-- Gyndine Land Forces -->
+		<Starting_Forces> New_Republic, Gyndine, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Gyndine, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Gyndine, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Loronar Space Forces -->
+	
+        <!-- Loronar Land Forces -->
+		<Starting_Forces> New_Republic, Loronar, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Loronar, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Loronar, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Aurea Space Forces -->
+	
+        <!-- Aurea Land Forces -->
+		<Starting_Forces> New_Republic, Aurea, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Aurea, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Aurea, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		<!-- First_Order Starting Forces -->
+
+		<Starting_Credits> First_Order,  10000 </Starting_Credits>
+		<Starting_Tech_Level> First_Order, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> First_Order, 5 </Max_Tech_Level>
+                                                     
+        <!-- Fondor Space Forces -->
+
+        <!-- Fondor Land Forces -->
+		<Starting_Forces> First_Order, Fondor, First_Order_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> First_Order, Fondor, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Fondor, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Abregado Space Forces -->
+
+        <!-- Abregado Land Forces -->
+		<Starting_Forces> First_Order, Abregado, First_Order_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> First_Order, Abregado, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Abregado, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Belgaroth Space Forces -->
+
+        <!-- Belgaroth Land Forces -->
+		<Starting_Forces> First_Order, Belgaroth, First_Order_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> First_Order, Belgaroth, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Belgaroth, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Ghorman Space Forces -->
+
+        <!-- Ghorman Land Forces -->
+		<Starting_Forces> First_Order, Ghorman, First_Order_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> First_Order, Ghorman, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Ghorman, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Bassadro Space Forces -->
+
+        <!-- Bassadro Land Forces -->
+		<Starting_Forces> First_Order, Bassadro, First_Order_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> First_Order, Bassadro, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Bassadro, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Thyferra Space Forces -->
+
+        <!-- Thyferra Land Forces -->
+		<Starting_Forces> First_Order, Thyferra, First_Order_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> First_Order, Thyferra, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Thyferra, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		
+		
+		
+		<!-- Imperial_Remnant_Gratloe Starting Forces -->
+
+		<Starting_Credits> Imperial_Remnant_Gratloe,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Imperial_Remnant_Gratloe, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Imperial_Remnant_Gratloe, 5 </Max_Tech_Level>
+                                                     
+        <!-- MechisIII Space Forces -->
+
+        <!-- MechisIII Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Gratloe, MechisIII, Remnant_Gratloe_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, MechisIII, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, MechisIII, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Chadawa Space Forces -->
+
+        <!-- Chadawa Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Gratloe, Chadawa, Remnant_Gratloe_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Chadawa, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Chadawa, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		
+        <!-- Chardaan Space Forces -->
+
+        <!-- Chardaan Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Gratloe, Chardaan, Remnant_Gratloe_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Chardaan, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Chardaan, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Aridus Space Forces -->
+
+        <!-- Aridus Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Gratloe, Aridus, Remnant_Gratloe_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Aridus, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Aridus, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Vandor Space Forces -->
+
+        <!-- Vandor Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Gratloe, Vandor, Remnant_Gratloe_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Vandor, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Vandor, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		
+        <!-- Cularin Space Forces -->
+
+        <!-- Cularin Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Gratloe, Cularin, Remnant_Gratloe_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Cularin, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Cularin, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Aguarl Space Forces -->
+
+        <!-- Aguarl Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Gratloe, Aguarl, Remnant_Gratloe_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Aguarl, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Aguarl, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- YagDhul Space Forces -->
+
+        <!-- YagDhul Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Gratloe, YagDhul, Remnant_Gratloe_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, YagDhul, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, YagDhul, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		
+        <!-- Calus Space Forces -->
+
+        <!-- Calus Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Gratloe, Calus, Remnant_Gratloe_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Calus, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Gratloe, Calus, Gratloe_Stormtrooper_Squad </Starting_Forces>
+		
+		
+		
+
+  
+  
+  </Campaign>
+  
+  
+  
+  
+	
+	
+	
+	
+	  
+	  
+	  
+	  
+	  
+	 
+	  
+	  
+	  
+	
+	
+	
+	
+
+
+	
+
+
+ </Campaigns>

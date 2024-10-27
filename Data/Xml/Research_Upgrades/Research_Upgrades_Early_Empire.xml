@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<RESEARCH_UPGRADES>
+
+
+
+
+    <UpgradeObject Name="Early_Empire_Improved_Weapons_L1_Upgrade">
+        <Variant_Of_Existing_Type>Upgrade_Default_Empire</Variant_Of_Existing_Type>
+	    <Tech_Level>1</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Tactical_Build_Cost_Multiplayer> 800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 25 </Tactical_Build_Time_Seconds>
+		<Next_Upgrade_Level_Type> ES_Improved_Weapons_L2_Upgrade </Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_improved_weapons1.tga</Icon_Name>
+		<Affiliation>Early_Empire</Affiliation>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_IMPROVED_WEAPONS_L1 </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID> TEXT_UPGRADE_ES_IMPROVED_WEAPONS_L1 </Text_ID>
+		
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="ES_Improved_Weapons_L1_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>Fighter, Bomber, Gunship</Applicable_Unit_Categories>
+				<Applicable_Unit_Types/>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</UpgradeObject>
+
+
+
+
+
+</RESEARCH_UPGRADES>

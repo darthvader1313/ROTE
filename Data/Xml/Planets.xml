@@ -15356,9 +15356,9 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_YAVIN</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-		<Galactic_Model_Name>w_planetGC_yavin.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>w_planetGC_yavin4.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>w_planetGC_yavin.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planetGC_yavin4.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.5</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>14.0</Mouse_Collide_Override_Sphere_Radius>
@@ -16616,9 +16616,9 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_TELOS</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-		<Galactic_Model_Name>w_planetGC_tundra02.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>w_planetGC_telos.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>w_planetGC_tundra02.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planetGC_tuw_planetGC_telosndra02.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>14.0</Mouse_Collide_Override_Sphere_Radius>
@@ -19906,9 +19906,9 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_NALHUTTA</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-		<Galactic_Model_Name>w_planetGC_Swamp01.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>w_planetGC_nallhutta.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>w_planetGC_Swamp01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planetGC_nallhutta.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>14.0</Mouse_Collide_Override_Sphere_Radius>
@@ -24596,9 +24596,9 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_CORUSCANT</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-		<Galactic_Model_Name>w_planetGC_Urban01.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>w_planetGC_coruscant.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>w_planetGC_Urban01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planetGC_coruscant.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>14.0</Mouse_Collide_Override_Sphere_Radius>

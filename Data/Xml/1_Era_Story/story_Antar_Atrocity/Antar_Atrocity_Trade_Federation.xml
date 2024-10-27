@@ -29,16 +29,14 @@
         <Prereq>Universal_Story_Start</Prereq>
     </Event>
 
-    <Event Name="Trade_Federation_Flash_Cato_Nemodia">
+	<!-- Center camera -->
+	<Event Name="Trade_Federation_Center_Camera">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>FLASH_PLANET_GUI</Reward_Type>
-		<Reward_Param1>Cato_Neimodia</Reward_Param1>
-		<Reward_Param2>FLASH_PLANET</Reward_Param2>
-		<Reward_Param4>Cato_Neimodia_GUI_Flash</Reward_Param4>
-		<Reward_Param5>True</Reward_Param5>
-		<Prereq>Trade_Federation_Enters_Tech_01</Prereq>
+		<Reward_Type>POSITION_CAMERA</Reward_Type>
+		<Reward_Param1>CatoNeimoidia</Reward_Param1>
+		<Reward_Param2>0,0,0</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
 	</Event>
-	
 	
 	<!-- Era 1 -->
 
@@ -87,7 +85,7 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Sentepeth_Findos_Team</Reward_Param1>
-		<Reward_Param2>Cato_Neimodia</Reward_Param2>
+		<Reward_Param2>CatoNeimoidia</Reward_Param2>
 		<Prereq>Trade_Federation_Enters_Tech_01</Prereq>
 	</Event>
 

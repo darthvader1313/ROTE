@@ -32,23 +32,31 @@
 
         <Locations> 
 				Galaxy_Core_Art_Model, 
-				Coruscant, Yavin
+				Chandrila, Brentaal, Raltiir, Barlok, Shili, Champala, Carida, Arkania, Castell, 
+				Vardos, Dolomar, Metellos, Pantolomin, Borleias, Bilbringi, Ithor, Brakka, 
+				Corsin, Mandalore, Myrkr, Charubah, Gallinore, Hapes, Wayland, 
+				Taris, Contruum, Lantilles, Garros, Bompreil, Phindar, Belsmuth, Akiva, Yavin,
+				Skako, Caamas, Alderaan, Kuat, Humbarine, Balmorra, Dathomir, Bandomeer, 
+				Ord_Cestus, Celanon, Agamar, Polus, Ketaris, Axxila, Raydonia, Vinsoth, Binquaros,
+				Vjun, Aargonar, StygeonPrime, Abhean, Quell, BorgoPrime, Taanab, Vallusk_Cluster,
+				Nadiri, Axum
 		</Locations>
 
         <Trade_Routes>
 			
 		</Trade_Routes>
 
-        <Home_Location> New_Republic, Coruscant </Home_Location>
-		<Home_Location> Imperial_Remnant, Yavin </Home_Location>
-        
+        <Home_Location> New_Republic, Chandrila </Home_Location>
+		<Home_Location> Imperial_Remnant, Akiva </Home_Location>
+		<Home_Location> Imperial_Remnant_Rax, Vjun </Home_Location>
+		<Home_Location> First_Order, Vardos </Home_Location>        
 		
 		<Starting_Active_Player> New_Republic </Starting_Active_Player>
 		
-		<Story_Name>New_Republic, story_Rebellion_on_Akiva\Story_Rebellion_on_Akiva_New_Republic.xml </Story_Name>
-		<Story_Name>Imperial_Remnant, story_Rebellion_on_Akiva\Story_Rebellion_on_Akiva_Imperial_Remnant.xml </Story_Name>
-		<Story_Name>Imperial_Remnant_Rax, story_Rebellion_on_Akiva\Story_Rebellion_on_Akiva_Imperial_Remnant_Rax.xml </Story_Name>
-		<Story_Name>First_Order, story_Rebellion_on_Akiva\Story_Rebellion_on_Akiva_First_Order.xml </Story_Name>
+		<Story_Name>New_Republic, 3_Era_Story\story_Rebellion_on_Akiva\Story_Rebellion_on_Akiva_New_Republic.xml </Story_Name>
+		<Story_Name>Imperial_Remnant, 3_Era_Story\story_Rebellion_on_Akiva\Story_Rebellion_on_Akiva_Imperial_Remnant.xml </Story_Name>
+		<Story_Name>Imperial_Remnant_Rax, 3_Era_Story\story_Rebellion_on_Akiva\Story_Rebellion_on_Akiva_Imperial_Remnant_Rax.xml </Story_Name>
+		<Story_Name>First_Order, 3_Era_Story\story_Rebellion_on_Akiva\Story_Rebellion_on_Akiva_First_Order.xml </Story_Name>
 		
 		<AI_Player_Control> Imperial_Remnant, BasicEmpire </AI_Player_Control>
         <AI_Player_Control> Imperial_Remnant_Rax, BasicEmpire </AI_Player_Control>
@@ -74,35 +82,2161 @@
 				Galactic_All_Planets_Controlled
 		</AI_Victory_Conditions>
 		
-		<!-- Galactic_Empire Starting Forces -->
+		<!-- New_Republic Starting Forces -->
 
-		<Starting_Credits> Galactic_Empire,  10000 </Starting_Credits>
-		<Starting_Tech_Level> Galactic_Empire, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> Galactic_Empire, 5 </Max_Tech_Level>
+		<Starting_Credits> New_Republic,  10000 </Starting_Credits>
+		<Starting_Tech_Level> New_Republic, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> New_Republic, 5 </Max_Tech_Level>
 		
-        <!-- Coruscant Space Forces -->
+        <!-- Chandrila Space Forces -->
 	
-        <!-- Coruscant Land Forces -->
-		<Starting_Forces> Galactic_Empire, Coruscant, Galactic_Empire_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Galactic_Empire, Coruscant, Imperial_Clonetroopers_Squad </Starting_Forces>
-		<Starting_Forces> Galactic_Empire, Coruscant, Galactic_Empire_Rifleman_Squad </Starting_Forces>
+        <!-- Chandrila Land Forces -->
+		<Starting_Forces> New_Republic, Chandrila, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Chandrila, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Chandrila, New_Republic_Guard_Trooper_Squad </Starting_Forces>
 		
+		<!-- Brentaal Space Forces -->
+	
+        <!-- Brentaal Land Forces -->
+		<Starting_Forces> New_Republic, Brentaal, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Brentaal, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Brentaal, New_Republic_Guard_Trooper_Squad </Starting_Forces>
 		
+		<!-- Raltiir Space Forces -->
+	
+        <!-- Raltiir Land Forces -->
+		<Starting_Forces> New_Republic, Raltiir, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Raltiir, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Raltiir, New_Republic_Guard_Trooper_Squad </Starting_Forces>
 		
+		<!-- Barlok Space Forces -->
+	
+        <!-- Barlok Land Forces -->
+		<Starting_Forces> New_Republic, Barlok, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Barlok, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Barlok, New_Republic_Guard_Trooper_Squad </Starting_Forces>
 		
+		<!-- Shili Space Forces -->
+	
+        <!-- Shili Land Forces -->
+		<Starting_Forces> New_Republic, Shili, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Shili, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Shili, New_Republic_Guard_Trooper_Squad </Starting_Forces>
 		
-		<!-- Rebel Alliance Starting Forces -->
-
-		<Starting_Credits> Rebel_Alliance,  10000 </Starting_Credits>
-		<Starting_Tech_Level> Rebel_Alliance, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> Rebel_Alliance, 5 </Max_Tech_Level>
-                                                     
-        <!-- Yavin Space Forces -->
-
+		<!-- Champala Space Forces -->
+	
+        <!-- Champala Land Forces -->
+		<Starting_Forces> New_Republic, Champala, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Champala, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Champala, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Carida Space Forces -->
+	
+        <!-- Carida Land Forces -->
+		<Starting_Forces> New_Republic, Carida, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Carida, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Carida, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Arkania Space Forces -->
+	
+        <!-- Arkania Land Forces -->
+		<Starting_Forces> New_Republic, Arkania, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Arkania, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Arkania, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Castell Space Forces -->
+	
+        <!-- Castell Land Forces -->
+		<Starting_Forces> New_Republic, Castell, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Castell, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Castell, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Ithor Space Forces -->
+	
+        <!-- Ithor Land Forces -->
+		<Starting_Forces> New_Republic, Ithor, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Ithor, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Ithor, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Brakka Space Forces -->
+	
+        <!-- Brakka Land Forces -->
+		<Starting_Forces> New_Republic, Brakka, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Brakka, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Brakka, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Yavin Space Forces -->
+	
         <!-- Yavin Land Forces -->
-		<Starting_Forces> Rebel_Alliance, Yavin, Rebel_Alliance_Ground_Barracks  </Starting_Forces>
-		<Starting_Forces> Rebel_Alliance, Yavin, Rebel_Alliance_Soldier_Squad </Starting_Forces>
-		<Starting_Forces> Rebel_Alliance, Yavin, Rebel_Alliance_Soldier_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Yavin, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Yavin, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Yavin, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Skako Space Forces -->
+	
+        <!-- Skako Land Forces -->
+		<Starting_Forces> New_Republic, Skako, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Skako, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Skako, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Caamas Space Forces -->
+	
+        <!-- Caamas Land Forces -->
+		<Starting_Forces> New_Republic, Caamas, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Caamas, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Caamas, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Alderaan Space Forces -->
+	
+        <!-- Alderaan Land Forces -->
+		<Starting_Forces> New_Republic, Alderaan, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Alderaan, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Alderaan, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Kuat Space Forces -->
+	
+        <!-- Kuat Land Forces -->
+		<Starting_Forces> New_Republic, Kuat, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Kuat, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Kuat, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Humbarine Space Forces -->
+	
+        <!-- Humbarine Land Forces -->
+		<Starting_Forces> New_Republic, Humbarine, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Humbarine, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Humbarine, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Balmorra Space Forces -->
+	
+        <!-- Balmorra Land Forces -->
+		<Starting_Forces> New_Republic, Balmorra, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Balmorra, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Balmorra, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Nadiri Space Forces -->
+	
+        <!-- Nadiri Land Forces -->
+		<Starting_Forces> New_Republic, Nadiri, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Nadiri, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Nadiri, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		
+		
+		
+		<!-- Imperial_Remnant Starting Forces -->
+
+		<Starting_Credits> Imperial_Remnant,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Imperial_Remnant, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Imperial_Remnant, 5 </Max_Tech_Level>
+                                                     
+        <!-- Akiva Space Forces -->
+
+        <!-- Akiva Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Akiva, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Akiva, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Akiva, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Corsin Space Forces -->
+
+        <!-- Corsin Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Corsin, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Corsin, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Corsin, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Mandalore Space Forces -->
+
+        <!-- Mandalore Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Mandalore, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Mandalore, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Mandalore, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Myrkr Space Forces -->
+
+        <!-- Myrkr Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Myrkr, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Myrkr, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Myrkr, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Wayland Space Forces -->
+
+        <!-- Wayland Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Mandalore, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Mandalore, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Mandalore, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Wayland Space Forces -->
+
+        <!-- Wayland Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Wayland, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Wayland, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Wayland, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Gallinore Space Forces -->
+
+        <!-- Gallinore Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Gallinore, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Gallinore, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Gallinore, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Charubah Space Forces -->
+
+        <!-- Charubah Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Charubah, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Charubah, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Charubah, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Hapes Space Forces -->
+
+        <!-- Hapes Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Hapes, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Hapes, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Hapes, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Taris Space Forces -->
+
+        <!-- Taris Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Taris, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Taris, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Taris, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Contruum Space Forces -->
+
+        <!-- Contruum Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Contruum, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Contruum, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Contruum, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Lantilles Space Forces -->
+
+        <!-- Lantilles Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Lantilles, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Lantilles, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Lantilles, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Garros Space Forces -->
+
+        <!-- Garros Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Garros, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Garros, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Garros, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Bompreil Space Forces -->
+
+        <!-- Bompreil Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Bompreil, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Bompreil, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Bompreil, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Phindar Space Forces -->
+
+        <!-- Phindar Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Phindar, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Phindar, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Phindar, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Belsmuth Space Forces -->
+
+        <!-- Belsmuth Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Belsmuth, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Belsmuth, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Belsmuth, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Taanab Space Forces -->
+
+        <!-- Taanab Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Taanab, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Taanab, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Taanab, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		
+		
+		
+		
+		
+		
+		<!-- Imperial_Remnant_Rax Starting Forces -->
+
+		<Starting_Credits> Imperial_Remnant_Rax,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Imperial_Remnant_Rax, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Imperial_Remnant_Rax, 5 </Max_Tech_Level>
+		
+        <!-- Vjun Space Forces -->
+	
+        <!-- Vjun Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Vjun, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Vjun, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Vjun, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Vallusk_Cluster Space Forces -->
+	
+        <!-- Vallusk_Cluster Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Vallusk_Cluster, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Vallusk_Cluster, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Vallusk_Cluster, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Dathomir Space Forces -->
+	
+        <!-- Dathomir Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Dathomir, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Dathomir, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Dathomir, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Bandomeer Space Forces -->
+	
+        <!-- Bandomeer Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Bandomeer, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Bandomeer, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Bandomeer, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Ord_Cestus Space Forces -->
+	
+        <!-- Ord_Cestus Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Ord_Cestus, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Ord_Cestus, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Ord_Cestus, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Axxila Space Forces -->
+	
+        <!-- Axxila Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Axxila, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Axxila, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Axxila, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Celanon Space Forces -->
+	
+        <!-- Celanon Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Celanon, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Celanon, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Celanon, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Agamar Space Forces -->
+	
+        <!-- Agamar Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Agamar, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Agamar, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Agamar, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Polus Space Forces -->
+	
+        <!-- Polus Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Polus, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Polus, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Polus, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Ketaris Space Forces -->
+	
+        <!-- Ketaris Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Ketaris, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Ketaris, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Ketaris, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Raydonia Space Forces -->
+	
+        <!-- Raydonia Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Raydonia, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Raydonia, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Raydonia, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Vinsoth Space Forces -->
+	
+        <!-- Vinsoth Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Vinsoth, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Vinsoth, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Vinsoth, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Binquaros Space Forces -->
+	
+        <!-- Binquaros Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Binquaros, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Binquaros, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Binquaros, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- BorgoPrime Space Forces -->
+	
+        <!-- BorgoPrime Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, BorgoPrime, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, BorgoPrime, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, BorgoPrime, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		<!-- First_Order Starting Forces -->
+
+		<Starting_Credits> First_Order,  10000 </Starting_Credits>
+		<Starting_Tech_Level> First_Order, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> First_Order, 5 </Max_Tech_Level>
+		
+        <!-- Vardos Space Forces -->
+	
+        <!-- Vardos Land Forces -->
+		<Starting_Forces> First_Order, Vardos, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Vardos, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Vardos, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Aargonar Space Forces -->
+	
+        <!-- Aargonar Land Forces -->
+		<Starting_Forces> First_Order, Aargonar, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Aargonar, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Aargonar, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- StygeonPrime Space Forces -->
+	
+        <!-- StygeonPrime Land Forces -->
+		<Starting_Forces> First_Order, StygeonPrime, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, StygeonPrime, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, StygeonPrime, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Abhean Space Forces -->
+	
+        <!-- Abhean Land Forces -->
+		<Starting_Forces> First_Order, Abhean, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Abhean, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Abhean, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Quell Space Forces -->
+	
+        <!-- Quell Land Forces -->
+		<Starting_Forces> First_Order, Quell, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Quell, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Quell, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Abhean Space Forces -->
+	
+        <!-- Abhean Land Forces -->
+		<Starting_Forces> First_Order, Abhean, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Abhean, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Abhean, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Axum Space Forces -->
+	
+        <!-- Axum Land Forces -->
+		<Starting_Forces> First_Order, Axum, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Axum, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Axum, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Vardos Space Forces -->
+	
+        <!-- Vardos Land Forces -->
+		<Starting_Forces> First_Order, Vardos, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Vardos, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Vardos, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Dolomar Space Forces -->
+	
+        <!-- Dolomar Land Forces -->
+		<Starting_Forces> First_Order, Dolomar, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Dolomar, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Dolomar, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Metellos Space Forces -->
+	
+        <!-- Metellos Land Forces -->
+		<Starting_Forces> First_Order, Metellos, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Metellos, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Metellos, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Pantolomin Space Forces -->
+	
+        <!-- Pantolomin Land Forces -->
+		<Starting_Forces> First_Order, Pantolomin, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Pantolomin, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Pantolomin, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Borleias Space Forces -->
+	
+        <!-- Borleias Land Forces -->
+		<Starting_Forces> First_Order, Borleias, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Borleias, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Borleias, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Bilbringi Space Forces -->
+	
+        <!-- Bilbringi Land Forces -->
+		<Starting_Forces> First_Order, Bilbringi, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Bilbringi, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Bilbringi, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		
+		
+
+		
+		
+		
+
+  
+  
+  </Campaign>
+  
+  
+  
+  
+  
+  
+  
+  <Campaign Name="Sandbox_Rebellion_on_Akiva_Imperial_Remnant">
+
+		<Campaign_Set> Sandbox_Rebellion_on_Akiva </Campaign_Set>
+		<Sort_Order>22</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_REBELLION_ON_AKIVA </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_REBELLION_ON_AKIVA_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> -27.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 56.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Chandrila, Brentaal, Raltiir, Barlok, Shili, Champala, Carida, Arkania, Castell, 
+				Vardos, Dolomar, Metellos, Pantolomin, Borleias, Bilbringi, Ithor, Brakka, 
+				Corsin, Mandalore, Myrkr, Charubah, Gallinore, Hapes, Wayland, 
+				Taris, Contruum, Lantilles, Garros, Bompreil, Phindar, Belsmuth, Akiva, Yavin,
+				Skako, Caamas, Alderaan, Kuat, Humbarine, Balmorra, Dathomir, Bandomeer, 
+				Ord_Cestus, Celanon, Agamar, Polus, Ketaris, Axxila, Raydonia, Vinsoth, Binquaros,
+				Vjun, Aargonar, StygeonPrime, Abhean, Quell, BorgoPrime, Taanab, Vallusk_Cluster,
+				Nadiri, Axum
+		</Locations>
+
+        <Trade_Routes>
+			
+		</Trade_Routes>
+
+        <Home_Location> New_Republic, Chandrila </Home_Location>
+		<Home_Location> Imperial_Remnant, Akiva </Home_Location>
+		<Home_Location> Imperial_Remnant_Rax, Vjun </Home_Location>
+		<Home_Location> First_Order, Vardos </Home_Location>        
+		
+		<Starting_Active_Player> Imperial_Remnant </Starting_Active_Player>
+		
+		<Story_Name>New_Republic, 3_Era_Story\story_Rebellion_on_Akiva\Story_Rebellion_on_Akiva_New_Republic.xml </Story_Name>
+		<Story_Name>Imperial_Remnant, 3_Era_Story\story_Rebellion_on_Akiva\Story_Rebellion_on_Akiva_Imperial_Remnant.xml </Story_Name>
+		<Story_Name>Imperial_Remnant_Rax, 3_Era_Story\story_Rebellion_on_Akiva\Story_Rebellion_on_Akiva_Imperial_Remnant_Rax.xml </Story_Name>
+		<Story_Name>First_Order, 3_Era_Story\story_Rebellion_on_Akiva\Story_Rebellion_on_Akiva_First_Order.xml </Story_Name>
+		
+		<AI_Player_Control> New_Republic, BasicEmpire </AI_Player_Control>
+        <AI_Player_Control> Imperial_Remnant_Rax, BasicEmpire </AI_Player_Control>
+        <AI_Player_Control> First_Order, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>New_Republic, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Imperial_Remnant, DefaultGalacticHints </Markup_Filename>
+        <Markup_Filename>Imperial_Remnant_Rax, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>First_Order, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		<!-- New_Republic Starting Forces -->
+
+		<Starting_Credits> New_Republic,  10000 </Starting_Credits>
+		<Starting_Tech_Level> New_Republic, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> New_Republic, 5 </Max_Tech_Level>
+		
+        <!-- Chandrila Space Forces -->
+	
+        <!-- Chandrila Land Forces -->
+		<Starting_Forces> New_Republic, Chandrila, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Chandrila, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Chandrila, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Brentaal Space Forces -->
+	
+        <!-- Brentaal Land Forces -->
+		<Starting_Forces> New_Republic, Brentaal, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Brentaal, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Brentaal, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Raltiir Space Forces -->
+	
+        <!-- Raltiir Land Forces -->
+		<Starting_Forces> New_Republic, Raltiir, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Raltiir, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Raltiir, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Barlok Space Forces -->
+	
+        <!-- Barlok Land Forces -->
+		<Starting_Forces> New_Republic, Barlok, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Barlok, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Barlok, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Shili Space Forces -->
+	
+        <!-- Shili Land Forces -->
+		<Starting_Forces> New_Republic, Shili, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Shili, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Shili, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Champala Space Forces -->
+	
+        <!-- Champala Land Forces -->
+		<Starting_Forces> New_Republic, Champala, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Champala, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Champala, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Carida Space Forces -->
+	
+        <!-- Carida Land Forces -->
+		<Starting_Forces> New_Republic, Carida, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Carida, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Carida, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Arkania Space Forces -->
+	
+        <!-- Arkania Land Forces -->
+		<Starting_Forces> New_Republic, Arkania, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Arkania, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Arkania, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Castell Space Forces -->
+	
+        <!-- Castell Land Forces -->
+		<Starting_Forces> New_Republic, Castell, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Castell, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Castell, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Ithor Space Forces -->
+	
+        <!-- Ithor Land Forces -->
+		<Starting_Forces> New_Republic, Ithor, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Ithor, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Ithor, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Brakka Space Forces -->
+	
+        <!-- Brakka Land Forces -->
+		<Starting_Forces> New_Republic, Brakka, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Brakka, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Brakka, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Yavin Space Forces -->
+	
+        <!-- Yavin Land Forces -->
+		<Starting_Forces> New_Republic, Yavin, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Yavin, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Yavin, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Skako Space Forces -->
+	
+        <!-- Skako Land Forces -->
+		<Starting_Forces> New_Republic, Skako, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Skako, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Skako, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Caamas Space Forces -->
+	
+        <!-- Caamas Land Forces -->
+		<Starting_Forces> New_Republic, Caamas, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Caamas, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Caamas, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Alderaan Space Forces -->
+	
+        <!-- Alderaan Land Forces -->
+		<Starting_Forces> New_Republic, Alderaan, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Alderaan, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Alderaan, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Kuat Space Forces -->
+	
+        <!-- Kuat Land Forces -->
+		<Starting_Forces> New_Republic, Kuat, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Kuat, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Kuat, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Humbarine Space Forces -->
+	
+        <!-- Humbarine Land Forces -->
+		<Starting_Forces> New_Republic, Humbarine, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Humbarine, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Humbarine, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Balmorra Space Forces -->
+	
+        <!-- Balmorra Land Forces -->
+		<Starting_Forces> New_Republic, Balmorra, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Balmorra, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Balmorra, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Nadiri Space Forces -->
+	
+        <!-- Nadiri Land Forces -->
+		<Starting_Forces> New_Republic, Nadiri, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Nadiri, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Nadiri, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		
+		
+		
+		<!-- Imperial_Remnant Starting Forces -->
+
+		<Starting_Credits> Imperial_Remnant,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Imperial_Remnant, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Imperial_Remnant, 5 </Max_Tech_Level>
+                                                     
+        <!-- Akiva Space Forces -->
+
+        <!-- Akiva Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Akiva, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Akiva, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Akiva, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Corsin Space Forces -->
+
+        <!-- Corsin Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Corsin, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Corsin, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Corsin, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Mandalore Space Forces -->
+
+        <!-- Mandalore Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Mandalore, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Mandalore, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Mandalore, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Myrkr Space Forces -->
+
+        <!-- Myrkr Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Myrkr, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Myrkr, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Myrkr, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Wayland Space Forces -->
+
+        <!-- Wayland Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Mandalore, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Mandalore, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Mandalore, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Wayland Space Forces -->
+
+        <!-- Wayland Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Wayland, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Wayland, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Wayland, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Gallinore Space Forces -->
+
+        <!-- Gallinore Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Gallinore, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Gallinore, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Gallinore, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Charubah Space Forces -->
+
+        <!-- Charubah Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Charubah, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Charubah, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Charubah, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Hapes Space Forces -->
+
+        <!-- Hapes Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Hapes, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Hapes, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Hapes, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Taris Space Forces -->
+
+        <!-- Taris Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Taris, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Taris, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Taris, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Contruum Space Forces -->
+
+        <!-- Contruum Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Contruum, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Contruum, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Contruum, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Lantilles Space Forces -->
+
+        <!-- Lantilles Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Lantilles, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Lantilles, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Lantilles, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Garros Space Forces -->
+
+        <!-- Garros Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Garros, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Garros, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Garros, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Bompreil Space Forces -->
+
+        <!-- Bompreil Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Bompreil, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Bompreil, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Bompreil, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Phindar Space Forces -->
+
+        <!-- Phindar Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Phindar, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Phindar, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Phindar, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Belsmuth Space Forces -->
+
+        <!-- Belsmuth Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Belsmuth, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Belsmuth, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Belsmuth, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Taanab Space Forces -->
+
+        <!-- Taanab Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Taanab, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Taanab, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Taanab, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		
+		
+		
+		
+		
+		
+		<!-- Imperial_Remnant_Rax Starting Forces -->
+
+		<Starting_Credits> Imperial_Remnant_Rax,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Imperial_Remnant_Rax, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Imperial_Remnant_Rax, 5 </Max_Tech_Level>
+		
+        <!-- Vjun Space Forces -->
+	
+        <!-- Vjun Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Vjun, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Vjun, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Vjun, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Vallusk_Cluster Space Forces -->
+	
+        <!-- Vallusk_Cluster Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Vallusk_Cluster, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Vallusk_Cluster, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Vallusk_Cluster, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Dathomir Space Forces -->
+	
+        <!-- Dathomir Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Dathomir, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Dathomir, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Dathomir, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Bandomeer Space Forces -->
+	
+        <!-- Bandomeer Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Bandomeer, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Bandomeer, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Bandomeer, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Ord_Cestus Space Forces -->
+	
+        <!-- Ord_Cestus Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Ord_Cestus, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Ord_Cestus, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Ord_Cestus, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Axxila Space Forces -->
+	
+        <!-- Axxila Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Axxila, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Axxila, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Axxila, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Celanon Space Forces -->
+	
+        <!-- Celanon Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Celanon, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Celanon, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Celanon, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Agamar Space Forces -->
+	
+        <!-- Agamar Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Agamar, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Agamar, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Agamar, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Polus Space Forces -->
+	
+        <!-- Polus Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Polus, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Polus, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Polus, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Ketaris Space Forces -->
+	
+        <!-- Ketaris Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Ketaris, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Ketaris, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Ketaris, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Raydonia Space Forces -->
+	
+        <!-- Raydonia Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Raydonia, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Raydonia, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Raydonia, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Vinsoth Space Forces -->
+	
+        <!-- Vinsoth Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Vinsoth, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Vinsoth, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Vinsoth, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Binquaros Space Forces -->
+	
+        <!-- Binquaros Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Binquaros, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Binquaros, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Binquaros, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- BorgoPrime Space Forces -->
+	
+        <!-- BorgoPrime Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, BorgoPrime, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, BorgoPrime, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, BorgoPrime, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		<!-- First_Order Starting Forces -->
+
+		<Starting_Credits> First_Order,  10000 </Starting_Credits>
+		<Starting_Tech_Level> First_Order, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> First_Order, 5 </Max_Tech_Level>
+		
+        <!-- Vardos Space Forces -->
+	
+        <!-- Vardos Land Forces -->
+		<Starting_Forces> First_Order, Vardos, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Vardos, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Vardos, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Aargonar Space Forces -->
+	
+        <!-- Aargonar Land Forces -->
+		<Starting_Forces> First_Order, Aargonar, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Aargonar, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Aargonar, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- StygeonPrime Space Forces -->
+	
+        <!-- StygeonPrime Land Forces -->
+		<Starting_Forces> First_Order, StygeonPrime, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, StygeonPrime, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, StygeonPrime, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Abhean Space Forces -->
+	
+        <!-- Abhean Land Forces -->
+		<Starting_Forces> First_Order, Abhean, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Abhean, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Abhean, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Quell Space Forces -->
+	
+        <!-- Quell Land Forces -->
+		<Starting_Forces> First_Order, Quell, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Quell, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Quell, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Abhean Space Forces -->
+	
+        <!-- Abhean Land Forces -->
+		<Starting_Forces> First_Order, Abhean, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Abhean, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Abhean, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Axum Space Forces -->
+	
+        <!-- Axum Land Forces -->
+		<Starting_Forces> First_Order, Axum, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Axum, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Axum, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Vardos Space Forces -->
+	
+        <!-- Vardos Land Forces -->
+		<Starting_Forces> First_Order, Vardos, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Vardos, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Vardos, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Dolomar Space Forces -->
+	
+        <!-- Dolomar Land Forces -->
+		<Starting_Forces> First_Order, Dolomar, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Dolomar, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Dolomar, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Metellos Space Forces -->
+	
+        <!-- Metellos Land Forces -->
+		<Starting_Forces> First_Order, Metellos, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Metellos, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Metellos, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Pantolomin Space Forces -->
+	
+        <!-- Pantolomin Land Forces -->
+		<Starting_Forces> First_Order, Pantolomin, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Pantolomin, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Pantolomin, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Borleias Space Forces -->
+	
+        <!-- Borleias Land Forces -->
+		<Starting_Forces> First_Order, Borleias, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Borleias, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Borleias, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Bilbringi Space Forces -->
+	
+        <!-- Bilbringi Land Forces -->
+		<Starting_Forces> First_Order, Bilbringi, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Bilbringi, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Bilbringi, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		
+		
+
+		
+		
+		
+
+  
+  
+  </Campaign>
+  
+  
+  
+  
+  
+  
+  
+  
+  <Campaign Name="Sandbox_Rebellion_on_Akiva_Imperial_Remnant_Rax">
+
+		<Campaign_Set> Sandbox_Rebellion_on_Akiva </Campaign_Set>
+		<Sort_Order>22</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_REBELLION_ON_AKIVA </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_REBELLION_ON_AKIVA_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> -27.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 56.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Chandrila, Brentaal, Raltiir, Barlok, Shili, Champala, Carida, Arkania, Castell, 
+				Vardos, Dolomar, Metellos, Pantolomin, Borleias, Bilbringi, Ithor, Brakka, 
+				Corsin, Mandalore, Myrkr, Charubah, Gallinore, Hapes, Wayland, 
+				Taris, Contruum, Lantilles, Garros, Bompreil, Phindar, Belsmuth, Akiva, Yavin,
+				Skako, Caamas, Alderaan, Kuat, Humbarine, Balmorra, Dathomir, Bandomeer, 
+				Ord_Cestus, Celanon, Agamar, Polus, Ketaris, Axxila, Raydonia, Vinsoth, Binquaros,
+				Vjun, Aargonar, StygeonPrime, Abhean, Quell, BorgoPrime, Taanab, Vallusk_Cluster,
+				Nadiri, Axum
+		</Locations>
+
+        <Trade_Routes>
+			
+		</Trade_Routes>
+
+        <Home_Location> New_Republic, Chandrila </Home_Location>
+		<Home_Location> Imperial_Remnant, Akiva </Home_Location>
+		<Home_Location> Imperial_Remnant_Rax, Vjun </Home_Location>
+		<Home_Location> First_Order, Vardos </Home_Location>        
+		
+		<Starting_Active_Player> Imperial_Remnant_Rax </Starting_Active_Player>
+		
+		<Story_Name>New_Republic, 3_Era_Story\story_Rebellion_on_Akiva\Story_Rebellion_on_Akiva_New_Republic.xml </Story_Name>
+		<Story_Name>Imperial_Remnant, 3_Era_Story\story_Rebellion_on_Akiva\Story_Rebellion_on_Akiva_Imperial_Remnant.xml </Story_Name>
+		<Story_Name>Imperial_Remnant_Rax, 3_Era_Story\story_Rebellion_on_Akiva\Story_Rebellion_on_Akiva_Imperial_Remnant_Rax.xml </Story_Name>
+		<Story_Name>First_Order, 3_Era_Story\story_Rebellion_on_Akiva\Story_Rebellion_on_Akiva_First_Order.xml </Story_Name>
+		
+		<AI_Player_Control> New_Republic, BasicEmpire </AI_Player_Control>
+        <AI_Player_Control> Imperial_Remnant, BasicEmpire </AI_Player_Control>
+        <AI_Player_Control> First_Order, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>New_Republic, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Imperial_Remnant, DefaultGalacticHints </Markup_Filename>
+        <Markup_Filename>Imperial_Remnant_Rax, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>First_Order, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		<!-- New_Republic Starting Forces -->
+
+		<Starting_Credits> New_Republic,  10000 </Starting_Credits>
+		<Starting_Tech_Level> New_Republic, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> New_Republic, 5 </Max_Tech_Level>
+		
+        <!-- Chandrila Space Forces -->
+	
+        <!-- Chandrila Land Forces -->
+		<Starting_Forces> New_Republic, Chandrila, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Chandrila, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Chandrila, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Brentaal Space Forces -->
+	
+        <!-- Brentaal Land Forces -->
+		<Starting_Forces> New_Republic, Brentaal, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Brentaal, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Brentaal, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Raltiir Space Forces -->
+	
+        <!-- Raltiir Land Forces -->
+		<Starting_Forces> New_Republic, Raltiir, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Raltiir, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Raltiir, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Barlok Space Forces -->
+	
+        <!-- Barlok Land Forces -->
+		<Starting_Forces> New_Republic, Barlok, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Barlok, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Barlok, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Shili Space Forces -->
+	
+        <!-- Shili Land Forces -->
+		<Starting_Forces> New_Republic, Shili, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Shili, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Shili, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Champala Space Forces -->
+	
+        <!-- Champala Land Forces -->
+		<Starting_Forces> New_Republic, Champala, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Champala, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Champala, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Carida Space Forces -->
+	
+        <!-- Carida Land Forces -->
+		<Starting_Forces> New_Republic, Carida, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Carida, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Carida, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Arkania Space Forces -->
+	
+        <!-- Arkania Land Forces -->
+		<Starting_Forces> New_Republic, Arkania, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Arkania, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Arkania, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Castell Space Forces -->
+	
+        <!-- Castell Land Forces -->
+		<Starting_Forces> New_Republic, Castell, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Castell, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Castell, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Ithor Space Forces -->
+	
+        <!-- Ithor Land Forces -->
+		<Starting_Forces> New_Republic, Ithor, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Ithor, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Ithor, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Brakka Space Forces -->
+	
+        <!-- Brakka Land Forces -->
+		<Starting_Forces> New_Republic, Brakka, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Brakka, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Brakka, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Yavin Space Forces -->
+	
+        <!-- Yavin Land Forces -->
+		<Starting_Forces> New_Republic, Yavin, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Yavin, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Yavin, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Skako Space Forces -->
+	
+        <!-- Skako Land Forces -->
+		<Starting_Forces> New_Republic, Skako, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Skako, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Skako, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Caamas Space Forces -->
+	
+        <!-- Caamas Land Forces -->
+		<Starting_Forces> New_Republic, Caamas, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Caamas, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Caamas, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Alderaan Space Forces -->
+	
+        <!-- Alderaan Land Forces -->
+		<Starting_Forces> New_Republic, Alderaan, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Alderaan, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Alderaan, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Kuat Space Forces -->
+	
+        <!-- Kuat Land Forces -->
+		<Starting_Forces> New_Republic, Kuat, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Kuat, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Kuat, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Humbarine Space Forces -->
+	
+        <!-- Humbarine Land Forces -->
+		<Starting_Forces> New_Republic, Humbarine, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Humbarine, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Humbarine, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Balmorra Space Forces -->
+	
+        <!-- Balmorra Land Forces -->
+		<Starting_Forces> New_Republic, Balmorra, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Balmorra, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Balmorra, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Nadiri Space Forces -->
+	
+        <!-- Nadiri Land Forces -->
+		<Starting_Forces> New_Republic, Nadiri, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Nadiri, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Nadiri, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		
+		
+		
+		<!-- Imperial_Remnant Starting Forces -->
+
+		<Starting_Credits> Imperial_Remnant,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Imperial_Remnant, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Imperial_Remnant, 5 </Max_Tech_Level>
+                                                     
+        <!-- Akiva Space Forces -->
+
+        <!-- Akiva Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Akiva, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Akiva, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Akiva, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Corsin Space Forces -->
+
+        <!-- Corsin Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Corsin, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Corsin, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Corsin, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Mandalore Space Forces -->
+
+        <!-- Mandalore Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Mandalore, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Mandalore, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Mandalore, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Myrkr Space Forces -->
+
+        <!-- Myrkr Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Myrkr, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Myrkr, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Myrkr, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Wayland Space Forces -->
+
+        <!-- Wayland Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Mandalore, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Mandalore, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Mandalore, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Wayland Space Forces -->
+
+        <!-- Wayland Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Wayland, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Wayland, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Wayland, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Gallinore Space Forces -->
+
+        <!-- Gallinore Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Gallinore, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Gallinore, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Gallinore, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Charubah Space Forces -->
+
+        <!-- Charubah Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Charubah, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Charubah, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Charubah, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Hapes Space Forces -->
+
+        <!-- Hapes Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Hapes, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Hapes, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Hapes, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Taris Space Forces -->
+
+        <!-- Taris Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Taris, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Taris, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Taris, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Contruum Space Forces -->
+
+        <!-- Contruum Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Contruum, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Contruum, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Contruum, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Lantilles Space Forces -->
+
+        <!-- Lantilles Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Lantilles, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Lantilles, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Lantilles, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Garros Space Forces -->
+
+        <!-- Garros Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Garros, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Garros, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Garros, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Bompreil Space Forces -->
+
+        <!-- Bompreil Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Bompreil, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Bompreil, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Bompreil, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Phindar Space Forces -->
+
+        <!-- Phindar Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Phindar, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Phindar, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Phindar, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Belsmuth Space Forces -->
+
+        <!-- Belsmuth Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Belsmuth, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Belsmuth, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Belsmuth, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Taanab Space Forces -->
+
+        <!-- Taanab Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Taanab, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Taanab, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Taanab, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		
+		
+		
+		
+		
+		
+		<!-- Imperial_Remnant_Rax Starting Forces -->
+
+		<Starting_Credits> Imperial_Remnant_Rax,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Imperial_Remnant_Rax, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Imperial_Remnant_Rax, 5 </Max_Tech_Level>
+		
+        <!-- Vjun Space Forces -->
+	
+        <!-- Vjun Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Vjun, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Vjun, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Vjun, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Vallusk_Cluster Space Forces -->
+	
+        <!-- Vallusk_Cluster Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Vallusk_Cluster, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Vallusk_Cluster, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Vallusk_Cluster, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Dathomir Space Forces -->
+	
+        <!-- Dathomir Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Dathomir, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Dathomir, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Dathomir, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Bandomeer Space Forces -->
+	
+        <!-- Bandomeer Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Bandomeer, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Bandomeer, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Bandomeer, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Ord_Cestus Space Forces -->
+	
+        <!-- Ord_Cestus Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Ord_Cestus, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Ord_Cestus, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Ord_Cestus, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Axxila Space Forces -->
+	
+        <!-- Axxila Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Axxila, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Axxila, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Axxila, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Celanon Space Forces -->
+	
+        <!-- Celanon Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Celanon, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Celanon, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Celanon, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Agamar Space Forces -->
+	
+        <!-- Agamar Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Agamar, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Agamar, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Agamar, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Polus Space Forces -->
+	
+        <!-- Polus Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Polus, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Polus, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Polus, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Ketaris Space Forces -->
+	
+        <!-- Ketaris Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Ketaris, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Ketaris, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Ketaris, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Raydonia Space Forces -->
+	
+        <!-- Raydonia Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Raydonia, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Raydonia, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Raydonia, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Vinsoth Space Forces -->
+	
+        <!-- Vinsoth Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Vinsoth, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Vinsoth, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Vinsoth, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Binquaros Space Forces -->
+	
+        <!-- Binquaros Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Binquaros, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Binquaros, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Binquaros, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- BorgoPrime Space Forces -->
+	
+        <!-- BorgoPrime Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, BorgoPrime, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, BorgoPrime, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, BorgoPrime, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		<!-- First_Order Starting Forces -->
+
+		<Starting_Credits> First_Order,  10000 </Starting_Credits>
+		<Starting_Tech_Level> First_Order, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> First_Order, 5 </Max_Tech_Level>
+		
+        <!-- Vardos Space Forces -->
+	
+        <!-- Vardos Land Forces -->
+		<Starting_Forces> First_Order, Vardos, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Vardos, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Vardos, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Aargonar Space Forces -->
+	
+        <!-- Aargonar Land Forces -->
+		<Starting_Forces> First_Order, Aargonar, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Aargonar, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Aargonar, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- StygeonPrime Space Forces -->
+	
+        <!-- StygeonPrime Land Forces -->
+		<Starting_Forces> First_Order, StygeonPrime, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, StygeonPrime, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, StygeonPrime, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Abhean Space Forces -->
+	
+        <!-- Abhean Land Forces -->
+		<Starting_Forces> First_Order, Abhean, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Abhean, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Abhean, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Quell Space Forces -->
+	
+        <!-- Quell Land Forces -->
+		<Starting_Forces> First_Order, Quell, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Quell, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Quell, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Abhean Space Forces -->
+	
+        <!-- Abhean Land Forces -->
+		<Starting_Forces> First_Order, Abhean, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Abhean, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Abhean, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Axum Space Forces -->
+	
+        <!-- Axum Land Forces -->
+		<Starting_Forces> First_Order, Axum, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Axum, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Axum, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Vardos Space Forces -->
+	
+        <!-- Vardos Land Forces -->
+		<Starting_Forces> First_Order, Vardos, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Vardos, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Vardos, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Dolomar Space Forces -->
+	
+        <!-- Dolomar Land Forces -->
+		<Starting_Forces> First_Order, Dolomar, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Dolomar, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Dolomar, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Metellos Space Forces -->
+	
+        <!-- Metellos Land Forces -->
+		<Starting_Forces> First_Order, Metellos, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Metellos, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Metellos, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Pantolomin Space Forces -->
+	
+        <!-- Pantolomin Land Forces -->
+		<Starting_Forces> First_Order, Pantolomin, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Pantolomin, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Pantolomin, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Borleias Space Forces -->
+	
+        <!-- Borleias Land Forces -->
+		<Starting_Forces> First_Order, Borleias, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Borleias, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Borleias, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Bilbringi Space Forces -->
+	
+        <!-- Bilbringi Land Forces -->
+		<Starting_Forces> First_Order, Bilbringi, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Bilbringi, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Bilbringi, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		
+		
+
+		
+		
+		
+
+  
+  
+  </Campaign>
+  
+  
+  
+  
+  
+  
+  
+  <Campaign Name="Sandbox_Rebellion_on_Akiva_First_Order">
+
+		<Campaign_Set> Sandbox_Rebellion_on_Akiva </Campaign_Set>
+		<Sort_Order>22</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_REBELLION_ON_AKIVA </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_REBELLION_ON_AKIVA_DESCRIPTION </Description_Text>
+
+        <Camera_Shift_X> -27.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 56.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Chandrila, Brentaal, Raltiir, Barlok, Shili, Champala, Carida, Arkania, Castell, 
+				Vardos, Dolomar, Metellos, Pantolomin, Borleias, Bilbringi, Ithor, Brakka, 
+				Corsin, Mandalore, Myrkr, Charubah, Gallinore, Hapes, Wayland, 
+				Taris, Contruum, Lantilles, Garros, Bompreil, Phindar, Belsmuth, Akiva, Yavin,
+				Skako, Caamas, Alderaan, Kuat, Humbarine, Balmorra, Dathomir, Bandomeer, 
+				Ord_Cestus, Celanon, Agamar, Polus, Ketaris, Axxila, Raydonia, Vinsoth, Binquaros,
+				Vjun, Aargonar, StygeonPrime, Abhean, Quell, BorgoPrime, Taanab, Vallusk_Cluster,
+				Nadiri, Axum
+		</Locations>
+
+        <Trade_Routes>
+			
+		</Trade_Routes>
+
+        <Home_Location> New_Republic, Chandrila </Home_Location>
+		<Home_Location> Imperial_Remnant, Akiva </Home_Location>
+		<Home_Location> Imperial_Remnant_Rax, Vjun </Home_Location>
+		<Home_Location> First_Order, Vardos </Home_Location>        
+		
+		<Starting_Active_Player> First_Order </Starting_Active_Player>
+		
+		<Story_Name>New_Republic, 3_Era_Story\story_Rebellion_on_Akiva\Story_Rebellion_on_Akiva_New_Republic.xml </Story_Name>
+		<Story_Name>Imperial_Remnant, 3_Era_Story\story_Rebellion_on_Akiva\Story_Rebellion_on_Akiva_Imperial_Remnant.xml </Story_Name>
+		<Story_Name>Imperial_Remnant_Rax, 3_Era_Story\story_Rebellion_on_Akiva\Story_Rebellion_on_Akiva_Imperial_Remnant_Rax.xml </Story_Name>
+		<Story_Name>First_Order, 3_Era_Story\story_Rebellion_on_Akiva\Story_Rebellion_on_Akiva_First_Order.xml </Story_Name>
+		
+		<AI_Player_Control> New_Republic, BasicEmpire </AI_Player_Control>
+        <AI_Player_Control> Imperial_Remnant, BasicEmpire </AI_Player_Control>
+        <AI_Player_Control> Imperial_Remnant_Rax, BasicEmpire </AI_Player_Control>
+		
+		<Markup_Filename>New_Republic, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Imperial_Remnant, DefaultGalacticHints </Markup_Filename>
+        <Markup_Filename>Imperial_Remnant_Rax, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>First_Order, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		
+		<!-- New_Republic Starting Forces -->
+
+		<Starting_Credits> New_Republic,  10000 </Starting_Credits>
+		<Starting_Tech_Level> New_Republic, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> New_Republic, 5 </Max_Tech_Level>
+		
+        <!-- Chandrila Space Forces -->
+	
+        <!-- Chandrila Land Forces -->
+		<Starting_Forces> New_Republic, Chandrila, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Chandrila, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Chandrila, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Brentaal Space Forces -->
+	
+        <!-- Brentaal Land Forces -->
+		<Starting_Forces> New_Republic, Brentaal, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Brentaal, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Brentaal, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Raltiir Space Forces -->
+	
+        <!-- Raltiir Land Forces -->
+		<Starting_Forces> New_Republic, Raltiir, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Raltiir, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Raltiir, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Barlok Space Forces -->
+	
+        <!-- Barlok Land Forces -->
+		<Starting_Forces> New_Republic, Barlok, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Barlok, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Barlok, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Shili Space Forces -->
+	
+        <!-- Shili Land Forces -->
+		<Starting_Forces> New_Republic, Shili, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Shili, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Shili, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Champala Space Forces -->
+	
+        <!-- Champala Land Forces -->
+		<Starting_Forces> New_Republic, Champala, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Champala, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Champala, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Carida Space Forces -->
+	
+        <!-- Carida Land Forces -->
+		<Starting_Forces> New_Republic, Carida, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Carida, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Carida, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Arkania Space Forces -->
+	
+        <!-- Arkania Land Forces -->
+		<Starting_Forces> New_Republic, Arkania, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Arkania, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Arkania, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Castell Space Forces -->
+	
+        <!-- Castell Land Forces -->
+		<Starting_Forces> New_Republic, Castell, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Castell, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Castell, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Ithor Space Forces -->
+	
+        <!-- Ithor Land Forces -->
+		<Starting_Forces> New_Republic, Ithor, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Ithor, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Ithor, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Brakka Space Forces -->
+	
+        <!-- Brakka Land Forces -->
+		<Starting_Forces> New_Republic, Brakka, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Brakka, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Brakka, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Yavin Space Forces -->
+	
+        <!-- Yavin Land Forces -->
+		<Starting_Forces> New_Republic, Yavin, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Yavin, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Yavin, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Skako Space Forces -->
+	
+        <!-- Skako Land Forces -->
+		<Starting_Forces> New_Republic, Skako, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Skako, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Skako, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Caamas Space Forces -->
+	
+        <!-- Caamas Land Forces -->
+		<Starting_Forces> New_Republic, Caamas, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Caamas, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Caamas, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Alderaan Space Forces -->
+	
+        <!-- Alderaan Land Forces -->
+		<Starting_Forces> New_Republic, Alderaan, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Alderaan, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Alderaan, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Kuat Space Forces -->
+	
+        <!-- Kuat Land Forces -->
+		<Starting_Forces> New_Republic, Kuat, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Kuat, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Kuat, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Humbarine Space Forces -->
+	
+        <!-- Humbarine Land Forces -->
+		<Starting_Forces> New_Republic, Humbarine, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Humbarine, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Humbarine, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Balmorra Space Forces -->
+	
+        <!-- Balmorra Land Forces -->
+		<Starting_Forces> New_Republic, Balmorra, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Balmorra, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Balmorra, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		<!-- Nadiri Space Forces -->
+	
+        <!-- Nadiri Land Forces -->
+		<Starting_Forces> New_Republic, Nadiri, New_Republic_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> New_Republic, Nadiri, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		<Starting_Forces> New_Republic, Nadiri, New_Republic_Guard_Trooper_Squad </Starting_Forces>
+		
+		
+		
+		
+		<!-- Imperial_Remnant Starting Forces -->
+
+		<Starting_Credits> Imperial_Remnant,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Imperial_Remnant, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Imperial_Remnant, 5 </Max_Tech_Level>
+                                                     
+        <!-- Akiva Space Forces -->
+
+        <!-- Akiva Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Akiva, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Akiva, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Akiva, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Corsin Space Forces -->
+
+        <!-- Corsin Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Corsin, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Corsin, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Corsin, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Mandalore Space Forces -->
+
+        <!-- Mandalore Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Mandalore, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Mandalore, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Mandalore, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Myrkr Space Forces -->
+
+        <!-- Myrkr Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Myrkr, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Myrkr, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Myrkr, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Wayland Space Forces -->
+
+        <!-- Wayland Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Mandalore, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Mandalore, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Mandalore, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Wayland Space Forces -->
+
+        <!-- Wayland Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Wayland, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Wayland, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Wayland, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Gallinore Space Forces -->
+
+        <!-- Gallinore Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Gallinore, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Gallinore, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Gallinore, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Charubah Space Forces -->
+
+        <!-- Charubah Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Charubah, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Charubah, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Charubah, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Hapes Space Forces -->
+
+        <!-- Hapes Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Hapes, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Hapes, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Hapes, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Taris Space Forces -->
+
+        <!-- Taris Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Taris, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Taris, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Taris, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Contruum Space Forces -->
+
+        <!-- Contruum Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Contruum, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Contruum, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Contruum, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Lantilles Space Forces -->
+
+        <!-- Lantilles Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Lantilles, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Lantilles, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Lantilles, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Garros Space Forces -->
+
+        <!-- Garros Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Garros, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Garros, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Garros, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Bompreil Space Forces -->
+
+        <!-- Bompreil Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Bompreil, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Bompreil, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Bompreil, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Phindar Space Forces -->
+
+        <!-- Phindar Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Phindar, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Phindar, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Phindar, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Belsmuth Space Forces -->
+
+        <!-- Belsmuth Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Belsmuth, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Belsmuth, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Belsmuth, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		<!-- Taanab Space Forces -->
+
+        <!-- Taanab Land Forces -->
+		<Starting_Forces> Imperial_Remnant, Taanab, Imperial_Remnant_Ground_Barracks  </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Taanab, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant, Taanab, Imperial_Remnant_Ground_Barracks </Starting_Forces>
+		
+		
+		
+		
+		
+		
+		
+		<!-- Imperial_Remnant_Rax Starting Forces -->
+
+		<Starting_Credits> Imperial_Remnant_Rax,  10000 </Starting_Credits>
+		<Starting_Tech_Level> Imperial_Remnant_Rax, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Imperial_Remnant_Rax, 5 </Max_Tech_Level>
+		
+        <!-- Vjun Space Forces -->
+	
+        <!-- Vjun Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Vjun, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Vjun, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Vjun, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Vallusk_Cluster Space Forces -->
+	
+        <!-- Vallusk_Cluster Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Vallusk_Cluster, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Vallusk_Cluster, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Vallusk_Cluster, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Dathomir Space Forces -->
+	
+        <!-- Dathomir Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Dathomir, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Dathomir, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Dathomir, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Bandomeer Space Forces -->
+	
+        <!-- Bandomeer Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Bandomeer, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Bandomeer, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Bandomeer, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Ord_Cestus Space Forces -->
+	
+        <!-- Ord_Cestus Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Ord_Cestus, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Ord_Cestus, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Ord_Cestus, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Axxila Space Forces -->
+	
+        <!-- Axxila Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Axxila, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Axxila, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Axxila, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Celanon Space Forces -->
+	
+        <!-- Celanon Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Celanon, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Celanon, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Celanon, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Agamar Space Forces -->
+	
+        <!-- Agamar Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Agamar, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Agamar, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Agamar, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Polus Space Forces -->
+	
+        <!-- Polus Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Polus, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Polus, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Polus, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Ketaris Space Forces -->
+	
+        <!-- Ketaris Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Ketaris, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Ketaris, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Ketaris, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Raydonia Space Forces -->
+	
+        <!-- Raydonia Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Raydonia, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Raydonia, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Raydonia, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Vinsoth Space Forces -->
+	
+        <!-- Vinsoth Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Vinsoth, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Vinsoth, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Vinsoth, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Binquaros Space Forces -->
+	
+        <!-- Binquaros Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, Binquaros, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Binquaros, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, Binquaros, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- BorgoPrime Space Forces -->
+	
+        <!-- BorgoPrime Land Forces -->
+		<Starting_Forces> Imperial_Remnant_Rax, BorgoPrime, Remnant_Rax_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, BorgoPrime, Rax_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Imperial_Remnant_Rax, BorgoPrime, Rax_Stormtrooper_Squad </Starting_Forces>
+		
+		
+		
+		
+		
+		<!-- First_Order Starting Forces -->
+
+		<Starting_Credits> First_Order,  10000 </Starting_Credits>
+		<Starting_Tech_Level> First_Order, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> First_Order, 5 </Max_Tech_Level>
+		
+        <!-- Vardos Space Forces -->
+	
+        <!-- Vardos Land Forces -->
+		<Starting_Forces> First_Order, Vardos, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Vardos, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Vardos, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Aargonar Space Forces -->
+	
+        <!-- Aargonar Land Forces -->
+		<Starting_Forces> First_Order, Aargonar, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Aargonar, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Aargonar, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- StygeonPrime Space Forces -->
+	
+        <!-- StygeonPrime Land Forces -->
+		<Starting_Forces> First_Order, StygeonPrime, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, StygeonPrime, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, StygeonPrime, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Abhean Space Forces -->
+	
+        <!-- Abhean Land Forces -->
+		<Starting_Forces> First_Order, Abhean, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Abhean, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Abhean, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Quell Space Forces -->
+	
+        <!-- Quell Land Forces -->
+		<Starting_Forces> First_Order, Quell, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Quell, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Quell, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Abhean Space Forces -->
+	
+        <!-- Abhean Land Forces -->
+		<Starting_Forces> First_Order, Abhean, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Abhean, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Abhean, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Axum Space Forces -->
+	
+        <!-- Axum Land Forces -->
+		<Starting_Forces> First_Order, Axum, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Axum, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Axum, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Vardos Space Forces -->
+	
+        <!-- Vardos Land Forces -->
+		<Starting_Forces> First_Order, Vardos, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Vardos, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Vardos, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Dolomar Space Forces -->
+	
+        <!-- Dolomar Land Forces -->
+		<Starting_Forces> First_Order, Dolomar, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Dolomar, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Dolomar, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Metellos Space Forces -->
+	
+        <!-- Metellos Land Forces -->
+		<Starting_Forces> First_Order, Metellos, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Metellos, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Metellos, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Pantolomin Space Forces -->
+	
+        <!-- Pantolomin Land Forces -->
+		<Starting_Forces> First_Order, Pantolomin, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Pantolomin, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Pantolomin, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Borleias Space Forces -->
+	
+        <!-- Borleias Land Forces -->
+		<Starting_Forces> First_Order, Borleias, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Borleias, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Borleias, First_Order_Stormtrooper_Squad </Starting_Forces>
+		
+		<!-- Bilbringi Space Forces -->
+	
+        <!-- Bilbringi Land Forces -->
+		<Starting_Forces> First_Order, Bilbringi, First_Order_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> First_Order, Bilbringi, First_Order_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> First_Order, Bilbringi, First_Order_Stormtrooper_Squad </Starting_Forces>
 		
 		
 		

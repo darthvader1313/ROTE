@@ -159,6 +159,34 @@
 	<File>Starbases_Factions\Starbases_First_Order.xml</File>
 	<File>Starbases_Factions\Starbases_Imperial_Remnant_Thrawn.xml</File>
 	<File>Starbases_Factions\Starbases_Imperial_Remnant.xml</File>
+	
+	<!-- First Era -->
+	<File>Research_Upgrades\Research_Upgrades_Early_Empire.xml</File>
+	<File>Research_Upgrades\Research_Upgradess_Terrorists.xml</File>
+	<File>Research_Upgrades\Research_Upgrades_CIS_Remnant.xml</File>
+	<File>Research_Upgrades\Research_Upgrades_Trade_Federation.xml</File>
+	<File>Research_Upgrades\Research_Upgrades_Commerce_Guild.xml</File>
+	<File>Research_Upgrades\Research_Upgrades_Techno_Union.xml</File>
+	<File>Research_Upgrades\Research_Upgrades_Banking_Clan.xml</File>
+	<File>Research_Upgrades\Research_Upgrades_Mandalorians.xml</File>
+	<!-- Second Era -->
+	<File>Research_Upgrades\Research_Upgrades_Galactic_Empire.xml</File>
+	<File>Research_Upgrades\Research_Upgrades_Rebel_Alliance.xml</File>
+	<File>Research_Upgrades\Research_Upgrades_Pyke_Syndicate.xml</File>
+	<File>Research_Upgrades\Research_Upgrades_Corporate_Sector.xml</File>
+	<File>Research_Upgrades\Research_Upgrades_Hapan_Consortium.xml</File>
+	<File>Research_Upgrades\Research_Upgrades_Crimson_Dawn.xml</File>
+	<File>Research_Upgrades\Research_Upgrades_Black_Sun.xml</File>
+	<File>Research_Upgrades\Research_Upgrades_Hutt_Cartel.xml</File>
+	<!-- Third Era -->
+	<File>Research_Upgrades\Research_Upgrades_New_Republic.xml</File>
+	<File>Research_Upgrades\Research_Upgrades_Imperial_Remnant_Rax.xml</File>
+	<File>Research_Upgrades\Research_Upgrades_Imperial_Remnant_Gratloe.xml</File>
+	<File>Research_Upgrades\Research_Upgrades_Imperial_Remnant_Loring.xml</File>
+	<File>Research_Upgrades\Research_Upgrades_Imperial_Remnant_Adelhard.xml</File>
+	<File>Research_Upgrades\Research_Upgrades_First_Order.xml</File>
+	<File>Research_Upgrades\Research_Upgrades_Imperial_Remnant_Thrawn.xml</File>
+	<File>Research_Upgrades\Research_Upgrades_Imperial_Remnant.xml</File>
 	<!-- Side Factions -->
 
 	<File>Squadrons.xml</File>
@@ -304,13 +332,11 @@
 	<!-- Early Empire -->
 	
 	<File>Early_Empire_units\Hero_units_Early_Empire\Units_hero_Early_Empire_Palpatine.xml</File>
+	<File>Early_Empire_units\Hero_units_Early_Empire\Units_hero_Early_Empire_Darth_Vader.xml</File>
 	
-	<File>Early_Empire_units\Space_Units_Early_Empire\Units_space_Empire_Allegiance.xml</File>
-	<File>Early_Empire_units\Space_Units_Early_Empire\Units_space_Empire_Procursator.xml</File>
 	<File>Early_Empire_units\Space_Units_Early_Empire\Units_space_Empire_Star_Destroyer.xml</File>
 	<File>Early_Empire_units\Space_Units_Early_Empire\Units_space_Empire_Star_Destroyer2.xml</File>
 	<File>Early_Empire_units\Space_Units_Early_Empire\Units_space_Empire_Tector.xml</File>
-	<File>Early_Empire_units\Space_Units_Early_Empire\Units_space_Empire_Vindicator.xml</File>
 	
 	<File>Early_Empire_units\Land_units_Early_Empire\Infantry_units_Early_Empire\Units_land_early_empire_501st.xml</File>
 	<File>Early_Empire_units\Land_units_Early_Empire\Infantry_units_Early_Empire\Units_land_early_empire_armytrooper.xml</File>

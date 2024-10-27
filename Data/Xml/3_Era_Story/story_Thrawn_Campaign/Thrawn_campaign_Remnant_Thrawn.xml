@@ -29,17 +29,6 @@
         <Prereq>Universal_Story_Start</Prereq>
     </Event>
 	
-	<Event Name="Remnant_Thrawn_ActII_Mission_Four_00i">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>MULTIMEDIA</Reward_Type>
-		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_FOUR_16</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
-		<Reward_Param8></Reward_Param8>
-		<Reward_Param9>Thrawn_loop</Reward_Param9>
-		<Reward_Param10>1</Reward_Param10>
-		<Prereq>Universal_Story_Start</Prereq>
-	</Event>
-	
 	<!-- Era 1 -->
 
 	<Event Name="Imperial_Remnant_Thrawn_Enters_Tech_01">
@@ -87,7 +76,7 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>EotH_Thrawn_Team</Reward_Param1>
-		<Reward_Param2>Dorin</Reward_Param2>
+		<Reward_Param2>Dathomir</Reward_Param2>
 		<Prereq>Imperial_Remnant_Thrawn_Enters_Tech_01</Prereq>
 	</Event>
 
