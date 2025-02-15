@@ -573,8 +573,8 @@
    <Min_Accuracy_For_Icon> 0.4 </Min_Accuracy_For_Icon>
    <Min_Sight_Range_For_Icon> 0.5 </Min_Sight_Range_For_Icon>
 
-   <Left_Queue_Tint>128 128 255 215</Left_Queue_Tint>
-   <Right_Queue_Tint>255 128 128 215</Right_Queue_Tint>
+   <Left_Queue_Tint>125 232 232 215</Left_Queue_Tint>
+   <Right_Queue_Tint>125 232 232 215</Right_Queue_Tint>
 
 	<Icons_Per_Column>13</Icons_Per_Column>
 

@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<!-- Dynamic enum definition for GameObjectCategoryType  -->
+<EnumDefinition>
+
+	<!-- This is a bitfield! If we hit the 32 entry barrier, I'll look into support 64 bit enums -->
+
+	<Fighter>			0x00000001		</Fighter>
+	<Bomber>				0x00000002		</Bomber>
+	<Transport>			0x00000004		</Transport>
+	<Corvette>			0x00000008		</Corvette>
+	<Frigate>			0x00000010		</Frigate>
+	<Capital>			0x00000020		</Capital>
+	<Super>				0x00000040		</Super>
+	
+	<Infantry>			0x00000080		</Infantry>
+	<Vehicle>			0x00000100		</Vehicle>
+	<Air>					0x00000200		</Air>
+	<Structure>			0x00000400		</Structure>
+	
+	<AntiFighter>		0x00000800		</AntiFighter>
+	<AntiBomber>		0x00001000		</AntiBomber>
+	<AntiTransport>	0x00002000		</AntiTransport>
+	<AntiCorvette>		0x00004000		</AntiCorvette>
+	<AntiFrigate>		0x00008000		</AntiFrigate>
+	<AntiCapital>		0x00010000		</AntiCapital>
+	<AntiSuper>			0x00020000		</AntiSuper>
+	
+	<AntiInfantry>		0x00040000		</AntiInfantry>
+	<AntiVehicle>		0x00080000		</AntiVehicle>
+	<AntiAir>			0x00100000		</AntiAir>
+	<AntiStructure>	0x00200000		</AntiStructure>
+
+	<LandHero>			0x00400000		</LandHero>
+
+	<Wall>				0x00800000		</Wall>
+
+	<Upgrade>			0x01000000		</Upgrade>
+
+	<SpaceHero>			0x02000000		</SpaceHero>
+	<NonCombatHero>		0x04000000		</NonCombatHero>
+
+	<!--
+	<Vehicle>		0x0001		</Vehicle>
+	<Infantry>		0x0002		</Infantry>
+	<Air>			0x0004		</Air>	
+	
+	<AntiVehicle>	0x0008		</AntiVehicle>
+	<AntiInfantry>	0x0010		</AntiInfantry>
+	<AntiAir>		0x0020		</AntiAir>
+	
+	<Capital>		0x0040		</Capital>
+	<Corvette>		0x0080		</Corvette>
+	<Frigate>		0x0100		</Frigate>
+	<Fighter>		0x0200		</Fighter>
+    
+	<AntiCapital>	0x0400		</AntiCapital>
+	<AntiCorvette>	0x0800		</AntiCorvette>
+	<AntiFrigate>	0x1000		</AntiFrigate>
+	<AntiFighter>	0x2000		</AntiFighter>
+
+	<Structure>		0x4000		</Structure>
+	<AntiStructure>	0x8000		</AntiStructure>
+	<Scout>			0x00010000	</Scout> -->
+	
+	<!-- Data definitions for "Hero", "all" and "none" -->
+	<Hero>			0x06400000	</Hero>
+	<All>			0xFFFFFFFF	</All>
+	<None>			0x00000000	</None>
+	
+</EnumDefinition>
+

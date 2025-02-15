@@ -13,8 +13,7 @@
 
 	
   
-  
-  
+
   
   
   
@@ -25,7 +24,6 @@
 
         <Text_ID> TEXT_CAMPAIGN_ANTAR_ATROCITY </Text_ID>
         <Description_Text> TEXT_CAMPAIGN_ANTAR_ATROCITY_DESCRIPTION </Description_Text>
-
         <Camera_Shift_X> -27.0 </Camera_Shift_X>
         <Camera_Shift_Y> 56.0 </Camera_Shift_Y>
         <Camera_Distance> 1200.0 </Camera_Distance>
@@ -43,7 +41,15 @@
 		</Locations>
 
         <Trade_Routes>
-			
+			Cal_Seti_Fresia, Fresia_Coruscant, Coruscant_Alsakan, Alsakan_Anaxes, Anaxes_Corulag, Coruscant_Foerost, Foerost_Tython, Tython_Byss, Cal_Seti_Pillio, Byss_Pillio,
+			Alsakan_Aargau, Corulag_Chandrila, Chandrila_Brentaal, Brentaal_Raltiir, Chandrila_Skako, Anaxes_Axum, Axum_Barlok, Arkania_Champala, Raltiir_Arkania, Barlok_Shili, 
+			Arkania_Carida, Arkania_Castell, Castell_Corsin, Shili_Brakka, Corsin_Polus, Corsin_Brakka, Brakka_Ithor, Ithor_Polus, Aargau_Vulpter, Skako_Alderaan,
+			Alderaan_Sarapin, Alderaan_Kuat, Kuat_Humbarine, Sarapin_Vulpter, Sarapin_Rendili, Sarapin_Columus, Columus_Corellia, Rendili_Corellia, Vulpter_Ebaq, 
+			Ebaq_Hakassi, Hakassi_Duro, Duro_Corellia, Duro_Chasin, Chasin_Loronar, Chasin_HosnianPrime, Denon_Loronar, Denon_HosnianPrime, Humbarine_Commenor, Rendili_CatoNeimoidia
+			Loronar_Antar, CatoNeimoidia_Antar, Antar_Gyndine, Gyndine_Mimban, Mimban_Emberlene, Commenor_Ambria, Onderon_Ambria, Ambria_Umbara, Umbara_Alarisprime, Alarisprime_Ruusan,
+			Alarisprime_Randon, Ruusan_Artesia, Artesia_Emberlene, Emberlene_Daalang, Foerost_Empress_Teta, Tython_Empress_Teta, Ebaq_Empress_Teta, Shili_Champala, Castell_Carida, Alderaan_Carida,
+			Commenor_CatoNeimoidia, Rendili_Loronar, Ambria_Mimban, Ruusan_Randon, Kuat_Rendili, Columus_Duro, Skako_Vulpter, Empress_Teta_Aargau, Chandrila_Barlok, Aargau_Chandrila,
+			Ithor_Shili, Skako_Arkania
 		</Trade_Routes>
 
         <Home_Location> Early_Empire, Coruscant </Home_Location>
@@ -562,12 +568,20 @@
 		</Locations>
 
         <Trade_Routes>
-			
+			Cal_Seti_Fresia, Fresia_Coruscant, Coruscant_Alsakan, Alsakan_Anaxes, Anaxes_Corulag, Coruscant_Foerost, Foerost_Tython, Tython_Byss, Cal_Seti_Pillio, Byss_Pillio,
+			Alsakan_Aargau, Corulag_Chandrila, Chandrila_Brentaal, Brentaal_Raltiir, Chandrila_Skako, Anaxes_Axum, Axum_Barlok, Arkania_Champala, Raltiir_Arkania, Barlok_Shili, 
+			Arkania_Carida, Arkania_Castell, Castell_Corsin, Shili_Brakka, Corsin_Polus, Corsin_Brakka, Brakka_Ithor, Ithor_Polus, Aargau_Vulpter, Skako_Alderaan,
+			Alderaan_Sarapin, Alderaan_Kuat, Kuat_Humbarine, Sarapin_Vulpter, Sarapin_Rendili, Sarapin_Columus, Columus_Corellia, Rendili_Corellia, Vulpter_Ebaq, 
+			Ebaq_Hakassi, Hakassi_Duro, Duro_Corellia, Duro_Chasin, Chasin_Loronar, Chasin_HosnianPrime, Denon_Loronar, Denon_HosnianPrime, Humbarine_Commenor, Rendili_CatoNeimoidia
+			Loronar_Antar, CatoNeimoidia_Antar, Antar_Gyndine, Gyndine_Mimban, Mimban_Emberlene, Commenor_Ambria, Onderon_Ambria, Ambria_Umbara, Umbara_Alarisprime, Alarisprime_Ruusan,
+			Alarisprime_Randon, Ruusan_Artesia, Artesia_Emberlene, Emberlene_Daalang, Foerost_Empress_Teta, Tython_Empress_Teta, Ebaq_Empress_Teta, Shili_Champala, Castell_Carida, Alderaan_Carida,
+			Commenor_CatoNeimoidia, Rendili_Loronar, Ambria_Mimban, Ruusan_Randon, Kuat_Rendili, Columus_Duro, Skako_Vulpter, Empress_Teta_Aargau, Chandrila_Barlok, Aargau_Chandrila,
+			Ithor_Shili, Skako_Arkania
 		</Trade_Routes>
 
         <Home_Location> Early_Empire, Coruscant </Home_Location>
         <Home_Location> CIS_Remnant, Antar </Home_Location>
-		<Home_Location> Trade_Federation, Cato_Neimodia </Home_Location>
+		<Home_Location> Trade_Federation, CatoNeimoidia </Home_Location>
 		<Home_Location> Techno_Union, Emberlene </Home_Location>
 		
 		<Starting_Active_Player> CIS_Remnant </Starting_Active_Player>
@@ -1078,7 +1092,15 @@
 		</Locations>
 
         <Trade_Routes>
-			
+			Cal_Seti_Fresia, Fresia_Coruscant, Coruscant_Alsakan, Alsakan_Anaxes, Anaxes_Corulag, Coruscant_Foerost, Foerost_Tython, Tython_Byss, Cal_Seti_Pillio, Byss_Pillio,
+			Alsakan_Aargau, Corulag_Chandrila, Chandrila_Brentaal, Brentaal_Raltiir, Chandrila_Skako, Anaxes_Axum, Axum_Barlok, Arkania_Champala, Raltiir_Arkania, Barlok_Shili, 
+			Arkania_Carida, Arkania_Castell, Castell_Corsin, Shili_Brakka, Corsin_Polus, Corsin_Brakka, Brakka_Ithor, Ithor_Polus, Aargau_Vulpter, Skako_Alderaan,
+			Alderaan_Sarapin, Alderaan_Kuat, Kuat_Humbarine, Sarapin_Vulpter, Sarapin_Rendili, Sarapin_Columus, Columus_Corellia, Rendili_Corellia, Vulpter_Ebaq, 
+			Ebaq_Hakassi, Hakassi_Duro, Duro_Corellia, Duro_Chasin, Chasin_Loronar, Chasin_HosnianPrime, Denon_Loronar, Denon_HosnianPrime, Humbarine_Commenor, Rendili_CatoNeimoidia
+			Loronar_Antar, CatoNeimoidia_Antar, Antar_Gyndine, Gyndine_Mimban, Mimban_Emberlene, Commenor_Ambria, Onderon_Ambria, Ambria_Umbara, Umbara_Alarisprime, Alarisprime_Ruusan,
+			Alarisprime_Randon, Ruusan_Artesia, Artesia_Emberlene, Emberlene_Daalang, Foerost_Empress_Teta, Tython_Empress_Teta, Ebaq_Empress_Teta, Shili_Champala, Castell_Carida, Alderaan_Carida,
+			Commenor_CatoNeimoidia, Rendili_Loronar, Ambria_Mimban, Ruusan_Randon, Kuat_Rendili, Columus_Duro, Skako_Vulpter, Empress_Teta_Aargau, Chandrila_Barlok, Aargau_Chandrila,
+			Ithor_Shili, Skako_Arkania
 		</Trade_Routes>
 
         <Home_Location> Early_Empire, Coruscant </Home_Location>
@@ -1594,7 +1616,15 @@
 		</Locations>
 
         <Trade_Routes>
-			
+			Cal_Seti_Fresia, Fresia_Coruscant, Coruscant_Alsakan, Alsakan_Anaxes, Anaxes_Corulag, Coruscant_Foerost, Foerost_Tython, Tython_Byss, Cal_Seti_Pillio, Byss_Pillio,
+			Alsakan_Aargau, Corulag_Chandrila, Chandrila_Brentaal, Brentaal_Raltiir, Chandrila_Skako, Anaxes_Axum, Axum_Barlok, Arkania_Champala, Raltiir_Arkania, Barlok_Shili, 
+			Arkania_Carida, Arkania_Castell, Castell_Corsin, Shili_Brakka, Corsin_Polus, Corsin_Brakka, Brakka_Ithor, Ithor_Polus, Aargau_Vulpter, Skako_Alderaan,
+			Alderaan_Sarapin, Alderaan_Kuat, Kuat_Humbarine, Sarapin_Vulpter, Sarapin_Rendili, Sarapin_Columus, Columus_Corellia, Rendili_Corellia, Vulpter_Ebaq, 
+			Ebaq_Hakassi, Hakassi_Duro, Duro_Corellia, Duro_Chasin, Chasin_Loronar, Chasin_HosnianPrime, Denon_Loronar, Denon_HosnianPrime, Humbarine_Commenor, Rendili_CatoNeimoidia
+			Loronar_Antar, CatoNeimoidia_Antar, Antar_Gyndine, Gyndine_Mimban, Mimban_Emberlene, Commenor_Ambria, Onderon_Ambria, Ambria_Umbara, Umbara_Alarisprime, Alarisprime_Ruusan,
+			Alarisprime_Randon, Ruusan_Artesia, Artesia_Emberlene, Emberlene_Daalang, Foerost_Empress_Teta, Tython_Empress_Teta, Ebaq_Empress_Teta, Shili_Champala, Castell_Carida, Alderaan_Carida,
+			Commenor_CatoNeimoidia, Rendili_Loronar, Ambria_Mimban, Ruusan_Randon, Kuat_Rendili, Columus_Duro, Skako_Vulpter, Empress_Teta_Aargau, Chandrila_Barlok, Aargau_Chandrila,
+			Ithor_Shili, Skako_Arkania
 		</Trade_Routes>
 
         <Home_Location> Early_Empire, Coruscant </Home_Location>

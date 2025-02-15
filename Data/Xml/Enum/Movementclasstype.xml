@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<EnumDefinition>
+
+	<Infantry> 0 </Infantry>
+	<InfantryNoShield> 1 </InfantryNoShield>
+	<Wheeled> 2 </Wheeled>
+	<WheeledNoShield> 3 </WheeledNoShield>
+	<Walker> 4 </Walker>	
+	<WalkerNoShield> 5 </WalkerNoShield>
+	<Flying> 6 </Flying>
+	<Tracked> 7 </Tracked>
+	<TrackedNoShield> 8 </TrackedNoShield>
+	<Hover> 9 </Hover>
+	<HoverNoShield> 10 </HoverNoShield>
+	<LargeWalker> 11 </LargeWalker>
+	<LargeWalkerNoShield> 12 </LargeWalkerNoShield>
+	<Space> 13 </Space>
+    <Lancet> 14 </Lancet>
+	<Spotter> 15 </Spotter>
+	<LargeHover> 16 </LargeHover>
+	<BombingRun> 17 </BombingRun>
+    
+	
+</EnumDefinition>
+

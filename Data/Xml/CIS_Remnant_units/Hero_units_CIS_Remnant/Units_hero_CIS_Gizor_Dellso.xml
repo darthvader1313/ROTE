@@ -128,7 +128,7 @@
 	
 		<Target_Stealth_Units>Yes</Target_Stealth_Units>
 		
-		<Abilities SubObjectList="Yes">			
+		<Abilities SubObjectList="Yes">	
 
 			<Combat_Bonus_Ability Name="Emperor_Space_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>

@@ -1,0 +1,732 @@
+<?xml version="1.0"?>
+<TradeRoutes>
+	<!-- Antar_Atrocity01 -->
+	<TradeRoute Name="Cal_Seti_Fresia">
+		<Point_A>Cal_Seti</Point_A>
+		<Point_B>Fresia</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity02 -->
+	<TradeRoute Name="Fresia_Coruscant">
+		<Point_A>Fresia</Point_A>
+		<Point_B>Coruscant</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity03 -->
+	<TradeRoute Name="Coruscant_Alsakan">
+		<Point_A>Coruscant</Point_A>
+		<Point_B>Alsakan</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity04 -->
+	<TradeRoute Name="Alsakan_Anaxes">
+		<Point_A>Alsakan</Point_A>
+		<Point_B>Anaxes</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity05 -->
+	<TradeRoute Name="Anaxes_Corulag">
+		<Point_A>Anaxes</Point_A>
+		<Point_B>Corulag</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity06 -->
+	<TradeRoute Name="Coruscant_Foerost">
+		<Point_A>Coruscant</Point_A>
+		<Point_B>Foerost</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity07 -->
+	<TradeRoute Name="Foerost_Tython">
+		<Point_A>Foerost</Point_A>
+		<Point_B>Tython</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity08 -->
+	<TradeRoute Name="Tython_Byss">
+		<Point_A>Tython</Point_A>
+		<Point_B>Byss</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity09 -->
+	<TradeRoute Name="Cal_Seti_Pillio">
+		<Point_A>Cal_Seti</Point_A>
+		<Point_B>Pillio</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity10 -->
+	<TradeRoute Name="Byss_Pillio">
+		<Point_A>Byss</Point_A>
+		<Point_B>Pillio</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity11 -->
+	<TradeRoute Name="Alsakan_Aargau">
+		<Point_A>Alsakan</Point_A>
+		<Point_B>Aargau</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity12 -->
+	<TradeRoute Name="Corulag_Chandrila">
+		<Point_A>Corulag</Point_A>
+		<Point_B>Chandrila</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity13 -->
+	<TradeRoute Name="Chandrila_Brentaal">
+		<Point_A>Chandrila</Point_A>
+		<Point_B>Brentaal</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity14 -->
+	<TradeRoute Name="Brentaal_Raltiir">
+		<Point_A>Brentaal</Point_A>
+		<Point_B>Raltiir</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity15 -->
+	<TradeRoute Name="Chandrila_Skako">
+		<Point_A>Chandrila</Point_A>
+		<Point_B>Skako</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity16 -->
+	<TradeRoute Name="Anaxes_Axum">
+		<Point_A>Anaxes</Point_A>
+		<Point_B>Axum</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity17 -->
+	<TradeRoute Name="Axum_Barlok">
+		<Point_A>Axum</Point_A>
+		<Point_B>Barlok</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity18 -->
+	<TradeRoute Name="Arkania_Champala">
+		<Point_A>Arkania</Point_A>
+		<Point_B>Champala</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity19 -->
+	<TradeRoute Name="Raltiir_Arkania">
+		<Point_A>Raltiir</Point_A>
+		<Point_B>Arkania</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity20 -->
+	<TradeRoute Name="Barlok_Shili">
+		<Point_A>Barlok</Point_A>
+		<Point_B>Shili</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity21 -->
+	<TradeRoute Name="Arkania_Carida">
+		<Point_A>Arkania</Point_A>
+		<Point_B>Carida</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity22 -->
+	<TradeRoute Name="Arkania_Castell">
+		<Point_A>Arkania</Point_A>
+		<Point_B>Castell</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity23 -->
+	<TradeRoute Name="Castell_Corsin">
+		<Point_A>Castell</Point_A>
+		<Point_B>Corsin</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity24 -->
+	<TradeRoute Name="Shili_Brakka">
+		<Point_A>Shili</Point_A>
+		<Point_B>Brakka</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity25 -->
+	<TradeRoute Name="Corsin_Polus">
+		<Point_A>Corsin</Point_A>
+		<Point_B>Polus</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity26 -->
+	<TradeRoute Name="Corsin_Brakka">
+		<Point_A>Corsin</Point_A>
+		<Point_B>Brakka</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity27 -->
+	<TradeRoute Name="Brakka_Ithor">
+		<Point_A>Brakka</Point_A>
+		<Point_B>Ithor</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity28 -->
+	<TradeRoute Name="Ithor_Polus">
+		<Point_A>Ithor</Point_A>
+		<Point_B>Polus</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity29 -->
+	<TradeRoute Name="Aargau_Vulpter">
+		<Point_A>Aargau</Point_A>
+		<Point_B>Vulpter</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity30 -->
+	<TradeRoute Name="Skako_Alderaan">
+		<Point_A>Skako</Point_A>
+		<Point_B>Alderaan</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity31 -->
+	<TradeRoute Name="Alderaan_Sarapin">
+		<Point_A>Alderaan</Point_A>
+		<Point_B>Sarapin</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity32 -->
+	<TradeRoute Name="Alderaan_Kuat">
+		<Point_A>Alderaan</Point_A>
+		<Point_B>Kuat</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity34 -->
+	<TradeRoute Name="Kuat_Humbarine">
+		<Point_A>Kuat</Point_A>
+		<Point_B>Humbarine</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity35 -->
+	<TradeRoute Name="Sarapin_Vulpter">
+		<Point_A>Sarapin</Point_A>
+		<Point_B>Vulpter</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity36 -->
+	<TradeRoute Name="Sarapin_Rendili">
+		<Point_A>Sarapin</Point_A>
+		<Point_B>Rendili</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity37 -->
+	<TradeRoute Name="Sarapin_Columus">
+		<Point_A>Sarapin</Point_A>
+		<Point_B>Columus</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity38 -->
+	<TradeRoute Name="Columus_Corellia">
+		<Point_A>Columus</Point_A>
+		<Point_B>Corellia</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity39 -->
+	<TradeRoute Name="Rendili_Corellia">
+		<Point_A>Rendili</Point_A>
+		<Point_B>Corellia</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity40 -->
+	<TradeRoute Name="Vulpter_Ebaq">
+		<Point_A>Vulpter</Point_A>
+		<Point_B>Ebaq</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity41 -->
+	<TradeRoute Name="Ebaq_Hakassi">
+		<Point_A>Ebaq</Point_A>
+		<Point_B>Hakassi</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity42 -->
+	<TradeRoute Name="Hakassi_Duro">
+		<Point_A>Hakassi</Point_A>
+		<Point_B>Duro</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity43 -->
+	<TradeRoute Name="Duro_Corellia">
+		<Point_A>Duro</Point_A>
+		<Point_B>Corellia</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity44 -->
+	<TradeRoute Name="Duro_Chasin">
+		<Point_A>Duro</Point_A>
+		<Point_B>Chasin</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity45 -->
+	<TradeRoute Name="Chasin_Loronar">
+		<Point_A>Chasin</Point_A>
+		<Point_B>Loronar</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity46 -->
+	<TradeRoute Name="Chasin_HosnianPrime">
+		<Point_A>Chasin</Point_A>
+		<Point_B>HosnianPrime</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity47 -->
+	<TradeRoute Name="Denon_Loronar">
+		<Point_A>Denon</Point_A>
+		<Point_B>Loronar</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity48 -->
+	<TradeRoute Name="Denon_HosnianPrime">
+		<Point_A>Denon</Point_A>
+		<Point_B>HosnianPrime</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity49 -->
+	<TradeRoute Name="Humbarine_Commenor">
+		<Point_A>Humbarine</Point_A>
+		<Point_B>Commenor</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity50 -->
+	<TradeRoute Name="Rendili_CatoNeimoidia">
+		<Point_A>Rendili</Point_A>
+		<Point_B>CatoNeimoidia</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity51 -->
+	<TradeRoute Name="Loronar_Antar">
+		<Point_A>Loronar</Point_A>
+		<Point_B>Antar</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity52 -->
+	<TradeRoute Name="CatoNeimoidia_Antar">
+		<Point_A>CatoNeimoidia</Point_A>
+		<Point_B>Antar</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity53 -->
+	<TradeRoute Name="Antar_Gyndine">
+		<Point_A>Antar</Point_A>
+		<Point_B>Gyndine</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity54 -->
+	<TradeRoute Name="Gyndine_Mimban">
+		<Point_A>Gyndine</Point_A>
+		<Point_B>Mimban</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity55 -->
+	<TradeRoute Name="Mimban_Emberlene">
+		<Point_A>Mimban</Point_A>
+		<Point_B>Emberlene</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity56 -->
+	<TradeRoute Name="Commenor_Ambria">
+		<Point_A>Commenor</Point_A>
+		<Point_B>Ambria</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity57 -->
+	<TradeRoute Name="Onderon_Ambria">
+		<Point_A>Onderon</Point_A>
+		<Point_B>Ambria</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity58 -->
+	<TradeRoute Name="Ambria_Umbara">
+		<Point_A>Ambria</Point_A>
+		<Point_B>Umbara</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity59 -->
+	<TradeRoute Name="Umbara_Alarisprime">
+		<Point_A>Umbara</Point_A>
+		<Point_B>Alarisprime</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity60 -->
+	<TradeRoute Name="Alarisprime_Ruusan">
+		<Point_A>Alarisprime</Point_A>
+		<Point_B>Ruusan</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity61 -->
+	<TradeRoute Name="Alarisprime_Randon">
+		<Point_A>Alarisprime</Point_A>
+		<Point_B>Randon</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity62 -->
+	<TradeRoute Name="Ruusan_Artesia">
+		<Point_A>Ruusan</Point_A>
+		<Point_B>Artesia</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity63 -->
+	<TradeRoute Name="Artesia_Emberlene">
+		<Point_A>Artesia</Point_A>
+		<Point_B>Emberlene</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity64 -->
+	<TradeRoute Name="Emberlene_Daalang">
+		<Point_A>Emberlene</Point_A>
+		<Point_B>Daalang</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity65 -->
+	<TradeRoute Name="Foerost_Empress_Teta">
+		<Point_A>Foerost</Point_A>
+		<Point_B>Empress_Teta</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity66 -->
+	<TradeRoute Name="Tython_Empress_Teta">
+		<Point_A>Tython</Point_A>
+		<Point_B>Empress_Teta</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity67 -->
+	<TradeRoute Name="Ebaq_Empress_Teta">
+		<Point_A>Ebaq</Point_A>
+		<Point_B>Empress_Teta</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity68 -->
+	<TradeRoute Name="Shili_Champala">
+		<Point_A>Shili</Point_A>
+		<Point_B>Champala</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity69 -->
+	<TradeRoute Name="Castell_Carida">
+		<Point_A>Castell</Point_A>
+		<Point_B>Carida</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity70 -->
+	<TradeRoute Name="Alderaan_Carida">
+		<Point_A>Alderaan</Point_A>
+		<Point_B>Carida</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity71 -->
+	<TradeRoute Name="Commenor_CatoNeimoidia">
+		<Point_A>Commenor</Point_A>
+		<Point_B>CatoNeimoidia</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity72 -->
+	<TradeRoute Name="Rendili_Loronar">
+		<Point_A>Rendili</Point_A>
+		<Point_B>Loronar</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity73 -->
+	<TradeRoute Name="Ambria_Mimban">
+		<Point_A>Ambria</Point_A>
+		<Point_B>Mimban</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity74 -->
+	<TradeRoute Name="Ruusan_Randon">
+		<Point_A>Ruusan</Point_A>
+		<Point_B>Randon</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity75 -->
+	<TradeRoute Name="Kuat_Rendili">
+		<Point_A>Kuat</Point_A>
+		<Point_B>Rendili</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity76 -->
+	<TradeRoute Name="Columus_Duro">
+		<Point_A>Columus</Point_A>
+		<Point_B>Duro</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity77 -->
+	<TradeRoute Name="Skako_Vulpter">
+		<Point_A>Skako</Point_A>
+		<Point_B>Vulpter</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity78 -->
+	<TradeRoute Name="Empress_Teta_Aargau">
+		<Point_A>Empress_Teta</Point_A>
+		<Point_B>Aargau</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity79 -->
+	<TradeRoute Name="Chandrila_Barlok">
+		<Point_A>Chandrila</Point_A>
+		<Point_B>Barlok</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity80 -->
+	<TradeRoute Name="Aargau_Chandrila">
+		<Point_A>Aargau</Point_A>
+		<Point_B>Chandrila</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity81 -->
+	<TradeRoute Name="Ithor_Shili">
+		<Point_A>Ithor</Point_A>
+		<Point_B>Shili</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	<!-- Antar_Atrocity82 -->
+	<TradeRoute Name="Skako_Arkania">
+		<Point_A>Skako</Point_A>
+		<Point_B>Arkania</Point_B>
+		<HS_Speed_Factor>5</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+</TradeRoutes>

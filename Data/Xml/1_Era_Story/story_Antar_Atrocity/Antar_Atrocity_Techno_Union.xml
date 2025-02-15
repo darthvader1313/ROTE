@@ -11,7 +11,7 @@
 
 <Story>
 
-    <Event Name="Universal_Story_Start">
+    <Event Name="Universal_Story_Start_Techno_Union">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>0</Event_Param1>
 	</Event>
@@ -20,23 +20,16 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
 		<Reward_Param1>Techno_Union_Ground_Research_Facility</Reward_Param1>
-		<Prereq>Universal_Story_Start</Prereq>
+		<Prereq>Universal_Story_Start_Techno_Union</Prereq>
 	</Event>
 	
 	<Event Name="Techno_Union_Reveal_Galaxy">
         <Event_Type>STORY_TRIGGER</Event_Type>
         <Reward_Type>REVEAL_ALL_PLANETS</Reward_Type>
-        <Prereq>Universal_Story_Start</Prereq>
+        <Prereq>Universal_Story_Start_Techno_Union</Prereq>
     </Event>
-
-	<!-- Center camera -->
-	<Event Name="Techno_Union_Center_Camera">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>POSITION_CAMERA</Reward_Type>
-		<Reward_Param1>Skako</Reward_Param1>
-		<Reward_Param2>0,0,0</Reward_Param2>
-		<Prereq>Universal_Story_Start</Prereq>
-	</Event>
+	
+	
 	
 	<!-- Era 1 -->
 

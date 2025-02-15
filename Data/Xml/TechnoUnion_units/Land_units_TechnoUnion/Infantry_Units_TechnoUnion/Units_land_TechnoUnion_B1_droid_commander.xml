@@ -124,14 +124,14 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>106</Damage>
 		<Autoresolve_Health>2400</Autoresolve_Health> <!-- changed to reflect unit health w/ size-->
-		<Affiliation>CIS_Remnant</Affiliation>
+		<Affiliation>Techno_Union</Affiliation>
 		<Build_Cost_Credits>1500</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>1</Tech_Level>
 		<Required_Special_Structures>Techno_Union_Ground_Barracks</Required_Special_Structures>
 		
 		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>

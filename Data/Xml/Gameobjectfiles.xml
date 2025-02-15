@@ -373,7 +373,8 @@
 	<!-- CIS Remnants -->
 	
 	<File>CIS_Remnant_units\Hero_units_CIS_Remnant\Units_hero_CIS_Gizor_Dellso.xml</File>
-	
+	<File>CIS_Remnant_units\Hero_units_CIS_Remnant\Units_land_cis_hackers.xml</File>
+	<File>CIS_Remnant_units\Space_units_CIS_Remnant\Light_units_CIS_Remnant\Units_cis_Calamari_Cruiser.xml</File>
 	<File>CIS_Remnant_units\Land_units_CIS_Remnant\Infantry_units_CIS_Remnant\Units_land_cis_B1_droid_commander.xml</File>
 	<File>CIS_Remnant_units\Land_units_CIS_Remnant\Infantry_units_CIS_Remnant\Units_land_cis_battledroid.xml</File>
 	<File>CIS_Remnant_units\Land_units_CIS_Remnant\Infantry_units_CIS_Remnant\Units_land_cis_BattleDroid_Grenadier.xml</File>

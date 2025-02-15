@@ -10,7 +10,92 @@
 
 <Story>
 
-	<Event Name="Universal_Story_Start">
+	<Event Name="Faction_EE_Antar_Atrocity_Center_Camera">
+      <Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>POSITION_CAMERA</Reward_Type>
+      <Reward_Param1>Coruscant</Reward_Param1>
+      <Reward_Param2>0,0,0</Reward_Param2>
+      <Prereq>Early_Empire_Reveal_Galaxy</Prereq>
+   </Event>
+	
+	<Event Name="Antar_Atrocity_Early_Empire_Intro_01">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_TUTORIAL_EMPIRE_ACT04_64</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param7>Hint</Reward_Param7><!-- HINT color coding - green -->	
+		<Reward_Param8>TUTORIAL_EMPIRE_ACT04_64</Reward_Param8>
+		<Prereq>Universal_Story_Start_Early_Empire</Prereq>
+	</Event>
+	
+	<Event Name="Antar_Atrocity_Early_Empire_Intro_02">
+			<Event_Type>STORY_SPEECH_DONE</Event_Type>
+			<Event_Param1>TUTORIAL_EMPIRE_ACT04_64</Event_Param1>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_TUTORIAL_EMPIRE_ACT04_64</Reward_Param1>
+			<Reward_Param4>remove</Reward_Param4>
+			<Prereq>Antar_Atrocity_Early_Empire_Intro_01</Prereq>
+		</Event>
+	
+	<Event Name="Antar_Atrocity_Early_Empire_Intro_03">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_TUTORIAL_EMPIRE_ACT04_01</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>TUTORIAL_EMPIRE_ACT04_01</Reward_Param8>
+		<Reward_Param9>Emperor_loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Antar_Atrocity_Early_Empire_Intro_02</Prereq>
+	</Event>	
+
+		<Event Name="Antar_Atrocity_Early_Empire_Intro_03_Remove_Text">
+			<Event_Type>STORY_SPEECH_DONE</Event_Type>
+			<Event_Param1>TUTORIAL_EMPIRE_ACT04_01</Event_Param1>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_TUTORIAL_EMPIRE_ACT04_01</Reward_Param1>
+			<Reward_Param4>remove</Reward_Param4>
+			<Prereq>Antar_Atrocity_Early_Empire_Intro_03</Prereq>
+		</Event>
+		
+		<Event Name="Antar_Atrocity_Early_Empire_Intro_03_Stop_Movie">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+			<Prereq>Antar_Atrocity_Early_Empire_Intro_03_Remove_Text</Prereq>
+		</Event>
+		
+		<Event Name="Antar_Atrocity_Flash_Coruscant">
+		    <Event_Type>STORY_TRIGGER</Event_Type>
+		    <Reward_Type>FLASH_PLANET_GUI</Reward_Type>
+		    <Reward_Param1>Coruscant</Reward_Param1>
+		    <Reward_Param2>FLASH_TROOPS</Reward_Param2>
+		    <Prereq>Antar_Atrocity_Early_Empire_Intro_03</Prereq> 
+	    </Event>
+	
+	<Event Name="Antar_Atrocity_Stop_Flash_Coruscant">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
+		<Prereq>Antar_Atrocity_Early_Empire_Intro_03_Stop_Movie</Prereq>
+	</Event>
+	
+	<Event Name="Antar_Atrocity_Holocron_Entry">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Story_Dialog>Dialog_expansion_gc_solo</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>	
+		<Story_Tag>Tutorial_IV_Capture_Kashyyyk_Holocron_Entry</Story_Tag>
+		<Prereq>Antar_Atrocity_Early_Empire_Intro_03_Stop_Movie</Prereq>
+	</Event>
+	
+	<Event Name="Antar_Atrocity_Holocron_Entry_Completed">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+			<Reward_Param1>Antar_Atrocity_Holocron_Entry</Reward_Param1>
+			<Prereq>Tutorial_IV_Capture_Kashyyyk_Task_Complete</Prereq>
+	</Event> 
+	
+	<Event Name="Universal_Story_Start_Early_Empire">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Story_Dialog>Dialog_expansion_gc_solo</Story_Dialog>
 		<Event_Param1>0</Event_Param1>	
@@ -22,23 +107,16 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
 		<Reward_Param1>Early_Empire_Ground_Research_Facility</Reward_Param1>
-		<Prereq>Universal_Story_Start</Prereq>
+		<Prereq>Universal_Story_Start_Early_Empire</Prereq>
 	</Event>
 	
 	<Event Name="Early_Empire_Reveal_Galaxy">
         <Event_Type>STORY_TRIGGER</Event_Type>
         <Reward_Type>REVEAL_ALL_PLANETS</Reward_Type>
-        <Prereq>Universal_Story_Start</Prereq>
+        <Prereq>Universal_Story_Start_Early_Empire</Prereq>
     </Event>
-	
-	<!-- Center camera -->
-	<Event Name="Early_Empire_Center_Camera">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>POSITION_CAMERA</Reward_Type>
-		<Reward_Param1>Coruscant</Reward_Param1>
-		<Reward_Param2>0,0,0</Reward_Param2>
-		<Prereq>Universal_Story_Start</Prereq>
-	</Event>
+   
+
 
 	<!-- Spawn Tech Level 1 Heroes -->
 

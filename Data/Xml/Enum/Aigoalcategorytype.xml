@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<EnumDefinition>
+
+	<Offensive> 0 </Offensive>
+	<Defensive> 1 </Defensive>
+	<Information> 2 </Information>	
+	<Infrastructure> 3 </Infrastructure>
+	<Tactical_Targeted> 5 </Tactical_Targeted>
+	<Tactical_Untargeted>6 </Tactical_Untargeted>
+	<NoBudget> 7 </NoBudget>
+    <Hero> 8 </Hero>
+	<Always> 9 </Always>
+	<Macro_Goal> 10 </Macro_Goal>
+	<MajorItem> 11 </MajorItem>
+	<StoryArc> 12 </StoryArc>
+	<StoryArcHuman> 13 </StoryArcHuman>
+	<Interventions> 14 </Interventions>
+	<High_Priority> 15 </High_Priority>
+	<Sandbox_Events> 16 </Sandbox_Events>
+	<Med_Priority> 17 </Med_Priority>
+	<Map_Control> 18 </Map_Control>
+	
+</EnumDefinition>
+

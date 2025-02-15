@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EnumDefinition>
+
+	<Default>0</Default>
+	<Infantry> 1 </Infantry>
+	<LargeWalker> 2 </LargeWalker>
+	<Speeder> 3 </Speeder>
+	<Walker>4</Walker>
+	<Tracked>5</Tracked>
+	<Hover>6</Hover>
+	<Wheeled>7</Wheeled>
+	<Flying>8</Flying>
+	
+	<!-- add more in sequence -->
+	
+</EnumDefinition>
+

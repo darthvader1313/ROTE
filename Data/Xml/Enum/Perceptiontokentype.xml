@@ -1,0 +1,311 @@
+<?xml version="1.0" ?>
+
+<EnumDefinition>
+
+	<!-- Variables -->
+	<Variable_Self>					</Variable_Self>
+	<Variable_Location>				</Variable_Location>
+	<Variable_Target>				</Variable_Target>
+	<Variable_Enemy>				</Variable_Enemy>
+	<Variable_Human>				</Variable_Human>
+
+	<!-- Parameters -->
+	<Parameter_Category>			</Parameter_Category>
+	<Parameter_Attenuator>			</Parameter_Attenuator>
+	<Parameter_Type>				</Parameter_Type>
+	<Parameter_Hard_Point_Type>		</Parameter_Hard_Point_Type>
+	<Parameter_Faction>				</Parameter_Faction>
+	<Parameter_Level>				</Parameter_Level>
+	<Parameter_Count>				</Parameter_Count>
+	<Parameter_Name>				</Parameter_Name>
+	<Parameter_Queue_Type>			</Parameter_Queue_Type>
+	<Parameter_Script_String>		</Parameter_Script_String>
+	<Parameter_Script_Number>		</Parameter_Script_Number>
+	<Parameter_Range>				</Parameter_Range>
+	<Parameter_Only_Consider_Complete></Parameter_Only_Consider_Complete>
+	<Parameter_Time>				</Parameter_Time>
+	<Parameter_Difficulty_Level_Type></Parameter_Difficulty_Level_Type>
+	
+	<!-- Non-automatic root literals -->
+	<Game>			</Game>
+	
+	<!-- Intermediate literals (cross-object) -->
+	<Type>			</Type>
+	<FriendlyForce> </FriendlyForce>
+	<EnemyForce>	</EnemyForce>
+	<Hints>			</Hints>
+
+	<!-- Final literals -->	
+	<Evaluate>					</Evaluate>	
+	<Token>						</Token>
+	
+	<Timeline>					</Timeline>
+	<Markup>					</Markup>
+	<Age>						</Age>
+	<IsCampaignGame>			</IsCampaignGame>
+	<InterventionsEnabled>		</InterventionsEnabled>
+	<TimeSinceStoryPopup>		</TimeSinceStoryPopup>
+	<ActiveStoryGoalCount>		</ActiveStoryGoalCount>
+	<IsStoryCampaign>			</IsStoryCampaign>
+	<PlanetsCorrupted>				</PlanetsCorrupted>
+	<PlanetsCorruptedUnnormalized>	</PlanetsCorruptedUnnormalized>
+	
+	<!-- Misc planet final literals -->
+	<TargetPoliticalControl>	</TargetPoliticalControl>
+	<StarbaseLevel>				</StarbaseLevel>
+	<GroundbaseLevel>			</GroundbaseLevel>
+	<DistanceToNearestFriendly> </DistanceToNearestFriendly>
+	<OpenStructureSlots>		</OpenStructureSlots>
+	<IsConnectedTo>				</IsConnectedTo>
+
+	<FriendlyInternalConnectivity>	</FriendlyInternalConnectivity>
+	<FriendlyExternalConnectivity>	</FriendlyExternalConnectivity>
+	<EnemyInternalConnectivity>		</EnemyInternalConnectivity>
+	<EnemyExternalConnectivity>		</EnemyExternalConnectivity>
+
+	<Income>					</Income>
+	<IncomeNBPTM>				</IncomeNBPTM>
+	<IncomeNBTP>				</IncomeNBTP>
+	<IncomeNBTD>				</IncomeNBTD>
+	<BaseIncome>				</BaseIncome>	
+	<BaseIncomeNBTP>			</BaseIncomeNBTP>
+	<BaseIncomeNBTD>			</BaseIncomeNBTD>
+	
+	<TradeRoutes>				</TradeRoutes>
+	<ActiveTradeRoutes>			</ActiveTradeRoutes>
+	<IsSurfaceAccessible>		</IsSurfaceAccessible>
+	<RetainsResidualInfluence>	</RetainsResidualInfluence>
+	<IsCorrupted>				</IsCorrupted>
+	<IsCorruptionTransitionActive>	</IsCorruptionTransitionActive>
+	<IsConnectedToCorruption>	</IsConnectedToCorruption>
+	<BlackMarketAbilitiesAvailable>		</BlackMarketAbilitiesAvailable>
+	<BlackMarketMinimumAbilityPrice>	</BlackMarketMinimumAbilityPrice>
+	<BlackMarketPriceModifier>			</BlackMarketPriceModifier>
+	<TimeSinceCorruptionChange>			</TimeSinceCorruptionChange>
+	
+	<!-- (planet) type final literals -->
+	<MaxStarbaseLevel>			</MaxStarbaseLevel>
+	<MaxGroundbaseLevel>		</MaxGroundbaseLevel>
+	<ForceAlignment>			</ForceAlignment>
+	<MaxStructureSlots>			</MaxStructureSlots>
+	<IsType>					</IsType>
+	<IsFaction>					</IsFaction>
+	<IsNamedHero>				</IsNamedHero>
+	
+	<ConnectsIsolatedPlanetsByLength>	</ConnectsIsolatedPlanetsByLength>
+	<ConnectsIsolatedPlanetsByForce>	</ConnectsIsolatedPlanetsByForce>
+	<ConnectsLargestIslands>			</ConnectsLargestIslands>
+	
+	<HasCreditSiphon>			</HasCreditSiphon>
+	<HasStructure>				</HasStructure>
+	<HasIndigenousUnits>		</HasIndigenousUnits>
+	<IsHumanControlled>			</IsHumanControlled>
+	
+	<!-- Force literals -->
+	<GroundTotal>				</GroundTotal>
+	<SpaceTotal>				</SpaceTotal>
+	<NearbyGroundTotal>			</NearbyGroundTotal>
+	<NearbySpaceTotal>			</NearbySpaceTotal>
+	<AntiStealthEffectiveness>	</AntiStealthEffectiveness>
+	<HasNearbyGroundForce>		</HasNearbyGroundForce>
+	<HasNearbySpaceForce>		</HasNearbySpaceForce>
+	
+	<!-- NBTD = Normalized By Target Disposition -->
+	<GroundTotalNBTD>			</GroundTotalNBTD>
+	<SpaceTotalNBTD>			</SpaceTotalNBTD>
+	
+	<!-- NBPTM = Normalized By Per Target Max -->
+	<GroundTotalNBPTM>			</GroundTotalNBPTM>
+	<SpaceTotalNBPTM>			</SpaceTotalNBPTM>
+	
+	<!-- NBTT = Normalized By Target Total -->
+	<GroundTotalNBTT>			</GroundTotalNBTT>
+	<SpaceTotalNBTT>			</SpaceTotalNBTT>
+	
+	<!-- Quick checks for whether force are present.  Result is either 1.0 or 0.0 -->
+	<HasSpaceForce>				</HasSpaceForce>
+	<HasGroundForce>			</HasGroundForce>
+	
+	<!-- Maintenance cost normalized by income -->
+	<Maintenance>				</Maintenance>
+	
+	<TechLevel>					</TechLevel>
+	
+	<!-- Income perceptions for players.  Net subtracts off maintenance costs
+	(and is more expensive to evaluate as a result).  NBPTM normalizes by max
+	income for the entire galaxy.  NBTF normalizes by max income for player's
+	current planets -->
+	<GrossIncomeNBPTM>			</GrossIncomeNBPTM>
+	<NetIncomeNBPTM>			</NetIncomeNBPTM>
+	<GrossIncomeNBTF>			</GrossIncomeNBTF>
+	<NetIncomeNBTF>				</NetIncomeNBTF>
+	
+	<!-- Build perceptions for planets.  Depth and time are normalized by the
+	largest depth/time across any planet belonging to this planet's owner.
+	These are valid perceptions ONLY when the querying player owns the planet -->
+	<BuildQueueDepth>			</BuildQueueDepth>
+	<BuildQueueTime>			</BuildQueueTime>
+	<BuildPercentRemaining>		</BuildPercentRemaining>
+	<IsBuilding>				</IsBuilding>
+	
+	<OpenGroundCompanySlots>		</OpenGroundCompanySlots>
+	<StoryTrigger>					</StoryTrigger>
+	
+	<!-- Various perceptions for players below -->
+	
+	<!-- Perception for the proportion of income devoted to a particular goal
+	category.  REQUIRES the goal category as a parameter -->
+	<BudgetAllocation>				</BudgetAllocation>
+	
+	<PlanetsControlled>				</PlanetsControlled>
+	<AverageBuildQueueDepth>		</AverageBuildQueueDepth>
+	<AverageBuildTime>				</AverageBuildTime>
+	<AverageStarbase>				</AverageStarbase>
+	<AverageGroundbase>				</AverageGroundbase>
+	<SpaceDefendedPlanets>			</SpaceDefendedPlanets>
+	<GroundDefendedPlanets>			</GroundDefendedPlanets>
+	<AverageAgeOfGroundIntelligence></AverageAgeOfGroundIntelligence>
+	<AverageAgeOfSpaceIntelligence>	</AverageAgeOfSpaceIntelligence>
+	<HasStarbaseOfLevel>			</HasStarbaseOfLevel>
+	<HasGroundbaseOfLevel>			</HasGroundbaseOfLevel>
+	<NumStructure></NumStructure>
+	<NumStarbaseOfLevel></NumStarbaseOfLevel>
+	<NumGroundbaseOfLevel></NumGroundbaseOfLevel>
+	<HomePlanet>					</HomePlanet>
+	<BudgetFractionToBuild>			</BudgetFractionToBuild>
+	<CanAdvanceTech>				</CanAdvanceTech>
+	<HasBeenAttackedInSpace>		</HasBeenAttackedInSpace>
+	<HasBeenAttackedOnGround>		</HasBeenAttackedOnGround>
+	<TimeSinceSpaceDefender>		</TimeSinceSpaceDefender>
+	<TimeSinceSpaceAttacker>		</TimeSinceSpaceAttacker>
+	<TimeSinceGroundDefender>		</TimeSinceGroundDefender>
+	<TimeSinceGroundAttacker>		</TimeSinceGroundAttacker>
+	<WorstIslandFractionOfLargest>	</WorstIslandFractionOfLargest>
+	<HasUnit>						</HasUnit>
+	<StructureCount>				</StructureCount>
+	<IsDifficulty>					</IsDifficulty>
+	<HasTechToProduce>				</HasTechToProduce>	
+	<ActiveGoals>					</ActiveGoals>
+	<AnyCurrentThreats>				</AnyCurrentThreats>
+		
+	<!-- Proportion of a player's planets that have bases at their maximum level -->
+	<MaxedGroundbases>				</MaxedGroundbases>
+	<MaxedStarbases>				</MaxedStarbases>
+	
+	<!-- Can follow certain 'final' literals to determine when that literal was last genuinely observed -->
+	<TimeLastSeen>				</TimeLastSeen>
+	
+	<TimeSinceSpaceConflict>	</TimeSinceSpaceConflict>
+	<TimeSinceGroundConflict>	</TimeSinceGroundConflict>
+	<TimeSinceConversion>		</TimeSinceConversion>
+	
+	<!-- ************************************************* -->
+	<!-- Tactical mode tokens -->
+	
+	<Owner>							</Owner>
+	<Location>						</Location>
+	
+	<Health>						</Health>
+	<Shield>						</Shield>
+	<Energy>						</Energy>
+	<HardPointHealth>				</HardPointHealth>
+	
+	<Force>							</Force>
+	<ForceNBTP>						</ForceNBTP>
+	<ForceNBTD>						</ForceNBTD>
+	<FriendlyForceNBTD>				</FriendlyForceNBTD>
+	<EnemyForceNBTD>				</EnemyForceNBTD>
+	<IsDefender>					</IsDefender>
+	<ForceVisibility>				</ForceVisibility><!-- % of the enemies forces that are visible; always 1 with FOW off -->
+	<IsEnemyStartLocation>			</IsEnemyStartLocation>
+	<CanRetreat>					</CanRetreat>
+	<EnemyUnitConcentration>		</EnemyUnitConcentration>
+	<FriendlyUnitConcentration>		</FriendlyUnitConcentration>
+	<EnemyUnitConcentrationNBTD>	</EnemyUnitConcentrationNBTD>
+	<FriendlyUnitConcentrationNBTD>	</FriendlyUnitConcentrationNBTD>
+	<IsBombingRunAvailable>			</IsBombingRunAvailable>
+	<CashPointValue>				</CashPointValue>
+	<IsCashPoint>					</IsCashPoint>
+	<ContainsHero>					</ContainsHero>
+	<AreEnginesOnline>				</AreEnginesOnline>
+	<IsSetupPhase>					</IsSetupPhase>
+	<IsBuildPad>					</IsBuildPad>
+	<HasBuiltObject>				</HasBuiltObject>
+	<NearbyOpenBuildPadCount>		</NearbyOpenBuildPadCount>
+	<OpenBuildPadCount>				</OpenBuildPadCount>
+	<TacticalBuiltStructureCount>	</TacticalBuiltStructureCount>
+	<IsFriendlyStartLocation>		</IsFriendlyStartLocation>
+	<HasTakenDamage>				</HasTakenDamage>
+	<BaseLevel>						</BaseLevel>
+	<IsRetreating>					</IsRetreating>
+	<IsInsideFriendlyShield>		</IsInsideFriendlyShield>
+	<IsInsideEnemyShield>			</IsInsideEnemyShield>
+	<IsContestable>					</IsContestable>
+	<ReinforcementsUnnormalized>	</ReinforcementsUnnormalized>
+	<UnitSpaceAvailable>			</UnitSpaceAvailable>
+	<IsValidBombingTarget>			</IsValidBombingTarget>
+	<IsLandControlGame>				</IsLandControlGame>
+	<GarrisonSlotsAvailable>		</GarrisonSlotsAvailable>
+	<IsOrbitalBombardmentAvailable>	</IsOrbitalBombardmentAvailable>
+	<AdditionalPopulationCapacity>	</AdditionalPopulationCapacity>
+	
+	<!-- INTERNAL ONLY.  DO NOT USE IN DATA. Mostly unnormalized perceptions that are used to calculate other perceptions. -->
+	<GroundTotalUnnormalized>		</GroundTotalUnnormalized>
+	<SpaceTotalUnnormalized>		</SpaceTotalUnnormalized>
+	<IncomeUnnormalized>			</IncomeUnnormalized>
+	<IncomePotentialUnnormalized>	</IncomePotentialUnnormalized>
+	<BaseIncomeUnnormalized>		</BaseIncomeUnnormalized>
+	<GrossIncomeUnnormalized>		</GrossIncomeUnnormalized>
+	<NetIncomeUnnormalized>			</NetIncomeUnnormalized>
+	
+	<MaxAllPlanetsIncomeUnnormalized>		</MaxAllPlanetsIncomeUnnormalized>
+	<MaxOwnedPlanetsIncomeUnnormalized>		</MaxOwnedPlanetsIncomeUnnormalized>
+	
+	<MaintenanceUnnormalized>		</MaintenanceUnnormalized>
+	
+	<PerTargetMaxGroundForce>		</PerTargetMaxGroundForce>
+	<PerTargetMaxSpaceForce>		</PerTargetMaxSpaceForce>
+	<PerTargetMaxIncome>			</PerTargetMaxIncome>
+	<PerTargetMaxBaseIncome>		</PerTargetMaxBaseIncome>
+
+	<MaxBuildQueueDepth>		</MaxBuildQueueDepth>
+	<MaxBuildQueueTime>			</MaxBuildQueueTime>
+
+	<HasSpaceUnitsBitfield>		</HasSpaceUnitsBitfield>
+	<HasGroundUnitsBitfield>	</HasGroundUnitsBitfield>
+	
+	<TargetPlayerID>			</TargetPlayerID>
+
+	<ForceUnnormalized>			</ForceUnnormalized>
+	<FriendlyForceUnnormalized>	</FriendlyForceUnnormalized>
+	<EnemyForceUnnormalized>	</EnemyForceUnnormalized>
+	
+	<CreditsUnnormalized>		</CreditsUnnormalized>
+
+	<EnemyUnitConcentrationUnnormalized>	</EnemyUnitConcentrationUnnormalized>
+	<FriendlyUnitConcentrationUnnormalized>	</FriendlyUnitConcentrationUnnormalized>
+
+	<TimeLastSeenUnnormalized>	</TimeLastSeenUnnormalized>
+	
+	<GroundbaseTotalUnnormalized>	</GroundbaseTotalUnnormalized>
+	<StarbaseTotalUnnormalized>		</StarbaseTotalUnnormalized>
+	<StarbaseLevelUnnormalized>		</StarbaseLevelUnnormalized>
+	<GroundbaseLevelUnnormalized>	</GroundbaseLevelUnnormalized>
+	<MaxStarbaseLevelUnnormalized>	</MaxStarbaseLevelUnnormalized>
+	<MaxGroundbaseLevelUnnormalized></MaxGroundbaseLevelUnnormalized>
+	<OpenStructureSlotsUnnormalized></OpenStructureSlotsUnnormalized>
+	<MaxStructureSlotsUnnormalized>	</MaxStructureSlotsUnnormalized>
+	<PlanetsControlledUnnormalized>	</PlanetsControlledUnnormalized>
+	
+	<FriendlyUnitsBitfield>			</FriendlyUnitsBitfield>
+	<EnemyUnitsBitfield>			</EnemyUnitsBitfield>
+	<LandedForceUnnormalized>		</LandedForceUnnormalized>
+	<DistanceToNearestEnemy>		</DistanceToNearestEnemy>
+	
+	<!-- BROKEN -->
+	<!-- <Player_Empire>				</Player_Empire> -->
+	<!-- <Player_Rebel>					</Player_Rebel> -->
+	<!-- <Player_Neutral>				</Player_Neutral> -->
+	
+</EnumDefinition>
+
