@@ -35,7 +35,7 @@
 				Bothawui, Kothlis, Vandor, Aridus, Cularin, Tynna, Chardaan, Atzerri, 
 				Druckenwell, Falleen, Aguarl, Ando, Rodia, Christophsis, Savareen, Denon,
 				Devaron, Foless, Bestine, Thyferra, MechisIII, YagDhul, Calus, Nooli,
-				Dressel, Galboron, Leritor, Monastery, Lorahns
+				Dressel, Galboron, Leritor, Monastery, Lorahns, Ghorman
 		</Locations>
 
         <Trade_Routes>
@@ -146,6 +146,13 @@
 		<Starting_Forces> Early_Empire, Leritor, Early_Empire_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Early_Empire, Leritor, Imperial_Clonetroopers_Squad </Starting_Forces>
 		<Starting_Forces> Early_Empire, Leritor, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Ghorman Space Forces -->
+	
+        <!-- Ghorman Land Forces -->
+		<Starting_Forces> Early_Empire, Ghorman, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ghorman, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ghorman, Early_Empire_Rifleman_Squad </Starting_Forces>
 		
 		
 		
@@ -345,7 +352,7 @@
 				Bothawui, Kothlis, Vandor, Aridus, Cularin, Tynna, Chardaan, Atzerri, 
 				Druckenwell, Falleen, Aguarl, Ando, Rodia, Christophsis, Savareen, Denon,
 				Devaron, Foless, Bestine, Thyferra, MechisIII, YagDhul, Calus, Nooli,
-				Dressel, Galboron, Leritor, Monastery, Lorahns
+				Dressel, Galboron, Leritor, Monastery, Lorahns, Ghorman
 		</Locations>
 
         <Trade_Routes>
@@ -456,6 +463,13 @@
 		<Starting_Forces> Early_Empire, Leritor, Early_Empire_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Early_Empire, Leritor, Imperial_Clonetroopers_Squad </Starting_Forces>
 		<Starting_Forces> Early_Empire, Leritor, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Ghorman Space Forces -->
+	
+        <!-- Ghorman Land Forces -->
+		<Starting_Forces> Early_Empire, Ghorman, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ghorman, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ghorman, Early_Empire_Rifleman_Squad </Starting_Forces>
 		
 		
 		
@@ -654,7 +668,7 @@
 				Bothawui, Kothlis, Vandor, Aridus, Cularin, Tynna, Chardaan, Atzerri, 
 				Druckenwell, Falleen, Aguarl, Ando, Rodia, Christophsis, Savareen, Denon,
 				Devaron, Foless, Bestine, Thyferra, MechisIII, YagDhul, Calus, Nooli,
-				Dressel, Galboron, Leritor, Monastery, Lorahns
+				Dressel, Galboron, Leritor, Monastery, Lorahns, Ghorman
 		</Locations>
 
         <Trade_Routes>
@@ -765,6 +779,13 @@
 		<Starting_Forces> Early_Empire, Leritor, Early_Empire_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Early_Empire, Leritor, Imperial_Clonetroopers_Squad </Starting_Forces>
 		<Starting_Forces> Early_Empire, Leritor, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Ghorman Space Forces -->
+	
+        <!-- Ghorman Land Forces -->
+		<Starting_Forces> Early_Empire, Ghorman, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ghorman, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ghorman, Early_Empire_Rifleman_Squad </Starting_Forces>
 		
 		
 		
@@ -964,7 +985,7 @@
 				Bothawui, Kothlis, Vandor, Aridus, Cularin, Tynna, Chardaan, Atzerri, 
 				Druckenwell, Falleen, Aguarl, Ando, Rodia, Christophsis, Savareen, Denon,
 				Devaron, Foless, Bestine, Thyferra, MechisIII, YagDhul, Calus, Nooli,
-				Dressel, Galboron, Leritor, Monastery, Lorahns
+				Dressel, Galboron, Leritor, Monastery, Lorahns, Ghorman
 		</Locations>
 
         <Trade_Routes>
@@ -1075,6 +1096,13 @@
 		<Starting_Forces> Early_Empire, Leritor, Early_Empire_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Early_Empire, Leritor, Imperial_Clonetroopers_Squad </Starting_Forces>
 		<Starting_Forces> Early_Empire, Leritor, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Ghorman Space Forces -->
+	
+        <!-- Ghorman Land Forces -->
+		<Starting_Forces> Early_Empire, Ghorman, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ghorman, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ghorman, Early_Empire_Rifleman_Squad </Starting_Forces>
 		
 		
 		

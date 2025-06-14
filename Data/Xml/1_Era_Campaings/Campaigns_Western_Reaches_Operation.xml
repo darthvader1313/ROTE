@@ -40,7 +40,13 @@
 		</Locations>
 
         <Trade_Routes>
-			
+			Vandelhelm_OrdVaug, Vandelhelm_Woostri, Woostri_Alakatha, Alakatha_Bormus, Bormus_Vondarc,
+			Vondarc_Malastare, Malastare_Crait, Crait_Sullust, Sullust_Eriadu, Eriadu_Tibrin,
+			Eriadu_Sluis_Van, Tibrin_Belsavis, Tosste_Mustafar, Mustafar_Pendaxa, Mustafar_Fanha,
+			Mustafar_Bryndar, Bryndar_Pendaxa, Bryndar_Fanha, Bryndar_Hoth, Hoth_Anoat,
+			Anoat_Bespin, Bespin_Lorta, Lorta_Iska, Iska_FeatherNebula, Iska_Ichtor,
+			Ichtor_Bomis_Koori, Bomis_Koori_FeatherNebula, Bomis_Koori_Calonica, Calonica_Sarrish, Sarrish_Kinyen,
+			Kinyen_Nkllon, Nkllon_OrdVaug
 		</Trade_Routes>
 
         <Home_Location> Early_Empire, Eriadu </Home_Location>
@@ -405,7 +411,13 @@
 		</Locations>
 
         <Trade_Routes>
-			
+			Vandelhelm_OrdVaug, Vandelhelm_Woostri, Woostri_Alakatha, Alakatha_Bormus, Bormus_Vondarc,
+			Vondarc_Malastare, Malastare_Crait, Crait_Sullust, Sullust_Eriadu, Eriadu_Tibrin,
+			Eriadu_Sluis_Van, Tibrin_Belsavis, Tosste_Mustafar, Mustafar_Pendaxa, Mustafar_Fanha,
+			Mustafar_Bryndar, Bryndar_Pendaxa, Bryndar_Fanha, Bryndar_Hoth, Hoth_Anoat,
+			Anoat_Bespin, Bespin_Lorta, Lorta_Iska, Iska_FeatherNebula, Iska_Ichtor,
+			Ichtor_Bomis_Koori, Bomis_Koori_FeatherNebula, Bomis_Koori_Calonica, Calonica_Sarrish, Sarrish_Kinyen,
+			Kinyen_Nkllon, Nkllon_OrdVaug
 		</Trade_Routes>
 
         <Home_Location> Early_Empire, Eriadu </Home_Location>
@@ -769,7 +781,13 @@
 		</Locations>
 
         <Trade_Routes>
-			
+			Vandelhelm_OrdVaug, Vandelhelm_Woostri, Woostri_Alakatha, Alakatha_Bormus, Bormus_Vondarc,
+			Vondarc_Malastare, Malastare_Crait, Crait_Sullust, Sullust_Eriadu, Eriadu_Tibrin,
+			Eriadu_Sluis_Van, Tibrin_Belsavis, Tosste_Mustafar, Mustafar_Pendaxa, Mustafar_Fanha,
+			Mustafar_Bryndar, Bryndar_Pendaxa, Bryndar_Fanha, Bryndar_Hoth, Hoth_Anoat,
+			Anoat_Bespin, Bespin_Lorta, Lorta_Iska, Iska_FeatherNebula, Iska_Ichtor,
+			Ichtor_Bomis_Koori, Bomis_Koori_FeatherNebula, Bomis_Koori_Calonica, Calonica_Sarrish, Sarrish_Kinyen,
+			Kinyen_Nkllon, Nkllon_OrdVaug
 		</Trade_Routes>
 
         <Home_Location> Early_Empire, Eriadu </Home_Location>
@@ -1134,7 +1152,13 @@
 		</Locations>
 
         <Trade_Routes>
-			
+			Vandelhelm_OrdVaug, Vandelhelm_Woostri, Woostri_Alakatha, Alakatha_Bormus, Bormus_Vondarc,
+			Vondarc_Malastare, Malastare_Crait, Crait_Sullust, Sullust_Eriadu, Eriadu_Tibrin,
+			Eriadu_Sluis_Van, Tibrin_Belsavis, Tosste_Mustafar, Mustafar_Pendaxa, Mustafar_Fanha,
+			Mustafar_Bryndar, Bryndar_Pendaxa, Bryndar_Fanha, Bryndar_Hoth, Hoth_Anoat,
+			Anoat_Bespin, Bespin_Lorta, Lorta_Iska, Iska_FeatherNebula, Iska_Ichtor,
+			Ichtor_Bomis_Koori, Bomis_Koori_FeatherNebula, Bomis_Koori_Calonica, Calonica_Sarrish, Sarrish_Kinyen,
+			Kinyen_Nkllon, Nkllon_OrdVaug
 		</Trade_Routes>
 
         <Home_Location> Early_Empire, Eriadu </Home_Location>

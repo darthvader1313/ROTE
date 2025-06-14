@@ -11,7 +11,51 @@
 
 <Story>
 
-    <Event Name="Universal_Story_Start_Techno_Union">
+    <Event Name="A_Multimedia_Event">
+        <Event_Type>STORY_GENERIC</Event_Type>
+        <Event_Param1>CLOSE_STORY_DIALOG</Event_Param1>
+        <Reward_Type>MULTIMEDIA</Reward_Type>
+        <Reward_Param1>TEXT_SPEECH_TUTORIAL_EMPIRE_ACT04_01</Reward_Param1>
+        <Reward_Param2>-1</Reward_Param2>
+        <Reward_Param9>Piett_Loop</Reward_Param9>
+        <Reward_Param10>5</Reward_Param10>
+        <Prereq>Universal_Story_Start_Techno_Union</Prereq>
+    </Event>
+
+
+
+    <Event Name="Kill_the_screen_text">
+        <Event_Type>STORY_ELAPSED</Event_Type>
+        <Event_Param1>15</Event_Param1>
+        <Reward_Type>SCREEN_TEXT</Reward_Type>
+        <Reward_Param1>TEXT_SPEECH_TUTORIAL_EMPIRE_ACT04_01</Reward_Param1>
+        <Reward_Param4>remove</Reward_Param4>
+        <Prereq>A_Multimedia_Event</Prereq>
+    </Event>
+
+    <Event Name="Stop_the_commandbar_movie">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+        <Prereq>Kill_the_screen_text</Prereq>
+    </Event>
+		
+		<Event Name="Antar_Atrocity_Flash_Skako">
+		    <Event_Type>STORY_TRIGGER</Event_Type>
+		    <Reward_Type>FLASH_PLANET_GUI</Reward_Type>
+		    <Reward_Param1>Skako</Reward_Param1>
+		    <Reward_Param2>FLASH_TROOPS</Reward_Param2>
+		    <Prereq>A_Multimedia_Event</Prereq> 
+	    </Event>
+	
+	<Event Name="Antar_Atrocity_Stop_Flash_Skako">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
+		<Prereq>Stop_the_commandbar_movie</Prereq>
+	</Event>
+	
+	
+	
+	<Event Name="Universal_Story_Start_Techno_Union">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>0</Event_Param1>
 	</Event>

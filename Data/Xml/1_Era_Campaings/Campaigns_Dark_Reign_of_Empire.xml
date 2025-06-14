@@ -71,7 +71,7 @@
 				Vandelhelm, Ryonne, Tosste, Fanha, Bryndar, Pendaxa, KeldoroAI, OgothTiir,
 				Vondarc, FeatherNebula, Lorta, Iska, Ichtor, Halm, Sarrish, Kinyen,
 				OrdVaug, Mustafar, Cerea, Hoth, Virgillia, Felucia,
-				Florrum, Dromund, Begeren, Korriban, Ziost
+				Florrum, Dromund, Begeren, Korriban, Ziost, Ghorman
 		</Locations>
 
         <Trade_Routes>
@@ -922,6 +922,13 @@
 		<Starting_Forces> Early_Empire, Leritor, Early_Empire_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Early_Empire, Leritor, Imperial_Clonetroopers_Squad </Starting_Forces>
 		<Starting_Forces> Early_Empire, Leritor, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Ghorman Space Forces -->
+	
+        <!-- Ghorman Land Forces -->
+		<Starting_Forces> Early_Empire, Ghorman, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ghorman, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ghorman, Early_Empire_Rifleman_Squad </Starting_Forces>
 		
 		<!-- Belderone Space Forces -->
 	
@@ -2578,7 +2585,7 @@
 				Vandelhelm, Ryonne, Tosste, Fanha, Bryndar, Pendaxa, KeldoroAI, OgothTiir,
 				Vondarc, FeatherNebula, Lorta, Iska, Ichtor, Halm, Sarrish, Kinyen,
 				OrdVaug, Mustafar, Cerea, Hoth, Virgillia, Felucia,
-				Florrum, Dromund, Begeren, Korriban, Ziost
+				Florrum, Dromund, Begeren, Korriban, Ziost, Ghorman
 		</Locations>
 
         <Trade_Routes>
@@ -3377,6 +3384,13 @@
 		<Starting_Forces> Early_Empire, Leritor, Early_Empire_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Early_Empire, Leritor, Imperial_Clonetroopers_Squad </Starting_Forces>
 		<Starting_Forces> Early_Empire, Leritor, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Ghorman Space Forces -->
+	
+        <!-- Ghorman Land Forces -->
+		<Starting_Forces> Early_Empire, Ghorman, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ghorman, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ghorman, Early_Empire_Rifleman_Squad </Starting_Forces>
 		
 		<!-- Belderone Space Forces -->
 	
@@ -5034,7 +5048,7 @@
 				Vandelhelm, Ryonne, Tosste, Fanha, Bryndar, Pendaxa, KeldoroAI, OgothTiir,
 				Vondarc, FeatherNebula, Lorta, Iska, Ichtor, Halm, Sarrish, Kinyen,
 				OrdVaug, Mustafar, Cerea, Hoth, Virgillia, Felucia,
-				Florrum, Dromund, Begeren, Korriban, Ziost
+				Florrum, Dromund, Begeren, Korriban, Ziost, Ghorman
 		</Locations>
 
         <Trade_Routes>
@@ -5833,6 +5847,13 @@
 		<Starting_Forces> Early_Empire, Leritor, Early_Empire_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Early_Empire, Leritor, Imperial_Clonetroopers_Squad </Starting_Forces>
 		<Starting_Forces> Early_Empire, Leritor, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Ghorman Space Forces -->
+	
+        <!-- Ghorman Land Forces -->
+		<Starting_Forces> Early_Empire, Ghorman, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ghorman, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ghorman, Early_Empire_Rifleman_Squad </Starting_Forces>
 		
 		<!-- Belderone Space Forces -->
 	
@@ -7489,7 +7510,7 @@
 				Vandelhelm, Ryonne, Tosste, Fanha, Bryndar, Pendaxa, KeldoroAI, OgothTiir,
 				Vondarc, FeatherNebula, Lorta, Iska, Ichtor, Halm, Sarrish, Kinyen,
 				OrdVaug, Mustafar, Cerea, Hoth, Virgillia, Felucia,
-				Florrum, Dromund, Begeren, Korriban, Ziost
+				Florrum, Dromund, Begeren, Korriban, Ziost, Ghorman
 		</Locations>
 
         <Trade_Routes>
@@ -8288,6 +8309,13 @@
 		<Starting_Forces> Early_Empire, Leritor, Early_Empire_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Early_Empire, Leritor, Imperial_Clonetroopers_Squad </Starting_Forces>
 		<Starting_Forces> Early_Empire, Leritor, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Ghorman Space Forces -->
+	
+        <!-- Ghorman Land Forces -->
+		<Starting_Forces> Early_Empire, Ghorman, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ghorman, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ghorman, Early_Empire_Rifleman_Squad </Starting_Forces>
 		
 		<!-- Belderone Space Forces -->
 	
@@ -9944,7 +9972,7 @@
 				Vandelhelm, Ryonne, Tosste, Fanha, Bryndar, Pendaxa, KeldoroAI, OgothTiir,
 				Vondarc, FeatherNebula, Lorta, Iska, Ichtor, Halm, Sarrish, Kinyen,
 				OrdVaug, Mustafar, Cerea, Hoth, Virgillia, Felucia,
-				Florrum, Dromund, Begeren, Korriban, Ziost
+				Florrum, Dromund, Begeren, Korriban, Ziost, Ghorman
 		</Locations>
 
         <Trade_Routes>
@@ -10743,6 +10771,13 @@
 		<Starting_Forces> Early_Empire, Leritor, Early_Empire_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Early_Empire, Leritor, Imperial_Clonetroopers_Squad </Starting_Forces>
 		<Starting_Forces> Early_Empire, Leritor, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Ghorman Space Forces -->
+	
+        <!-- Ghorman Land Forces -->
+		<Starting_Forces> Early_Empire, Ghorman, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ghorman, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ghorman, Early_Empire_Rifleman_Squad </Starting_Forces>
 		
 		<!-- Belderone Space Forces -->
 	
@@ -12400,7 +12435,7 @@
 				Vandelhelm, Ryonne, Tosste, Fanha, Bryndar, Pendaxa, KeldoroAI, OgothTiir,
 				Vondarc, FeatherNebula, Lorta, Iska, Ichtor, Halm, Sarrish, Kinyen,
 				OrdVaug, Mustafar, Cerea, Hoth, Virgillia, Felucia,
-				Florrum, Dromund, Begeren, Korriban, Ziost
+				Florrum, Dromund, Begeren, Korriban, Ziost, Ghorman
 		</Locations>
 
         <Trade_Routes>
@@ -13199,6 +13234,13 @@
 		<Starting_Forces> Early_Empire, Leritor, Early_Empire_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Early_Empire, Leritor, Imperial_Clonetroopers_Squad </Starting_Forces>
 		<Starting_Forces> Early_Empire, Leritor, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Ghorman Space Forces -->
+	
+        <!-- Ghorman Land Forces -->
+		<Starting_Forces> Early_Empire, Ghorman, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ghorman, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ghorman, Early_Empire_Rifleman_Squad </Starting_Forces>
 		
 		<!-- Belderone Space Forces -->
 	
@@ -14855,7 +14897,7 @@
 				Vandelhelm, Ryonne, Tosste, Fanha, Bryndar, Pendaxa, KeldoroAI, OgothTiir,
 				Vondarc, FeatherNebula, Lorta, Iska, Ichtor, Halm, Sarrish, Kinyen,
 				OrdVaug, Mustafar, Cerea, Hoth, Virgillia, Felucia,
-				Florrum, Dromund, Begeren, Korriban, Ziost
+				Florrum, Dromund, Begeren, Korriban, Ziost, Ghorman
 		</Locations>
 
         <Trade_Routes>
@@ -15654,6 +15696,13 @@
 		<Starting_Forces> Early_Empire, Leritor, Early_Empire_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Early_Empire, Leritor, Imperial_Clonetroopers_Squad </Starting_Forces>
 		<Starting_Forces> Early_Empire, Leritor, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Ghorman Space Forces -->
+	
+        <!-- Ghorman Land Forces -->
+		<Starting_Forces> Early_Empire, Ghorman, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ghorman, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ghorman, Early_Empire_Rifleman_Squad </Starting_Forces>
 		
 		<!-- Belderone Space Forces -->
 	
@@ -17312,7 +17361,7 @@
 				Vandelhelm, Ryonne, Tosste, Fanha, Bryndar, Pendaxa, KeldoroAI, OgothTiir,
 				Vondarc, FeatherNebula, Lorta, Iska, Ichtor, Halm, Sarrish, Kinyen,
 				OrdVaug, Mustafar, Cerea, Hoth, Virgillia, Felucia,
-				Florrum, Dromund, Begeren, Korriban, Ziost
+				Florrum, Dromund, Begeren, Korriban, Ziost, Ghorman
 		</Locations>
 
         <Trade_Routes>
@@ -18111,6 +18160,13 @@
 		<Starting_Forces> Early_Empire, Leritor, Early_Empire_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Early_Empire, Leritor, Imperial_Clonetroopers_Squad </Starting_Forces>
 		<Starting_Forces> Early_Empire, Leritor, Early_Empire_Rifleman_Squad </Starting_Forces>
+		
+		<!-- Ghorman Space Forces -->
+	
+        <!-- Ghorman Land Forces -->
+		<Starting_Forces> Early_Empire, Ghorman, Early_Empire_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ghorman, Imperial_Clonetroopers_Squad </Starting_Forces>
+		<Starting_Forces> Early_Empire, Ghorman, Early_Empire_Rifleman_Squad </Starting_Forces>
 		
 		<!-- Belderone Space Forces -->
 	

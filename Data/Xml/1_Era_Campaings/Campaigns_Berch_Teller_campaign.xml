@@ -43,7 +43,13 @@
 		</Locations>
 
         <Trade_Routes>
-			
+			Ziost_Begeren, Ziost_Korriban, Begeren_Florrum, Korriban_Florrum, Florrum_Desevro, Rudrig_Brigia, Brigia_Orion, Orion_Derellium, Derellium_Murkhana, Murkhana_Ossus,
+			Ossus_Columex, Desevro_Lianna, Felucia_Lianna, Lianna_Galidraan, Quell_Lucazec, Lucazec_Maridun, Maridun_Vjun, Aargonar_Alagon, Alagon_Metalorn, Alagon_Garos,
+			Trandosha_Kashyyyk, Randon_Ruusan, Ruusan_Artesia, Artesia_Emberlene, Emberlene_Daalang, Emberlene_Mimban, Mimban_Antar, Antar_Gyndine, Gyndine_Chardaan, Chardaan_Aridus,
+			Aridus_Vandor, Vandor_Cularin, Cularin_Aguarl, Aguarl_Druckenwell, Falleen_Ando, Ando_Rodia, Rodia_Tatooine, Tatooine_Geonosis, Geonosis_Hypori, Hypori_Scarif,
+			Scarif_Ukio, Ukio_Rishi, Rishi_Kamino, Kamino_Kothlis, Garos_Contruum, Phindar_Maridun, Contruum_Obroa_Skai, Obroa_Skai_Myrkr, Myrkr_Chazwa, Myrkr_Wayland,
+			Wayland_Nouane, Taris_Phindar, Columex_Belderone, Belderone_Antemeridias, Antemeridias_Centares, Centares_Abhean, Metalorn_Charros, Charros_Trandosha, Ossus_BozPity, Bimmisaari_Wobani,
+			Wobani_Saleucami, Saleucami_Jabiim, Jabiim_Handooine, Handooine_Ossus
 		</Trade_Routes>
 
         <Home_Location> Early_Empire, Columex </Home_Location>
@@ -744,7 +750,13 @@
 		</Locations>
 
         <Trade_Routes>
-			
+			Ziost_Begeren, Ziost_Korriban, Begeren_Florrum, Korriban_Florrum, Florrum_Desevro, Rudrig_Brigia, Brigia_Orion, Orion_Derellium, Derellium_Murkhana, Murkhana_Ossus,
+			Ossus_Columex, Desevro_Lianna, Felucia_Lianna, Lianna_Galidraan, Quell_Lucazec, Lucazec_Maridun, Maridun_Vjun, Aargonar_Alagon, Alagon_Metalorn, Alagon_Garos,
+			Trandosha_Kashyyyk, Randon_Ruusan, Ruusan_Artesia, Artesia_Emberlene, Emberlene_Daalang, Emberlene_Mimban, Mimban_Antar, Antar_Gyndine, Gyndine_Chardaan, Chardaan_Aridus,
+			Aridus_Vandor, Vandor_Cularin, Cularin_Aguarl, Aguarl_Druckenwell, Falleen_Ando, Ando_Rodia, Rodia_Tatooine, Tatooine_Geonosis, Geonosis_Hypori, Hypori_Scarif,
+			Scarif_Ukio, Ukio_Rishi, Rishi_Kamino, Kamino_Kothlis, Garos_Contruum, Phindar_Maridun, Contruum_Obroa_Skai, Obroa_Skai_Myrkr, Myrkr_Chazwa, Myrkr_Wayland,
+			Wayland_Nouane, Taris_Phindar, Columex_Belderone, Belderone_Antemeridias, Antemeridias_Centares, Centares_Abhean, Metalorn_Charros, Charros_Trandosha, Ossus_BozPity, Bimmisaari_Wobani,
+			Wobani_Saleucami, Saleucami_Jabiim, Jabiim_Handooine, Handooine_Ossus
 		</Trade_Routes>
 
         <Home_Location> Early_Empire, Columex </Home_Location>
@@ -1426,7 +1438,13 @@
 		</Locations>
 
         <Trade_Routes>
-			
+			Ziost_Begeren, Ziost_Korriban, Begeren_Florrum, Korriban_Florrum, Florrum_Desevro, Rudrig_Brigia, Brigia_Orion, Orion_Derellium, Derellium_Murkhana, Murkhana_Ossus,
+			Ossus_Columex, Desevro_Lianna, Felucia_Lianna, Lianna_Galidraan, Quell_Lucazec, Lucazec_Maridun, Maridun_Vjun, Aargonar_Alagon, Alagon_Metalorn, Alagon_Garos,
+			Trandosha_Kashyyyk, Randon_Ruusan, Ruusan_Artesia, Artesia_Emberlene, Emberlene_Daalang, Emberlene_Mimban, Mimban_Antar, Antar_Gyndine, Gyndine_Chardaan, Chardaan_Aridus,
+			Aridus_Vandor, Vandor_Cularin, Cularin_Aguarl, Aguarl_Druckenwell, Falleen_Ando, Ando_Rodia, Rodia_Tatooine, Tatooine_Geonosis, Geonosis_Hypori, Hypori_Scarif,
+			Scarif_Ukio, Ukio_Rishi, Rishi_Kamino, Kamino_Kothlis, Garos_Contruum, Phindar_Maridun, Contruum_Obroa_Skai, Obroa_Skai_Myrkr, Myrkr_Chazwa, Myrkr_Wayland,
+			Wayland_Nouane, Taris_Phindar, Columex_Belderone, Belderone_Antemeridias, Antemeridias_Centares, Centares_Abhean, Metalorn_Charros, Charros_Trandosha, Ossus_BozPity, Bimmisaari_Wobani,
+			Wobani_Saleucami, Saleucami_Jabiim, Jabiim_Handooine, Handooine_Ossus
 		</Trade_Routes>
 
         <Home_Location> Early_Empire, Columex </Home_Location>
@@ -2112,7 +2130,13 @@
 		</Locations>
 
         <Trade_Routes>
-			
+			Ziost_Begeren, Ziost_Korriban, Begeren_Florrum, Korriban_Florrum, Florrum_Desevro, Rudrig_Brigia, Brigia_Orion, Orion_Derellium, Derellium_Murkhana, Murkhana_Ossus,
+			Ossus_Columex, Desevro_Lianna, Felucia_Lianna, Lianna_Galidraan, Quell_Lucazec, Lucazec_Maridun, Maridun_Vjun, Aargonar_Alagon, Alagon_Metalorn, Alagon_Garos,
+			Trandosha_Kashyyyk, Randon_Ruusan, Ruusan_Artesia, Artesia_Emberlene, Emberlene_Daalang, Emberlene_Mimban, Mimban_Antar, Antar_Gyndine, Gyndine_Chardaan, Chardaan_Aridus,
+			Aridus_Vandor, Vandor_Cularin, Cularin_Aguarl, Aguarl_Druckenwell, Falleen_Ando, Ando_Rodia, Rodia_Tatooine, Tatooine_Geonosis, Geonosis_Hypori, Hypori_Scarif,
+			Scarif_Ukio, Ukio_Rishi, Rishi_Kamino, Kamino_Kothlis, Garos_Contruum, Phindar_Maridun, Contruum_Obroa_Skai, Obroa_Skai_Myrkr, Myrkr_Chazwa, Myrkr_Wayland,
+			Wayland_Nouane, Taris_Phindar, Columex_Belderone, Belderone_Antemeridias, Antemeridias_Centares, Centares_Abhean, Metalorn_Charros, Charros_Trandosha, Ossus_BozPity, Bimmisaari_Wobani,
+			Wobani_Saleucami, Saleucami_Jabiim, Jabiim_Handooine, Handooine_Ossus
 		</Trade_Routes>
 
         <Home_Location> Early_Empire, Columex </Home_Location>
@@ -2803,7 +2827,13 @@
 		</Locations>
 
         <Trade_Routes>
-			
+			Ziost_Begeren, Ziost_Korriban, Begeren_Florrum, Korriban_Florrum, Florrum_Desevro, Rudrig_Brigia, Brigia_Orion, Orion_Derellium, Derellium_Murkhana, Murkhana_Ossus,
+			Ossus_Columex, Desevro_Lianna, Felucia_Lianna, Lianna_Galidraan, Quell_Lucazec, Lucazec_Maridun, Maridun_Vjun, Aargonar_Alagon, Alagon_Metalorn, Alagon_Garos,
+			Trandosha_Kashyyyk, Randon_Ruusan, Ruusan_Artesia, Artesia_Emberlene, Emberlene_Daalang, Emberlene_Mimban, Mimban_Antar, Antar_Gyndine, Gyndine_Chardaan, Chardaan_Aridus,
+			Aridus_Vandor, Vandor_Cularin, Cularin_Aguarl, Aguarl_Druckenwell, Falleen_Ando, Ando_Rodia, Rodia_Tatooine, Tatooine_Geonosis, Geonosis_Hypori, Hypori_Scarif,
+			Scarif_Ukio, Ukio_Rishi, Rishi_Kamino, Kamino_Kothlis, Garos_Contruum, Phindar_Maridun, Contruum_Obroa_Skai, Obroa_Skai_Myrkr, Myrkr_Chazwa, Myrkr_Wayland,
+			Wayland_Nouane, Taris_Phindar, Columex_Belderone, Belderone_Antemeridias, Antemeridias_Centares, Centares_Abhean, Metalorn_Charros, Charros_Trandosha, Ossus_BozPity, Bimmisaari_Wobani,
+			Wobani_Saleucami, Saleucami_Jabiim, Jabiim_Handooine, Handooine_Ossus
 		</Trade_Routes>
 
         <Home_Location> Early_Empire, Columex </Home_Location>

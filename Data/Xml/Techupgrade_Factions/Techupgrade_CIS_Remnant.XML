@@ -12,10 +12,7 @@
         <Required_Timeline>0</Required_Timeline>
         <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
         <Required_Star_Base_Level>0</Required_Star_Base_Level>
-        <Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
-		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
-		<Tactical_Bribe_Cost>3000</Tactical_Bribe_Cost>
+       <Required_Special_Structures>CIS_Remnant_Ground_Research_Facility</Required_Special_Structures>
         <Required_Planets />
 		<Required_Orbiting_Units />
         <Build_Time_Seconds>850</Build_Time_Seconds>

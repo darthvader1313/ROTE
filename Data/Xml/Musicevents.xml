@@ -58,7 +58,7 @@
 <!-- START GALACTIC THEMES -->
 
 	<MusicEvent Name="Galactic_Map_Early_Empire_Music_Event">
-		<Files> Galactic_Conquest_Early_Empire.mp3 </Files>
+		<Files> Galactic_Conquest.mp3 </Files>
         <Volume_Percent>100</Volume_Percent>
         <Fade_In_Seconds>2.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
